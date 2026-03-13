@@ -33,6 +33,7 @@ export default function SearchBar({
           value={query}
           onChange={handleChange}
           placeholder={placeholder}
+          aria-label="Search candies, brands, or categories"
           className="w-full px-4 py-3 pl-11 rounded-lg border border-sc-border bg-sc-card text-sc-text placeholder-sc-text-muted focus:outline-none focus:ring-2 focus:ring-sc-pink focus:border-transparent transition-all duration-200"
         />
         <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5 text-sc-text-muted pointer-events-none" />

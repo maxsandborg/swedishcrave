@@ -291,16 +291,17 @@ export default function Home() {
         <p className="text-[15px] text-sc-text-muted mb-6">
           Join 500+ candy lovers. We&apos;ll send you our free beginner&apos;s guide + weekly picks.
         </p>
-        <div className="flex flex-col sm:flex-row gap-2.5 max-w-[480px] mx-auto">
+        <form className="flex flex-col sm:flex-row gap-2.5 max-w-[480px] mx-auto" onSubmit={(e) => e.preventDefault()}>
           <input
             type="email"
             placeholder="your@email.com"
+            aria-label="Email address for newsletter"
             className="flex-1 px-5 py-3.5 border-[1.5px] border-sc-border rounded-sc-full text-sm bg-sc-card outline-none focus:border-sc-pink focus:shadow-[0_0_0_3px_rgba(255,45,135,0.08)] transition-all"
           />
-          <button className="bg-sc-pink text-white px-6 py-3.5 rounded-sc-full text-sm font-semibold shadow-[0_4px_16px_rgba(255,45,135,0.35)] hover:bg-sc-pink-hover hover:-translate-y-0.5 transition-all">
+          <button type="submit" className="bg-sc-pink text-white px-6 py-3.5 rounded-sc-full text-sm font-semibold shadow-[0_4px_16px_rgba(255,45,135,0.35)] hover:bg-sc-pink-hover hover:-translate-y-0.5 transition-all">
             Subscribe
           </button>
-        </div>
+        </form>
       </section>
 
       {/* JSON-LD WebSite + Organization Schema */}
