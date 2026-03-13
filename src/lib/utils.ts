@@ -63,3 +63,8 @@ export function getRelatedCandy(slug: string, limit = 4) {
 export function formatRating(rating: number): string {
   return rating.toFixed(1)
 }
+
+export function getCategoryName(slug: string): string {
+  const cat = categories.find((c) => c.slug === slug)
+  return cat ? cat.name : slug.charAt(0).toUpperCase() + slug.slice(1)
+}

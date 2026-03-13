@@ -4,9 +4,12 @@ import {
   getCandyBySlug,
   getAllCandySlugs,
   getRelatedCandy,
+  getCategoryName,
 } from '@/lib/utils';
 import RatingBar from '@/components/RatingBar';
 import RatingStars from '@/components/RatingStars';
+import CandyImage from '@/components/CandyImage';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export async function generateStaticParams() {
   const slugs = getAllCandySlugs();
@@ -26,18 +29,19 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   }
 
   return {
-    title: `${candy.name} Review`,
+    title: `${candy.name} Review — Swedish Candy`,
     description: candy.description,
     keywords: [
       candy.name,
       candy.brand,
-      ...candy.category,
+      'Swedish candy review',
+      ...candy.category.map((c) => getCategoryName(c)),
       ...candy.flavorProfile,
       ...candy.tags,
     ],
     openGraph: {
       type: 'website',
-      title: `${candy.name} — Swedish Candy Review`,
+      title: `${candy.name} — Swedish Candy Review | SwedishCrave`,
       description: candy.description,
       images: [
         {
@@ -77,17 +81,25 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
 
   return (
     <>
+      <Breadcrumbs
+        items={[
+          { label: 'Candy', href: '/candy' },
+          { label: candy.name },
+        ]}
+      />
+
       {/* Hero Section with Image and Basic Info */}
       <section className="bg-sc-card py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             {/* Image */}
             <div className="flex justify-center">
-              <div className="w-full max-w-md aspect-square bg-sc-bg rounded-lg overflow-hidden flex items-center justify-center border border-sc-border">
-                <img
+              <div className="w-full max-w-md aspect-square rounded-lg overflow-hidden border border-sc-border">
+                <CandyImage
                   src={candy.image}
                   alt={candy.name}
-                  className="w-full h-full object-cover"
+                  category={candy.category[0]}
+                  className="w-full h-full"
                 />
               </div>
             </div>
@@ -102,7 +114,7 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
                       href={`/categories/${cat}`}
                       className="text-sc-primary hover:underline mr-2"
                     >
-                      {cat}
+                      {getCategoryName(cat)}
                     </Link>
                   ))}
                 </div>
@@ -216,7 +228,6 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
       <section className="py-16 border-b border-sc-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            {/* Flavor Profile */}
             <div>
               <h3 className="text-2xl font-bold text-sc-text mb-6">
                 Flavor Profile
@@ -232,8 +243,6 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
                 ))}
               </div>
             </div>
-
-            {/* Tags */}
             <div>
               <h3 className="text-2xl font-bold text-sc-text mb-6">
                 Tags
@@ -280,7 +289,7 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
                   )}
                 </div>
                 <span className="text-sc-primary font-semibold">
-                  →
+                  &rarr;
                 </span>
               </a>
             ))}
@@ -308,10 +317,11 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
                   className="group bg-sc-card border border-sc-border rounded-lg overflow-hidden hover:border-sc-primary transition-all hover:shadow-lg"
                 >
                   <div className="aspect-square bg-sc-bg overflow-hidden">
-                    <img
+                    <CandyImage
                       src={relatedItem.image}
                       alt={relatedItem.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                      category={relatedItem.category[0]}
+                      className="w-full h-full"
                     />
                   </div>
                   <div className="p-5">
@@ -322,11 +332,9 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
                       {relatedItem.brand}
                     </p>
                     <div className="flex items-center justify-between">
-                      <span className="text-sm font-semibold text-sc-secondary">
-                        ★ {relatedItem.rating.overall.toFixed(1)}
-                      </span>
+                      <RatingStars rating={relatedItem.rating.overall} size="sm" />
                       <span className="text-xs text-sc-text-muted">
-                        {relatedItem.category[0]}
+                        {getCategoryName(relatedItem.category[0])}
                       </span>
                     </div>
                   </div>
@@ -337,7 +345,7 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
         </section>
       )}
 
-      {/* JSON-LD Schema */}
+      {/* JSON-LD Product + Review Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -349,14 +357,43 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
               '@type': 'Brand',
               name: candy.brand,
             },
-            image: candy.image,
+            image: `https://www.swedishcrave.com${candy.image}`,
             description: candy.description,
-            review: {
-              '@type': 'Review',
+            category: candy.category.map((c) => getCategoryName(c)).join(', '),
+            countryOfOrigin: {
+              '@type': 'Country',
+              name: candy.origin,
+            },
+            aggregateRating: {
+              '@type': 'AggregateRating',
               ratingValue: candy.rating.overall,
               bestRating: 5,
-              worstRating: 0,
+              worstRating: 1,
+              ratingCount: 1,
+              reviewCount: 1,
             },
+            review: {
+              '@type': 'Review',
+              author: {
+                '@type': 'Organization',
+                name: 'SwedishCrave',
+              },
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: candy.rating.overall,
+                bestRating: 5,
+                worstRating: 1,
+              },
+              reviewBody: candy.description,
+            },
+            offers: candy.affiliateLinks.length > 0
+              ? {
+                  '@type': 'AggregateOffer',
+                  availability: 'https://schema.org/InStock',
+                  priceCurrency: 'USD',
+                  offerCount: candy.affiliateLinks.length,
+                }
+              : undefined,
           }),
         }}
       />

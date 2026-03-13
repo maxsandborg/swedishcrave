@@ -35,11 +35,10 @@ export default function BrandsPage() {
             >
               {/* Brand Logo Area */}
               <div className="h-48 bg-sc-bg flex items-center justify-center border-b border-sc-border">
-                <img
-                  src={brand.logo}
-                  alt={brand.name}
-                  className="h-24 w-auto group-hover:scale-110 transition-transform"
-                />
+                <div className="text-center p-6">
+                  <span className="text-5xl block mb-2">🏭</span>
+                  <p className="text-lg font-bold text-sc-text group-hover:text-sc-primary transition-colors">{brand.name}</p>
+                </div>
               </div>
 
               {/* Brand Info */}

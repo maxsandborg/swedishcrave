@@ -8,9 +8,8 @@ export default function Footer() {
       title: 'About',
       links: [
         { label: 'About SwedishCrave', href: '/about' },
-        { label: 'How We Review', href: '/methodology' },
         { label: 'Contact Us', href: '/contact' },
-        { label: 'Press Kit', href: '/press' },
+        { label: 'Privacy Policy', href: '/privacy' },
       ],
     },
     {
@@ -18,26 +17,26 @@ export default function Footer() {
       links: [
         { label: 'All Candy', href: '/candy' },
         { label: 'Categories', href: '/categories' },
-        { label: 'Best Lists', href: '/best-lists' },
-        { label: 'Comparisons', href: '/comparisons' },
+        { label: 'Brands', href: '/brands' },
+        { label: 'Where to Buy', href: '/where-to-buy' },
+      ],
+    },
+    {
+      title: 'Popular',
+      links: [
+        { label: 'Gummies', href: '/categories/gummies' },
+        { label: 'Chocolate', href: '/categories/chocolate' },
+        { label: 'Sour Candy', href: '/categories/sour' },
+        { label: 'Salmiak', href: '/categories/salmiak' },
       ],
     },
     {
       title: 'Brands',
       links: [
-        { label: 'All Brands', href: '/brands' },
-        { label: 'Swedish Brands', href: '/brands?country=sweden' },
-        { label: 'International', href: '/brands?country=international' },
-        { label: 'Brand Directory', href: '/brands' },
-      ],
-    },
-    {
-      title: 'Connect',
-      links: [
-        { label: 'Newsletter', href: '/newsletter' },
-        { label: 'Twitter', href: 'https://twitter.com' },
-        { label: 'Instagram', href: 'https://instagram.com' },
-        { label: 'Privacy Policy', href: '/privacy' },
+        { label: 'BUBS', href: '/brands/bubs' },
+        { label: 'Marabou', href: '/brands/marabou' },
+        { label: 'Malaco', href: '/brands/malaco' },
+        { label: 'Fazer', href: '/brands/fazer' },
       ],
     },
   ];
@@ -71,10 +70,12 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-sc-border mb-6" />
 
-        {/* Copyright */}
-        <div className="text-center text-sm text-sc-text-muted">
+        {/* Bottom */}
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-sc-text-muted">
           <p>&copy; {currentYear} SwedishCrave. All rights reserved.</p>
-          <p className="mt-2">Exploring the world of Swedish candy, one review at a time.</p>
+          <p>
+            Affiliate disclosure: We earn commissions from qualifying purchases.
+          </p>
         </div>
       </div>
     </footer>

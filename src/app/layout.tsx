@@ -7,6 +7,7 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.swedishcrave.com'),
   title: {
     template: '%s | SwedishCrave',
     default: 'SwedishCrave — Your Guide to Swedish Candy',

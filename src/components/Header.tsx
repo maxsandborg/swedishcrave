@@ -11,7 +11,7 @@ export default function Header() {
     { label: 'Candy', href: '/candy' },
     { label: 'Brands', href: '/brands' },
     { label: 'Categories', href: '/categories' },
-    { label: 'Where to Buy', href: '/stores' },
+    { label: 'Where to Buy', href: '/where-to-buy' },
   ];
 
   return (

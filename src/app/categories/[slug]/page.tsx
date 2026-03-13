@@ -5,6 +5,9 @@ import {
   getAllCategorySlugs,
   getCandyBySlug,
 } from '@/lib/utils';
+import CandyImage from '@/components/CandyImage';
+import RatingStars from '@/components/RatingStars';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export async function generateStaticParams() {
   const slugs = getAllCategorySlugs();
@@ -23,21 +26,13 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   }
 
   return {
-    title: `${category.name} — Swedish Candy`,
+    title: `${category.name} Swedish Candy — Reviews & Ratings`,
     description: category.description,
-    keywords: [category.name, 'Swedish candy', ...category.candySlugs],
+    keywords: [category.name, 'Swedish candy', `Swedish ${category.name.toLowerCase()}`, 'candy reviews'],
     openGraph: {
       type: 'website',
-      title: `${category.name} Swedish Candy`,
+      title: `${category.name} Swedish Candy | SwedishCrave`,
       description: category.description,
-      images: [
-        {
-          url: category.image,
-          width: 1200,
-          height: 630,
-          alt: category.name,
-        },
-      ],
     },
   };
 }
@@ -64,22 +59,21 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
     );
   }
 
-  // Get candy items for this category
   const categoryCandy = category.candySlugs
     .map((slug) => getCandyBySlug(slug))
-    .filter(Boolean);
+    .filter((c): c is NonNullable<typeof c> => c !== undefined);
 
   return (
     <>
-      {/* Hero Section with Image */}
-      <section className="relative h-80 md:h-96 overflow-hidden">
-        <img
-          src={category.image}
-          alt={category.name}
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-black/50" />
+      <Breadcrumbs
+        items={[
+          { label: 'Categories', href: '/categories' },
+          { label: category.name },
+        ]}
+      />
 
+      {/* Hero Section — gradient instead of broken image */}
+      <section className="relative h-64 md:h-80 overflow-hidden bg-gradient-to-br from-sc-primary/80 to-sc-secondary/80">
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white">
             <h1 className="text-5xl md:text-6xl font-bold mb-4">
@@ -117,30 +111,29 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {categoryCandy.map((candy) => (
               <Link
-                key={candy!.slug}
-                href={`/candy/${candy!.slug}`}
+                key={candy.slug}
+                href={`/candy/${candy.slug}`}
                 className="group bg-sc-card border border-sc-border rounded-lg overflow-hidden hover:border-sc-primary transition-all hover:shadow-lg"
               >
                 <div className="aspect-square bg-sc-bg overflow-hidden">
-                  <img
-                    src={candy!.image}
-                    alt={candy!.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                  <CandyImage
+                    src={candy.image}
+                    alt={candy.name}
+                    category={candy.category[0]}
+                    className="w-full h-full"
                   />
                 </div>
                 <div className="p-5">
                   <h3 className="font-bold text-sc-text group-hover:text-sc-primary transition-colors mb-1">
-                    {candy!.name}
+                    {candy.name}
                   </h3>
                   <p className="text-sm text-sc-text-muted mb-3">
-                    {candy!.brand}
+                    {candy.brand}
                   </p>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm font-semibold text-sc-secondary">
-                      ★ {candy!.rating.overall.toFixed(1)}
-                    </span>
+                    <RatingStars rating={candy.rating.overall} size="sm" />
                     <span className="text-xs text-sc-text-muted">
-                      {candy!.weight}
+                      {candy.weight}
                     </span>
                   </div>
                 </div>
@@ -156,18 +149,16 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
 
       {/* Related Categories */}
       <section className="bg-sc-card py-20 border-t border-sc-border">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-sc-text mb-12 text-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-sc-text mb-8">
             Explore Other Categories
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Link
-              href="/categories"
-              className="inline-flex items-center justify-center bg-sc-primary hover:bg-sc-primary/90 text-white px-8 py-3 rounded-lg font-medium transition-colors text-center col-span-full"
-            >
-              View All Categories
-            </Link>
-          </div>
+          <Link
+            href="/categories"
+            className="inline-flex items-center justify-center bg-sc-primary hover:bg-sc-primary/90 text-white px-8 py-3 rounded-lg font-medium transition-colors"
+          >
+            View All Categories
+          </Link>
         </div>
       </section>
 
@@ -177,11 +168,19 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'Collection',
-            name: category.name,
+            '@type': 'CollectionPage',
+            name: `${category.name} Swedish Candy`,
             description: category.longDescription,
-            image: category.image,
             numberOfItems: categoryCandy.length,
+            mainEntity: {
+              '@type': 'ItemList',
+              itemListElement: categoryCandy.map((candy, i) => ({
+                '@type': 'ListItem',
+                position: i + 1,
+                url: `https://www.swedishcrave.com/candy/${candy.slug}`,
+                name: candy.name,
+              })),
+            },
           }),
         }}
       />

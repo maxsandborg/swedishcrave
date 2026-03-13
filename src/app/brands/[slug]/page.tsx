@@ -5,6 +5,9 @@ import {
   getAllBrandSlugs,
   getCandyBySlug,
 } from '@/lib/utils';
+import CandyImage from '@/components/CandyImage';
+import RatingStars from '@/components/RatingStars';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export async function generateStaticParams() {
   const slugs = getAllBrandSlugs();
@@ -25,19 +28,11 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     title: `${brand.name} — Swedish Candy Brand`,
     description: brand.description,
-    keywords: [brand.name, 'Swedish candy', brand.country, ...brand.candySlugs],
+    keywords: [brand.name, 'Swedish candy', 'Swedish candy brand', brand.country],
     openGraph: {
       type: 'website',
-      title: `${brand.name} — Swedish Candy Brand`,
+      title: `${brand.name} — Swedish Candy Brand | SwedishCrave`,
       description: brand.description,
-      images: [
-        {
-          url: brand.logo,
-          width: 400,
-          height: 400,
-          alt: brand.name,
-        },
-      ],
     },
   };
 }
@@ -64,25 +59,30 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
     );
   }
 
-  // Get candy items for this brand
   const brandCandy = brand.candySlugs
     .map((slug) => getCandyBySlug(slug))
-    .filter(Boolean);
+    .filter((c): c is NonNullable<typeof c> => c !== undefined);
 
   return (
     <>
+      <Breadcrumbs
+        items={[
+          { label: 'Brands', href: '/brands' },
+          { label: brand.name },
+        ]}
+      />
+
       {/* Hero Section */}
       <section className="bg-sc-card py-16 border-b border-sc-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
-            {/* Logo */}
+            {/* Logo placeholder */}
             <div className="flex justify-center items-center">
               <div className="w-full max-w-xs aspect-square bg-sc-bg rounded-lg border border-sc-border flex items-center justify-center">
-                <img
-                  src={brand.logo}
-                  alt={brand.name}
-                  className="h-40 w-auto"
-                />
+                <div className="text-center p-6">
+                  <span className="text-6xl block mb-3">🏭</span>
+                  <p className="text-lg font-bold text-sc-text">{brand.name}</p>
+                </div>
               </div>
             </div>
 
@@ -94,20 +94,12 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
 
               <div className="grid grid-cols-2 gap-6 mb-8">
                 <div>
-                  <p className="text-sm font-medium text-sc-text-muted">
-                    Country
-                  </p>
-                  <p className="text-lg font-semibold text-sc-text">
-                    {brand.country}
-                  </p>
+                  <p className="text-sm font-medium text-sc-text-muted">Country</p>
+                  <p className="text-lg font-semibold text-sc-text">{brand.country}</p>
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-sc-text-muted">
-                    Founded
-                  </p>
-                  <p className="text-lg font-semibold text-sc-text">
-                    {brand.founded}
-                  </p>
+                  <p className="text-sm font-medium text-sc-text-muted">Founded</p>
+                  <p className="text-lg font-semibold text-sc-text">{brand.founded}</p>
                 </div>
               </div>
 
@@ -154,30 +146,29 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {brandCandy.map((candy) => (
                 <Link
-                  key={candy!.slug}
-                  href={`/candy/${candy!.slug}`}
+                  key={candy.slug}
+                  href={`/candy/${candy.slug}`}
                   className="group bg-sc-card border border-sc-border rounded-lg overflow-hidden hover:border-sc-primary transition-all hover:shadow-lg"
                 >
                   <div className="aspect-square bg-sc-bg overflow-hidden">
-                    <img
-                      src={candy!.image}
-                      alt={candy!.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    <CandyImage
+                      src={candy.image}
+                      alt={candy.name}
+                      category={candy.category[0]}
+                      className="w-full h-full"
                     />
                   </div>
                   <div className="p-5">
                     <h3 className="font-bold text-sc-text group-hover:text-sc-primary transition-colors mb-1">
-                      {candy!.name}
+                      {candy.name}
                     </h3>
                     <p className="text-sm text-sc-text-muted mb-3">
-                      {candy!.category[0]}
+                      {candy.category[0]}
                     </p>
                     <div className="flex items-center justify-between">
-                      <span className="text-sm font-semibold text-sc-secondary">
-                        ★ {candy!.rating.overall.toFixed(1)}
-                      </span>
+                      <RatingStars rating={candy.rating.overall} size="sm" />
                       <span className="text-xs text-sc-text-muted">
-                        {candy!.weight}
+                        {candy.weight}
                       </span>
                     </div>
                   </div>
@@ -200,10 +191,9 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
             '@context': 'https://schema.org',
             '@type': 'Brand',
             name: brand.name,
-            logo: brand.logo,
             url: brand.website,
-            country: brand.country,
             description: brand.longDescription,
+            foundingDate: String(brand.founded),
           }),
         }}
       />

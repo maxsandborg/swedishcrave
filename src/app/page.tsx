@@ -1,7 +1,8 @@
 import Link from 'next/link';
-import { Search } from 'lucide-react';
 import { getFeaturedCandy, getTrendingCandy } from '@/lib/utils';
 import { categories } from '@/data/categories';
+import CandyImage from '@/components/CandyImage';
+import RatingStars from '@/components/RatingStars';
 
 export default function Home() {
   const featuredCandy = getFeaturedCandy().slice(0, 4);
@@ -19,27 +20,18 @@ export default function Home() {
             <h1 className="text-5xl md:text-6xl font-bold text-sc-text mb-6 leading-tight">
               Discover Swedish Candy
             </h1>
-            <p className="text-lg md:text-xl text-sc-text-muted mb-8 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-sc-text-muted mb-12 max-w-2xl mx-auto">
               Expert reviews, detailed ratings, and where to buy authentic Swedish sweets. Your guide to Nordic confectionery.
             </p>
 
-            {/* Search Bar */}
-            <div className="flex gap-3 max-w-md mx-auto mb-12">
-              <div className="flex-1 flex items-center bg-sc-card border border-sc-border rounded-lg px-4 py-3">
-                <Search size={20} className="text-sc-text-muted mr-3" />
-                <input
-                  type="text"
-                  placeholder="Search candy..."
-                  className="flex-1 bg-transparent text-sc-text placeholder-sc-text-muted focus:outline-none"
-                />
-              </div>
-              <button className="bg-sc-cta hover:bg-sc-cta/90 text-white px-8 py-3 rounded-lg font-medium transition-colors">
-                Search
-              </button>
-            </div>
-
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/candy"
+                className="inline-flex items-center justify-center bg-sc-cta hover:bg-sc-cta/90 text-white px-8 py-3 rounded-lg font-medium transition-colors"
+              >
+                Browse All Candy
+              </Link>
               <Link
                 href="/brands"
                 className="inline-flex items-center justify-center bg-sc-primary hover:bg-sc-primary/90 text-white px-8 py-3 rounded-lg font-medium transition-colors"
@@ -59,11 +51,16 @@ export default function Home() {
 
       {/* Featured Candy Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="mb-12">
-          <h2 className="text-4xl font-bold text-sc-text mb-4">Featured Candy</h2>
-          <p className="text-sc-text-muted text-lg">
-            Handpicked Swedish sweets that everyone should try
-          </p>
+        <div className="mb-12 flex items-end justify-between">
+          <div>
+            <h2 className="text-4xl font-bold text-sc-text mb-4">Featured Candy</h2>
+            <p className="text-sc-text-muted text-lg">
+              Handpicked Swedish sweets that everyone should try
+            </p>
+          </div>
+          <Link href="/candy" className="text-sc-primary hover:underline font-medium hidden md:block">
+            View all &rarr;
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -74,10 +71,11 @@ export default function Home() {
               className="group bg-sc-card border border-sc-border rounded-lg overflow-hidden hover:border-sc-primary transition-all hover:shadow-lg"
             >
               <div className="aspect-square bg-sc-bg overflow-hidden">
-                <img
+                <CandyImage
                   src={candy.image}
                   alt={candy.name}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                  category={candy.category[0]}
+                  className="w-full h-full"
                 />
               </div>
               <div className="p-5">
@@ -86,9 +84,7 @@ export default function Home() {
                 </h3>
                 <p className="text-sm text-sc-text-muted mb-3">{candy.brand}</p>
                 <div className="flex items-center justify-between">
-                  <span className="text-sm font-semibold text-sc-secondary">
-                    ★ {candy.rating.overall.toFixed(1)}
-                  </span>
+                  <RatingStars rating={candy.rating.overall} size="sm" />
                   <span className="text-xs text-sc-text-muted">
                     {candy.category[0]}
                   </span>
@@ -117,10 +113,11 @@ export default function Home() {
                 className="group bg-sc-bg border border-sc-border rounded-lg overflow-hidden hover:border-sc-primary transition-all hover:shadow-lg"
               >
                 <div className="aspect-square bg-white overflow-hidden">
-                  <img
+                  <CandyImage
                     src={candy.image}
                     alt={candy.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    category={candy.category[0]}
+                    className="w-full h-full"
                   />
                 </div>
                 <div className="p-5">
@@ -129,9 +126,7 @@ export default function Home() {
                   </h3>
                   <p className="text-sm text-sc-text-muted mb-3">{candy.brand}</p>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm font-semibold text-sc-secondary">
-                      ★ {candy.rating.overall.toFixed(1)}
-                    </span>
+                    <RatingStars rating={candy.rating.overall} size="sm" />
                     <span className="text-xs text-sc-text-muted">
                       {candy.category[0]}
                     </span>
@@ -157,14 +152,9 @@ export default function Home() {
             <Link
               key={category.slug}
               href={`/categories/${category.slug}`}
-              className="group relative overflow-hidden rounded-lg aspect-video hover:shadow-xl transition-all"
+              className="group relative overflow-hidden rounded-lg aspect-video bg-sc-primary/10 hover:shadow-xl transition-all"
             >
-              <img
-                src={category.image}
-                alt={category.name}
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform"
-              />
-              <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors flex items-center justify-center">
+              <div className="absolute inset-0 bg-gradient-to-br from-sc-primary/80 to-sc-secondary/80 group-hover:from-sc-primary/90 group-hover:to-sc-secondary/90 transition-colors flex items-center justify-center">
                 <div className="text-center">
                   <h3 className="text-2xl font-bold text-white mb-2">
                     {category.name}
@@ -213,7 +203,7 @@ export default function Home() {
             <div className="bg-sc-card p-8 rounded-lg border border-sc-border">
               <h3 className="text-xl font-bold text-sc-text mb-4">Cultural Experience</h3>
               <p className="text-sc-text-muted">
-                Trying Swedish candy is more than just tasting sweets—it&apos;s experiencing Scandinavian culture and tradition in every bite.
+                Trying Swedish candy is more than just tasting sweets — it&apos;s experiencing Scandinavian culture and tradition in every bite.
               </p>
             </div>
           </div>
@@ -237,6 +227,37 @@ export default function Home() {
           </Link>
         </div>
       </section>
+
+      {/* JSON-LD WebSite + Organization Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: 'SwedishCrave',
+            url: 'https://www.swedishcrave.com',
+            description: 'Expert reviews, ratings, and where to buy authentic Swedish candy.',
+            potentialAction: {
+              '@type': 'SearchAction',
+              target: 'https://www.swedishcrave.com/candy?q={search_term_string}',
+              'query-input': 'required name=search_term_string',
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            name: 'SwedishCrave',
+            url: 'https://www.swedishcrave.com',
+            description: 'The English-language guide to Swedish candy.',
+          }),
+        }}
+      />
     </>
   );
 }

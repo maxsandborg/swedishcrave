@@ -33,15 +33,8 @@ export default function CategoriesPage() {
               href={`/categories/${category.slug}`}
               className="group relative overflow-hidden rounded-lg aspect-video hover:shadow-2xl transition-all"
             >
-              {/* Background Image */}
-              <img
-                src={category.image}
-                alt={category.name}
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-              />
-
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/60 group-hover:from-black/30 group-hover:to-black/70 transition-colors" />
+              {/* Gradient Background */}
+              <div className="absolute inset-0 bg-gradient-to-br from-sc-primary/80 to-sc-secondary/80 group-hover:from-sc-primary/90 group-hover:to-sc-secondary/90 transition-colors" />
 
               {/* Content */}
               <div className="absolute inset-0 flex flex-col justify-end p-8">
