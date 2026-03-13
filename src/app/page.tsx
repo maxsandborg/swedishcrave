@@ -104,7 +104,7 @@ export default function Home() {
           <div className="flex flex-wrap justify-center gap-8 md:gap-12">
             <div className="flex items-center gap-2.5 text-sm text-sc-text-muted">
               <span className="text-xl">🍬</span>
-              <span><strong className="text-sc-text font-extrabold">20+</strong> Candies reviewed</span>
+              <span><strong className="text-sc-text font-extrabold">33+</strong> Candies reviewed</span>
             </div>
             <div className="flex items-center gap-2.5 text-sm text-sc-text-muted">
               <span className="text-xl">⭐</span>
@@ -116,7 +116,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-2.5 text-sm text-sc-text-muted">
               <span className="text-xl">🇸🇪</span>
-              <span><strong className="text-sc-text font-extrabold">6</strong> Iconic brands</span>
+              <span><strong className="text-sc-text font-extrabold">8</strong> Iconic brands</span>
             </div>
             <div className="flex items-center gap-2.5 text-sm text-sc-text-muted">
               <span className="text-xl">🇺🇸</span>

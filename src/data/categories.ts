@@ -7,7 +7,7 @@ export const categories: Category[] = [
     description: 'Swedish gummies are softer, fruitier, and more flavorful than most American brands — discover the difference.',
     longDescription: "Swedish gummy candy represents the pinnacle of Scandinavian confectionery craft. Unlike mass-market American gummies that often rely on artificial flavors and waxy textures, Swedish gummies use natural fruit juices and a softer gelatin base that creates a more satisfying chew. Brands like BUBS, Malaco, and Fazer produce gummies in an astonishing variety of shapes, flavors, and textures — from sour skulls to tropical fish to mixed fruit assortments. Whether you prefer sweet, sour, or something in between, Swedish gummies deliver.",
     image: '/images/candy/bubs-sour-skulls.jpg',
-    candySlugs: ['bubs-sour-skulls', 'bubs-watermelon', 'bubs-cool-cola', 'ahlgrens-bilar', 'malaco-gott-och-blandat', 'tutti-frutti', 'swedish-fish'],
+    candySlugs: ['bubs-sour-skulls', 'bubs-watermelon', 'bubs-cool-cola', 'ahlgrens-bilar', 'malaco-gott-och-blandat', 'tutti-frutti', 'swedish-fish', 'bubs-dizzy-skull', 'bubs-tutti-frutti-rhombs', 'bubs-banana-ovals', 'bubs-strawberry-vanilla', 'bubs-cool-raspberry-skull', 'ahlgrens-bilar-sursockrade', 'malaco-vattenmelon'],
   },
   {
     slug: 'chocolate',
@@ -15,7 +15,7 @@ export const categories: Category[] = [
     description: 'Scandinavian chocolate is made with Nordic dairy and tastes nothing like American chocolate. Prepare to be converted.',
     longDescription: "If you think you know milk chocolate, Swedish and Scandinavian chocolate will reset your expectations entirely. Made with high-fat Nordic dairy, Swedish chocolate is creamier, smoother, and richer than most American and even many European chocolates. Marabou, Cloetta, and Fazer dominate the market with bars, pralines, and filled chocolates that range from simple milk chocolate to complex combinations with toffee, wafer, and nuts. Once you try Marabou Mjölkchoklad or Fazer Blue, going back to Hershey's becomes difficult.",
     image: '/images/candy/marabou-mjolkchoklad.jpg',
-    candySlugs: ['marabou-mjolkchoklad', 'daim', 'fazer-blue', 'polly', 'plopp', 'kexchoklad', 'center', 'marianne'],
+    candySlugs: ['marabou-mjolkchoklad', 'daim', 'fazer-blue', 'polly', 'plopp', 'kexchoklad', 'center', 'marianne', 'marabou-schweizernot', 'dumle', 'polly-rod'],
   },
   {
     slug: 'sour',
@@ -23,7 +23,7 @@ export const categories: Category[] = [
     description: 'Swedish sour candy hits different — bolder flavors, better textures, and the perfect balance of sour and sweet.',
     longDescription: "Swedish sour candy has experienced a global renaissance thanks to TikTok. Brands like BUBS have mastered the art of the sour coating — intense enough to make your mouth pucker, but balanced with enough sweetness that you keep reaching for more. The key difference from American sour candy is the quality of the sour: Swedish brands use citric acid blends that create a cleaner, more natural sour taste rather than the chemical burn you sometimes get with American brands. The gummy textures are also superior — firmer, chewier, and more satisfying.",
     image: '/images/candy/bubs-sour-skulls.jpg',
-    candySlugs: ['bubs-sour-skulls', 'bubs-watermelon', 'bubs-cool-cola'],
+    candySlugs: ['bubs-sour-skulls', 'bubs-watermelon', 'bubs-cool-cola', 'bubs-dizzy-skull', 'bubs-cool-raspberry-skull', 's-marke-surt-skum', 's-marke-supersurt', 'kryptoniter', 'ahlgrens-bilar-sursockrade'],
   },
   {
     slug: 'licorice',
@@ -47,6 +47,6 @@ export const categories: Category[] = [
     description: 'The timeless favorites that every Swede grew up with — the essential starting point for Swedish candy newcomers.',
     longDescription: "These are the candies that define Swedish confectionery culture — the ones that every Swede has eaten thousands of and can identify blindfolded. From Ahlgrens Bilar to Marabou chocolate to Daim bars, these classics have been staples of Swedish candy aisles for decades. If you're new to Swedish candy, start here. These are the safe, universally loved choices that will give you a solid foundation before you venture into the more adventurous territory of salmiak and intense licorice.",
     image: '/images/candy/ahlgrens-bilar.jpg',
-    candySlugs: ['ahlgrens-bilar', 'marabou-mjolkchoklad', 'daim', 'kexchoklad', 'plopp', 'swedish-fish'],
+    candySlugs: ['ahlgrens-bilar', 'marabou-mjolkchoklad', 'daim', 'kexchoklad', 'plopp', 'swedish-fish', 'marabou-schweizernot', 'ahlgrens-bilar-sursockrade', 'polly-rod'],
   },
 ]
