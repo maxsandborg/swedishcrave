@@ -291,7 +291,7 @@ export default function Home() {
         <p className="text-[15px] text-sc-text-muted mb-6">
           Join 500+ candy lovers. We&apos;ll send you our free beginner&apos;s guide + weekly picks.
         </p>
-        <form className="flex flex-col sm:flex-row gap-2.5 max-w-[480px] mx-auto" onSubmit={(e) => e.preventDefault()}>
+        <form className="flex flex-col sm:flex-row gap-2.5 max-w-[480px] mx-auto" action="#">
           <input
             type="email"
             placeholder="your@email.com"
