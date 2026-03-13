@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --font-inter: 'Inter', sans-serif;
-}
-
 @layer base {
   html {
     @apply scroll-smooth;
@@ -13,27 +9,105 @@
 
   body {
     @apply bg-sc-bg text-sc-text font-sans antialiased;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display tracking-tight;
   }
 
   h1 {
-    @apply text-4xl font-bold tracking-tight;
+    @apply text-4xl font-black;
   }
 
   h2 {
-    @apply text-3xl font-bold tracking-tight;
+    @apply text-3xl font-extrabold;
   }
 
   h3 {
-    @apply text-2xl font-bold tracking-tight;
+    @apply text-2xl font-bold;
   }
 
   h4 {
-    @apply text-xl font-bold tracking-tight;
+    @apply text-xl font-bold;
   }
 
   a {
     @apply transition-colors duration-200;
   }
+}
+
+@layer components {
+  /* Gradient text utility */
+  .text-gradient-pink {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #FF2D87, #6C5CE7);
+  }
+
+  /* Section tag pills */
+  .tag-pink {
+    @apply bg-sc-pink/[0.08] text-sc-pink;
+  }
+  .tag-purple {
+    @apply bg-sc-purple/[0.08] text-sc-purple;
+  }
+  .tag-lime {
+    background: rgba(123,241,120,0.12);
+    color: #2D8F2A;
+  }
+  .tag-blue {
+    @apply bg-sc-blue/10 text-sc-blue;
+  }
+
+  /* Category-specific candy image backgrounds */
+  .candy-bg-gummies {
+    background: linear-gradient(145deg, #FFE0EC, #FFF0F5);
+  }
+  .candy-bg-chocolate {
+    background: linear-gradient(145deg, #F5E6D3, #FFF0E0);
+  }
+  .candy-bg-sour {
+    background: linear-gradient(145deg, #E0FFE8, #F0FFF0);
+  }
+  .candy-bg-licorice {
+    background: linear-gradient(145deg, #E8E0F0, #F0ECF8);
+  }
+  .candy-bg-salmiak {
+    background: linear-gradient(145deg, #E0E8F0, #ECF0F8);
+  }
+  .candy-bg-classic {
+    background: linear-gradient(145deg, #FFF8E0, #FFFBF0);
+  }
+  .candy-bg-mix {
+    background: linear-gradient(145deg, #FFE0EC, #E0FFE8);
+  }
+  .candy-bg-wafer,
+  .candy-bg-toffee,
+  .candy-bg-hard-candy,
+  .candy-bg-pastille {
+    background: linear-gradient(145deg, #F5E6D3, #FFF0E0);
+  }
+
+  /* Category full-color backgrounds (for category cards) */
+  .cat-bg-gummies { background: linear-gradient(145deg, #FFB6D3, #FF8AB8); }
+  .cat-bg-chocolate { background: linear-gradient(145deg, #D4A574, #B8865A); }
+  .cat-bg-sour { background: linear-gradient(145deg, #A8E6A1, #7BF178); }
+  .cat-bg-licorice { background: linear-gradient(145deg, #9B8EC4, #6C5CE7); }
+  .cat-bg-salmiak { background: linear-gradient(145deg, #87CEEB, #4FACFE); }
+  .cat-bg-classic { background: linear-gradient(145deg, #FFE08A, #FFD23F); }
+
+  /* Category tag colors */
+  .cat-tag-gummies { @apply bg-sc-pink/[0.08] text-sc-pink; }
+  .cat-tag-chocolate { background: rgba(180,120,60,0.1); color: #8B6914; }
+  .cat-tag-sour { background: rgba(123,241,120,0.12); color: #2D8F2A; }
+  .cat-tag-licorice { @apply bg-sc-purple/[0.08] text-sc-purple; }
+  .cat-tag-salmiak { @apply bg-sc-blue/10 text-sc-blue; }
+  .cat-tag-classic { background: rgba(255,210,63,0.15); color: #8B6914; }
+  .cat-tag-mix { @apply bg-sc-pink/[0.08] text-sc-pink; }
+  .cat-tag-wafer,
+  .cat-tag-toffee,
+  .cat-tag-hard-candy,
+  .cat-tag-pastille { background: rgba(180,120,60,0.1); color: #8B6914; }
 }
 
 @layer utilities {

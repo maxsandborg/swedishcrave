@@ -13,61 +13,67 @@ export default function AboutPage() {
     <>
       <Breadcrumbs items={[{ label: 'About' }]} />
 
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <h1 className="text-5xl font-bold text-sc-text mb-8">
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-16">
+        <h1 className="font-display text-[38px] sm:text-[44px] font-extrabold text-sc-text tracking-[-0.5px] mb-6">
           About SwedishCrave
         </h1>
 
-        <div className="prose prose-lg max-w-none text-sc-text space-y-6">
-          <p className="text-xl text-sc-text-muted leading-relaxed">
+        <div className="space-y-8 text-sc-text">
+          <p className="text-lg text-sc-text-muted leading-relaxed">
             SwedishCrave is the internet&apos;s most comprehensive English-language
             guide to Swedish candy. We review, rate, and help you buy authentic
             Scandinavian sweets — whether you&apos;re a complete beginner or a
             seasoned salmiak veteran.
           </p>
 
-          <h2 className="text-3xl font-bold text-sc-text mt-12 mb-4">
-            What We Do
-          </h2>
-          <p>
-            We taste, review, and rate Swedish candy with detailed breakdowns
-            covering sweetness, saltiness, texture, and uniqueness. Every review
-            includes flavor profiles, where to buy, and honest opinions — no
-            sponsored content, no fake ratings.
-          </p>
+          <div>
+            <h2 className="font-display text-2xl font-extrabold text-sc-text mb-3">
+              What We Do
+            </h2>
+            <p className="text-sc-text-muted leading-[1.7]">
+              We taste, review, and rate Swedish candy with detailed breakdowns
+              covering sweetness, saltiness, texture, and uniqueness. Every review
+              includes flavor profiles, where to buy, and honest opinions — no
+              sponsored content, no fake ratings.
+            </p>
+          </div>
 
-          <h2 className="text-3xl font-bold text-sc-text mt-12 mb-4">
-            How We Review
-          </h2>
-          <p>
-            Each candy gets rated across four dimensions on a scale of 1-5:
-            sweetness, saltiness, texture, and uniqueness. We calculate an overall
-            score that weighs all four equally. Reviews include a long-form
-            description covering history, flavor notes, texture analysis, and
-            comparison to similar products.
-          </p>
+          <div>
+            <h2 className="font-display text-2xl font-extrabold text-sc-text mb-3">
+              How We Review
+            </h2>
+            <p className="text-sc-text-muted leading-[1.7]">
+              Each candy gets rated across four dimensions on a scale of 1-5:
+              sweetness, saltiness, texture, and uniqueness. We calculate an overall
+              score that weighs all four equally. Reviews include a long-form
+              description covering history, flavor notes, texture analysis, and
+              comparison to similar products.
+            </p>
+          </div>
 
-          <h2 className="text-3xl font-bold text-sc-text mt-12 mb-4">
-            Affiliate Disclosure
-          </h2>
-          <p>
-            SwedishCrave earns a small commission when you purchase candy through
-            our affiliate links. This helps fund our reviews and keeps the site
-            running. Our reviews and ratings are always independent — affiliate
-            relationships never influence our scores or recommendations.
-          </p>
+          <div>
+            <h2 className="font-display text-2xl font-extrabold text-sc-text mb-3">
+              Affiliate Disclosure
+            </h2>
+            <p className="text-sc-text-muted leading-[1.7]">
+              SwedishCrave earns a small commission when you purchase candy through
+              our affiliate links. This helps fund our reviews and keeps the site
+              running. Our reviews and ratings are always independent — affiliate
+              relationships never influence our scores or recommendations.
+            </p>
+          </div>
         </div>
 
-        <div className="mt-16 flex gap-4">
+        <div className="mt-12 flex flex-col sm:flex-row gap-3">
           <Link
             href="/candy"
-            className="inline-flex items-center justify-center bg-sc-primary hover:bg-sc-primary/90 text-white px-8 py-3 rounded-lg font-medium transition-colors"
+            className="inline-flex items-center justify-center bg-sc-pink text-white px-7 py-3 rounded-sc-full font-semibold hover:bg-sc-pink-hover hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(255,45,135,0.3)]"
           >
             Browse All Candy
           </Link>
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center bg-sc-card border border-sc-border text-sc-text hover:border-sc-primary hover:text-sc-primary px-8 py-3 rounded-lg font-medium transition-colors"
+            className="inline-flex items-center justify-center bg-sc-card border-[1.5px] border-sc-border text-sc-text px-7 py-3 rounded-sc-full font-semibold hover:border-sc-purple hover:text-sc-purple hover:-translate-y-0.5 transition-all"
           >
             Contact Us
           </Link>

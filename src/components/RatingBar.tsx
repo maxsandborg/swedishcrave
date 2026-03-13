@@ -22,7 +22,7 @@ export default function RatingBar({
       <div className="flex-1">
         <div className="bg-sc-border rounded-full h-2 overflow-hidden">
           <div
-            className="bg-sc-secondary h-full rounded-full transition-all duration-300"
+            className="bg-sc-yellow h-full rounded-full transition-all duration-300"
             style={{ width: `${percentage}%` }}
           />
         </div>

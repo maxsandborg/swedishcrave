@@ -11,14 +11,16 @@ export default function PrivacyPage() {
     <>
       <Breadcrumbs items={[{ label: 'Privacy Policy' }]} />
 
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <h1 className="text-5xl font-bold text-sc-text mb-4">Privacy Policy</h1>
-        <p className="text-sc-text-muted mb-12">Last updated: March 13, 2026</p>
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-16">
+        <h1 className="font-display text-[38px] sm:text-[44px] font-extrabold text-sc-text tracking-[-0.5px] mb-2">
+          Privacy Policy
+        </h1>
+        <p className="text-sc-text-muted mb-10">Last updated: March 13, 2026</p>
 
         <div className="space-y-8 text-sc-text">
           <div>
-            <h2 className="text-2xl font-bold mb-3">Information We Collect</h2>
-            <p>
+            <h2 className="font-display text-xl font-bold mb-3">Information We Collect</h2>
+            <p className="text-sc-text-muted leading-[1.7]">
               SwedishCrave does not collect personal information unless you
               voluntarily provide it (for example, by contacting us via email). We
               may use privacy-friendly analytics to understand how visitors use our
@@ -28,8 +30,8 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold mb-3">Affiliate Links</h2>
-            <p>
+            <h2 className="font-display text-xl font-bold mb-3">Affiliate Links</h2>
+            <p className="text-sc-text-muted leading-[1.7]">
               Our site contains affiliate links to third-party retailers. When you
               click these links, the retailer may use cookies to track your
               purchase for commission purposes. We do not control these
@@ -39,8 +41,8 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold mb-3">Third-Party Services</h2>
-            <p>
+            <h2 className="font-display text-xl font-bold mb-3">Third-Party Services</h2>
+            <p className="text-sc-text-muted leading-[1.7]">
               We may use third-party analytics and hosting services that process
               data on our behalf. These services are chosen for their
               privacy-friendly practices and compliance with applicable
@@ -49,8 +51,8 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold mb-3">Your Rights</h2>
-            <p>
+            <h2 className="font-display text-xl font-bold mb-3">Your Rights</h2>
+            <p className="text-sc-text-muted leading-[1.7]">
               You have the right to request access to, correction of, or deletion
               of any personal data we may hold. Contact us at
               privacy@swedishcrave.com for any privacy-related requests.
@@ -58,16 +60,16 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold mb-3">Changes to This Policy</h2>
-            <p>
+            <h2 className="font-display text-xl font-bold mb-3">Changes to This Policy</h2>
+            <p className="text-sc-text-muted leading-[1.7]">
               We may update this privacy policy from time to time. Changes will be
               posted on this page with an updated revision date.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold mb-3">Contact</h2>
-            <p>
+            <h2 className="font-display text-xl font-bold mb-3">Contact</h2>
+            <p className="text-sc-text-muted leading-[1.7]">
               For questions about this privacy policy, email us at
               privacy@swedishcrave.com.
             </p>

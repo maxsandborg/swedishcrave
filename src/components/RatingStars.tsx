@@ -35,9 +35,9 @@ export default function RatingStars({
                 size={size === 'sm' ? 16 : size === 'md' ? 20 : 24}
                 className={`${sizeClasses[size]} ${
                   isFilled
-                    ? 'fill-sc-secondary text-sc-secondary'
+                    ? 'fill-sc-yellow text-sc-yellow'
                     : isHalf
-                      ? 'text-sc-secondary'
+                      ? 'text-sc-yellow'
                       : 'text-sc-border'
                 }`}
               />
@@ -45,7 +45,7 @@ export default function RatingStars({
                 <div className="absolute top-0 left-0 overflow-hidden w-1/2">
                   <Star
                     size={size === 'sm' ? 16 : size === 'md' ? 20 : 24}
-                    className={`fill-sc-secondary text-sc-secondary ${sizeClasses[size]}`}
+                    className={`fill-sc-yellow text-sc-yellow ${sizeClasses[size]}`}
                   />
                 </div>
               )}

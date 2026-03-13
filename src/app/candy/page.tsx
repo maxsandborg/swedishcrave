@@ -2,8 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { candyItems } from '@/data/candy';
 import { categories } from '@/data/categories';
-import CandyImage from '@/components/CandyImage';
-import RatingStars from '@/components/RatingStars';
+import CandyCard from '@/components/CandyCard';
 
 export const metadata: Metadata = {
   title: 'All Swedish Candy Reviews',
@@ -21,12 +20,15 @@ export default function AllCandyPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-r from-sc-primary/10 to-sc-secondary/10 py-16 border-b border-sc-border">
+      <section className="py-14 md:py-16 border-b border-sc-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl font-bold text-sc-text mb-4">
+          <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[1.2px] text-sc-pink bg-sc-pink/[0.08] px-3.5 py-1.5 rounded-sc-full mb-4">
+            🍬 Full Collection
+          </span>
+          <h1 className="font-display text-[38px] sm:text-[44px] font-extrabold text-sc-text tracking-[-0.5px] mb-3">
             All Swedish Candy Reviews
           </h1>
-          <p className="text-xl text-sc-text-muted max-w-2xl">
+          <p className="text-lg text-sc-text-muted max-w-2xl">
             Browse our complete collection of {candyItems.length} Swedish candy
             reviews. Sorted by rating — the best candy comes first.
           </p>
@@ -44,7 +46,7 @@ export default function AllCandyPage() {
               <Link
                 key={cat.slug}
                 href={`/categories/${cat.slug}`}
-                className="px-4 py-1.5 rounded-full bg-sc-bg border border-sc-border text-sm font-medium text-sc-text hover:border-sc-primary hover:text-sc-primary transition-colors"
+                className={`px-4 py-1.5 rounded-sc-full bg-sc-bg border border-sc-border text-sm font-medium text-sc-text hover:border-sc-pink hover:text-sc-pink transition-colors cat-tag-${cat.slug}`}
               >
                 {cat.name}
               </Link>
@@ -54,38 +56,10 @@ export default function AllCandyPage() {
       </section>
 
       {/* Candy Grid */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {sortedCandy.map((candy) => (
-            <Link
-              key={candy.slug}
-              href={`/candy/${candy.slug}`}
-              className="group bg-sc-card border border-sc-border rounded-lg overflow-hidden hover:border-sc-primary transition-all hover:shadow-lg"
-            >
-              <div className="aspect-square bg-sc-bg overflow-hidden">
-                <CandyImage
-                  src={candy.image}
-                  alt={candy.name}
-                  category={candy.category[0]}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                />
-              </div>
-              <div className="p-5">
-                <h2 className="font-bold text-sc-text group-hover:text-sc-primary transition-colors mb-1 text-base">
-                  {candy.name}
-                </h2>
-                <p className="text-sm text-sc-text-muted mb-3">{candy.brand}</p>
-                <div className="flex items-center justify-between">
-                  <RatingStars rating={candy.rating.overall} size="sm" />
-                  <span className="text-xs text-sc-text-muted">
-                    {candy.weight}
-                  </span>
-                </div>
-                <p className="text-xs text-sc-text-muted mt-2 line-clamp-2">
-                  {candy.description}
-                </p>
-              </div>
-            </Link>
+            <CandyCard key={candy.slug} candy={candy} />
           ))}
         </div>
       </section>

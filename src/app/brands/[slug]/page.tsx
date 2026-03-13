@@ -5,9 +5,18 @@ import {
   getAllBrandSlugs,
   getCandyBySlug,
 } from '@/lib/utils';
-import CandyImage from '@/components/CandyImage';
-import RatingStars from '@/components/RatingStars';
+import CandyCard from '@/components/CandyCard';
 import Breadcrumbs from '@/components/Breadcrumbs';
+
+const brandColors: Record<string, string> = {
+  marabou: 'from-[#8B2252] to-[#C23878]',
+  bubs: 'from-sc-pink to-sc-purple',
+  malaco: 'from-[#E63946] to-[#FF6B6B]',
+  fazer: 'from-[#003DA5] to-[#4FACFE]',
+  cloetta: 'from-sc-purple to-[#4FACFE]',
+  daim: 'from-[#B8860B] to-[#FFD23F]',
+  ahlgrens: 'from-[#FF8AB8] to-sc-pink',
+};
 
 export async function generateStaticParams() {
   const slugs = getAllBrandSlugs();
@@ -43,7 +52,7 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
   if (!brand) {
     return (
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-        <h1 className="text-4xl font-bold text-sc-text mb-4">
+        <h1 className="font-display text-4xl font-extrabold text-sc-text mb-4">
           Brand Not Found
         </h1>
         <p className="text-sc-text-muted mb-8">
@@ -51,7 +60,7 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
         </p>
         <Link
           href="/brands"
-          className="inline-flex items-center justify-center bg-sc-primary hover:bg-sc-primary/90 text-white px-8 py-3 rounded-lg font-medium transition-colors"
+          className="inline-flex items-center justify-center bg-sc-pink text-white px-8 py-3 rounded-sc-full font-semibold hover:bg-sc-pink-hover hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(255,45,135,0.3)]"
         >
           Back to All Brands
         </Link>
@@ -63,6 +72,8 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
     .map((slug) => getCandyBySlug(slug))
     .filter((c): c is NonNullable<typeof c> => c !== undefined);
 
+  const gradient = brandColors[brand.slug] || 'from-sc-pink to-sc-purple';
+
   return (
     <>
       <Breadcrumbs
@@ -73,37 +84,36 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
       />
 
       {/* Hero Section */}
-      <section className="bg-sc-card py-16 border-b border-sc-border">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
-            {/* Logo placeholder */}
-            <div className="flex justify-center items-center">
-              <div className="w-full max-w-xs aspect-square bg-sc-bg rounded-lg border border-sc-border flex items-center justify-center">
-                <div className="text-center p-6">
-                  <span className="text-6xl block mb-3">🏭</span>
-                  <p className="text-lg font-bold text-sc-text">{brand.name}</p>
-                </div>
-              </div>
+      <section className={`relative bg-gradient-to-br ${gradient} py-16 md:py-20 overflow-hidden`}>
+        <div className="absolute inset-0 bg-black/20" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
+            {/* Brand Initial */}
+            <div className="w-28 h-28 md:w-36 md:h-36 rounded-sc-lg bg-white/20 backdrop-blur-sm flex items-center justify-center flex-shrink-0 border border-white/30">
+              <span className="font-display text-[64px] md:text-[80px] font-extrabold text-white">
+                {brand.name.charAt(0).toUpperCase()}
+              </span>
             </div>
 
             {/* Info */}
-            <div className="md:col-span-2">
-              <h1 className="text-5xl font-bold text-sc-text mb-4">
+            <div className="text-center md:text-left">
+              <h1 className="font-display text-[38px] sm:text-[48px] font-extrabold text-white tracking-[-0.5px] mb-3 drop-shadow-[0_2px_4px_rgba(0,0,0,0.2)]">
                 {brand.name}
               </h1>
 
-              <div className="grid grid-cols-2 gap-6 mb-8">
-                <div>
-                  <p className="text-sm font-medium text-sc-text-muted">Country</p>
-                  <p className="text-lg font-semibold text-sc-text">{brand.country}</p>
-                </div>
-                <div>
-                  <p className="text-sm font-medium text-sc-text-muted">Founded</p>
-                  <p className="text-lg font-semibold text-sc-text">{brand.founded}</p>
-                </div>
+              <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-5">
+                <span className="inline-flex items-center gap-1.5 text-sm text-white/90 bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-sc-full">
+                  🇸🇪 {brand.country}
+                </span>
+                <span className="inline-flex items-center gap-1.5 text-sm text-white/90 bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-sc-full">
+                  📅 Founded {brand.founded}
+                </span>
+                <span className="inline-flex items-center gap-1.5 text-sm text-white/90 bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-sc-full">
+                  🍬 {brandCandy.length} {brandCandy.length === 1 ? 'candy' : 'candies'}
+                </span>
               </div>
 
-              <p className="text-lg text-sc-text leading-relaxed mb-8">
+              <p className="text-lg text-white/90 max-w-2xl leading-relaxed mb-6">
                 {brand.description}
               </p>
 
@@ -111,75 +121,79 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
                 href={brand.website}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-sc-primary hover:bg-sc-primary/90 text-white px-8 py-3 rounded-lg font-medium transition-colors"
+                className="inline-flex items-center justify-center bg-white text-sc-text px-7 py-3 rounded-sc-full font-semibold hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,0,0,0.15)]"
               >
-                Visit Official Website
+                Visit Official Website →
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Long Description */}
-      <section className="py-16 bg-sc-card border-b border-sc-border">
+      {/* About Section */}
+      <section className="py-14 md:py-16 border-b border-sc-border">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-sc-text mb-8">
+          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-6">
             About {brand.name}
           </h2>
-          <p className="text-sc-text text-lg leading-relaxed whitespace-pre-wrap">
+          <p className="text-sc-text-muted text-[16px] leading-[1.8] whitespace-pre-wrap">
             {brand.longDescription}
           </p>
         </div>
       </section>
 
       {/* Brand's Candies */}
-      <section className="py-20">
+      <section className="py-14 md:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-sc-text mb-4">
+          <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[1.2px] text-sc-pink bg-sc-pink/[0.08] px-3.5 py-1.5 rounded-sc-full mb-4">
+            🍬 Collection
+          </span>
+          <h2 className="font-display text-[28px] sm:text-[32px] font-extrabold text-sc-text tracking-[-0.3px] mb-2">
             {brand.name} Candies
           </h2>
-          <p className="text-sc-text-muted text-lg mb-12">
+          <p className="text-sc-text-muted mb-10">
             Explore all {brandCandy.length} candies from {brand.name}
           </p>
 
           {brandCandy.length > 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
               {brandCandy.map((candy) => (
-                <Link
-                  key={candy.slug}
-                  href={`/candy/${candy.slug}`}
-                  className="group bg-sc-card border border-sc-border rounded-lg overflow-hidden hover:border-sc-primary transition-all hover:shadow-lg"
-                >
-                  <div className="aspect-square bg-sc-bg overflow-hidden">
-                    <CandyImage
-                      src={candy.image}
-                      alt={candy.name}
-                      category={candy.category[0]}
-                      className="w-full h-full"
-                    />
-                  </div>
-                  <div className="p-5">
-                    <h3 className="font-bold text-sc-text group-hover:text-sc-primary transition-colors mb-1">
-                      {candy.name}
-                    </h3>
-                    <p className="text-sm text-sc-text-muted mb-3">
-                      {candy.category[0]}
-                    </p>
-                    <div className="flex items-center justify-between">
-                      <RatingStars rating={candy.rating.overall} size="sm" />
-                      <span className="text-xs text-sc-text-muted">
-                        {candy.weight}
-                      </span>
-                    </div>
-                  </div>
-                </Link>
+                <CandyCard key={candy.slug} candy={candy} />
               ))}
             </div>
           ) : (
-            <p className="text-sc-text-muted text-lg">
-              No candies found for this brand yet.
-            </p>
+            <div className="text-center py-12 bg-sc-bg-alt rounded-sc-lg">
+              <p className="text-sc-text-muted text-lg">
+                No candies found for this brand yet.
+              </p>
+            </div>
           )}
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="bg-sc-bg-alt py-14 text-center">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-3">
+            Explore More Brands
+          </h2>
+          <p className="text-sc-text-muted mb-8">
+            Discover other iconic Swedish candy manufacturers
+          </p>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <Link
+              href="/brands"
+              className="inline-flex items-center justify-center bg-sc-pink text-white px-7 py-3 rounded-sc-full font-semibold hover:bg-sc-pink-hover hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(255,45,135,0.3)]"
+            >
+              All Brands
+            </Link>
+            <Link
+              href="/candy"
+              className="inline-flex items-center justify-center bg-sc-card border-[1.5px] border-sc-border text-sc-text px-7 py-3 rounded-sc-full font-semibold hover:border-sc-purple hover:text-sc-purple hover:-translate-y-0.5 transition-all"
+            >
+              Browse All Candy
+            </Link>
+          </div>
         </div>
       </section>
 

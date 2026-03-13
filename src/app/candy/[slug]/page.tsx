@@ -9,6 +9,7 @@ import {
 import RatingBar from '@/components/RatingBar';
 import RatingStars from '@/components/RatingStars';
 import CandyImage from '@/components/CandyImage';
+import CandyCard from '@/components/CandyCard';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export async function generateStaticParams() {
@@ -61,7 +62,7 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
   if (!candy) {
     return (
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-        <h1 className="text-4xl font-bold text-sc-text mb-4">
+        <h1 className="font-display text-4xl font-extrabold text-sc-text mb-4">
           Candy Not Found
         </h1>
         <p className="text-sc-text-muted mb-8">
@@ -69,7 +70,7 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
         </p>
         <Link
           href="/candy"
-          className="inline-flex items-center justify-center bg-sc-primary hover:bg-sc-primary/90 text-white px-8 py-3 rounded-lg font-medium transition-colors"
+          className="inline-flex items-center bg-sc-pink text-white px-8 py-3 rounded-sc-full font-semibold hover:bg-sc-pink-hover transition-colors"
         >
           Back to All Candy
         </Link>
@@ -88,13 +89,13 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
         ]}
       />
 
-      {/* Hero Section with Image and Basic Info */}
-      <section className="bg-sc-card py-12">
+      {/* Hero Section */}
+      <section className="bg-sc-card py-10 md:py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-14 items-start">
             {/* Image */}
             <div className="flex justify-center">
-              <div className="w-full max-w-md aspect-square rounded-lg overflow-hidden border border-sc-border">
+              <div className="w-full max-w-md aspect-square rounded-sc-lg overflow-hidden border border-sc-border">
                 <CandyImage
                   src={candy.image}
                   alt={candy.name}
@@ -107,23 +108,23 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
             {/* Info */}
             <div>
               <div className="mb-6">
-                <div className="text-sm font-medium text-sc-text-muted mb-2">
+                <div className="flex flex-wrap gap-1.5 mb-3">
                   {candy.category.map((cat) => (
                     <Link
                       key={cat}
                       href={`/categories/${cat}`}
-                      className="text-sc-primary hover:underline mr-2"
+                      className={`text-[10px] font-semibold uppercase tracking-wide px-2.5 py-0.5 rounded-sc-full cat-tag-${cat} hover:opacity-80 transition-opacity`}
                     >
                       {getCategoryName(cat)}
                     </Link>
                   ))}
                 </div>
-                <h1 className="text-5xl font-bold text-sc-text mb-3">
+                <h1 className="font-display text-[38px] sm:text-[44px] font-extrabold text-sc-text tracking-[-0.5px] mb-2">
                   {candy.name}
                 </h1>
                 <Link
                   href={`/brands/${candy.brandSlug}`}
-                  className="text-2xl text-sc-primary hover:underline font-semibold"
+                  className="text-xl text-sc-pink hover:text-sc-pink-hover font-semibold transition-colors"
                 >
                   {candy.brand}
                 </Link>
@@ -131,48 +132,38 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
 
               {/* Rating */}
               <div className="mb-8 pb-8 border-b border-sc-border">
-                <div className="mb-4">
-                  <p className="text-sm font-medium text-sc-text-muted mb-2">
-                    Overall Rating
-                  </p>
-                  <div className="flex items-center gap-4">
-                    <div className="flex items-center gap-2">
-                      <div className="text-5xl font-bold text-sc-secondary">
-                        {candy.rating.overall.toFixed(1)}
-                      </div>
-                      <div className="text-3xl">/5</div>
-                    </div>
-                    <RatingStars
-                      rating={candy.rating.overall}
-                      size="lg"
-                      showNumber={false}
-                    />
+                <p className="text-sm font-medium text-sc-text-muted mb-2">
+                  Overall Rating
+                </p>
+                <div className="flex items-center gap-4">
+                  <div className="flex items-center gap-1">
+                    <span className="text-5xl font-display font-extrabold text-sc-yellow">
+                      {candy.rating.overall.toFixed(1)}
+                    </span>
+                    <span className="text-2xl text-sc-text-muted">/5</span>
                   </div>
+                  <RatingStars
+                    rating={candy.rating.overall}
+                    size="lg"
+                    showNumber={false}
+                  />
                 </div>
               </div>
 
               {/* Quick Info */}
               <div className="grid grid-cols-2 gap-6 mb-8">
                 <div>
-                  <p className="text-sm font-medium text-sc-text-muted">
-                    Origin
-                  </p>
-                  <p className="text-lg font-semibold text-sc-text">
-                    {candy.origin}
-                  </p>
+                  <p className="text-sm font-medium text-sc-text-muted">Origin</p>
+                  <p className="text-lg font-semibold text-sc-text">{candy.origin}</p>
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-sc-text-muted">
-                    Weight
-                  </p>
-                  <p className="text-lg font-semibold text-sc-text">
-                    {candy.weight}
-                  </p>
+                  <p className="text-sm font-medium text-sc-text-muted">Weight</p>
+                  <p className="text-lg font-semibold text-sc-text">{candy.weight}</p>
                 </div>
               </div>
 
               {/* Description */}
-              <p className="text-sc-text text-lg leading-relaxed">
+              <p className="text-sc-text text-base leading-relaxed">
                 {candy.description}
               </p>
             </div>
@@ -181,62 +172,45 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
       </section>
 
       {/* Rating Breakdown */}
-      <section className="py-16 border-b border-sc-border">
+      <section className="py-12 md:py-16 border-b border-sc-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-sc-text mb-10">
+          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-8">
             Rating Breakdown
           </h2>
-
           <div className="space-y-6">
-            <RatingBar
-              label="Sweetness"
-              value={candy.rating.sweetness}
-              maxValue={5}
-            />
-            <RatingBar
-              label="Saltiness"
-              value={candy.rating.saltiness}
-              maxValue={5}
-            />
-            <RatingBar
-              label="Texture"
-              value={candy.rating.texture}
-              maxValue={5}
-            />
-            <RatingBar
-              label="Uniqueness"
-              value={candy.rating.uniqueness}
-              maxValue={5}
-            />
+            <RatingBar label="Sweetness" value={candy.rating.sweetness} maxValue={5} />
+            <RatingBar label="Saltiness" value={candy.rating.saltiness} maxValue={5} />
+            <RatingBar label="Texture" value={candy.rating.texture} maxValue={5} />
+            <RatingBar label="Uniqueness" value={candy.rating.uniqueness} maxValue={5} />
           </div>
         </div>
       </section>
 
       {/* Long Description */}
-      <section className="py-16 bg-sc-card">
+      <section className="py-12 md:py-16 bg-sc-card">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-sc-text mb-8">
+          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-6">
             About This Candy
           </h2>
-          <p className="text-sc-text text-lg leading-relaxed whitespace-pre-wrap">
+          <p className="text-sc-text text-base leading-relaxed whitespace-pre-wrap">
             {candy.longDescription}
           </p>
         </div>
       </section>
 
       {/* Flavor Profile & Tags */}
-      <section className="py-16 border-b border-sc-border">
+      <section className="py-12 md:py-16 border-b border-sc-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div>
-              <h3 className="text-2xl font-bold text-sc-text mb-6">
+              <h3 className="font-display text-xl font-bold text-sc-text mb-5">
                 Flavor Profile
               </h3>
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap gap-2">
                 {candy.flavorProfile.map((flavor) => (
                   <span
                     key={flavor}
-                    className="inline-flex items-center px-4 py-2 rounded-full bg-sc-secondary/20 text-sc-secondary font-medium"
+                    className="inline-flex items-center px-4 py-2 rounded-sc-full bg-sc-yellow-soft text-[#8B6914] text-sm font-medium"
                   >
                     {flavor}
                   </span>
@@ -244,14 +218,14 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
               </div>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-sc-text mb-6">
+              <h3 className="font-display text-xl font-bold text-sc-text mb-5">
                 Tags
               </h3>
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap gap-2">
                 {candy.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="inline-flex items-center px-4 py-2 rounded-full bg-sc-primary/20 text-sc-primary font-medium"
+                    className="inline-flex items-center px-4 py-2 rounded-sc-full bg-sc-pink/[0.08] text-sc-pink text-sm font-medium"
                   >
                     {tag}
                   </span>
@@ -263,9 +237,9 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
       </section>
 
       {/* Where to Buy */}
-      <section className="py-16 bg-sc-card">
+      <section className="py-12 md:py-16 bg-sc-card">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-sc-text mb-8">
+          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-6">
             Where to Buy
           </h2>
 
@@ -276,26 +250,26 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center justify-between bg-sc-bg border border-sc-border rounded-lg p-6 hover:border-sc-primary hover:shadow-lg transition-all"
+                className="group flex items-center justify-between bg-sc-bg border border-sc-border rounded-sc-lg p-5 hover:border-sc-pink hover:shadow-sc-md transition-all"
               >
                 <div>
-                  <h4 className="text-lg font-bold text-sc-text group-hover:text-sc-primary transition-colors">
+                  <h4 className="text-base font-bold text-sc-text group-hover:text-sc-pink transition-colors">
                     {link.store}
                   </h4>
                   {link.price && (
-                    <p className="text-sm text-sc-text-muted mt-1">
+                    <p className="text-sm text-sc-pink font-semibold mt-1">
                       {link.price}
                     </p>
                   )}
                 </div>
-                <span className="text-sc-primary font-semibold">
-                  &rarr;
+                <span className="text-sc-pink font-semibold text-lg group-hover:translate-x-1 transition-transform">
+                  →
                 </span>
               </a>
             ))}
           </div>
 
-          <p className="text-sm text-sc-text-muted mt-8">
+          <p className="text-xs text-sc-text-muted mt-6">
             As an affiliate, we may earn a commission from purchases made through these links. This helps support our candy reviews and recommendations.
           </p>
         </div>
@@ -303,49 +277,21 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
 
       {/* Related Candy */}
       {relatedCandy.length > 0 && (
-        <section className="py-16 border-b border-sc-border">
+        <section className="py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-sc-text mb-10">
+            <h2 className="font-display text-2xl font-extrabold text-sc-text mb-8">
               You Might Also Like
             </h2>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
               {relatedCandy.map((relatedItem) => (
-                <Link
-                  key={relatedItem.slug}
-                  href={`/candy/${relatedItem.slug}`}
-                  className="group bg-sc-card border border-sc-border rounded-lg overflow-hidden hover:border-sc-primary transition-all hover:shadow-lg"
-                >
-                  <div className="aspect-square bg-sc-bg overflow-hidden">
-                    <CandyImage
-                      src={relatedItem.image}
-                      alt={relatedItem.name}
-                      category={relatedItem.category[0]}
-                      className="w-full h-full"
-                    />
-                  </div>
-                  <div className="p-5">
-                    <h3 className="font-bold text-sc-text group-hover:text-sc-primary transition-colors mb-1">
-                      {relatedItem.name}
-                    </h3>
-                    <p className="text-sm text-sc-text-muted mb-3">
-                      {relatedItem.brand}
-                    </p>
-                    <div className="flex items-center justify-between">
-                      <RatingStars rating={relatedItem.rating.overall} size="sm" />
-                      <span className="text-xs text-sc-text-muted">
-                        {getCategoryName(relatedItem.category[0])}
-                      </span>
-                    </div>
-                  </div>
-                </Link>
+                <CandyCard key={relatedItem.slug} candy={relatedItem} />
               ))}
             </div>
           </div>
         </section>
       )}
 
-      {/* JSON-LD Product + Review Schema */}
+      {/* JSON-LD */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -353,17 +299,11 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
             '@context': 'https://schema.org',
             '@type': 'Product',
             name: candy.name,
-            brand: {
-              '@type': 'Brand',
-              name: candy.brand,
-            },
+            brand: { '@type': 'Brand', name: candy.brand },
             image: `https://www.swedishcrave.com${candy.image}`,
             description: candy.description,
             category: candy.category.map((c) => getCategoryName(c)).join(', '),
-            countryOfOrigin: {
-              '@type': 'Country',
-              name: candy.origin,
-            },
+            countryOfOrigin: { '@type': 'Country', name: candy.origin },
             aggregateRating: {
               '@type': 'AggregateRating',
               ratingValue: candy.rating.overall,
@@ -374,10 +314,7 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
             },
             review: {
               '@type': 'Review',
-              author: {
-                '@type': 'Organization',
-                name: 'SwedishCrave',
-              },
+              author: { '@type': 'Organization', name: 'SwedishCrave' },
               reviewRating: {
                 '@type': 'Rating',
                 ratingValue: candy.rating.overall,

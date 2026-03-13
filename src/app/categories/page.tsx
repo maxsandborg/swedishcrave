@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
-import Link from 'next/link';
 import { categories } from '@/data/categories';
+import CategoryCard from '@/components/CategoryCard';
 
 export const metadata: Metadata = {
   title: 'Candy Categories',
@@ -12,119 +12,53 @@ export const metadata: Metadata = {
 export default function CategoriesPage() {
   return (
     <>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-sc-primary/10 to-sc-secondary/10 py-16 border-b border-sc-border">
+      {/* Hero */}
+      <section className="py-14 md:py-16 border-b border-sc-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl font-bold text-sc-text mb-4">
+          <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[1.2px] text-sc-purple bg-sc-purple/[0.08] px-3.5 py-1.5 rounded-sc-full mb-4">
+            🎨 Explore
+          </span>
+          <h1 className="font-display text-[38px] sm:text-[44px] font-extrabold text-sc-text tracking-[-0.5px] mb-3">
             Candy Categories
           </h1>
-          <p className="text-xl text-sc-text-muted max-w-2xl">
+          <p className="text-lg text-sc-text-muted max-w-2xl">
             Explore Swedish candy organized by type. Whether you prefer soft gummies, creamy chocolate, or adventurous salmiak, find your perfect category.
           </p>
         </div>
       </section>
 
       {/* Categories Grid */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {categories.map((category) => (
-            <Link
+            <CategoryCard
               key={category.slug}
-              href={`/categories/${category.slug}`}
-              className="group relative overflow-hidden rounded-lg aspect-video hover:shadow-2xl transition-all"
-            >
-              {/* Gradient Background */}
-              <div className="absolute inset-0 bg-gradient-to-br from-sc-primary/80 to-sc-secondary/80 group-hover:from-sc-primary/90 group-hover:to-sc-secondary/90 transition-colors" />
-
-              {/* Content */}
-              <div className="absolute inset-0 flex flex-col justify-end p-8">
-                <h3 className="text-4xl font-bold text-white mb-3">
-                  {category.name}
-                </h3>
-                <p className="text-white/90 text-lg mb-4 line-clamp-2">
-                  {category.description}
-                </p>
-                <div className="flex items-center justify-between">
-                  <span className="text-white/80 font-medium">
-                    {category.candySlugs.length} candies
-                  </span>
-                  <span className="text-white text-2xl group-hover:translate-x-2 transition-transform">
-                    →
-                  </span>
-                </div>
-              </div>
-            </Link>
+              category={category}
+              candyCount={category.candySlugs.length}
+            />
           ))}
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="bg-sc-card py-20 border-t border-sc-border">
+      {/* Why Section */}
+      <section className="bg-sc-bg-alt py-14 md:py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-sc-text mb-12 text-center">
+          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-8 text-center">
             Why Swedish Candies Stand Out by Category
           </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-sc-bg p-8 rounded-lg border border-sc-border">
-              <h4 className="text-xl font-bold text-sc-text mb-3">
-                Better Gummies
-              </h4>
-              <p className="text-sc-text-muted">
-                Swedish gummies use natural fruit juices and softer gelatin bases, creating superior texture and more authentic flavors than most American brands.
-              </p>
-            </div>
-
-            <div className="bg-sc-bg p-8 rounded-lg border border-sc-border">
-              <h4 className="text-xl font-bold text-sc-text mb-3">
-                Premium Chocolate
-              </h4>
-              <p className="text-sc-text-muted">
-                Made with Nordic dairy and higher cocoa butter content, Swedish chocolate is creamier and richer than typical mass-market chocolate.
-              </p>
-            </div>
-
-            <div className="bg-sc-bg p-8 rounded-lg border border-sc-border">
-              <h4 className="text-xl font-bold text-sc-text mb-3">
-                Bold Sour Candy
-              </h4>
-              <p className="text-sc-text-muted">
-                Swedish sour candy uses citric acid blends that create a cleaner, more complex sour taste compared to the chemical-tasting American alternatives.
-              </p>
-            </div>
-
-            <div className="bg-sc-bg p-8 rounded-lg border border-sc-border">
-              <h4 className="text-xl font-bold text-sc-text mb-3">
-                Unique Licorice
-              </h4>
-              <p className="text-sc-text-muted">
-                From mild licorice to intense salmiak, Swedish licorice offers a depth of flavor and cultural significance unmatched by other candy traditions.
-              </p>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+            {[
+              { title: 'Better Gummies', desc: 'Swedish gummies use natural fruit juices and softer gelatin bases, creating superior texture and more authentic flavors than most American brands.' },
+              { title: 'Premium Chocolate', desc: 'Made with Nordic dairy and higher cocoa butter content, Swedish chocolate is creamier and richer than typical mass-market chocolate.' },
+              { title: 'Bold Sour Candy', desc: 'Swedish sour candy uses citric acid blends that create a cleaner, more complex sour taste compared to the chemical-tasting American alternatives.' },
+              { title: 'Unique Licorice', desc: 'From mild licorice to intense salmiak, Swedish licorice offers a depth of flavor and cultural significance unmatched by other candy traditions.' },
+            ].map((item) => (
+              <div key={item.title} className="bg-sc-card p-7 rounded-sc-lg border border-sc-border">
+                <h4 className="font-display font-bold text-sc-text mb-2">{item.title}</h4>
+                <p className="text-sm text-sc-text-muted leading-[1.7]">{item.desc}</p>
+              </div>
+            ))}
           </div>
-        </div>
-      </section>
-
-      {/* Quick Links */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h2 className="text-3xl font-bold text-sc-text mb-8">
-          Quick Navigation
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {categories.map((category) => (
-            <Link
-              key={category.slug}
-              href={`/categories/${category.slug}`}
-              className="block p-4 bg-sc-card border border-sc-border rounded-lg hover:border-sc-primary hover:shadow-md transition-all"
-            >
-              <h4 className="font-semibold text-sc-text hover:text-sc-primary transition-colors">
-                {category.name}
-              </h4>
-              <p className="text-sm text-sc-text-muted mt-1">
-                {category.candySlugs.length} items
-              </p>
-            </Link>
-          ))}
         </div>
       </section>
     </>
