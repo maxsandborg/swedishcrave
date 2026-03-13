@@ -10,10 +10,10 @@ export default function Home() {
 
   // Hero showcase candies — hand-picked for visual variety
   const heroCandy = [
-    { name: 'BUBS Sour Skulls', brand: 'BUBS', rating: 4.3, emoji: '💀', bg: 'candy-bg-sour' },
-    { name: 'Marabou Milk', brand: 'Marabou', rating: 4.2, emoji: '🍫', bg: 'candy-bg-chocolate' },
-    { name: 'Ahlgrens Bilar', brand: 'Ahlgrens', rating: 4.5, emoji: '🚗', bg: 'candy-bg-gummies' },
-    { name: 'Djungelvrål', brand: 'Malaco', rating: 4.0, emoji: '🫠', bg: 'candy-bg-salmiak' },
+    { name: 'BUBS Sour Skulls', brand: 'BUBS', rating: 4.3, image: '/images/candy/bubs-sour-skulls.jpg', bg: 'candy-bg-sour', slug: 'bubs-sour-skulls' },
+    { name: 'Marabou Milk', brand: 'Marabou', rating: 4.2, image: '/images/candy/marabou-mjolkchoklad.jpg', bg: 'candy-bg-chocolate', slug: 'marabou-mjolkchoklad' },
+    { name: 'Ahlgrens Bilar', brand: 'Ahlgrens', rating: 4.5, image: '/images/candy/ahlgrens-bilar.jpg', bg: 'candy-bg-gummies', slug: 'ahlgrens-bilar' },
+    { name: 'Djungelvrål', brand: 'Malaco', rating: 4.0, image: '/images/candy/djungelvraal.jpg', bg: 'candy-bg-salmiak', slug: 'djungelvraal' },
   ];
 
   return (
@@ -66,14 +66,21 @@ export default function Home() {
               </div>
 
               {heroCandy.map((item, i) => (
-                <div
+                <Link
+                  href={`/candy/${item.slug}`}
                   key={item.name}
-                  className={`bg-sc-card border border-sc-border rounded-sc-lg overflow-hidden shadow-sc-sm hover:-translate-y-1 hover:shadow-sc-hover transition-all ${
+                  className={`group bg-sc-card border border-sc-border rounded-sc-lg overflow-hidden shadow-sc-sm hover:-translate-y-1 hover:shadow-sc-hover transition-all ${
                     i % 2 === 1 ? 'mt-[30px]' : ''
                   }`}
                 >
-                  <div className={`h-[140px] flex items-center justify-center text-[48px] ${item.bg}`}>
-                    {item.emoji}
+                  <div className={`h-[140px] overflow-hidden ${item.bg}`}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      loading="lazy"
+                    />
                   </div>
                   <div className="p-3.5 px-4">
                     <div className="font-bold text-sm text-sc-text">{item.name}</div>
@@ -84,7 +91,7 @@ export default function Home() {
                       <span className="font-semibold text-sc-text ml-1">{item.rating.toFixed(1)}</span>
                     </div>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>
