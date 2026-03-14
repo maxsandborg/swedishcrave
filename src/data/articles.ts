@@ -4195,7 +4195,183 @@ export const articles: Article[] = [
     metaDescription: 'Swedish licorice ranges from sweet and mild to extreme salmiak. This complete guide covers every type, the best brands, and where to start.',
     h1: 'Swedish Licorice Explained: Sweet, Salty & Everything Between',
     intro: 'Swedish licorice is a universe unto itself. From sweet, beginner-friendly varieties to extreme salmiak that makes grown adults cry, the range is enormous. This guide maps the entire landscape so you can find your level.',
-    content: '',
+    content: `<h2>Understanding Swedish Licorice: A Complete Guide</h2>
+
+<div style="background: linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%); border-left: 4px solid #9C27B0; padding: 20px; margin: 30px 0; border-radius: 8px;">
+<strong>Quick Overview:</strong> Swedish licorice ranges from sweet and mild to intensely salty salmiak varieties. This guide covers the full spectrum, key brands like Malaco and Kolsvart, and why licorice has become a cultural staple in Sweden.
+</div>
+
+<h2>The Licorice Spectrum: From Sweet to Extreme</h2>
+
+<p>Swedish licorice isn't monolithic. Walk into any Swedish candy shop and you'll find an astonishing array of licorice products, each positioned somewhere along a flavor continuum. Understanding this spectrum is essential to appreciating Swedish candy culture.</p>
+
+<p>The journey begins with <strong>sweet licorice</strong> — products that emphasize the natural sweetness of licorice root with added sugar and sometimes honey or vanilla. These entry-level licorice candies appeal to first-time consumers and traditional candy eaters. They're approachable, familiar, and deliberately gentle.</p>
+
+<p>Move along the spectrum and you reach <strong>salted licorice</strong> (lakrits med salt), where producers add sodium chloride to balance the licorice root's inherent sweetness. This creates a complex flavor profile: the sweetness remains, but it's tempered by a savory, salty edge. Many Swedes consider this the "Goldilocks" zone of licorice — sophisticated enough to appeal to adult palates, yet still accessible.</p>
+
+<p>Further still lies <strong>salmiak</strong> — a game-changing category that introduces ammonium chloride, a compound that creates a distinctive, sharp, almost mineral-like flavor. This is where licorice becomes polarizing. Some find salmiak revelatory; others find it challenging. <a href="/blog/what-is-salmiak">For a deep dive into salmiak chemistry and history, see our dedicated salmiak article</a>.</p>
+
+<p>At the far end of the spectrum is <strong>extreme salmiak</strong> — products with such high concentrations of ammonium chloride that they deliver an intense, numbing sensation on the tongue. These are for seasoned licorice enthusiasts and represent a kind of candy X-games.</p>
+
+<h2>What Is Licorice Root and Why It Matters</h2>
+
+<p>Licorice comes from the root of <em>Glycyrrhiza glabra</em>, a plant native to Western Asia and the Mediterranean. The name itself derives from Greek: "glykys" (sweet) and "rhiza" (root). For thousands of years, cultures have used licorice root for medicinal and culinary purposes.</p>
+
+<p>The root contains a compound called <strong>glycyrrhizin</strong>, which is 30-50 times sweeter than sucrose. This extreme sweetness is why licorice root extract became so valuable in candy manufacturing. Rather than relying solely on refined sugar, confectioners can use licorice root to achieve deep, complex sweetness while keeping overall sugar content lower.</p>
+
+<p>Swedish candy makers have refined the art of licorice extraction and processing. Raw licorice root is harvested, dried, and then extracted using water and solvents. The resulting black liquid or powder becomes the foundation for most Swedish licorice candy. Different extraction methods and concentrations yield different flavor profiles — some producers create a lighter, more nuanced licorice taste, while others push for maximum intensity.</p>
+
+<p>The color of licorice candy — almost always jet black — comes from the root itself, not added dyes. This natural coloring is part of licorice's appeal for consumers seeking less-processed sweets, even if the final candy product is hardly unprocessed.</p>
+
+<h2>Sweet Licorice: The Gateway</h2>
+
+<p>Sweet licorice candies form the foundation of Swedish licorice production. These are products where the licorice root flavor is the starting point, but sweeteners, vanilla, honey, and sometimes citrus notes are layered on top to create a more immediately appealing taste.</p>
+
+<p>Popular sweet licorice varieties include soft chews, hard pastilles, and coated products. Many Swedish children's first candy experience involves sweet licorice — it's mild enough for young palates but genuinely flavorful. Brands like <a href="/brands/malaco">Malaco</a> produce excellent sweet licorice ranges that remain bestsellers across Scandinavia.</p>
+
+<p>Sweet licorice isn't considered "basic" by Swedes; rather, it's understood as a different genre within the licorice family. A connoisseur might appreciate both a premium sweet licorice and a salmiak variety, depending on mood and context. Sweet licorice is often preferred in social settings, paired with coffee, or given as gifts to international visitors who haven't developed a taste for saltier varieties.</p>
+
+<h2>Salt Licorice: The Sophisticated Middle Ground</h2>
+
+<p>Salt licorice represents where many Swedes find their comfort zone. By adding sodium chloride (regular table salt) to licorice, producers create a candy that's both sweet and savory. The salt doesn't make licorice taste salty in the way a potato chip is salty; instead, it acts as a flavor amplifier and palate cleanser.</p>
+
+<p>The salt brings out nuances in the licorice root that pure sweetness tends to mask. It also reduces the one-dimensional sweetness that some find cloying in pure sweet licorice. For adults, salt licorice offers complexity — you experience sweetness first, then a salty undertone that lingers.</p>
+
+<p>Salt licorice is extremely popular in Sweden and is considered the "adult" version of licorice, though it's hardly exclusive to adults. Many Swedes consume salt licorice regularly as part of their <strong>Lordagsgodis</strong> (Saturday candy) tradition, a cultural practice where families set aside Saturday as the designated candy day of the week. Salt licorice features prominently in these assortments because it feels like a treat but not an excess — there's sophistication in the choice.</p>
+
+<h2>Salmiak: The Advanced Frontier</h2>
+
+<p>Salmiak represents the most distinctive Swedish candy innovation. While salt licorice uses sodium chloride, salmiak introduces ammonium chloride — a chemical compound that creates an entirely different sensory experience.</p>
+
+<p>Ammonium chloride (NH4Cl) produces a sharp, almost astringent flavor profile that many describe as mineral-like or even metallic. It also creates a curious physical sensation: a slight numbing or tingling on the tongue and palate. For uninitiated consumers, salmiak can be shocking. It doesn't taste like candy in the traditional sense; it tastes like an acquired taste that demands attention.</p>
+
+<p><a href="/blog/what-is-salmiak">Our comprehensive salmiak guide explores the chemistry, history, and cultural significance in detail</a>. The short version: salmiak is primarily a Nordic phenomenon (particularly popular in Sweden, Finland, and the Netherlands), and it's not universally loved even within Sweden. However, it commands passionate devotion from its fans.</p>
+
+<p>The salmiak category includes everything from lightly ammonium-enhanced licorice to intense, pure salmiak products. This diversity means there's a salmiak product for different tolerance levels — a perfect entry point might be a licorice product with 5-10% ammonium chloride, while seasoned fans might seek out products with 20% or higher.</p>
+
+<h2>Djungelvraal: The Iconic Salmiak Experience</h2>
+
+<p><a href="/candy/djungelvraal">Djungelvraal</a> stands as perhaps the most famous Swedish salmiak product internationally. Produced by Malaco, this licorice candy consists of soft, chewy pieces coated in salmiak powder — creating both textural contrast and an intense flavor experience.</p>
+
+<p>The name translates roughly to "Jungle Roar," which captures the boldness of the product. When you bite into Djungelvraal, you experience the soft interior first, then the salmiak coating hits your palate with full force. The powder coating means the ammonium chloride concentration is extraordinarily high relative to the candy's size.</p>
+
+<p>For many non-Scandinavian candy enthusiasts, Djungelvraal serves as their introduction to salmiak. It's often the product that either converts someone into a lifelong salmiak fan or convinces them they'll never understand Nordic candy preferences. There's rarely a middle ground with Djungelvraal — it's a statement candy.</p>
+
+<p>The product has achieved cult status among international candy collectors and adventurous eaters. YouTube challenges and online candy communities frequently feature Djungelvraal reactions, usually from people experiencing their first encounter with intense salmiak.</p>
+
+<h2>Key Licorice Brands and Producers</h2>
+
+<h3>Malaco: The Licorice Giant</h3>
+
+<p><a href="/brands/malaco">Malaco</a> is Sweden's dominant licorice producer and one of the world's largest. Founded in 1932, the company has spent nearly a century perfecting licorice candy production. Their portfolio spans the entire spectrum: from mild sweet licorice to extreme salmiak products.</p>
+
+<p>Malaco's reach extends far beyond Sweden. They produce products for international markets, though their most adventurous offerings — the intense salmiak products — tend to be reserved for Nordic distribution. Within Sweden, Malaco owns multiple licorice brands and sub-brands, giving them extraordinary shelf space and market penetration.</p>
+
+<p>Quality across Malaco's range is consistent. Even their entry-level sweet licorice products demonstrate manufacturing excellence. The company invests heavily in flavor development, texture innovation, and packaging design. For a first-time Swedish candy buyer, Malaco products are typically the safest bet for quality.</p>
+
+<h3>Kolsvart: Artisanal Excellence</h3>
+
+<p>Kolsvart represents a different approach to Swedish licorice — smaller scale, premium positioning, and intense focus on licorice flavor purity. Where Malaco produces massive volumes, Kolsvart emphasizes craft and exclusivity.</p>
+
+<p>The brand name means "coal black," referencing the deep color of their licorice products. Kolsvart specializes in licorice that tastes decidedly more of licorice root than their mass-market competitors. Their products often feature minimal additives and emphasis on clean, uncomplicated flavor profiles.</p>
+
+<p>Kolsvart products command premium prices, but devotees argue the investment is worthwhile. Their licorice demonstrates what's possible when flavor purity is prioritized over volume production. <a href="/blog/kolsvart-candy-guide">See our Kolsvart guide for specific product recommendations</a>.</p>
+
+<h3>Lakrits by Johan: Modern Craft</h3>
+
+<p>Lakrits by Johan represents contemporary Swedish licorice craftsmanship. Johan Ostlund, the founder, combines traditional licorice knowledge with modern flavor experimentation. His products often incorporate unexpected ingredients — bourbon vanilla, sea salt from specific regions, or specific licorice root cultivars.</p>
+
+<p>This brand appeals to licorice enthusiasts who've exhausted commercial options and crave something different. While availability is more limited than Malaco or Kolsvart, Lakrits by Johan products are increasingly available in premium candy shops both in Sweden and internationally.</p>
+
+<h2>Licorice Textures and Forms</h2>
+
+<p>Swedish licorice candy comes in remarkable textural diversity. The flavor might be consistent, but the eating experience varies dramatically based on form:</p>
+
+<h3>Hard Pastilles</h3>
+
+<p>Hard licorice candies dissolve slowly on the tongue, providing extended flavor release. These are excellent for people who want to savor licorice flavor over time. The hard texture means they last longer in your mouth — good for situations where you want a candy to be more than a quick bite.</p>
+
+<h3>Soft Chews</h3>
+
+<p>Soft, chewy licorice provides immediate gratification and easier consumption for people with dental work or preferences for tender textures. These candies deliver flavor quickly and are often easier to portion and consume while multitasking. Most salmiak products lean toward the soft-chew format to maximize the salmiak coating impact.</p>
+
+<h3>Coated Products</h3>
+
+<p>Licorice pieces coated in salmiak powder, sugar, or other compounds create textural interest and flavor concentration. The coating acts as a flavor accelerator — you experience a concentrated burst before reaching the interior. Djungelvraal exemplifies this format.</p>
+
+<h3>Filled Candies</h3>
+
+<p>Some Swedish licorice products feature centers — soft licorice shells with liquid or fruity centers, for example. These candies combine multiple flavor experiences in a single piece and appeal to consumers seeking complexity and surprise.</p>
+
+<h3>Twisted or Shaped Varieties</h3>
+
+<p>Licorice snakes (long, twisted licorice strands) and other shaped products add visual appeal and provide a different eating experience. Rather than discrete candies consumed one at a time, you might nibble a licorice snake gradually, experiencing varying flavor intensities as you progress.</p>
+
+<h2>Understanding Licorice and Health</h2>
+
+<p>Licorice contains glycyrrhizin, the compound responsible for its sweetness and much of its flavor. While glycyrrhizin is natural and generally recognized as safe in small quantities, excessive consumption can affect blood pressure and potassium levels, particularly in people with hypertension or certain health conditions.</p>
+
+<p>The European Union and other regulatory bodies have established safe consumption guidelines for licorice. For most people consuming licorice as an occasional treat, these health concerns are theoretical rather than practical. However, people with hypertension, heart disease, or those taking certain medications should be aware of licorice's potential effects.</p>
+
+<p>Salmiak (ammonium chloride) adds another consideration. In extreme quantities, ammonium chloride can cause digestive discomfort. However, the amounts in even intense salmiak candies are far below levels that would cause clinical concern for most people. That said, consuming an entire bag of extreme salmiak products in a single sitting isn't advisable.</p>
+
+<p>The pragmatic approach: enjoy Swedish licorice as part of a balanced diet, practice moderation, and if you have specific health conditions, consult with a healthcare provider about licorice consumption. For most people, occasional licorice enjoyment poses no health risk whatsoever.</p>
+
+<h2>Licorice in Swedish Culture and Tradition</h2>
+
+<p>Licorice holds a unique position in Swedish culture. Unlike other candy that might be viewed as purely indulgent, licorice has achieved a kind of cultural legitimacy in Sweden. There's a sense that licorice is "less bad" than other candies — perhaps due to the licorice root's historical medicinal associations, or perhaps simply because Swedes have normalized licorice consumption across generations.</p>
+
+<p>The <strong>Lordagsgodis</strong> tradition exemplifies this. On Saturday afternoons, Swedish families traditionally visit candy shops and select an assortment of sweets for the week. Licorice invariably features prominently in these selections, often occupying 30-50% of the chosen candies. This isn't unusual or indulgent; it's simply part of Swedish candy culture.</p>
+
+<p>Licorice also appears in savory contexts in Sweden. Licorice salt seasonings, licorice-flavored ice cream, licorice-filled chocolates, and even licorice-infused alcoholic beverages exist. This willingness to deploy licorice beyond traditional candy contexts reflects how thoroughly the flavor has been integrated into Swedish food culture.</p>
+
+<p>International perspectives on Swedish licorice range from fascination to bewilderment. Many non-Scandinavians find salmiak in particular to be challenging or unpleasant. This difference in taste preferences has become a kind of cultural marker — the ability to enjoy intense salmiak is sometimes framed as a marker of Nordic identity.</p>
+
+<h2>Exploring Other Swedish Candy Categories</h2>
+
+<p><a href="/blog/best-swedish-licorice">Our guide to the best Swedish licorice products</a> provides specific recommendations across all categories. Beyond the major brands, Sweden produces hundreds of licorice products, many available only in Scandinavian markets or through specialty importers.</p>
+
+<p>If you're interested in exploring the broader world of Swedish candy beyond licorice, <a href="/blog/what-is-swedish-candy">our Swedish candy overview</a> situates licorice within the larger candy ecosystem. You'll discover that while licorice dominates, Swedish candy culture encompasses much more.</p>
+
+<p>For those interested in sour candies, <a href="/blog/guide-to-swedish-sour-candy">our sour candy guide</a> explores another major Swedish candy category. And if you want to understand how licorice pairs with other flavors, <a href="/blog/guide-to-swedish-chocolate">our chocolate guide</a> covers Swedish chocolate, which sometimes features licorice inclusions.</p>
+
+<h2>Frequently Asked Questions About Swedish Licorice</h2>
+
+<h3>Is salmiak the same as salt licorice?</h3>
+
+<p>No. Salt licorice uses sodium chloride (table salt), while salmiak uses ammonium chloride. Salt licorice is savory and complex; salmiak is sharp, mineral-like, and creates a distinctive mouth-numbing sensation. Salt licorice is more accessible; salmiak requires more developed taste preferences.</p>
+
+<h3>Why do Swedes love licorice so much?</h3>
+
+<p>Multiple factors: historical availability of licorice in the region, successful commercial development by companies like Malaco, cultural normalization through the Lordagsgodis tradition, and genuine flavor appreciation. For many Swedes, licorice simply tastes good — there's no mystery deeper than that.</p>
+
+<h3>Is licorice safe to eat?</h3>
+
+<p>Yes, in moderation. Licorice contains glycyrrhizin, which can affect blood pressure in very high quantities, but normal candy consumption poses no risk for most people. If you have hypertension or heart disease, consult your healthcare provider about licorice consumption guidelines.</p>
+
+<h3>What's the best way to try Swedish licorice as a beginner?</h3>
+
+<p>Start with sweet licorice or mild salt licorice. These offer authentic Swedish licorice flavors without the intensity that can alienate newcomers. Once you've developed a taste for basic licorice, explore more adventurous salmiak products. There's no shame in deciding salmiak isn't for you — many Swedes maintain the same preference.</p>
+
+<h3>Where can I buy Swedish licorice outside Sweden?</h3>
+
+<p><a href="/where-to-buy">See our where-to-buy guide</a> for international retailers specializing in Swedish candy. Malaco products, in particular, are widely available through online importers. For premium brands like Kolsvart or Lakrits by Johan, specialty candy shops are your best bet.</p>
+
+<h3>How should I store Swedish licorice?</h3>
+
+<p>Keep licorice in a cool, dry place in airtight containers. Most licorice remains fresh for months when properly stored. Avoid excessive heat or humidity, which can cause stickiness or clumping. Soft licorice should be separated from hard candies to prevent texture degradation.</p>
+
+<h3>Are there sugar-free Swedish licorice options?</h3>
+
+<p>Yes, though they're less common than regular licorice. Malaco and other brands produce sugar-free versions using sugar alcohols or artificial sweeteners. These maintain the licorice flavor but lack some of the traditional sweetness. Quality varies more in the sugar-free category than in regular licorice.</p>
+
+<h2>Swedish Licorice Awaits</h2>
+
+<p>Swedish licorice represents one of the world's most distinctive candy traditions. From gentle sweet licorice to uncompromising salmiak products, the spectrum accommodates countless preferences and palates.</p>
+
+<p>Whether you're a seasoned licorice consumer looking to deepen your knowledge, or a curious newcomer wondering what all the Nordic fuss is about, Swedish licorice rewards exploration. The category contains genuine complexity, proven quality, and a cultural significance that extends far beyond simple candy consumption.</p>
+
+<p>Ready to start exploring? <a href="/where-to-buy">Visit our where-to-buy guide to source authentic Swedish licorice</a>, or check out <a href="/candy/djungelvraal">Djungelvraal</a> if you're ready to dive straight into the deep end of salmiak intensity.</p>`,
     heroImage: '/images/blog/guide-licorice.jpg',
     heroImageAlt: 'Range of Swedish licorice from sweet to extreme salmiak',
     author: 'SwedishCrave',
@@ -4207,7 +4383,7 @@ export const articles: Article[] = [
     relatedCandySlugs: ['djungelvraal'],
     relatedBrandSlugs: ['malaco'],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 65,
@@ -4218,7 +4394,163 @@ export const articles: Article[] = [
     metaDescription: 'Swedish chocolate uses more cocoa butter, less sugar, and different milk processing than American chocolate. Here\'s why it tastes better and the best brands.',
     h1: 'Swedish Chocolate Guide: Why It Tastes So Different',
     intro: 'There\'s a reason Swedish chocolate tastes so different from Hershey\'s — it\'s made completely differently. Higher cocoa butter content, real milk powder, and EU regulations that mandate actual chocolate standards. Here\'s what sets it apart.',
-    content: '',
+    content: `<h2>Why Swedish Chocolate Tastes So Different</h2>
+
+<div style="background: linear-gradient(135deg, #EFEBE9 0%, #D7CCC8 100%); border-left: 4px solid #795548; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <p><strong>Key Takeaway:</strong> Swedish chocolate tastes fundamentally different from American chocolate due to EU regulations requiring higher cocoa butter content, the absence of butyric acid from the manufacturing process, and a cultural preference for quality ingredients. Brands like Marabou and Fazer have defined the Swedish chocolate experience for generations.</p>
+</div>
+
+<p>If you've ever eaten Swedish chocolate and then switched back to an American chocolate bar, you've probably noticed something striking: the texture is smoother, the taste is cleaner, and there's an absence of that tangy, slightly sour note you get from Hershey's or Kisses. This isn't coincidence or preference — it's chemistry, regulation, and nearly a century of Nordic chocolate tradition.</p>
+
+<p>Swedish chocolate occupies a unique space in the global candy world. It's not as luxurious as Swiss or Belgian chocolate, nor is it as accessible in terms of price. Instead, it represents a middle ground: high-quality, carefully formulated confections that prioritize ingredient integrity without the premium pricing. To understand why Swedish chocolate tastes the way it does, you need to understand the regulatory environment that shaped it, the dominant brands that define it, and the cultural values that sustain it.</p>
+
+<h2>The Regulatory Foundation: EU Standards vs. American Standards</h2>
+
+<p>The most important factor in understanding Swedish chocolate is understanding European Union chocolate regulations. These standards, which apply to Sweden as it adheres to EU food law, create a fundamentally different product than what Americans are accustomed to.</p>
+
+<h3>Cocoa Butter Requirements</h3>
+
+<p>The EU requires that chocolate contain a minimum of 20% cocoa butter (the natural fat extracted from cacao beans). This is non-negotiable. Some premium dark chocolates contain far more — up to 50% or higher — but 20% is the floor.</p>
+
+<p>In the United States, chocolate manufacturers are allowed to replace up to 5% of the cocoa butter with other vegetable fats such as palm oil, coconut oil, or other hydrogenated oils. This might sound like a minor difference, but it has enormous implications for mouthfeel, melting point, and overall sensory experience.</p>
+
+<p>Cocoa butter has a precise melting point just below human body temperature, which creates that luxurious, smooth sensation when chocolate melts on your tongue. Substitute vegetable fats, and you alter that experience — often making the chocolate less creamy and more waxy.</p>
+
+<h3>No Butyric Acid</h3>
+
+<p>Perhaps the most important distinction is butyric acid. American chocolate manufacturers, most notably Hershey's, use a process called lipolysis to break down milk fats in their chocolate. This process produces butyric acid as a byproduct — the same compound found in parmesan cheese and, yes, vomit. It's what gives American mass-market chocolate its distinctive, slightly sour tang.</p>
+
+<p>When Hershey's developed this process in the early 1900s, it served a practical purpose: butyric acid acts as a preservative, allowing chocolate to remain shelf-stable longer in warm climates without refrigeration. By the time chocolate reached soldiers in World War II or consumers in humid Southern states, it hadn't melted or spoiled.</p>
+
+<p>European chocolate manufacturers never adopted this approach. Instead, they invested in better storage, distribution, and ingredients. Swedish chocolate, by extension, contains no butyric acid. To someone raised on American chocolate, this can initially taste "bland" because your palate expects that sour note. But most people who switch find that Swedish chocolate tastes cleaner, richer, and more purely chocolatey.</p>
+
+<h3>Sugar and Sweetness Profiles</h3>
+
+<p>Swedish chocolate also tends to contain less sugar than American chocolate, though it varies by product. The cultural assumption in Sweden is that chocolate should taste like chocolate, with sweetness as a supporting note rather than the main event. This is especially true for dark chocolate, which has deep cultural roots in Nordic countries.</p>
+
+<h2>Marabou: The Soul of Swedish Chocolate</h2>
+
+<p>When Swedes think of chocolate, they think of Marabou. This dominance isn't accidental — it's the result of nearly 100 years of brand-building and consistent quality.</p>
+
+<p><a href="/brands/marabou">Marabou</a> was founded in 1916 in Stockholm and quickly became Sweden's most iconic chocolate brand. The brand's distinctive logo became synonymous with Swedish chocolate quality. For generations, Marabou was a domestically-owned Swedish company, which gave it deep cultural resonance.</p>
+
+<p>In 2012, Mondelez International (the global snacking giant that owns Cadbury, Oreo, and Toblerone) purchased Marabou. This raised concerns among Swedish chocolate purists, but Mondelez has largely maintained the brand's quality standards and production methods. Marabou remains manufactured in Sweden and continues to use high-quality ingredients that reflect EU standards.</p>
+
+<h3>Marabou Mjolkchoklad: The Flagship</h3>
+
+<p><a href="/candy/marabou-mjolkchoklad">Marabou Mjolkchoklad</a> (milk chocolate) is the best-selling Marabou product and arguably the most recognizable Swedish chocolate product globally. It's a straightforward milk chocolate bar with a smooth texture, clean taste, and perfect balance of cocoa and sweetness. The bar is typically divided into squares, and eating a piece of Marabou Mjolkchoklad is considered by many Swedes to be the standard chocolate experience.</p>
+
+<p>What makes Mjolkchoklad distinctive is its restraint. It doesn't have a complex flavor profile or unusual ingredients. It's simply very well-made milk chocolate, the kind that makes you appreciate the fundamentals: quality cocoa, proper tempering, and no unnecessary additions.</p>
+
+<h3>Marabou's Extended Portfolio</h3>
+
+<p>Beyond Mjolkchoklad, <a href="/brands/marabou">Marabou</a> produces numerous specialty bars and products. <a href="/candy/marabou-schweizernot">Schweizernot</a> combines milk chocolate with hazelnuts and nougat, creating a more complex flavor profile. <a href="/candy/daim">Daim</a>, though now produced by a different subsidiary, is often associated with the Marabou family of products and represents Swedish chocolate's adventurous side — a crispy, buttery toffee center coated in milk chocolate.</p>
+
+<p>The brand has also experimented with dark chocolate varieties, fruit-filled bars, and premium lines. However, the core Mjolkchoklad remains the gold standard by which all Marabou products are measured. For a deeper look at the full product range, see our <a href="/blog/marabou-chocolate-guide">Marabou chocolate guide</a>.</p>
+
+<h2>Fazer: When Finnish Chocolate Became Swedish</h2>
+
+<p>Fazer is a Finnish company, not Swedish, but it deserves prominent mention because it's become so integrated into Swedish chocolate culture that many people assume it's Swedish. Fazer Blue, a milk chocolate bar, is ubiquitous in Sweden and is often recommended by Swedes as a top example of Nordic chocolate quality.</p>
+
+<p><a href="/candy/fazer-blue">Fazer Blue</a> represents a slightly different chocolate philosophy than Marabou. Where Marabou is smooth and straightforward, Fazer delivers a subtly different cocoa profile that reflects its Finnish heritage. The chocolate coating is equally high-quality, and the overall experience has won devoted fans across Scandinavia.</p>
+
+<p>Fazer has been manufacturing chocolate since 1891, making it one of the oldest continuously-operating chocolate companies in the Nordic region. Its presence in Swedish stores is nearly as strong as Marabou's, and many Swedes have childhood memories of eating Fazer Blue during school breaks.</p>
+
+<h2>The Textural Diversity: Bars vs. Pralines</h2>
+
+<p>Swedish chocolate culture encompasses two distinct categories: chocolate bars and chocolate pralines. While Americans tend to think of Hershey's bars as representative of chocolate confections, Swedish chocolate is much more varied.</p>
+
+<h3>Chocolate Bars</h3>
+
+<p>Swedish chocolate bars like <a href="/candy/marabou-mjolkchoklad">Marabou Mjolkchoklad</a>, <a href="/candy/daim">Daim</a>, <a href="/candy/plopp">Plopp</a>, and <a href="/candy/kexchoklad">Kexchoklad</a> are designed as eating experiences. They're meant to be savored, often shared, and are frequently given as gifts. These bars are higher quality than mass-market American bars but priced accessibly enough that they're everyday treats, not special occasions.</p>
+
+<p>Plopp and Kexchoklad represent the quirky, innovation-driven side of Swedish chocolate. Plopp combines layers of toffee, nougat, and cocoa crisp covered in milk chocolate — a textural adventure. Kexchoklad (literally "biscuit chocolate") is a simple chocolate-covered wafer that's been a staple since the 1950s. These bars prove that Swedish chocolate manufacturers aren't afraid to experiment while maintaining quality fundamentals.</p>
+
+<h3>Chocolate Pralines and Assortments</h3>
+
+<p>Swedish chocolate culture also includes a strong praline tradition. Brands like Marabou produce luxury assortments — boxes of individually-wrapped chocolate pieces with various fillings, textures, and flavor profiles. These are typically reserved for holidays, gifts, and special occasions, and represent the premium tier of Swedish chocolate.</p>
+
+<p>Praline assortments in Sweden often feature combinations not common in American chocolate: salted caramel, cloudberry (a Nordic berry), licorice-chocolate combinations, and marzipan-filled chocolates. This reflects a broader Nordic willingness to combine chocolate with traditional flavors.</p>
+
+<h2>Other Notable Swedish Chocolate Brands</h2>
+
+<h3>Cloetta</h3>
+
+<p>Cloetta is one of Sweden's oldest candy and chocolate companies, founded in 1862. While Cloetta is perhaps better known for its licorice and hard candies, the company also produces quality chocolate products. Cloetta's chocolate lines are slightly less prominent in the market than Marabou or Fazer, but they maintain the same quality standards.</p>
+
+<h3>Freia and Other Nordic Brands</h3>
+
+<p>Freia, a Norwegian chocolate brand, is also widely available in Swedish stores and has a loyal following. Like Fazer, it represents the broader Nordic chocolate consensus: high-quality ingredients, no unnecessary additives, and a focus on fundamental chocolate excellence.</p>
+
+<h2>Dark Chocolate: The Nordic Preference</h2>
+
+<p>One significant difference between Swedish and American chocolate culture is the prevalence and respect for dark chocolate. In the United States, dark chocolate is often seen as an acquired taste or a health-conscious choice. In Sweden, dark chocolate is simply another legitimate chocolate option, consumed for pleasure rather than virtue.</p>
+
+<p>Swedish dark chocolate typically ranges from 50% cocoa to 85% cocoa. These bars are designed to highlight the complexity of the cocoa, with minimal added ingredients. You'll find dark chocolate bars in Swedish stores alongside milk chocolate with equal prominence, suggesting a more balanced cultural relationship with different chocolate types.</p>
+
+<p>This preference reflects the same cultural values that shape Swedish chocolate broadly: an appreciation for quality, an absence of excessive sweetness, and a belief that simpler is often better.</p>
+
+<h2>How Swedish Chocolate Manufacturing Differs</h2>
+
+<p>Beyond ingredients and regulations, Swedish chocolate manufacturers employ slightly different processes than American companies. Tempering (the controlled cooling process that gives chocolate its snap and shine) is taken very seriously, and Swedish factories invest in precise temperature control.</p>
+
+<p>Swedish chocolate manufacturers also tend to use a slower, more careful mixing process when combining ingredients, which results in better emulsification and a smoother final product. These aren't revolutionary techniques, but they reflect a prioritization of quality over speed and efficiency.</p>
+
+<p>Additionally, Swedish chocolate products typically have shorter ingredient lists than American equivalents. You won't find lecithin, artificial flavors, or preservatives in standard Swedish chocolate bars. This reflects both EU regulations (which are stricter about food additives) and cultural preference.</p>
+
+<h2>Storing and Enjoying Swedish Chocolate Properly</h2>
+
+<p>Because Swedish chocolate contains a higher cocoa butter content and no butyric acid preservative, it requires slightly different storage conditions than American chocolate.</p>
+
+<h3>Temperature Control</h3>
+
+<p>Swedish chocolate should ideally be stored between 60-70 degrees F (15-21 degrees C). Temperatures above 75 degrees F will cause the cocoa butter to soften, potentially creating a bloom (a whitish, dusty surface). This doesn't affect taste but affects appearance. Avoid storing chocolate in warm rooms, cars, or direct sunlight.</p>
+
+<h3>Humidity</h3>
+
+<p>Keep chocolate in a dry environment. High humidity can cause sugar bloom (when condensation dissolves sugar on the surface, then re-crystallizes into grainy texture). This is purely cosmetic but can be avoided with proper storage.</p>
+
+<h3>Tasting Notes</h3>
+
+<p>To properly experience Swedish chocolate, eat it at room temperature (around 68 degrees F). Allow the piece to sit on your tongue for a moment before chewing, permitting the cocoa butter to warm and melt slightly. This releases aromatic compounds and creates the full sensory experience the chocolate maker intended.</p>
+
+<p>Swedes often pair chocolate with coffee or tea, which complements the cleaner cocoa flavors. Dark chocolate particularly benefits from this pairing.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Why does American chocolate taste different?</h3>
+
+<p>American chocolate tastes different primarily because of butyric acid (added during manufacturing for preservation) and lower cocoa butter content (with vegetable fat substitutes permitted). EU regulations prevent both practices, resulting in a cleaner, richer chocolate taste in Swedish products.</p>
+
+<h3>Is Marabou chocolate better than Hershey's?</h3>
+
+<p>They're fundamentally different products made under different standards. <a href="/blog/marabou-vs-cadbury">Marabou is made according to EU quality standards</a> with no butyric acid and higher cocoa butter content. Hershey's is optimized for American preferences and shelf stability. Most people who taste both prefer Marabou, but some people raised on Hershey's find it tastes "off."</p>
+
+<h3>Can I buy Swedish chocolate in America?</h3>
+
+<p>Yes, increasingly so. Swedish and European chocolates are now available through specialty candy retailers, online international shops, and some larger supermarket chains. <a href="/where-to-buy">Finding Swedish candy online</a> has become much easier over the past decade. Expect to pay a premium for imported products.</p>
+
+<h3>Is dark chocolate healthier than milk chocolate?</h3>
+
+<p>Dark chocolate contains higher concentrations of cocoa solids and antioxidants, but "healthier" depends on context. Dark chocolate is typically less sweet than milk chocolate, which some consider an advantage. Both are treats, not health foods. The quality advantage of Swedish chocolate applies equally to dark and milk varieties.</p>
+
+<h3>Why is Swedish chocolate so smooth?</h3>
+
+<p>Smooth texture results from high cocoa butter content (EU requirement), careful tempering, slow mixing processes, and the absence of other vegetable fats or waxy substitutes. The cocoa butter melts at body temperature, creating luxurious mouthfeel.</p>
+
+<h3>Is Fazer chocolate Swedish?</h3>
+
+<p>Fazer is Finnish, not Swedish, but it's widely consumed in Sweden and manufactured to the same EU quality standards. Many Swedes consider Fazer their preferred dark chocolate brand, so it's deeply integrated into Swedish chocolate culture.</p>
+
+<h2>Exploring Beyond the Basics</h2>
+
+<p>If you're new to Swedish chocolate, start with <a href="/candy/marabou-mjolkchoklad">Marabou Mjolkchoklad</a> to understand the baseline quality. Then explore <a href="/candy/fazer-blue">Fazer Blue</a> for a different Nordic perspective, and try <a href="/candy/daim">Daim</a> for something more adventurous.</p>
+
+<p>If you prefer dark chocolate, seek out Marabou's dark chocolate varieties or Fazer's offerings. Try <a href="/candy/plopp">Plopp</a> and <a href="/candy/kexchoklad">Kexchoklad</a> to experience the playful innovation side of Swedish chocolate.</p>
+
+<p>For a deeper dive into Swedish candy culture, read our guides on <a href="/blog/marabou-chocolate-guide">Marabou's history and products</a>, <a href="/blog/best-swedish-chocolate">the best Swedish chocolate options</a>, or <a href="/blog/marabou-vs-cadbury">how Marabou compares to Cadbury</a>. You might also explore <a href="/blog/what-is-swedish-candy">what makes Swedish candy distinctive</a> or discover the <a href="/blog/guide-to-swedish-licorice">deep roots of Swedish licorice culture</a>.</p>
+
+<p>Ready to taste Swedish chocolate yourself? Visit our <a href="/where-to-buy">guide to where you can buy Swedish chocolate online</a> and internationally. Quality Swedish chocolate is more accessible than ever, and once you've experienced it, you'll understand why Swedes have defended their chocolate standards for over a century.</p>`,
     heroImage: '/images/blog/guide-chocolate.jpg',
     heroImageAlt: 'Swedish chocolate bars broken open showing rich cocoa texture',
     author: 'SwedishCrave',
@@ -4230,7 +4562,7 @@ export const articles: Article[] = [
     relatedCandySlugs: ['marabou-mjolkchoklad', 'daim'],
     relatedBrandSlugs: ['marabou'],
     priority: 'P2',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 66,
@@ -4241,7 +4573,149 @@ export const articles: Article[] = [
     metaDescription: 'Swedish sour candy ranges from mildly tangy to face-puckering extreme. This guide tours every sourness level with brand recommendations for each.',
     h1: 'Swedish Sour Candy: A Flavor Tour from Mild to Extreme',
     intro: 'Swedish sour candy doesn\'t mess around. The sour coatings are bolder, the flavors are more complex, and the variety is staggering. This guide takes you through every sourness level — from "my kid can handle this" to "my face is permanently puckered."',
-    content: '',
+    content: `<h2>What Makes Swedish Sour Candy Special?</h2>
+
+<p>When you think of sour candy, you might picture the intense, mouth-puckering products that line American grocery store shelves. But Swedish sour candy occupies an entirely different category — one that emphasizes complexity, balance, and a more sophisticated approach to sourness. The difference goes far beyond just marketing; it's rooted in chemistry, tradition, and decades of Scandinavian candy-making expertise.</p>
+
+<p>Swedish candy makers approach sourness with surprising nuance. Rather than coating candies with an overwhelming layer of sour powder to create shock value, they tend to integrate sourness into the candy itself, building flavor profiles that develop across multiple dimensions. The result? A sour candy experience that's often more enjoyable and less likely to leave your mouth feeling stripped raw.</p>
+
+<div style="background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%); border-left: 4px solid #FF9800; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <p><strong>Pro Tip:</strong> Swedish sour candy is designed to be savored, not endured. The best way to experience these candies is to let them dissolve slowly on your tongue rather than chewing immediately. This allows the flavor layers to unfold and the sourness to hit at just the right intensity.</p>
+</div>
+
+<h2>Understanding the Sourness Spectrum</h2>
+
+<p>One of the most important distinctions in Swedish sour candy is the range of intensities available. Unlike American brands that often come in one setting — "extremely sour" — Swedish manufacturers have developed a nuanced spectrum that caters to different preferences and tolerance levels. Understanding where each candy falls on this spectrum helps you choose products that match your comfort level.</p>
+
+<h3>Mild Sour Candies (Beginner-Friendly)</h3>
+
+<p>At the entry level, you'll find Swedish sour candies that deliver gentle tartness without overwhelming your palate. These products are perfect for people new to sour candy or those who prefer subtle flavor notes. The sourness complements the underlying fruit flavors rather than dominating them.</p>
+
+<p><a href="/candy/bubs-watermelon">BUBS Watermelon</a> exemplifies this category — it offers a pleasant sour coating that enhances the fruity taste without creating discomfort. The sourness here serves as a flavor amplifier, making the watermelon taste brighter and more vibrant. Other mild options include standard gummy bears with a light sour dusting, which provide just enough tang to keep things interesting.</p>
+
+<h3>Medium Sour Candies (The Sweet Spot)</h3>
+
+<p>This is where most serious sour candy enthusiasts find their happy place. Medium sour candies deliver noticeable sourness that creates a satisfying pucker, but they're carefully formulated to avoid the numbing sensation that extreme sours can produce.</p>
+
+<p><a href="/brands/bubs">BUBS</a>, Sweden's dominant sour candy brand, has perfected this middle ground. Their <a href="/candy/bubs-sour-skulls">Sour Skulls</a> represent this category beautifully — they hit hard enough to satisfy sour cravings but are still enjoyable enough that you can eat multiple pieces without your mouth staging a revolt. The medium category is where flavor complexity truly shines, as the sourness doesn't overwhelm the underlying taste profiles.</p>
+
+<p><a href="/brands/malaco">Malaco</a> also produces excellent medium-sour options that appeal to candy connoisseurs. Their approach tends to be slightly gentler than BUBS while still delivering satisfying sourness.</p>
+
+<h3>Extreme Sour Candies (Advanced Level)</h3>
+
+<p>For those who view sour candy as a challenge to be conquered, extreme Swedish sours deliver. Products in this category use concentrated sour ingredients and aggressive coating techniques. The <a href="/candy/bubs-dizzy-skull">BUBS Dizzy Skull</a> sits firmly in this territory, offering a sourness level that demands respect.</p>
+
+<p>What separates extreme Swedish sours from their American counterparts is that the sourness still plays second fiddle to actual flavor. Even at maximum intensity, you're tasting something intentional — berry, citrus, tropical notes — rather than just experiencing a sour assault. The extreme category is still about craftsmanship; it's just sourness turned up to eleven.</p>
+
+<h2>The Chemistry Behind Swedish Sour Candy</h2>
+
+<p>The difference between Swedish sour and other sour candies lies significantly in the chemistry. Candy makers have multiple acids at their disposal, each creating different sensations and flavor interactions.</p>
+
+<h3>Citric Acid vs. Malic Acid vs. Tartaric Acid</h3>
+
+<p>Swedish candy manufacturers particularly favor <strong>malic acid</strong> and <strong>tartaric acid</strong>, while American products tend toward <strong>citric acid</strong>. This choice profoundly affects the eating experience.</p>
+
+<p><strong>Citric acid</strong>, commonly used in American sour candies, creates immediate, intense sourness. It hits hard and fast, which is why American sours often feel more aggressive. The sourness is upfront, unavoidable, and relatively one-dimensional.</p>
+
+<p><strong>Malic acid</strong>, found abundantly in Swedish candies, produces a more gradual, rolling sourness that builds over time. It's the acid found naturally in apples and underripe fruits, giving it an inherent complexity. Malic acid also tends to pair better with fruit flavors, creating more harmonious taste profiles.</p>
+
+<p><strong>Tartaric acid</strong>, extracted from grapes, adds sophistication to the sour profile. Swedish manufacturers often use blends of these acids, creating multidimensional sour experiences that evolve as the candy dissolves. This is a key reason why <a href="/blog/sour-patch-kids-vs-swedish-sour-candy">Swedish sour candy differs so dramatically from Sour Patch Kids</a> and similar American products.</p>
+
+<h3>Coating Techniques and Application</h3>
+
+<p>How sourness is applied matters as much as what's used. Swedish manufacturers have refined their coating processes over decades. Rather than dunking candies in a single, heavy sour coating, they often apply multiple, fine layers. This creates a more sophisticated intensity curve — the sourness hits gradually rather than all at once.</p>
+
+<p>The coating also tends to be more refined and less gritty than American equivalents. Swedish sour coating stays on your tongue without feeling like you're chewing pure powder. It dissolves smoothly with the candy itself, integrating the sour experience into the overall flavor journey.</p>
+
+<h2>Texture and Texture Preferences in Swedish Sour Candy</h2>
+
+<p>Swedish sour candies tend toward softer, chewier textures compared to many American sours. This isn't accidental — it's a deliberate choice that affects how you experience sourness.</p>
+
+<p>Softer candies allow the sour coating to dissolve more evenly across your mouth. Harder candies create concentrated sourness in specific spots. For many people, the gentler texture of Swedish sours makes the overall experience more pleasant, even at higher sourness levels. The candy melts in your mouth rather than requiring aggressive chewing, allowing you to control the intensity.</p>
+
+<p>Chewier textures also provide texture contrast that American hard candies can't match. When you bite into <a href="/candy/bubs-cool-cola">BUBS Cool Cola</a>, you're not just experiencing sourness and flavor — you're experiencing a specific textural journey. The chew affects saliva production, which affects how your taste buds perceive sourness. This is actually advantageous; it prevents the numbness that extreme hard sours can cause.</p>
+
+<h2>Natural Colorings and Clean Labels</h2>
+
+<p>Another distinguishing feature of Swedish sour candy is the trend toward natural colorings and cleaner ingredient lists. While American candy often relies on Red 40, Yellow 5, and other synthetic dyes, many Swedish manufacturers have moved toward plant-based colorings.</p>
+
+<p>This shift reflects both consumer preferences in Scandinavia and a broader philosophy that candy can taste great without artificial colors. Natural colorings from sources like beetroot, spirulina, and anthocyanins might not produce the neon hues of artificial dyes, but they're often more visually appealing and healthier for consumers who are sensitive to artificial additives.</p>
+
+<p>That said, Swedish sour candies aren't necessarily "healthy." They still contain sugar and sour agents that aren't exactly nutritional powerhouses. But the cleaner ingredient philosophy appeals to modern consumers who want to indulge thoughtfully.</p>
+
+<h2>Key Swedish Sour Candy Brands</h2>
+
+<h3>BUBS: The Dominant Force</h3>
+
+<p><a href="/brands/bubs">BUBS</a> is the undisputed leader in Swedish sour candy. The brand has built an international following through relentless quality and an understanding of what sour candy enthusiasts actually want. BUBS products range from mild to extreme, giving consumers genuine choice.</p>
+
+<p>Their product line includes classics like Sour Skulls, <a href="/candy/bubs-cool-raspberry-skull">Cool Raspberry Skull</a>, and numerous other variations. BUBS succeeded by treating sour candy as a craft product rather than a novelty item. Each product is carefully formulated for its specific sourness level and flavor profile.</p>
+
+<h3>Malaco: Tradition Meets Innovation</h3>
+
+<p><a href="/brands/malaco">Malaco</a> brings decades of Swedish candy tradition to the sour category. While perhaps slightly less intense than BUBS, Malaco's sour candies emphasize flavor complexity and balanced formulations. Products like <a href="/candy/malaco-gott-och-blandat">Gott Och Blandat</a> show how traditional Swedish candy expertise applies to sour varieties.</p>
+
+<h3>Other Notable Brands</h3>
+
+<p>Sweden has numerous smaller candy manufacturers producing excellent sour products. These regional and artisanal brands often focus on specific flavor combinations or sourness levels, contributing to the diversity of the Swedish sour candy market.</p>
+
+<h2>Sourness Level Recommendations by Candy</h2>
+
+<p>Here's a practical guide to help you choose Swedish sours at your preferred intensity level:</p>
+
+<p><strong>For Mild Sourness:</strong> <a href="/candy/bubs-watermelon">BUBS Watermelon</a> and standard gummy varieties provide pleasant tartness without overwhelming sensation. These are perfect for introducing people to Swedish sour candy.</p>
+
+<p><strong>For Medium Sourness:</strong> <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> and most Malaco sour products hit the satisfaction-to-discomfort ratio perfectly. This is likely where most regular sour candy consumers will camp.</p>
+
+<p><strong>For Extreme Sourness:</strong> <a href="/candy/bubs-dizzy-skull">BUBS Dizzy Skull</a> and other maximum-intensity products deliver genuine challenge while maintaining flavor integrity.</p>
+
+<h2>How to Properly Enjoy Swedish Sour Candy</h2>
+
+<p>Maximizing your Swedish sour candy experience requires understanding how to consume it properly. Here are key tips:</p>
+
+<p><strong>Eat Slowly:</strong> Let each piece dissolve naturally rather than chewing aggressively. This extends the flavor experience and allows sourness to hit gradually.</p>
+
+<p><strong>Pair with Beverages:</strong> Sour candy pairs excellently with milk, yogurt-based drinks, or even water. The pairing affects how your palate perceives the sourness.</p>
+
+<p><strong>Cleanse Between Pieces:</strong> If eating multiple pieces, taking brief breaks allows your mouth to reset, preventing numbness.</p>
+
+<p><strong>Store Properly:</strong> Keep Swedish sours in airtight containers away from moisture. Exposure to humidity can affect the coating texture and sourness delivery.</p>
+
+<h2>Frequently Asked Questions About Swedish Sour Candy</h2>
+
+<h3>Why does Swedish sour candy taste different from American sour candy?</h3>
+
+<p>The difference stems from acid choice (malic and tartaric vs. citric), coating technique sophistication, texture preferences, and decades of Scandinavian candy-making tradition. Swedish sours emphasize flavor balance and gradual sourness, while American sours often prioritize immediate intensity.</p>
+
+<h3>Is Swedish sour candy actually healthier than American sour candy?</h3>
+
+<p>Swedish sours often use natural colorings and cleaner ingredient lists than American equivalents, but they're still candy — not health food. The ingredient quality is generally higher, but the sugar and acid content remains significant. Moderation is key regardless of origin.</p>
+
+<h3>Can I order Swedish sour candy internationally?</h3>
+
+<p>Yes. Many retailers now ship Swedish sours worldwide, particularly <a href="/brands/bubs">BUBS</a> products. Check our <a href="/where-to-buy">where to buy guide</a> for reliable international retailers.</p>
+
+<h3>How do I know which sourness level to start with?</h3>
+
+<p>If you're new to sour candy, start with mild options like <a href="/candy/bubs-watermelon">BUBS Watermelon</a>. If you already enjoy American sours, try medium-level Swedish sours like <a href="/candy/bubs-sour-skulls">Sour Skulls</a>. Extreme sours should only be attempted by experienced sour candy consumers.</p>
+
+<h3>Are Swedish sour candies gelatine-free?</h3>
+
+<p>Many are, but not all. Check ingredient lists if this matters for dietary reasons. Swedish manufacturers increasingly offer vegetarian and vegan options, reflecting changing consumer preferences.</p>
+
+<h2>Related Candy Categories to Explore</h2>
+
+<p>If you enjoy Swedish sour candy, you might also appreciate other Swedish candy categories. <a href="/blog/guide-to-swedish-licorice">Swedish licorice</a> shares similar craftsmanship and flavor sophistication. Check out our comprehensive <a href="/blog/bubs-candy-complete-guide">BUBS candy complete guide</a> to explore their full product range, and read our <a href="/blog/what-is-swedish-candy">introduction to Swedish candy</a> for broader context about this fascinating candy culture.</p>
+
+<p>For a deeper comparison, our article on <a href="/blog/sour-patch-kids-vs-swedish-sour-candy">Sour Patch Kids vs Swedish sour candy</a> breaks down exactly how these products differ in formulation, taste, and overall eating experience.</p>
+
+<h2>Finding Your Perfect Swedish Sour</h2>
+
+<p>Swedish sour candy represents a different philosophy than the sour products most Americans grow up with. Rather than viewing sourness as an extreme to be pushed as far as possible, Swedish manufacturers treat it as one element in a complex flavor equation. Sourness supports other flavors rather than obliterating them.</p>
+
+<p>Whether you're chasing extreme pucker power or seeking subtle tartness, the Swedish sour candy landscape has options. The quality and thoughtfulness behind these products make them worth exploring, even if you've been disappointed by American sours in the past.</p>
+
+<p>Ready to try some authentic Swedish sour candy? <a href="/where-to-buy">Visit our where to buy guide</a> to find reliable retailers, or explore our <a href="/categories/sour">complete sour candy category</a> for product recommendations at every sourness level.</p>`,
     heroImage: '/images/blog/guide-sour-candy.jpg',
     heroImageAlt: 'Swedish sour candy arranged by sourness intensity',
     author: 'SwedishCrave',
@@ -4253,7 +4727,7 @@ export const articles: Article[] = [
     relatedCandySlugs: ['bubs-sour-skulls', 'bubs-watermelon'],
     relatedBrandSlugs: ['bubs', 'malaco'],
     priority: 'P2',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 67,
