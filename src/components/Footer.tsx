@@ -9,9 +9,8 @@ export default function Footer() {
       title: 'About',
       links: [
         { label: 'About SwedishCrave', href: '/about' },
-        { label: 'How We Review', href: '/methodology' },
+        { label: 'How We Review', href: '/about' },
         { label: 'Contact Us', href: '/contact' },
-        { label: 'Press Kit', href: '/press' },
       ],
     },
     {

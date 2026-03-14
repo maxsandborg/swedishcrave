@@ -7,6 +7,7 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.swedishcrave.com'),
   title: {
     template: '%s | SwedishCrave',
     default: 'SwedishCrave — Your Guide to Swedish Candy',
@@ -17,6 +18,9 @@ export const metadata: Metadata = {
     'Swedish candy, Nordic sweets, candy reviews, where to buy Swedish candy, BUBS, Marabou, Malaco',
   authors: [{ name: 'SwedishCrave' }],
   creator: 'SwedishCrave',
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',

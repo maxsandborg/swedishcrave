@@ -1,8 +1,9 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { Suspense } from 'react';
 import { candyItems } from '@/data/candy';
 import { categories } from '@/data/categories';
-import CandyCard from '@/components/CandyCard';
+import CandyPageClient from '@/components/CandyPageClient';
 
 export const metadata: Metadata = {
   title: 'All Swedish Candy Reviews',
@@ -13,10 +14,6 @@ export const metadata: Metadata = {
 };
 
 export default function AllCandyPage() {
-  const sortedCandy = [...candyItems].sort(
-    (a, b) => b.rating.overall - a.rating.overall
-  );
-
   return (
     <>
       {/* Hero */}
@@ -55,13 +52,11 @@ export default function AllCandyPage() {
         </div>
       </section>
 
-      {/* Candy Grid */}
+      {/* Candy Grid with Search */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {sortedCandy.map((candy) => (
-            <CandyCard key={candy.slug} candy={candy} />
-          ))}
-        </div>
+        <Suspense fallback={<div className="text-sc-text-muted">Loading...</div>}>
+          <CandyPageClient candyItems={candyItems} />
+        </Suspense>
       </section>
 
       {/* JSON-LD */}
@@ -74,12 +69,14 @@ export default function AllCandyPage() {
             name: 'Swedish Candy Reviews',
             description: 'Complete collection of Swedish candy reviews with ratings',
             numberOfItems: candyItems.length,
-            itemListElement: sortedCandy.map((candy, i) => ({
-              '@type': 'ListItem',
-              position: i + 1,
-              url: `https://www.swedishcrave.com/candy/${candy.slug}`,
-              name: candy.name,
-            })),
+            itemListElement: [...candyItems]
+              .sort((a, b) => b.rating.overall - a.rating.overall)
+              .map((candy, i) => ({
+                '@type': 'ListItem',
+                position: i + 1,
+                url: `https://www.swedishcrave.com/candy/${candy.slug}`,
+                name: candy.name,
+              })),
           }),
         }}
       />

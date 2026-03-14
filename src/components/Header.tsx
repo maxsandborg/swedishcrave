@@ -2,11 +2,13 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Search } from 'lucide-react';
 import Logo from './Logo';
+import SearchBar from './SearchBar';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
 
   const navLinks = [
     { label: 'Candy', href: '/candy' },
@@ -23,14 +25,14 @@ export default function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="hover:opacity-90 transition-opacity"
+            className="hover:opacity-90 transition-opacity flex-shrink-0"
           >
             <Logo size="sm" className="block md:hidden" />
             <Logo size="md" className="hidden md:block" />
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex gap-8">
+          <div className="hidden md:flex gap-6 items-center">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -40,17 +42,47 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
+            {/* Desktop Search Toggle */}
+            <button
+              onClick={() => setSearchOpen(!searchOpen)}
+              className="p-2 text-sc-text-muted hover:text-sc-pink transition-colors"
+              aria-label="Toggle search"
+            >
+              {searchOpen ? <X size={20} /> : <Search size={20} />}
+            </button>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 text-sc-text hover:text-sc-primary transition-colors"
-            aria-label="Toggle menu"
-          >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          {/* Mobile Buttons */}
+          <div className="flex items-center gap-2 md:hidden">
+            <button
+              onClick={() => {
+                setSearchOpen(!searchOpen);
+                setIsOpen(false);
+              }}
+              className="p-2 text-sc-text hover:text-sc-primary transition-colors"
+              aria-label="Toggle search"
+            >
+              {searchOpen ? <X size={22} /> : <Search size={22} />}
+            </button>
+            <button
+              onClick={() => {
+                setIsOpen(!isOpen);
+                setSearchOpen(false);
+              }}
+              className="p-2 text-sc-text hover:text-sc-primary transition-colors"
+              aria-label="Toggle menu"
+            >
+              {isOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
+
+        {/* Search Bar (slides in below nav) */}
+        {searchOpen && (
+          <div className="pb-4 pt-1">
+            <SearchBar compact placeholder="Search candy, brands..." />
+          </div>
+        )}
 
         {/* Mobile Navigation */}
         {isOpen && (
