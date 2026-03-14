@@ -79,3 +79,39 @@ export type BestList = {
   description: string
   candySlugs: string[]
 }
+
+export type ArticleSilo =
+  | 'beginner-guides'
+  | 'brand-deep-dives'
+  | 'best-of'
+  | 'vs-comparisons'
+  | 'where-to-buy'
+  | 'health-ingredients'
+  | 'culture-lifestyle'
+  | 'category-deep-dives'
+
+export type ArticleStatus = 'draft' | 'published'
+
+export type Article = {
+  id: number
+  slug: string
+  title: string
+  silo: ArticleSilo
+  seoTitle: string
+  metaDescription: string
+  h1: string
+  intro: string
+  content: string
+  heroImage: string
+  heroImageAlt: string
+  author: string
+  publishedAt: string
+  updatedAt: string
+  estimatedReadTime: number
+  tags: string[]
+  relatedArticleSlugs: string[]
+  relatedCandySlugs: string[]
+  relatedBrandSlugs: string[]
+  priority: 'P1' | 'P2' | 'P3'
+  status: ArticleStatus
+}
