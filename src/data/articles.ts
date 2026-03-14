@@ -4493,9 +4493,511 @@ export const articles: Article[] = [
     updatedAt: '2026-03-14',
     estimatedReadTime: 12,
     tags: ['dye-free candy', 'artificial dyes', 'Red 40', 'FDA ban', 'natural candy', 'Swedish candy', 'clean label', 'food dyes 2026'],
-    relatedArticleSlugs: ['red-40-swedish-candy', 'swedish-food-dyes-vs-american', 'is-swedish-candy-healthier', 'best-swedish-candy-for-kids'],
+    relatedArticleSlugs: ['candy-with-red-40-full-list', 'dye-free-candy-guide', 'swedish-food-dyes-vs-american', 'is-swedish-candy-healthier'],
     relatedCandySlugs: ['bubs-sour-skulls', 'ahlgrens-bilar', 'tutti-frutti', 'marabou-mjolkchoklad'],
     relatedBrandSlugs: ['bubs', 'malaco', 'marabou', 'fazer'],
+    priority: 'P1',
+    status: 'published',
+  },
+  {
+    id: 70,
+    slug: 'dye-free-candy-guide',
+    title: 'Dye-Free Candy: The Ultimate Buyer\'s Guide by Category (2026)',
+    silo: 'health-ingredients',
+    seoTitle: 'Dye-Free Candy Guide 2026: Best Brands by Category | SwedishCrave',
+    metaDescription: 'The complete dye-free candy buyer\'s guide for 2026. Best brands for gummies, chocolate, sour candy, licorice & more — organized by type so you find exactly what you want.',
+    h1: 'Dye-Free Candy: The Ultimate Buyer\'s Guide by Category',
+    intro: 'Looking for candy without artificial dyes but don\'t know where to start? This guide organizes every major dye-free candy brand by category — gummies, chocolate, sour, licorice, and more — so you can find exactly what you\'re craving. Updated for 2026 with every major brand transition and new launch.',
+    content: `<div style="background: linear-gradient(135deg, #F0F7FF 0%, #E8F4FD 100%); border-left: 4px solid #4FACFE; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #2563EB;">Quick Navigation</h3>
+  <p style="margin-bottom: 0;">Jump to the category you're craving: <a href="#gummies">Gummies</a> · <a href="#chocolate">Chocolate</a> · <a href="#sour">Sour Candy</a> · <a href="#licorice">Licorice</a> · <a href="#hard-candy">Hard Candy & Lollipops</a> · <a href="#swedish">Swedish Candy</a> · <a href="#big-brands">Big Brands Going Dye-Free in 2026</a></p>
+</div>
+
+<h2>Why This Guide Is Different</h2>
+
+<p>Most "dye-free candy" lists dump 50 brands into a single page and call it a day. That's not helpful when you're standing in a store craving sour gummies and need to know <em>which specific brands</em> in that category are actually dye-free.</p>
+
+<p>This guide is organized by candy type. Whether you want gummies, chocolate, sour candy, or something else entirely, you'll find the best dye-free options in that exact category — with honest notes on taste, availability, and price. We also highlight <a href="/candy">Swedish candy brands</a> that have been naturally colored for decades, long before the <a href="/blog/candy-without-artificial-dyes">2026 FDA dye ban</a> made it trendy.</p>
+
+<h2>What "Dye-Free" Actually Means</h2>
+
+<p>Before diving in, let's be precise about what we mean by dye-free candy. Truly dye-free candy contains <strong>zero FD&C synthetic color additives</strong> — that means no Red 40, Yellow 5, Yellow 6, Blue 1, Blue 2, or Green 3. These are the petroleum-derived dyes that the FDA is phasing out through 2026.</p>
+
+<p>Instead, dye-free brands use natural color sources:</p>
+
+<ul>
+<li><strong>Fruit and vegetable juices</strong> — beetroot, black carrot, elderberry, purple sweet potato</li>
+<li><strong>Plant extracts</strong> — turmeric (yellow), spirulina (blue-green), annatto (orange), chlorophyll (green)</li>
+<li><strong>Mineral pigments</strong> — titanium dioxide (white, though increasingly avoided)</li>
+<li><strong>Caramel color</strong> — from heated sugar, used for brown tones</li>
+</ul>
+
+<p>Some brands market as "no artificial colors" but still use processed color additives that fall in a gray area. In this guide, every brand listed uses genuinely natural coloring methods.</p>
+
+<h2 id="gummies">🟢 Dye-Free Gummies</h2>
+
+<p>Gummies are the biggest category in dye-free candy, and the quality has improved dramatically. Here are the best options ranked by taste and availability.</p>
+
+<h3>Top Picks: Dye-Free Gummy Brands</h3>
+
+<h4>1. BUBS (Sweden) — Best Overall Gummies</h4>
+<p><strong>Price: $$$ | Availability: Online, specialty stores</strong></p>
+<p><a href="/brands/bubs">BUBS</a> has been making naturally colored gummies in Sweden since the 1990s. Their colors come from spirulina, beetroot juice, carrot concentrate, and curcumin — no synthetic dyes, ever. The texture is distinctly different from American gummies: softer, more flavorful, and less rubbery. Try <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> if you want the candy that went viral on TikTok, or their Watermelon Skulls for something milder.</p>
+<p><strong>Best for:</strong> People who want premium-quality gummies with genuine fruit flavor</p>
+
+<h4>2. Smart Sweets — Best Low-Sugar Option</h4>
+<p><strong>Price: $$ | Availability: Widely available (Target, Whole Foods, CVS)</strong></p>
+<p>Smart Sweets uses natural colors from fruit and vegetable juice concentrates across their entire line — gummy bears, sour gummies, Swedish Fish alternatives, and more. They're also low-sugar (3g per bag), which makes them popular with parents. The texture is slightly different from traditional gummies, a bit firmer, but the flavors are solid.</p>
+<p><strong>Best for:</strong> Low-sugar households, widely available in major retailers</p>
+
+<h4>3. YumEarth — Best for Kids</h4>
+<p><strong>Price: $$ | Availability: Widely available (grocery stores, Amazon)</strong></p>
+<p>YumEarth was one of the first brands to commit to organic, dye-free candy across their entire line. Their gummy bears, fruit snacks, and gummy worms use colors from fruit and vegetable concentrates. They're also free from the top 8 allergens, making them a safe choice for school snacks and party bags.</p>
+<p><strong>Best for:</strong> Kids, school-safe snacks, allergy-conscious families</p>
+
+<h4>4. Black Forest Organic — Best Grocery Store Option</h4>
+<p><strong>Price: $ | Availability: Most grocery stores</strong></p>
+<p>Black Forest's organic line uses juice from real fruit for color. Their organic gummy bears are widely available and affordable — you can find them at most major grocery chains. The taste is good (not great), but the price-to-quality ratio makes them an easy everyday choice.</p>
+<p><strong>Best for:</strong> Budget-friendly everyday gummies</p>
+
+<h4>5. Wholesome — Best Organic Gummies</h4>
+<p><strong>Price: $$ | Availability: Whole Foods, natural grocery stores</strong></p>
+<p>Wholesome makes organic dye-free gummy bears, gummy worms, and seasonal shapes using fruit and vegetable juices for color. Their texture is closer to European-style gummies — softer and less chewy than American brands. The organic certification and Fair Trade sourcing appeal to conscious consumers.</p>
+<p><strong>Best for:</strong> Organic certification matters to you</p>
+
+<h4>6. Surf Sweets — Best Texture</h4>
+<p><strong>Price: $$ | Availability: Natural grocery stores, online</strong></p>
+<p>Made by the same company as Wholesome, Surf Sweets has a slightly different formulation that produces a texture closer to traditional gummy candy. Their sour worms and gummy bears use organic fruit juice for color and have a satisfying chew that some of the healthier brands lack.</p>
+<p><strong>Best for:</strong> Closest texture to conventional gummies</p>
+
+<h2 id="chocolate">🍫 Dye-Free Chocolate</h2>
+
+<p>Good news: most plain chocolate is already dye-free. The problems start with candy-coated chocolate (M&M's, Reese's Pieces) and filled chocolates with colored coatings. Here's what to look for.</p>
+
+<h3>Top Picks: Dye-Free Chocolate Brands</h3>
+
+<h4>1. Marabou (Sweden) — Best Milk Chocolate</h4>
+<p><a href="/brands/marabou">Marabou</a> makes what many consider the best milk chocolate in the world. Their <a href="/candy/marabou-mjolkchoklad">Mjölkchoklad</a> bar uses real cocoa butter (not vegetable oils like many American brands) and has never contained artificial dyes. The creamy, rich flavor puts most American chocolate to shame. Available through Swedish candy importers and specialty stores.</p>
+<p><strong>Best for:</strong> Chocolate purists who want the best milk chocolate available</p>
+
+<h4>2. Unreal Candy — Best American Chocolate</h4>
+<p><strong>Price: $$ | Availability: Target, Whole Foods, grocery stores</strong></p>
+<p>Unreal makes dye-free versions of classic American chocolate candy: chocolate gems (M&M's alternative), peanut butter cups, and chocolate bars. No artificial colors, flavors, or preservatives. The chocolate quality is noticeably better than the brands they're replacing, and they're widely available.</p>
+<p><strong>Best for:</strong> Replacing M&M's and Reese's with a dye-free version</p>
+
+<h4>3. Hu Kitchen — Best Premium Chocolate</h4>
+<p><strong>Price: $$$ | Availability: Whole Foods, specialty stores</strong></p>
+<p>Hu makes "no artificial anything" chocolate — no dyes, no refined sugar, no emulsifiers. Their bars and chocolate-covered snacks use minimal ingredients and taste incredible. The price is premium, but the ingredient quality justifies it for people who care about clean labels.</p>
+<p><strong>Best for:</strong> Clean-label enthusiasts willing to pay premium</p>
+
+<h4>4. Justin's — Best Peanut Butter Cups</h4>
+<p><strong>Price: $$ | Availability: Widely available</strong></p>
+<p>Justin's organic peanut butter cups use no artificial colors and taste better than Reese's (fight us). The chocolate is darker and richer, the peanut butter filling is creamier, and they come in regular, dark, and white chocolate varieties.</p>
+<p><strong>Best for:</strong> Peanut butter cup lovers</p>
+
+<h4>5. Fazer (Finland) — Best European Chocolate</h4>
+<p><a href="/brands/fazer">Fazer's</a> Karl Fazer Blue bar is Finland's most famous chocolate and has never used artificial dyes. Like Marabou, it uses real cocoa butter and real vanilla, producing a distinctly creamy and complex flavor. Available through Nordic food importers.</p>
+<p><strong>Best for:</strong> European chocolate fans, gift-giving</p>
+
+<h2 id="sour">🍋 Dye-Free Sour Candy</h2>
+
+<p>Sour candy is where the dye-free transition has been most dramatic — traditional sour candy like Sour Patch Kids and Warheads rely heavily on artificial colors. Here are the best natural alternatives.</p>
+
+<h3>Top Picks: Dye-Free Sour Brands</h3>
+
+<h4>1. BUBS Sour Skulls (Sweden) — Best Sour Candy Period</h4>
+<p><a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> are the reason Swedish candy went viral on TikTok. The sour coating is intense — more mouth-puckering than Sour Patch Kids — and the gummy underneath is soft and flavorful. All colors come from natural sources: spirulina, beetroot, black carrot, and curcumin. No synthetic dyes have ever been used. If you only try one dye-free sour candy, make it this one.</p>
+<p><strong>Best for:</strong> Sour candy enthusiasts, TikTok candy fans</p>
+
+<h4>2. Smart Sweets Sour Blast Buddies — Best Low-Sugar Sour</h4>
+<p><strong>Price: $$ | Availability: Widely available</strong></p>
+<p>Smart Sweets' Sour Blast Buddies are their take on Sour Patch Kids, and they're surprisingly good. Natural colors, low sugar (3g per bag), and a genuine sour-then-sweet flavor arc. The texture is different from traditional sour candy — more gummy than chewy — but the sour level is satisfying.</p>
+<p><strong>Best for:</strong> Sour Patch Kids replacement with low sugar</p>
+
+<h4>3. YumEarth Sour Twists — Best for Kids</h4>
+<p><strong>Price: $$ | Availability: Grocery stores, Amazon</strong></p>
+<p>YumEarth's sour twists are mildly sour (not face-contorting), making them perfect for kids. Natural colors from fruit juice, top-8-allergen-free, and individually wrapped for convenience. The watermelon and strawberry flavors are favorites.</p>
+<p><strong>Best for:</strong> Kids, lunchbox snacks</p>
+
+<h4>4. Surf Sweets Sour Worms — Best Texture</h4>
+<p><strong>Price: $$ | Availability: Natural grocery stores</strong></p>
+<p>If you miss the texture of traditional sour gummy worms, Surf Sweets comes closest. Organic fruit juice for color, a satisfying chewy texture, and a good sour coating that doesn't disappear in 2 seconds. The dual-flavor format (two colors per worm) works well.</p>
+<p><strong>Best for:</strong> Traditional sour worm texture</p>
+
+<h2 id="licorice">⬛ Dye-Free Licorice</h2>
+
+<p>Most authentic licorice is already dye-free — real licorice root extract is naturally dark. The problems come from "licorice-style" candy (like Red Vines and Twizzlers) that are basically flavored sugar tubes with artificial color.</p>
+
+<h3>Top Picks: Dye-Free Licorice Brands</h3>
+
+<h4>1. Malaco (Sweden) — Best Authentic Licorice</h4>
+<p><a href="/brands/malaco">Malaco</a> makes real licorice with real licorice root extract and natural coloring. Their range spans from mild sweet licorice to extreme salmiak that'll test your limits. If you want to understand what licorice actually tastes like (hint: not like Twizzlers), start with Malaco. See our <a href="/blog/best-swedish-licorice">complete Swedish licorice guide</a> for intensity ratings.</p>
+<p><strong>Best for:</strong> Authentic licorice lovers</p>
+
+<h4>2. American Licorice Company — Best American Option</h4>
+<p><strong>Price: $ | Availability: Widely available</strong></p>
+<p>American Licorice Company offers a dye-free line that includes twists and bites without synthetic colors. They use vegetable-based colors for their fruity varieties. Not as complex as Scandinavian licorice, but much more accessible at mainstream retailers.</p>
+<p><strong>Best for:</strong> Traditional American licorice taste, dye-free</p>
+
+<h4>3. Panda Licorice (Finland) — Best Natural Licorice</h4>
+<p><strong>Price: $$ | Availability: Natural grocery stores, Amazon</strong></p>
+<p>Panda makes soft licorice using only licorice root, wheat flour, sugar, and molasses — four ingredients total. No artificial anything. The texture is softer and more delicate than American licorice, with a genuine licorice flavor that's mild and approachable.</p>
+<p><strong>Best for:</strong> Minimal ingredients, gentle licorice flavor</p>
+
+<h2 id="hard-candy">🍭 Dye-Free Hard Candy & Lollipops</h2>
+
+<h4>1. YumEarth Lollipops — Best Lollipops</h4>
+<p><strong>Price: $ | Availability: Everywhere</strong></p>
+<p>YumEarth lollipops are the gold standard of dye-free hard candy. Organic, naturally colored with fruit juice, and available in huge variety packs. Flavors like pomegranate, watermelon, and mango are standouts. These are the go-to for Halloween, birthday parties, and doctor's offices.</p>
+<p><strong>Best for:</strong> Parties, Halloween, everyday lollipops</p>
+
+<h4>2. Zollipops — Best for Dental Health</h4>
+<p><strong>Price: $$ | Availability: Amazon, Whole Foods</strong></p>
+<p>Zollipops are sugar-free, dye-free lollipops sweetened with xylitol and erythritol. They're marketed as "clean teeth candy" because xylitol actually helps prevent cavities. Natural colors, no artificial flavors, and dentist-recommended.</p>
+<p><strong>Best for:</strong> Sugar-free, dental-conscious families</p>
+
+<h4>3. Dr. John's Candies — Best Sugar-Free Hard Candy</h4>
+<p><strong>Price: $$ | Availability: Online, specialty stores</strong></p>
+<p>Dr. John's makes sugar-free hard candies and lollipops colored with natural sources. Wide flavor variety including butterscotch, cinnamon, and fruit flavors. Popular with diabetics and people avoiding sugar.</p>
+<p><strong>Best for:</strong> Sugar-free hard candy variety</p>
+
+<h2 id="swedish">🇸🇪 Swedish Candy: Dye-Free Before It Was a Trend</h2>
+
+<p>Here's something most dye-free guides miss: <strong>Swedish candy has been naturally colored for decades</strong>. While American candy companies scramble to reformulate, Swedish brands like BUBS, Malaco, and Cloetta were already using beetroot, spirulina, and carrot extract long before the FDA got involved.</p>
+
+<p>This isn't marketing spin — it's a fundamental difference in how Scandinavian countries regulate food. The EU has required warning labels on artificial dyes since 2010, which pushed most European candy makers to switch to natural colors years ago. Sweden went even further, with consumer culture that actively rejects artificial additives.</p>
+
+<p>If you're looking for dye-free candy, <a href="/candy">Swedish candy is the easiest shortcut</a> — nearly everything from major Swedish brands is already naturally colored.</p>
+
+<h3>Best Swedish Dye-Free Candy to Start With</h3>
+
+<div style="background: linear-gradient(135deg, #FFF4E6 0%, #FFE8CC 100%); border-left: 4px solid #D4A574; padding: 20px; margin: 20px 0; border-radius: 8px;">
+  <ul style="margin: 0; padding-left: 20px;">
+    <li><strong><a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a></strong> — Sour gummies, viral on TikTok, naturally colored with spirulina and beetroot</li>
+    <li><strong><a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a></strong> — Marshmallow cars, Sweden's #1 candy, colored with plant extracts</li>
+    <li><strong><a href="/candy/marabou-mjolkchoklad">Marabou Mjölkchoklad</a></strong> — Creamy milk chocolate, no dyes needed</li>
+    <li><strong><a href="/candy/tutti-frutti">Tutti Frutti</a></strong> — Classic fruit gummies, colored with fruit and vegetable concentrates</li>
+    <li><strong><a href="/candy/djungelvraal">Djungelvrål</a></strong> — Salty licorice for the adventurous, naturally dark</li>
+  </ul>
+</div>
+
+<p>Explore our full <a href="/candy">Swedish candy collection</a> or read <a href="/blog/what-is-swedish-candy">What Is Swedish Candy?</a> to learn more about why Swedish candy is made differently.</p>
+
+<h2 id="big-brands">Big Brands Going Dye-Free in 2026</h2>
+
+<p>The biggest candy news of 2026 is that major American brands are finally removing synthetic dyes. Here's what's confirmed:</p>
+
+<h3>Mars Wrigley</h3>
+<p>Mars announced that <strong>M&M's Chocolate, Skittles Original, Extra Gum Spearmint, and Starburst Original</strong> will be available without FD&C colors starting in 2026. Important detail: the original dyed versions will still be sold alongside the new versions, so check the packaging carefully.</p>
+
+<h3>General Mills</h3>
+<p>General Mills is removing synthetic dyes from candy products including Fruit Roll-Ups and Fruit Gushers. Transitional products are hitting shelves throughout 2026.</p>
+
+<h3>Kraft Heinz</h3>
+<p>Announced dye removal plans in June 2025, affecting products across their portfolio.</p>
+
+<h3>The Hershey Company</h3>
+<p>Hershey announced dye reduction plans for select products, though the timeline is less aggressive than Mars.</p>
+
+<h3>PepsiCo (Frito-Lay)</h3>
+<p>Pledged to reduce synthetic dyes across snack brands, affecting candy-adjacent products.</p>
+
+<div style="background: linear-gradient(135deg, #FFF0F5 0%, #FFE0EC 100%); border-left: 4px solid #FF2D87; padding: 20px; margin: 20px 0; border-radius: 8px;">
+  <h4 style="margin-top: 0; color: #FF2D87;">⚠️ "Dye-Free Versions" vs. "Fully Reformulated"</h4>
+  <p style="margin-bottom: 0;">Most big brands are releasing dye-free <em>versions</em> alongside their original products — not replacing them entirely. You'll need to look for specific packaging (usually labeled "no artificial colors" or "made with natural flavors") to get the dye-free version. Don't assume the standard package has changed.</p>
+</div>
+
+<h2>How to Read Labels Like a Pro</h2>
+
+<p>The fastest way to identify dye-free candy is to check the ingredient list for these red flags:</p>
+
+<h3>Avoid These (Synthetic Dyes)</h3>
+<ul>
+<li><strong>Red 40</strong> (Allura Red) — The most common, found in nearly everything red, pink, or orange</li>
+<li><strong>Yellow 5</strong> (Tartrazine) — Common in yellow and green candy</li>
+<li><strong>Yellow 6</strong> (Sunset Yellow) — Orange and yellow tones</li>
+<li><strong>Blue 1</strong> (Brilliant Blue) — Blue and green candy</li>
+<li><strong>Blue 2</strong> (Indigo Carmine) — Used in purple and blue candies</li>
+<li><strong>Green 3</strong> (Fast Green) — Less common but still used</li>
+</ul>
+
+<h3>These Are Natural (Safe)</h3>
+<ul>
+<li>Fruit juice (for color), vegetable juice (for color)</li>
+<li>Beetroot extract / beet juice, turmeric / curcumin</li>
+<li>Spirulina extract, annatto, beta-carotene</li>
+<li>Black carrot juice, elderberry juice, purple sweet potato</li>
+<li>Caramel color, chlorophyll</li>
+</ul>
+
+<p>For a deeper dive into the regulatory differences between Swedish and American candy, read our guide to <a href="/blog/candy-without-artificial-dyes">candy without artificial dyes</a> and the <a href="/blog/swedish-food-dyes-vs-american">Swedish vs. American food dye comparison</a>.</p>
+
+<h2>Where to Buy Dye-Free Candy</h2>
+
+<h3>Mainstream Retailers</h3>
+<p><strong>Target, Walmart, CVS, Walgreens</strong> — Increasingly stocking Smart Sweets, YumEarth, Black Forest Organic, and Unreal. Look for a "natural" or "better-for-you" candy section, often separate from the main candy aisle.</p>
+
+<h3>Natural Grocery Stores</h3>
+<p><strong>Whole Foods, Sprouts, Natural Grocers, Trader Joe's</strong> — Best in-store selection. Nearly all candy at Whole Foods is dye-free. Trader Joe's has excellent house-brand gummies and chocolates without synthetic colors.</p>
+
+<h3>Online Retailers</h3>
+<p><strong>Amazon, iHerb, Thrive Market</strong> — Widest selection and often better prices on bulk purchases. Amazon has most brands listed in this guide available with Prime shipping.</p>
+
+<h3>Swedish Candy Specifically</h3>
+<p>For Swedish brands like BUBS, Malaco, and Marabou, check our <a href="/where-to-buy">where to buy Swedish candy guide</a> for recommended importers and online shops that ship to the US.</p>
+
+<h2>Dye-Free Candy FAQ</h2>
+
+<h3>Is dye-free candy healthier?</h3>
+<p>Dye-free candy is still candy — it has sugar, calories, and isn't health food. The benefit is avoiding synthetic dyes that some studies link to behavioral issues in children and that the FDA is phasing out. Natural colors don't make candy nutritious, but they do remove one category of unnecessary additives.</p>
+
+<h3>Does dye-free candy taste different?</h3>
+<p>Sometimes, yes. Natural colors can slightly affect flavor (turmeric has a faint earthiness, beetroot is mildly sweet), but in practice most people can't tell the difference in finished candy. Swedish candy brands have been using natural colors for years with no taste complaints.</p>
+
+<h3>Why is dye-free candy more expensive?</h3>
+<p>Natural color sources cost more than synthetic dyes, and dye-free brands tend to use higher-quality ingredients overall. As demand increases and more brands switch (especially the big brands in 2026), prices should come down. Swedish candy is more expensive mainly due to import costs, not ingredient costs.</p>
+
+<h3>Is all European candy dye-free?</h3>
+<p>Not all, but most major European candy brands use natural colors because the EU requires warning labels on products containing synthetic dyes (since 2010). This regulation made it commercially unattractive to use artificial dyes in Europe, pushing most manufacturers to switch. <a href="/blog/swedish-food-dyes-vs-american">See our full comparison</a>.</p>
+
+<h3>What about Red 40 specifically?</h3>
+<p>Red 40 (Allura Red) is the single most common artificial dye in American candy. It's being phased out along with other FD&C dyes. For a specific list of candies that contain Red 40 and their dye-free alternatives, see our <a href="/blog/candy-with-red-40-full-list">Red 40 in candy guide</a>.</p>`,
+    heroImage: '/images/blog/dye-free-candy-guide.jpg',
+    heroImageAlt: 'Colorful naturally-dyed candy organized by category — gummies, chocolate, sour, and licorice',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    estimatedReadTime: 14,
+    tags: ['dye-free candy', 'candy guide', 'natural candy', 'buying guide', 'Swedish candy', 'gummies', 'chocolate', 'sour candy', 'clean label'],
+    relatedArticleSlugs: ['candy-without-artificial-dyes', 'candy-with-red-40-full-list', 'red-40-swedish-candy', 'swedish-food-dyes-vs-american'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'ahlgrens-bilar', 'marabou-mjolkchoklad', 'tutti-frutti'],
+    relatedBrandSlugs: ['bubs', 'malaco', 'marabou', 'fazer'],
+    priority: 'P1',
+    status: 'published',
+  },
+  {
+    id: 71,
+    slug: 'candy-with-red-40-full-list',
+    title: 'Red 40 in Candy: Full List of Products That Contain It (& What to Buy Instead)',
+    silo: 'health-ingredients',
+    seoTitle: 'Candy With Red 40: Full List + Red 40-Free Alternatives 2026 | SwedishCrave',
+    metaDescription: 'Complete list of popular candies that contain Red 40 dye and the best Red 40-free alternatives. Includes Skittles, M&M\'s, Sour Patch Kids, and 30+ more brands.',
+    h1: 'Red 40 in Candy: Every Product That Contains It (& Better Alternatives)',
+    intro: 'Red 40 (Allura Red AC) is the single most common artificial dye in American candy — found in Skittles, M&M\'s, Starburst, Hot Tamales, and dozens more. With the FDA phasing it out and parents demanding cleaner options, here\'s every major candy that contains Red 40 and exactly what to buy instead.',
+    content: `<div style="background: linear-gradient(135deg, #FFF0F5 0%, #FFE0EC 100%); border-left: 4px solid #FF2D87; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #FF2D87;">Key Takeaway</h3>
+  <p style="margin-bottom: 0;">Red 40 is in most American candy that's red, pink, orange, or even brown. Swedish candy brands have <strong>never used Red 40</strong> — they use beetroot, black carrot, and other natural colorants instead. If you want to avoid Red 40 entirely, <a href="/candy">Swedish candy</a> is the fastest shortcut.</p>
+</div>
+
+<h2>What Is Red 40 and Why Should You Care?</h2>
+
+<p>Red 40 (also called Allura Red AC, FD&C Red No. 40, or E129) is a petroleum-derived synthetic dye used to give food a bright red, pink, or orange color. It's the most widely used artificial food dye in the United States, appearing in candy, beverages, baked goods, and even medications.</p>
+
+<p>Here's why it's under scrutiny:</p>
+
+<ul>
+<li><strong>FDA action:</strong> The FDA is phasing out FD&C synthetic color additives, including Red 40, as part of broader regulatory changes taking effect in 2026</li>
+<li><strong>EU warning labels:</strong> Since 2010, products containing Red 40 in the European Union must carry a warning label stating the dye "may have an adverse effect on activity and attention in children"</li>
+<li><strong>Behavioral concerns:</strong> Multiple studies have found associations between artificial dyes (including Red 40) and hyperactivity in children, particularly those with ADHD</li>
+<li><strong>Already banned or restricted:</strong> Several European countries have effectively eliminated Red 40 from most food products through labeling requirements and consumer pressure</li>
+</ul>
+
+<p>Red 40 doesn't add any flavor, nutrition, or preservation benefit — it exists purely for cosmetic color. That's why many parents and consumers are choosing to avoid it.</p>
+
+<h2>Complete List: Candy That Contains Red 40</h2>
+
+<p>This list covers the most popular American candies that contain Red 40 as of 2026. Note that some brands are actively transitioning to dye-free versions (marked with ⚡), so always check the current ingredient label.</p>
+
+<h3>Gummy & Chewy Candy with Red 40</h3>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background: #f8f9fa; border-bottom: 2px solid #dee2e6;">
+<th style="padding: 12px; text-align: left;">Candy</th>
+<th style="padding: 12px; text-align: left;">Brand</th>
+<th style="padding: 12px; text-align: left;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Skittles Original</td><td style="padding: 10px;">Mars</td><td style="padding: 10px;">⚡ Dye-free version coming 2026</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Starburst Original</td><td style="padding: 10px;">Mars</td><td style="padding: 10px;">⚡ Dye-free version coming 2026</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Sour Patch Kids</td><td style="padding: 10px;">Mondelez</td><td style="padding: 10px;">Still contains Red 40</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Swedish Fish</td><td style="padding: 10px;">Mondelez</td><td style="padding: 10px;">Still contains Red 40</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Haribo Goldbears (US)</td><td style="padding: 10px;">Haribo</td><td style="padding: 10px;">US version has Red 40 (EU version doesn't)</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Trolli Sour Brite Crawlers</td><td style="padding: 10px;">Ferrara</td><td style="padding: 10px;">Still contains Red 40</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Fruit Roll-Ups</td><td style="padding: 10px;">General Mills</td><td style="padding: 10px;">⚡ Transitioning 2026</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Fruit Gushers</td><td style="padding: 10px;">General Mills</td><td style="padding: 10px;">⚡ Transitioning 2026</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Mike and Ike</td><td style="padding: 10px;">Just Born</td><td style="padding: 10px;">Still contains Red 40</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Hot Tamales</td><td style="padding: 10px;">Just Born</td><td style="padding: 10px;">Still contains Red 40</td></tr>
+</tbody>
+</table>
+
+<h3>Chocolate & Candy-Coated with Red 40</h3>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background: #f8f9fa; border-bottom: 2px solid #dee2e6;">
+<th style="padding: 12px; text-align: left;">Candy</th>
+<th style="padding: 12px; text-align: left;">Brand</th>
+<th style="padding: 12px; text-align: left;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">M&M's (all varieties)</td><td style="padding: 10px;">Mars</td><td style="padding: 10px;">⚡ Dye-free version coming 2026</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Reese's Pieces</td><td style="padding: 10px;">Hershey</td><td style="padding: 10px;">Still contains Red 40</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Nerds</td><td style="padding: 10px;">Ferrara</td><td style="padding: 10px;">Still contains Red 40</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Smarties (US)</td><td style="padding: 10px;">Smarties Candy Co</td><td style="padding: 10px;">Still contains Red 40</td></tr>
+</tbody>
+</table>
+
+<h3>Hard Candy & Lollipops with Red 40</h3>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background: #f8f9fa; border-bottom: 2px solid #dee2e6;">
+<th style="padding: 12px; text-align: left;">Candy</th>
+<th style="padding: 12px; text-align: left;">Brand</th>
+<th style="padding: 12px; text-align: left;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Jolly Ranchers</td><td style="padding: 10px;">Hershey</td><td style="padding: 10px;">Still contains Red 40</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Lifesavers</td><td style="padding: 10px;">Mars</td><td style="padding: 10px;">Still contains Red 40</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Dum Dum Pops</td><td style="padding: 10px;">Spangler</td><td style="padding: 10px;">Still contains Red 40</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Tootsie Roll Pops</td><td style="padding: 10px;">Tootsie Roll</td><td style="padding: 10px;">Still contains Red 40</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Ring Pops</td><td style="padding: 10px;">Bazooka</td><td style="padding: 10px;">Still contains Red 40</td></tr>
+</tbody>
+</table>
+
+<h3>Licorice & Twists with Red 40</h3>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background: #f8f9fa; border-bottom: 2px solid #dee2e6;">
+<th style="padding: 12px; text-align: left;">Candy</th>
+<th style="padding: 12px; text-align: left;">Brand</th>
+<th style="padding: 12px; text-align: left;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Twizzlers (strawberry)</td><td style="padding: 10px;">Hershey</td><td style="padding: 10px;">Still contains Red 40</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Red Vines</td><td style="padding: 10px;">American Licorice</td><td style="padding: 10px;">⚡ Dye-free line available</td></tr>
+</tbody>
+</table>
+
+<h2>Red 40-Free Alternatives: What to Buy Instead</h2>
+
+<p>For every candy with Red 40, there's a naturally colored alternative that tastes just as good (often better). Here are the best swaps organized by what you're replacing.</p>
+
+<h3>Instead of Skittles → Try BUBS Sour Skulls</h3>
+<p>If you love the sour-then-sweet flavor arc of Skittles, <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> deliver a more intense version with zero artificial dyes. The sour hit is stronger, the gummy is softer, and the flavors are more complex because they come from real fruit extracts. Colors are from spirulina, beetroot juice, and curcumin. This is the swap that converts people — once you try BUBS, standard Skittles taste flat.</p>
+
+<h3>Instead of Sour Patch Kids → Try Smart Sweets Sour Blast Buddies</h3>
+<p>Smart Sweets' Sour Blast Buddies nail the sour-then-sweet format with natural colors from fruit and vegetable juice. They're also low sugar (3g per bag vs. 44g in Sour Patch Kids). Available at Target, Whole Foods, and CVS.</p>
+
+<h3>Instead of M&M's → Try Unreal Chocolate Gems</h3>
+<p>Unreal's chocolate gems are the closest dye-free match to M&M's — candy-coated chocolate pieces with natural colors. The chocolate is actually better quality (darker, richer), and they're widely available. Mars is also releasing dye-free M&M's in 2026, so you'll soon have the original as a Red 40-free option too.</p>
+
+<h3>Instead of Swedish Fish → Try Tutti Frutti</h3>
+<p>The irony of "Swedish Fish" is that they're not actually Swedish — they're made by Mondelez in the US and contain Red 40. Real Swedish gummy candy like <a href="/candy/tutti-frutti">Tutti Frutti</a> is naturally colored with fruit and vegetable concentrates and has a far more complex flavor profile.</p>
+
+<h3>Instead of Reese's Pieces → Try Justin's Peanut Butter Cups</h3>
+<p>Justin's organic peanut butter cups use no artificial colors and have better chocolate and peanut butter quality than Reese's. They come in regular, dark, and white chocolate varieties.</p>
+
+<h3>Instead of Haribo (US) → Try Haribo (European) or BUBS</h3>
+<p>Here's a frustrating fact: Haribo makes different versions of the same candy for different markets. US Haribo Goldbears contain Red 40 and other synthetic dyes. European Haribo uses natural colors. If you can find imported European Haribo (check specialty stores), it's the same candy without the dyes. Otherwise, <a href="/brands/bubs">BUBS gummies</a> are a superior Swedish alternative.</p>
+
+<h3>Instead of Jolly Ranchers → Try YumEarth Hard Candies</h3>
+<p>YumEarth's organic hard candies and lollipops are colored with fruit juice and have punchy flavors that hold up against Jolly Ranchers. They're cheaper than you'd expect and available at most grocery stores.</p>
+
+<h3>Instead of Twizzlers → Try Panda Licorice</h3>
+<p>Twizzlers strawberry contains Red 40 and barely tastes like licorice. <a href="/blog/best-swedish-licorice">Panda Licorice</a> from Finland is made with only four ingredients (licorice root, wheat flour, sugar, molasses) and has zero artificial anything. For something more adventurous, explore <a href="/brands/malaco">Malaco's Swedish licorice</a> range.</p>
+
+<h2>The Swedish Candy Advantage</h2>
+
+<p>One of the easiest ways to avoid Red 40 entirely is to switch to Swedish candy. Here's why:</p>
+
+<p>Swedish candy brands like <a href="/brands/bubs">BUBS</a>, <a href="/brands/malaco">Malaco</a>, Cloetta, and <a href="/brands/fazer">Fazer</a> have <strong>never used Red 40</strong> or any other FD&C synthetic dyes. The EU's warning label requirement (since 2010) made synthetic dyes commercially toxic in Europe, and Scandinavian consumer culture pushed for natural ingredients even before that.</p>
+
+<p>Instead of Red 40 for red and pink colors, Swedish brands use:</p>
+
+<ul>
+<li><strong>Beetroot juice</strong> — Rich, natural red-pink color</li>
+<li><strong>Black carrot concentrate</strong> — Deep purple-red tones</li>
+<li><strong>Elderberry</strong> — Natural dark red</li>
+<li><strong>Carrot concentrate</strong> — Orange-red tones</li>
+</ul>
+
+<p>These natural colorants actually contribute subtle flavor notes that make Swedish candy taste more complex than artificially colored American alternatives. Browse our complete <a href="/candy">Swedish candy collection</a> — every product reviewed is Red 40-free.</p>
+
+<h2>How to Spot Red 40 on Labels</h2>
+
+<p>Red 40 goes by several names on ingredient labels. Look for any of these:</p>
+
+<ul>
+<li><strong>Red 40</strong> — Most common listing in the US</li>
+<li><strong>FD&C Red No. 40</strong> — Full regulatory name</li>
+<li><strong>Allura Red AC</strong> — Chemical name</li>
+<li><strong>E129</strong> — European designation (rare on US labels)</li>
+<li><strong>CI 16035</strong> — Color Index number</li>
+</ul>
+
+<p>These will appear in the ingredient list, typically near the end alongside other color additives. If the label says "artificial colors" or "color added" without specifying which one, it almost certainly includes Red 40 if the candy is red, pink, orange, or purple.</p>
+
+<h3>Tricky Labels to Watch For</h3>
+
+<p>Some candies use Red 40 in colors you wouldn't expect:</p>
+
+<ul>
+<li><strong>Brown candy</strong> — Some chocolate-colored candy uses Red 40 mixed with Yellow 5 and Blue 1 to create brown</li>
+<li><strong>Purple candy</strong> — Often a mix of Red 40 and Blue 1</li>
+<li><strong>Orange candy</strong> — Frequently Red 40 plus Yellow 6</li>
+<li><strong>Green candy</strong> — Some green candy uses Red 40 mixed with other dyes to create specific shades</li>
+</ul>
+
+<p>The safest approach is to always check the ingredient list rather than relying on the candy's apparent color.</p>
+
+<h2>Red 40 and Children: What Parents Need to Know</h2>
+
+<p>The most common reason parents seek out Red 40-free candy is concern about behavioral effects in children. Here's what the research says:</p>
+
+<p>A landmark 2007 study (the "Southampton study") published in <em>The Lancet</em> found that mixtures of artificial food dyes — including Red 40 — increased hyperactivity in children aged 3 and 8-9. This study was significant enough to prompt the EU to require warning labels on products containing these dyes.</p>
+
+<p>The FDA has taken a more cautious position, stating that while some children may be sensitive to artificial dyes, the evidence doesn't show a causal link for the general population. However, the FDA's 2026 phase-out of synthetic food dyes suggests the regulatory consensus is shifting.</p>
+
+<p>If your child seems more hyperactive or has difficulty focusing after eating candy with artificial colors, eliminating Red 40 is a reasonable first step. Many parents report noticeable behavioral improvements after removing synthetic dyes from their children's diets, even if the scientific evidence is still being debated.</p>
+
+<p>For kid-friendly dye-free candy options, see our <a href="/blog/dye-free-candy-guide">complete dye-free candy buyer's guide</a> — each category includes specific picks that kids love.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is Red 40 actually dangerous?</h3>
+<p>Red 40 is FDA-approved and considered safe in small quantities. The concerns are primarily around (1) behavioral effects in sensitive children, (2) the fact that it's derived from petroleum with no nutritional benefit, and (3) the EU's precautionary approach of requiring warning labels. It's not acutely toxic, but many consumers prefer to avoid it on principle.</p>
+
+<h3>What's the difference between Red 40 and Red 3?</h3>
+<p>Red 3 (Erythrosine) and Red 40 (Allura Red AC) are different dyes. Red 3 was banned by the FDA in January 2025 due to evidence linking it to cancer in lab animals. Red 40 is being phased out as part of the broader FD&C color review but for different reasons (primarily behavioral concerns in children). Both are being removed from the food supply.</p>
+
+<h3>Does Red 40-free candy taste different?</h3>
+<p>Most people can't tell the difference in a blind taste test. Natural red colors (like beetroot or black carrot) can add very subtle flavor notes, but in the context of candy with strong flavors, the difference is essentially undetectable. Swedish candy brands have been using natural red colors for decades with no taste complaints.</p>
+
+<h3>Will M&M's and Skittles still taste the same without Red 40?</h3>
+<p>Mars says yes. Their dye-free versions use natural color sources to achieve similar visual appearance, and the flavors and textures remain the same. Early reviews suggest the colors are slightly more muted (less neon) but the taste is identical.</p>
+
+<h3>Can I buy Red 40-free candy at regular stores?</h3>
+<p>Yes, increasingly so. Target, Walmart, and CVS all stock dye-free brands like Smart Sweets and YumEarth. Whole Foods and Trader Joe's have the widest in-store selection. For Swedish candy brands, check our <a href="/where-to-buy">where to buy guide</a>. Online retailers like Amazon carry virtually every brand mentioned in this article.</p>
+
+<h3>What about other artificial dyes — should I avoid all of them?</h3>
+<p>If you're avoiding Red 40, you may want to avoid all six FD&C dyes: Red 40, Yellow 5, Yellow 6, Blue 1, Blue 2, and Green 3. They share similar concerns, and brands that are Red 40-free tend to be free of all synthetic dyes. Our <a href="/blog/candy-without-artificial-dyes">complete guide to candy without artificial dyes</a> covers all six dyes and the best alternatives.</p>`,
+    heroImage: '/images/blog/red-40-candy-list.jpg',
+    heroImageAlt: 'Comparison of candy with Red 40 dye versus naturally colored alternatives',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    estimatedReadTime: 13,
+    tags: ['Red 40', 'Allura Red', 'artificial dyes', 'dye-free candy', 'food dyes', 'candy alternatives', 'Swedish candy', 'kids candy'],
+    relatedArticleSlugs: ['candy-without-artificial-dyes', 'dye-free-candy-guide', 'swedish-food-dyes-vs-american', 'is-swedish-candy-healthier'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'ahlgrens-bilar', 'tutti-frutti', 'marabou-mjolkchoklad'],
+    relatedBrandSlugs: ['bubs', 'malaco', 'marabou'],
     priority: 'P1',
     status: 'published',
   },
