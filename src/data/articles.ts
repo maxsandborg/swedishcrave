@@ -5372,6 +5372,471 @@ export const articles: Article[] = [
     priority: 'P1',
     status: 'published',
   },
+  {
+    id: 77,
+    slug: 'fda-food-dye-ban-2026',
+    title: 'The FDA Food Dye Ban: What\'s Actually Happening in 2026',
+    silo: 'health-ingredients',
+    seoTitle: 'FDA Food Dye Ban 2026: Timeline, Affected Products & What to Know | SwedishCrave',
+    metaDescription: 'The FDA is phasing out synthetic food dyes in 2026. Here\'s exactly what\'s banned, the timeline, which products are affected, and what\'s replacing them.',
+    h1: 'The FDA Food Dye Ban: What\'s Actually Happening in 2026',
+    intro: 'The FDA\'s decision to phase out petroleum-based synthetic food dyes is the biggest change to American candy and food in decades. But there\'s a lot of confusion about what\'s actually happening — is it a ban? A phase-out? Voluntary? Here\'s the clear, no-hype breakdown of what\'s changing, when, and what it means for your candy.',
+    content: `<div style="background: linear-gradient(135deg, #FFF0F5 0%, #FFE0EC 100%); border-left: 4px solid #FF2D87; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #FF2D87;">The Key Facts</h3>
+  <ul style="margin-bottom: 0;">
+    <li><strong>Red 3 (Erythrosine):</strong> Actually banned. Revoked by FDA January 2025. Compliance deadline January 2027 (food) / January 2028 (drugs)</li>
+    <li><strong>The "Big Six" synthetic dyes</strong> (Red 40, Yellow 5, Yellow 6, Blue 1, Blue 2, Green 3): Phase-out requested by end of 2026 — but it's <em>voluntary</em>, not a legal ban</li>
+    <li><strong>Orange B and Citrus Red 2:</strong> Being phased out "in the coming months"</li>
+  </ul>
+</div>
+
+<h2>What the FDA Actually Announced</h2>
+
+<p>On April 22, 2025, the FDA announced plans to phase out six petroleum-based synthetic dyes — Blue 1, Blue 2, Green 3, Red 40, Yellow 5, and Yellow 6 — by the end of 2026. HHS Secretary Robert F. Kennedy Jr. framed this as part of a broader "Make America Healthy Again" initiative.</p>
+
+<p>But here's the critical distinction most news coverage gets wrong: <strong>the FDA is not issuing a ban on these six dyes</strong>. Instead, the agency has asked food manufacturers to voluntarily remove them. The FDA is "requesting" and "encouraging" compliance, not mandating it through regulation.</p>
+
+<p>This matters because:</p>
+
+<ul>
+<li>Companies that don't comply face no legal penalty (at least not yet)</li>
+<li>Some products may keep using synthetic dyes past the 2026 target date</li>
+<li>The "ban" language in headlines is technically inaccurate for 6 of the 8 dyes</li>
+</ul>
+
+<h3>Red 3: The Only Actual Ban</h3>
+
+<p>Red 3 (Erythrosine) is the exception — it was genuinely revoked by the FDA in January 2025 due to evidence linking it to thyroid cancer in laboratory animals. This is a real ban with legal compliance deadlines: January 15, 2027 for food products and January 18, 2028 for ingested drugs. Manufacturers <em>must</em> remove Red 3 or face enforcement.</p>
+
+<h2>The Timeline: What's Happening When</h2>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background: #f8f9fa; border-bottom: 2px solid #dee2e6;">
+<th style="padding: 12px; text-align: left;">Date</th>
+<th style="padding: 12px; text-align: left;">Action</th>
+<th style="padding: 12px; text-align: left;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Jan 2025</td><td style="padding: 10px;">FDA revokes Red 3 authorization</td><td style="padding: 10px;">✅ Done — legally binding</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Apr 2025</td><td style="padding: 10px;">FDA announces phase-out of Big Six dyes</td><td style="padding: 10px;">✅ Announced — voluntary request</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Mid 2026</td><td style="padding: 10px;">Nestlé completes dye elimination from US products</td><td style="padding: 10px;">⚡ In progress</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Summer 2026</td><td style="padding: 10px;">General Mills eliminates dyes from cereals/school food</td><td style="padding: 10px;">⚡ In progress</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">2026</td><td style="padding: 10px;">Mars releases dye-free M&M's, Skittles, Starburst</td><td style="padding: 10px;">⚡ Rolling out</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">End 2026</td><td style="padding: 10px;">FDA target date for Big Six voluntary phase-out</td><td style="padding: 10px;">⏳ Target — not enforced</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Jan 2027</td><td style="padding: 10px;">Red 3 compliance deadline for food</td><td style="padding: 10px;">⏳ Legally binding deadline</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px;">Jan 2028</td><td style="padding: 10px;">Red 3 compliance deadline for drugs</td><td style="padding: 10px;">⏳ Legally binding deadline</td></tr>
+</tbody>
+</table>
+
+<h2>The 8 Dyes Being Phased Out</h2>
+
+<h3>Banned (Legal Requirement)</h3>
+<ul>
+<li><strong>Red 3 (Erythrosine / E127)</strong> — The only dye with a legally binding ban. Found in candy corn, some frostings, and maraschino cherries. Linked to thyroid tumors in studies.</li>
+</ul>
+
+<h3>Voluntary Phase-Out (Requested by FDA)</h3>
+<ul>
+<li><strong>Red 40 (Allura Red / E129)</strong> — The most common synthetic dye in American candy. Found in Skittles, M&M's, Sour Patch Kids, and dozens more. <a href="/blog/candy-with-red-40-full-list">Full list of products with Red 40</a></li>
+<li><strong>Yellow 5 (Tartrazine / E102)</strong> — Common in yellow and green candy, also in Mountain Dew, mac & cheese, and chips</li>
+<li><strong>Yellow 6 (Sunset Yellow / E110)</strong> — Used in orange-toned candy and snacks</li>
+<li><strong>Blue 1 (Brilliant Blue / E133)</strong> — Found in blue and some green candy</li>
+<li><strong>Blue 2 (Indigo Carmine / E132)</strong> — Less common, used in some blue candies and pet food</li>
+<li><strong>Green 3 (Fast Green / E143)</strong> — Rare but used in some green candy and baked goods</li>
+</ul>
+
+<h3>Also Being Phased Out</h3>
+<ul>
+<li><strong>Orange B</strong> — Used primarily in hot dog casings</li>
+<li><strong>Citrus Red 2</strong> — Used to color the skin of some oranges</li>
+</ul>
+
+<h2>Which Candy Brands Are Reformulating?</h2>
+
+<p>Major brands that have announced dye-free transitions:</p>
+
+<ul>
+<li><strong>Mars Wrigley:</strong> Dye-free versions of M&M's, Skittles, Starburst, and Extra gum rolling out in 2026. Important: dyed versions will still be sold alongside dye-free versions initially.</li>
+<li><strong>Nestlé USA:</strong> Eliminating all FD&C synthetic dyes from US products by mid-2026</li>
+<li><strong>General Mills:</strong> Removing synthetic dyes from cereals and school food lines by summer 2026</li>
+<li><strong>Kraft Heinz:</strong> Dye reduction plans announced June 2025</li>
+<li><strong>The Hershey Company:</strong> Dye reduction for select products, slower timeline</li>
+</ul>
+
+<p>For a complete guide to which specific candy products are changing, see our <a href="/blog/dye-free-candy-guide">dye-free candy buyer's guide</a>.</p>
+
+<h2>What's Replacing the Synthetic Dyes?</h2>
+
+<p>Companies are switching to natural color alternatives:</p>
+
+<ul>
+<li><strong>Reds/Pinks:</strong> Beetroot juice, black carrot concentrate, elderberry</li>
+<li><strong>Yellows/Oranges:</strong> Turmeric, annatto, beta-carotene, paprika extract</li>
+<li><strong>Blues/Greens:</strong> Spirulina extract, butterfly pea flower, chlorophyll</li>
+<li><strong>Browns:</strong> Caramel color (from heated sugar)</li>
+</ul>
+
+<p>These are the same colorants that <a href="/blog/candy-without-artificial-dyes">Swedish candy companies have used for decades</a>. Brands like <a href="/brands/bubs">BUBS</a> and <a href="/brands/malaco">Malaco</a> were never affected by these changes because they never used synthetic dyes in the first place.</p>
+
+<h2>The Swedish Candy Connection</h2>
+
+<p>The FDA's phase-out is bringing American candy standards closer to what Europe — and particularly Sweden — has practiced for years. The EU has required warning labels on products containing these same dyes since 2010, which effectively pushed most European candy manufacturers to switch to natural alternatives long ago.</p>
+
+<p>This is why Swedish candy is already <a href="/blog/best-natural-candy-brands-2026">among the best natural candy available</a>: the industry adapted to natural colorants decades before American manufacturers were even considering the change. If you want to experience what post-dye-ban candy tastes like, <a href="/candy">Swedish candy is already there</a>.</p>
+
+<h2>FAQ</h2>
+
+<h3>Is the FDA actually banning food dyes?</h3>
+<p>Only Red 3 is legally banned. The other six dyes (Red 40, Yellow 5, Yellow 6, Blue 1, Blue 2, Green 3) are subject to a voluntary phase-out request, not a legal ban. Companies are encouraged but not required to remove them by end of 2026.</p>
+
+<h3>Will my favorite candy disappear?</h3>
+<p>No. Products will be reformulated with natural colors, not discontinued. Some brands (like Mars) are releasing dye-free versions alongside the original while they transition. The candy will still exist — it'll just use different coloring.</p>
+
+<h3>Will candy taste different without synthetic dyes?</h3>
+<p>Dyes don't add flavor, so theoretically no. In practice, switching color sources can subtly affect appearance (colors may be slightly less vivid). Swedish candy brands made this transition years ago with no consumer complaints about taste changes.</p>
+
+<h3>Why is this happening now?</h3>
+<p>A combination of factors: growing consumer demand for clean labels, new leadership at HHS/FDA prioritizing food ingredient safety, state-level bans (California banned Red 3 in 2023 with a 2027 deadline), and increasing scientific evidence about behavioral effects of synthetic dyes in children.</p>`,
+    heroImage: '/images/blog/fda-dye-ban-2026.jpg',
+    heroImageAlt: 'FDA food dye ban timeline showing synthetic dyes being phased out in 2026',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    estimatedReadTime: 10,
+    tags: ['FDA', 'food dye ban', 'Red 3', 'Red 40', 'synthetic dyes', '2026', 'regulation', 'natural colors'],
+    relatedArticleSlugs: ['candy-without-artificial-dyes', 'candy-with-red-40-full-list', 'dye-free-candy-guide', 'best-natural-candy-brands-2026'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'ahlgrens-bilar'],
+    relatedBrandSlugs: ['bubs', 'malaco'],
+    priority: 'P1',
+    status: 'published',
+  },
+  {
+    id: 78,
+    slug: 'swedish-candy-at-ikea-guide',
+    title: 'Swedish Candy at IKEA: Complete Guide to the Food Market (2026)',
+    silo: 'where-to-buy',
+    seoTitle: 'Swedish Candy at IKEA 2026: Everything Worth Buying | SwedishCrave',
+    metaDescription: 'Complete guide to Swedish candy at IKEA\'s food market. Every product worth buying, prices, what to skip, and insider tips for getting the best selection.',
+    h1: 'Swedish Candy at IKEA: Complete Guide to the Food Market',
+    intro: 'IKEA\'s Swedish Food Market is the most accessible place to buy authentic Swedish candy in the US — no online ordering, no shipping wait, just walk in and buy. But not everything in the food market is worth your money. Here\'s exactly what to buy, what to skip, and how to get the most out of your IKEA candy run.',
+    content: `<h2>What IKEA Actually Carries</h2>
+
+<p>IKEA's food market (called "Svensk Mat Marknad" or Swedish Food Market) stocks a rotating selection of authentic Swedish food products, including candy. The selection varies by location and season, but here's what you'll typically find:</p>
+
+<h3>Chocolate (Always Available)</h3>
+
+<h4><a href="/candy/marabou-mjolkchoklad">Marabou Mjölkchoklad</a> — ★★★★★ Must Buy</h4>
+<p><strong>IKEA Price: ~$4-5 (200g bar)</strong></p>
+<p>Sweden's most iconic chocolate. Rich, creamy milk chocolate made with real cocoa butter. This is THE chocolate to buy at IKEA — it's authentic, well-priced, and keeps well. If you've never had Swedish chocolate, this will change your perspective on what milk chocolate can be. Buy 2-3 bars while you're there.</p>
+
+<h4><a href="/candy/daim">Daim</a> — ★★★★★ Must Buy</h4>
+<p><strong>IKEA Price: ~$3-4 (bag) or ~$2 (bar)</strong></p>
+<p>Crunchy almond caramel covered in milk chocolate. IKEA often has the best US prices on Daim — cheaper than Amazon or specialty stores. The bags of Daim bites are perfect for sharing. The bars are great for individual snacking.</p>
+
+<h4>Marabou Variant Bars — ★★★★☆ Recommended</h4>
+<p><strong>IKEA Price: ~$4-6</strong></p>
+<p>IKEA sometimes stocks Marabou bars beyond the classic Mjölkchoklad: Japp (peanut caramel), Schweizernöt (hazelnut), and Oreo editions. These are harder to find elsewhere in the US, so grab them when available.</p>
+
+<h3>Gummies & Candy Bags</h3>
+
+<h4>Malaco Gott & Blandat — ★★★★☆ Great Sampler</h4>
+<p><strong>IKEA Price: ~$4-5 per bag</strong></p>
+<p>"Gott & Blandat" means "good and mixed" — it's an assortment bag with gummies and licorice. This is the best sampler of Swedish candy styles you'll find at IKEA. The mix typically includes fruit gummies, foam candy, and mild licorice in one bag. Good introduction to the range of Swedish candy textures.</p>
+
+<h4>GODIS Assortment Bags — ★★★☆☆ Fine</h4>
+<p><strong>IKEA Price: ~$4-6 per bag</strong></p>
+<p>IKEA's house-brand candy bags (labeled "GODIS" which means "candy" in Swedish) contain authentic Swedish candy, usually from Malaco or Cloetta. The quality is genuine Swedish, but the selection is generic. These work well for parties or trying several types at once.</p>
+
+<h4>Polkagris — ★★★★☆ Unique Find</h4>
+<p><strong>IKEA Price: ~$3-4</strong></p>
+<p>Traditional Swedish peppermint sticks from Gränna — the small town that's been making them since 1859. Harder to find online than other Swedish candy. The red-and-white striped sticks are hand-pulled and taste genuinely different from American candy canes: stronger mint, less sweet, more complex. A great gift or stocking stuffer.</p>
+
+<h3>What IKEA Usually Doesn't Have</h3>
+
+<ul>
+<li><strong><a href="/brands/bubs">BUBS</a> products:</strong> The viral TikTok brand is rarely stocked at IKEA. For Sour Skulls, order online.</li>
+<li><strong>Salt licorice / Salmiak:</strong> Minimal selection. IKEA caters to American palates and stocks mostly mild candy.</li>
+<li><strong>Pick-and-mix:</strong> Some IKEAs used to have small bulk candy stations, but these have largely been discontinued.</li>
+<li><strong>Fazer chocolate:</strong> Finnish, not Swedish — IKEA stocks Swedish brands primarily.</li>
+</ul>
+
+<h2>IKEA Candy Shopping Tips</h2>
+
+<h3>Check Dates</h3>
+<p>Swedish candy uses fewer preservatives than American candy, so freshness matters. Check the best-by date on everything you buy, especially at lower-traffic IKEA locations.</p>
+
+<h3>Visit the Food Market Last</h3>
+<p>The food market is after the checkout area — you don't need to walk through the entire store. Many IKEAs allow direct access to the food market if you know where the entrance is (usually near the returns desk).</p>
+
+<h3>Stock Up on Chocolate</h3>
+<p>Marabou and Daim keep well (months if stored cool and dry). If the prices are good, buy extra — you'll go through it faster than you think, and it makes excellent gifts.</p>
+
+<h3>Seasonal Items</h3>
+<p>IKEA stocks seasonal Swedish candy around Christmas (julmust, pepparkaka), Easter (påskgodis), and sometimes midsommar. These seasonal items are often unique to IKEA in the US market.</p>
+
+<h2>Beyond IKEA: Where to Get More</h2>
+
+<p>IKEA is a great starting point, but it's only a fraction of what Swedish candy has to offer. For the full experience:</p>
+
+<ul>
+<li><strong>BUBS and sour candy:</strong> <a href="/blog/best-pick-and-mix-candy-online">Online pick-and-mix stores</a> (BonBon, Sockerbit, Swedish Candy Store)</li>
+<li><strong>Wider selection:</strong> <a href="/blog/swedish-candy-amazon-guide">Amazon</a> for individual items with Prime shipping</li>
+<li><strong>Full comparison:</strong> <a href="/blog/ikea-candy-vs-authentic-swedish">IKEA candy vs. specialty stores</a></li>
+<li><strong>All options:</strong> <a href="/where-to-buy">Complete where-to-buy guide</a></li>
+</ul>`,
+    heroImage: '/images/blog/ikea-swedish-candy.jpg',
+    heroImageAlt: 'IKEA Swedish food market candy section with Marabou chocolate and Malaco gummies',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    estimatedReadTime: 8,
+    tags: ['IKEA', 'where to buy', 'Swedish candy', 'Marabou', 'Daim', 'Malaco', 'shopping guide'],
+    relatedArticleSlugs: ['ikea-candy-vs-authentic-swedish', 'best-pick-and-mix-candy-online', 'swedish-candy-amazon-guide', 'what-is-swedish-candy'],
+    relatedCandySlugs: ['marabou-mjolkchoklad', 'daim', 'ahlgrens-bilar'],
+    relatedBrandSlugs: ['marabou', 'malaco'],
+    priority: 'P1',
+    status: 'published',
+  },
+  {
+    id: 79,
+    slug: 'best-swedish-candy-to-try-first',
+    title: 'Best Swedish Candy to Try First: A Beginner\'s Starter Pack',
+    silo: 'beginner-guides',
+    seoTitle: 'Best Swedish Candy to Try First: Starter Pack for Beginners | SwedishCrave',
+    metaDescription: 'New to Swedish candy? Start here. The 10 best Swedish candies for first-timers, ranked from crowd-pleasing to adventurous. No licorice shocks, we promise.',
+    h1: 'Best Swedish Candy to Try First: A Beginner\'s Starter Pack',
+    intro: 'Swedish candy is having a moment — but with hundreds of options, where do you actually start? This guide ranks the 10 best Swedish candies for first-timers, organized from most crowd-pleasing to most adventurous. No surprise salmiak, no extreme licorice — just the picks that convert new fans every time.',
+    content: `<div style="background: linear-gradient(135deg, #FFF4E6 0%, #FFE8CC 100%); border-left: 4px solid #D4A574; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #8B4513;">The TL;DR Starter Pack</h3>
+  <p>If you only buy three things: <strong><a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a></strong> (sour gummy), <strong><a href="/candy/marabou-mjolkchoklad">Marabou Mjölkchoklad</a></strong> (chocolate), and <strong><a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a></strong> (the uniquely Swedish one). That covers three completely different candy experiences and will tell you what you like.</p>
+</div>
+
+<h2>How We Picked These</h2>
+
+<p>We chose based on three criteria: does it taste good to someone with American candy expectations, is it distinctly Swedish (not just a slightly different gummy bear), and can you actually buy it from the US? Everything on this list hits all three.</p>
+
+<h2>The 10 Best Swedish Candies for First-Timers</h2>
+
+<h3>1. BUBS Sour Skulls — The Crowd Favorite</h3>
+<p><strong>Category: Sour gummy | Difficulty: Easy | Where to buy: Online, Amazon</strong></p>
+<p><a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> are the reason Swedish candy went viral on TikTok. The sour coating is intense — more face-puckering than Sour Patch Kids — and the gummy underneath is soft and packed with real fruit flavor. Naturally colored with spirulina and beetroot (no Red 40). If you only try one Swedish candy, this is the one.</p>
+<p><strong>American comparison:</strong> Like a dramatically better Sour Patch Kid</p>
+
+<h3>2. Marabou Mjölkchoklad — The Chocolate Revelation</h3>
+<p><strong>Category: Milk chocolate | Difficulty: Easy | Where to buy: IKEA, online, Amazon</strong></p>
+<p><a href="/candy/marabou-mjolkchoklad">Marabou's milk chocolate</a> bar is what makes people say "I didn't know chocolate could taste like this." Real cocoa butter (not vegetable oils), creamy texture, and a richness that American milk chocolate doesn't come close to. Available at IKEA for ~$4-5, making it one of the easiest Swedish candies to try.</p>
+<p><strong>American comparison:</strong> Imagine Hershey's but smooth, creamy, and actually chocolate-flavored</p>
+
+<h3>3. Ahlgrens Bilar — The Uniquely Swedish One</h3>
+<p><strong>Category: Foam/marshmallow | Difficulty: Medium | Where to buy: IKEA, online</strong></p>
+<p><a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a> (Ahlgren's Cars) is Sweden's #1 best-selling candy and there's nothing like it in America. They're car-shaped, marshmallow-ish, with subtle fruit flavors (lemon, orange, raspberry). The texture is unique — not gummy, not marshmallow, but something in between. Some Americans are confused at first, most become fans by the third piece.</p>
+<p><strong>American comparison:</strong> Nothing. This is genuinely unique.</p>
+
+<h3>4. Daim — The Gateway Bar</h3>
+<p><strong>Category: Chocolate/caramel | Difficulty: Easy | Where to buy: IKEA, online, Amazon</strong></p>
+<p><a href="/candy/daim">Daim</a> is a thin bar of crunchy almond caramel covered in milk chocolate. Like a Skor bar, but better. The caramel shatters satisfyingly when you bite, then melts into the chocolate. This is the easiest "gateway" for Americans because the format is familiar — it's a candy bar — but the quality is unmistakably Swedish.</p>
+<p><strong>American comparison:</strong> Like a premium Skor/Heath bar</p>
+
+<h3>5. BUBS Watermelon Skulls — The Mellow Option</h3>
+<p><strong>Category: Sweet gummy | Difficulty: Easy | Where to buy: Online, Amazon</strong></p>
+<p>If BUBS Sour Skulls are too intense for you (or for kids), the Watermelon Skulls are the sweeter, milder sibling. Same naturally colored gummy, same soft texture, but with a sweet watermelon flavor instead of face-puckering sour. These are especially popular with kids and people who prefer sweet over sour.</p>
+<p><strong>American comparison:</strong> Like a much softer, naturally flavored Watermelon Sour Patch Kid (minus the sour)</p>
+
+<h3>6. Tutti Frutti — The Classic Fruit Gummy</h3>
+<p><strong>Category: Fruit gummy | Difficulty: Easy | Where to buy: Online</strong></p>
+<p><a href="/candy/tutti-frutti">Tutti Frutti</a> is a classic Swedish fruit gummy assortment — each piece is a different shape and flavor, naturally colored with fruit and vegetable concentrates. The flavors are more distinct and fruit-forward than American gummies. If you like gummy bears, you'll love Tutti Frutti.</p>
+<p><strong>American comparison:</strong> Like Haribo but softer, with real fruit flavors and no artificial dyes</p>
+
+<h3>7. Plopp — The Fun Name, Great Candy</h3>
+<p><strong>Category: Chocolate/toffee | Difficulty: Easy | Where to buy: Online, some IKEA</strong></p>
+<p>Yes, the name makes Americans giggle. But Plopp is a genuinely delicious candy — soft toffee covered in Cloetta milk chocolate. The toffee center is chewy (not hard or brittle like Daim) and the chocolate coating is thick and rich. Once you get past the name, it's one of the most satisfying Swedish candy bars.</p>
+<p><strong>American comparison:</strong> Like a Rolo, but with better chocolate and softer toffee</p>
+
+<h3>8. Dumle — The Caramel Lover's Pick</h3>
+<p><strong>Category: Chocolate/caramel | Difficulty: Easy | Where to buy: Online, some IKEA</strong></p>
+<p>Dumle is a chewy caramel wrapped in chocolate. Simple concept, excellent execution. The caramel is buttery and long-lasting, the chocolate coating is smooth <a href="/brands/fazer">Fazer</a> chocolate. These are addictively easy to eat — the bag will disappear faster than you expect.</p>
+<p><strong>American comparison:</strong> Like a Milk Dud but genuinely good</p>
+
+<h3>9. Malaco Gott & Blandat — The Sampler</h3>
+<p><strong>Category: Mixed bag | Difficulty: Medium | Where to buy: IKEA, online</strong></p>
+<p>"Good and Mixed" is the best Swedish candy sampler you can buy. Each bag contains an assortment of gummies, foam candy, and mild licorice — giving you a taste of several Swedish candy textures and flavors in one bag. The licorice pieces are mild (not salmiak), so it's safe for beginners. Available at most IKEAs.</p>
+<p><strong>American comparison:</strong> Like a Haribo mix but with wider variety and a couple of mild licorice pieces thrown in</p>
+
+<h3>10. Djungelvrål — The Adventurous Pick</h3>
+<p><strong>Category: Salty licorice | Difficulty: Hard | Where to buy: Online</strong></p>
+<p><a href="/candy/djungelvraal">Djungelvrål</a> ("Jungle Roar") is your first step into the wild world of salty Swedish licorice. It's not extreme — the saltiness and salmiak are moderate — but it's definitely different from anything in American candy aisles. We include it because no Swedish candy education is complete without trying at least mild salty licorice. Many people who think they hate licorice discover they love it with this candy.</p>
+<p><strong>American comparison:</strong> Nothing. Welcome to Scandinavia.</p>
+
+<h2>Building Your First Order</h2>
+
+<p>Based on your candy preferences, here's what to order:</p>
+
+<ul>
+<li><strong>Love sour candy?</strong> → BUBS Sour Skulls + Tutti Frutti</li>
+<li><strong>Chocolate person?</strong> → Marabou Mjölkchoklad + Daim + Plopp</li>
+<li><strong>Adventurous?</strong> → All of the above + Djungelvrål + Gott & Blandat</li>
+<li><strong>Shopping for kids?</strong> → BUBS Watermelon Skulls + Ahlgrens Bilar + Tutti Frutti</li>
+<li><strong>Just want the essentials?</strong> → BUBS Sour Skulls + Marabou + Ahlgrens Bilar</li>
+</ul>
+
+<h2>Where to Buy</h2>
+
+<p>Three options depending on your patience level:</p>
+
+<ul>
+<li><strong>Right now (no shipping):</strong> <a href="/blog/swedish-candy-at-ikea-guide">IKEA</a> — limited selection but authentic and instant</li>
+<li><strong>Fast shipping (Prime):</strong> <a href="/blog/swedish-candy-amazon-guide">Amazon</a> — good for individual items</li>
+<li><strong>Best selection:</strong> <a href="/blog/best-pick-and-mix-candy-online">Online Swedish candy stores</a> — BonBon, Sockerbit, Swedish Candy Store</li>
+</ul>
+
+<p>For the complete buying guide with store reviews, see our <a href="/where-to-buy">where to buy Swedish candy guide</a>. And once you've tried the basics, check our <a href="/blog/what-is-swedish-candy">complete beginner's guide to Swedish candy</a> for the deeper story behind the culture.</p>`,
+    heroImage: '/images/blog/best-swedish-candy-starter.jpg',
+    heroImageAlt: 'Swedish candy starter pack: BUBS Sour Skulls, Marabou chocolate, Ahlgrens Bilar, and more',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    estimatedReadTime: 10,
+    tags: ['beginner guide', 'best of', 'starter pack', 'Swedish candy', 'BUBS', 'Marabou', 'first time'],
+    relatedArticleSlugs: ['what-is-swedish-candy', 'best-swedish-candy', 'best-pick-and-mix-candy-online', 'swedish-candy-amazon-guide'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'marabou-mjolkchoklad', 'ahlgrens-bilar', 'daim', 'tutti-frutti', 'djungelvraal'],
+    relatedBrandSlugs: ['bubs', 'marabou', 'malaco', 'fazer'],
+    priority: 'P1',
+    status: 'published',
+  },
+  {
+    id: 80,
+    slug: 'swedish-candy-stores-by-state',
+    title: 'Swedish Candy Stores in the US: A State-by-State Guide (2026)',
+    silo: 'where-to-buy',
+    seoTitle: 'Swedish Candy Stores in the US by State (2026) | SwedishCrave',
+    metaDescription: 'Find Swedish candy stores near you. State-by-state guide to physical stores, Scandinavian shops, and IKEA locations that carry authentic Swedish candy.',
+    h1: 'Swedish Candy Stores in the US: A State-by-State Guide',
+    intro: 'You can order Swedish candy online from anywhere, but there\'s something special about walking into a store and picking out your own bag. Here\'s where to find authentic Swedish candy in physical stores across the US — from dedicated Scandinavian shops to IKEA food markets.',
+    content: `<h2>The Big Picture</h2>
+
+<p>Physical Swedish candy stores are concentrated in three areas: New York City (BonBon, Sockerbit), the coasts (California, Massachusetts), and cities with large Scandinavian-heritage communities (Minneapolis, Seattle, Chicago). Everywhere else, your best bet is IKEA's food market or online ordering.</p>
+
+<h2>Northeast</h2>
+
+<h3>New York</h3>
+<p><strong>Best in the US for Swedish candy shopping.</strong></p>
+<ul>
+<li><strong>BonBon NYC</strong> — The viral TikTok sensation. 100% Swedish candy imports with extensive pick-and-mix. Multiple Manhattan locations. This is the ultimate Swedish candy shopping experience in America.</li>
+<li><strong>Sockerbit</strong> — Curated Swedish candy in the West Village since 2013. More upscale, expertly curated selection. Beautiful for gifts.</li>
+<li><strong>IKEA Brooklyn / IKEA Elizabeth NJ</strong> — Standard IKEA Swedish food market with Marabou, Daim, and Malaco.</li>
+<li><strong>Scandinavian gift shops</strong> — Several in Manhattan carry Swedish food items including candy.</li>
+</ul>
+
+<h3>Massachusetts</h3>
+<ul>
+<li><strong>Nantasket Sweets by Swedes</strong> (Nantasket Beach) — A dedicated Swedish candy store with online + physical presence. Emphasis on natural ingredients and allergen-friendly options.</li>
+<li><strong>IKEA Stoughton</strong> — Standard food market selection.</li>
+</ul>
+
+<h3>Connecticut / New Jersey</h3>
+<ul>
+<li><strong>IKEA locations</strong> in New Haven, Paramus, Elizabeth — Food market with Swedish candy basics.</li>
+<li>Scandinavian specialty shops in areas with Nordic communities occasionally stock candy.</li>
+</ul>
+
+<h2>Southeast</h2>
+
+<h3>Florida</h3>
+<ul>
+<li><strong>IKEA locations</strong> in Jacksonville, Orlando, Tampa, Sunrise — Standard food market.</li>
+<li>Limited Scandinavian specialty stores. Online ordering is your best bet.</li>
+</ul>
+
+<h3>Georgia / Carolinas</h3>
+<ul>
+<li><strong>IKEA Atlanta</strong> — Food market with basics.</li>
+<li><strong>IKEA Charlotte</strong> — Food market.</li>
+</ul>
+
+<h2>Midwest</h2>
+
+<h3>Minnesota</h3>
+<p><strong>The Scandinavian-American capital.</strong></p>
+<ul>
+<li><strong>Ingebretsen's Nordic Marketplace</strong> (Minneapolis) — The legendary Scandinavian food and gift store, operating since 1921. Excellent selection of Swedish candy, chocolate, and licorice.</li>
+<li><strong>IKEA Bloomington</strong> — Located near the Mall of America. Good food market selection.</li>
+<li><strong>Various Scandinavian bakeries and shops</strong> — Minneapolis/St. Paul has the largest Scandinavian-heritage community in the US, so Swedish food items appear in many local shops.</li>
+</ul>
+
+<h3>Illinois</h3>
+<ul>
+<li><strong>Wikstrom's Gourmet Food</strong> (Chicago) — Scandinavian deli and grocery in Andersonville, Chicago's historically Swedish neighborhood. Carries Swedish candy and chocolate.</li>
+<li><strong>IKEA Schaumburg / Bolingbrook</strong> — Standard food market.</li>
+</ul>
+
+<h3>Wisconsin / Michigan</h3>
+<ul>
+<li><strong>IKEA locations</strong> — Standard food markets.</li>
+<li>Scandinavian heritage shops in areas with Nordic communities (Door County WI, Upper Peninsula MI) occasionally stock Swedish candy.</li>
+</ul>
+
+<h2>West Coast</h2>
+
+<h3>California</h3>
+<ul>
+<li><strong>Sockerbit</strong> (Los Angeles) — Same curated Swedish candy experience as the NYC location. Beautiful store, hand-selected candy, great for gifts.</li>
+<li><strong>Sweetish Candy</strong> — Swedish candy store with online and physical presence.</li>
+<li><strong>IKEA locations</strong> in Burbank, Carson, Costa Mesa, East Palo Alto, Emeryville, San Diego, West Sacramento — Multiple food markets across the state.</li>
+</ul>
+
+<h3>Washington</h3>
+<ul>
+<li><strong>Seattle Scandinavian community</strong> — Ballard neighborhood has several Scandinavian shops and bakeries that carry Swedish candy and food items.</li>
+<li><strong>IKEA Renton</strong> — Standard food market.</li>
+</ul>
+
+<h3>Oregon</h3>
+<ul>
+<li><strong>IKEA Portland</strong> — Standard food market.</li>
+<li>Scandinavian specialty shops occasionally stock Swedish candy.</li>
+</ul>
+
+<h2>Mountain / Southwest</h2>
+
+<h3>Colorado</h3>
+<ul>
+<li><strong>Swedish Candy Store</strong> (Colorado-based) — Primarily online but occasionally does pop-ups. Fast US shipping since they warehouse domestically.</li>
+<li><strong>IKEA Centennial</strong> — Standard food market.</li>
+</ul>
+
+<h3>Texas</h3>
+<ul>
+<li><strong>IKEA locations</strong> in Frisco, Grand Prairie, Houston, Live Oak, Round Rock — Multiple locations across the state.</li>
+<li>Limited Scandinavian specialty stores. Online is the primary option.</li>
+</ul>
+
+<h2>Can't Find a Store Near You?</h2>
+
+<p>Most Americans don't live near a dedicated Swedish candy store — and that's okay. Online ordering has made Swedish candy accessible everywhere:</p>
+
+<ul>
+<li><strong>Best overall online store:</strong> <a href="/blog/best-pick-and-mix-candy-online">BonBon, Sockerbit, and Swedish Candy Store</a> — pick-and-mix + pre-made bags</li>
+<li><strong>Fast shipping:</strong> <a href="/blog/swedish-candy-amazon-guide">Amazon</a> — Prime available on many Swedish candy items</li>
+<li><strong>Budget option:</strong> <a href="/blog/swedish-candy-at-ikea-guide">IKEA</a> — no shipping costs, limited but authentic selection</li>
+<li><strong>All options:</strong> <a href="/where-to-buy">Complete where-to-buy guide</a></li>
+</ul>
+
+<p>New to Swedish candy? Start with our <a href="/blog/best-swedish-candy-to-try-first">beginner's starter pack</a> to know exactly what to order on your first try.</p>`,
+    heroImage: '/images/blog/swedish-candy-stores-us.jpg',
+    heroImageAlt: 'Map of Swedish candy stores across the United States with BonBon NYC and Sockerbit highlighted',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    estimatedReadTime: 9,
+    tags: ['where to buy', 'Swedish candy stores', 'state guide', 'BonBon', 'Sockerbit', 'IKEA', 'local stores'],
+    relatedArticleSlugs: ['best-pick-and-mix-candy-online', 'swedish-candy-at-ikea-guide', 'swedish-candy-amazon-guide', 'what-is-swedish-candy'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'marabou-mjolkchoklad', 'ahlgrens-bilar'],
+    relatedBrandSlugs: ['bubs', 'marabou', 'malaco'],
+    priority: 'P1',
+    status: 'published',
+  },
 ]
 
 // Helper functions
