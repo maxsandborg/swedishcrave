@@ -10,4 +10,4 @@ export { default as RatingBar } from './RatingBar';
 export { default as SearchBar } from './SearchBar';
 export { default as JsonLd } from './JsonLd';
 export { default as TableOfContents } from './TableOfContents';
-export { injectHeadingIds } from './TableOfContents';
+export { injectHeadingIds } from '@/lib/heading-utils';

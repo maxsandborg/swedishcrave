@@ -2,7 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { getArticleBySlug, getAllArticleSlugs, getRelatedArticles } from '@/data/articles';
 import { candyItems } from '@/data/candy';
-import TableOfContents, { injectHeadingIds } from '@/components/TableOfContents';
+import TableOfContents from '@/components/TableOfContents';
+import { injectHeadingIds } from '@/lib/heading-utils';
 
 
 export async function generateStaticParams() {
