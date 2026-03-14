@@ -4301,6 +4301,204 @@ export const articles: Article[] = [
     priority: 'P2',
     status: 'draft',
   },
+
+  // ============================================
+  // FAS 1 — DYE-FREE CANDY CONTENT BLITZ
+  // ============================================
+  {
+    id: 69,
+    slug: 'candy-without-artificial-dyes',
+    title: 'Candy Without Artificial Dyes: The Complete 2026 Guide',
+    silo: 'health-ingredients',
+    seoTitle: 'Candy Without Artificial Dyes (2026): 30+ Brands, FDA Ban Update & What to Buy',
+    metaDescription: 'The definitive guide to candy without artificial dyes in 2026. 30+ dye-free brands, the FDA Red 40 ban timeline, Swedish candy alternatives, and exactly what to look for on labels.',
+    h1: 'Candy Without Artificial Dyes: The Complete 2026 Guide',
+    intro: 'The FDA is banning Red No. 3 and pushing to eliminate Red 40 by the end of 2026. Mars is reformulating M&M\'s and Skittles. Parents are reading labels more carefully than ever. Whether you\'re avoiding artificial dyes for your kids, for yourself, or because you want cleaner candy — this guide covers every brand, every alternative, and exactly what to buy right now.',
+    content: `<div style="background: linear-gradient(135deg, #FFF4E6 0%, #FFE8CC 100%); border-left: 4px solid #e879f9; padding: 20px 24px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #9333ea;">Quick Answer: Best Dye-Free Candy Right Now</h3>
+  <ol style="margin: 12px 0; padding-left: 20px;">
+    <li><strong><a href="/brands/bubs">BUBS (Swedish)</a></strong> — Sour gummies, no artificial dyes, vegan. Uses spirulina, beetroot, carrot concentrate.</li>
+    <li><strong>YumEarth</strong> — Organic lollipops, gummy bears, fruit snacks. All naturally colored.</li>
+    <li><strong>SmartSweets</strong> — Low-sugar gummies with plant-based colors. Available at most retailers.</li>
+    <li><strong>Surf Sweets</strong> — Organic gummies, allergen-free. Colors from fruit juice.</li>
+    <li><strong>Unreal</strong> — Chocolate candies (M&M's alternative). No artificial anything.</li>
+    <li><strong><a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a></strong> — Sweden's #1 candy. Naturally colored marshmallow cars.</li>
+  </ol>
+  <p style="font-size: 13px; color: #666; margin-bottom: 0;">Keep reading for the full list of 30+ brands, the FDA timeline, and what to avoid on labels.</p>
+</div>
+
+<h2>What's Happening With Artificial Dyes in 2026</h2>
+
+<p>The landscape of food coloring in the US is changing faster than it has in decades. Here's the timeline:</p>
+
+<p><strong>January 2025:</strong> The FDA officially revoked authorization for <strong>Red No. 3</strong> (erythrosine) in food and ingested drugs. This is the dye that gave maraschino cherries and certain candies their bright red color. Companies have until January 2027 to reformulate.</p>
+
+<p><strong>February 2026:</strong> RFK Jr. and the FDA announced plans to eliminate <strong>Red No. 40</strong> (Allura Red) — the most widely used artificial dye in America — by the end of 2026. Red 40 is in everything: Swedish Fish (the American version), Skittles, M&M's, Twizzlers, and thousands of other products.</p>
+
+<p><strong>Ongoing 2026:</strong> The FDA is tracking voluntary pledges from major food companies to remove all petroleum-based food dyes. Mars, General Mills, Kraft Heinz, PepsiCo, Hershey, Nestlé, and others have committed to timelines.</p>
+
+<p>This isn't just Red 3 and Red 40. The FDA is targeting all eight major synthetic dyes: Red 3, Red 40, Yellow 5, Yellow 6, Blue 1, Blue 2, Green 3, and Orange B. The <a href="/blog/swedish-food-dyes-vs-american">EU has required warning labels on these dyes since 2010</a>, which is why European and Swedish candy has been dye-free for years.</p>
+
+<h2>The 6 Artificial Dyes to Avoid (and What They're In)</h2>
+
+<p>When you're checking candy labels, these are the specific ingredients to look for:</p>
+
+<table style="width:100%; border-collapse: collapse; margin: 20px 0; font-size: 14px;">
+<thead>
+<tr style="background: #1a1a2e; color: #fff;">
+<th style="padding: 12px; text-align: left; border: 1px solid #2a2a3e;">Dye Name</th>
+<th style="padding: 12px; text-align: left; border: 1px solid #2a2a3e;">Also Called</th>
+<th style="padding: 12px; text-align: left; border: 1px solid #2a2a3e;">Found In</th>
+<th style="padding: 12px; text-align: left; border: 1px solid #2a2a3e;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr><td style="border: 1px solid #ddd; padding: 10px; font-weight: 600; color: #ef4444;">Red 40</td><td style="border: 1px solid #ddd; padding: 10px;">Allura Red AC</td><td style="border: 1px solid #ddd; padding: 10px;">Skittles, Swedish Fish (US), Twizzlers, M&M's</td><td style="border: 1px solid #ddd; padding: 10px;">FDA phasing out by end of 2026</td></tr>
+<tr><td style="border: 1px solid #ddd; padding: 10px; font-weight: 600; color: #ef4444;">Red 3</td><td style="border: 1px solid #ddd; padding: 10px;">Erythrosine</td><td style="border: 1px solid #ddd; padding: 10px;">Candy corn, maraschino cherries, PEZ</td><td style="border: 1px solid #ddd; padding: 10px;">Banned — deadline Jan 2027</td></tr>
+<tr><td style="border: 1px solid #ddd; padding: 10px; font-weight: 600; color: #eab308;">Yellow 5</td><td style="border: 1px solid #ddd; padding: 10px;">Tartrazine</td><td style="border: 1px solid #ddd; padding: 10px;">Starburst, Sour Patch Kids, Butterfinger</td><td style="border: 1px solid #ddd; padding: 10px;">Voluntary phase-out underway</td></tr>
+<tr><td style="border: 1px solid #ddd; padding: 10px; font-weight: 600; color: #eab308;">Yellow 6</td><td style="border: 1px solid #ddd; padding: 10px;">Sunset Yellow</td><td style="border: 1px solid #ddd; padding: 10px;">Reese's Pieces, M&M's, Candy Corn</td><td style="border: 1px solid #ddd; padding: 10px;">Voluntary phase-out underway</td></tr>
+<tr><td style="border: 1px solid #ddd; padding: 10px; font-weight: 600; color: #3b82f6;">Blue 1</td><td style="border: 1px solid #ddd; padding: 10px;">Brilliant Blue</td><td style="border: 1px solid #ddd; padding: 10px;">M&M's, Jolly Rancher, Airheads</td><td style="border: 1px solid #ddd; padding: 10px;">Voluntary phase-out underway</td></tr>
+<tr><td style="border: 1px solid #ddd; padding: 10px; font-weight: 600; color: #3b82f6;">Blue 2</td><td style="border: 1px solid #ddd; padding: 10px;">Indigotine</td><td style="border: 1px solid #ddd; padding: 10px;">Some chocolate coatings, ice cream</td><td style="border: 1px solid #ddd; padding: 10px;">Voluntary phase-out underway</td></tr>
+</tbody>
+</table>
+
+<p><strong>The simple rule:</strong> If the ingredient list includes any "Red," "Yellow," "Blue," or "Green" followed by a number, it's a synthetic dye. If it says "FD&C" before any color name, it's synthetic.</p>
+
+<h2>Why Swedish Candy Was Dye-Free Before It Was a Trend</h2>
+
+<p>Here's something most "dye-free candy" guides won't tell you: <strong>Swedish candy has been free of artificial dyes for over a decade</strong>. Not because of a marketing trend, but because EU regulations made it commercially impractical to use them.</p>
+
+<p>Since 2010, the EU has required warning labels on food containing artificial dyes: <em>"May have an adverse effect on activity and attention in children."</em> No candy company wants that on their packaging. So European and Swedish manufacturers switched to plant-based alternatives years ago.</p>
+
+<p>This means the <a href="/blog/what-is-swedish-candy">entire Swedish candy category</a> — BUBS, Malaco, Ahlgrens, Marabou, Fazer, Cloetta — has been using natural colorings as standard practice. Not as a premium option. Not as an "organic" line. As the default.</p>
+
+<h3>What Swedish Candy Uses Instead of Artificial Dyes</h3>
+
+<ul>
+<li><strong>Beetroot juice concentrate</strong> — Replaces Red 40. Gives a deep red/pink hue.</li>
+<li><strong>Spirulina extract</strong> — Replaces Blue 1. A blue-green algae that creates vivid blues and greens.</li>
+<li><strong>Carrot concentrate</strong> — Replaces Yellow 5/6. Provides orange and yellow tones.</li>
+<li><strong>Curcumin (turmeric)</strong> — Another yellow alternative. Derived from turmeric root.</li>
+<li><strong>Black carrot concentrate</strong> — Creates deep purples and dark reds.</li>
+<li><strong>Caramel color (E150)</strong> — Browns and dark ambers.</li>
+<li><strong>Chlorophyll (E141)</strong> — Greens from plant sources.</li>
+</ul>
+
+<p>This is why <a href="/brands/bubs">BUBS Sour Skulls</a> look slightly different from American sour gummies — the colors are more muted, more natural-looking. That's not a flaw. That's what candy looks like without petroleum-derived dyes.</p>
+
+<h2>Complete List: 30+ Dye-Free Candy Brands</h2>
+
+<h3>Swedish & Scandinavian Brands (All Naturally Colored)</h3>
+
+<p>Every candy from these brands is made without artificial dyes as standard practice:</p>
+
+<ul>
+<li><strong><a href="/brands/bubs">BUBS</a></strong> — <a href="/candy/bubs-sour-skulls">Sour Skulls</a>, <a href="/candy/bubs-watermelon">Watermelon</a>, <a href="/candy/bubs-cool-cola">Cool Cola</a>, and entire range. Vegan, naturally colored with spirulina, beetroot, carrot.</li>
+<li><strong><a href="/brands/malaco">Malaco</a></strong> — <a href="/candy/malaco-gott-och-blandat">Gott & Blandat</a>, <a href="/candy/djungelvraal">Djungelvrål</a>, <a href="/candy/swedish-fish">Original Swedish Fish</a>. All plant-based dyes.</li>
+<li><strong><a href="/brands/marabou">Marabou</a></strong> — <a href="/candy/marabou-mjolkchoklad">Mjölkchoklad</a>, <a href="/candy/daim">Daim</a>. Chocolate naturally colored.</li>
+<li><strong><a href="/brands/fazer">Fazer</a></strong> — <a href="/candy/fazer-blue">Fazer Blue</a>, <a href="/candy/tutti-frutti">Tutti Frutti</a>, <a href="/candy/dumle">Dumle</a>. Finnish brand, EU-compliant.</li>
+<li><strong><a href="/brands/cloetta">Cloetta</a></strong> — <a href="/candy/kexchoklad">Kexchoklad</a>, <a href="/candy/polly">Polly</a>, <a href="/candy/plopp">Plopp</a>. Scandinavia's largest candy company.</li>
+<li><strong><a href="/brands/ahlgrens">Ahlgrens</a></strong> — <a href="/candy/ahlgrens-bilar">Bilar</a>, <a href="/candy/ahlgrens-bilar-sursockrade">Sursockrade Bilar</a>. Sweden's #1 selling candy.</li>
+<li><strong><a href="/brands/candy-people">Candy People</a></strong> — <a href="/candy/s-marke-surt-skum">S-Märke Surt Skum</a>, <a href="/candy/s-marke-supersurt">Supersurt</a>. Natural colors.</li>
+<li><strong><a href="/brands/konfekta">Konfekta</a></strong> — <a href="/candy/kryptoniter">Kryptoniter</a>. Legendary Swedish sour candy.</li>
+</ul>
+
+<p>Want to explore the full range? Browse our <a href="/candy">complete Swedish candy reviews</a> or see <a href="/where-to-buy">where to buy Swedish candy</a> in the US.</p>
+
+<h3>American Dye-Free Brands</h3>
+
+<ul>
+<li><strong>YumEarth</strong> — Organic lollipops, gummy bears, gummy fruits, licorice. One of the earliest fully dye-free American brands. Uses fruit and vegetable juice concentrates.</li>
+<li><strong>SmartSweets</strong> — Low-sugar gummy bears, sour gummies, sweet fish. Available at Target, Walmart, Whole Foods. Colors from fruit and vegetable juice.</li>
+<li><strong>Surf Sweets</strong> — Organic gummy bears, gummy worms, jelly beans. Allergen-free, corn syrup-free, naturally colored.</li>
+<li><strong>Unreal</strong> — Dark chocolate peanut butter cups, chocolate gems (M&M's alternative), chocolate peanut gems. Zero artificial colors, flavors, or preservatives.</li>
+<li><strong>Black Forest (Organic line only)</strong> — Their organic gummy bears use juice from real fruit for color. Important: their conventional products still contain artificial dyes.</li>
+<li><strong>Wholesome</strong> — Organic gummy bears and lollipops. USDA Organic certified, naturally colored.</li>
+<li><strong>Trader Joe's Scandinavian Swimmers</strong> — Gummy fish shaped candies made with natural colors. One of the best grocery store options.</li>
+<li><strong>USA Gummies</strong> — Gummy bears colored with fruit extracts, spirulina, and turmeric. Made in the US since 2024.</li>
+</ul>
+
+<h3>Major Brands Going Dye-Free in 2026</h3>
+
+<p>These brands have announced dye-free options launching in 2026:</p>
+
+<ul>
+<li><strong>Mars Wrigley</strong> — M&M's Chocolate, Skittles Original, Starburst Original, Extra Gum Spearmint will all have dye-free versions available in 2026.</li>
+<li><strong>General Mills</strong> — Targeting complete elimination from US retail cereals and snacks by end of 2027, with K-12 school foods prioritized by summer 2026.</li>
+<li><strong>Kraft Heinz</strong> — Removing artificial dyes from multiple product lines.</li>
+<li><strong>PepsiCo</strong> — Announced reformulation timelines for candy and snack products.</li>
+<li><strong>The Hershey Company</strong> — Committed to reducing artificial colors in their portfolio.</li>
+</ul>
+
+<h2>How to Read a Candy Label (5-Step Check)</h2>
+
+<p>Not sure if a candy is dye-free? Here's the fastest way to check:</p>
+
+<p><strong>Step 1:</strong> Find the ingredient list (usually on the back, in small print).</p>
+<p><strong>Step 2:</strong> Scan for any color followed by a number: Red 40, Yellow 5, Yellow 6, Blue 1, Red 3, Blue 2, Green 3.</p>
+<p><strong>Step 3:</strong> Look for "FD&C" — this always precedes a synthetic dye name.</p>
+<p><strong>Step 4:</strong> Check for natural alternatives: "fruit juice (for color)," "vegetable juice (for color)," "turmeric," "beet juice," "spirulina," "annatto."</p>
+<p><strong>Step 5:</strong> Watch out for "caramel color" — while technically not a synthetic dye, some forms (Class III and IV) are processed with ammonia. Most candy uses the simpler Class I or II versions, which are fine.</p>
+
+<p><strong>Pro tip:</strong> If the candy is imported from Sweden or elsewhere in the EU, it's almost certainly dye-free by default due to EU labeling laws.</p>
+
+<h2>Swedish Candy vs American Candy: The Dye Difference</h2>
+
+<p>The most striking example is <strong>Swedish Fish</strong>. The American version (made in North America) contains Red 40 and Yellow 6. The original Swedish version (Malaco pastellfiskar) uses plant-based colorings only. Same candy, same brand origin, completely different ingredient list depending on which side of the Atlantic it's made.</p>
+
+<p>This pattern repeats across the industry. Haribo makes two versions of Gold-Bears: the American formula with Red 40, Yellow 5, Yellow 6, and Blue 1 — and the European formula with fruit juice concentrates. Swedish gummy brand BUBS has never used artificial dyes in any product, ever.</p>
+
+<p>For a deeper dive into this topic, read our full comparison: <a href="/blog/swedish-food-dyes-vs-american">Swedish Candy vs American: Food Dyes, Red 40 & Why It Matters</a>.</p>
+
+<h2>Where to Buy Dye-Free Candy</h2>
+
+<h3>In-Store</h3>
+<ul>
+<li><strong>Whole Foods</strong> — Largest selection of dye-free candy. SmartSweets, YumEarth, Surf Sweets, and some Swedish imports.</li>
+<li><strong>Trader Joe's</strong> — Scandinavian Swimmers, plus their own house-brand naturally colored gummies.</li>
+<li><strong>Target</strong> — Growing dye-free section. SmartSweets, Unreal, and YumEarth widely available.</li>
+<li><strong>IKEA</strong> — Sells authentic Swedish candy including <a href="/blog/swedish-candy-at-ikea">BUBS, Marabou, and other brands</a>. All naturally colored.</li>
+</ul>
+
+<h3>Online</h3>
+<ul>
+<li><strong>Amazon</strong> — Search "dye-free candy" or specific Swedish brands. See our guide: <a href="/blog/best-swedish-candy-on-amazon">Best Swedish Candy on Amazon</a>.</li>
+<li><strong>NaturalCandyStore.com</strong> — Dedicated dye-free candy retailer with a large selection.</li>
+<li><strong>Swedish candy stores</strong> — Sites like Mums Swedish Candy, Swedish Candy Store, and BonBon NYC ship authentic Swedish candy directly. See our full list: <a href="/where-to-buy">Where to Buy Swedish Candy</a>.</li>
+</ul>
+
+<h2>FAQ</h2>
+
+<h3>Is dye-free candy healthier?</h3>
+<p>Dye-free candy eliminates synthetic food colorings that some research links to hyperactivity in sensitive children. However, it's still candy — the sugar content is the same. Dye-free means cleaner ingredients, not health food. For people with dye sensitivities, the difference is meaningful. For everyone else, it's a quality preference.</p>
+
+<h3>Does dye-free candy taste different?</h3>
+<p>Slightly. Natural colorings like beetroot or spirulina can add very subtle flavor notes that synthetic dyes don't. Most people can't tell the difference in a blind taste test. The bigger difference is visual — naturally colored candy tends to have more muted, less neon-bright colors.</p>
+
+<h3>Is Swedish candy always dye-free?</h3>
+<p>Yes, essentially. EU regulations since 2010 require warning labels on candy with artificial dyes, so virtually all Swedish and European candy uses natural colorings. When you buy any Swedish brand — <a href="/brands/bubs">BUBS</a>, <a href="/brands/malaco">Malaco</a>, <a href="/brands/marabou">Marabou</a>, <a href="/brands/fazer">Fazer</a> — you're getting naturally colored candy by default.</p>
+
+<h3>When will Red 40 be fully banned in the US?</h3>
+<p>The FDA is working with the food industry to eliminate Red 40 by the end of 2026. Unlike Red No. 3 (which has a hard ban deadline of January 2027), Red 40 is being phased out through a "voluntary" industry commitment tracked by the FDA. Most major candy companies have committed to reformulation timelines.</p>
+
+<h3>What's the best dye-free candy for kids?</h3>
+<p>For sour candy lovers: <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> or SmartSweets Sour Blast Buddies. For chocolate lovers: Unreal Dark Chocolate Gems. For gummy fans: YumEarth Gummy Bears or <a href="/candy/tutti-frutti">Fazer Tutti Frutti</a>. For something uniquely Swedish: <a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a> — car-shaped marshmallow gummies that kids love. See our full guide: <a href="/blog/best-swedish-candy-for-kids">Best Swedish Candy for Kids</a>.</p>
+
+<h3>Are "natural colors" always safe?</h3>
+<p>Natural colorings like beetroot juice, spirulina, and carrot concentrate have excellent safety profiles and no known links to hyperactivity. However, a small number of people may be sensitive to specific natural colorings (annatto is the most common). Always check ingredient lists if you have known food sensitivities.</p>`,
+    heroImage: '/images/blog/candy-without-artificial-dyes.jpg',
+    heroImageAlt: 'Colorful dye-free candy from Swedish and American brands',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    estimatedReadTime: 12,
+    tags: ['dye-free candy', 'artificial dyes', 'Red 40', 'FDA ban', 'natural candy', 'Swedish candy', 'clean label', 'food dyes 2026'],
+    relatedArticleSlugs: ['red-40-swedish-candy', 'swedish-food-dyes-vs-american', 'is-swedish-candy-healthier', 'best-swedish-candy-for-kids'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'ahlgrens-bilar', 'tutti-frutti', 'marabou-mjolkchoklad'],
+    relatedBrandSlugs: ['bubs', 'malaco', 'marabou', 'fazer'],
+    priority: 'P1',
+    status: 'published',
+  },
 ]
 
 // Helper functions
