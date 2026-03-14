@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { articles, getArticleBySlug, getAllArticleSlugs, getRelatedArticles } from '@/data/articles';
+import { getArticleBySlug, getAllArticleSlugs, getRelatedArticles } from '@/data/articles';
 import { candyItems } from '@/data/candy';
-import { brands } from '@/data/brands';
+
 
 export async function generateStaticParams() {
   return getAllArticleSlugs().map((slug) => ({ slug }));
@@ -63,9 +63,6 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
   const relatedArticles = getRelatedArticles(article.slug, 3);
   const relatedCandy = article.relatedCandySlugs
     .map((slug) => candyItems.find((c) => c.slug === slug))
-    .filter(Boolean);
-  const relatedBrands = article.relatedBrandSlugs
-    .map((slug) => brands.find((b) => b.slug === slug))
     .filter(Boolean);
 
   const siloLabels: Record<string, string> = {
