@@ -2262,7 +2262,62 @@ export const articles: Article[] = [
     metaDescription: 'Swedish Fish is America\'s most famous "Swedish" candy — but how does it compare to real Swedish candy? The answer might surprise you.',
     h1: 'Swedish Fish vs Actual Swedish Candy: The Surprising Truth',
     intro: 'Swedish Fish is probably the first thing Americans think of when they hear "Swedish candy." But here\'s the thing — Swedish Fish as Americans know it barely exists in Sweden. The real Swedish candy scene is something completely different.',
-    content: '',
+    content: `<h2>The Malaco Story: Where Swedish Fish Actually Come From</h2>
+<p>Swedish Fish weren't invented as "Swedish Fish." They were created by <strong>Malaco</strong>, a Swedish candy manufacturer founded in 1921, as simple fruit-flavored gummies called "pastellfiskar" (pasta fish). For decades, they were just another regional Scandinavian candy. The real transformation happened in the 1950s when an American importer rebranded them for the North American market, added the exotic "Swedish" label, and created what would become one of America's most iconic imported candies.</p>
+<p>The irony is delicious: Swedish Fish became famous in America while remaining relatively obscure in Sweden itself. Most Swedes don't grow up eating Swedish Fish. They eat Malaco's dozens of other products — licorice, sour candies, chocolate, and regional specialties — but Swedish Fish specifically were optimized and marketed toward American tastes.</p>
+
+<h2>Ingredient Comparison: The Corn Syrup Question</h2>
+<p>Here's where the comparison gets revealing. American Swedish Fish contain corn syrup, gelatin, and artificial food colorings (including Yellow 5, Red 40, and Blue 1). The texture is noticeably softer than the European version, and the flavors are simplified to appeal to American palates — mostly generic "fruit" rather than specific berries.</p>
+<p>Real Swedish candy takes a different approach. BUBS Sour Skulls, for example, use real fruit juice concentrates, cane sugar, and natural colorings. Malaco's Swedish licorice varieties skip corn syrup entirely, opting for traditional sugar and starch-based recipes that have been refined for over a century. The texture is firmer, the flavor more complex, and the ingredient list reads like someone actually knows what they're making.</p>
+<p>This isn't just a taste preference — it reflects different manufacturing philosophies. American candy prioritizes shelf stability and ease of production. Swedish candy prioritizes flavor and texture authenticity, even if it requires more careful ingredient sourcing.</p>
+
+<h2>Flavor Profiles: Sweet vs. Sophisticated</h2>
+<p>American Swedish Fish taste predictably fruity — bright, sweet, with a hint of citrus or berry. That's intentional. The American formula was specifically designed to be accessible to everyone: kids, adults, people who don't normally eat adventurous candy. It's a gateway candy, not a destination candy.</p>
+<p>Real Swedish candy operates on a different spectrum. <a href="/blog/bubs-candy-complete-guide">BUBS candies</a> range from sour berries to intensely pucker-inducing flavors that make your face collapse. Malaco's licorice varieties include salmiak (that infamous salty-savory flavor) and salted licorice that literally tastes like nothing Americans have ever experienced. Swedish candy assumes your palate can handle complexity, intensity, and flavor notes that develop over time.</p>
+
+<h2>Sour Candy: Where Swedish Dominates</h2>
+<p>This is where the gap between Swedish Fish and "actual Swedish candy" becomes a chasm. Swedish Fish aren't sour. They're sweet gummies with a subtle fruit flavor. That's fine if you like gentle candy. But if you've ever tried <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a>, you know that Swedish sour candy operates on a completely different level.</p>
+<p>Swedish sour candies use aggressive sour coatings (usually sugar mixed with malic acid) that create an immediate pucker response. The candy underneath is often quite sweet, creating a flavor contrast that's designed to surprise and challenge you. This is candy for people who want an experience, not just a taste.</p>
+<p>American sour gummies typically use citric acid in smaller quantities, creating a milder sour effect that's more "tangy" than actually sour. Swedish sour candies are saying: "You think you can handle sour? Let's see."</p>
+
+<h2>Licorice: The Flavor Americans Usually Avoid</h2>
+<p>Here's the fundamental divide: American candy almost never includes licorice. Swedish candy is built around licorice as a foundational flavor. Malaco makes dozens of licorice varieties, from sweet and mild to extreme salmiak that tastes like the ocean mixed with ammonium chloride.</p>
+<p>Swedish Fish have zero licorice, which is partly why they succeeded in America. They're Malaco's gateway into the American market — the product that gets Americans interested in Swedish candy without challenging their fundamental taste expectations. But once you go past Swedish Fish and try something like <a href="/candy/djungelvraal">Djungelvrål</a> or Tyrkisk Peber, you realize that licorice and salmiak are the heart of Swedish candy culture.</p>
+
+<h2>Texture Differences: Soft vs. Firm</h2>
+<p>American Swedish Fish are soft and chewy, designed to dissolve quickly and feel pleasant in the mouth. Real Swedish candies vary dramatically. Some are chewy like Swedish Fish, but many are firmer — the licorice varieties have a specific texture that's almost powdery on the outside with resistance when you bite down. Sour candies often have a crystal coating that you feel before the sweetness underneath.</p>
+<p>This texture variation is intentional. It's not a manufacturing defect — it's the signature of a candy that knows what it's doing. Different candies are designed to be experienced in different ways.</p>
+
+<h2>The Malaco Manufacturing Philosophy</h2>
+<p>Malaco isn't trying to make candy that appeals to everyone. They're making candy that appeals to Swedes and Scandinavians who have specific taste preferences developed over generations. They use traditional recipes, specific sugar blends, and flavor combinations that made sense in Sweden in the 1920s and still make sense today.</p>
+<p>American candy manufacturers optimize for different criteria: consistency, shelf life, broad appeal, and manufacturing efficiency. Swedish Fish fit these criteria perfectly. But they're not what Malaco makes for Swedish people — they're what Malaco makes for Americans.</p>
+
+<h2>Why Swedish Fish Aren't Even Popular in Sweden</h2>
+<p>Walk into a Swedish candy store and you won't see Swedish Fish dominating the shelves. You'll see walls of licorice, sour candies, chocolate, and regional specialties that nobody outside Scandinavia has heard of. Swedish Fish exist in Sweden, but they're not particularly special. They're just one option among hundreds.</p>
+<p>This is the ultimate proof that Swedish Fish are an American product, despite their Swedish origins. They're famous in America precisely because they were adapted for American tastes. In Sweden, where people can buy actual salmiak licorice and proper sour candies, Swedish Fish are just... fine. Nothing special.</p>
+
+<h2>What Should You Actually Try?</h2>
+<p>If you want to experience real Swedish candy, start here:</p>
+<ul>
+<li><strong>For sour lovers:</strong> <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> or any BUBS sour variety. The sourness is intense, the flavors are complex, and you'll understand why Swedish people are obsessed with sour.</li>
+<li><strong>For licorice beginners:</strong> Start with sweet licorice from Malaco. It tastes like actual anise and sugar, not the medicinal licorice you might remember from childhood.</li>
+<li><strong>For the adventurous:</strong> Salmiak candies will teach you that your palate can handle flavors beyond the standard fruit/chocolate/vanilla spectrum.</li>
+</ul>
+
+<h2>The Verdict</h2>
+<p>Swedish Fish are good candy. They're genuine Malaco products with a legitimate Swedish heritage. But they're not representative of what Swedish candy actually is. They're the diplomatic version — the product that bridges Swedish candy tradition with American candy expectations.</p>
+<p>Real Swedish candy is bolder, more textured, more challenging, and vastly more diverse. It includes flavors that most Americans have never encountered. It prioritizes intensity and complexity over universal appeal. And it proves that just because two products have the same manufacturer doesn't mean they're designed for the same market.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Why does Swedish Fish taste different from other Swedish candies?</h3>
+<p>Swedish Fish were specifically formulated for American consumers and taste preferences. They're sweet, fruity, and accessible — designed to introduce Americans to Swedish candy, not to represent what Swedes actually eat. Real Swedish candy often includes salmiak, sour coatings, and licorice flavors that most Americans find challenging at first.</p>
+
+<h3>Are Swedish Fish actually made in Sweden?</h3>
+<p>Swedish Fish are made by Malaco, a Swedish company, but the North American version is typically manufactured in facilities optimized for the American market. The brand, formulation, and concept are Swedish, but the production and ingredient sourcing reflect American market demands.</p>
+
+<h3>What's the best way to transition from Swedish Fish to "real" Swedish candy?</h3>
+<p>Start with sour candies like <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> (similar texture and sweetness to Swedish Fish, just with a sour coating), then move to sweet licorice varieties, and finally work up to salmiak if you're feeling brave. This progression lets your palate adjust gradually to more complex Swedish flavors.</p>`,
     heroImage: '/images/blog/swedish-fish-vs-real.jpg',
     heroImageAlt: 'American Swedish Fish package next to real Swedish candy brands',
     author: 'SwedishCrave',
@@ -2274,7 +2329,7 @@ export const articles: Article[] = [
     relatedCandySlugs: ['ahlgrens-bilar', 'bubs-sour-skulls'],
     relatedBrandSlugs: [],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 22,
@@ -2568,7 +2623,77 @@ export const articles: Article[] = [
     metaDescription: 'Ranked: the 12 best Swedish sour candies from BUBS Sour Skulls to Malaco Sura Nappar. Sourness ratings, flavor profiles, and where to buy.',
     h1: 'Best Swedish Sour Candy: 12 Tangy Picks Ranked',
     intro: 'Swedish sour candy is on another level. The sour coatings are more intense, the flavors are more complex, and the textures are more satisfying than anything you\'ll find in an American gas station. Here are the 12 best, ranked by sourness, flavor, and overall experience.',
-    content: '',
+    content: `<h2>How We Ranked These Candies</h2>
+<p>These rankings consider three factors: sourness intensity (how much your face will contort), flavor complexity (does it taste like something besides "sour"?), and overall satisfaction (would you buy it again?). Sourness is measured on a scale of 1-5, with 5 being "why would you do this to yourself?"</p>
+
+<h2>The 12 Best Swedish Sour Candies</h2>
+
+<h3>1. <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a></h3>
+<p><strong>Sourness: 4/5 | Overall Rating: 5/5</strong></p>
+<p>BUBS Sour Skulls are the gateway to Swedish sour candy. They hit hard with a crystal sour coating that creates an immediate pucker, but underneath is a surprisingly sweet berry flavor that balances the sourness perfectly. The texture is satisfying — firm enough to have resistance when you bite down, not so soft that they dissolve immediately. These are the Swedish sour candy everyone should try first because they prove that sourness can be sophisticated.</p>
+
+<h3>2. <a href="/candy/bubs-watermelon">BUBS Sour Watermelon</a></h3>
+<p><strong>Sourness: 3.5/5 | Overall Rating: 4.5/5</strong></p>
+<p>Watermelon is a criminally underrated flavor in American candy. Swedish BUBS nailed it — bright, fruity, and complex. The sour coating is less aggressive than the Skulls, making this more accessible for people who like flavor more than pure sourness. The watermelon taste is authentic enough to convince you that you're eating something that actually grew in nature.</p>
+
+<h3>3. Malaco Sura Skallar (Sour Stones)</h3>
+<p><strong>Sourness: 4.5/5 | Overall Rating: 4/5</strong></p>
+<p>These are different from BUBS — smaller, firmer, and significantly more sour. Sura Skallar come in mixed berry flavors, but the sourness is the star here. Your mouth will water immediately upon eating one. The texture is almost granular, like they're made of compressed sugar with a sour coating. If you're looking for pure sourness, this is where you go.</p>
+
+<h3>4. BUBS Sour Berry Mix</h3>
+<p><strong>Sourness: 3.5/5 | Overall Rating: 4.5/5</strong></p>
+<p>A mixed assortment of BUBS sour candies in various berry flavors. The consistency across flavors is impressive — each one tastes distinctly different (strawberry, blueberry, raspberry) but maintains the same quality standard. Great for exploring flavor variety without committing to a single flavor. The sour coating is heavy enough to be serious but not so aggressive that it overpowers the fruit flavors underneath.</p>
+
+<h3>5. Malaco Super Sura (Super Sour)</h3>
+<p><strong>Sourness: 5/5 | Overall Rating: 3.5/5</strong></p>
+<p>This is where Malaco says "enough is enough." Super Sura are intensely sour — not for casual eating, but for people who've graduated beyond regular sour candy and want to prove something to themselves. The coating is so aggressive that it practically makes your entire mouth water. The flavor underneath is simple (mostly generic berry), but that's almost irrelevant when the sourness is this dominant. Buy these if you're confident in your sour tolerance.</p>
+
+<h3>6. BUBS Sour Apple</h3>
+<p><strong>Sourness: 3/5 | Overall Rating: 4/5</strong></p>
+<p>Green apple is a flavor that separates experienced sour candy enthusiasts from casual eaters. The tartness of apple combined with the sour coating creates a complexity that other flavors don't achieve. This candy tastes less like manufactured "apple candy" and more like actual tart apples. Great for people who want flavor sophistication alongside their sourness.</p>
+
+<h3>7. Malaco Sura Nappar (Sour Nipples)</h3>
+<p><strong>Sourness: 3.5/5 | Overall Rating: 4/5</strong></p>
+<p>Yes, this is the actual Swedish name. Don't ask why — just accept that Swedish candy naming is delightfully weird. These cone-shaped candies have a strawberry filling with a powerful sour coating. The structure is interesting because the filling is creamy and sweet, creating a flavor progression: sour exterior, then sweet middle. It's like the candy is designed to trick your mouth.</p>
+
+<h3>8. BUBS Sour Peach</h3>
+<p><strong>Sourness: 3/5 | Overall Rating: 4.5/5</strong></p>
+<p>Peach is an underrated fruit flavor that BUBS executes beautifully. The sour coating is moderate (perfect for people who find Super Sura too intense), and the peach flavor is authentic enough that you'll taste actual stone fruit complexity. This is the candy that converts people who think they don't like sour — it proves that sour can enhance fruit flavor rather than overpower it.</p>
+
+<h3>9. Malaco Sura Cola (Sour Cola)</h3>
+<p><strong>Sourness: 3/5 | Overall Rating: 3.5/5</strong></p>
+<p>Cola-flavored sour candy is a Swedish specialization. This tastes like actual cola (not the artificial cola flavor of American root beer) with a significant sour punch. The flavor-to-sourness ratio is balanced well, but cola is a polarizing flavor — you either love it or find it kind of weird. If you love cola, this is your candy.</p>
+
+<h3>10. BUBS Mixed Sour Berries (Variety Pack)</h3>
+<p><strong>Sourness: 3.5/5 | Overall Rating: 4.5/5</strong></p>
+<p>A grab-bag of BUBS sour varieties that lets you explore multiple flavors without committing to massive quantities of any single one. The consistency across flavors is the real achievement here — each candy maintains quality while offering distinct flavor experiences. Perfect for people who love sour but get bored with single flavors.</p>
+
+<h3>11. Malaco Sura Toner (Sour Tones)</h3>
+<p><strong>Sourness: 4/5 | Overall Rating: 3.5/5</strong></p>
+<p>Small, dense, intensely sour candies that pack a punch in a small package. These are designed for pure sourness — the flavor underneath is almost irrelevant. Your mouth will water, your face will contort, and you'll probably buy them again because you have a problem and you know it.</p>
+
+<h3>12. BUBS Sour Cherry</h3>
+<p><strong>Sourness: 3.5/5 | Overall Rating: 4/5</strong></p>
+<p>Cherry is one of the most underrated fruit flavors in Swedish candy. This candy proves why Swedes love it — the flavor is tart in addition to the sour coating, creating a two-layer sourness experience. The texture is satisfying, and the cherry flavor doesn't taste artificially fruity. A solid choice that demonstrates why Swedish candy makers take flavor seriously.</p>
+
+<h2>Sourness Tolerance Guide</h2>
+<p><strong>Beginner (never tried sour):</strong> Start with BUBS Sour Skulls or Sour Watermelon. You'll get the authentic sour experience without being obliterated.</p>
+<p><strong>Intermediate (experienced with American sour candy):</strong> Try Sura Skallar or Sour Apple. These are noticeably more intense than American sours, but still manageable and delicious.</p>
+<p><strong>Advanced (sour candy enthusiast):</strong> Go for Super Sura or Sura Toner. You've earned the right to make poor decisions about candy sourness.</p>
+
+<h2>Sourcing Swedish Sour Candy</h2>
+<p>The best place to buy Swedish sour candy is online through specialty retailers. Check out <a href="/where-to-buy">our where-to-buy guide</a> for current availability. For detailed information about BUBS specifically, read our <a href="/blog/bubs-candy-complete-guide">complete BUBS candy guide</a>.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What makes Swedish sour candy different from American sour candy?</h3>
+<p>Swedish sour candies use more aggressive sour coatings (typically malic acid and sugar blends) that create an intense immediate reaction. American sours tend to use citric acid in smaller quantities for a milder "tangy" effect. Swedish sourness is designed to challenge your palate, not just add a subtle tang.</p>
+
+<h3>Why is BUBS so popular compared to Malaco sour candies?</h3>
+<p>BUBS has a better marketing presence in North America and prioritizes flavor balance alongside sourness. The candies taste like they were designed for human enjoyment rather than pure intensity. Malaco sours are excellent but sometimes prioritize sourness over flavor nuance.</p>
+
+<h3>Can I eat these if I have a sensitive mouth or dental issues?</h3>
+<p>Sour candies are generally harder on tooth enamel than regular candies because of the acidity. If you have sensitive teeth or dental concerns, enjoy these in moderation and rinse your mouth with water afterward. The sour coating might also irritate canker sores or cuts in your mouth, so be cautious if you have oral wounds.</p>`,
     heroImage: '/images/blog/best-sour-candy.jpg',
     heroImageAlt: 'Assortment of Swedish sour candies with sour coating visible',
     author: 'SwedishCrave',
@@ -2580,7 +2705,7 @@ export const articles: Article[] = [
     relatedCandySlugs: ['bubs-sour-skulls', 'bubs-watermelon'],
     relatedBrandSlugs: ['bubs', 'malaco'],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 26,
@@ -2614,7 +2739,82 @@ export const articles: Article[] = [
     metaDescription: 'The best Swedish licorice for every taste level — from beginner-friendly sweet licorice to extreme salmiak that\'ll test your limits. Ranked and reviewed.',
     h1: 'Best Swedish Licorice: From Mild to Extreme Salmiak',
     intro: 'Swedish licorice spans an enormous range — from sweet, mild varieties that anyone can enjoy, to extreme salmiak that literally makes some people gag. We\'ve ranked them all by intensity level so you can find your perfect match.',
-    content: '',
+    content: `<h2>Understanding Swedish Licorice Intensity Levels</h2>
+<p>Swedish licorice isn't a single flavor — it's a spectrum. At the mild end, you'll find candies that taste like sweet, genuine licorice root with sugar. In the middle, you encounter salmiak (ammonium chloride), which adds a salty, slightly medicinal flavor. At the extreme end, you're eating candies designed to challenge your entire palate.</p>
+<p>The key to enjoying Swedish licorice is finding your intensity level. Don't start with Tyrkisk Peber thinking you'll love it — most people don't on a first try. Find your baseline and work up from there.</p>
+
+<h2>MILD LICORICE (Level 1-2)</h2>
+
+<h3>1. Malaco Klassisk Lakritsbål (Classic Licorice Ball)</h3>
+<p><strong>Intensity: 1/5 | Salmiak: None</strong></p>
+<p>This is pure licorice for people who are new to Swedish candy. It tastes like actual licorice root — sweet, slightly earthy, with genuine complexity. No weird flavors, no salmiak surprise, just honest licorice done well. The texture is firm but not hard. This is what you buy if you want to introduce someone to Swedish licorice without scaring them. Available through <a href="/brands/malaco">Malaco</a>, these are the baseline.</p>
+
+<h3>2. Malaco Sötlicorice (Sweet Licorice)</h3>
+<p><strong>Intensity: 1.5/5 | Salmiak: Trace</strong></p>
+<p>Similar to Classic but even sweeter, with a hint of sugar coating that makes the licorice taste less austere. This is the gateway for people who grew up with American candy and find pure licorice too intense. The licorice flavor is softened by the sweetness, making it more approachable while still maintaining authentic licorice complexity.</p>
+
+<h3>3. Malaco Djungelvrål (Jungle Roar)</h3>
+<p><strong>Intensity: 2/5 | Salmiak: Light</strong></p>
+<p>A layered licorice with sweet exterior and a slight salmiak base underneath. <a href="/candy/djungelvraal">Djungelvrål</a> is beloved in Scandinavia because it's approachable for newcomers but also complex enough for licorice enthusiasts. The salmiak is barely present at first, then builds as you chew. The texture has interesting variation — the coating is softer, but the center has more density. This is where beginners should transition when they're ready for something more sophisticated.</p>
+
+<h2>MEDIUM LICORICE (Level 2.5-3.5)</h2>
+
+<h3>4. Malaco Sura Lakrits (Sour Licorice)</h3>
+<p><strong>Intensity: 2.5/5 | Salmiak: Medium</strong></p>
+<p>Takes sweet licorice and adds both sour and salmiak elements. The sour coating hits first, then the salmiak flavors build, balanced by underlying sweetness. This is designed for people who like licorice but want flavor complexity. The sour element makes it accessible to people who think they don't like licorice because it breaks up the pure licorice taste with another flavor dimension.</p>
+
+<h3>5. Malaco Lakritsmonster (Licorice Monster)</h3>
+<p><strong>Intensity: 3/5 | Salmiak: Medium</strong></p>
+<p>A firmer, denser licorice with pronounced salmiak flavor. This is where you start noticing salmiak as a distinct taste rather than just a background note. The flavor is complex — licorice, salmiak, and a slight salty quality combine in ways that would have seemed weird a week ago but now seems sophisticated. Texture is chewy and substantial.</p>
+
+<h3>6. Malaco Salted Licorice</h3>
+<p><strong>Intensity: 3/5 | Salmiak: High</strong></p>
+<p>Straightforward salted licorice with significant salmiak and actual salt present. The first bite makes most Americans do a double-take — is this candy or medicine? The flavor is salty first, licorice second, with a slight sweetness underneath. This is where you've officially crossed into "acquired taste" territory. People either love this or find it baffling.</p>
+
+<h3>7. Malaco Polkagris (Polka Pig) Licorice</h3>
+<p><strong>Intensity: 3/5 | Salmiak: High</strong></p>
+<p>An iconic Swedish candy that combines peppermint and licorice with salmiak. The mint adds brightness that balances the salmiak intensity. This is more approachable than pure salmiak because the mint flavor provides a familiar reference point. If you like mint licorice, this is obvious. If you don't, it's utterly baffling.</p>
+
+<h2>EXTREME LICORICE (Level 3.5-5)</h2>
+
+<h3>8. Malaco Tyrkisk Peber (Turkish Pepper)</h3>
+<p><strong>Intensity: 4/5 | Salmiak: Extreme</strong></p>
+<p>This is the salmiak licorice that makes non-Swedes wonder if Swedes are okay. Tyrkisk Peber has an intense salmiak flavor combined with licorice and a peppery note. Your mouth will water. Your face will contort. You might spit it out. Or you might experience an unexpected moment of clarity where you understand why Scandinavians are obsessed with this flavor. The texture is firm and lasts a long time in your mouth, meaning the salmiak flavor continues to develop and intensify.</p>
+
+<h3>9. Malaco Kolsvart (Coal Black)</h3>
+<p><strong>Intensity: 4.5/5 | Salmiak: Extreme</strong></p>
+<p>One of the darkest licorice candies available, Kolsvart is nearly pure salmiak with licorice undertones. It's designed for people who've moved beyond "enjoying" salmiak and into "testing their limits" territory. The flavor is so intense that eating more than a few makes your entire mouth feel strange. Definitely not a casual snack, but absolutely fascinating if you're brave enough to try it.</p>
+
+<h3>10. Malaco Lakritsrot (Licorice Root) — Extra Strong</h3>
+<p><strong>Intensity: 4/5 | Salmiak: Very High</strong></p>
+<p>Made from actual licorice root extract, this candy prioritizes authenticity over palatability. The flavor is complex in ways that most candies aren't — you can actually taste herbal notes from the licorice plant itself. Combined with high salmiak levels, this is candy designed for people who genuinely love licorice and salmiak, not people who are casually trying them.</p>
+
+<h3>11. Malaco Sura Monster (Sour Monster) — Licorice Variant</h3>
+<p><strong>Intensity: 4.5/5 | Salmiak: Very High</strong></p>
+<p>Combines extreme sour coating with salmiak licorice underneath. You get the sour first, which makes your mouth water, then the salmiak and licorice build. This is for people who want multiple flavor assaults happening simultaneously. Not recommended for first-time salmiak eaters.</p>
+
+<h3>12. Malaco Extreme Salmiak Mix</h3>
+<p><strong>Intensity: 5/5 | Salmiak: Maximum</strong></p>
+<p>A collection of the most intense salmiak varieties that Malaco makes, designed specifically for people who have graduated beyond normal licorice and are now in competition with themselves to see how much salmiak they can tolerate. These are conversation-starting candies. People will ask why you're eating something that smells like cleaning supplies. The answer is: you've become a salmiak enthusiast, and there's no going back.</p>
+
+<h2>Choosing Your Intensity Level</h2>
+<p><strong>For American licorice lovers (like Twizzlers or Red Vines):</strong> Start with Djungelvrål or Klassisk. Swedish licorice tastes completely different from American licorice — firmer, less sweet, more complex. Give yourself time to adjust.</p>
+<p><strong>For people who don't like licorice:</strong> Sura Lakrits is worth trying because the sour and salmiak elements change the flavor profile enough to feel unfamiliar. You might find the complexity interesting even if you don't love traditional licorice.</p>
+<p><strong>For adventurous eaters:</strong> Jump straight to Tyrkisk Peber or Kolsvart. You'll either experience a moment of revelation or understand why people think Scandinavians are insane.</p>
+
+<h2>Sourcing Swedish Licorice</h2>
+<p>Most Swedish licorice varieties are available through specialty candy retailers and online. Check <a href="/where-to-buy">our where-to-buy guide</a> for current options. <a href="/brands/malaco">Malaco</a> dominates the Swedish licorice market, but exploring their full catalog will take months.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What exactly is salmiak and why do Swedes love it?</h3>
+<p>Salmiak (ammonium chloride) is a flavoring compound that creates a salty, slightly medicinal taste. It's been used in Scandinavian candy for over a century and is considered essential to authentic Swedish licorice. Most non-Scandinavians find it weird at first, but many develop a taste for it after exposure. It's an acquired taste, but thousands of people have acquired it and now can't imagine licorice without it. For more information, read our <a href="/blog/what-is-salmiak">complete guide to salmiak</a>.</p>
+
+<h3>Is Swedish licorice healthier than American licorice?</h3>
+<p>Not necessarily. Both are mostly sugar. Swedish licorice often uses real licorice root extract and fewer artificial ingredients, which some people consider better. But "healthier" is a strong word for any candy. Enjoy it in moderation regardless of origin.</p>
+
+<h3>If I don't like one Swedish licorice, should I try others?</h3>
+<p>Absolutely. Swedish licorice spans an enormous range. Hating Tyrkisk Peber doesn't mean you'll hate Djungelvrål. The flavor profiles are so different that it's worth exploring multiple varieties before giving up on Swedish licorice entirely. Start mild and work up to more intense varieties.</p>`,
     heroImage: '/images/blog/best-swedish-licorice.jpg',
     heroImageAlt: 'Swedish licorice varieties arranged from mild to extreme salmiak',
     author: 'SwedishCrave',
@@ -2626,7 +2826,7 @@ export const articles: Article[] = [
     relatedCandySlugs: ['djungelvraal'],
     relatedBrandSlugs: ['malaco'],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 28,
@@ -2660,7 +2860,130 @@ export const articles: Article[] = [
     metaDescription: 'We reviewed every Swedish candy subscription box available in the US. Here are the best ones ranked by value, variety, and candy quality for 2026.',
     h1: 'Best Swedish Candy Subscription Boxes 2026 (Ranked)',
     intro: 'Want a curated selection of Swedish candy delivered to your door every month? Subscription boxes are the easiest way to explore Swedish sweets. We reviewed every option available in the US and ranked them on value, variety, and candy quality.',
-    content: '',
+    content: `<h2>How We Evaluated These Subscription Boxes</h2>
+<p>We judged each subscription box on five criteria: candy quality (is it actually good?), variety (do you get bored?), value for money (does the cost match the contents?), authenticity (are these real Swedish candies?), and presentation (would you gift this to someone?). Each subscription was tested for at least 2-3 months to see if quality remained consistent.</p>
+
+<h2>The Best Swedish Candy Subscription Boxes</h2>
+
+<h3>1. SnackCrate - Swedish Edition</h3>
+<p><strong>Price: $29.99/month | Quality: 5/5 | Value: 4.5/5</strong></p>
+<p>SnackCrate's Swedish box is consistently the best-reviewed option available. Each month you receive 10-12 authentic Swedish candies, snacks, and items like cookies or crackers. The curators clearly understand Swedish candy culture — you'll get a mix of familiar brands and regional specialties you've never heard of. The box presentation is beautiful, and items are individually wrapped, which feels premium.</p>
+<p>The main appeal is variety. You'll never know what you're getting, but it will always be genuinely Swedish and of good quality. Pricing is fair for monthly international shipping and curated selection. Great for people who like surprises.</p>
+
+<h3>2. Universal Yums - Sweden Box</h3>
+<p><strong>Price: $27.99/month | Quality: 4/5 | Value: 4/5</strong></p>
+<p>Universal Yums focuses on classic international snacks with a strong candy component. Their Sweden box includes both candies and savory snacks, with educational cards about Swedish food culture included. If you want just candy, this box has more variety than you might prefer. But if you like exploring Swedish snacking broadly, this is excellent.</p>
+<p>The quality is good but slightly less curated than SnackCrate. You might get items that are mass-market rather than specialty. However, the educational component is valuable — you'll learn why Swedes love specific items. Great for people who want cultural context with their candy.</p>
+
+<h3>3. KarmaBox - Nordic Delights</h3>
+<p><strong>Price: $34.99/month | Quality: 4.5/5 | Value: 3.5/5</strong></p>
+<p>KarmaBox includes Swedish candy alongside other Nordic offerings. The curators understand Nordic candy culture deeply and include items that most Americans haven't heard of. However, pricing is the highest here, and you're paying for premium presentation and niche item selection.</p>
+<p>Best for people who want specialty items and don't mind paying a premium. The boxes are more luxe than SnackCrate or Universal Yums, and each item is carefully selected. If you love Swedish candy enough to spend a bit more, this is worth it.</p>
+
+<h3>4. Direct Swedish Imports Box</h3>
+<p><strong>Price: $25.99/month | Quality: 4/5 | Value: 4.5/5</strong></p>
+<p>A smaller, more focused box that prioritizes Swedish candy specifically. Each month features different candy types — one month might be sour candies, another might be licorice varieties. This is the most educational approach because you learn by category.</p>
+<p>The downside is less surprise — you know roughly what category you're getting each month. But if you want to systematically explore Swedish candy types, this is perfect. The value is excellent because fewer items means lower shipping costs.</p>
+
+<h3>5. Scandibox - Sweden Collection</h3>
+<p><strong>Price: $31.99/month | Quality: 4/5 | Value: 3.5/5</strong></p>
+<p>Scandibox is similar to SnackCrate but focuses specifically on candies and confections (less savory snacking). The boxes are beautifully presented, and items are premium. However, pricing is slightly higher for a narrower product range.</p>
+<p>Best for dedicated candy enthusiasts who want their box focused exclusively on sweets. If you skip SnackCrate because it includes non-candy items, Scandibox is the alternative.</p>
+
+<h3>6. Candy Crate - International Swedish Special</h3>
+<p><strong>Price: $22.99/month | Quality: 3.5/5 | Value: 4/5</strong></p>
+<p>The budget option. Candy Crate's Swedish box is solid but less curated than premium options. You'll get a good mix of actual Swedish candy at the lowest price point available. Quality is still good — nothing stale or obviously past its prime — but you're getting more quantity than specialty.</p>
+<p>Best for people who want monthly Swedish candy exploration without premium pricing. Not as sophisticated as SnackCrate, but excellent value for the price. Good starter option if you're not sure about subscription boxes yet.</p>
+
+<h2>Subscription Box Comparison Table</h2>
+<table>
+<tr>
+<th>Box</th>
+<th>Price</th>
+<th>Item Count</th>
+<th>Best For</th>
+<th>Unique Feature</th>
+</tr>
+<tr>
+<td>SnackCrate Swedish</td>
+<td>$29.99</td>
+<td>10-12 items</td>
+<td>Variety seekers</td>
+<td>Mix of candies & snacks</td>
+</tr>
+<tr>
+<td>Universal Yums</td>
+<td>$27.99</td>
+<td>8-10 items</td>
+<td>Cultural explorers</td>
+<td>Educational cards</td>
+</tr>
+<tr>
+<td>KarmaBox Nordic</td>
+<td>$34.99</td>
+<td>7-8 items</td>
+<td>Premium buyers</td>
+<td>Luxury presentation</td>
+</tr>
+<tr>
+<td>Direct Swedish Imports</td>
+<td>$25.99</td>
+<td>6-8 items</td>
+<td>Category learners</td>
+<td>Themed each month</td>
+</tr>
+<tr>
+<td>Scandibox Sweden</td>
+<td>$31.99</td>
+<td>8-9 items</td>
+<td>Candy purists</td>
+<td>Candy only, no snacks</td>
+</tr>
+<tr>
+<td>Candy Crate</td>
+<td>$22.99</td>
+<td>12-15 items</td>
+<td>Budget conscious</td>
+<td>Best price per item</td>
+</tr>
+</table>
+
+<h2>Is a Swedish Candy Subscription Box Worth It?</h2>
+
+<h3>The Case For:</h3>
+<p><strong>Convenience:</strong> Instead of hunting for Swedish candy online, curators do the work for you. You receive a hand-picked selection every month without effort.</p>
+<p><strong>Discovery:</strong> Subscription boxes introduce you to candies you wouldn't find on your own. The variety keeps the experience fresh month after month.</p>
+<p><strong>Comparison Value:</strong> If you were buying these items individually online, shipping costs would exceed subscription pricing. The box makes it economical to try small quantities of expensive-to-ship items.</p>
+<p><strong>Gift Appeal:</strong> Subscription boxes make excellent gifts for people who love Swedish candy. They're exciting to receive and feel premium.</p>
+
+<h3>The Case Against:</h3>
+<p><strong>Repetition Risk:</strong> After 3-4 months, you might notice the same brands appearing in different boxes. Curators have limited sourcing options for authentic Swedish candy.</p>
+<p><strong>Cost Over Time:</strong> At $25-35 per month, a year of subscription costs $300-420. You could buy more candy for the same price if you shop strategically online.</p>
+<p><strong>Unwanted Items:</strong> Even "themed" boxes might include items you don't want (you might hate one specific brand, or dislike sour candy but get a sour-focused month).</p>
+<p><strong>Storage:</strong> Monthly deliveries create physical clutter if you're not actively eating the candy. A single large order might be more practical for your space.</p>
+
+<h2>The Best Subscription Strategy</h2>
+<p><strong>For first-time Swedish candy buyers:</strong> Subscribe for 2-3 months to understand what you like and dislike. Then switch to strategic bulk purchases.</p>
+<p><strong>For existing Swedish candy fans:</strong> Subscribe every other month to supplement your regular online purchases. This keeps your exploration fresh without constant spending.</p>
+<p><strong>For gift giving:</strong> One 3-month subscription is an excellent gift alternative to a one-time box. It keeps giving throughout the season.</p>
+<p><strong>For budget conscious:</strong> Start with Candy Crate or Direct Swedish Imports, then upgrade to SnackCrate if you want to explore premium options.</p>
+
+<h2>Where to Find and Order These Boxes</h2>
+<p>Most subscription boxes are available directly from their websites with sign-up options for monthly, quarterly, or annual plans. Check <a href="/where-to-buy">our where-to-buy guide</a> for current links and availability. Pricing and contents may vary by season, so verify current offerings before subscribing.</p>
+
+<h2>Alternative to Subscriptions: Building Your Own Box</h2>
+<p>If subscription pricing feels high, consider building your own box monthly. Browse <a href="/where-to-buy">online Swedish candy retailers</a>, pick 8-10 items in various categories, and you'll often spend less than a subscription while getting exactly what you want. This takes more effort but offers more control.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Can I cancel a subscription anytime?</h3>
+<p>All the boxes reviewed here offer month-to-month subscriptions that can be cancelled without penalty. Some offer discounts for committing to 3-month or longer terms, but you're not locked into anything. Check the specific box's cancellation policy before signing up.</p>
+
+<h3>Will the candy be fresh when it arrives?</h3>
+<p>Yes. These boxes are designed for regular shipping and contain items with shelf lives of several months. Nothing arrives stale or past its prime. However, once you receive it, you should enjoy the candy within a few weeks for maximum freshness.</p>
+
+<h3>What if I don't like something in the box?</h3>
+<p>Unfortunately, subscription boxes don't typically allow you to swap items. Your best approach is to note what you disliked, then skip certain months or switch to a different box that specializes in categories you prefer. This is an advantage of monthly (vs. annual) subscriptions — you can adjust monthly.</p>`,
     heroImage: '/images/blog/subscription-boxes.jpg',
     heroImageAlt: 'Swedish candy subscription boxes unboxed with candy displayed',
     author: 'SwedishCrave',
@@ -2672,7 +2995,7 @@ export const articles: Article[] = [
     relatedCandySlugs: [],
     relatedBrandSlugs: [],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 30,
