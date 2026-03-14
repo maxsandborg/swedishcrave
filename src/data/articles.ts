@@ -2652,7 +2652,95 @@ export const articles: Article[] = [
     metaDescription: 'How do BUBS Swedish gummies compare to Haribo? We compare taste, texture, ingredients, and price in this head-to-head brand comparison.',
     h1: 'BUBS vs Haribo: Swedish vs German Gummies Compared',
     intro: 'BUBS and Haribo are both European gummy powerhouses, but they couldn\'t be more different. One is a viral Swedish sensation, the other is the world\'s largest gummy manufacturer. We put them head to head on taste, texture, ingredients, and value.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border-left: 4px solid #3b82f6; border-radius: 8px; padding: 20px; margin-bottom: 32px;">
+<strong>The verdict:</strong> BUBS wins on ingredients, texture, and the "cool factor." Haribo wins on price, availability, and variety. If you care about what\'s in your candy, BUBS is the clear choice. If you want cheap gummies from every gas station on earth, Haribo has you covered.
+</div>
+
+<h2>Two Very Different Gummy Philosophies</h2>
+<p>Haribo was founded in 1920 in Bonn, Germany. They invented the gummy bear. They produce candy in 10 countries and sell in over 100. They are, by any measure, the gummy empire. <a href="/brands/bubs">BUBS</a> was founded in 1992 in Jönköping, Sweden, by a family that wanted to make candy differently. They went viral on TikTok in 2023. They\'re roughly the size of one of Haribo\'s factory break rooms.</p>
+<p>And yet, in the last few years, BUBS has become the gummy brand people actually get excited about. That\'s not an accident — it\'s what happens when a smaller company makes fundamentally better candy. Let\'s break down exactly how they compare.</p>
+
+<h2>Taste: Which One Actually Tastes Better?</h2>
+
+<h3>BUBS: Flavor-Forward</h3>
+<p>BUBS candy tastes like the fruit it\'s supposed to taste like. Their <a href="/candy/bubs-sour-skulls">Sour Skulls</a> have a genuine berry flavor underneath the sour coating. Their <a href="/candy/bubs-watermelon">Watermelon</a> tastes like watermelon, not "watermelon flavor #4 from a chemical catalog." The flavor profiles are more complex and less artificial — you can actually distinguish between different BUBS varieties blindfolded.</p>
+
+<h3>Haribo: Familiar, Functional</h3>
+<p>Haribo gummies taste like... Haribo gummies. There\'s a distinct "Haribo flavor" that runs through most of their products — a slightly waxy, vaguely fruity base that\'s consistent but not particularly exciting. The gold bears are pleasant. The Happy Cola is solid. But nobody\'s writing poetry about Haribo\'s flavor complexity. They\'re the reliable sedan of the gummy world: gets the job done, never surprises you.</p>
+
+<p><strong>Winner: BUBS.</strong> It\'s not close. BUBS flavors have depth and authenticity that Haribo simply doesn\'t match.</p>
+
+<h2>Texture: The Real Differentiator</h2>
+
+<h3>BUBS: Soft and Satisfying</h3>
+<p>BUBS gummies have a texture that\'s genuinely different from anything else on the market. They\'re softer than Haribo, chewier without being tough, and have a satisfying "give" when you bite down. The sour varieties have a crystal coating that adds crunch — creating a multi-texture experience in every piece. There\'s a reason BUBS candy went viral on ASMR TikTok: the sounds these candies make are deeply satisfying.</p>
+
+<h3>Haribo: Firm and Bouncy</h3>
+<p>Haribo\'s signature texture is firm, bouncy gelatin. Their gold bears have that classic "gummy bear" resistance that people either love or find slightly tire-like. Haribo\'s texture is more uniform across products — you know what you\'re getting. Some people prefer this firmness, especially for the gold bears, which have a satisfying chew. But it\'s a one-note texture experience.</p>
+
+<p><strong>Winner: BUBS.</strong> The texture variety and softness give BUBS a clear edge, though this one\'s more subjective. Some people genuinely prefer Haribo\'s firmer chew.</p>
+
+<h2>Ingredients: Where It Gets Interesting</h2>
+
+<h3>BUBS</h3>
+<p>Every single BUBS product is vegan. No gelatin (they use potato starch instead), no artificial colors (they use fruit and vegetable concentrates), no beeswax, no shellac. The ingredient lists are short and mostly things you recognize: glucose syrup, sugar, water, starch, fruit juice concentrates, natural flavoring. That\'s it. For a candy company, this is remarkably clean.</p>
+
+<h3>Haribo</h3>
+<p>Haribo uses pork gelatin in most of their products (there are some gelatin-free exceptions, but they\'re not the norm). Their ingredient lists include artificial flavors, various gum agents, beeswax for coating, and depending on the market, artificial colors. The US versions of Haribo often have different (worse) ingredient lists than the European versions — a common issue with candy that\'s reformulated for the American market.</p>
+
+<p><strong>Winner: BUBS, decisively.</strong> If ingredients matter to you — and they should — BUBS is in a completely different league. Vegan, natural colors, simpler ingredient lists. Read our <a href="/blog/is-swedish-candy-vegan">vegan candy guide</a> for more on this topic.</p>
+
+<h2>Sour Candy Comparison</h2>
+<p>This is where the rivalry gets spicy — or rather, sour.</p>
+
+<h3>BUBS Sour Skulls vs Haribo Sour Gold Bears</h3>
+<p><strong>Sourness intensity:</strong> BUBS wins. The crystal sour coating on Sour Skulls delivers an immediate, intense pucker that Haribo\'s dusted sour coating can\'t match.</p>
+<p><strong>Flavor after sour fades:</strong> BUBS wins. The berry gummy underneath has genuine flavor depth. Haribo\'s sour bears taste like regular gold bears with sugar dust.</p>
+<p><strong>Texture experience:</strong> BUBS wins. The crunch of the sour crystals transitioning into the soft gummy is more interesting than Haribo\'s uniform texture.</p>
+<p><strong>Sourness duration:</strong> Roughly tied. Both fade after 10-15 seconds, though they deliver the sourness differently.</p>
+
+<h2>Price & Availability</h2>
+
+<h3>Haribo: Cheap and Everywhere</h3>
+<p>Haribo is available in literally every gas station, grocery store, drugstore, and vending machine in America. A bag of gold bears costs $2-4. You can buy them without thinking or planning. This is Haribo\'s superpower — they\'re the default gummy. Always there, always affordable.</p>
+
+<h3>BUBS: More Expensive, Less Available</h3>
+<p>BUBS typically costs $8-15 per bag, depending on the variety and where you buy. You can find them at some Target locations (through <a href="/blog/sockerbit-review">Sockerbit</a>), on <a href="/blog/best-swedish-candy-on-amazon">Amazon</a>, and from specialty Swedish candy retailers. You have to seek out BUBS — it won\'t find you in a checkout aisle. The higher price reflects import costs and smaller production scale.</p>
+
+<p><strong>Winner: Haribo.</strong> On pure accessibility and price, Haribo can\'t be beat. BUBS costs 2-3x more and requires more effort to find.</p>
+
+<h2>Brand & Culture</h2>
+
+<h3>BUBS: The TikTok Darling</h3>
+<p>BUBS has something Haribo doesn\'t: cultural momentum. The brand went from Swedish niche to international sensation through TikTok, and it represents a broader movement toward better candy ingredients. Buying BUBS feels like a conscious choice — you\'re choosing better ingredients, supporting a smaller company, and eating something your friends haven\'t tried.</p>
+
+<h3>Haribo: The Establishment</h3>
+<p>Haribo is the candy your parents ate. It\'s comfortable and nostalgic, but it doesn\'t excite anyone. Nobody posts an "unboxing" video of Haribo gold bears. Haribo\'s marketing still relies heavily on the same bear mascot and jingle they\'ve used for decades. There\'s nothing wrong with being established, but it doesn\'t create the same enthusiasm.</p>
+
+<p><strong>Winner: BUBS.</strong> In 2026, BUBS is the brand people are excited about. Haribo is the brand people default to.</p>
+
+<h2>The Final Scorecard</h2>
+<p><strong>Taste:</strong> BUBS</p>
+<p><strong>Texture:</strong> BUBS</p>
+<p><strong>Ingredients:</strong> BUBS</p>
+<p><strong>Sour candy:</strong> BUBS</p>
+<p><strong>Price:</strong> Haribo</p>
+<p><strong>Availability:</strong> Haribo</p>
+<p><strong>Variety of products:</strong> Haribo (they have hundreds of products to BUBS\'s ~30)</p>
+<p><strong>Brand excitement:</strong> BUBS</p>
+
+<p><strong>Overall: BUBS wins 5-3.</strong> If you have access to both and don\'t mind paying a bit more, BUBS is the better candy. If you need cheap gummies right now from the nearest store, Haribo will always be there for you — like a reliable friend who\'s not particularly interesting but never lets you down.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is BUBS healthier than Haribo?</h3>
+<p>Both are candy, so neither is a health food. But BUBS has cleaner ingredients: no gelatin, no artificial colors, no beeswax. If "healthier" means "fewer questionable additives," then yes, BUBS is the better choice. The sugar content is comparable.</p>
+
+<h3>Can I find BUBS at regular stores?</h3>
+<p>BUBS is expanding US distribution. You can find them at some Target locations (via Sockerbit), on Amazon, and at specialty candy stores. It\'s getting easier, but it\'s not at gas-station-level availability yet. Check our <a href="/where-to-buy">where-to-buy guide</a>.</p>
+
+<h3>Are Haribo gummies vegan?</h3>
+<p>Most are not — Haribo uses pork gelatin in the majority of their products. They do have some vegan-friendly options in certain markets, but they\'re the exception. All BUBS products are vegan by default.</p>`,
     heroImage: '/images/blog/bubs-vs-haribo.jpg',
     heroImageAlt: 'BUBS candy and Haribo candy side by side for comparison',
     author: 'SwedishCrave',
@@ -2661,10 +2749,10 @@ export const articles: Article[] = [
     estimatedReadTime: 9,
     tags: ['BUBS', 'Haribo', 'comparison', 'gummies', 'vs'],
     relatedArticleSlugs: ['bubs-candy-complete-guide', 'swedish-candy-vs-american-candy', 'best-swedish-sour-candy'],
-    relatedCandySlugs: ['bubs-sour-skulls'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'bubs-watermelon'],
     relatedBrandSlugs: ['bubs'],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 21,
@@ -3013,7 +3101,80 @@ export const articles: Article[] = [
     metaDescription: 'New to Swedish candy? These 10 beginner-friendly picks are the perfect starting point — approachable flavors, easy to find, and universally loved.',
     h1: 'Best Swedish Candy for Beginners (Start Here)',
     intro: 'Not all Swedish candy is for the faint of heart — some of it involves salty licorice that can make grown adults wince. This list focuses on the beginner-friendly picks that taste amazing without the shock factor.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border-left: 4px solid #f59e0b; border-radius: 8px; padding: 20px; margin-bottom: 32px;">
+<strong>Quick take:</strong> New to Swedish candy? Start with Ahlgrens Bilar or BUBS Sour Skulls — they\'re universally loved, easy to find online, and won\'t traumatize your taste buds with surprise salmiak. This guide covers the 10 best entry points for your Swedish candy journey.
+</div>
+
+<h2>Why You Need a Beginner\'s Guide</h2>
+<p>Here\'s the thing about Swedish candy: some of it is absolutely delicious from the first bite. And some of it tastes like someone dissolved a car battery in black licorice and thought, "yes, this is a treat." That second category is salmiak, and it\'s an acquired taste that most Swedes genuinely love. You\'ll get there eventually. But not today.</p>
+<p>This list is your safe starting zone — 10 picks that taste incredible to pretty much everyone, regardless of whether you grew up eating <a href="/blog/european-candy-vs-american">European or American candy</a>. We\'ve ranked them by approachability, meaning the ones at the top are the easiest to love on your very first try.</p>
+
+<h2>The 10 Best Swedish Candies for Beginners</h2>
+
+<h3>1. <a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a> (Marshmallow Cars)</h3>
+<p><strong>Approachability: 5/5 | Flavor: Sweet, fruity marshmallow</strong></p>
+<p>If Swedish candy had an ambassador, it would be these little foam cars. Ahlgrens Bilar are Sweden\'s best-selling candy — literally outselling every actual car brand in the country. They\'re soft, mildly sweet, and come in three subtle fruit flavors (pink, green, and white) that don\'t overpower anything. The texture is unlike any American candy: a light, airy marshmallow foam that melts on your tongue. Zero shock factor, maximum charm. Hand these to anyone and watch them eat the entire bag.</p>
+
+<h3>2. <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a></h3>
+<p><strong>Approachability: 4.5/5 | Flavor: Sour berry with sweet center</strong></p>
+<p>The candy that broke TikTok. BUBS Sour Skulls went viral for a reason — they\'re the perfect gateway sour candy. The crystal sour coating hits immediately, but underneath is a soft, sweet berry gummy that balances everything out. If you\'ve had Sour Patch Kids, you\'ll feel right at home, except the texture is noticeably better and the sourness feels cleaner. These are the Swedish candy most Americans try first, and there\'s a reason for that: they\'re just really, really good.</p>
+
+<h3>3. <a href="/candy/marabou-mjolkchoklad">Marabou Mjölkchoklad</a> (Milk Chocolate)</h3>
+<p><strong>Approachability: 5/5 | Flavor: Creamy, rich milk chocolate</strong></p>
+<p>Imagine if Hershey\'s went to culinary school, studied in Switzerland, and came back a completely different person. That\'s <a href="/blog/marabou-chocolate-guide">Marabou</a>. Sweden\'s favorite chocolate bar since 1919, made with real cocoa butter (not the vegetable oil you\'ll find in a lot of American chocolate) and a caramelization process that makes it impossibly creamy. There\'s no weird aftertaste, no waxy texture — just pure, smooth milk chocolate. If you only try one Swedish chocolate, make it this one.</p>
+
+<h3>4. <a href="/candy/daim">Daim</a> (Crunchy Caramel)</h3>
+<p><strong>Approachability: 5/5 | Flavor: Buttery almond caramel + chocolate</strong></p>
+<p>Daim is Sweden\'s answer to the question "what if a butter toffee bar was actually good?" A thin chocolate shell covers a crunchy, buttery almond caramel that shatters when you bite into it. You might recognize it from IKEA, where it\'s been quietly converting Americans to Swedish chocolate for years. The texture is the star here — that satisfying crunch followed by the slow caramel melt. It\'s dangerously addictive and universally approved.</p>
+
+<h3>5. <a href="/candy/bubs-watermelon">BUBS Sour Watermelon</a></h3>
+<p><strong>Approachability: 4.5/5 | Flavor: Bright watermelon with sour coating</strong></p>
+<p>If BUBS Sour Skulls are the gateway, Sour Watermelon is the reason you stay. The watermelon flavor is shockingly authentic — none of that artificial "watermelon Jolly Rancher" taste. The sour coating is a bit milder than the Skulls, making this more of a flavor candy than a sour challenge. Perfect for people who want to explore Swedish candy beyond the skull-shaped viral sensation.</p>
+
+<h3>6. <a href="/candy/kexchoklad">Kexchoklad</a> (Chocolate Wafer)</h3>
+<p><strong>Approachability: 5/5 | Flavor: Crispy wafer + milk chocolate</strong></p>
+<p>Think of it as Sweden\'s Kit-Kat, except the chocolate is better and the wafer is crispier. Kexchoklad has been a Swedish staple since 1938, and it\'s the kind of candy that disappears before you realize you\'ve eaten three. The wafer-to-chocolate ratio is spot-on, and it pairs perfectly with coffee (Swedes would approve — look up <a href="/blog/fika-candy-swedish-culture">fika culture</a>). Simple, unpretentious, and incredibly moreish.</p>
+
+<h3>7. <a href="/candy/plopp">Plopp</a> (Chocolate Toffee)</h3>
+<p><strong>Approachability: 5/5 | Flavor: Soft toffee + milk chocolate</strong></p>
+<p>Yes, it\'s really called Plopp. No, Swedes don\'t think it\'s funny anymore (they stopped laughing about 80 years ago). Once you get past the name, you\'ll find a genuinely excellent candy: a thick shell of Cloetta milk chocolate around a soft, buttery toffee center. It\'s like a higher-quality Rolo that doesn\'t stick to your teeth. The name is actually onomatopoeia for the sound the candy makes during manufacturing. The more you know.</p>
+
+<h3>8. <a href="/candy/polly">Polly</a> (Chocolate Foam)</h3>
+<p><strong>Approachability: 4.5/5 | Flavor: Chocolate-covered marshmallow foam</strong></p>
+<p>Polly is what happens when Sweden applies its marshmallow expertise to chocolate. A light, airy foam center coated in milk chocolate — the texture combination is unlike anything in American candy. It\'s not as sweet as you\'d expect, which is a running theme with Swedish candy. The foam has a subtle vanilla flavor that plays nicely with the chocolate shell. Great for anyone who thinks American candy is too sweet.</p>
+
+<h3>9. <a href="/candy/dumle">Dumle</a> (Soft Toffee)</h3>
+<p><strong>Approachability: 5/5 | Flavor: Chewy chocolate toffee</strong></p>
+<p>Dumle is Finland\'s gift to the Nordic candy world — a chocolate-covered soft toffee that\'s been a Scandinavian favorite since 1945. The toffee is chewy without being jaw-breakingly tough, and the chocolate coating adds a layer of richness. Think of it as a more refined version of a Milk Dud, except it actually tastes like real chocolate and real toffee instead of vaguely flavored wax. Available through <a href="/brands/fazer">Fazer</a>, who\'ve been perfecting this recipe for decades.</p>
+
+<h3>10. <a href="/candy/bubs-cool-cola">BUBS Cool Cola</a></h3>
+<p><strong>Approachability: 4/5 | Flavor: Cola with cooling effect</strong></p>
+<p>Cola-flavored candy is a much bigger deal in Scandinavia than in the US. BUBS Cool Cola adds a slight cooling menthol twist to the classic cola gummy, which sounds weird but works brilliantly. It\'s like drinking an ice-cold Coca-Cola in candy form. This one ranks slightly lower on approachability only because the cooling effect catches people off guard — but once you know it\'s coming, it\'s addictive. A great bridge into the more adventurous side of Swedish candy.</p>
+
+<h2>What to Try After Your First Picks</h2>
+<p>Once you\'ve conquered the beginner list, here\'s your natural progression:</p>
+<p><strong>Ready for more sour?</strong> Move to <a href="/blog/best-swedish-sour-candy">our sour candy ranking</a> — BUBS Sour Apple and Malaco Sura Skallar are excellent next steps.</p>
+<p><strong>Curious about chocolate?</strong> Try <a href="/candy/marabou-schweizernot">Marabou Schweizernöt</a> (hazelnut) or explore our <a href="/blog/best-swedish-chocolate-bars">best chocolate bars ranking</a>.</p>
+<p><strong>Feeling brave?</strong> <a href="/candy/djungelvraal">Djungelvrål</a> (Jungle Roar) is your first step into salty licorice territory. It\'s sour, salty, and intensely licorice. You\'ll either hate it or become obsessed. Read our <a href="/blog/what-is-salmiak">salmiak guide</a> before diving in.</p>
+<p><strong>Going full Swedish?</strong> The goal is <a href="/blog/swedish-candy-ingredients-explained">lösgodis</a> — Sweden\'s legendary pick-and-mix culture where you create your own bag from 150+ varieties. It\'s the ultimate Swedish candy experience.</p>
+
+<h2>Where to Buy Beginner-Friendly Swedish Candy</h2>
+<p>The easiest way to try everything on this list is through online Swedish candy stores that ship to the US. Most offer mixed boxes or starter packs specifically designed for newcomers. Check out our <a href="/where-to-buy">complete where-to-buy guide</a> for current options, prices, and shipping times.</p>
+<p>If you\'re in a hurry, IKEA\'s Swedish food market carries Marabou, Daim, and Ahlgrens Bilar at reasonable prices — and you can pick them up while pretending you came for a bookshelf.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is Swedish candy better than American candy?</h3>
+<p>Different, not necessarily "better" — though most Americans who try Swedish candy say the flavors are more complex, the textures more interesting, and the ingredient lists noticeably cleaner. Swedish candy uses real sugar instead of corn syrup, natural colorings instead of artificial dyes, and generally fewer additives. Read our <a href="/blog/european-candy-vs-american">European vs American candy comparison</a> for the full breakdown.</p>
+
+<h3>What if I don\'t like licorice?</h3>
+<p>Good news: most of the candy on this list has zero licorice. Swedish candy is way more than just salty licorice — that\'s just the part that gets the most attention because of the shock-value reaction videos. Check our <a href="/blog/best-swedish-candy-no-licorice">best candy if you hate licorice</a> guide for a complete licorice-free shopping list.</p>
+
+<h3>How much does Swedish candy cost?</h3>
+<p>Expect to pay $8-15 per bag when ordering online, depending on the brand and retailer. It\'s more expensive than American candy because of import costs, but most people find the quality justifies the price. Many stores offer starter boxes in the $25-35 range that include multiple varieties — the best value for beginners.</p>
+
+<h3>Is Swedish candy safe for kids?</h3>
+<p>Absolutely — and many parents specifically seek out Swedish candy because it avoids the artificial dyes (Red 40, Yellow 5, Blue 1) that are common in American candy. Check our <a href="/blog/best-swedish-candy-for-kids">best Swedish candy for kids</a> guide for parent-approved picks.</p>`,
     heroImage: '/images/blog/best-for-beginners.jpg',
     heroImageAlt: 'Beginner-friendly Swedish candy picks arranged on a white background',
     author: 'SwedishCrave',
@@ -3022,10 +3183,10 @@ export const articles: Article[] = [
     estimatedReadTime: 10,
     tags: ['beginner', 'best of', 'ranking', 'starter'],
     relatedArticleSlugs: ['best-swedish-candy', 'swedish-candy-for-beginners', 'where-to-buy-swedish-candy-online'],
-    relatedCandySlugs: ['ahlgrens-bilar', 'bubs-sour-skulls', 'marabou-mjolkchoklad', 'daim'],
-    relatedBrandSlugs: ['bubs', 'marabou'],
+    relatedCandySlugs: ['ahlgrens-bilar', 'bubs-sour-skulls', 'marabou-mjolkchoklad', 'daim', 'bubs-watermelon', 'kexchoklad', 'plopp', 'polly', 'dumle', 'bubs-cool-cola'],
+    relatedBrandSlugs: ['bubs', 'marabou', 'cloetta', 'ahlgrens'],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 25,
@@ -3129,7 +3290,78 @@ export const articles: Article[] = [
     metaDescription: 'The best Swedish chocolate bars ranked — from Marabou Mjölkchoklad to Daim and beyond. Expert reviews with flavor notes and where to buy.',
     h1: 'Best Swedish Chocolate Bars & Brands (Ranked)',
     intro: 'Swedish chocolate is a world apart from Hershey\'s. Creamier, richer, and made with real cocoa butter instead of the vegetable oils common in American chocolate. Here are the best Swedish chocolate bars and brands worth importing.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border-left: 4px solid #f59e0b; border-radius: 8px; padding: 20px; margin-bottom: 32px;">
+<strong>Quick take:</strong> Marabou Mjölkchoklad is the undisputed king, but Sweden\'s chocolate scene goes way deeper. From buttery Daim to hazelnut-stuffed Schweizernöt, here are the best Swedish chocolate bars ranked — and why they make Hershey\'s taste like a candle.
+</div>
+
+<h2>Why Swedish Chocolate Tastes Different</h2>
+<p>The first time you try Swedish chocolate, you\'ll notice something immediately: it\'s smooth. Like, suspiciously smooth. That\'s because Swedish chocolate is made with real cocoa butter, real milk powder, and a slow conching process that creates a velvet texture American mass-market chocolate simply can\'t match. There\'s no butyric acid (the compound that gives Hershey\'s its distinctive tang), no PGPR fillers, and no vegetable oil shortcuts.</p>
+<p>Swedish chocolate makers also tend to use a lower sugar-to-cocoa ratio than their American counterparts. The result is chocolate that tastes like chocolate — not sugar with chocolate flavoring. For the full deep dive on what makes <a href="/blog/marabou-chocolate-guide">Marabou\'s process</a> special, check out our brand guide.</p>
+
+<h2>The 10 Best Swedish Chocolate Bars</h2>
+
+<h3>1. <a href="/candy/marabou-mjolkchoklad">Marabou Mjölkchoklad</a> (Milk Chocolate)</h3>
+<p><strong>Rating: 5/5 | Type: Classic milk chocolate bar</strong></p>
+<p>There\'s a reason Marabou has been Sweden\'s favorite chocolate since 1919: nobody does creamy milk chocolate better. The 200g bar (yes, they come big) has a slow-melt texture that coats your entire mouth, with a subtle caramel sweetness that comes from Marabou\'s proprietary roasting process. This is the chocolate that makes first-time visitors to Sweden buy an extra suitcase. No gimmicks, no fillings — just perfect milk chocolate. If you buy one Swedish chocolate bar, make it this one.</p>
+
+<h3>2. <a href="/candy/daim">Daim</a> (Crunchy Almond Caramel)</h3>
+<p><strong>Rating: 5/5 | Type: Chocolate-covered almond butter toffee</strong></p>
+<p>Daim is the bar that sneaks into your life through IKEA and never leaves. A thin coating of milk chocolate over a crunchy, buttery almond toffee that shatters satisfyingly with every bite. The ratio is perfect — enough chocolate to taste it, enough toffee to feel that crack. Some people describe it as a "better Butterfinger," but that\'s selling it short. Daim is its own thing, and it\'s been its own thing since 1953.</p>
+
+<h3>3. <a href="/candy/marabou-schweizernot">Marabou Schweizernöt</a> (Hazelnut)</h3>
+<p><strong>Rating: 4.5/5 | Type: Milk chocolate with whole hazelnuts</strong></p>
+<p>Take Marabou\'s already-excellent milk chocolate and stuff it with whole roasted hazelnuts. That\'s Schweizernöt (literally "Swiss nut"), and it\'s arguably better than the plain bar. The hazelnuts add a toasty crunch and nutty richness that elevates the chocolate from "really good" to "why haven\'t I been eating this my whole life." If you\'re a Ferrero Rocher fan, this is your graduation ceremony.</p>
+
+<h3>4. <a href="/candy/kexchoklad">Kexchoklad</a> (Chocolate Wafer)</h3>
+<p><strong>Rating: 4.5/5 | Type: Crispy wafer in milk chocolate</strong></p>
+<p>Sweden\'s Kit-Kat, except the Swedes had it first (Kexchoklad launched in 1938) and the chocolate is substantially better. Layers of crispy wafer coated in Cloetta milk chocolate. It\'s the kind of unpretentious candy that makes you wonder why you ever settled for the American version. Perfect with coffee, perfect as a snack, perfect at 2 AM when you\'re making questionable life choices in front of the fridge.</p>
+
+<h3>5. <a href="/candy/plopp">Plopp</a> (Soft Toffee Center)</h3>
+<p><strong>Rating: 4/5 | Type: Chocolate shell with soft toffee filling</strong></p>
+<p>Once you stop giggling at the name (everyone does, Swedes included — they just pretend they don\'t), Plopp reveals itself as a genuinely excellent chocolate. A thick milk chocolate shell surrounds a smooth, buttery toffee center that\'s soft without being sticky. Think of it as a premium Rolo that doesn\'t weld itself to your molars. The original has been around since 1949, and there\'s a salted caramel version (Plopp Saltlakrits) for the brave.</p>
+
+<h3>6. <a href="/candy/center">Center</a> (Praline Box)</h3>
+<p><strong>Rating: 4/5 | Type: Assorted chocolate pralines</strong></p>
+<p>Center is Sweden\'s answer to the classic chocolate box — a selection of pralines with various fillings: hazelnut cream, nougat, truffle, and caramel. It\'s the chocolate Swedes give as a gift when they want to seem thoughtful but also know that the recipient will eat them all in one sitting. The quality is a significant step up from comparable American boxed chocolates, with each praline having a distinct, well-balanced flavor.</p>
+
+<h3>7. <a href="/candy/polly">Polly</a> (Chocolate-Covered Foam)</h3>
+<p><strong>Rating: 4/5 | Type: Milk chocolate over marshmallow foam</strong></p>
+<p>Polly is where Swedish chocolate meets Swedish marshmallow expertise. A light, airy foam center — subtly sweet with vanilla notes — wrapped in a chocolate shell. The texture contrast between the crisp chocolate coating and the pillowy interior is addictive. It\'s lighter than most chocolate bars, which means you\'ll eat twice as many without feeling guilty. That\'s just math.</p>
+
+<h3>8. <a href="/candy/dumle">Dumle</a> (Chewy Toffee)</h3>
+<p><strong>Rating: 4/5 | Type: Chocolate-covered chewy toffee</strong></p>
+<p>Technically Finnish (made by <a href="/brands/fazer">Fazer</a>), but adopted by Sweden with the same enthusiasm they reserve for meatballs and flat-pack furniture. Dumle is a chewy toffee wrapped in milk chocolate — think Milk Duds, but if Milk Duds actually tasted good. The toffee has a genuine butter flavor and the chocolate coating is real chocolate. Available in individual pieces or sharing bags (though "sharing" is a strong word).</p>
+
+<h3>9. Marabou Frukt & Mandel (Fruit & Almond)</h3>
+<p><strong>Rating: 4/5 | Type: Milk chocolate with raisins and almonds</strong></p>
+<p>Marabou\'s Frukt & Mandel is the "healthy option" of the Swedish chocolate world — and by healthy, we mean it has raisins and almonds in it, so you can pretend it\'s basically a salad. The combination of chewy raisins, crunchy almonds, and Marabou\'s signature creamy chocolate is surprisingly complex. It\'s a bar that rewards slow eating, letting each bite deliver a different texture combination. Not the most exciting on this list, but consistently excellent.</p>
+
+<h3>10. Marabou Mint</h3>
+<p><strong>Rating: 3.5/5 | Type: Milk chocolate with mint crisp pieces</strong></p>
+<p>Mint chocolate is polarizing everywhere, and Sweden is no exception. But if you\'re in the mint camp, Marabou Mint does it right — small crunchy mint pieces distributed throughout the chocolate rather than a mint cream layer. The mint is refreshing without being toothpaste-y, and the Marabou base chocolate prevents it from becoming overwhelming. A solid choice for after-dinner chocolate or for anyone who thinks Andes mints were onto something but needed better execution.</p>
+
+<h2>Swedish Chocolate Brands Worth Knowing</h2>
+<p><strong><a href="/brands/marabou">Marabou</a></strong> — The undisputed champion. Founded in 1916, now owned by Mondelez. Makes 242 million tablets per year. If you see a purple wrapper in Sweden, it\'s probably Marabou.</p>
+<p><strong><a href="/brands/cloetta">Cloetta</a></strong> — Sweden\'s oldest candy company (founded 1862). Makes Kexchoklad, Plopp, Polly, and Center. The quiet giant behind many Swedish favorites.</p>
+<p><strong><a href="/brands/fazer">Fazer</a></strong> — Finnish, but deeply integrated into Swedish candy culture. Their <a href="/candy/fazer-blue">Fazer Blue</a> milk chocolate is a worthy rival to Marabou.</p>
+
+<h2>Swedish Chocolate vs American Chocolate</h2>
+<p>The core differences come down to ingredients and process. Swedish chocolate uses real cocoa butter where American chocolate often substitutes vegetable oils. Swedish chocolate uses real milk powder; some American brands use whey or milk substitutes. And crucially, Swedish chocolate doesn\'t contain butyric acid — the compound that gives Hershey\'s its "tangy" flavor that Europeans describe as tasting like... well, let\'s just say Europeans find it unpleasant.</p>
+<p>For the complete comparison, including regulations and labeling differences, read our <a href="/blog/european-candy-vs-american">European vs American candy guide</a>.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Where can I buy Swedish chocolate in the US?</h3>
+<p>IKEA carries Marabou and Daim at the best prices. For the full range, check online Swedish candy retailers — see our <a href="/where-to-buy">where-to-buy guide</a> for current options.</p>
+
+<h3>Is Swedish chocolate healthier than American chocolate?</h3>
+<p>It\'s still chocolate, so let\'s not pretend it\'s a superfood. But Swedish chocolate generally has simpler ingredient lists, uses real cocoa butter instead of palm oil, and contains fewer artificial additives. The sugar content is comparable, though Swedish chocolate often has a lower sugar-to-cocoa ratio.</p>
+
+<h3>What\'s the best Marabou flavor?</h3>
+<p>The classic Mjölkchoklad is the best-seller for a reason, but Schweizernöt (hazelnut) has a devoted following that will argue passionately. Daim-flavored Marabou bars also exist and are exactly as good as you\'d hope.</p>
+
+<h3>Does Swedish chocolate melt during shipping?</h3>
+<p>It can, especially in summer. Most reputable online retailers use insulated packaging or cold packs for warm-weather shipments. Order during cooler months if you\'re worried, or choose retailers that guarantee delivery quality.</p>`,
     heroImage: '/images/blog/best-swedish-chocolate.jpg',
     heroImageAlt: 'Selection of Swedish chocolate bars from Marabou, Cloetta, and others',
     author: 'SwedishCrave',
@@ -3138,10 +3370,10 @@ export const articles: Article[] = [
     estimatedReadTime: 12,
     tags: ['chocolate', 'best of', 'ranking', 'Marabou', 'Daim'],
     relatedArticleSlugs: ['marabou-chocolate-guide', 'best-swedish-candy', 'guide-to-swedish-chocolate'],
-    relatedCandySlugs: ['marabou-mjolkchoklad', 'daim'],
-    relatedBrandSlugs: ['marabou'],
+    relatedCandySlugs: ['marabou-mjolkchoklad', 'daim', 'marabou-schweizernot', 'kexchoklad', 'plopp', 'center', 'polly', 'dumle', 'fazer-blue'],
+    relatedBrandSlugs: ['marabou', 'cloetta', 'fazer'],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 27,
@@ -3250,7 +3482,84 @@ export const articles: Article[] = [
     metaDescription: 'Scared of salmiak? You\'re not alone. Here are the best Swedish candies that have zero licorice — all the Swedish quality, none of the acquired taste.',
     h1: 'Best Swedish Candy If You Hate Licorice',
     intro: 'The #1 concern we hear from people trying Swedish candy for the first time: "I don\'t like licorice." Good news — most Swedish candy has nothing to do with licorice. Here are the best picks for licorice-phobes.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border-left: 4px solid #f59e0b; border-radius: 8px; padding: 20px; margin-bottom: 32px;">
+<strong>Quick take:</strong> About 70% of Swedish candy is completely licorice-free. You have a massive selection of sour gummies, fruit candy, chocolate, marshmallow foam, and toffee that will never surprise you with that black, anise-y taste. This guide is your licorice-free safety net.
+</div>
+
+<h2>Let\'s Clear Something Up</h2>
+<p>The biggest misconception about Swedish candy: "It\'s all licorice." This is like saying American candy is all candy corn — technically it exists, but it\'s a fraction of the picture and most people have strong opinions about it.</p>
+<p>Sweden produces an enormous range of candy categories: sour gummies, fruit chews, chocolate, marshmallow foam, toffee, caramel, and yes, licorice. Licorice (and its saltier cousin <a href="/blog/what-is-salmiak">salmiak</a>) gets outsized attention because of TikTok reaction videos, but the majority of Swedish candy has zero licorice content. So if you\'re worried about accidentally eating something that tastes like a tire factory smells — relax. We\'ve got you covered.</p>
+
+<h2>100% Licorice-Free Swedish Candy Picks</h2>
+
+<h3>Sour Gummies (The Safest Category)</h3>
+<p>Sour candy is the single safest category for licorice-phobes. Almost no sour Swedish candy contains licorice — the flavor profile is entirely fruit-based with sour coatings.</p>
+
+<p><strong><a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a></strong> — The TikTok sensation. Sour crystal coating over berry gummy. Zero licorice, maximum satisfaction. These are probably the best entry point into Swedish candy, period. Read our <a href="/blog/bubs-candy-complete-guide">full BUBS guide</a> for more.</p>
+
+<p><strong><a href="/candy/bubs-watermelon">BUBS Sour Watermelon</a></strong> — Bright, authentic watermelon flavor with a lighter sour coating. Tastes like actual watermelon, not "watermelon flavor #7." Completely licorice-free.</p>
+
+<p><strong><a href="/candy/bubs-cool-cola">BUBS Cool Cola</a></strong> — Cola-flavored gummy with a cooling menthol twist. Sounds weird, tastes amazing. No licorice anywhere near it, despite the dark color that might make you suspicious.</p>
+
+<p><strong><a href="/candy/bubs-strawberry-vanilla">BUBS Strawberry Vanilla</a></strong> — Sweet rather than sour, with a creamy vanilla note underneath the strawberry. If you want something gentler than the sour options, this is your pick.</p>
+
+<p><strong><a href="/candy/bubs-banana-ovals">BUBS Banana Ovals</a></strong> — Foam candy with real banana flavor — nothing like the artificial banana taste in American candy (looking at you, banana Runts). Light, sweet, and completely inoffensive.</p>
+
+<h3>Chocolate (Obviously Licorice-Free)</h3>
+<p>Swedish chocolate is a whole world unto itself, and almost none of it involves licorice. (There is Marabou Black Saltlakrits, but it\'s very clearly labeled, so you\'d have to actively seek it out to accidentally eat licorice chocolate.)</p>
+
+<p><strong><a href="/candy/marabou-mjolkchoklad">Marabou Mjölkchoklad</a></strong> — Sweden\'s #1 chocolate bar. Creamy, rich, real cocoa butter. If Hershey\'s is a sedan, Marabou is a Volvo — Swedish engineering at its finest. See our <a href="/blog/best-swedish-chocolate">full chocolate ranking</a>.</p>
+
+<p><strong><a href="/candy/daim">Daim</a></strong> — Crunchy almond butter toffee coated in chocolate. You\'ve probably seen it at IKEA. Buy it. You won\'t regret it.</p>
+
+<p><strong><a href="/candy/kexchoklad">Kexchoklad</a></strong> — Crispy wafer + milk chocolate. Sweden\'s Kit-Kat, except better in every measurable way. Perfect with coffee.</p>
+
+<p><strong><a href="/candy/marabou-schweizernot">Marabou Schweizernöt</a></strong> — Marabou milk chocolate stuffed with whole roasted hazelnuts. The Ferrero Rocher of Sweden, minus the wrapper you can never open.</p>
+
+<h3>Marshmallow & Foam Candy</h3>
+<p>Swedish foam candy is its own category and it\'s entirely licorice-free. The textures are unlike anything in American candy.</p>
+
+<p><strong><a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a></strong> — The little foam cars that outsell actual cars in Sweden. Soft, subtly fruity, and absolutely zero licorice. These are so safe they\'re basically the candy equivalent of a warm blanket. Read our <a href="/blog/ahlgrens-bilar-guide">complete Bilar guide</a>.</p>
+
+<p><strong><a href="/candy/polly">Polly</a></strong> — Chocolate-covered marshmallow foam with a vanilla note. Light, not too sweet, and a great example of how Swedish candy does texture differently.</p>
+
+<h3>Toffee & Caramel</h3>
+<p><strong><a href="/candy/plopp">Plopp</a></strong> — Chocolate shell, soft toffee center. The name is hilarious, the candy is excellent. No licorice in sight.</p>
+
+<p><strong><a href="/candy/dumle">Dumle</a></strong> — Chewy chocolate toffee from <a href="/brands/fazer">Fazer</a>. Like a Milk Dud that went to finishing school. Entirely licorice-free.</p>
+
+<h2>How to Spot Licorice Before You Eat It</h2>
+<p>Even armed with this guide, you might encounter unfamiliar Swedish candy at a store or in a mixed bag. Here\'s how to avoid accidental licorice:</p>
+
+<p><strong>Look for these Swedish words on packaging:</strong></p>
+<p>"Lakrits" = licorice. "Salt" = could be salty licorice. "Salmiak" = ammonium chloride-flavored licorice (the intense kind). If any of these words appear, proceed with caution or avoid entirely.</p>
+
+<p><strong>Color is a decent (but not perfect) indicator:</strong></p>
+<p>Black candy is almost always licorice. Dark brown can go either way (could be cola or chocolate). Everything else — pink, green, white, yellow, orange, red — is virtually guaranteed licorice-free.</p>
+
+<p><strong>Salty = suspicious:</strong></p>
+<p>If a Swedish candy is described as "salt" or "salty," it\'s probably salmiak. Salmiak is salty licorice made with ammonium chloride, and it\'s the flavor most non-Scandinavians find challenging. Regular sour candy will say "sur" (sour), not "salt."</p>
+
+<h2>The "Maybe Eventually" List</h2>
+<p>Here\'s a secret: many people who "hate licorice" end up loving Swedish licorice eventually. The Swedish versions are often softer, more nuanced, and less aggressively anise-flavored than the black licorice ropes you find in American grocery stores. If you ever feel curious:</p>
+<p><strong>Step 1:</strong> Try <a href="/candy/skipper-pipes">Skipper\'s Pipes</a> — soft, mild licorice that\'s the least challenging option.</p>
+<p><strong>Step 2:</strong> Try <a href="/candy/malaco-gott-och-blandat">Malaco Gott & Blandat</a> — a mix bag where licorice pieces are mixed with fruit gummies. You can eat around the licorice ones (or not).</p>
+<p><strong>Step 3:</strong> If steps 1 and 2 didn\'t traumatize you, read our <a href="/blog/guide-to-swedish-licorice">Swedish licorice guide</a> for the full deep dive.</p>
+<p>No pressure. Some people never make it past step 1, and that\'s completely fine. There\'s plenty of Swedish candy to enjoy without ever touching licorice.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What percentage of Swedish candy contains licorice?</h3>
+<p>Roughly 25-30% of Swedish candy varieties contain licorice or salmiak. That leaves 70-75% that\'s completely licorice-free — including all sour gummies, most fruit candy, all chocolate, all marshmallow/foam candy, and all toffee.</p>
+
+<h3>Can I order a licorice-free Swedish candy box?</h3>
+<p>Yes! Most online Swedish candy retailers offer "no licorice" or "beginner-friendly" boxes. Check our <a href="/where-to-buy">where-to-buy guide</a> for stores that offer customizable selections.</p>
+
+<h3>Is BUBS candy licorice-free?</h3>
+<p>Most BUBS products are licorice-free. BUBS does make a few licorice varieties (like BUBS Raspberry Licorice), but their core sour range — Skulls, Watermelon, Cool Cola — contains zero licorice. The <a href="/brands/bubs">BUBS brand</a> is one of the safest choices for licorice-phobes.</p>
+
+<h3>Why do Swedes love licorice so much?</h3>
+<p>It\'s genuinely cultural — Swedes grow up eating licorice and salmiak from childhood, so it\'s an acquired taste they acquire very early. For a deeper look at this phenomenon, check our <a href="/blog/what-is-salmiak">salmiak guide</a>. But remember: even in Sweden, not everyone loves licorice. You\'re in good company.</p>`,
     heroImage: '/images/blog/no-licorice-picks.jpg',
     heroImageAlt: 'Licorice-free Swedish candy selection',
     author: 'SwedishCrave',
@@ -3259,10 +3568,10 @@ export const articles: Article[] = [
     estimatedReadTime: 8,
     tags: ['licorice-free', 'beginner', 'best of', 'recommendations'],
     relatedArticleSlugs: ['best-swedish-candy-for-beginners', 'best-swedish-sour-candy', 'swedish-candy-for-beginners'],
-    relatedCandySlugs: ['bubs-sour-skulls', 'ahlgrens-bilar', 'marabou-mjolkchoklad'],
-    relatedBrandSlugs: ['bubs', 'marabou'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'ahlgrens-bilar', 'marabou-mjolkchoklad', 'bubs-watermelon', 'bubs-cool-cola', 'bubs-strawberry-vanilla', 'bubs-banana-ovals', 'daim', 'kexchoklad', 'marabou-schweizernot', 'polly', 'plopp', 'dumle', 'skipper-pipes', 'malaco-gott-och-blandat'],
+    relatedBrandSlugs: ['bubs', 'marabou', 'cloetta', 'ahlgrens', 'fazer'],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 29,
@@ -3419,7 +3728,88 @@ export const articles: Article[] = [
     metaDescription: 'Not all Swedish candy on Amazon is legit. We found the best authentic Swedish candy available on Amazon with fair prices and real reviews.',
     h1: 'Best Swedish Candy on Amazon (Actually Worth Buying)',
     intro: 'Amazon has a ton of "Swedish candy" listings, but many are overpriced, stale, or not even authentic. We sifted through the noise to find the listings that are actually worth your money — fresh, fairly priced, and genuinely Swedish.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border-left: 4px solid #f59e0b; border-radius: 8px; padding: 20px; margin-bottom: 32px;">
+<strong>Quick take:</strong> Amazon has legit Swedish candy, but also a lot of overpriced, questionable listings. The best bets are BUBS official products, Scandylicious store, and Swedish Candy Chef assortment packs. Skip anything without clear brand names or with suspiciously generic packaging.
+</div>
+
+<h2>The Amazon Swedish Candy Problem</h2>
+<p>Search "Swedish candy" on Amazon and you\'ll get hundreds of results. Some are fantastic. Some are repackaged candy of questionable freshness sold at a 300% markup. And a few aren\'t even Swedish — they\'re German or Danish candy with "Scandinavian" in the title, hoping you won\'t notice. (We noticed.)</p>
+<p>We spent weeks testing Amazon\'s Swedish candy offerings so you don\'t have to gamble with your Prime delivery. Here\'s what\'s actually worth buying, what to avoid, and some tips for spotting the good stuff.</p>
+
+<h2>Best Individual Brand Products</h2>
+
+<h3>BUBS Sour Skulls & Gummies</h3>
+<p><strong>Value: 4/5 | Freshness: 5/5 | Authenticity: 5/5</strong></p>
+<p><a href="/candy/bubs-sour-skulls">BUBS</a> has solid official distribution on Amazon. You can find Sour Skulls, Watermelon, Cool Cola, and other varieties in proper retail packaging. The prices are reasonable — typically $8-12 per bag, which is comparable to what you\'d pay from specialty retailers. Because BUBS has invested in US distribution (partly thanks to the TikTok boom), the inventory turns over fast, meaning your candy is almost always fresh. This is the safest Swedish candy purchase on Amazon.</p>
+
+<h3>Marabou Chocolate Bars</h3>
+<p><strong>Value: 3.5/5 | Freshness: 4/5 | Authenticity: 5/5</strong></p>
+<p><a href="/candy/marabou-mjolkchoklad">Marabou</a> bars are available from multiple Amazon sellers. The chocolate is authentic, but prices vary wildly — we\'ve seen the same 200g Mjölkchoklad bar listed at anywhere from $6 to $18 depending on the seller. Pro tip: check the "Frequently Bought Together" section, where multi-packs often offer much better value. Watch for summer shipping — chocolate + hot delivery truck = expensive soup.</p>
+
+<h3>Daim Bars</h3>
+<p><strong>Value: 4.5/5 | Freshness: 5/5 | Authenticity: 5/5</strong></p>
+<p><a href="/candy/daim">Daim</a> is one of the easiest Swedish candies to find on Amazon, partly because Mondelez (its parent company) has proper US distribution channels. Prices are fair, usually $3-5 per bar or $15-20 for multi-packs. The crunchy toffee structure means freshness is less of a concern than with gummies — Daim has a long shelf life and doesn\'t degrade in texture the way softer candies can.</p>
+
+<h3>Ahlgrens Bilar</h3>
+<p><strong>Value: 3.5/5 | Freshness: 3.5/5 | Authenticity: 5/5</strong></p>
+<p><a href="/candy/ahlgrens-bilar">Bilar</a> are available on Amazon, but this is where you need to be careful about freshness. Marshmallow foam candy loses its texture faster than gummies or chocolate. If the bag feels very soft or the cars look deflated, they\'re past their prime. Look for sellers with high turnover (lots of recent reviews) and "Fulfilled by Amazon" listings, which tend to have fresher stock. When they\'re fresh, these are magical. When they\'re stale, they\'re just sad foam shapes.</p>
+
+<h2>Best Assortment & Mix Packs</h2>
+
+<h3>Swedish Candy Chef — BUBS Mix (½ lb)</h3>
+<p><strong>Value: 4/5 | Variety: 4.5/5 | Authenticity: 5/5</strong></p>
+<p>This is one of the better assortment packs on Amazon. You get a genuine mix of BUBS products — sour skulls, ovals, and other shapes — in a resealable bag. The candy is authentic Swedish BUBS, not a knockoff. At around $15 for half a pound, it\'s reasonable for an introductory experience. Great gift option too, since it looks more put-together than a random Amazon grab bag.</p>
+
+<h3>Scandylicious Store</h3>
+<p><strong>Value: 4/5 | Variety: 4.5/5 | Authenticity: 5/5</strong></p>
+<p>Scandylicious operates an Amazon storefront with a curated selection of authentic Swedish and Nordic candy. Their assortment packs feature real brand-name products, and their reviews are consistently positive for freshness and packaging quality. They\'re a bit pricier than buying individual items, but the curation saves you the research of figuring out what to buy.</p>
+
+<h3>Pickmix Candy Sweden</h3>
+<p><strong>Value: 3.5/5 | Variety: 5/5 | Authenticity: 5/5</strong></p>
+<p>Another Amazon storefront specializing in authentic Swedish candy. Their strength is variety — they carry brands and products that other Amazon sellers don\'t stock. If you\'re looking for something specific beyond BUBS and Marabou, Pickmix is worth checking. Prices are on the higher side due to import costs, but the selection makes up for it.</p>
+
+<h2>What to Avoid on Amazon</h2>
+
+<h3>Red Flags for Fake or Low-Quality Listings</h3>
+<p><strong>No brand name visible:</strong> If the listing just says "Swedish Candy Assortment" without naming specific brands (BUBS, Malaco, Marabou, Ahlgrens), proceed with extreme caution. Legitimate Swedish candy is always branded.</p>
+
+<p><strong>Suspiciously cheap prices:</strong> If a "Swedish candy box" costs $8 for a full pound, something\'s off. Real Swedish candy has import costs. If the price seems too good, you\'re probably getting old stock, small portions, or candy that isn\'t actually Swedish.</p>
+
+<p><strong>"Scandinavian" instead of "Swedish":</strong> Some sellers use "Scandinavian" as a catch-all to sell a mix of Danish, Norwegian, Finnish, and Swedish candy. That\'s not necessarily bad, but if you specifically want Swedish candy, make sure the listing specifies it.</p>
+
+<p><strong>Generic stock photos:</strong> Listings that use stock images of colorful candy instead of actual product photos are a gamble. Reputable sellers show the exact products you\'ll receive.</p>
+
+<p><strong>No expiration date info:</strong> Good sellers mention shelf life or freshness guarantees. If a listing says nothing about this, the candy could be months (or years) old.</p>
+
+<h2>Amazon vs Specialty Swedish Candy Stores</h2>
+<p>Here\'s the honest comparison:</p>
+
+<p><strong>Amazon wins on:</strong> Speed (Prime shipping), convenience (you already have an account), individual brand products (BUBS, Daim, Marabou), and returns (Amazon\'s return policy is unbeatable).</p>
+
+<p><strong>Specialty stores win on:</strong> Selection (200+ varieties vs Amazon\'s 30-40), freshness guarantees, expert curation, and authentic lösgodis (pick-and-mix) experiences. Stores like <a href="/blog/sockerbit-review">Sockerbit</a>, Swedish Candy Land, and Mums Swedish Candy carry products you simply can\'t find on Amazon.</p>
+
+<p>Our recommendation: use Amazon for the big brands (BUBS, Marabou, Daim) and specialty stores for everything else. Check our <a href="/where-to-buy">complete where-to-buy guide</a> for the full list of specialty retailers.</p>
+
+<h2>Pro Tips for Buying Swedish Candy on Amazon</h2>
+<p><strong>Check the seller ratings.</strong> Look for sellers with hundreds of reviews and at least 4+ stars. A seller with 5 reviews selling "premium Swedish candy" is a coin flip.</p>
+<p><strong>Read the 1-star reviews.</strong> They tell you everything. Common complaints about stale candy, melted chocolate, or "not what was pictured" are dealbreakers.</p>
+<p><strong>Subscribe & Save works.</strong> If you find a BUBS product you love, the Subscribe & Save discount (usually 5-15%) makes the already-reasonable prices even better.</p>
+<p><strong>Order chocolate in cool months.</strong> October through April is chocolate season on Amazon. Summer orders risk melted bars, even with insulated packaging. If you must order in summer, choose expedited shipping.</p>
+<p><strong>"Fulfilled by Amazon" is better.</strong> FBA products are stored in Amazon warehouses with climate control. Third-party shipped products sit in whoever\'s garage until they ship.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is Swedish candy on Amazon authentic?</h3>
+<p>Most brand-name products (BUBS, Marabou, Daim, Ahlgrens) on Amazon are authentic. The risk isn\'t fake candy — it\'s stale candy or misleading assortment packs that don\'t contain what you\'d expect. Stick to recognized brands and established sellers.</p>
+
+<h3>Why is Swedish candy more expensive on Amazon than at IKEA?</h3>
+<p>IKEA buys directly from manufacturers in massive quantities and treats their Swedish food market as a loss leader (they want you in the store for furniture). Amazon sellers are typically small importers with higher per-unit costs. IKEA is cheaper for what they carry, but their selection is limited to about 10-15 products.</p>
+
+<h3>What\'s the best Swedish candy to try first from Amazon?</h3>
+<p>Start with <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> — they\'re reliably in stock, consistently fresh, fairly priced, and universally loved. If you want chocolate, grab a <a href="/candy/marabou-mjolkchoklad">Marabou Mjölkchoklad</a> bar. See our <a href="/blog/best-swedish-candy-for-beginners">full beginner\'s guide</a> for more first-time recommendations.</p>
+
+<h3>Can I return Swedish candy on Amazon?</h3>
+<p>Amazon\'s standard return policy generally applies to grocery items, though some sellers have restrictions. If your candy arrives melted, stale, or wrong, Amazon customer service is usually very accommodating about refunds — especially for FBA products.</p>`,
     heroImage: '/images/blog/best-amazon-swedish-candy.jpg',
     heroImageAlt: 'Amazon packages with authentic Swedish candy products',
     author: 'SwedishCrave',
@@ -3428,10 +3818,10 @@ export const articles: Article[] = [
     estimatedReadTime: 10,
     tags: ['Amazon', 'best of', 'buying guide', 'online shopping'],
     relatedArticleSlugs: ['where-to-buy-swedish-candy-online', 'best-swedish-candy', 'swedish-candy-store-reviews'],
-    relatedCandySlugs: ['bubs-sour-skulls', 'ahlgrens-bilar'],
-    relatedBrandSlugs: [],
+    relatedCandySlugs: ['bubs-sour-skulls', 'ahlgrens-bilar', 'marabou-mjolkchoklad', 'daim', 'bubs-watermelon', 'bubs-cool-cola'],
+    relatedBrandSlugs: ['bubs', 'marabou', 'ahlgrens'],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 31,
@@ -3442,7 +3832,89 @@ export const articles: Article[] = [
     metaDescription: 'Looking for the perfect Swedish candy gift? We reviewed the best gift boxes and sets available in the US — for birthdays, holidays, or just because.',
     h1: 'Best Swedish Candy Gift Boxes & Sets for 2026',
     intro: 'Swedish candy makes an incredible gift — it\'s unique, photogenic, and almost nobody has tried it before. Here are the best gift boxes and sets available in the US, from budget-friendly samplers to premium assortments.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border-left: 4px solid #f59e0b; border-radius: 8px; padding: 20px; margin-bottom: 32px;">
+<strong>Quick take:</strong> Swedish candy gift boxes are the perfect "nobody else will think of this" present. Budget picks start around $20, premium boxes run $40-60, and the best options come from specialty retailers like Sockerbit, BonBon NYC, and Swedish Candy Land. Scroll down for our ranked picks by occasion and budget.
+</div>
+
+<h2>Why Swedish Candy Makes a Perfect Gift</h2>
+<p>Let\'s be real: nobody gets excited about receiving a box of Hershey\'s. It\'s fine. It\'s expected. It says "I remembered you exist and CVS was open." Swedish candy, on the other hand, says "I put actual thought into this." It\'s unique enough that most people have never tried it, photogenic enough for an Instagram story, and genuinely delicious enough that the recipient won\'t just politely eat one and forget about it.</p>
+<p>Plus, Swedish candy has built-in talking points: the TikTok trend, the no-artificial-dyes angle, the salmiak challenge for the brave ones. It\'s a gift that creates an experience, not just a sugar delivery.</p>
+
+<h2>Best Gift Boxes by Budget</h2>
+
+<h3>Budget: Under $25</h3>
+
+<p><strong>BUBS Sour Mix Bag (½ lb)</strong></p>
+<p><strong>Price: ~$15 | Best for: Casual gifts, stocking stuffers, coworkers</strong></p>
+<p>A half-pound bag of mixed <a href="/brands/bubs">BUBS</a> sour candies in a resealable bag. Not the fanciest presentation, but the candy is excellent and it\'s the lowest-risk gift on this list. Everyone likes sour gummies. Available on <a href="/blog/best-swedish-candy-on-amazon">Amazon</a> with Prime shipping. Pair it with a handwritten note explaining what BUBS is and you\'ve got a thoughtful gift for under $20.</p>
+
+<p><strong>Marabou Chocolate Selection (3-pack)</strong></p>
+<p><strong>Price: ~$18-22 | Best for: Chocolate lovers, office gifts, teachers</strong></p>
+<p>Three full-size <a href="/brands/marabou">Marabou</a> bars — usually Mjölkchoklad, Schweizernöt, and a third variety. Available from multiple online retailers and sometimes IKEA. The purple Marabou packaging is attractive enough to gift without additional wrapping. A solid "I know you like chocolate and I found something better than Godiva" move.</p>
+
+<h3>Mid-Range: $25-45</h3>
+
+<p><strong>Sockerbit Classic Mix Box</strong></p>
+<p><strong>Price: ~$30-35 | Best for: Birthdays, thank-you gifts, candy curious friends</strong></p>
+<p><a href="/blog/sockerbit-review">Sockerbit</a> offers curated gift boxes through their online store, featuring a mix of their best-selling Swedish candies. The presentation is clean and modern — these look like a proper gift, not a random Amazon order. Sockerbit\'s expansion to 1,600 Target stores means their brand recognition is growing, which makes the gift feel more "premium discovery" than "random foreign candy."</p>
+
+<p><strong>Swedish Candy Land Starter Box</strong></p>
+<p><strong>Price: ~$35-40 | Best for: First-timers, experience gifts, adventurous eaters</strong></p>
+<p>Swedish Candy Land specializes in authentic imports and their starter boxes are designed for newcomers. You get a well-rounded mix: sour, sweet, chocolate, and usually one or two "challenge" items like mild licorice. Each candy comes with a description card, which turns the gift into a tasting experience. Great for someone who\'d appreciate the educational angle.</p>
+
+<p><strong>BonBon NYC Candy Box</strong></p>
+<p><strong>Price: ~$35-45 | Best for: TikTok fans, trendy gifts, NYC connection</strong></p>
+<p>BonBon NYC — the viral candy store — ships curated boxes nationwide. The presentation is Instagram-ready, and the brand recognition from TikTok means younger recipients will immediately know what it is. The candy selection leans toward the colorful, sour, and visually striking varieties that made their store famous. This is the gift for someone who\'s seen Swedish candy on TikTok and hasn\'t tried it yet.</p>
+
+<h3>Premium: $45+</h3>
+
+<p><strong>Mums Swedish Candy Premium Gift Box</strong></p>
+<p><strong>Price: ~$50-60 | Best for: Serious foodies, special occasions, impressive gifts</strong></p>
+<p>Mums Swedish Candy has one of the largest selections of any US-based Swedish candy retailer (200+ products). Their premium gift boxes are generous — typically 1.5-2 pounds of curated candy spanning multiple categories: sour, sweet, chocolate, foam, and sometimes a salmiak "challenge" piece. The box itself is designed for gifting, with tissue paper and a branded insert. This is the "go big" option.</p>
+
+<p><strong>Custom Lösgodis Box</strong></p>
+<p><strong>Price: ~$45-65 | Best for: The ultimate Swedish candy experience</strong></p>
+<p>Several retailers now offer custom pick-and-mix boxes where you choose the exact candies included. This is the closest you can get to Sweden\'s legendary lösgodis experience without booking a flight. It requires more effort (you need to know what to pick), but the result is a completely personalized gift. Use our <a href="/blog/best-swedish-candy-for-beginners">beginner\'s guide</a> to pick a balanced selection.</p>
+
+<h2>Best Gift Boxes by Occasion</h2>
+
+<h3>Birthday Gifts</h3>
+<p>Go with Sockerbit or BonBon NYC for presentation value. Add a card that says "you\'re now legally obligated to eat candy from a country that has a national candy day" (it\'s true — Sweden celebrates Godisdagen). Mid-range budget is perfect here.</p>
+
+<h3>Holiday / Christmas</h3>
+<p>Premium boxes from Mums or Swedish Candy Land work best for holidays because the quantity is generous enough for sharing. If you\'re buying for multiple people, the BUBS mix bags are great stocking stuffers at the budget tier. For something special, look for Swedish candy advent calendars — they exist and they\'re wonderful. See our guide to <a href="/blog/swedish-candy-advent-calendars">Swedish candy advent calendars</a>.</p>
+
+<h3>Corporate / Coworker Gifts</h3>
+<p>The Marabou 3-pack is ideal — it\'s universally safe (everyone likes chocolate), professionally presentable, and at a price point that doesn\'t make things awkward. Avoid anything with salmiak for corporate gifts unless you want to create a very entertaining but slightly chaotic break room situation.</p>
+
+<h3>Hostess / Thank-You Gifts</h3>
+<p>Sockerbit boxes hit the sweet spot (pun fully intended) — attractive enough to feel like a real gift, unique enough to be memorable, and at a price point that says "thank you" without overdoing it.</p>
+
+<h3>"Just Because" / Thinking of You</h3>
+<p>A BUBS bag from Amazon with Prime shipping is the ultimate impulse gift. It arrives fast, it\'s fun, and it costs less than the delivery fee on a restaurant order. Pair it with a text saying "try the blue ones first" for maximum impact.</p>
+
+<h2>DIY Swedish Candy Gift Box</h2>
+<p>If you want to save money or create something more personal, build your own. Here\'s our recommended mix for a balanced gift box:</p>
+<p><strong>The sour entry:</strong> <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> — the crowd-pleaser</p>
+<p><strong>The chocolate anchor:</strong> <a href="/candy/marabou-mjolkchoklad">Marabou Mjölkchoklad</a> or <a href="/candy/daim">Daim</a></p>
+<p><strong>The texture surprise:</strong> <a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a> — nobody expects foam cars</p>
+<p><strong>The wildcard:</strong> <a href="/candy/bubs-cool-cola">BUBS Cool Cola</a> or <a href="/candy/kexchoklad">Kexchoklad</a></p>
+<p><strong>The challenge (optional):</strong> A small bag of <a href="/candy/djungelvraal">Djungelvrål</a> with a note that says "you\'ve been warned"</p>
+<p>Total cost: roughly $30-40 if sourced from a single online retailer, less if you hit IKEA for the chocolate items.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Do Swedish candy gift boxes ship internationally?</h3>
+<p>Most US-based retailers ship within the continental US. International shipping is available from some specialty stores but gets expensive fast due to candy weight. Check each retailer\'s shipping page for current options.</p>
+
+<h3>How long does Swedish candy stay fresh?</h3>
+<p>Gummies and sour candy: 6-12 months. Chocolate: 12-18 months if stored properly. Marshmallow/foam candy (like Bilar): 3-6 months for best texture. Most gift boxes are packed fresh, so you have plenty of time.</p>
+
+<h3>Should I include licorice in a gift box?</h3>
+<p>Only if you know the recipient likes licorice, or if you\'re intentionally including a "challenge" element. For safe gifting, stick to sour, sweet, and chocolate. If you do include licorice, label it clearly — nobody likes a surprise salmiak experience. Well, some people do, but they\'re Scandinavian.</p>
+
+<h3>What\'s the best gift box for someone who\'s never tried Swedish candy?</h3>
+<p>Sockerbit Classic Mix or Swedish Candy Land Starter Box. Both are curated for newcomers and include a good variety without anything too challenging. Read our <a href="/blog/best-swedish-candy-for-beginners">beginner\'s guide</a> for context on what makes a good first experience.</p>`,
     heroImage: '/images/blog/candy-gift-boxes.jpg',
     heroImageAlt: 'Beautifully packaged Swedish candy gift boxes',
     author: 'SwedishCrave',
@@ -3451,10 +3923,10 @@ export const articles: Article[] = [
     estimatedReadTime: 9,
     tags: ['gifts', 'gift boxes', 'best of', 'holiday', 'birthday'],
     relatedArticleSlugs: ['best-swedish-candy-subscription-boxes', 'best-swedish-candy', 'where-to-buy-swedish-candy-online'],
-    relatedCandySlugs: [],
-    relatedBrandSlugs: [],
+    relatedCandySlugs: ['bubs-sour-skulls', 'marabou-mjolkchoklad', 'daim', 'ahlgrens-bilar', 'bubs-cool-cola', 'kexchoklad', 'djungelvraal'],
+    relatedBrandSlugs: ['bubs', 'marabou', 'ahlgrens'],
     priority: 'P2',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 32,
@@ -3465,7 +3937,83 @@ export const articles: Article[] = [
     metaDescription: 'Kid-friendly Swedish candy with no artificial colors, fun shapes, and flavors children love. Parent-approved picks that are better than American alternatives.',
     h1: 'Best Swedish Candy for Kids (Parent-Approved Picks)',
     intro: 'Parents love Swedish candy because it skips the artificial dyes common in American sweets. Kids love it because it comes in fun shapes and incredible flavors. Here are our top picks that satisfy both camps.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border-left: 4px solid #f59e0b; border-radius: 8px; padding: 20px; margin-bottom: 32px;">
+<strong>Quick take:</strong> Swedish candy is a parent\'s dream — fun shapes kids love, no artificial dyes (goodbye Red 40), and real sugar instead of corn syrup. Ahlgrens Bilar and BUBS are the top kid-friendly picks. This guide covers the best options by age group and what makes them safer than American alternatives.
+</div>
+
+<h2>Why Parents Are Switching to Swedish Candy</h2>
+<p>If you\'ve spent any time reading ingredient labels on American candy — and then immediately wished you hadn\'t — Swedish candy feels like a revelation. No Red 40. No Yellow 5. No Blue 1. No high-fructose corn syrup. No titanium dioxide. The ingredient lists are shorter, pronounceable, and free from the artificial dyes that have been linked to hyperactivity concerns in children.</p>
+<p>This isn\'t a marketing trick. The EU regulates food additives differently than the US — many artificial colorings that are freely used in American candy require warning labels in Europe or are restricted entirely. Swedish candy makers responded by switching to natural colorings decades ago. The result: candy that\'s just as colorful, just as fun, and just as delicious, minus the ingredients that keep parents up at night. For the full regulatory breakdown, check our <a href="/blog/is-swedish-candy-vegan">ingredients guide</a>.</p>
+
+<h2>Best Swedish Candy for Kids (By Age)</h2>
+
+<h3>Ages 3-5: Gentle, Soft Textures</h3>
+
+<p><strong><a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a></strong> — The ultimate kid candy</p>
+<p>Soft marshmallow foam shaped like tiny cars. They dissolve easily (no choking concern), the flavors are mild and sweet, and kids go absolutely nuts for them. There\'s something about the car shape that turns eating candy into a game — we\'ve watched kids line them up, sort them by color, and create elaborate parking lots before eating them. Swedish parents have been handing these to toddlers for generations. <a href="/blog/ahlgrens-bilar-guide">Read our full Bilar guide</a> for the whole story.</p>
+
+<p><strong><a href="/candy/polly">Polly</a></strong> — Chocolate meets marshmallow</p>
+<p>Chocolate-coated marshmallow foam that\'s soft and easy to eat. The chocolate layer gives kids the "real candy" feeling while the foam center keeps it light. Less messy than a regular chocolate bar (important intel for anyone who\'s had to clean chocolate off a car seat).</p>
+
+<p><strong><a href="/candy/bubs-banana-ovals">BUBS Banana Ovals</a></strong> — Fruity foam candy</p>
+<p>Soft foam ovals with a gentle banana flavor. Similar texture to Bilar but with a fruitier taste. These are great for kids who want something sweet but aren\'t ready for sour. The oval shape is easy for small hands to hold, and the softness means they won\'t hurt little teeth.</p>
+
+<h3>Ages 5-8: Fun Shapes & Mild Sour</h3>
+
+<p><strong><a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a></strong> — The crowd-pleaser</p>
+<p>This is where things get exciting for kids. The skull shape is inherently cool (nothing makes a 7-year-old feel more powerful than eating a sour skull), and the sourness level is manageable without being overwhelming. The sour coating is the "fun" part, and the sweet gummy underneath means the sourness doesn\'t last too long. Most kids in this age range can handle these without any issue — and they\'ll beg for more.</p>
+
+<p><strong><a href="/candy/bubs-watermelon">BUBS Sour Watermelon</a></strong> — Milder sour option</p>
+<p>Slightly less sour than the Skulls, with a watermelon flavor that kids universally love. Good stepping stone for kids who are curious about sour candy but not ready to commit to the full skull experience.</p>
+
+<p><strong><a href="/candy/bubs-strawberry-vanilla">BUBS Strawberry Vanilla</a></strong> — Sweet, not sour</p>
+<p>For the kid who likes candy but doesn\'t want sour, BUBS Strawberry Vanilla is perfect. Sweet, creamy, and fruit-flavored with zero sour coating. A solid "everyday candy" that parents can feel good about compared to American alternatives.</p>
+
+<h3>Ages 8-12: Full Flavor Range</h3>
+
+<p><strong><a href="/candy/bubs-cool-cola">BUBS Cool Cola</a></strong> — The "cool kid" candy</p>
+<p>Cola flavor with a cooling menthol twist. Kids in this age range love the unexpected cooling sensation — it feels like a special discovery. The slightly older kid crowd appreciates the more complex flavor profile, and it\'s a great conversation starter at school. "My candy is from Sweden and it has a secret cooling effect" is peak elementary school bragging rights.</p>
+
+<p><strong><a href="/candy/daim">Daim</a></strong> — Crunchy chocolate toffee</p>
+<p>The satisfying crunch of Daim appeals to kids who\'ve outgrown purely soft candy. It\'s chocolate + crunchy toffee — a universally loved combination. The individual bar size is perfect for lunchboxes or after-school snacks.</p>
+
+<p><strong><a href="/candy/kexchoklad">Kexchoklad</a></strong> — The wafer bar</p>
+<p>Crispy wafer + chocolate in a format that kids find immensely satisfying to eat layer by layer (some kids peel them apart, which is half the fun). A more interesting alternative to Kit-Kats or generic wafer bars.</p>
+
+<p><strong><a href="/candy/bubs-cool-raspberry-skull">BUBS Cool Raspberry Skull</a></strong> — The sour + cool combo</p>
+<p>For kids who\'ve mastered regular Sour Skulls and want the next level. The raspberry flavor plus cooling effect creates a genuinely interesting taste experience. This is the candy that turns kids into Swedish candy advocates — they\'ll tell everyone about it.</p>
+
+<h2>The Ingredient Advantage</h2>
+<p>Here\'s a concrete comparison of what your kids <em>aren\'t</em> eating when you choose Swedish candy:</p>
+
+<p><strong>Typical American sour gummy ingredients:</strong> Sugar, corn syrup, modified corn starch, citric acid, tartaric acid, Red 40, Yellow 5, Blue 1, artificial flavors, mineral oil, carnauba wax.</p>
+
+<p><strong>BUBS Sour Skulls ingredients:</strong> Glucose syrup, sugar, water, modified potato starch, malic acid, citric acid, natural flavoring, fruit and vegetable concentrates (for color).</p>
+
+<p>The difference is stark. No artificial dyes, no mineral oil, no carnauba wax. The coloring comes from actual fruits and vegetables. The sour coating uses malic and citric acid (found naturally in apples and citrus fruits). It\'s still candy — it\'s still sugar — but the stuff <em>around</em> the sugar is meaningfully better.</p>
+
+<h2>Lördagsgodis: Sweden\'s Genius Candy Rule</h2>
+<p>Sweden has a cultural tradition called lördagsgodis — "Saturday candy." Kids (and adults) eat candy primarily on Saturdays as a special weekly treat rather than daily snacking. The tradition started after the Vipeholm experiments in the 1940s-50s showed that <em>frequency</em> of sugar consumption mattered more than <em>amount</em> for dental health.</p>
+<p>It\'s worth adopting: one satisfying candy session per week, with good-quality Swedish candy, is arguably better for kids than daily access to lesser American alternatives. Plus, it gives kids something to look forward to — Saturday candy becomes an event, not a habit.</p>
+
+<h2>What to Avoid for Kids</h2>
+<p><strong>Salmiak / salty licorice:</strong> Most kids will actively dislike salmiak. It\'s an acquired taste even for Scandinavian adults. Save <a href="/blog/what-is-salmiak">salmiak</a> for when they\'re older and curious.</p>
+<p><strong>Super-sour varieties:</strong> Malaco Super Sura and similar extreme sour candies can be too intense for younger kids and may cause mouth irritation. Stick to BUBS sour products, which have a gentler coating.</p>
+<p><strong>Hard licorice:</strong> Choking risk for younger children. Soft licorice like <a href="/candy/skipper-pipes">Skipper\'s Pipes</a> is fine for ages 5+, but hard licorice should wait until kids are comfortable with that texture.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is Swedish candy actually healthier for kids?</h3>
+<p>It\'s better on the additives front — no artificial colors, no HFCS, simpler ingredients. The sugar content is comparable to American candy, so it\'s not a health food. The advantage is what\'s <em>not</em> in it rather than some magical health benefit. Think of it as "less bad" rather than "good for you."</p>
+
+<h3>Are there allergens in Swedish candy?</h3>
+<p>Most <a href="/brands/bubs">BUBS</a> products are vegan, nut-free, and gluten-free — which makes them one of the most allergy-friendly candy options available. Chocolate products (Marabou, Daim, Kexchoklad) contain dairy and may contain traces of nuts. Always check the specific product label if your child has allergies.</p>
+
+<h3>Where can I buy Swedish candy for kids\' parties?</h3>
+<p>For bulk ordering, check <a href="/blog/best-swedish-candy-on-amazon">Amazon</a> for BUBS multi-packs or order from specialty retailers like Sockerbit or Swedish Candy Land. Many offer party-sized quantities. BUBS Sour Skulls in individual portions work great as party favors — unique, fun, and guaranteed to be the most interesting candy at the party.</p>
+
+<h3>Can babies eat Swedish candy?</h3>
+<p>No candy is recommended for babies under 2. For toddlers 2-3, Ahlgrens Bilar is the safest option due to its soft, dissolvable texture — but as with any food, supervise closely. Swedish candy, like all candy, is best introduced after age 3.</p>`,
     heroImage: '/images/blog/candy-for-kids.jpg',
     heroImageAlt: 'Kid-friendly Swedish candy selection with fun shapes and colors',
     author: 'SwedishCrave',
@@ -3474,10 +4022,10 @@ export const articles: Article[] = [
     estimatedReadTime: 8,
     tags: ['kids', 'family', 'best of', 'no artificial colors'],
     relatedArticleSlugs: ['best-swedish-candy-for-beginners', 'red-40-swedish-candy', 'is-swedish-candy-healthier'],
-    relatedCandySlugs: ['ahlgrens-bilar', 'bubs-sour-skulls'],
-    relatedBrandSlugs: ['bubs'],
+    relatedCandySlugs: ['ahlgrens-bilar', 'bubs-sour-skulls', 'bubs-watermelon', 'bubs-strawberry-vanilla', 'bubs-banana-ovals', 'bubs-cool-cola', 'bubs-cool-raspberry-skull', 'polly', 'daim', 'kexchoklad'],
+    relatedBrandSlugs: ['bubs', 'marabou', 'ahlgrens'],
     priority: 'P2',
-    status: 'draft',
+    status: 'published',
   },
 
   // ============================================
