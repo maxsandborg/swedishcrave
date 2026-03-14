@@ -54,7 +54,7 @@ export default function Logo({ className = '', size = 'md' }: LogoProps) {
   const { iconSize, fontSize, gap } = config[size];
 
   const swedishStyle: CSSProperties = {
-    fontFamily: "var(--font-fredoka), 'Fredoka One', 'Nunito', sans-serif",
+    fontFamily: "'Fredoka One', 'Nunito', sans-serif",
     fontSize,
     lineHeight: 1,
     letterSpacing: '-0.5px',
@@ -69,7 +69,7 @@ export default function Logo({ className = '', size = 'md' }: LogoProps) {
   };
 
   const craveStyle: CSSProperties = {
-    fontFamily: "var(--font-fredoka), 'Fredoka One', 'Nunito', sans-serif",
+    fontFamily: "'Fredoka One', 'Nunito', sans-serif",
     fontSize,
     lineHeight: 1,
     letterSpacing: '-0.5px',

@@ -1,16 +1,10 @@
 import type { Metadata } from 'next';
-import { Inter, Fredoka_One } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
-const fredokaOne = Fredoka_One({
-  weight: '400',
-  subsets: ['latin'],
-  variable: '--font-fredoka',
-  display: 'swap',
-});
 
 export const metadata: Metadata = {
   title: {
@@ -46,7 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${fredokaOne.variable} bg-sc-bg text-sc-text`}>
+      <body className={`${inter.className} bg-sc-bg text-sc-text`}>
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
