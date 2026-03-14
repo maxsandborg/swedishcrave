@@ -1849,7 +1849,145 @@ export const articles: Article[] = [
     metaDescription: 'Decode Swedish candy ingredient lists — from gelatin types to natural colorings. Learn what makes Swedish candy ingredients different from American equivalents.',
     h1: 'Swedish Candy Ingredients Explained: What\'s In Your Godis?',
     intro: 'Ever looked at a Swedish candy ingredient list and wondered what "vegetabiliska fetter" or "surhettsreglerande medel" means? This guide decodes every common ingredient in Swedish candy and explains how they differ from American candy ingredients.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7, #fff7ed); border-left: 4px solid #f59e0b; padding: 20px; border-radius: 8px; margin: 20px 0;">
+<strong>Key Takeaway:</strong> Swedish candy ingredient lists are typically shorter, cleaner, and governed by stricter EU regulations than American equivalents. Most Swedish candy uses real sugar instead of HFCS, natural colorings from fruit and plant extracts instead of petroleum-based dyes, and plant-based thickeners like potato starch instead of synthetic gelling agents. This guide translates every common Swedish ingredient into plain English.
+</div>
+
+<h2>Why Swedish Ingredient Lists Look Different</h2>
+<p>Pick up a bag of <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> and compare it to a bag of Sour Patch Kids. The difference is immediately visible: the Swedish list is shorter, the names are more recognizable, and there's a conspicuous absence of coded numbers and chemical-sounding compounds.</p>
+<p>This isn't marketing magic — it's regulation. The EU requires all food additives to be identified by E-numbers, and the <a href="/blog/eu-vs-us-food-regulations">European Food Safety Authority (EFSA)</a> applies a precautionary principle that restricts or requires warning labels for many ingredients the US FDA considers safe. Swedish manufacturers have responded by reformulating with simpler ingredients, and Swedish consumers have come to expect it.</p>
+<p>The result: Swedish candy is still candy (we're not pretending gummies are kale), but the ingredient lists read more like a recipe and less like a chemistry exam.</p>
+
+<h2>The Swedish Ingredient Label Dictionary</h2>
+<p>Swedish candy packaging is printed in Swedish, which can look intimidating. Here's your complete translation guide:</p>
+
+<h3>Sweeteners (Sötningsmedel)</h3>
+<table style="width:100%; border-collapse:collapse; margin:20px 0;">
+<tr style="background:#f8f9fa; font-weight:bold;">
+<td style="padding:8px; border:1px solid #ddd;">Swedish Term</td>
+<td style="padding:8px; border:1px solid #ddd;">English</td>
+<td style="padding:8px; border:1px solid #ddd;">What It Is</td>
+</tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Socker</td><td style="padding:8px; border:1px solid #ddd;">Sugar</td><td style="padding:8px; border:1px solid #ddd;">Regular sucrose from sugar beets (not cane). Swedish sugar comes almost exclusively from domestic sugar beets, not imported cane sugar.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Glukossirap</td><td style="padding:8px; border:1px solid #ddd;">Glucose syrup</td><td style="padding:8px; border:1px solid #ddd;">Made from wheat or corn starch. NOT the same as high-fructose corn syrup (HFCS). Glucose syrup is less sweet than HFCS and metabolized differently.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Invertsockersirap</td><td style="padding:8px; border:1px solid #ddd;">Invert sugar syrup</td><td style="padding:8px; border:1px solid #ddd;">Sugar that's been broken into glucose and fructose. Keeps candy moist and prevents crystallization. Common in soft gummies.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Sorbitol</td><td style="padding:8px; border:1px solid #ddd;">Sorbitol</td><td style="padding:8px; border:1px solid #ddd;">Sugar alcohol used in sugar-free candy. Lower glycemic index but can cause digestive issues in large amounts.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Lakritspulver</td><td style="padding:8px; border:1px solid #ddd;">Licorice powder</td><td style="padding:8px; border:1px solid #ddd;">Ground licorice root. Both a sweetener and a flavoring. Contains glycyrrhizin, which is 30–50x sweeter than sugar.</td></tr>
+</table>
+<p><strong>The HFCS difference:</strong> High-fructose corn syrup is virtually absent from Swedish candy. The EU doesn't ban it, but production quotas until 2017 limited its use, and consumer preference has kept it out since. American candy relies heavily on HFCS because it's cheaper than sugar in the US (thanks to corn subsidies). Swedish candy uses actual sugar. Your taste buds know the difference.</p>
+
+<h3>Gelling Agents & Thickeners (Förtjockningsmedel)</h3>
+<table style="width:100%; border-collapse:collapse; margin:20px 0;">
+<tr style="background:#f8f9fa; font-weight:bold;">
+<td style="padding:8px; border:1px solid #ddd;">Swedish Term</td>
+<td style="padding:8px; border:1px solid #ddd;">English</td>
+<td style="padding:8px; border:1px solid #ddd;">What It Is</td>
+</tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Gelatin</td><td style="padding:8px; border:1px solid #ddd;">Gelatin</td><td style="padding:8px; border:1px solid #ddd;">Animal-derived protein (usually pork). Common in traditional gummies like <a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a>. Not vegan.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Potatisstärkelse</td><td style="padding:8px; border:1px solid #ddd;">Potato starch</td><td style="padding:8px; border:1px solid #ddd;">Vegan thickener derived from potatoes. Used in many Swedish gummies as a gelatin alternative. Produces a softer, chewier texture than gelatin.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Pektin</td><td style="padding:8px; border:1px solid #ddd;">Pectin</td><td style="padding:8px; border:1px solid #ddd;">Plant-based gelling agent from fruit. Vegan. Gives a firmer, less bouncy texture than gelatin. Popular in fruit-flavored gummies.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Majsstärkelse</td><td style="padding:8px; border:1px solid #ddd;">Corn starch</td><td style="padding:8px; border:1px solid #ddd;">Used as a dusting agent and mild thickener. Vegan and gluten-free.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Arabiskt gummi</td><td style="padding:8px; border:1px solid #ddd;">Gum arabic</td><td style="padding:8px; border:1px solid #ddd;">Natural gum from acacia trees. Used as a stabilizer and glazing agent. Vegan.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Modifierad stärkelse</td><td style="padding:8px; border:1px solid #ddd;">Modified starch</td><td style="padding:8px; border:1px solid #ddd;">Starch that's been physically or enzymatically treated (not genetically modified). Used for texture.</td></tr>
+</table>
+<p><strong>The vegan edge:</strong> Swedish candy brands — especially <a href="/brands/bubs">BUBS</a> — have been leaders in developing gelatin-free gummy candy. Where American gummies almost universally rely on pork or beef gelatin, many Swedish gummies use potato starch, pectin, or potato protein instead. This makes them vegan, halal, and kosher-friendly without sacrificing the chewy texture.</p>
+
+<h3>Colorings (Färgämnen)</h3>
+<table style="width:100%; border-collapse:collapse; margin:20px 0;">
+<tr style="background:#f8f9fa; font-weight:bold;">
+<td style="padding:8px; border:1px solid #ddd;">Swedish Term</td>
+<td style="padding:8px; border:1px solid #ddd;">E-Number</td>
+<td style="padding:8px; border:1px solid #ddd;">What It Is</td>
+</tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Frukt- och växtkoncentrat</td><td style="padding:8px; border:1px solid #ddd;">—</td><td style="padding:8px; border:1px solid #ddd;">Fruit and vegetable concentrates. The gold standard. Colors candy using actual food: blackcurrant, carrot, apple, spinach, beetroot.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Rödbetsjuicekoncentrat</td><td style="padding:8px; border:1px solid #ddd;">—</td><td style="padding:8px; border:1px solid #ddd;">Beetroot juice concentrate. Natural red/pink coloring. The Swedish answer to Red 40.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Karamellfärg</td><td style="padding:8px; border:1px solid #ddd;">E150</td><td style="padding:8px; border:1px solid #ddd;">Caramel coloring. Produced by heating sugar. Used for browns and ambers.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Annatto</td><td style="padding:8px; border:1px solid #ddd;">E160b</td><td style="padding:8px; border:1px solid #ddd;">Natural orange-yellow from achiote tree seeds. Common in gummies.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Klorofyll</td><td style="padding:8px; border:1px solid #ddd;">E140</td><td style="padding:8px; border:1px solid #ddd;">Chlorophyll. Natural green from plants. Used in green-colored candies.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Spirulina</td><td style="padding:8px; border:1px solid #ddd;">—</td><td style="padding:8px; border:1px solid #ddd;">Blue-green algae extract. Increasingly popular for blue/teal colors.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Karmin</td><td style="padding:8px; border:1px solid #ddd;">E120</td><td style="padding:8px; border:1px solid #ddd;">Red coloring from cochineal insects. "Natural" but not vegan. Less common in modern Swedish candy.</td></tr>
+</table>
+<p>Notice what's missing? <a href="/blog/red-40-swedish-candy">Red 40</a>, Yellow 5, Yellow 6, Blue 1 — the petroleum-based synthetic dyes that dominate American candy. Swedish manufacturers can legally use them (with EU-mandated warning labels), but virtually none do. Why bother with a warning label when beetroot juice works just as well?</p>
+
+<h3>Acids & Flavorings (Syror & Aromer)</h3>
+<table style="width:100%; border-collapse:collapse; margin:20px 0;">
+<tr style="background:#f8f9fa; font-weight:bold;">
+<td style="padding:8px; border:1px solid #ddd;">Swedish Term</td>
+<td style="padding:8px; border:1px solid #ddd;">English</td>
+<td style="padding:8px; border:1px solid #ddd;">What It Is</td>
+</tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Citronsyra</td><td style="padding:8px; border:1px solid #ddd;">Citric acid</td><td style="padding:8px; border:1px solid #ddd;">The main sour agent. Found naturally in citrus fruits. Makes <a href="/candy/s-marke-supersurt">S-Märke Supersurt</a> face-puckeringly sour.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Äppelsyra</td><td style="padding:8px; border:1px solid #ddd;">Malic acid</td><td style="padding:8px; border:1px solid #ddd;">Apple-derived acid. Produces a slower, longer-lasting sour hit than citric acid. Used in many sour Swedish candies.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Mjölksyra</td><td style="padding:8px; border:1px solid #ddd;">Lactic acid</td><td style="padding:8px; border:1px solid #ddd;">Mild acid that provides a tangy edge. Despite the name, it's not always dairy-derived — often produced by fermentation.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Aromer</td><td style="padding:8px; border:1px solid #ddd;">Flavorings</td><td style="padding:8px; border:1px solid #ddd;">General term for flavor compounds. EU law distinguishes between "natural flavoring" and "flavoring" — the latter can include synthetic compounds.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Naturlig arom</td><td style="padding:8px; border:1px solid #ddd;">Natural flavoring</td><td style="padding:8px; border:1px solid #ddd;">Flavoring derived from natural sources (fruit, spices, etc.). Stricter definition in the EU than in the US.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Salmiak</td><td style="padding:8px; border:1px solid #ddd;">Ammonium chloride</td><td style="padding:8px; border:1px solid #ddd;">The salty, mineral compound that gives salty licorice its distinctive taste. Safe at normal candy levels but an acquired taste for Americans.</td></tr>
+</table>
+
+<h3>Fats & Glazing Agents (Fetter & Ytbehandlingsmedel)</h3>
+<table style="width:100%; border-collapse:collapse; margin:20px 0;">
+<tr style="background:#f8f9fa; font-weight:bold;">
+<td style="padding:8px; border:1px solid #ddd;">Swedish Term</td>
+<td style="padding:8px; border:1px solid #ddd;">English</td>
+<td style="padding:8px; border:1px solid #ddd;">What It Is</td>
+</tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Vegetabiliska fetter</td><td style="padding:8px; border:1px solid #ddd;">Vegetable fats</td><td style="padding:8px; border:1px solid #ddd;">Plant-based fats. Can include coconut, palm, or rapeseed oil. Common in chocolate and coated candy.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Kakaosmör</td><td style="padding:8px; border:1px solid #ddd;">Cocoa butter</td><td style="padding:8px; border:1px solid #ddd;">Premium fat from cocoa beans. Swedish chocolate like <a href="/candy/marabou-mjolkchoklad">Marabou</a> uses more cocoa butter than most American brands, which substitute PGPR.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Kokosfett</td><td style="padding:8px; border:1px solid #ddd;">Coconut fat</td><td style="padding:8px; border:1px solid #ddd;">Provides a smooth mouthfeel. Used in some chocolate coatings.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Bivax</td><td style="padding:8px; border:1px solid #ddd;">Beeswax</td><td style="padding:8px; border:1px solid #ddd;">Natural glazing agent. Gives candy a subtle shine. Not vegan.</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Karnaubavax</td><td style="padding:8px; border:1px solid #ddd;">Carnauba wax</td><td style="padding:8px; border:1px solid #ddd;">Plant wax from Brazilian palm leaves. Vegan glazing agent. The Swedish alternative to shellac (insect-derived glaze common in US candy).</td></tr>
+</table>
+<p><strong>The shellac difference:</strong> Many American candies — from jelly beans to M&Ms — are coated with confectioner's glaze, which is shellac: a resin secreted by lac bugs. It's technically GRAS but not vegan, and most people don't realize they're eating insect secretions. Swedish candy more commonly uses carnauba wax or beeswax as glazing agents.</p>
+
+<h2>What You Won't Find in Swedish Candy</h2>
+<p>Here are common American candy ingredients that are absent or rare in Swedish candy:</p>
+<ul>
+  <li><strong>High-fructose corn syrup (HFCS):</strong> Virtually nonexistent. Swedish candy uses real sugar (socker) and glucose syrup.</li>
+  <li><strong>Red 40, Yellow 5, Yellow 6:</strong> <a href="/blog/red-40-swedish-candy">Extremely rare</a>. Natural colorings are used instead.</li>
+  <li><strong>Titanium dioxide (E171):</strong> <a href="/blog/eu-vs-us-food-regulations">Banned in the EU since 2022</a>. Still used in American candy for white coloring.</li>
+  <li><strong>TBHQ (tert-Butylhydroquinone):</strong> Preservative found in some US candy. Not commonly used in Swedish products.</li>
+  <li><strong>Shellac/confectioner's glaze:</strong> Uncommon. Swedish candy prefers plant-based wax glazes.</li>
+  <li><strong>PGPR (polyglycerol polyricinoleate):</strong> The controversial cocoa butter substitute found in many American chocolates (including Hershey's). Swedish chocolate brands like <a href="/brands/marabou">Marabou</a> use actual cocoa butter instead.</li>
+</ul>
+
+<h2>Reading a Swedish Ingredient Label: Real Examples</h2>
+
+<h3>BUBS Sour Skulls</h3>
+<p>Ingredients: Glukossirap, socker, vatten, potatisstärkelse, surhetsreglerande medel (citronsyra, äppelsyra), aromer, färgämnen (frukt- och växtkoncentrat).</p>
+<p><strong>Translation:</strong> Glucose syrup, sugar, water, potato starch, acidity regulators (citric acid, malic acid), flavorings, colorings (fruit and vegetable concentrates).</p>
+<p><strong>What this tells you:</strong> Seven ingredients. Vegan (potato starch instead of gelatin). Natural colors (fruit concentrates). Two simple acids for sourness. No HFCS, no synthetic dyes, no mystery chemicals. That's it. Compare this to Sour Patch Kids' 15+ ingredients including Red 40, Yellow 5, Blue 1, and modified corn starch.</p>
+
+<h3>Marabou Mjölkchoklad</h3>
+<p>Ingredients: Socker, kakaosmör, helmjölkspulver, kakaomassa, vasslepulver, emulgeringsmedel (sojalecitin), arom (vanillin).</p>
+<p><strong>Translation:</strong> Sugar, cocoa butter, whole milk powder, cocoa mass, whey powder, emulsifier (soy lecithin), flavoring (vanillin).</p>
+<p><strong>What this tells you:</strong> Seven ingredients. Real cocoa butter (not PGPR). Milk-based (not vegan). Soy lecithin as the only emulsifier — the same one used in high-end chocolate worldwide. Compare this to Hershey's Milk Chocolate, which contains 11+ ingredients including PGPR, "natural and artificial flavors," and milk fat.</p>
+
+<h2>The E-Number System Explained</h2>
+<p>E-numbers look scary but they're actually the EU's way of making ingredients transparent. Every approved food additive gets a unique E-number:</p>
+<ul>
+  <li><strong>E100–E199:</strong> Colors</li>
+  <li><strong>E200–E299:</strong> Preservatives</li>
+  <li><strong>E300–E399:</strong> Antioxidants and acidity regulators</li>
+  <li><strong>E400–E499:</strong> Thickeners, stabilizers, and emulsifiers</li>
+  <li><strong>E500–E599:</strong> Anti-caking agents</li>
+  <li><strong>E600–E699:</strong> Flavor enhancers</li>
+  <li><strong>E900–E999:</strong> Glazing agents, gases, sweeteners</li>
+</ul>
+<p>Don't panic when you see E-numbers. E330 is citric acid (lemon juice). E440 is pectin (from fruit). Not every E-number is a villain — most are boring, safe compounds that happen to have been catalogued by European food scientists. The system is actually more transparent than the US approach, where the same ingredients hide behind vague names like "artificial flavoring" or "color added."</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Q: Is Swedish candy healthier than American candy?</h3>
+<p>It depends on your definition of "healthier." Swedish candy typically has cleaner ingredient lists, fewer synthetic additives, no HFCS, and natural colorings. But it's still high in sugar — <a href="/blog/swedish-candy-sugar-content">sometimes as much as American candy</a>. Think of it as "better candy," not "health food." The ingredients are higher quality, the regulatory standards are stricter, and you're consuming fewer questionable additives. But sugar is sugar.</p>
+
+<h3>Q: Why does Swedish candy taste different from American candy?</h3>
+<p>Several factors: real sugar instead of HFCS creates a cleaner sweetness. Natural colorings don't add the subtle chemical aftertaste that synthetic dyes can. Different gelling agents (potato starch vs. gelatin) create different textures. And Swedish candy makers often use more nuanced flavor profiles — a raspberry gummy might actually taste like raspberries, not just "red."</p>
+
+<h3>Q: What does "surhettsreglerande medel" mean on Swedish labels?</h3>
+<p>"Acidity regulator" — the substances that control pH levels in candy. Usually citric acid (citronsyra) or malic acid (äppelsyra). Completely standard food chemistry, found in almost all sour and fruity candy worldwide.</p>
+
+<h3>Q: Are Swedish candy ingredients regulated differently than other EU candy?</h3>
+<p>Sweden follows EU-wide food regulations, so the rules are the same across all 27 member states. However, Swedish consumers tend to be more ingredient-conscious than the EU average, which pushes manufacturers to go beyond minimum requirements. <a href="/brands/bubs">BUBS</a>, for example, went fully vegan and palm-oil-free — not because the EU required it, but because Swedish buyers demanded it.</p>`,
     heroImage: '/images/blog/candy-ingredients.jpg',
     heroImageAlt: 'Close-up of Swedish candy ingredient label with translations',
     author: 'SwedishCrave',
@@ -1858,10 +1996,10 @@ export const articles: Article[] = [
     estimatedReadTime: 9,
     tags: ['ingredients', 'education', 'labels', 'translations'],
     relatedArticleSlugs: ['is-swedish-candy-healthier', 'swedish-food-dyes-vs-american', 'is-swedish-candy-vegan'],
-    relatedCandySlugs: [],
-    relatedBrandSlugs: [],
+    relatedCandySlugs: ['bubs-sour-skulls', 'ahlgrens-bilar', 'marabou-mjolkchoklad', 's-marke-supersurt'],
+    relatedBrandSlugs: ['bubs', 'marabou', 'malaco'],
     priority: 'P2',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 12,
@@ -4040,7 +4178,86 @@ export const articles: Article[] = [
     metaDescription: 'The TikTok sensation vs Sweden\'s all-time bestseller. We compare BUBS and Ahlgrens Bilar on taste, texture, ingredients, and overall experience.',
     h1: 'BUBS vs Ahlgrens Bilar: Which Swedish Candy Wins?',
     intro: 'It\'s the ultimate Swedish candy showdown: BUBS, the viral TikTok darling, versus Ahlgrens Bilar, Sweden\'s undisputed bestseller for decades. Two completely different candy experiences — but which one deserves a spot in your order?',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border-left: 4px solid #3b82f6; border-radius: 8px; padding: 20px; margin-bottom: 32px;">
+<strong>The verdict:</strong> This isn\'t really a competition — it\'s a "which mood are you in?" situation. BUBS is the party candy: loud, sour, exciting. Bilar is the comfort candy: soft, sweet, nostalgic. You need both in your Swedish candy collection.
+</div>
+
+<h2>The Showdown Nobody Asked For (But Everyone Needs)</h2>
+<p>Comparing BUBS and <a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a> is like comparing pizza and ice cream — they\'re both food, they\'re both excellent, but they exist in completely different universes. BUBS is the loud, sour, TikTok-viral newcomer that made Swedish candy famous internationally. Bilar is the quiet, soft, marshmallow legend that\'s been Sweden\'s #1 candy for over 70 years without needing social media validation.</p>
+<p>But people ask, so we answer. Let\'s break it down.</p>
+
+<h2>The Brands</h2>
+
+<h3>BUBS: The Disruptor</h3>
+<p><a href="/brands/bubs">BUBS</a> was founded in 1992 by the Lindström family in Jönköping, Sweden. They\'re the punk rock of Swedish candy — 100% vegan from day one, bold flavors, skull-shaped gummies that were designed to stand out. The TikTok explosion of 2023 turned them from a Scandinavian niche brand into an international sensation. BUBS is the candy your cool friend brings to the party.</p>
+
+<h3>Ahlgrens Bilar: The Institution</h3>
+<p><a href="/blog/ahlgrens-bilar-guide">Ahlgrens Bilar</a> has been around since 1953, when a factory accident created the marshmallow foam texture that would become Sweden\'s most beloved candy. They\'re now owned by Cloetta and sell roughly 600 tons per year — making them, as Swedes love to point out, "Sweden\'s most sold car." Bilar is the candy your Swedish grandmother offers you. You take it. You always take it.</p>
+
+<h2>Taste</h2>
+
+<h3>BUBS Sour Skulls</h3>
+<p>An immediate sour punch from the crystal coating, followed by a sweet, fruity berry gummy. The flavor progression is the appeal: sour → sweet → fruity. It\'s dynamic and engaging. Each piece is a tiny flavor adventure. You eat one, your face contorts, you reach for another. This is active eating — your mouth is doing something interesting the entire time.</p>
+
+<h3>Ahlgrens Bilar</h3>
+<p>Gentle. Subtly sweet. Three flavors (pink: raspberry, green: pear, white: vanilla) that are so mild they\'re almost whispers. This is not candy that demands attention — it\'s candy that quietly makes everything better. The sweetness is understated, which is shocking for candy. You eat one, feel a wave of calm, and eat five more. This is passive eating — your mouth is having a spa day.</p>
+
+<p><strong>Winner:</strong> Depends entirely on your personality. Type A overachievers who want maximum stimulation: BUBS. People who read books in the bath: Bilar.</p>
+
+<h2>Texture</h2>
+
+<h3>BUBS Sour Skulls</h3>
+<p>Crunchy sour crystal exterior → soft, chewy gummy interior. The crunch-to-chew transition is satisfying and ASMR-worthy. The gummy has good resistance — it pushes back when you bite without being tough. There\'s a reason BUBS sounds are all over TikTok.</p>
+
+<h3>Ahlgrens Bilar</h3>
+<p>Marshmallow foam that\'s unlike anything else in the candy world. Not soft like a marshmallow — more like a dense, airy foam that compresses when you bite and then slowly dissolves. There\'s no equivalent in American candy. The closest comparison might be circus peanuts, but please don\'t tell any Swede we said that — they\'ll be personally offended and they\'ll be right to be.</p>
+
+<p><strong>Winner:</strong> BUBS for texture complexity, Bilar for texture uniqueness. Both are exceptional in completely different ways.</p>
+
+<h2>Ingredients</h2>
+
+<h3>BUBS</h3>
+<p>Glucose syrup, sugar, water, modified potato starch, malic acid, citric acid, natural flavoring, fruit and vegetable concentrates. 100% vegan, no gelatin, no artificial colors.</p>
+
+<h3>Ahlgrens Bilar</h3>
+<p>Sugar, glucose syrup, modified starch, gelatin, acidity regulators, natural flavoring, vegetable concentrates (for color). Contains gelatin (pork-based), so not vegan — but still no artificial colors or synthetic dyes.</p>
+
+<p><strong>Winner:</strong> BUBS, primarily because of the vegan/gelatin difference. If you don\'t care about gelatin, it\'s a tie — both have clean ingredient lists with natural colorings. Read our <a href="/blog/is-swedish-candy-vegan">vegan candy guide</a> for more details.</p>
+
+<h2>The Social Factor</h2>
+
+<h3>BUBS</h3>
+<p>Hand someone a BUBS Sour Skull and you get a reaction — the face scrunch, the "oh wow that\'s actually sour," the reach for a second one. BUBS is performance candy. It\'s great for parties, TikTok videos, taste tests, and impressing people who\'ve never had Swedish candy. The skull shape adds visual drama. It\'s inherently shareable.</p>
+
+<h3>Ahlgrens Bilar</h3>
+<p>Hand someone a Bilar and you get... a slightly confused look followed by "wait, these are actually really nice." Bilar doesn\'t make for exciting reaction videos. Nobody\'s face contorts when eating a marshmallow car. But Bilar is the candy that quietly converts people. It\'s the candy that disappears from the communal bowl fastest. It\'s the candy people text you about later: "what were those little car things? I need more."</p>
+
+<p><strong>Winner:</strong> BUBS for first impressions, Bilar for long-term loyalty. The skull makes a statement; the car makes a friend.</p>
+
+<h2>Price & Availability</h2>
+<p>Both are similarly priced online ($8-15 per bag), though Bilar can be harder to find fresh due to the shorter shelf life of marshmallow foam. BUBS has slightly better Amazon availability thanks to the TikTok-driven demand. Both are available from specialty Swedish candy retailers. IKEA carries Bilar, which gives it a physical retail advantage in the US.</p>
+
+<p><strong>Winner:</strong> Roughly tied. BUBS is easier online, Bilar is easier at IKEA.</p>
+
+<h2>The Final Verdict</h2>
+<p>This comparison has a cop-out answer, and it\'s the correct one: <strong>get both</strong>. They serve completely different purposes and satisfy completely different cravings. BUBS is the candy you reach for when you want excitement, sourness, and a dopamine hit. Bilar is the candy you reach for when you want comfort, gentleness, and that specific Swedish feeling of "mysig" (cozy).</p>
+
+<p>If you\'re ordering Swedish candy for the first time and can only pick one:</p>
+<p><strong>Pick BUBS if:</strong> You like sour candy, want to impress friends, enjoy bold flavors, or are making content for social media.</p>
+<p><strong>Pick Bilar if:</strong> You prefer sweet over sour, want something nobody else in America has tried, value unique textures, or just want to feel cozy.</p>
+
+<p>For our full guides on each: <a href="/blog/bubs-candy-complete-guide">BUBS complete guide</a> | <a href="/blog/ahlgrens-bilar-guide">Ahlgrens Bilar guide</a></p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Which one is more popular in Sweden?</h3>
+<p>Ahlgrens Bilar, and it\'s not close. Bilar has been Sweden\'s best-selling candy for decades, moving 600+ tons per year. BUBS is growing fast internationally but doesn\'t have the same domestic dominance. Every Swede has a Bilar opinion; not every Swede has a BUBS opinion.</p>
+
+<h3>Can I mix them in the same order?</h3>
+<p>Absolutely — and you should. Most <a href="/where-to-buy">online Swedish candy stores</a> carry both. A mixed order gives you the full Swedish candy spectrum.</p>
+
+<h3>Which one do kids prefer?</h3>
+<p>Younger kids (under 6) tend to prefer Bilar — the soft texture and mild sweetness is more approachable. Older kids gravitate toward BUBS for the sour factor and the cool skull shape. See our <a href="/blog/best-swedish-candy-for-kids">kids\' candy guide</a> for age-specific recommendations.</p>`,
     heroImage: '/images/blog/bubs-vs-bilar.jpg',
     heroImageAlt: 'BUBS Sour Skulls and Ahlgrens Bilar side by side',
     author: 'SwedishCrave',
@@ -4052,7 +4269,7 @@ export const articles: Article[] = [
     relatedCandySlugs: ['bubs-sour-skulls', 'ahlgrens-bilar'],
     relatedBrandSlugs: ['bubs', 'ahlgrens'],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 34,
@@ -4063,7 +4280,86 @@ export const articles: Article[] = [
     metaDescription: 'Two candy cultures that couldn\'t be more different. We compare Swedish and Japanese candy on flavor, texture, packaging, and the overall experience.',
     h1: 'Swedish Candy vs Japanese Candy: How Do They Compare?',
     intro: 'Both Swedish and Japanese candy have massive followings online, but they\'re completely different experiences. Swedish candy is bold, sour, and unapologetic. Japanese candy is intricate, sweet, and often comes with an experience. Here\'s how they stack up.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border-left: 4px solid #3b82f6; border-radius: 8px; padding: 20px; margin-bottom: 32px;">
+<strong>The short version:</strong> Swedish candy is about bold flavors and simple execution — sour, sweet, salty, done. Japanese candy is about intricate engineering and novelty — DIY kits, layered textures, and packaging that\'s half the experience. Both are excellent. They\'re just excellent at completely different things.
+</div>
+
+<h2>Two Candy Cultures, One Internet Obsession</h2>
+<p>Swedish candy and Japanese candy are the two international candy scenes that have genuinely captured the internet\'s imagination. Both have dedicated subscription boxes, TikTok followings in the millions, and passionate communities of people who import candy across oceans. But spend five minutes with each and you\'ll realize they could not be more different.</p>
+<p>Swedish candy is a Viking at a feast: big flavors, no pretense, grab a handful and eat. Japanese candy is a master craftsman at work: precise, beautiful, often requiring assembly instructions. Neither approach is "better" — they\'re just different philosophies of what candy should be.</p>
+
+<h2>Flavor Philosophy</h2>
+
+<h3>Swedish Candy: Go Big or Go Home</h3>
+<p>Swedish candy doesn\'t do subtle (except <a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a>, but they\'re the exception that proves the rule). Sour means face-contorting sour. Salty licorice means "why is my mouth burning" salty. <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> hit you with a wall of citric acid before revealing the sweet berry gummy underneath. <a href="/candy/djungelvraal">Djungelvrål</a> literally translates to "Jungle Roar" and tastes like it. Swedish candy believes your taste buds should have an experience, and that experience should be intense.</p>
+
+<h3>Japanese Candy: Layers and Surprises</h3>
+<p>Japanese candy is engineered with a precision that borders on obsessive. Morinaga\'s Hi-Chew — Japan\'s biggest gummy export, now manufactured in the US due to demand — uses a multi-layered construction: a chewy outer layer releases flavor progressively while the inner core provides a different texture. Meiji, one of Japan\'s oldest confectionery companies (founded 1916, same year as Marabou), uses precise chocolate tempering for a specific snap and melt profile. Nestlé Japan\'s Kit-Kat operation has produced over 400 limited-edition flavors — sake, sweet potato, matcha, wasabi, strawberry cheesecake, even Tokyo Banana. New flavors rotate seasonally, creating a collector culture that has no Swedish equivalent.</p>
+<p>Then there\'s Kracie\'s Popin\' Cookin\' line — DIY candy kits where you mix powders with water to build miniature sushi, ramen bowls, donuts, and hamburgers from candy. The process takes 20-30 minutes and the result is edible art. This is candy as craft project, and it\'s a massive category in Japan with no parallel anywhere in Scandinavia.</p>
+<p>Japanese flavors lean delicate and seasonal: green tea (matcha), yuzu (Japanese citrus), sakura (cherry blossom), ume (plum), and kuromitsu (brown sugar syrup). Where Swedish candy shouts, Japanese candy whispers — but the whisper is incredibly nuanced.</p>
+
+<p><strong>Swedish candy is a rock concert. Japanese candy is an omakase dinner.</strong></p>
+
+<h2>Texture</h2>
+
+<h3>Swedish Approach</h3>
+<p>Swedish candy has three main texture families: chewy gummies (BUBS, Malaco), marshmallow foam (Bilar, Polly), and chocolate (Marabou, Daim). Each is executed exceptionally well, but the range is relatively focused. What Swedish candy lacks in texture variety, it makes up for in perfection of each type. BUBS gummies have a specific softness that\'s become the global benchmark. Bilar\'s foam texture is literally unique to that one product.</p>
+
+<h3>Japanese Approach</h3>
+<p>Japan has texture categories that don\'t exist anywhere else. "Mochi candy" (chewy rice flour-based sweets like Daifuku) occupies an entire section of Japanese convenience stores. "Konpeito" are crystallized sugar stars — tiny, crunchy, and visually stunning — that date back to the 16th century Portuguese influence. "Warabimochi" offers a bouncy, gelatinous jiggle that\'s somewhere between jelly and custard. "Ame" (hard candy) comes in hand-pulled artisan varieties that are as much visual art as candy.</p>
+<p>Hi-Chew alone has more texture R&D than most entire candy companies. Morinaga spent decades perfecting a "fruit juice experience" in gummy form — the outer layer provides chew resistance while the inner releases a burst of fruit flavor that mimics biting into actual fruit. And then there are the "gummy supplement" candies — functional gummies with added vitamins and collagen that Japan produces in enormous quantities. The line between candy and wellness product barely exists.</p>
+
+<p><strong>Winner: Japan</strong> for variety and innovation, <strong>Sweden</strong> for mastery of its chosen textures. Japan has 10 texture categories; Sweden has 3, but each one is best-in-class.</p>
+
+<h2>Ingredients & Healthiness</h2>
+
+<h3>Swedish Candy</h3>
+<p>Swedish candy benefits from EU regulations that restrict artificial colors, require warning labels on certain additives, and generally push manufacturers toward cleaner ingredients. Brands like <a href="/brands/bubs">BUBS</a> are 100% vegan with natural colorings. Even mainstream brands use fruit and vegetable concentrates instead of synthetic dyes. No high-fructose corn syrup — just real sugar. It\'s still candy, but it\'s candy with a noticeably shorter ingredient list.</p>
+
+<h3>Japanese Candy</h3>
+<p>Japan has rigorous food safety standards, but takes a different approach than the EU. Artificial colors are permitted (and used frequently — Japanese candy is extremely colorful). Many products contain gelatin. High-fructose corn syrup appears in some products but is less common than in American candy. Ingredient lists tend to be longer due to the complexity of the products, but the quality of each ingredient is generally high.</p>
+
+<p><strong>Winner: Sweden</strong> on ingredient simplicity and additive avoidance. Japan isn\'t bad — it just doesn\'t have the EU\'s strict approach to artificial additives.</p>
+
+<h2>The Unboxing Experience</h2>
+
+<h3>Swedish Candy</h3>
+<p>Swedish candy packaging is functional and clean. BUBS has colorful bags, Marabou has its iconic purple wrappers, and most products come in straightforward retail packaging. It looks good, but nobody\'s buying Swedish candy for the packaging. The magic is what\'s inside. Swedish candy subscription boxes (like those from BonBon NYC or Sockerbit) add presentation value, but the candy itself is meant to be ripped open and eaten.</p>
+
+<h3>Japanese Candy</h3>
+<p>Japanese packaging is an art form. Individual pieces are wrapped. Boxes have compartments. Colors are coordinated. Some candies come with tiny spoons, mixing trays, or assembly instructions. The Kracie "Popin\' Cookin\'" kits let you build tiny sushi, ramen, or donuts from candy powder and water — the process is the product. Japanese candy subscription boxes (like TokyoTreat or Japan Crate) are designed to be unboxed on camera, with each item creating its own moment.</p>
+
+<p><strong>Winner: Japan, decisively.</strong> If unboxing is your thing, Japanese candy is a content creator\'s dream.</p>
+
+<h2>Cultural Context</h2>
+
+<h3>Swedish Candy Culture</h3>
+<p>Sweden has lördagsgodis (Saturday candy) — a national tradition of eating candy only on Saturdays. Swedish candy culture is about the lösgodis (pick-and-mix) experience: walking into a store, filling a bag from 150+ varieties, weighing it, and enjoying it as a weekly ritual. It\'s communal, deliberate, and deeply embedded in daily life. Candy is part of Swedish identity in a way that\'s hard to overstate.</p>
+
+<h3>Japanese Candy Culture</h3>
+<p>Japan has "omiyage" — the deeply ingrained tradition of bringing back regional specialty sweets as gifts when traveling. This isn\'t optional politeness; it\'s a social obligation. Every single prefecture, city, train station, and tourist spot has its own exclusive candy, creating a candy culture that\'s tied to geography in a way Sweden can\'t match. Tokyo Station alone has dozens of exclusive confections you can\'t buy anywhere else in the world.</p>
+<p>Japanese convenience stores (konbini — 7-Eleven, Lawson, FamilyMart) function as candy showrooms. They rotate selections constantly, with limited-edition seasonal flavors creating FOMO-driven purchasing. Spring means sakura everything. Autumn means sweet potato and chestnut. The Japan chocolate market alone is worth $5.7 billion (2025), and confectionery is Japan\'s second-largest food category. There are entire floors of department stores dedicated to artisan confections — a concept that would be unthinkable in Swedish retail.</p>
+
+<p><strong>Both cultures take candy seriously, but in different ways.</strong> Sweden is about ritual, consistency, and weekly satisfaction (16 kg per person per year). Japan is about novelty, seasonal discovery, and a confectionery market ($5.7 billion in chocolate alone) that dwarfs Scandinavia\'s entire candy industry.</p>
+
+<h2>Which Should You Try First?</h2>
+
+<p><strong>Try Swedish candy if you:</strong> Value clean ingredients, love sour or intense flavors, prefer simple execution done perfectly, want candy you can share at a party, or care about vegan options.</p>
+
+<p><strong>Try Japanese candy if you:</strong> Love variety and novelty, enjoy the unboxing experience, want to try unusual flavors (matcha, yuzu, sakura), like DIY food kits, or treat candy as entertainment.</p>
+
+<p><strong>Try both if you:</strong> Are a human being who enjoys delicious things. Honestly, if you\'re reading this article, you should try both. They satisfy completely different cravings and together give you a much fuller picture of what candy can be beyond the American grocery store aisle.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Which is more expensive to import?</h3>
+<p>Roughly similar. Both cost $25-45 for a decent subscription box or variety pack shipped to the US. Japanese candy subscription boxes tend to be slightly more expensive ($35-50) because they include more individual items. Swedish candy boxes are often heavier (more candy per box) but with fewer distinct products.</p>
+
+<h3>Which has better subscription boxes?</h3>
+<p>Japanese candy subscription boxes (TokyoTreat, Japan Crate, Bokksu) are more established and have a wider selection. Swedish candy subscription boxes are newer but growing fast. If you want variety and surprise, Japanese boxes win. If you want to deeply explore a specific candy culture, Swedish boxes are more focused.</p>
+
+<h3>Can I find either in regular US stores?</h3>
+<p>Japanese candy is available at most Asian grocery stores, some Targets, and World Market. Swedish candy is at IKEA, some Targets (via Sockerbit), and select specialty stores. Both are most easily accessed through online ordering.</p>`,
     heroImage: '/images/blog/swedish-vs-japanese.jpg',
     heroImageAlt: 'Swedish candy and Japanese candy displays side by side',
     author: 'SwedishCrave',
@@ -4072,10 +4368,10 @@ export const articles: Article[] = [
     estimatedReadTime: 10,
     tags: ['vs', 'comparison', 'Japanese candy', 'international'],
     relatedArticleSlugs: ['swedish-candy-vs-american-candy', 'what-is-swedish-candy', 'swedish-candy-vs-british-candy'],
-    relatedCandySlugs: [],
-    relatedBrandSlugs: [],
+    relatedCandySlugs: ['bubs-sour-skulls', 'ahlgrens-bilar', 'djungelvraal'],
+    relatedBrandSlugs: ['bubs', 'marabou'],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 35,
@@ -4086,7 +4382,85 @@ export const articles: Article[] = [
     metaDescription: 'How does Swedish candy compare to British sweets? We compare Cadbury vs Marabou, pick & mix culture, and why both countries take their candy seriously.',
     h1: 'Swedish Candy vs British Sweets: An Honest Comparison',
     intro: 'Britain and Sweden both have serious candy cultures — but they diverge in fascinating ways. From chocolate philosophy to pick & mix traditions, here\'s how two of Europe\'s biggest candy nations compare.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border-left: 4px solid #3b82f6; border-radius: 8px; padding: 20px; margin-bottom: 32px;">
+<strong>The short version:</strong> Britain does chocolate and toffee brilliantly. Sweden does gummies, sour candy, and licorice better than almost anyone. Both have pick & mix traditions. Both take candy very seriously. The biggest difference is licorice: Swedes are obsessed, Brits are indifferent.
+</div>
+
+<h2>Two European Candy Powerhouses</h2>
+<p>Britain and Sweden don\'t get compared often enough. Both countries have candy cultures that are deeply embedded in national identity, both have iconic brands that dominate supermarket aisles, and both would be personally insulted if you called their candy "just candy." But spend a week eating your way through each country\'s offerings and you\'ll discover fundamentally different philosophies about what makes a great sweet.</p>
+
+<h2>Chocolate: Cadbury vs Marabou</h2>
+
+<h3>The Swedish Way</h3>
+<p><a href="/brands/marabou">Marabou</a> has been Sweden\'s chocolate king since 1919. Their approach is straightforward: real cocoa butter, higher milk content, slow conching for maximum creaminess. Marabou Mjölkchoklad tastes like milk chocolate should taste — rich, creamy, slightly caramelized, no weird aftertaste. The product range is focused: milk chocolate variations (plain, hazelnut, fruit & almond, mint) rather than dozens of novelty flavors.</p>
+
+<h3>The British Way</h3>
+<p>Cadbury Dairy Milk has been Britain\'s chocolate since 1905. It\'s sweeter than Marabou, with a distinctive "milky" flavor that comes from a specific milk processing technique. Cadbury has more variety (Flake, Twirl, Wispa, Crunchie, Boost — the list goes on) and a broader product ecosystem. But Cadbury has also been through ownership changes (Kraft/Mondelez) that many Brits feel have changed the recipe for the worse.</p>
+
+<p><strong>Head to head:</strong> <a href="/candy/marabou-mjolkchoklad">Marabou</a> is creamier and richer. Cadbury is sweeter and more varied. Swedes will tell you Marabou is objectively better. Brits will tell you Cadbury is objectively better. Both are wrong — they\'re just different approaches to milk chocolate. For the full chocolate deep dive, see our <a href="/blog/marabou-vs-cadbury">Marabou vs Cadbury comparison</a>.</p>
+
+<h2>Gummies & Sour Candy</h2>
+
+<h3>Sweden: World-Class</h3>
+<p>This is where Sweden pulls ahead significantly. Swedish gummy candy — led by <a href="/brands/bubs">BUBS</a> and <a href="/brands/malaco">Malaco</a> — is among the best in the world. The textures are softer and more satisfying than most competitors, the sour coatings are more intense, and the flavor profiles are more complex. BUBS Sour Skulls alone have done more for Swedish cultural exports than ABBA\'s reunion tour.</p>
+
+<h3>Britain: Respectable but Different</h3>
+<p>Britain\'s gummy game is led by Maynards Bassetts — formed in 2016 when Mondelēz merged two heritage brands (Bassett\'s dates to 1842 in Sheffield). Their Wine Gums are a genuine British icon: firm, chewy, wine-grape shaped, with a distinctive fruity flavor that has zero relation to actual wine. Jelly Babies have been around since 1918 and have a softer, more powdery texture than Scandinavian gummies. Percy Pigs (Marks & Spencer) have become a modern cult favorite with their "semi-realistic" pig shape and genuine fruit juice content.</p>
+<p>Haribo dominates the UK mass market (they\'re German but have a massive British presence), and Swizzels makes the nostalgic fizzy sweets (Love Hearts, Drumsticks, Refreshers) that define British childhood candy memories. These are fine products, but the gummy category in Britain is about nostalgia and comfort rather than the innovation and intensity Swedish brands bring.</p>
+
+<p><strong>Winner: Sweden</strong> on gummy quality and innovation. Britain has heritage products with devoted followings, but nothing matching BUBS\'s flavor depth or Malaco\'s range.</p>
+
+<h2>Licorice: The Great Divide</h2>
+<p>Here\'s where these two candy cultures diverge completely.</p>
+
+<h3>Sweden: National Obsession</h3>
+<p>Licorice is fundamental to Swedish candy culture. Not just the soft, sweet kind — but <a href="/blog/what-is-salmiak">salmiak</a>, the salty ammonium chloride-flavored licorice that makes most non-Scandinavians question everything they know about food. Swedish stores dedicate entire sections to licorice varieties: soft, hard, salty, extra salty, sour, coated, filled, and combinations thereof. <a href="/candy/djungelvraal">Djungelvrål</a> is one of Sweden\'s most popular candies, and it\'s essentially sour salty licorice. This is a nation that takes its licorice personally.</p>
+
+<h3>Britain: Take It or Leave It</h3>
+<p>Britain has Liquorice Allsorts (Bassetts), Pontefract Cakes, and a general awareness that licorice exists. But it\'s never been a dominant flavor in British candy culture. Allsorts are popular with a specific demographic (your grandmother), but they don\'t define the national candy conversation. British licorice is gentler, sweeter, and doesn\'t involve ammonium chloride — which, depending on your perspective, is either a weakness or an entirely reasonable life choice.</p>
+
+<p><strong>Winner: Sweden</strong> if you like licorice. <strong>Britain</strong> if you like not having your taste buds assaulted.</p>
+
+<h2>Pick & Mix Culture</h2>
+
+<h3>Swedish Lösgodis</h3>
+<p>Lösgodis is a weekly ritual in Sweden. Every supermarket has a dedicated candy wall with 100-200 varieties in open bins. You grab a bag, fill it with whatever you want, weigh it, and pay by the kilo. This happens primarily on Saturdays (lördagsgodis). The selection is curated and rotated, and the quality is consistently excellent. Lösgodis is arguably Sweden\'s greatest contribution to candy culture.</p>
+
+<h3>British Pick \'n\' Mix</h3>
+<p>British pick \'n\' mix is associated with cinemas, Woolworths (RIP), and seaside towns. It\'s more nostalgic than ritualistic. The selection typically includes Haribo, cola bottles, fizzy sweets, and chocolate items — a broader but less specialized range than Swedish lösgodis. Pick \'n\' mix has declined in Britain as Woolworths closed and cinema chains simplified their offerings, though it\'s had a modest revival in recent years.</p>
+
+<p>For the full comparison, check our <a href="/blog/swedish-pick-and-mix-vs-british">pick & mix culture deep dive</a>.</p>
+
+<h2>Toffee & Hard Candy</h2>
+
+<h3>Britain: The Clear Winner</h3>
+<p>This is Britain\'s undisputed territory. Quality Street (Nestlé, since 1936) and Cadbury Roses are Christmas institutions — the decorative tins appear in every British household in December, and heated debates about which flavors to eat first are a national pastime. Thorntons makes premium boxed chocolates and toffee that fill a "gift chocolate" niche more elegantly than anything in Sweden. Fudge from Devon and Cornwall, Edinburgh Rock, Kendal Mint Cake, traditional boiled sweets from small-batch producers — Britain has an artisan hard candy scene with regional specialities that rivals France\'s cheese map. Even the classic Werther\'s Original (German, but essentially adopted by British grandparents as their own) has a deeper cultural presence in the UK than Sweden.</p>
+
+<h3>Sweden: Solid but Limited</h3>
+<p>Sweden has <a href="/candy/plopp">Plopp</a> (chocolate toffee), <a href="/candy/daim">Daim</a> (crunchy caramel), <a href="/candy/dumle">Dumle</a> (chewy toffee), and <a href="/candy/kexchoklad">Kexchoklad</a> (wafer). All excellent, but it\'s a smaller category. Swedish candy culture puts more emphasis on gummies and licorice than on toffees and hard candies.</p>
+
+<p><strong>Winner: Britain.</strong> When it comes to toffee, caramel, and boiled sweets, Britain has centuries of expertise.</p>
+
+<h2>Ingredients & Regulations</h2>
+<p>Both countries operate under EU food safety regulations (Britain retained most of these post-Brexit), so the ingredient standards are broadly similar. Neither uses the artificial colors or high-fructose corn syrup common in American candy. Swedish candy tends to have slightly shorter ingredient lists, and BUBS\'s fully vegan range has no British equivalent at the same scale, but the overall quality standard is comparable.</p>
+
+<h2>The Verdict</h2>
+<p><strong>Sweden wins on:</strong> Gummies, sour candy, licorice, pick & mix culture, ingredient simplicity, and the vegan category.</p>
+<p><strong>Britain wins on:</strong> Chocolate variety, toffee & hard candy, seasonal selections, and the sheer breadth of the candy market.</p>
+<p><strong>Tied on:</strong> Overall chocolate quality (different but equal), candy cultural significance, and dedication to the craft.</p>
+
+<p>Both are leagues ahead of the American candy market on ingredients and variety. If you\'re used to American candy and want to explore European alternatives, either direction will improve your life — but they\'ll improve it in very different ways.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Are British sweets available in Sweden, and vice versa?</h3>
+<p>Some crossover exists. Cadbury is available in Swedish stores (not dominant, but present). Marabou is harder to find in the UK but available in Scandinavian specialty shops and online. IKEA stores in the UK carry some Swedish candy.</p>
+
+<h3>Which country eats more candy per capita?</h3>
+<p>Sweden consistently ranks in the global top 5 for candy consumption per capita (roughly 15-17 kg per year). The UK is also high but slightly lower (around 12-14 kg). Both are well above the global average — these are nations that take their sweets seriously.</p>
+
+<h3>Is Cadbury available in Sweden?</h3>
+<p>Yes, but it\'s a niche import product. Swedes are loyal to Marabou and Cloetta for their chocolate. Cadbury exists in Sweden the way Marabou exists in the UK — it\'s there if you look for it, but it\'s not the default.</p>`,
     heroImage: '/images/blog/swedish-vs-british.jpg',
     heroImageAlt: 'Swedish candy brands next to British sweets brands',
     author: 'SwedishCrave',
@@ -4095,10 +4469,10 @@ export const articles: Article[] = [
     estimatedReadTime: 9,
     tags: ['vs', 'comparison', 'British sweets', 'Cadbury', 'international'],
     relatedArticleSlugs: ['marabou-vs-cadbury', 'swedish-pick-and-mix-vs-british', 'swedish-candy-vs-american-candy'],
-    relatedCandySlugs: ['marabou-mjolkchoklad'],
-    relatedBrandSlugs: ['marabou'],
+    relatedCandySlugs: ['marabou-mjolkchoklad', 'bubs-sour-skulls', 'djungelvraal', 'plopp', 'daim', 'dumle', 'kexchoklad'],
+    relatedBrandSlugs: ['marabou', 'bubs', 'malaco', 'cloetta'],
     priority: 'P2',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 36,
@@ -4109,7 +4483,73 @@ export const articles: Article[] = [
     metaDescription: 'Sweden\'s candy establishment vs the viral newcomer. How Malaco and BUBS compare on product range, quality, availability, and overall candy experience.',
     h1: 'Malaco vs BUBS: Sweden\'s Candy Giants Head to Head',
     intro: 'Malaco is the old guard — Sweden\'s largest candy maker with decades of history. BUBS is the upstart that went viral on TikTok. But which brand actually makes better candy? We compare them across every category.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border-left: 4px solid #3b82f6; border-radius: 8px; padding: 20px; margin-bottom: 32px;">
+<strong>The verdict:</strong> Malaco has the heritage, the range, and the licorice crown. BUBS has the innovation, the vegan credentials, and the international buzz. In Sweden, Malaco is the default. Outside Sweden, BUBS is the name people know. Both make excellent candy — they just serve different audiences.
+</div>
+
+<h2>The Establishment vs The Disruptor</h2>
+<p>This is Swedish candy\'s version of Coca-Cola vs a craft soda — except both are actually good. <a href="/brands/malaco">Malaco</a> was founded in 1930 and is now owned by Cloetta, one of the oldest candy companies in the world. They make <a href="/candy/djungelvraal">Djungelvrål</a>, <a href="/candy/malaco-gott-och-blandat">Gott & Blandat</a>, Zoo, Sura Skallar, and dozens of other products that are fixtures in every Swedish lösgodis display. Malaco doesn\'t need TikTok — they\'ve been in Swedish culture longer than television.</p>
+<p><a href="/brands/bubs">BUBS</a> was founded in 1992 by the Lindström family. They\'re the scrappy underdog who bet on being 100% vegan before it was trendy and made candy in skull shapes when everyone else was making bears and worms. That bet paid off spectacularly when TikTok discovered them in 2023, turning <a href="/candy/bubs-sour-skulls">Sour Skulls</a> into a global phenomenon.</p>
+
+<h2>Product Range</h2>
+
+<h3>Malaco: The Everything Brand</h3>
+<p>Malaco\'s product catalog is enormous. Sour candy, sweet candy, licorice (soft, hard, salty, super salty), fruit gummies, foam candy, chocolate-coated items — if it\'s Swedish candy, Malaco probably makes a version of it. Their lösgodis (pick-and-mix) presence is dominant: walk into any Swedish grocery store and Malaco products will occupy the majority of the candy wall. The range includes category icons like Djungelvrål (salty sour licorice), Gott & Blandat (the "something for everyone" mix bag), and Zoo (animal-shaped gummies kids have loved for generations).</p>
+
+<h3>BUBS: Focused and Distinctive</h3>
+<p>BUBS has maybe 30-40 products compared to Malaco\'s hundreds. But every product is designed with a specific philosophy: 100% vegan, natural colors, bold flavors, fun shapes. BUBS doesn\'t try to be everything — they try to be the best at what they do. Their core range (Sour Skulls, Watermelon, Cool Cola, Dizzy Skull, various foam items) is tight and consistent. You always know what you\'re getting with BUBS.</p>
+
+<p><strong>Winner: Malaco</strong> for breadth. <strong>BUBS</strong> for focus and consistency.</p>
+
+<h2>Sour Candy</h2>
+<p>This is the category where the brands compete most directly.</p>
+
+<p><strong>BUBS:</strong> Softer gummies with crystal sour coatings. The sourness is intense but balanced — you always taste the fruit underneath. The skull shape adds personality. The vegan formula means the texture is slightly different from gelatin-based gummies: chewier, slightly more "bouncy." This is the sour candy that went viral for a reason.</p>
+
+<p><strong>Malaco:</strong> Firmer gummies with powdered sour coatings. Malaco Sura Skallar and Super Sura are more aggressive on the sourness front — Super Sura in particular is borderline punishing. The texture is more traditional (gelatin-based), which some people prefer for its firmer chew. Malaco also offers sour licorice combinations that BUBS doesn\'t touch.</p>
+
+<p><strong>Winner:</strong> BUBS for approachability and international appeal. Malaco for pure sourness intensity and variety within the sour category.</p>
+
+<h2>Licorice</h2>
+<p>No contest here. Malaco is Sweden\'s licorice king and BUBS barely participates.</p>
+<p>Malaco\'s licorice range includes Djungelvrål (iconic sour salty licorice), Skipper\'s Pipes, Salty Herring, and dozens of lösgodis licorice varieties. They own this category in a way that leaves no room for competition. BUBS makes a few licorice-adjacent products (Raspberry Licorice), but licorice isn\'t their identity.</p>
+
+<p><strong>Winner: Malaco</strong>, and it\'s not a competition BUBS is trying to enter.</p>
+
+<h2>Ingredients & Ethics</h2>
+<p>This is BUBS\'s strongest advantage. Every BUBS product is 100% vegan — no gelatin, no beeswax, no animal-derived ingredients. They use potato starch instead of gelatin, fruit and vegetable concentrates for color, and keep ingredient lists short. In 2026, this matters to a growing number of consumers.</p>
+<p>Malaco uses gelatin (pork-based) in most products. Their ingredient lists are clean by international standards (no artificial colors, compliant with EU regulations), but they\'re not vegan-friendly. For vegetarians, vegans, and people with religious dietary restrictions, BUBS is the clear choice.</p>
+
+<p><strong>Winner: BUBS</strong>, decisively. The vegan-by-default approach is a significant competitive advantage.</p>
+
+<h2>International Presence</h2>
+<p><strong>BUBS</strong> is the Swedish candy brand that non-Swedes know. TikTok made them internationally famous, and they\'ve capitalized with US distribution through Amazon, Sockerbit/Target, and specialty retailers. If you ask an American "name a Swedish candy brand," they\'ll say BUBS (or possibly Marabou from IKEA).</p>
+<p><strong>Malaco</strong> is dominant in Scandinavia but relatively unknown internationally. Their products are available through specialty importers, but they haven\'t had a BUBS-style viral moment. Djungelvrål has some niche fame from "salmiak challenge" videos, but the brand itself isn\'t recognized.</p>
+
+<p><strong>Winner: BUBS</strong> internationally. <strong>Malaco</strong> domestically.</p>
+
+<h2>The Final Scorecard</h2>
+<p><strong>Product range:</strong> Malaco</p>
+<p><strong>Sour candy:</strong> Tie (different strengths)</p>
+<p><strong>Licorice:</strong> Malaco</p>
+<p><strong>Ingredients:</strong> BUBS</p>
+<p><strong>International presence:</strong> BUBS</p>
+<p><strong>Swedish cultural significance:</strong> Malaco</p>
+<p><strong>Innovation:</strong> BUBS</p>
+<p><strong>Value for money:</strong> Malaco (slightly cheaper in Sweden)</p>
+
+<p><strong>Overall:</strong> It\'s a genuine tie, 4-4. They\'re not really competing for the same customer. Malaco serves the Swedish domestic market and lösgodis tradition. BUBS serves the international market and the conscious consumer. Both do their jobs excellently.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Does Malaco own BUBS?</h3>
+<p>No. BUBS is an independent, family-founded company. Malaco is owned by Cloetta. They\'re separate entities and direct competitors in the Swedish gummy market.</p>
+
+<h3>Which is cheaper?</h3>
+<p>In Sweden, Malaco is generally slightly cheaper — they benefit from massive scale and domestic distribution. BUBS is slightly premium-priced. Internationally, BUBS is more accessible due to better export distribution, while Malaco products require specialty importers.</p>
+
+<h3>Can I get both in a mixed Swedish candy order?</h3>
+<p>Absolutely. Most <a href="/where-to-buy">Swedish candy retailers</a> carry both brands. A mixed order is the best way to experience the full spectrum of Swedish candy — BUBS for the sour gummies, Malaco for the licorice and variety.</p>`,
     heroImage: '/images/blog/malaco-vs-bubs.jpg',
     heroImageAlt: 'Malaco and BUBS candy products side by side',
     author: 'SwedishCrave',
@@ -4118,10 +4558,10 @@ export const articles: Article[] = [
     estimatedReadTime: 9,
     tags: ['vs', 'comparison', 'Malaco', 'BUBS', 'brands'],
     relatedArticleSlugs: ['malaco-candy-guide', 'bubs-candy-complete-guide', 'best-swedish-candy'],
-    relatedCandySlugs: ['bubs-sour-skulls', 'djungelvraal'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'djungelvraal', 'malaco-gott-och-blandat'],
     relatedBrandSlugs: ['malaco', 'bubs'],
     priority: 'P2',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 37,
@@ -4132,7 +4572,73 @@ export const articles: Article[] = [
     metaDescription: 'Sweden\'s Marabou vs Britain\'s Cadbury — a head-to-head chocolate comparison on taste, ingredients, texture, and value. Which European chocolate wins?',
     h1: 'Marabou vs Cadbury: Which Chocolate Is Better?',
     intro: 'Both Marabou and Cadbury are beloved national chocolate brands — but they taste nothing alike. Different milk content, different cocoa sourcing, different texture philosophy. We break down every difference.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border-left: 4px solid #3b82f6; border-radius: 8px; padding: 20px; margin-bottom: 32px;">
+<strong>The verdict:</strong> Marabou is creamier, richer, and has a more "pure chocolate" taste. Cadbury is sweeter, milkier, and has a distinctive flavor that\'s either nostalgic or slightly odd depending on where you grew up. Both are excellent — but if we had to pick one, Marabou wins on overall chocolate quality.
+</div>
+
+<h2>Two National Treasures Enter</h2>
+<p>Suggesting to a Swede that Cadbury is better than <a href="/brands/marabou">Marabou</a> will get you uninvited from fika. Telling a Brit that Marabou beats Cadbury will get you uninvited from tea. These are national institutions disguised as chocolate bars, and this comparison is guaranteed to offend at least one entire country. Let\'s do it anyway.</p>
+
+<h2>The Taste Test</h2>
+
+<h3>Marabou Mjölkchoklad</h3>
+<p>The first thing you notice is the creaminess. <a href="/candy/marabou-mjolkchoklad">Marabou</a> melts slowly and evenly, coating your mouth with a smooth, rich chocolate flavor that has subtle caramel notes. There\'s no sharpness, no tanginess, no unexpected flavors — just pure, creamy milk chocolate. The aftertaste is clean: you taste chocolate, then it fades gracefully. Marabou\'s proprietary caramelization process (developed in the 1950s) is responsible for this distinctively smooth finish.</p>
+
+<h3>Cadbury Dairy Milk</h3>
+<p>Cadbury has a more "milky" flavor — sweeter, with a particular tang that comes from their milk processing method. The melt is faster than Marabou and the texture is slightly grainier. There\'s a distinctive Cadbury flavor that long-time fans describe as "creamy and comforting" and first-time European tasters sometimes describe as "interesting." The aftertaste lingers longer than Marabou, with a sweetness that stays on your palate.</p>
+
+<p><strong>Winner: Marabou</strong> for chocolate purists. <strong>Cadbury</strong> for people who grew up with it and associate it with happiness.</p>
+
+<h2>Ingredients: What\'s Actually In There</h2>
+
+<h3>Marabou</h3>
+<p>Sugar, cocoa butter, whole milk powder, cocoa mass, whey powder, emulsifier (soy lecithin), natural vanilla flavoring. That\'s it. Seven ingredients. Real cocoa butter, real milk powder, no PGPR (a cheap emulsifier used as a cocoa butter substitute), no vegetable oils.</p>
+
+<h3>Cadbury</h3>
+<p>The UK formula: milk, sugar, cocoa butter, cocoa mass, vegetable fats (palm, shea), emulsifiers (E442, E476), flavourings. The ingredient list is longer, and the inclusion of vegetable fats alongside cocoa butter is a key difference. The E476 (PGPR) is a synthetic emulsifier that allows manufacturers to reduce cocoa butter content while maintaining texture.</p>
+<p>It\'s worth noting that Cadbury\'s recipe has reportedly changed since the Kraft/Mondelez acquisition in 2010. Many British consumers feel the chocolate has become sweeter and less rich — a complaint you\'ll find all over British forums and social media. Marabou, also owned by Mondelez, has maintained its recipe more consistently.</p>
+
+<p><strong>Winner: Marabou.</strong> Shorter ingredient list, no vegetable fat fillers, no synthetic emulsifiers. If ingredients matter (and they should), Marabou is the cleaner product.</p>
+
+<h2>Texture & Mouthfeel</h2>
+<p><strong>Marabou:</strong> Slow-melting, velvet-smooth, coats the tongue evenly. The snap when you break a piece is clean and satisfying. The bar feels substantial — the 200g format has a premium heft.</p>
+<p><strong>Cadbury:</strong> Faster-melting, slightly grainier texture, dissolves rather than coats. The snap is softer — Dairy Milk breaks rather than snaps. The standard bar (110g) is thinner and more flexible than Marabou\'s rigid slab.</p>
+
+<p><strong>Winner: Marabou.</strong> The texture difference is one of the first things people notice when switching between the two.</p>
+
+<h2>Product Range</h2>
+<p><strong>Marabou:</strong> Focused range — Mjölkchoklad (plain), Schweizernöt (hazelnut), Mint, Frukt & Mandel, Daim (caramel), and a handful of seasonal variants. Marabou does fewer things but does each one at a high level.</p>
+<p><strong>Cadbury:</strong> Enormous range — Dairy Milk, Flake, Twirl, Wispa, Crunchie, Boost, Timeout, Roses, Heroes, and dozens more. Cadbury has an entire ecosystem of chocolate products, many with devoted followings. Flake\'s crumbly texture, Crunchie\'s honeycomb center, Wispa\'s aerated lightness — there\'s genuine innovation across the range.</p>
+
+<p><strong>Winner: Cadbury</strong> for variety and innovation. Marabou\'s range is excellent but limited by comparison.</p>
+
+<h2>Price & Value</h2>
+<p><strong>In their home markets:</strong> Both are mainstream, everyday chocolate — not premium, not budget. Marabou 200g is roughly 25-30 SEK (~$2.50-3) in Sweden. Cadbury Dairy Milk 110g is roughly £1.25-1.50 (~$1.50-2) in the UK.</p>
+<p><strong>In the US:</strong> Marabou is an import product, typically $6-10 per bar from specialty retailers or <a href="/blog/best-swedish-candy-on-amazon">Amazon</a>. Cadbury is easier to find (many grocery stores carry it) but the US version is made by Hershey\'s under license and uses a different (worse) formula. To get real UK Cadbury, you also need specialty importers.</p>
+
+<p><strong>Winner:</strong> Tie domestically. In the US, both require import shopping for the authentic versions.</p>
+
+<h2>Cultural Significance</h2>
+<p><strong>Marabou</strong> is woven into Swedish culture. The purple wrapper is iconic. It\'s the default chocolate for fika, birthdays, and Friday cozy nights. Swedes abroad report Marabou cravings the way Brits abroad crave Marmite. The brand has maintained an emotional connection despite corporate ownership changes.</p>
+<p><strong>Cadbury</strong> is arguably even more culturally embedded. Cadbury World is a tourist attraction. The purple color is trademarked. Cadbury Roses and Heroes are Christmas institutions. The brand\'s Birmingham heritage is a source of local pride. But the Kraft takeover in 2010 — and perceived recipe changes — have dented the emotional relationship for some consumers.</p>
+
+<p><strong>Winner:</strong> Both are national treasures. Cadbury has slightly more cultural infrastructure (theme parks, Christmas traditions), but Marabou has maintained its quality reputation more consistently.</p>
+
+<h2>The Bottom Line</h2>
+<p>If you\'re choosing purely on chocolate quality — ingredients, texture, and taste — <strong>Marabou wins</strong>. It\'s a more refined product with better ingredients and a smoother finish.</p>
+<p>If you\'re choosing on variety, cultural experience, and nostalgia — <strong>Cadbury has more to offer</strong> as a brand ecosystem.</p>
+<p>If you\'re an American choosing between the two: try both, but start with Marabou. It\'ll permanently change your relationship with chocolate. Then try real (UK-imported) Cadbury for the cultural experience. Whatever you do, don\'t judge Cadbury by the Hershey\'s-made US version — that\'s like judging Swedish meatballs by the frozen supermarket ones.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is Marabou owned by the same company as Cadbury?</h3>
+<p>Yes — both are owned by Mondelez International. Marabou was acquired through the Kraft/Freia Marabou merger, and Cadbury through the controversial Kraft hostile takeover in 2010. Despite shared ownership, the products are made in different factories with different recipes.</p>
+
+<h3>Why does Cadbury taste different in the US?</h3>
+<p>The US version of Cadbury Dairy Milk is manufactured by Hershey\'s under a licensing agreement, using a different recipe that includes Hershey\'s cocoa processing. The result tastes noticeably different from UK Cadbury. To get the real thing, import it from a British specialty shop.</p>
+
+<h3>Where can I buy Marabou in the US?</h3>
+<p>IKEA carries Marabou bars at the best prices. Online retailers like Amazon, Swedish Candy Land, and Mums Swedish Candy ship Marabou nationwide. See our <a href="/where-to-buy">where-to-buy guide</a> for current options.</p>`,
     heroImage: '/images/blog/marabou-vs-cadbury.jpg',
     heroImageAlt: 'Marabou chocolate bar and Cadbury chocolate bar side by side',
     author: 'SwedishCrave',
@@ -4141,10 +4647,10 @@ export const articles: Article[] = [
     estimatedReadTime: 9,
     tags: ['vs', 'comparison', 'chocolate', 'Marabou', 'Cadbury'],
     relatedArticleSlugs: ['marabou-chocolate-guide', 'best-swedish-chocolate', 'swedish-candy-vs-british-candy'],
-    relatedCandySlugs: ['marabou-mjolkchoklad'],
+    relatedCandySlugs: ['marabou-mjolkchoklad', 'marabou-schweizernot', 'daim'],
     relatedBrandSlugs: ['marabou'],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 38,
@@ -4155,7 +4661,62 @@ export const articles: Article[] = [
     metaDescription: 'Both Sweden and the UK have pick and mix candy traditions, but they\'re surprisingly different. We compare lösgodis vs British pick \'n\' mix culture.',
     h1: 'Swedish Pick and Mix vs British Pick \'n\' Mix',
     intro: 'Pick and mix candy exists in both Sweden and the UK, but the experiences couldn\'t be more different. Swedish lösgodis is a weekly ritual with 150+ varieties in every supermarket. British pick \'n\' mix is cinema and seaside nostalgia. Let\'s compare.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border-left: 4px solid #3b82f6; border-radius: 8px; padding: 20px; margin-bottom: 32px;">
+<strong>The short version:</strong> Swedish lösgodis is a weekly grocery store ritual with 150+ varieties. British pick \'n\' mix is a cinema/seaside nostalgia trip with 30-50 options. Both involve scooping candy into bags. The similarity ends there.
+</div>
+
+<h2>Same Concept, Completely Different Execution</h2>
+<p>The idea is identical: open bins of unwrapped candy, a scoop, a bag, and a scale. Fill your bag, weigh it, pay by weight. It exists in both Sweden and the UK, and visitors from either country to the other will nod in recognition. But the cultural role, the selection, the setting, and the emotional significance couldn\'t be more different.</p>
+
+<h2>The Swedish Way: Lösgodis</h2>
+<p>In Sweden, lösgodis ("loose candy") is infrastructure. Every supermarket — ICA, Coop, Hemköp, Willys — has a candy wall. Not a small shelf. A <em>wall</em>. Typically 100-200 varieties in clear plexiglass bins with individual scoops, organized by type: sour, sweet, licorice, foam, chocolate-coated, and combinations thereof. The larger ICA Maxi stores can have over 200 varieties. This is one of the first things Scandinavian expats mention missing when they move abroad.</p>
+<p>The system was born in the 1980s when Swedish regulations first allowed self-service bulk candy. Three Finnish trade students in Stockholm pioneered the concept with a chain of pick-and-mix shops, proving that bulk candy sales worked commercially. Swedish supermarkets adopted it immediately, and within a decade the candy wall became standard grocery store infrastructure — as expected as the bread aisle or the dairy section.</p>
+<p>The ritual happens primarily on Saturdays — lördagsgodis (Saturday candy). Families go to the store, each person fills their own bag, and candy is consumed as a weekly treat. Swedes consume an average of 16 kg of candy per person per year — up from 9-10 kg in the 1970s-80s, a 60% increase that coincides directly with the lösgodis boom. This isn\'t casual snacking; it\'s a scheduled cultural event rooted in public health recommendations from the Vipeholm experiments of the 1950s. Swedish lösgodis is the most democratic candy experience in the world: everyone picks exactly what they want, and nobody judges your choices (unless you skip the sour section entirely, in which case gentle judgment is appropriate).</p>
+
+<h3>What You\'ll Find</h3>
+<p>Swedish lösgodis walls feature almost exclusively Scandinavian candy: Malaco gummies and licorice (they dominate the bins), BUBS sour skulls and foam items, Ahlgrens foam candy, Cloetta chocolate-coated pieces, and dozens of licorice varieties ranging from mild soft pipes to eye-watering salmiak. Seasonal rotations bring specialty items — Christmas brings chocolate-covered marzipan, summer brings fruity novelties. The quality is consistently high because the brands supplying the bins are the same brands selling packaged candy. No generic filler candy — every bin contains a real, branded product that you could also buy in a sealed bag on the shelf next to it.</p>
+
+<h2>The British Way: Pick \'n\' Mix</h2>
+<p>British pick \'n\' mix is primarily associated with three settings: cinemas (Odeon, Cineworld, Vue), seaside towns (Brighton rock shops, Blackpool\'s Golden Mile), and — for an entire generation of Brits who will never stop mourning — Woolworths (closed in 2009 with 807 stores, taking the nation\'s pick \'n\' mix infrastructure with it). The Woolworths closure was genuinely traumatic for British candy culture; it removed the single largest physical pick \'n\' mix network overnight.</p>
+<p>Today, British pick \'n\' mix survives in cinemas (where a small cup costs an eye-watering £4-6), in specialty shops like Mr Simms Olde Sweet Shoppe and SoSweet, and in a handful of supermarket sections that don\'t match the Swedish scale. It\'s a nostalgic, occasional experience rather than a weekly ritual. You don\'t plan your Saturday around pick \'n\' mix — you encounter it and think "oh, why not."</p>
+<p>The selection is typically 30-50 varieties: Haribo gummy bears, cola bottles, fizzy belts, flying saucers (those papery UFO things filled with sherbet), jelly beans, fried eggs, fizzy strawberries, chocolate mice, white mice, and various Swizzels products. It\'s a broader, more eclectic mix that includes German (Haribo), American (jelly beans), and British heritage items alongside generic bulk candy. The quality varies more than Swedish lösgodis — freshness is inconsistent because turnover is lower and there\'s no national "candy day" driving weekly purchasing cycles.</p>
+
+<h2>The Key Differences</h2>
+
+<h3>Selection</h3>
+<p><strong>Sweden:</strong> 100-200 varieties, all Scandinavian brands, heavy on sour, licorice, and foam categories. Deep specialization.</p>
+<p><strong>UK:</strong> 30-50 varieties, international mix, heavy on gummies and chocolate. Broad but shallower selection.</p>
+
+<h3>Setting</h3>
+<p><strong>Sweden:</strong> Every single supermarket. This is grocery infrastructure, not a novelty.</p>
+<p><strong>UK:</strong> Cinemas, candy shops, and seaside locations. More of a special-occasion experience.</p>
+
+<h3>Frequency</h3>
+<p><strong>Sweden:</strong> Weekly ritual (Saturday candy). Built into the national schedule.</p>
+<p><strong>UK:</strong> Occasional treat. No fixed cultural schedule.</p>
+
+<h3>Pricing</h3>
+<p><strong>Sweden:</strong> Typically 89-129 SEK/kg (~$8-12/kg). Reasonable for the quality.</p>
+<p><strong>UK:</strong> Varies wildly — cinema pick \'n\' mix is notoriously expensive (£4-8 for a small cup). High street candy shops are more reasonable.</p>
+
+<h3>The Licorice Factor</h3>
+<p><strong>Sweden:</strong> 20-30% of a typical lösgodis wall is licorice varieties. Salmiak, salt lakrits, soft licorice, hard licorice — it\'s a major category.</p>
+<p><strong>UK:</strong> Maybe 2-3 licorice options (Allsorts, torpedoes, and that\'s about it). Licorice is an afterthought, not a pillar.</p>
+
+<h2>Which Is Better?</h2>
+<p>Swedish lösgodis is objectively a better candy shopping experience — more variety, better quality, fairer prices, and a cultural framework that makes it feel meaningful rather than impulse-driven. The weekly ritual aspect adds anticipation that makes the candy taste better (psychology backs this up — delayed gratification enhances enjoyment).</p>
+<p>British pick \'n\' mix has nostalgia value that can\'t be replicated. If you grew up filling a bag at Woolworths before it closed, or grabbing a cup at the cinema before a film, that emotional connection is real and powerful. But as a pure candy experience, Sweden wins.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Can I experience Swedish lösgodis in the US?</h3>
+<p>The closest experience is at Swedish candy stores like BonBon NYC, which recreate the lösgodis wall format. Some <a href="/where-to-buy">online retailers</a> also offer "build your own mix" options. It\'s not quite the same as a Swedish supermarket wall, but it captures the spirit.</p>
+
+<h3>Is British pick \'n\' mix declining?</h3>
+<p>It\'s had a complicated few years. The closure of Woolworths in 2009 removed its biggest venue. Cinema pick \'n\' mix has faced competition from pre-packaged snacks. But there\'s been a modest revival through specialty candy shops and the retro nostalgia trend.</p>
+
+<h3>Which country eats more candy overall?</h3>
+<p>Sweden, by a significant margin per capita. Swedes consume roughly 15-17 kg of candy per person per year, making them consistently one of the world\'s top candy consumers. The UK averages around 12-14 kg.</p>`,
     heroImage: '/images/blog/pick-mix-comparison.jpg',
     heroImageAlt: 'Swedish lösgodis display next to British pick n mix stand',
     author: 'SwedishCrave',
@@ -4164,10 +4725,10 @@ export const articles: Article[] = [
     estimatedReadTime: 8,
     tags: ['pick and mix', 'lösgodis', 'comparison', 'UK', 'culture'],
     relatedArticleSlugs: ['what-is-losgodis-pick-and-mix', 'swedish-candy-vs-british-candy', 'lordagsgodis-swedish-saturday-candy'],
-    relatedCandySlugs: [],
-    relatedBrandSlugs: [],
+    relatedCandySlugs: ['bubs-sour-skulls', 'djungelvraal', 'ahlgrens-bilar'],
+    relatedBrandSlugs: ['malaco', 'bubs', 'ahlgrens'],
     priority: 'P3',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 39,
@@ -4178,7 +4739,81 @@ export const articles: Article[] = [
     metaDescription: 'America\'s Sour Patch Kids vs Swedish sour candy from BUBS and Malaco. We compare sourness level, flavor, texture, and ingredients head to head.',
     h1: 'Sour Patch Kids vs Swedish Sour Candy: Which Hits Harder?',
     intro: 'Sour Patch Kids dominate the American sour candy market. But how do they hold up against Swedish sour candy from BUBS and Malaco? We tested sourness, flavor depth, texture, and ingredients to find the real sour champion.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border-left: 4px solid #3b82f6; border-radius: 8px; padding: 20px; margin-bottom: 32px;">
+<strong>The verdict:</strong> Sour Patch Kids are more sour initially. Swedish sour candy has better flavor, better texture, and much better ingredients. If you just want your mouth to burn, SPK delivers. If you want sour candy that\'s actually a good eating experience, Swedish wins.
+</div>
+
+<h2>America\'s Sour King vs Sweden\'s Sour Revolution</h2>
+<p>Sour Patch Kids have been America\'s #1 sour candy since the early 2000s. They\'re cheap, they\'re everywhere, and their "sour, sweet, gone" tagline is one of the most accurate candy descriptions ever written. Swedish sour candy — led by <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> — is the newcomer that went viral for being... better? Let\'s find out if the hype is justified.</p>
+
+<h2>Sourness: The Main Event</h2>
+
+<h3>Sour Patch Kids</h3>
+<p>SPK\'s sour coating is aggressive. It hits fast, peaks within 3-5 seconds, and fades completely by 10-15 seconds. The sourness is achieved through a heavy citric acid and tartaric acid coating on each piece. It\'s designed to be a shock — your face contorts, your eyes water, and then it\'s over. The "sweet" phase kicks in and you\'re eating what is essentially a generic gummy bear with residual citric acid dust.</p>
+
+<h3>BUBS Sour Skulls</h3>
+<p>BUBS uses a crystal sour coating (malic acid and citric acid) that\'s less immediately aggressive than SPK but lasts longer. The sourness builds over 3-4 seconds, peaks for about 5-8 seconds, and fades gradually while the fruit flavor emerges. It\'s a more nuanced sour experience — you actually get to enjoy the transition from sour to sweet rather than just surviving it.</p>
+
+<p><strong>Winner on raw intensity:</strong> Sour Patch Kids. They\'re more immediately sour.</p>
+<p><strong>Winner on sour quality:</strong> BUBS. The sourness is more complex and doesn\'t just disappear.</p>
+
+<h2>Flavor: What Happens After the Sour</h2>
+<p>This is where the comparison gets embarrassing for Sour Patch Kids.</p>
+
+<h3>Sour Patch Kids</h3>
+<p>Once the sour coating dissolves, you\'re left with a gummy that tastes like... sugar. The flavors (lime, lemon, orange, red berry) are vaguely present but mostly function as food coloring justification rather than actual taste experiences. The "sweet" phase is one-dimensional: it\'s just sweetness without character. This is a candy that front-loads its entire personality into the first 5 seconds.</p>
+
+<h3>Swedish Sour Candy</h3>
+<p>BUBS Sour Skulls reveal a genuine berry flavor after the sour phase — a complex, fruity sweetness that\'s worth eating on its own. <a href="/candy/bubs-watermelon">BUBS Watermelon</a> tastes like actual watermelon. Even <a href="/candy/bubs-cool-cola">BUBS Cool Cola</a> has an authentic cola flavor with a cooling effect. Swedish sour candy treats the sour coating as an opening act, not the whole show.</p>
+
+<p><strong>Winner: Swedish sour candy</strong>, by a significant margin. It\'s not even the same category of flavor quality.</p>
+
+<h2>Texture</h2>
+
+<h3>Sour Patch Kids</h3>
+<p>Firm, chewy, slightly tough gelatin gummies. They have that classic "American gummy" texture — resistant to biting, kind of squeaky against your teeth, and they stick in your molars. The texture is consistent and familiar, but it\'s nothing special. You chew, you swallow, you reach for another one mostly because of the sour coating, not the gummy itself.</p>
+
+<h3>BUBS Sour Skulls</h3>
+<p>Softer, more yielding, with a satisfying "give" when you bite. The crystal sour coating adds an initial crunch that SPK doesn\'t have — creating a crunch→chew texture progression that\'s genuinely ASMR-worthy. The gummy base is made with potato starch instead of gelatin, giving it a different chew that most people describe as "smoother" or "less sticky."</p>
+
+<p><strong>Winner: BUBS.</strong> The crunch-to-chew transition elevates the eating experience.</p>
+
+<h2>Ingredients: The Dealbreaker</h2>
+
+<h3>Sour Patch Kids</h3>
+<p>Sugar, invert sugar, corn syrup, modified corn starch, tartaric acid, citric acid, natural and artificial flavor, Yellow 6, Red 40, Yellow 5, Blue 1. That\'s a roster of artificial colors that the EU requires warning labels for. These are the same dyes that parents increasingly want to avoid, and for good reason — the EU\'s position is based on studies linking these additives to hyperactivity in children.</p>
+
+<h3>BUBS Sour Skulls</h3>
+<p>Glucose syrup, sugar, water, modified potato starch, malic acid, citric acid, natural flavoring, fruit and vegetable concentrates (for color). No artificial colors. No artificial flavors. No corn syrup. Vegan. The ingredient list is shorter, cleaner, and contains nothing that requires a chemistry degree to understand.</p>
+
+<p><strong>Winner: BUBS</strong>, and it\'s the most clear-cut victory in this entire comparison. If ingredients matter to you — as a parent, as a health-conscious consumer, or just as someone who prefers fewer synthetic chemicals in their food — this is the reason to switch.</p>
+
+<h2>Price & Availability</h2>
+<p><strong>Sour Patch Kids:</strong> $2-4 per bag at literally every store in America. Always available, always affordable.</p>
+<p><strong>BUBS:</strong> $8-15 per bag from Amazon or specialty retailers. Requires planning and costs 3-4x more.</p>
+
+<p><strong>Winner: Sour Patch Kids.</strong> You can\'t beat gas station availability and $3 pricing. The convenience factor is massive.</p>
+
+<h2>The Final Scorecard</h2>
+<p><strong>Raw sourness:</strong> Sour Patch Kids</p>
+<p><strong>Flavor quality:</strong> Swedish sour candy</p>
+<p><strong>Texture:</strong> Swedish sour candy</p>
+<p><strong>Ingredients:</strong> Swedish sour candy</p>
+<p><strong>Price:</strong> Sour Patch Kids</p>
+<p><strong>Availability:</strong> Sour Patch Kids</p>
+
+<p><strong>Overall: Swedish sour candy wins 3-3 on categories but wins the quality argument decisively.</strong> Sour Patch Kids are the candy you grab when you\'re already at the store. BUBS Sour Skulls are the candy you order when you want something actually good. Once you\'ve had Swedish sour candy, SPK starts tasting like what it is: aggressively sour sugar with artificial coloring.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Are Swedish sour candies too sour for people who like Sour Patch Kids?</h3>
+<p>No — most Swedish sour candy is comparable to or slightly less intense than SPK. The sourness is different (more gradual, longer-lasting) but not more extreme. If you can handle Sour Patch Kids, you can handle any mainstream Swedish sour candy. The extreme stuff (Malaco Super Sura) is another story. See our <a href="/blog/best-swedish-sour-candy">sour candy ranking</a>.</p>
+
+<h3>Can I find Swedish sour candy at regular US stores?</h3>
+<p>Some Target locations carry BUBS products through <a href="/blog/sockerbit-review">Sockerbit</a>. Amazon has a solid BUBS selection. But for the full range, you\'ll need specialty retailers. Check our <a href="/where-to-buy">where-to-buy guide</a>.</p>
+
+<h3>Are Sour Patch Kids banned in Sweden?</h3>
+<p>Not banned, but they\'d need different packaging. The EU requires warning labels on products containing certain artificial colors (like Red 40 and Yellow 5), stating they "may have an adverse effect on activity and attention in children." Most manufacturers reformulate for the European market rather than add warning labels. The Swedish version of comparable products uses natural colorings.</p>`,
     heroImage: '/images/blog/sour-patch-vs-swedish.jpg',
     heroImageAlt: 'Sour Patch Kids next to Swedish BUBS sour candy',
     author: 'SwedishCrave',
@@ -4187,10 +4822,10 @@ export const articles: Article[] = [
     estimatedReadTime: 8,
     tags: ['vs', 'comparison', 'Sour Patch Kids', 'sour candy', 'BUBS'],
     relatedArticleSlugs: ['best-swedish-sour-candy', 'bubs-candy-complete-guide', 'swedish-candy-vs-american-candy'],
-    relatedCandySlugs: ['bubs-sour-skulls'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'bubs-watermelon', 'bubs-cool-cola'],
     relatedBrandSlugs: ['bubs'],
     priority: 'P2',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 40,
@@ -4201,7 +4836,83 @@ export const articles: Article[] = [
     metaDescription: 'Sweden and Denmark are neighbors with very different candy traditions. We compare the brands, the flavors, and the cultural approaches to Nordic sweets.',
     h1: 'Swedish Candy vs Danish Candy: Nordic Rivalry Explained',
     intro: 'The Sweden-Denmark rivalry extends to candy too. Both countries are serious about their sweets, but their approaches differ in surprising ways. From licorice intensity to chocolate philosophy, here\'s how the Nordic candy neighbors compare.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border-left: 4px solid #3b82f6; border-radius: 8px; padding: 20px; margin-bottom: 32px;">
+<strong>The short version:</strong> Sweden dominates gummies and sour candy. Denmark dominates wine gums, hard candy, and has a stronger chocolate tradition. Both are absolutely obsessed with licorice. The real winner? Anyone living in Scandinavia who has access to both.
+</div>
+
+<h2>The Sibling Rivalry of Candy</h2>
+<p>Sweden and Denmark have been rivals for roughly a thousand years. They\'ve fought wars, contested territory, and still argue about who invented smörgåsbord. Naturally, this rivalry extends to candy. Both nations are among the world\'s top candy consumers per capita, both have rich confectionery traditions, and both will quietly judge you if you confuse their products. Let\'s settle this — or at least make the argument more interesting.</p>
+
+<h2>The Big Brands</h2>
+
+<h3>Sweden\'s Roster</h3>
+<p><a href="/brands/marabou">Marabou</a> (chocolate king since 1919), <a href="/brands/malaco">Malaco</a> (gummy and licorice giant), <a href="/brands/bubs">BUBS</a> (the viral sour sensation), <a href="/brands/cloetta">Cloetta</a> (the 160-year-old parent company), and <a href="/blog/fazer-candy-guide">Fazer</a> (technically Finnish, but deeply integrated into Swedish candy culture). Sweden\'s brand ecosystem is deep, with clear category leaders.</p>
+
+<h3>Denmark\'s Roster</h3>
+<p>Toms (makers of Ga-Jol and Galle & Jessen), Haribo Denmark (yes, Haribo has a massive Danish operation), Anthon Berg (luxury chocolate and marzipan), Georg Jensen (artisan chocolate), and the legendary Lakrids by Bülow (premium licorice). Denmark\'s brands lean slightly more premium and artisanal than Sweden\'s mass-market giants.</p>
+
+<h2>Licorice: The Shared Obsession</h2>
+<p>Both Sweden and Denmark are in the global top 3 for licorice consumption. This is the category where the nations are most evenly matched — and where the rivalry burns hottest.</p>
+
+<h3>Swedish Licorice</h3>
+<p>Sweden\'s licorice tradition leans toward extremes. <a href="/candy/djungelvraal">Djungelvrål</a> (sour salty licorice) is an icon. Malaco\'s range spans the entire licorice spectrum from mild to "why are you doing this to yourself." Swedish <a href="/blog/what-is-salmiak">salmiak</a> can be extremely intense — ammonium chloride levels that make non-Scandinavians question Swedish sanity. Swedish licorice is bold, often sour, and unapologetic.</p>
+
+<h3>Danish Licorice</h3>
+<p>Denmark approaches licorice with slightly more refinement. Lakrids by Bülow has elevated licorice to a luxury product — chocolate-coated licorice in beautiful packaging that sells for premium prices globally. Ga-Jol (mentholated licorice pastilles) is a Danish institution. Danish licorice tends to be more nuanced and less "extreme" than Swedish varieties, with more emphasis on flavor complexity than pure salt intensity.</p>
+
+<p><strong>Winner:</strong> Tie. Sweden wins on intensity and variety. Denmark wins on premium quality and innovation. If you like your licorice extreme, go Swedish. If you like it elegant, go Danish.</p>
+
+<h2>Chocolate</h2>
+
+<h3>Sweden</h3>
+<p><a href="/candy/marabou-mjolkchoklad">Marabou Mjölkchoklad</a> is the undisputed Swedish champion — creamy, smooth, and a national treasure. But Sweden\'s chocolate range is relatively focused: Marabou dominates, with <a href="/candy/daim">Daim</a> and <a href="/candy/kexchoklad">Kexchoklad</a> filling specific niches. High quality, limited variety.</p>
+
+<h3>Denmark</h3>
+<p>Denmark has a broader chocolate culture. Anthon Berg makes premium chocolate liquor bottles and marzipan-filled bars. Georg Jensen and Summerbird are genuine artisan chocolatiers. Toms makes mainstream chocolate that\'s comparable to Marabou. And Denmark\'s marzipan tradition adds a dimension that Sweden doesn\'t match — Danish marzipan candy is a category unto itself.</p>
+
+<p><strong>Winner: Denmark</strong> for range and artisanal quality. <strong>Sweden</strong> for the single best everyday milk chocolate bar (Marabou).</p>
+
+<h2>Gummies & Sour Candy</h2>
+<p>Sweden wins this category convincingly. BUBS and Malaco\'s gummy ranges are more innovative, more varied, and have better international recognition than any Danish equivalent. Denmark has Haribo\'s Danish factory output and some domestic brands, but nothing that matches BUBS\'s quality or Malaco\'s variety. The TikTok Swedish candy trend was built on Swedish gummies — not Danish ones.</p>
+
+<p><strong>Winner: Sweden</strong>, clearly.</p>
+
+<h2>Wine Gums & Hard Candy</h2>
+<p>Denmark has a stronger tradition in wine gums and hard candy. Toms\' Gajol pastilles and Ga-Jol range are national staples with no Swedish equivalent. Danish wine gums tend to be fruitier and more refined than the British versions. Sweden has hard candy traditions (polkagrisar from Gränna, for example), but the category is smaller and less commercially significant.</p>
+
+<p><strong>Winner: Denmark.</strong></p>
+
+<h2>Cultural Approach</h2>
+
+<h3>Sweden: Lördagsgodis</h3>
+<p>Saturday candy. A structured, weekly ritual. Fill your bag at the supermarket, eat it on Saturday. Democratic, affordable, built into the national schedule. This is candy as public health policy (born from the Vipeholm experiments) that became beloved tradition.</p>
+
+<h3>Denmark: Fredagsslik</h3>
+<p>Friday sweets. Denmark\'s version is slightly less codified than Sweden\'s — it\'s Friday evening candy rather than an all-day Saturday affair. The selection tends to include more chocolate alongside gummies, and the tradition is more of a family coziness ritual (hygge) than a structured public health outcome.</p>
+
+<p><strong>The difference:</strong> Swedish lördagsgodis is slightly more "serious" and structured. Danish fredagsslik is slightly more relaxed and hygge-oriented. Both are excellent traditions that the rest of the world should adopt immediately.</p>
+
+<h2>The Final Scorecard</h2>
+<p><strong>Licorice:</strong> Tie</p>
+<p><strong>Chocolate:</strong> Denmark (range) / Sweden (best single bar)</p>
+<p><strong>Gummies & sour:</strong> Sweden</p>
+<p><strong>Wine gums & hard candy:</strong> Denmark</p>
+<p><strong>International recognition:</strong> Sweden (thanks to TikTok)</p>
+<p><strong>Premium/artisanal:</strong> Denmark</p>
+<p><strong>Mass-market quality:</strong> Sweden</p>
+
+<p><strong>Overall:</strong> It\'s genuinely close — Sweden edges ahead on international presence and gummy innovation, while Denmark has a broader and more premium confectionery culture. The real answer is that both countries make candy that\'s dramatically better than what Americans are used to, and arguing about which is "better" is like arguing about which sunset is more beautiful. Just enjoy both.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Can I buy Danish candy in the US?</h3>
+<p>Lakrids by Bülow has US distribution and is available online. Anthon Berg is occasionally found at World Market and specialty stores. For the full range, you\'ll need Scandinavian specialty importers or Amazon sellers. It\'s slightly harder to find than Swedish candy, which has benefited from the TikTok distribution boost.</p>
+
+<h3>Do Swedes and Danes actually argue about candy?</h3>
+<p>Mostly in good humor, but yes. The licorice debate gets surprisingly passionate. Both nations claim their approach to salmiak is superior. This is the Scandinavian equivalent of the New York vs Chicago pizza debate — deeply felt, ultimately unresolvable, enjoyable to observe from a safe distance.</p>
+
+<h3>Which Nordic country eats the most candy?</h3>
+<p>Sweden and Denmark trade the top spot depending on the year. Both consume 15-17 kg per capita annually, placing them in the global top 5. Finland and Norway are close behind. Scandinavia is, per capita, the candy-eating champion of the world.</p>`,
     heroImage: '/images/blog/swedish-vs-danish.jpg',
     heroImageAlt: 'Swedish and Danish candy brands compared side by side',
     author: 'SwedishCrave',
@@ -4210,10 +4921,10 @@ export const articles: Article[] = [
     estimatedReadTime: 8,
     tags: ['vs', 'comparison', 'Danish candy', 'Nordic', 'Scandinavia'],
     relatedArticleSlugs: ['swedish-candy-vs-british-candy', 'swedish-candy-vs-japanese-candy', 'what-is-swedish-candy'],
-    relatedCandySlugs: [],
-    relatedBrandSlugs: [],
+    relatedCandySlugs: ['djungelvraal', 'marabou-mjolkchoklad', 'daim', 'kexchoklad', 'bubs-sour-skulls'],
+    relatedBrandSlugs: ['marabou', 'malaco', 'bubs', 'cloetta'],
     priority: 'P3',
-    status: 'draft',
+    status: 'published',
   },
 
   // ============================================
@@ -4661,7 +5372,77 @@ export const articles: Article[] = [
     metaDescription: 'NYC is the Swedish candy capital of America. From BonBon NYC to Sockerbit, here are all the places to buy Swedish candy in New York City.',
     h1: 'Where to Buy Swedish Candy in NYC (BonBon & More)',
     intro: 'New York City has more Swedish candy options than anywhere else in America. BonBon NYC went viral on TikTok, Sockerbit has been a West Village staple for years, and several other spots have popped up. Here\'s your complete NYC Swedish candy guide.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7, #fff7ed); border-left: 4px solid #f59e0b; padding: 20px; border-radius: 8px; margin: 20px 0;">
+<strong>Quick Answer:</strong> NYC is the undisputed Swedish candy capital of the US. BonBon NYC leads with 4 locations and 140+ varieties, while Sockerbit, Saturday Candy Co., and Economy Candy round out a city where finding authentic Swedish sweets is easier than finding a decent bagel. (Okay, almost.)
+</div>
+
+<h2>Why NYC Is America's Swedish Candy Capital</h2>
+<p>There's a reason every Swedish candy TikTok seems to be filmed in New York. The city has the highest concentration of dedicated Scandinavian candy stores in the country, fueled by a large Swedish-American community, massive tourist foot traffic, and the kind of social media culture that turns a pink paper bag of gummies into a viral moment. Whether you want to browse 140+ pick-and-mix varieties or just grab a quick bag of <a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a> on your lunch break, NYC has you covered.</p>
+
+<h2>BonBon NYC — The Viral Swedish Candy Empire</h2>
+<p>BonBon is the store that put Swedish candy on the American map. Founded in 2018 by Swedish immigrants on the Lower East Side, it went from a small neighborhood shop to shipping over 1,000 orders per day after blowing up on TikTok. 100% of their candy is imported directly from Sweden, and they now operate four locations across the city.</p>
+
+<h3>BonBon Locations</h3>
+<ul>
+  <li><strong>Lower East Side (Flagship):</strong> 130 Allen St, New York, NY 10002 — the original that started it all</li>
+  <li><strong>Williamsburg:</strong> 705 Driggs Ave, Brooklyn — perfect for a post-brunch sugar hit</li>
+  <li><strong>Upper East Side:</strong> 1220 Lexington Ave — uptown convenience with full pick-and-mix</li>
+  <li><strong>Red Hook:</strong> 66 Degraw St, Brooklyn — weekends only, worth the trip for the vibe</li>
+</ul>
+
+<h3>What to Expect</h3>
+<p>The experience is part of the appeal. Staff greet first-timers with a tour of the candy selection — and yes, free samples. The pale pink paper bags and gold scoops make it absurdly Instagrammable, which is exactly how this place went viral in the first place. Candy runs about \$4.50 per quarter pound, and most people spend \$10–30 per visit. Most locations are open daily from 10 AM to midnight.</p>
+<p><strong>Pro tip:</strong> Popular items sell out fast. Weekday mornings give you the best selection. Weekend evenings? You'll get what's left, which is still delicious, but you might miss the cult favorites like <a href="/candy/bubs-watermelon">BUBS watermelons</a> or the sour skulls.</p>
+<p><a href="/blog/bonbon-nyc-review">Read our full BonBon NYC review</a> for a deep dive on their best picks and what to skip.</p>
+
+<h2>Sockerbit — The OG Swedish Candy Store</h2>
+<p>Before BonBon went viral, Sockerbit was the spot. Founded by a Swedish husband-and-wife team, Sockerbit pioneered the Swedish pick-and-mix concept in New York from their beloved West Village location. That NYC store has since closed, but Sockerbit remains a major player: their LA flagship at 7922 W 3rd St is still going strong, their online store ships nationwide, and they recently announced a massive expansion into 1,600 Target stores.</p>
+
+<h3>Can You Still Visit Sockerbit in NYC?</h3>
+<p>The original West Village location closed in 2020, so there's no physical NYC storefront anymore. However, their online store (sockerbit.com) ships quickly from the US, and their candy is the same quality that made them a New York favorite. If you're visiting LA, the brick-and-mortar experience is absolutely worth a stop.</p>
+<p>Sockerbit's edge: their entire lineup is non-GMO, and a huge portion is gelatin-free and vegan — something that sets Swedish candy apart from most American competitors.</p>
+
+<h2>Saturday Candy Co. — The New Long Island Contender</h2>
+<p>Saturday Candy Co. opened its first physical storefront in October 2025 at 73 Main Street in Stony Brook, Long Island. The name is a nod to <em>lördagsgodis</em> — the Swedish tradition of only eating candy on Saturdays. They import directly from Växjö, Sweden, and the store has quickly become a destination for Long Island's growing Swedish candy fan base.</p>
+<p>It's a bit outside Manhattan, but if you're on Long Island or willing to take a day trip, it's worth checking out. They also ship online.</p>
+
+<h2>Economy Candy — The Classic NYC Approach</h2>
+<p>Economy Candy on Rivington Street has been a Lower East Side institution since 1937. While not a Swedish specialty store, they stock an impressive selection of imported European candy, including Swedish brands. You won't find 140 varieties of pick-and-mix, but you will find <a href="/candy/marabou-mjolkchoklad">Marabou chocolate</a>, <a href="/candy/daim">Daim bars</a>, and assorted Scandinavian imports tucked between their floor-to-ceiling candy shelves. The prices are often better than specialty stores, and the old-school NYC vibe is unbeatable.</p>
+
+<h2>Other NYC Spots Worth Knowing</h2>
+<ul>
+  <li><strong>IKEA Brooklyn (Red Hook):</strong> Every IKEA has a Swedish food market section with candy, chocolate, and snacks. The selection is small (maybe 15–20 items) but the prices are the lowest you'll find anywhere. Grab <a href="/candy/daim">Daim</a>, <a href="/candy/polly">Polly</a>, and <a href="/candy/ahlgrens-bilar">Bilar</a> while pretending you came for a bookshelf.</li>
+  <li><strong>Lil Sweet Treat:</strong> A colorful candy shop that rotates Swedish and European imports alongside American sweets.</li>
+  <li><strong>The Sweet Shop NYC:</strong> Carries select Swedish candy brands as part of their international selection.</li>
+  <li><strong>Scandinavian restaurants:</strong> Several Nordic restaurants in Manhattan carry small candy selections or can point you to local sources. Aquavit and FIKA Café are good starting points.</li>
+</ul>
+
+<h2>Ordering Online from NYC Stores</h2>
+<p>Can't make it to the city? Both BonBon and Saturday Candy Co. ship nationwide. BonBon's online store is particularly well-organized — you can browse by candy type, flavor profile, or dietary restriction. They offer 2–3 day shipping throughout the continental US, and local delivery is available in Manhattan and Brooklyn.</p>
+<p>For the widest online selection, check our <a href="/blog/swedish-candy-store-reviews">ranking of all Swedish candy online stores</a> or our guide to <a href="/blog/best-swedish-candy-on-amazon">finding Swedish candy on Amazon</a>.</p>
+
+<h2>Tips for Your NYC Swedish Candy Run</h2>
+<ul>
+  <li><strong>BonBon first, everything else second.</strong> If you only have time for one store, BonBon LES is the move. The selection is unmatched.</li>
+  <li><strong>Bring cash and card.</strong> Most stores accept both, but some smaller shops prefer one or the other.</li>
+  <li><strong>Don't overbuy on your first visit.</strong> Swedish candy has a wider flavor range than American candy. Start with 8–10 pieces, figure out what you love, then go back for more. Your wallet will thank you.</li>
+  <li><strong>Ask for recommendations.</strong> Staff at BonBon and similar stores genuinely know their product. Tell them what American candy you like and they'll find the Swedish equivalent.</li>
+  <li><strong>Check for dietary restrictions upfront.</strong> Most Swedish candy is free from artificial colors and high-fructose corn syrup, but gelatin and gluten vary by item. Staff can guide you to vegan, gluten-free, or halal options.</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Q: Is Swedish candy in NYC more expensive than ordering online?</h3>
+<p>Slightly. BonBon's in-store pricing runs about \$4.50/quarter pound, which works out to roughly \$18/lb for pick-and-mix. Online stores like Sweetish Candy or <a href="/where-to-buy">Mums Swedish Candy</a> can be cheaper per gram, but you lose the experience of picking individual pieces and trying before you buy. For a first-timer, the in-store experience is worth the small premium.</p>
+
+<h3>Q: Can tourists buy Swedish candy to bring home on a flight?</h3>
+<p>Absolutely. Candy is allowed in both carry-on and checked luggage on domestic and international flights. BonBon even sells pre-packaged gift boxes that are TSA-friendly. Just avoid anything that might melt if you're flying in summer — chocolate bars and soft gummies don't love overhead bins in August.</p>
+
+<h3>Q: Are there Swedish candy subscription boxes based in NYC?</h3>
+<p>BonBon offers curated candy boxes that you can order as one-time purchases or gifts. For actual recurring subscriptions, check online-first stores like Mums Swedish Candy or <a href="/blog/swedish-candy-store-reviews">our full store comparison</a>.</p>
+
+<h3>Q: What's the best Swedish candy to try for the first time in NYC?</h3>
+<p>Start with <a href="/blog/best-swedish-candy-for-beginners">our beginner's guide</a>. At BonBon specifically, ask for a "best of Sweden" mix — they'll build you a bag with crowd-pleasers like <a href="/candy/bubs-watermelon">BUBS watermelon</a>, <a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a>, and a few sour options. Skip the salmiak licorice on your first visit unless you already know you love it.</p>`,
     heroImage: '/images/blog/swedish-candy-nyc.jpg',
     heroImageAlt: 'BonBon NYC storefront with Swedish candy display',
     author: 'SwedishCrave',
@@ -4670,10 +5451,10 @@ export const articles: Article[] = [
     estimatedReadTime: 10,
     tags: ['NYC', 'New York', 'BonBon NYC', 'stores', 'where to buy'],
     relatedArticleSlugs: ['bonbon-nyc-review', 'sockerbit-review', 'where-to-buy-swedish-candy-online'],
-    relatedCandySlugs: [],
-    relatedBrandSlugs: [],
+    relatedCandySlugs: ['ahlgrens-bilar', 'bubs-watermelon', 'marabou-mjolkchoklad', 'daim', 'polly', 'bubs-sour-skulls'],
+    relatedBrandSlugs: ['bubs', 'marabou'],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 44,
@@ -4684,7 +5465,72 @@ export const articles: Article[] = [
     metaDescription: 'Find Swedish candy in California — from Scandinavian shops in LA to IKEA candy sections and the best online stores that ship fast to CA.',
     h1: 'Where to Buy Swedish Candy in California',
     intro: 'California\'s large Scandinavian community means there are more Swedish candy options than you\'d expect. From specialty stores to IKEA\'s Swedish food market, plus the best online options with fast shipping to the West Coast.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7, #fff7ed); border-left: 4px solid #f59e0b; padding: 20px; border-radius: 8px; margin: 20px 0;">
+<strong>Quick Answer:</strong> Los Angeles has the best in-store options — Sockerbit (W 3rd St) and Kändi (Studio City) are dedicated Swedish candy stores with pick-and-mix. San Francisco has The Candy Store and Giddy Candy. Solvang has the Swedish Candy Factory. And IKEA locations statewide carry basics. For the full range, online stores ship fast to California.
+</div>
+
+<h2>Los Angeles — The West Coast Swedish Candy Hub</h2>
+<p>LA has quietly become the second-best city in America for Swedish candy, behind only NYC. The Scandinavian expat community, the health-conscious culture that appreciates cleaner ingredients, and California's general love affair with anything Instagram-worthy have created a thriving Swedish candy scene.</p>
+
+<h3>Sockerbit — The LA Flagship</h3>
+<p>Sockerbit at 7922 W 3rd St is the crown jewel of California's Swedish candy scene. Founded by a Swedish couple who brought the authentic <em>lösgodis</em> (pick-and-mix) experience to America, Sockerbit offers a curated wall of candy bins with over 100 varieties — all imported directly from Sweden. The aesthetic is clean Scandinavian minimalism: white walls, wooden scoops, and candy that looks almost too beautiful to eat. Almost.</p>
+<p><strong>Hours:</strong> Mon–Fri 11am–6pm, Sat–Sun 12pm–7pm. The store is on 3rd Street near The Grove, so you can easily combine a candy run with shopping or brunch.</p>
+<p>Sockerbit's entire lineup is non-GMO, and over 40% is gelatin-free. They've also recently launched in 1,600 Target stores nationwide, so you might find their pre-packaged candy at your local Target too. But the in-store pick-and-mix experience is worth the drive.</p>
+
+<h3>Kändi — Studio City's Swedish Gem</h3>
+<p>Kändi at 12188 Ventura Blvd in Studio City is the newer kid on the block, and it's already earning a loyal following. With 126 varieties of Swedish candy, a self-serve pick-and-mix wall, and a pastel-toned interior that was basically designed for TikTok content, Kändi has become a Valley favorite. Reviews consistently praise the freshness of the candy and the friendly staff.</p>
+<p>Kändi also offers a self-serve Swedish candy cart you can book for events — weddings, parties, pop-ups. Because apparently regular cake isn't enough anymore, and honestly, we agree.</p>
+<p><strong>Hours:</strong> Check their website (kandistudiocity.com) for current hours. They also take phone orders at (818) 358-2009.</p>
+
+<h3>Other LA Options</h3>
+<ul>
+  <li><strong>IKEA Burbank & Carson:</strong> Both locations carry the standard IKEA Swedish candy selection — <a href="/candy/daim">Daim</a>, <a href="/candy/ahlgrens-bilar">Bilar</a>, various gummies, and chocolate. Small selection, great prices.</li>
+  <li><strong>World Market/Cost Plus:</strong> Several LA locations stock Marabou chocolate bars and select Swedish candy. Hit or miss on inventory.</li>
+  <li><strong>European import stores:</strong> Places like European Deluxe in Culver City occasionally carry Scandinavian brands among their broader European selection.</li>
+</ul>
+
+<h2>San Francisco Bay Area</h2>
+<p>SF's Swedish candy scene is smaller than LA's but growing. Two spots stand out:</p>
+
+<h3>The Candy Store — Russian Hill</h3>
+<p>This old-fashioned boutique candy shop in Russian Hill carries a curated selection of Swedish gummy favorites — sweet cola boats, sour watermelon tubes, and assorted Scandinavian imports. It's not a dedicated Swedish store, but the owners have a clear soft spot for Nordic sweets and the quality is excellent.</p>
+
+<h3>Giddy Candy</h3>
+<p>Giddy Candy is a chic SF spot where gummies are the main event. Swedish cult favorites feature prominently in their lineup, including <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> and various Scandinavian imports. The vibe is modern and curated — think specialty coffee shop, but for gummy candy.</p>
+
+<h3>IKEA East Palo Alto</h3>
+<p>The Bay Area IKEA carries the same Swedish food market selection as other locations. Good for basics, and conveniently located if you're already in the South Bay.</p>
+
+<h2>Solvang — California's Little Sweden</h2>
+<p>No guide to Swedish candy in California would be complete without mentioning Solvang, the tiny Danish-founded town in the Santa Ynez Valley that has embraced its broader Scandinavian identity. The <strong>Swedish Candy Factory</strong> sells authentic imported Swedish candy in a charming storefront that feels like stepping into a small-town Swedish <em>godisbutik</em>. It's a two-hour drive from LA, but if you're doing the Central Coast wine country route, it's a perfect stop.</p>
+<p>Solvang also hosts Scandinavian festivals throughout the year where Swedish candy vendors often set up shop. Check the Solvang events calendar for dates.</p>
+
+<h2>San Diego</h2>
+<p>San Diego's options are more limited. IKEA San Diego carries the standard selection, and a few European import shops in the Gaslamp Quarter occasionally stock Swedish brands. Your best bet for a wide selection is ordering online — shipping from LA-based stores arrives in 1–2 days.</p>
+
+<h2>Best Online Stores for California</h2>
+<p>California's location means you get fast shipping from West Coast warehouses. Here are the best options:</p>
+<ul>
+  <li><strong>Sockerbit (sockerbit.com):</strong> Ships from LA, so California orders arrive in 1–3 days. Same candy as the store.</li>
+  <li><strong>Sweetish Candy (sweetishcandy.com):</strong> Ships from Pennsylvania, but West Coast delivery is typically 4–5 days. Free shipping on orders over \$75.</li>
+  <li><strong><a href="/blog/bonbon-nyc-review">BonBon NYC</a> (bonbonnyc.com):</strong> Ships from New York, 3–5 days to California. Premium selection.</li>
+  <li><strong>Amazon:</strong> Prime members get 1–2 day delivery. Check our <a href="/blog/best-swedish-candy-on-amazon">Amazon Swedish candy guide</a> for recommended sellers.</li>
+  <li><strong>Target:</strong> With Sockerbit's new Target rollout, check your local store's candy aisle for pre-packaged Swedish candy.</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Q: Is Sockerbit or Kändi better for a first-time visit?</h3>
+<p>Both are excellent, but they have different vibes. Sockerbit is more minimalist and curated — the Scandinavian design aesthetic. Kändi is more colorful and social-media-friendly. If you want the "authentic Swedish experience," go Sockerbit. If you want to fill a pink bag with 20 different gummies while filming a TikTok, go Kändi. Either way, you'll leave happy and slightly sugared up.</p>
+
+<h3>Q: Does Swedish candy melt in California heat?</h3>
+<p>Gummies and licorice handle heat well. Chocolate? Not so much. If you're ordering online during summer, request insulated packaging or choose non-chocolate items. In-store purchases are fine — just don't leave your bag in a hot car. <a href="/candy/marabou-mjolkchoklad">Marabou Mjölkchoklad</a> at 110°F is technically still chocolate, but it won't be the experience you were hoping for.</p>
+
+<h3>Q: Are there any Swedish candy events in California?</h3>
+<p>The Swedish-American community in LA hosts several annual events, including midsummer celebrations and holiday markets where Swedish candy is always featured. Solvang's Scandinavian festivals are another good bet. Follow Sockerbit and Kändi on Instagram for pop-up events and collaborations.</p>
+
+<h3>Q: Can I find Swedish candy at regular grocery stores in California?</h3>
+<p>Trader Joe's occasionally carries Scandinavian-inspired items (their Scandinavian Swimmers are Swedish-style gummies made in Germany). Some Whole Foods and specialty grocers stock <a href="/candy/fazer-blue">Fazer Blue</a> chocolate. But for the real deal — <a href="/candy/bubs-watermelon">BUBS</a>, <a href="/candy/malaco-gott-och-blandat">Malaco</a>, <a href="/candy/saltlakrits">salty licorice</a> — you need a specialty store or online order.</p>`,
     heroImage: '/images/blog/swedish-candy-california.jpg',
     heroImageAlt: 'Swedish candy available in California stores',
     author: 'SwedishCrave',
@@ -4693,10 +5539,10 @@ export const articles: Article[] = [
     estimatedReadTime: 8,
     tags: ['California', 'LA', 'stores', 'where to buy', 'West Coast'],
     relatedArticleSlugs: ['where-to-buy-swedish-candy-online', 'where-to-buy-swedish-candy-florida', 'swedish-candy-store-reviews'],
-    relatedCandySlugs: [],
-    relatedBrandSlugs: [],
+    relatedCandySlugs: ['ahlgrens-bilar', 'daim', 'bubs-sour-skulls', 'bubs-watermelon', 'marabou-mjolkchoklad', 'fazer-blue', 'malaco-gott-och-blandat', 'saltlakrits', 'polly'],
+    relatedBrandSlugs: ['bubs', 'marabou', 'malaco', 'fazer'],
     priority: 'P2',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 45,
@@ -4707,7 +5553,75 @@ export const articles: Article[] = [
     metaDescription: 'Find Swedish candy in Texas — from IKEA candy aisles in Houston and Dallas to specialty Nordic stores and the fastest online shipping options.',
     h1: 'Where to Buy Swedish Candy in Texas',
     intro: 'Texas might not seem like a Swedish candy hotspot, but between IKEA locations, growing Scandinavian specialty shops, and fast online shipping, Texans have more options than ever for getting authentic Swedish sweets.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7, #fff7ed); border-left: 4px solid #f59e0b; padding: 20px; border-radius: 8px; margin: 20px 0;">
+<strong>Quick Answer:</strong> Texas has fewer dedicated Swedish candy stores than NYC or LA, but Wooden Spoon in Plano (DFW) is the standout — a 34-year-old Scandinavian shop that went viral on TikTok for their BUBS selection. Fika & Candy operates out of Houston. IKEA locations in Frisco, Houston, and Austin carry basics. For the full range, online stores ship to Texas in 2–5 days.
+</div>
+
+<h2>Dallas–Fort Worth Area</h2>
+
+<h3>Wooden Spoon — Plano's Scandinavian Treasure</h3>
+<p>If you only visit one store in Texas for Swedish candy, make it Wooden Spoon. Nestled inside Plano's oldest home at 1617 K Ave, this Scandinavian shop has been running for over 34 years, long before Swedish candy became a TikTok sensation. When the viral trend hit, Wooden Spoon was already stocked and ready — and their social media following exploded.</p>
+<p>The shop carries a curated selection of <a href="/brands/bubs">BUBS</a> candy (strawberry pomegranate, banana mini, raspberry citrus skulls), Fruit Jelly People, ice cream cone gummies, and other Swedish favorites. Beyond candy, you'll find Scandinavian art, chocolates, cookbooks, and gifts — it's a full Nordic cultural experience packed into a charming old house.</p>
+<p><strong>Hours:</strong> Mon–Sat 10am–5pm, closed Sundays. The store is in downtown Plano, easy to reach from anywhere in DFW.</p>
+<p><strong>Pro tip from local fans:</strong> Follow their social media for restock alerts. Popular BUBS flavors sell out quickly, especially after TikTok features.</p>
+
+<h3>IKEA Frisco</h3>
+<p>IKEA Frisco was the first IKEA in Texas, and their Swedish food market section carries the standard lineup: <a href="/candy/daim">Daim</a>, <a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a>, assorted gummies, and <a href="/candy/marabou-mjolkchoklad">Marabou chocolate</a>. The selection is small (around 15–20 candy items) but prices are the best you'll find anywhere. If you're already making the IKEA pilgrimage for furniture, the candy is a no-brainer add-on.</p>
+
+<h3>Candy People HQ — Richardson</h3>
+<p>Here's a fun fact: Candy People, the Swedish company that supplies Scandinavian pick-and-mix candy to stores across the US, has their American headquarters in Richardson, right in the DFW Metroplex. They're primarily a wholesaler and don't operate a retail storefront, but their presence means DFW is technically a hub for Swedish candy distribution in America. (Texas: always bigger, even in candy logistics.)</p>
+
+<h2>Houston</h2>
+
+<h3>Fika & Candy</h3>
+<p>Fika & Candy is a Houston-based Swedish candy company that brings the <a href="/blog/fika-candy-swedish-culture">fika tradition</a> to Texas. The name combines Sweden's beloved coffee-and-sweets ritual with the actual candy, and they offer curated boxes and individual Swedish candy for delivery. Check fikacandy.com for their current selection and shipping options.</p>
+
+<h3>IKEA Houston</h3>
+<p>The Houston IKEA carries the same Swedish candy selection as other locations. It's on I-45 near the Galleria area — convenient enough for a dedicated candy run if you're already in the neighborhood.</p>
+
+<h3>European Import Shops</h3>
+<p>Houston's diverse international food scene means several European delis and import stores carry Scandinavian products. The British Isles in Rice Village and various Eastern European markets sometimes stock <a href="/candy/fazer-blue">Fazer</a> chocolate and Nordic licorice. Inventory varies, so call ahead.</p>
+
+<h2>Austin</h2>
+<p>Austin doesn't have a dedicated Swedish candy store (yet — someone should fix that), but IKEA Austin opened relatively recently and carries the standard Swedish candy section. Austin's "weird" food culture and strong European expat community suggest a dedicated Scandinavian candy shop would do well here. Until then, online ordering is your best bet.</p>
+
+<h2>San Antonio</h2>
+<p>San Antonio's Swedish candy options are limited to occasional European imports at specialty food stores. The city's strong Mexican candy tradition means shelf space goes to other international sweets. Online ordering with 2–3 day shipping from US-based Swedish candy stores is the most reliable option.</p>
+
+<h2>The Texas Heat Factor</h2>
+<p>Let's address the elephant (or armadillo) in the room: Texas heat and candy shipping. Summer temperatures regularly exceed 100°F, which can turn a beautiful <a href="/candy/marabou-mjolkchoklad">Marabou chocolate bar</a> into an expensive brown puddle. Here's how to handle it:</p>
+<ul>
+  <li><strong>Order gummies and licorice in summer.</strong> They handle heat much better than chocolate.</li>
+  <li><strong>Request insulated packaging</strong> from online stores during May–September. Most reputable stores offer this for a small fee.</li>
+  <li><strong>Choose expedited shipping.</strong> The less time candy spends in a hot delivery truck, the better.</li>
+  <li><strong>Have packages held at a FedEx/UPS location</strong> instead of leaving them on your porch in 105°F heat.</li>
+  <li><strong>Buy chocolate in-store during summer</strong> at IKEA or Wooden Spoon, where it's been kept cool.</li>
+</ul>
+
+<h2>Best Online Stores for Texas</h2>
+<p>Texas's central location means you get decent shipping times from both coasts:</p>
+<ul>
+  <li><strong><a href="/blog/bonbon-nyc-review">BonBon NYC</a>:</strong> Ships from New York, 3–4 days to Texas. Premium Swedish candy selection.</li>
+  <li><strong>Sweetish Candy:</strong> Ships from Pennsylvania, 3–5 days. Free shipping over \$75.</li>
+  <li><strong>Sockerbit:</strong> Ships from LA, 3–4 days. Great for non-GMO and vegan options.</li>
+  <li><strong>Amazon Prime:</strong> 1–2 day delivery. Check our <a href="/blog/best-swedish-candy-on-amazon">Amazon guide</a> for reliable sellers.</li>
+  <li><strong>Swedish Candy Store (swedishcandystore.com):</strong> Based in Colorado, so shipping to Texas is fast — typically 2–3 days. Largest BUBS selection online.</li>
+</ul>
+<p>For a detailed comparison of all major online retailers, see our <a href="/blog/swedish-candy-store-reviews">complete online store rankings</a>.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Q: Is Wooden Spoon worth a special trip to Plano?</h3>
+<p>If you're a Swedish candy fan, absolutely. The store is charming, the staff are knowledgeable, and the selection of BUBS and other Swedish candies is the best in Texas. Plus, downtown Plano has great restaurants and shops, so you can make a day of it. If you're coming from Houston or Austin, though, you might want to combine it with other DFW plans.</p>
+
+<h3>Q: Why doesn't Texas have more Swedish candy stores?</h3>
+<p>It's partly demographics — Texas's Scandinavian-American population is smaller than California's or the Northeast's. But the viral Swedish candy trend is changing things. Wooden Spoon's TikTok moment and Fika & Candy's growth in Houston suggest the market is expanding. Give it a couple years.</p>
+
+<h3>Q: Can I find Swedish candy at H-E-B?</h3>
+<p>H-E-B doesn't typically carry dedicated Swedish candy brands, but their international foods section occasionally stocks European imports that include Scandinavian items. The H-E-B Central Market locations are your best bet — they carry a wider range of international products. Don't expect <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a>, but you might find <a href="/candy/fazer-blue">Fazer chocolate</a> or Scandinavian licorice.</p>
+
+<h3>Q: Are there Scandinavian festivals in Texas where I can buy Swedish candy?</h3>
+<p>Yes! The Texas Swedish community hosts events throughout the year. The SACC (Swedish-American Chamber of Commerce) Texas chapter organizes networking events and cultural celebrations where Swedish candy often makes an appearance. Austin's Scandinavian heritage events and various Nordic holiday markets in DFW are also worth checking. Follow SACC Texas on social media for event announcements.</p>`,
     heroImage: '/images/blog/swedish-candy-texas.jpg',
     heroImageAlt: 'Swedish candy options available in Texas',
     author: 'SwedishCrave',
@@ -4716,10 +5630,10 @@ export const articles: Article[] = [
     estimatedReadTime: 7,
     tags: ['Texas', 'stores', 'where to buy', 'IKEA', 'USA'],
     relatedArticleSlugs: ['where-to-buy-swedish-candy-online', 'swedish-candy-store-reviews'],
-    relatedCandySlugs: [],
-    relatedBrandSlugs: [],
+    relatedCandySlugs: ['daim', 'ahlgrens-bilar', 'marabou-mjolkchoklad', 'bubs-sour-skulls', 'fazer-blue'],
+    relatedBrandSlugs: ['bubs', 'marabou', 'fazer'],
     priority: 'P2',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 46,
@@ -4730,7 +5644,131 @@ export const articles: Article[] = [
     metaDescription: 'We ordered from every major Swedish candy online store and ranked them on shipping speed, price, selection, packaging, and candy freshness.',
     h1: 'Swedish Candy Online Stores Ranked: Who Ships Fastest?',
     intro: 'We placed real orders from every major Swedish candy online store to compare the actual experience — shipping speed, packaging quality, candy freshness, prices, and selection. Here\'s who came out on top.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7, #fff7ed); border-left: 4px solid #f59e0b; padding: 20px; border-radius: 8px; margin: 20px 0;">
+<strong>Quick Rankings:</strong> For overall best experience: BonBon NYC. For largest selection: Swedish Candy Store. For best value: Sweetish Candy. For fastest shipping: Amazon Prime sellers. For cleanest ingredients: Sockerbit. For best BUBS selection: Swedish Candy Store. Read on for the full breakdown.
+</div>
+
+<h2>How We Ranked These Stores</h2>
+<p>We evaluated each store across five categories, each scored out of 10:</p>
+<ul>
+  <li><strong>Selection (25%):</strong> How many Swedish candy varieties are available? Do they carry niche brands or just the basics?</li>
+  <li><strong>Shipping Speed (20%):</strong> How fast does the order arrive? Is tracking provided?</li>
+  <li><strong>Pricing (20%):</strong> What's the per-gram or per-item cost? Are there free shipping thresholds?</li>
+  <li><strong>Packaging & Freshness (20%):</strong> Does the candy arrive in good condition? Is it well-protected?</li>
+  <li><strong>Website & Experience (15%):</strong> How easy is it to browse, order, and find what you want?</li>
+</ul>
+
+<h2>1. BonBon NYC — Best Overall (Score: 8.7/10)</h2>
+<p><a href="/blog/bonbon-nyc-review">BonBon NYC</a> has earned its reputation as the gold standard for Swedish candy in America. Founded by Swedish immigrants in 2018, they've grown from a single Lower East Side shop to four NYC locations and a thriving online store that ships over 1,000 orders daily.</p>
+<p><strong>Selection (9/10):</strong> Over 140 varieties of Swedish candy, all imported directly from Sweden. The pick-and-mix focus means you can try individual pieces before committing to bags. They carry BUBS, Malaco, and several smaller artisanal Swedish brands that are hard to find elsewhere.</p>
+<p><strong>Shipping (8/10):</strong> 2–3 day express shipping throughout the continental US. Local delivery available in Manhattan and Brooklyn. Tracking provided on all orders.</p>
+<p><strong>Pricing (7/10):</strong> Premium pricing at \$4.50/quarter pound for pick-and-mix. Pre-packaged items run \$4–25. Not the cheapest, but the quality and curation justify the cost.</p>
+<p><strong>Packaging (9/10):</strong> Beautiful presentation — signature pink bags, well-sealed, candy arrives fresh. Insulated options available for chocolate orders.</p>
+<p><strong>Website (9/10):</strong> Clean, well-organized. Browse by type, flavor, or dietary restriction. The photography is excellent — you can actually see what each candy looks like.</p>
+<p><strong>Best for:</strong> First-time buyers, gift orders, anyone who wants the best curation and doesn't mind paying for it.</p>
+
+<h2>2. Swedish Candy Store — Best Selection (Score: 8.4/10)</h2>
+<p>Based in Colorado, Swedish Candy Store (swedishcandystore.com) has been operating since 2015 and offers what they claim is the largest and most diverse selection of BUBS candy available anywhere online. They've built a loyal following among the Swedish candy community.</p>
+<p><strong>Selection (10/10):</strong> The widest range we've found, with over 200 products. If you're looking for a specific <a href="/brands/bubs">BUBS</a> variety or an obscure Swedish classic, this is where you'll find it. They stock the latest releases faster than anyone else.</p>
+<p><strong>Shipping (8/10):</strong> Ships from Colorado, so central US gets 2–3 day delivery. Coasts get 3–5 days. Standard and expedited options available.</p>
+<p><strong>Pricing (8/10):</strong> Competitive pricing with good bulk discounts. Individual items \$3–12, with bundles offering 10–15% savings.</p>
+<p><strong>Packaging (8/10):</strong> Well-packaged, candy arrives fresh. Not as premium-feeling as BonBon's packaging, but functional and protective.</p>
+<p><strong>Website (8/10):</strong> Clean and easy to navigate. Good filtering by brand, type, and flavor. Could use better product descriptions.</p>
+<p><strong>Best for:</strong> BUBS obsessives, bulk buyers, people who want the widest possible selection.</p>
+
+<h2>3. Sweetish Candy — Best Value (Score: 8.1/10)</h2>
+<p>Sweetish Candy operates a physical store at 301 N Queen St in Lancaster, Pennsylvania, alongside their online shop. They've earned a 4.5-star rating from 275+ reviews and their in-store pick-and-mix wall features 200+ bins. The online experience is good but can have longer shipping times during peak demand.</p>
+<p><strong>Selection (8/10):</strong> 200+ varieties in-store, with a strong online selection covering all major Swedish brands plus some harder-to-find items.</p>
+<p><strong>Shipping (7/10):</strong> Ships from Pennsylvania, 3–5 days to most US locations. Free shipping on orders over \$75. During peak periods, shipping can slow down — some reviewers report delays.</p>
+<p><strong>Pricing (9/10):</strong> Some of the most competitive prices we've found. The free shipping threshold at \$75 is reasonable, and per-gram pricing beats most competitors.</p>
+<p><strong>Packaging (8/10):</strong> Clean, hygienic packaging. They use single-use tongs for pick-and-mix selection, which reviewers appreciate.</p>
+<p><strong>Website (8/10):</strong> Functional and easy to use. Reviews mention the online experience is good, though the in-store experience is even better.</p>
+<p><strong>Best for:</strong> Budget-conscious buyers, anyone near Lancaster PA (the in-store experience is fantastic), large orders where free shipping kicks in.</p>
+
+<h2>4. Sockerbit — Best for Clean Ingredients (Score: 8.0/10)</h2>
+<p><a href="/blog/sockerbit-review">Sockerbit</a> was founded by a Swedish husband-and-wife team and pioneered the Swedish candy concept in America. Their LA store remains a destination, and the online shop offers the same curated selection nationwide.</p>
+<p><strong>Selection (7/10):</strong> More curated than comprehensive — around 100 varieties focused on quality over quantity. Strong licorice and vegan options.</p>
+<p><strong>Shipping (7/10):</strong> Ships from LA. West Coast gets 1–3 days, East Coast 4–6 days. The recent Target partnership (1,600 stores) means you might find Sockerbit at your local Target too.</p>
+<p><strong>Pricing (7/10):</strong> Mid-range pricing. Not the cheapest, but the non-GMO and vegan focus adds value for health-conscious buyers.</p>
+<p><strong>Packaging (9/10):</strong> Premium Scandinavian-design packaging. Everything feels intentional and high-quality.</p>
+<p><strong>Website (8/10):</strong> Beautiful, clean design that reflects the brand. Easy to filter by dietary needs (vegan, gluten-free, gelatin-free).</p>
+<p><strong>Best for:</strong> Vegan candy seekers, people who care about clean ingredients, West Coast shoppers who want fast delivery.</p>
+
+<h2>5. Mums Swedish Candy — Best for Discovery (Score: 7.8/10)</h2>
+<p>Mums Candy positions itself as a gourmet Swedish candy source, emphasizing artisanal quality and clean ingredients. Their lineup is free from parabens, gluten, artificial colors, artificial flavors, GMOs, and dairy.</p>
+<p><strong>Selection (7/10):</strong> Focused selection of premium items. Less variety than Swedish Candy Store, but everything is carefully vetted for quality.</p>
+<p><strong>Shipping (8/10):</strong> 3–5 business days to most US locations. Reliable tracking and well-communicated delivery estimates.</p>
+<p><strong>Pricing (7/10):</strong> Slightly premium, reflecting the gourmet positioning. You're paying for curation and guaranteed quality.</p>
+<p><strong>Packaging (8/10):</strong> Clean, professional packaging. Candy arrives fresh and well-protected.</p>
+<p><strong>Website (8/10):</strong> Clear product descriptions with ingredient lists and dietary info upfront. Easy to find what you need.</p>
+<p><strong>Best for:</strong> People with dietary restrictions, first-time buyers who want guaranteed quality, gift purchases.</p>
+
+<h2>6. Amazon — Most Convenient (Score: 7.2/10)</h2>
+<p>Amazon isn't a candy store, but for many Americans it's the first place they'll search for Swedish candy. The convenience of Prime shipping and familiar checkout process makes it hard to ignore, but the experience is inconsistent.</p>
+<p><strong>Selection (6/10):</strong> Varies wildly by seller. You'll find popular items like <a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a>, <a href="/candy/marabou-mjolkchoklad">Marabou chocolate</a>, and some BUBS varieties, but the long tail of Swedish candy is underrepresented.</p>
+<p><strong>Shipping (10/10):</strong> Prime members get 1–2 day delivery. Unbeatable.</p>
+<p><strong>Pricing (7/10):</strong> Competitive, though seller markups vary. Compare multiple listings for the same product — prices can differ 30–50%.</p>
+<p><strong>Packaging (5/10):</strong> This is where Amazon falls short. Third-party sellers vary dramatically in packaging quality. Some ship candy in proper boxes; others toss bags in thin mailers. Freshness is unpredictable.</p>
+<p><strong>Website (8/10):</strong> It's Amazon — you know how it works. Finding specific Swedish candy requires knowing what to search for.</p>
+<p><strong>Best for:</strong> Prime members who want fast delivery, people buying specific known items. Read our <a href="/blog/best-swedish-candy-on-amazon">detailed Amazon Swedish candy guide</a> for recommended sellers.</p>
+
+<h2>7. Nordic Cravings — Best for Mixed Scandinavian (Score: 7.0/10)</h2>
+<p>Nordic Cravings covers all of Scandinavia — Swedish, Danish, Norwegian, and Finnish candy plus other foods. It's less focused than Swedish-only stores but great if you want to explore the broader Nordic candy landscape.</p>
+<p><strong>Selection (7/10):</strong> Good mix across all Nordic countries. Swedish candy is well-represented but shares shelf space with Danish licorice, Finnish chocolate, and Norwegian treats.</p>
+<p><strong>Shipping (7/10):</strong> Free shipping on orders over \$75. Standard delivery 3–5 days.</p>
+<p><strong>Pricing (7/10):</strong> Mid-range. The free shipping threshold is reasonable for a mixed order.</p>
+<p><strong>Packaging (7/10):</strong> Solid packaging. Nothing fancy, but candy arrives intact.</p>
+<p><strong>Website (7/10):</strong> Functional. Could benefit from better categorization by country of origin.</p>
+<p><strong>Best for:</strong> People who want to explore all of Scandinavian candy, not just Swedish. Good for building mixed Nordic candy boards.</p>
+
+<h2>8. The Pirate Candy Shop — Best in Southeast (Score: 6.8/10)</h2>
+<p>Based in Tampa, Florida, The Pirate Candy Shop offers Swedish candy with a fun pirate theme. They specialize in BUBS candy and have both a physical location and online store.</p>
+<p><strong>Selection (6/10):</strong> Focused primarily on BUBS with some other Swedish brands. Smaller range than dedicated online stores.</p>
+<p><strong>Shipping (7/10):</strong> Ships from Florida, so Southeast US gets fast 2–3 day delivery. Rest of the country 3–5 days.</p>
+<p><strong>Pricing (7/10):</strong> Competitive, especially on BUBS products.</p>
+<p><strong>Packaging (7/10):</strong> Good. Standard candy packaging with decent protection.</p>
+<p><strong>Website (6/10):</strong> Functional but basic. The pirate theme is fun but navigation could be cleaner.</p>
+<p><strong>Best for:</strong> Southeast US shoppers who want fast delivery, BUBS fans looking for a reliable source.</p>
+
+<h2>Comparison Table</h2>
+<table style="width:100%; border-collapse:collapse; margin:20px 0;">
+<tr style="background:#f8f9fa; font-weight:bold;">
+<td style="padding:8px; border:1px solid #ddd;">Store</td>
+<td style="padding:8px; border:1px solid #ddd;">Selection</td>
+<td style="padding:8px; border:1px solid #ddd;">Speed</td>
+<td style="padding:8px; border:1px solid #ddd;">Free Ship</td>
+<td style="padding:8px; border:1px solid #ddd;">Score</td>
+</tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">BonBon NYC</td><td style="padding:8px; border:1px solid #ddd;">140+</td><td style="padding:8px; border:1px solid #ddd;">2–3 days</td><td style="padding:8px; border:1px solid #ddd;">Varies</td><td style="padding:8px; border:1px solid #ddd;">8.7</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Swedish Candy Store</td><td style="padding:8px; border:1px solid #ddd;">200+</td><td style="padding:8px; border:1px solid #ddd;">2–5 days</td><td style="padding:8px; border:1px solid #ddd;">Varies</td><td style="padding:8px; border:1px solid #ddd;">8.4</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Sweetish Candy</td><td style="padding:8px; border:1px solid #ddd;">200+</td><td style="padding:8px; border:1px solid #ddd;">3–5 days</td><td style="padding:8px; border:1px solid #ddd;">\$75+</td><td style="padding:8px; border:1px solid #ddd;">8.1</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Sockerbit</td><td style="padding:8px; border:1px solid #ddd;">100+</td><td style="padding:8px; border:1px solid #ddd;">1–6 days</td><td style="padding:8px; border:1px solid #ddd;">Varies</td><td style="padding:8px; border:1px solid #ddd;">8.0</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Mums Candy</td><td style="padding:8px; border:1px solid #ddd;">75+</td><td style="padding:8px; border:1px solid #ddd;">3–5 days</td><td style="padding:8px; border:1px solid #ddd;">Varies</td><td style="padding:8px; border:1px solid #ddd;">7.8</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Amazon</td><td style="padding:8px; border:1px solid #ddd;">Varies</td><td style="padding:8px; border:1px solid #ddd;">1–2 days</td><td style="padding:8px; border:1px solid #ddd;">Prime</td><td style="padding:8px; border:1px solid #ddd;">7.2</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Nordic Cravings</td><td style="padding:8px; border:1px solid #ddd;">Mixed</td><td style="padding:8px; border:1px solid #ddd;">3–5 days</td><td style="padding:8px; border:1px solid #ddd;">\$75+</td><td style="padding:8px; border:1px solid #ddd;">7.0</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Pirate Candy Shop</td><td style="padding:8px; border:1px solid #ddd;">50+</td><td style="padding:8px; border:1px solid #ddd;">2–5 days</td><td style="padding:8px; border:1px solid #ddd;">Varies</td><td style="padding:8px; border:1px solid #ddd;">6.8</td></tr>
+</table>
+
+<h2>Which Store Should You Choose?</h2>
+<ul>
+  <li><strong>I'm a complete beginner:</strong> <a href="/blog/bonbon-nyc-review">BonBon NYC</a> — best curation, beautiful experience, and the staff recommendations are genuinely helpful.</li>
+  <li><strong>I want everything BUBS:</strong> Swedish Candy Store — widest selection, fastest restocks of new flavors.</li>
+  <li><strong>I'm on a budget:</strong> Sweetish Candy — best per-gram pricing, especially with the \$75 free shipping threshold.</li>
+  <li><strong>I need it tomorrow:</strong> Amazon Prime — can't beat 1–2 day delivery, just <a href="/blog/best-swedish-candy-on-amazon">choose your seller carefully</a>.</li>
+  <li><strong>I'm vegan/health-conscious:</strong> Sockerbit — non-GMO focus, excellent vegan and gelatin-free labeling.</li>
+  <li><strong>I want more than just Swedish:</strong> Nordic Cravings — explore Danish, Finnish, and Norwegian candy too.</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Q: Do any of these stores offer subscription boxes?</h3>
+<p>Several stores offer curated boxes that work like subscriptions or one-time gift purchases. BonBon NYC has themed candy boxes, Swedish Candy Store offers build-your-own bundles, and Mums Candy has gift sets. True monthly subscriptions are less common — the Swedish candy market changes seasonally, so stores tend to prefer curated drops over recurring identical boxes.</p>
+
+<h3>Q: What about customs fees for stores that ship from Sweden?</h3>
+<p>All the stores ranked above ship from within the US, so there are no customs fees. If you order directly from a Swedish website (like a Swedish grocery store), you could face 15–25% customs duties on orders over a certain value. Stick with US-based stores to avoid the hassle.</p>
+
+<h3>Q: How do I know if candy is fresh when ordering online?</h3>
+<p>Check for best-by dates in product listings (not all stores show these). Read recent reviews — if multiple people mention stale candy, that's a red flag. Higher-turnover stores like BonBon and Swedish Candy Store generally have fresher inventory because they move product faster. When in doubt, order gummies and licorice — they have a longer shelf life than chocolate.</p>`,
     heroImage: '/images/blog/store-reviews.jpg',
     heroImageAlt: 'Multiple Swedish candy store packages and shipping boxes',
     author: 'SwedishCrave',
@@ -4739,10 +5777,10 @@ export const articles: Article[] = [
     estimatedReadTime: 14,
     tags: ['store reviews', 'shipping', 'comparison', 'online stores'],
     relatedArticleSlugs: ['where-to-buy-swedish-candy-online', 'bonbon-nyc-review', 'best-swedish-candy-on-amazon'],
-    relatedCandySlugs: [],
-    relatedBrandSlugs: [],
+    relatedCandySlugs: ['ahlgrens-bilar', 'marabou-mjolkchoklad', 'bubs-sour-skulls', 'bubs-watermelon'],
+    relatedBrandSlugs: ['bubs', 'marabou', 'malaco'],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 47,
@@ -4753,7 +5791,130 @@ export const articles: Article[] = [
     metaDescription: 'BonBon NYC went from a small candy shop to a TikTok sensation with 1,000+ orders daily. But is it worth the hype and the prices? Full honest review.',
     h1: 'BonBon NYC Review: Is the Viral Candy Store Worth It?',
     intro: 'BonBon NYC is the candy store that went viral on TikTok, going from 50 to over 1,000 daily orders almost overnight. They specialize in Swedish and Scandinavian candy with a beautiful pick-and-mix experience. But does the reality match the hype?',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7, #fff7ed); border-left: 4px solid #f59e0b; padding: 20px; border-radius: 8px; margin: 20px 0;">
+<strong>The Verdict:</strong> Yes, BonBon NYC is worth the hype. The candy is genuinely excellent, the in-store experience is memorable, and the selection of 140+ Swedish candy varieties is unmatched in America. The only catch? You'll spend more than you planned. Every single time.
+</div>
+
+<h2>The BonBon NYC Story</h2>
+<p>BonBon was founded in 2018 by Swedish immigrants who missed the candy from home. Their first location on Allen Street in the Lower East Side was a small, pink-walled shop selling pick-and-mix Swedish candy — a concept most New Yorkers had never seen. For the first couple of years, it was a neighborhood gem with a loyal but small following.</p>
+<p>Then TikTok happened.</p>
+<p>A wave of creators filming the candy scooping experience turned BonBon into a viral phenomenon. The signature pale pink paper bags, gold scoops, and colorful candy bins were catnip for the algorithm. Seemingly overnight, BonBon went from shipping 50 orders a day to over 1,000. They expanded to four locations across Manhattan and Brooklyn, and their online store exploded.</p>
+<p>350+ Yelp reviews and a 4.5-star rating later, BonBon is the most recognizable Swedish candy brand in America. But does the actual candy experience live up to the social media spectacle? We went to find out.</p>
+
+<h2>The In-Store Experience</h2>
+<p>Walking into BonBon's Lower East Side flagship feels like entering a Wes Anderson version of a Swedish candy shop. The walls are soft pink, the bins are labeled in a clean sans-serif font, and the gold scoops catch the light in a way that makes everything feel special. It's calculated, sure — but it works.</p>
+
+<h3>The Tour</h3>
+<p>If it's your first visit, staff will ask and then offer a guided tour of the candy selection. This isn't a hard sell — it's genuinely helpful. They'll walk you through the bins, explain flavor profiles, and let you sample a few pieces. The staff are young, enthusiastic, and clearly know their product. They'll ask what kind of candy you usually like and point you toward Swedish equivalents.</p>
+<p>The tour takes about 5–10 minutes and is one of the best parts of the experience. Unlike American candy stores where you're left to figure it out yourself, BonBon's approach feels more like a guided tasting at a wine shop. Except instead of Pinot Noir, you're learning about salmiak licorice and why <a href="/candy/bubs-watermelon">BUBS watermelon skulls</a> are shaped like skulls.</p>
+
+<h3>The Selection</h3>
+<p>BonBon stocks over 140 varieties, and 100% of the candy is imported from Sweden. The lineup includes:</p>
+<ul>
+  <li><strong>Gummies:</strong> <a href="/candy/bubs-watermelon">BUBS watermelon</a>, raspberry, strawberry, banana — plus seasonal flavors that rotate</li>
+  <li><strong>Sour candy:</strong> <a href="/candy/bubs-sour-skulls">Sour skulls</a>, sour worms, sour belts, <a href="/candy/s-marke-supersurt">S-Märke Supersurt</a></li>
+  <li><strong>Licorice:</strong> Sweet licorice, salt licorice, <a href="/candy/saltlakrits">salmiak</a>, licorice boats, licorice pipes</li>
+  <li><strong>Marshmallow:</strong> Swedish marshmallow foam candy in various flavors and shapes</li>
+  <li><strong>Chocolate:</strong> <a href="/candy/marabou-mjolkchoklad">Marabou</a>, <a href="/candy/daim">Daim</a>, <a href="/candy/plopp">Plopp</a>, and <a href="/candy/kexchoklad">Kexchoklad</a> bars</li>
+  <li><strong>Hard candy & lozenges:</strong> <a href="/candy/lakerol">Läkerol</a>, polka mints, and various fruit drops</li>
+</ul>
+<p>The depth is impressive. This isn't just "Swedish gummies in different colors" — there are genuinely different textures, flavor profiles, and candy-making traditions represented. The foam candy is unlike anything American stores carry, the sour candy uses different acid coatings than US brands, and the licorice goes from mild-sweet to "your Scandinavian grandmother would approve" salty.</p>
+
+<h3>What to Skip</h3>
+<p>Let's be real: not everything in the bins is a revelation. The basic fruit gummies (plain strawberry, plain orange) are good but not dramatically different from quality American gummies. If you're paying BonBon prices, prioritize the items you can't find elsewhere: the foam candies, the sour skulls, the salmiak licorice, and the textured gummies that are uniquely Swedish.</p>
+
+<h2>Pricing: The Honest Truth</h2>
+<p>BonBon charges \$4.50 per quarter pound for pick-and-mix candy. That works out to about \$18 per pound, which is firmly in the "premium candy store" category. For context:</p>
+<ul>
+  <li>A typical 10-piece selection runs about \$8–10</li>
+  <li>A "full experience" bag (15–20 pieces) runs \$15–25</li>
+  <li>Pre-packaged items range from \$4–25</li>
+  <li>Gift boxes start around \$20</li>
+</ul>
+<p>Is it expensive? Compared to grabbing a \$1.50 bag of Haribo at CVS, absolutely. Compared to other specialty candy stores — especially NYC ones — it's in line. The candy is imported from Sweden, which adds real cost, and the quality difference from mass-market American candy is noticeable.</p>
+<p>Here's the trap: you'll always spend more than you planned. You go in thinking "I'll just get five pieces," and you leave with a bag that weighs half a pound because the staff sample got you hooked on three things you didn't know existed. Budget \$15–20 for your first visit and accept it. Consider it tuition for your Swedish candy education.</p>
+
+<h2>Online Store Review</h2>
+<p>Can't make it to NYC? BonBon's online store (bonbonnyc.com) ships nationwide. The website is well-designed — you can browse by candy type, flavor profile, or dietary restriction (vegan, gluten-free, gelatin-free). Product photography is excellent, which matters when you're buying candy you've never seen before.</p>
+
+<h3>Online Pros</h3>
+<ul>
+  <li>2–3 day express shipping continental US</li>
+  <li>Local delivery in Manhattan and Brooklyn</li>
+  <li>Clear dietary labels on every product</li>
+  <li>Beautiful gift packaging options</li>
+  <li>Tracking on all orders</li>
+</ul>
+
+<h3>Online Cons</h3>
+<ul>
+  <li>You lose the in-store sampling experience</li>
+  <li>No pick-and-mix online — you're choosing pre-set bags or individual products</li>
+  <li>Candy availability fluctuates (popular items sell out)</li>
+  <li>Shipping adds to the already-premium pricing</li>
+</ul>
+<p>The online experience is good — 8/10 in our <a href="/blog/swedish-candy-store-reviews">store rankings</a>. But the in-store experience is a 9.5. If you're in NYC, go in person.</p>
+
+<h2>BonBon's Four Locations Compared</h2>
+<ul>
+  <li><strong>Lower East Side (130 Allen St):</strong> The flagship and biggest location. Best selection, most staff, longest hours (open daily 10am–midnight). This is where most TikTok content is filmed. Can get crowded on weekends.</li>
+  <li><strong>Williamsburg (705 Driggs Ave):</strong> Great location if you're in Brooklyn. Slightly smaller than LES but the same quality and selection. Less crowded than the flagship.</li>
+  <li><strong>Upper East Side (1220 Lexington Ave):</strong> Convenient uptown location. Smaller footprint but full pick-and-mix selection. Good for quick visits.</li>
+  <li><strong>Red Hook (66 Degraw St):</strong> Weekends only. The smallest and most intimate location, with a different vibe — less tourist, more neighborhood. Worth visiting if you're in the area on a Saturday or Sunday.</li>
+</ul>
+<p>Our recommendation: LES for the full experience, Williamsburg for a relaxed visit, UES for convenience.</p>
+
+<h2>The Dietary Edge</h2>
+<p>One of BonBon's strongest selling points — and something that often gets lost in the TikTok hype — is the ingredient quality. Over 40% of their candy is gelatin-free and gluten-free. Everything is free from GMOs, trans fat, and high-fructose corn syrup. For Americans used to candy loaded with Red 40 and HFCS, this is a genuine upgrade.</p>
+<p>BonBon staff are trained on dietary restrictions and can quickly guide you to options that work for vegan, halal, gluten-free, or allergen-sensitive diets. This is where Swedish candy in general shines — the EU regulations that govern these products are stricter than US FDA standards, resulting in <a href="/blog/eu-vs-us-food-regulations">cleaner ingredient lists</a> across the board.</p>
+
+<h2>Our Rating</h2>
+<table style="width:100%; border-collapse:collapse; margin:20px 0;">
+<tr style="background:#f8f9fa; font-weight:bold;">
+<td style="padding:8px; border:1px solid #ddd;">Category</td>
+<td style="padding:8px; border:1px solid #ddd;">Score</td>
+</tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Candy Quality</td><td style="padding:8px; border:1px solid #ddd;">9.5/10</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Selection</td><td style="padding:8px; border:1px solid #ddd;">9/10</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">In-Store Experience</td><td style="padding:8px; border:1px solid #ddd;">9.5/10</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Pricing</td><td style="padding:8px; border:1px solid #ddd;">7/10</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Online Store</td><td style="padding:8px; border:1px solid #ddd;">8/10</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Staff Knowledge</td><td style="padding:8px; border:1px solid #ddd;">9/10</td></tr>
+<tr style="background:#fef3c7; font-weight:bold;"><td style="padding:8px; border:1px solid #ddd;">Overall</td><td style="padding:8px; border:1px solid #ddd;">8.7/10</td></tr>
+</table>
+
+<h2>Who BonBon Is (and Isn't) For</h2>
+<p><strong>BonBon is perfect for:</strong></p>
+<ul>
+  <li>First-time Swedish candy explorers who want guidance and sampling</li>
+  <li>Gift buyers looking for something unique and beautifully packaged</li>
+  <li>Health-conscious candy lovers who want cleaner ingredients</li>
+  <li>TikTok fans who want to experience the real thing (it's even better in person)</li>
+  <li>Tourists looking for a memorable NYC food experience</li>
+</ul>
+<p><strong>BonBon might not be for:</strong></p>
+<ul>
+  <li>Bulk buyers — the per-gram pricing adds up fast for large orders</li>
+  <li>People who already know exactly what Swedish candy they want (order online from <a href="/blog/swedish-candy-store-reviews">a cheaper store</a>)</li>
+  <li>Anyone who hates crowds — the LES store gets packed on weekends</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Q: How much should I budget for a BonBon visit?</h3>
+<p>\$15–20 is a realistic first-visit budget. You'll get 10–15 pieces of candy, which is enough to try a good range. If you're buying gifts or getting really into it, \$30–40 isn't unusual. The staff won't pressure you — you can absolutely buy just 5 pieces for under \$10.</p>
+
+<h3>Q: Is the candy actually from Sweden, or is it made in the US?</h3>
+<p>100% imported from Sweden. BonBon is very clear about this, and it's easy to verify — the candy packaging has Swedish text, EU ingredient labels, and Swedish brand names. They don't carry any American-made candy.</p>
+
+<h3>Q: What's the best time to visit to avoid crowds?</h3>
+<p>Weekday mornings and early afternoons are ideal. You'll get the best selection (popular items sell out by evening) and shorter wait times. Friday and Saturday evenings are the busiest, with occasional lines outside the LES location.</p>
+
+<h3>Q: Can I order BonBon candy for delivery in NYC?</h3>
+<p>Yes — BonBon offers local delivery in Manhattan and Brooklyn through their website. It's a great option for parties or if you just don't feel like leaving your apartment. (No judgment. We've all been there.)</p>
+
+<h3>Q: What's the one candy I absolutely must try?</h3>
+<p>Ask the staff for their personal favorite — you'll get a genuine answer, not a sales pitch. If we had to pick one: the <a href="/candy/bubs-sour-skulls">sour skulls</a>. They're the candy that converts American candy skeptics. Sour, fruity, and a texture that's completely different from anything Sour Patch Kids ever attempted.</p>`,
     heroImage: '/images/blog/bonbon-nyc-review.jpg',
     heroImageAlt: 'BonBon NYC candy store interior with pick and mix display',
     author: 'SwedishCrave',
@@ -4762,10 +5923,10 @@ export const articles: Article[] = [
     estimatedReadTime: 10,
     tags: ['BonBon NYC', 'store review', 'NYC', 'TikTok', 'pick and mix'],
     relatedArticleSlugs: ['where-to-buy-swedish-candy-nyc', 'sockerbit-review', 'swedish-candy-tiktok-trend'],
-    relatedCandySlugs: [],
-    relatedBrandSlugs: [],
+    relatedCandySlugs: ['bubs-watermelon', 'bubs-sour-skulls', 'saltlakrits', 'marabou-mjolkchoklad', 'daim', 'plopp', 'kexchoklad', 'lakerol', 's-marke-supersurt', 'ahlgrens-bilar'],
+    relatedBrandSlugs: ['bubs', 'marabou'],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 48,
@@ -4938,7 +6099,105 @@ export const articles: Article[] = [
     metaDescription: 'The EU requires warning labels on artificial colors. The US doesn\'t. Here\'s how Swedish and American candy regulations differ on food coloring.',
     h1: 'Artificial Colors in Candy: Sweden vs USA Regulations',
     intro: 'The EU and US take fundamentally different approaches to artificial food colors. The EU requires warning labels, encourages natural alternatives, and has banned several dyes entirely. The US approves the same dyes without warnings. Here\'s what that means for your candy.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7, #fff7ed); border-left: 4px solid #f59e0b; padding: 20px; border-radius: 8px; margin: 20px 0;">
+<strong>The Bottom Line:</strong> The EU requires warning labels on six synthetic food dyes linking them to child hyperactivity. The US has no such requirement — but the FDA announced plans in April 2025 to phase out eight petroleum-based dyes by end of 2027. Swedish candy has been ahead of this curve for decades, using natural colorings from fruit and plant extracts.
+</div>
+
+<h2>The Six Dyes That Started a Transatlantic Debate</h2>
+<p>In 2007, a landmark study from the University of Southampton (the "Southampton Six" study) found that mixtures of six artificial food colors, combined with the preservative sodium benzoate, increased hyperactivity in children aged 3 and 8–9. The study wasn't perfect — sample sizes were moderate and individual dye effects weren't isolated — but it was significant enough to prompt action across the Atlantic.</p>
+<p>The EU responded by requiring a mandatory warning label on any food containing these dyes: "may have an adverse effect on activity and attention in children." The FDA reviewed the same evidence and concluded it was insufficient to warrant action. Same data, different conclusions, different regulatory philosophies.</p>
+
+<h3>The Southampton Six</h3>
+<table style="width:100%; border-collapse:collapse; margin:20px 0;">
+<tr style="background:#f8f9fa; font-weight:bold;">
+<td style="padding:8px; border:1px solid #ddd;">Dye</td>
+<td style="padding:8px; border:1px solid #ddd;">US Name</td>
+<td style="padding:8px; border:1px solid #ddd;">EU E-Number</td>
+<td style="padding:8px; border:1px solid #ddd;">Common In</td>
+</tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Allura Red AC</td><td style="padding:8px; border:1px solid #ddd;">Red 40</td><td style="padding:8px; border:1px solid #ddd;">E129</td><td style="padding:8px; border:1px solid #ddd;">Most red US candy, Skittles, Hot Tamales</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Tartrazine</td><td style="padding:8px; border:1px solid #ddd;">Yellow 5</td><td style="padding:8px; border:1px solid #ddd;">E102</td><td style="padding:8px; border:1px solid #ddd;">Starburst, M&Ms (yellow), Reese's Pieces</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Sunset Yellow FCF</td><td style="padding:8px; border:1px solid #ddd;">Yellow 6</td><td style="padding:8px; border:1px solid #ddd;">E110</td><td style="padding:8px; border:1px solid #ddd;">Candy corn, orange M&Ms</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Carmoisine</td><td style="padding:8px; border:1px solid #ddd;">—</td><td style="padding:8px; border:1px solid #ddd;">E122</td><td style="padding:8px; border:1px solid #ddd;">Not approved in the US</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Quinoline Yellow</td><td style="padding:8px; border:1px solid #ddd;">—</td><td style="padding:8px; border:1px solid #ddd;">E104</td><td style="padding:8px; border:1px solid #ddd;">Not approved in the US</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Ponceau 4R</td><td style="padding:8px; border:1px solid #ddd;">—</td><td style="padding:8px; border:1px solid #ddd;">E124</td><td style="padding:8px; border:1px solid #ddd;">Not approved in the US</td></tr>
+</table>
+
+<h2>What the EU Actually Requires</h2>
+<p>Let's be precise: the EU does <strong>not</strong> ban most synthetic food dyes. Instead, it takes a layered approach:</p>
+<ul>
+  <li><strong>Mandatory warning labels:</strong> Products containing any of the Southampton Six dyes must display: "may have an adverse effect on activity and attention in children." This is front-of-pack, not hidden in fine print.</li>
+  <li><strong>Maximum usage levels:</strong> The EU sets specific milligrams-per-kilogram limits for each dye, stricter than US limits.</li>
+  <li><strong>Periodic re-evaluation:</strong> EFSA re-evaluates all food additives on a rolling basis, using current science. Several dyes have had their limits lowered after re-evaluation.</li>
+  <li><strong>Outright bans:</strong> Some substances are completely prohibited. Titanium dioxide (E171), used as a white colorant, was banned in the EU in August 2022 after EFSA could not rule out genotoxicity. It remains legal in the US.</li>
+</ul>
+<p>The practical effect? Most European candy manufacturers — including Swedish ones — have simply reformulated to avoid synthetic dyes entirely. Why put a warning label on your product when beetroot juice and fruit concentrates work just as well? The label requirement acts as a powerful market incentive, even without an outright ban.</p>
+
+<h2>The FDA's 2025 Pivot: America Catches Up</h2>
+<p>After decades of defending synthetic dyes, the US started catching up in 2025:</p>
+<ul>
+  <li><strong>January 2025:</strong> The FDA formally revoked approval for FD&C Red No. 3 (erythrosine), with a deadline of January 15, 2027 for food manufacturers to reformulate. Red No. 3 had been linked to cancer in animal studies since the 1990s but remained legal in food for decades. (It was already banned in cosmetics.)</li>
+  <li><strong>April 2025:</strong> HHS and the FDA announced plans to phase out eight petroleum-based food dyes — including Red 40, Yellow 5, Yellow 6, Blue 1, Blue 2, and Green 3 — by the end of 2027.</li>
+  <li><strong>Important caveat:</strong> The phase-out is <strong>voluntary</strong>. The FDA is asking manufacturers to pledge to remove synthetic dyes, not mandating it. The MAHA (Make America Healthy Again) Commission Report cited links between synthetic dyes and behavioral issues in children.</li>
+</ul>
+<p>Swedish candy has been doing what the FDA is now asking American companies to do — for decades. Not because someone forced them, but because Swedish consumers demanded it and <a href="/blog/eu-vs-us-food-regulations">EU regulations made natural alternatives the smarter business choice</a>.</p>
+
+<h2>How Swedish Candy Colors Without Chemicals</h2>
+<p>Swedish candy manufacturers have developed a sophisticated toolkit of natural colorants. Here's what creates those vibrant colors without synthetic dyes:</p>
+
+<h3>Reds & Pinks</h3>
+<p><strong>Beetroot red (E162):</strong> The workhorse of Swedish red candy. Derived from red beets. Produces rich magenta-to-pink tones. Slightly less vivid than Red 40, but consumers have come to associate the softer tone with quality. <strong>Blackcurrant concentrate</strong> provides deeper reds and purples. <strong>Carmine (E120)</strong> — derived from cochineal insects — is used sparingly and isn't vegan, but it's considered natural.</p>
+
+<h3>Yellows & Oranges</h3>
+<p><strong>Annatto (E160b):</strong> From achiote tree seeds. Warm orange-yellow tones. <strong>Turmeric extract (E100):</strong> Bright yellow. <strong>Carrot concentrate:</strong> Orange tones. <strong>Paprika extract (E160c):</strong> Red-orange.</p>
+
+<h3>Greens</h3>
+<p><strong>Chlorophyll (E140):</strong> Extracted from plants. Natural green. <strong>Spinach concentrate:</strong> Used in combination with other plant extracts for specific green shades.</p>
+
+<h3>Blues</h3>
+<p><strong>Spirulina extract (phycocyanin):</strong> Blue pigment from blue-green algae. The newest addition to the natural toolkit and increasingly popular. <strong>Butterfly pea flower extract:</strong> Emerging natural blue colorant.</p>
+
+<h3>Browns & Blacks</h3>
+<p><strong>Caramel coloring (E150):</strong> Heated sugar. The most common brown colorant worldwide. <strong>Vegetable carbon (E153):</strong> Used for black coloring in licorice.</p>
+
+<h2>The Same Candy, Different Colors: Case Studies</h2>
+<p>Some candy brands sell different formulations in the US and EU. The comparison is revealing:</p>
+
+<h3>Haribo Gold-Bears</h3>
+<p><strong>US version:</strong> Contains Yellow 5, Yellow 6, Red 40, Blue 1. No warning labels.</p>
+<p><strong>EU/Swedish version:</strong> Uses fruit and plant concentrates for coloring. No synthetic dyes. Same candy, same shape, different ingredient list. The EU version has slightly more muted colors — which actually looks more appetizing once you're used to it.</p>
+
+<h3>Skittles</h3>
+<p><strong>US version:</strong> Contains Red 40, Yellow 5, Yellow 6, Blue 1, titanium dioxide (for the white "S" coating). Until 2016, also contained Red 3.</p>
+<p><strong>EU version:</strong> Uses plant extracts and fruit concentrates. No titanium dioxide (banned in EU since 2022). The colors are slightly different — a bit less neon, a bit more natural-looking.</p>
+
+<h3>Swedish candy: No dual formulation needed</h3>
+<p>Brands like <a href="/brands/bubs">BUBS</a>, <a href="/brands/malaco">Malaco</a>, and <a href="/brands/ahlgrens">Ahlgrens</a> don't need separate formulations because they use natural colorings from the start. What you buy in Sweden is what you get in the US — same ingredients, same quality, no compromises.</p>
+
+<h2>Titanium Dioxide: The Banned White</h2>
+<p>Titanium dioxide (E171) deserves special mention. This white pigment was used extensively in candy, frosting, and chewing gum for its bright white appearance. In 2022, the EU banned it as a food additive after EFSA could not rule out genotoxicity concerns — meaning it might damage DNA at the cellular level.</p>
+<p>The US FDA still permits titanium dioxide at up to 1% by weight. You'll find it in American candy corn, white M&Ms, frosted snacks, and many other products. It's one of the starkest examples of <a href="/blog/eu-vs-us-food-regulations">the EU-US regulatory gap</a>: the EU said "we can't prove it's safe enough" while the FDA said "you haven't proven it's dangerous enough."</p>
+<p>Swedish candy never relied heavily on titanium dioxide anyway — most Swedish candies simply aren't white, and those that need light coloring use rice starch or other alternatives.</p>
+
+<h2>What This Means for You</h2>
+<p>If you're reading this article, you probably already care about what's in your food. Here's the practical takeaway:</p>
+<ul>
+  <li><strong>Swedish candy avoids synthetic dyes</strong> not because they're necessarily dangerous in small amounts, but because the EU regulatory environment and Swedish consumer culture favor natural alternatives.</li>
+  <li><strong>The US is slowly moving</strong> in the same direction. The FDA's 2025 voluntary phase-out initiative signals that the era of petroleum-based food dyes may be ending — but it'll take years.</li>
+  <li><strong>If you want dye-free candy now,</strong> Swedish candy is the simplest solution. You don't have to read ingredient lists or decode E-numbers — <a href="/where-to-buy">just buy Swedish</a>.</li>
+  <li><strong>Natural ≠ automatically safer.</strong> Carmine (E120) is "natural" but derived from insects. "Natural flavoring" can still be processed. The key advantage of Swedish candy isn't that every ingredient is perfect — it's that the overall ingredient list is simpler, shorter, and more transparent.</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Q: Are artificial colors actually dangerous?</h3>
+<p>The honest answer: the science is contested. The EU considers the evidence strong enough to warrant warning labels and encourage reformulation. The FDA has historically disagreed but is now shifting toward a phase-out. For most adults, occasional exposure to synthetic dyes is unlikely to cause harm. The concern is primarily around children, cumulative exposure, and sensitive individuals. <a href="/blog/red-40-swedish-candy">Our Red 40 deep dive</a> covers the specific research.</p>
+
+<h3>Q: Will Swedish candy colors fade or change over time?</h3>
+<p>Natural colorings are slightly less stable than synthetic ones. Exposure to light and heat can cause some fading. This is actually a sign of quality — it means the colors come from real ingredients, not industrial dye vats. Store Swedish candy in a cool, dark place and the colors will last the full shelf life.</p>
+
+<h3>Q: Are there any synthetic dyes still used in Swedish candy?</h3>
+<p>Very rarely. Some mass-market Swedish products may contain small amounts of approved synthetic colorings (with the mandatory EU warning label). But the vast majority of Swedish candy — and certainly all premium brands — use exclusively natural colorings. When shopping, look for "frukt- och växtkoncentrat" (fruit and vegetable concentrates) on the ingredient list.</p>`,
     heroImage: '/images/blog/artificial-colors.jpg',
     heroImageAlt: 'Comparison chart of EU vs US artificial color regulations',
     author: 'SwedishCrave',
@@ -4947,10 +6206,10 @@ export const articles: Article[] = [
     estimatedReadTime: 12,
     tags: ['artificial colors', 'EU regulations', 'FDA', 'food safety'],
     relatedArticleSlugs: ['red-40-swedish-candy', 'eu-food-regulations-vs-us', 'banned-ingredients-american-candy'],
-    relatedCandySlugs: [],
-    relatedBrandSlugs: [],
+    relatedCandySlugs: ['bubs-sour-skulls', 'bubs-watermelon', 'ahlgrens-bilar', 'marabou-mjolkchoklad'],
+    relatedBrandSlugs: ['bubs', 'malaco', 'ahlgrens', 'marabou'],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 51,
@@ -5144,7 +6403,133 @@ export const articles: Article[] = [
     metaDescription: 'Most Swedish candy is naturally gluten-free, but cross-contamination risks exist. Full guide to gluten-free Swedish candy with brand-by-brand breakdown.',
     h1: 'Is Swedish Candy Gluten Free? What You Need to Know',
     intro: 'The vast majority of Swedish candy is naturally gluten-free since gummies, licorice, and chocolate rarely contain wheat or barley. But there are exceptions and cross-contamination risks. Here\'s what you need to know.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7, #fff7ed); border-left: 4px solid #f59e0b; padding: 20px; border-radius: 8px; margin: 20px 0;">
+<strong>Quick Answer:</strong> The majority of Swedish candy is naturally gluten-free. Gummies use potato starch or corn starch (not wheat). Chocolate is inherently gluten-free. Licorice is the main risk area — some contain wheat flour as a binder. The biggest concern for celiacs is cross-contamination in shared production facilities, not ingredients.
+</div>
+
+<h2>Why Swedish Candy Is Mostly Gluten-Free</h2>
+<p>Gluten — the protein found in wheat, barley, rye, and their derivatives — rarely has a functional purpose in candy. Candy needs sugar, gelling agents, acids, and flavorings. Gluten isn't one of them.</p>
+<p>Swedish candy manufacturers primarily use potato starch (potatisstärkelse) and corn starch (majsstärkelse) as thickeners and gelling agents. Neither contains gluten. This is different from some American candy brands that use wheat-based modified food starch, which is a concern for celiacs.</p>
+<p>Sweden also has a higher-than-average celiac awareness. Approximately 1 in 100 Swedes has celiac disease (similar to global rates, but diagnosis rates are higher due to proactive screening). This cultural awareness means manufacturers are generally responsive to gluten-free labeling.</p>
+
+<h2>Brand-by-Brand Gluten-Free Guide</h2>
+
+<h3>BUBS — Mostly Gluten-Free</h3>
+<p><a href="/brands/bubs">BUBS</a> is the safest bet for gluten-free Swedish candy. Their products use potato starch as the primary gelling agent, and most of their lineup is confirmed gluten-free. Specific products:</p>
+<ul>
+  <li><a href="/candy/bubs-sour-skulls">Sour Skulls</a> — Gluten-free ✅</li>
+  <li><a href="/candy/bubs-watermelon">Watermelon</a> — Gluten-free ✅</li>
+  <li><a href="/candy/bubs-cool-cola">Cool Cola</a> — Gluten-free ✅</li>
+  <li><a href="/candy/bubs-strawberry-vanilla">Strawberry Vanilla</a> — Gluten-free ✅</li>
+  <li><a href="/candy/bubs-banana-ovals">Banana Ovals</a> — Gluten-free ✅</li>
+</ul>
+<p><strong>Note:</strong> Always check the specific product packaging. BUBS occasionally introduces limited editions or new products that may have different formulations. But the core lineup is reliably gluten-free.</p>
+
+<h3>Ahlgrens Bilar — Gluten-Free</h3>
+<p><a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a> (the iconic car-shaped marshmallow candy) is gluten-free. The main ingredients are sugar, glucose syrup, gelatin, and potato starch — no wheat-based ingredients. The same applies to the sour-coated variant (<a href="/candy/ahlgrens-bilar-sursockrade">Bilar Sursockrade</a>).</p>
+
+<h3>Malaco — Check Each Product</h3>
+<p><a href="/brands/malaco">Malaco</a> has a mixed lineup. Their gummy products are generally gluten-free, but some of their licorice products contain wheat flour as a binder. Specifically:</p>
+<ul>
+  <li><a href="/candy/malaco-gott-och-blandat">Gott & Blandat</a> — Most varieties gluten-free, but check the licorice pieces (some contain wheat flour) ⚠️</li>
+  <li><a href="/candy/malaco-vattenmelon">Vattenmelon</a> — Gluten-free ✅</li>
+  <li><a href="/candy/djungelvraal">Djungelvrål</a> — Contains wheat flour ❌</li>
+  <li><a href="/candy/skipper-pipes">Skipper's Pipes</a> — Contains wheat flour ❌</li>
+</ul>
+<p>The pattern: Malaco gummies are safe. Malaco licorice products need careful label checking.</p>
+
+<h3>Marabou Chocolate — Gluten-Free (Mostly)</h3>
+<p><a href="/brands/marabou">Marabou</a> chocolate is inherently gluten-free — cocoa, sugar, milk powder, and cocoa butter contain no gluten. However:</p>
+<ul>
+  <li><a href="/candy/marabou-mjolkchoklad">Mjölkchoklad</a> (plain milk chocolate) — Gluten-free ✅</li>
+  <li><a href="/candy/marabou-schweizernot">Schweizernöt</a> (hazelnut) — Gluten-free (but contains nuts) ✅</li>
+  <li>Marabou with cookie/biscuit pieces (Oreo, Digestive, etc.) — Contains gluten ❌</li>
+  <li><a href="/candy/daim">Daim</a> — Gluten-free ✅</li>
+  <li><a href="/candy/kexchoklad">Kexchoklad</a> — Contains wheat (it's a wafer) ❌</li>
+</ul>
+
+<h3>Fazer — Gluten-Free (Plain Chocolate)</h3>
+<p><a href="/candy/fazer-blue">Fazer Blue</a> (Fazerin Sininen) is gluten-free. Like Marabou, avoid the varieties with cookie or biscuit inclusions.</p>
+
+<h2>The Licorice Problem</h2>
+<p>Licorice is the one category where celiacs need to be careful. Traditional Scandinavian licorice recipes use wheat flour as a binder to create the firm, chewy texture. This affects products like:</p>
+<ul>
+  <li><a href="/candy/djungelvraal">Djungelvrål</a> (salted licorice) — Contains wheat flour</li>
+  <li><a href="/candy/skipper-pipes">Skipper's Pipes</a> — Contains wheat flour</li>
+  <li>Most traditional black licorice — May contain wheat flour</li>
+  <li><a href="/candy/saltlakrits">Saltlakrits</a> — Check each brand. Some use wheat, others don't.</li>
+</ul>
+<p>However, newer licorice products are increasingly gluten-free, using alternative binders like corn starch. <a href="/brands/bubs">BUBS</a> licorice products, for example, tend to be gluten-free. Always check the specific product.</p>
+
+<h2>Cross-Contamination: The Hidden Risk</h2>
+<p>For people with celiac disease (not just gluten sensitivity), cross-contamination is the bigger concern. A candy may have zero gluten ingredients but be produced in a facility that also processes wheat products. Swedish labels typically include allergen warnings like:</p>
+<ul>
+  <li><strong>"Kan innehålla spår av vete"</strong> — May contain traces of wheat</li>
+  <li><strong>"Tillverkad i en fabrik som även hanterar vete"</strong> — Manufactured in a facility that also handles wheat</li>
+</ul>
+<p>These warnings don't mean the product definitely contains gluten — they mean the risk exists. For most gluten-sensitive people, these products are fine. For diagnosed celiacs, the decision is personal and should involve your doctor.</p>
+
+<h3>The EU's Gluten-Free Labeling Rules</h3>
+<p>The EU has clear, standardized rules for gluten-free claims:</p>
+<ul>
+  <li><strong>"Gluten-free" (Glutenfri):</strong> Must contain less than 20 parts per million (ppm) of gluten. This is the same threshold as the US FDA.</li>
+  <li><strong>"Very low gluten":</strong> Contains 20–100 ppm. This category doesn't exist in US labeling.</li>
+  <li><strong>Allergen declaration:</strong> EU law requires all 14 major allergens (including wheat) to be highlighted in bold on ingredient lists. This makes Swedish labels easier to scan than US labels, where allergen declarations vary in format.</li>
+</ul>
+
+<h2>Gluten-Free Swedish Candy Shopping List</h2>
+<p>Here's a safe shopping list for celiacs and gluten-sensitive buyers:</p>
+
+<h3>Safe Bets (Reliably Gluten-Free)</h3>
+<ul>
+  <li>All BUBS gummy products (<a href="/candy/bubs-sour-skulls">Sour Skulls</a>, <a href="/candy/bubs-watermelon">Watermelon</a>, <a href="/candy/bubs-cool-cola">Cool Cola</a>, etc.)</li>
+  <li><a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a> (original and sour)</li>
+  <li><a href="/candy/marabou-mjolkchoklad">Marabou Mjölkchoklad</a> (plain chocolate)</li>
+  <li><a href="/candy/daim">Daim</a></li>
+  <li><a href="/candy/plopp">Plopp</a></li>
+  <li><a href="/candy/fazer-blue">Fazer Blue</a></li>
+  <li><a href="/candy/polly">Polly</a></li>
+  <li><a href="/candy/center">Center</a></li>
+  <li><a href="/candy/lakerol">Läkerol</a></li>
+  <li><a href="/candy/tutti-frutti">Tutti Frutti</a></li>
+  <li>Most Swedish marshmallow (skumgodis) products</li>
+</ul>
+
+<h3>Proceed with Caution (Check Labels)</h3>
+<ul>
+  <li>Mixed candy bags (like Gott & Blandat) — individual pieces may vary</li>
+  <li><a href="/candy/saltlakrits">Salt licorice</a> — some brands use wheat flour, others don't</li>
+  <li>Chocolate with inclusions (nuts are fine, cookies/wafers are not)</li>
+  <li>Pick-and-mix selections — cross-contamination risk from shared scoops</li>
+</ul>
+
+<h3>Avoid (Contains Gluten)</h3>
+<ul>
+  <li><a href="/candy/kexchoklad">Kexchoklad</a> (chocolate wafer — the name literally means "cookie chocolate")</li>
+  <li><a href="/candy/djungelvraal">Djungelvrål</a> (wheat flour in licorice)</li>
+  <li><a href="/candy/skipper-pipes">Skipper's Pipes</a> (wheat flour in licorice)</li>
+  <li>Any chocolate bar with biscuit, cookie, or wafer pieces</li>
+</ul>
+
+<h2>Tips for Buying Gluten-Free Swedish Candy Online</h2>
+<ul>
+  <li><strong>Check product pages carefully.</strong> Reputable online stores like <a href="/blog/bonbon-nyc-review">BonBon NYC</a> and Sweetish Candy list allergen info on product pages.</li>
+  <li><strong>Ask the store.</strong> Good Swedish candy stores will answer allergen questions directly — it's part of the service culture.</li>
+  <li><strong>Start with BUBS.</strong> If you're celiac and want zero stress, the entire <a href="/brands/bubs">BUBS</a> gummy lineup is your safest starting point.</li>
+  <li><strong>Avoid pick-and-mix if you're highly sensitive.</strong> Shared scoops and bins mean cross-contamination risk. Order pre-packaged items instead.</li>
+  <li><strong>Read Swedish labels using our <a href="/blog/swedish-candy-ingredients-explained">ingredient translation guide</a></strong> — "vete" means wheat, "korn" means barley, "råg" means rye.</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Q: Is glucose syrup (glukossirap) gluten-free?</h3>
+<p>Yes, in practice. Glucose syrup can be derived from wheat, but the manufacturing process removes virtually all gluten protein. EU regulations state that wheat-derived glucose syrup is exempt from gluten allergen labeling because the gluten content is below detectable levels. The Celiac Disease Foundation also confirms glucose syrup is safe for celiacs. So even if you see "glukossirap (vete)" on a Swedish label, it's considered gluten-free.</p>
+
+<h3>Q: Are Swedish Fish gluten-free?</h3>
+<p>Swedish Fish (the American brand) are generally considered gluten-free, but they're not actually Swedish — they're made by Mondelez in the US. For authentic Swedish gummy fish, look for brands like BUBS or Malaco, which use potato starch and are reliably gluten-free.</p>
+
+<h3>Q: Can celiacs safely eat at BonBon NYC and other Swedish candy stores?</h3>
+<p>With caution. The pre-packaged items with clear ingredient labels are safe if they don't contain wheat ingredients. The pick-and-mix bins carry cross-contamination risk from shared scoops. If you're highly sensitive, ask staff for help — most Swedish candy stores are knowledgeable about allergens and can guide you to safe options or use fresh scoops.</p>`,
     heroImage: '/images/blog/gluten-free-candy.jpg',
     heroImageAlt: 'Gluten-free Swedish candy options with certification labels',
     author: 'SwedishCrave',
@@ -5153,10 +6538,10 @@ export const articles: Article[] = [
     estimatedReadTime: 8,
     tags: ['gluten-free', 'celiac', 'dietary', 'allergen', 'safety'],
     relatedArticleSlugs: ['is-swedish-candy-vegan', 'swedish-candy-allergen-guide', 'swedish-candy-ingredients-explained'],
-    relatedCandySlugs: [],
-    relatedBrandSlugs: [],
+    relatedCandySlugs: ['bubs-sour-skulls', 'bubs-watermelon', 'bubs-cool-cola', 'ahlgrens-bilar', 'marabou-mjolkchoklad', 'daim', 'kexchoklad', 'djungelvraal', 'skipper-pipes', 'fazer-blue', 'saltlakrits', 'plopp', 'polly', 'lakerol'],
+    relatedBrandSlugs: ['bubs', 'malaco', 'marabou', 'ahlgrens', 'fazer'],
     priority: 'P1',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 53,
@@ -5167,7 +6552,105 @@ export const articles: Article[] = [
     metaDescription: 'Swedish candy is made with better ingredients, but it\'s still candy. Here\'s an honest sugar content comparison across popular Swedish candy brands.',
     h1: 'How Much Sugar Is in Swedish Candy? (Honest Breakdown)',
     intro: 'Let\'s be real: Swedish candy is still candy. It uses real sugar instead of corn syrup, skips most artificial additives, but it\'s not a health food. Here\'s the honest sugar content breakdown for the most popular Swedish candies.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7, #fff7ed); border-left: 4px solid #f59e0b; padding: 20px; border-radius: 8px; margin: 20px 0;">
+<strong>The Honest Truth:</strong> Swedish candy contains roughly 40–65g of sugar per 100g, depending on the type. That's comparable to American candy (50–80g per 100g). The difference isn't in sugar quantity — it's in sugar quality (real sugar vs. HFCS), fewer total additives, and a culture that promotes moderation through lördagsgodis (Saturday candy). Swedish candy is better candy, not health food.
+</div>
+
+<h2>Let's Get the Numbers Out of the Way</h2>
+<p>We're a Swedish candy site, and we love the stuff. But we're not going to pretend gummies are broccoli. Here are the actual sugar numbers:</p>
+
+<h3>Sugar Content by Category</h3>
+<table style="width:100%; border-collapse:collapse; margin:20px 0;">
+<tr style="background:#f8f9fa; font-weight:bold;">
+<td style="padding:8px; border:1px solid #ddd;">Candy Type</td>
+<td style="padding:8px; border:1px solid #ddd;">Sugar per 100g</td>
+<td style="padding:8px; border:1px solid #ddd;">Calories per 100g</td>
+<td style="padding:8px; border:1px solid #ddd;">Context</td>
+</tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Swedish gummies (BUBS, Malaco)</td><td style="padding:8px; border:1px solid #ddd;">45–55g</td><td style="padding:8px; border:1px solid #ddd;">330–360 kcal</td><td style="padding:8px; border:1px solid #ddd;">Similar to Haribo</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Sour Swedish candy</td><td style="padding:8px; border:1px solid #ddd;">50–60g</td><td style="padding:8px; border:1px solid #ddd;">340–370 kcal</td><td style="padding:8px; border:1px solid #ddd;">Sour coating adds sugar</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Ahlgrens Bilar</td><td style="padding:8px; border:1px solid #ddd;">~55g</td><td style="padding:8px; border:1px solid #ddd;">~350 kcal</td><td style="padding:8px; border:1px solid #ddd;">Marshmallow base</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Marabou Mjölkchoklad</td><td style="padding:8px; border:1px solid #ddd;">~56g</td><td style="padding:8px; border:1px solid #ddd;">~530 kcal</td><td style="padding:8px; border:1px solid #ddd;">Higher cal from fat</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Swedish licorice</td><td style="padding:8px; border:1px solid #ddd;">35–50g</td><td style="padding:8px; border:1px solid #ddd;">300–350 kcal</td><td style="padding:8px; border:1px solid #ddd;">Lower sugar than gummies</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Salt licorice (salmiak)</td><td style="padding:8px; border:1px solid #ddd;">30–45g</td><td style="padding:8px; border:1px solid #ddd;">290–340 kcal</td><td style="padding:8px; border:1px solid #ddd;">Lowest sugar category</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Daim</td><td style="padding:8px; border:1px solid #ddd;">~59g</td><td style="padding:8px; border:1px solid #ddd;">~500 kcal</td><td style="padding:8px; border:1px solid #ddd;">Toffee + chocolate</td></tr>
+</table>
+
+<h3>How Does This Compare to American Candy?</h3>
+<table style="width:100%; border-collapse:collapse; margin:20px 0;">
+<tr style="background:#f8f9fa; font-weight:bold;">
+<td style="padding:8px; border:1px solid #ddd;">American Candy</td>
+<td style="padding:8px; border:1px solid #ddd;">Sugar per 100g</td>
+<td style="padding:8px; border:1px solid #ddd;">vs. Swedish</td>
+</tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Sour Patch Kids</td><td style="padding:8px; border:1px solid #ddd;">~80g</td><td style="padding:8px; border:1px solid #ddd;">30–40% more sugar</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Nerds</td><td style="padding:8px; border:1px solid #ddd;">~93g</td><td style="padding:8px; border:1px solid #ddd;">Nearly double</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Swedish Fish (US)</td><td style="padding:8px; border:1px solid #ddd;">~77g</td><td style="padding:8px; border:1px solid #ddd;">~40% more sugar</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Skittles</td><td style="padding:8px; border:1px solid #ddd;">~76g</td><td style="padding:8px; border:1px solid #ddd;">~35% more sugar</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Haribo Gold-Bears (US)</td><td style="padding:8px; border:1px solid #ddd;">~46g</td><td style="padding:8px; border:1px solid #ddd;">Comparable</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Hershey's Milk Chocolate</td><td style="padding:8px; border:1px solid #ddd;">~56g</td><td style="padding:8px; border:1px solid #ddd;">Comparable to Marabou</td></tr>
+<tr><td style="padding:8px; border:1px solid #ddd;">Reese's Cups</td><td style="padding:8px; border:1px solid #ddd;">~49g</td><td style="padding:8px; border:1px solid #ddd;">Comparable</td></tr>
+</table>
+
+<p><strong>The takeaway:</strong> Swedish gummies have noticeably less sugar than the sweetest American candies (Sour Patch Kids, Nerds, Skittles), roughly comparable sugar to quality gummies like Haribo, and chocolate products are nearly identical in sugar content. The advantage isn't huge, but it's real — especially when compared to American candies that push 80–90g of sugar per 100g.</p>
+
+<h2>Sugar vs. HFCS: Why the Type Matters</h2>
+<p>The sugar content numbers only tell half the story. The <em>type</em> of sweetener matters too.</p>
+<p>American candy relies heavily on high-fructose corn syrup (HFCS), which is cheaper than cane sugar in the US thanks to corn subsidies and sugar tariffs. HFCS is a liquid sweetener that's about 55% fructose and 45% glucose — slightly different from regular sugar (50/50 sucrose).</p>
+<p>Swedish candy uses real sugar (sucrose from sugar beets) and glucose syrup (not HFCS). Why does this matter?</p>
+<ul>
+  <li><strong>Taste:</strong> Sugar produces a cleaner, sharper sweetness that peaks and fades. HFCS creates a more lingering, sometimes cloying sweetness. This is why many people describe Swedish candy as "less sweet" even when the sugar content is similar — it's about the sweetness <em>profile</em>, not just the amount.</li>
+  <li><strong>Metabolic processing:</strong> Some research suggests that the higher fructose content in HFCS may be processed differently by the liver than sucrose. The science is still debated, but the American Heart Association has raised concerns about excessive fructose intake specifically.</li>
+  <li><strong>No controversy:</strong> Nobody has ever protested sugar beet-derived sucrose. HFCS has been the subject of decades of health debate. From a consumer confidence standpoint, real sugar simply has a cleaner reputation.</li>
+</ul>
+<p>Is this a massive health difference? Probably not, if you're eating candy occasionally. But if you eat candy regularly (and let's be honest, many of us do), the cumulative effect of better-quality sweeteners adds up.</p>
+
+<h2>The Lördagsgodis Factor: Sweden's Built-In Portion Control</h2>
+<p>Here's where Swedish candy culture genuinely outshines American candy culture: moderation is built into the system.</p>
+<p><a href="/blog/vipeholm-experiments-explained">Lördagsgodis</a> (Saturday candy) is the Swedish tradition of only eating candy on Saturdays. It originated from the Vipeholm experiments of the 1940s–50s, which demonstrated that <em>frequency</em> of sugar consumption — not just quantity — drives tooth decay. The Swedish Dental Association promoted lördagsgodis as a public health measure, and it stuck. Hard.</p>
+<p>The practical result: Swedes consume about 17 kg (37 lbs) of candy per year — one of the highest rates in the world. But because consumption is concentrated into weekly sessions rather than daily grazing, dental health outcomes are actually quite good. Sweden has lower rates of dental caries than many countries with lower overall candy consumption.</p>
+<p>The lesson isn't that Swedish candy has less sugar. It's that Swedish candy <em>culture</em> has a healthier relationship with sugar. Eat a lot on Saturday, eat nothing Mon–Fri. Your teeth and your body handle concentrated weekly exposure better than constant daily exposure. (This is oversimplified, but the data supports the general principle.)</p>
+
+<h2>Which Swedish Candies Have the Least Sugar?</h2>
+<p>If you're trying to minimize sugar while still enjoying Swedish candy, here are your best bets:</p>
+<ul>
+  <li><strong>Salt licorice (salmiak):</strong> 30–45g sugar per 100g. The salty/mineral flavor means less sugar is needed. <a href="/candy/saltlakrits">Saltlakrits</a> is the lowest-sugar mainstream Swedish candy.</li>
+  <li><strong>Dark licorice:</strong> 35–45g sugar per 100g. Less sweet than gummies.</li>
+  <li><strong>Läkerol:</strong> Sugar-free options available. <a href="/candy/lakerol">Läkerol pastilles</a> use xylitol and sorbitol instead of sugar — genuinely low-calorie.</li>
+  <li><strong>Dark chocolate (70%+):</strong> Higher cocoa content = less sugar. Fazer and Marabou both make dark varieties.</li>
+  <li><strong>BUBS gummies:</strong> On the lower end of gummy sugar content at 45–50g per 100g.</li>
+</ul>
+
+<h3>And the Highest Sugar?</h3>
+<ul>
+  <li><strong>Sour-coated candy:</strong> The sour sugar coating adds 5–10g per 100g on top of the base candy sugar.</li>
+  <li><strong>Foam candy (skumgodis):</strong> Light and airy, but surprisingly sugar-dense per weight since there's less water content.</li>
+  <li><strong>Daim and similar toffee/caramel:</strong> The combination of sugar + fat pushes both sugar and calorie content higher.</li>
+</ul>
+
+<h2>Practical Sugar Advice for Swedish Candy Lovers</h2>
+<p>We're not here to tell you not to eat candy. (We literally sell the stuff.) But here are some pragmatic tips:</p>
+<ul>
+  <li><strong>Adopt lördagsgodis.</strong> Even a partial version — restricting candy to 2–3 days a week instead of daily — makes a meaningful difference for dental health.</li>
+  <li><strong>Weigh your portion.</strong> A typical satisfying session is 100–150g (about 3.5–5 oz). At the pick-and-mix counter, that looks like a nice handful — not a stuffed bag.</li>
+  <li><strong>Mix salty and sweet.</strong> Including some <a href="/candy/saltlakrits">salt licorice</a> in your mix means you eat less total sugar, because your palate gets variety without needing more sweetness.</li>
+  <li><strong>Drink water, not soda.</strong> Swedish tradition is candy + water or candy + coffee (fika). Not candy + Mountain Dew.</li>
+  <li><strong>Quality over quantity.</strong> One piece of excellent <a href="/candy/marabou-mjolkchoklad">Marabou chocolate</a> is more satisfying than a fistful of cheap American Halloween candy. When the candy is better, you need less of it to feel satisfied.</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Q: Is Swedish candy actually lower in sugar than American candy?</h3>
+<p>Slightly, in many cases. Swedish gummies average 45–55g per 100g vs. 60–80g for many American sour/fruit candies. Chocolate is roughly comparable. The bigger difference is sugar type (real sugar vs. HFCS) and overall ingredient quality, not sugar quantity.</p>
+
+<h3>Q: Does "no HFCS" really matter?</h3>
+<p>The health difference between moderate amounts of sucrose and HFCS is probably small. But there are taste, metabolic, and philosophical differences. Real sugar tastes cleaner, doesn't produce the same cloying aftertaste, and isn't the product of a subsidized corn industry. Whether that matters to you is a personal call.</p>
+
+<h3>Q: Are there sugar-free Swedish candy options?</h3>
+<p>Yes. <a href="/candy/lakerol">Läkerol</a> offers sugar-free pastilles sweetened with xylitol and sorbitol. Some specialty brands make sugar-free gummies. But sugar-free candy often uses sugar alcohols (like maltitol), which can cause digestive discomfort in larger quantities. The Swedish approach is more "eat real candy less often" than "eat fake-sugar candy all the time."</p>
+
+<h3>Q: How does the Swedish government handle sugar in candy?</h3>
+<p>Sweden doesn't tax candy specifically (the old "sockerskatt" or sugar tax was abolished in 1993), but public health messaging strongly promotes lördagsgodis and moderate consumption. The dental care system emphasizes prevention, and schools teach the lördagsgodis concept from early childhood. It's culture, not regulation, that controls Swedish sugar intake.</p>`,
     heroImage: '/images/blog/sugar-content.jpg',
     heroImageAlt: 'Sugar content comparison chart for Swedish candy brands',
     author: 'SwedishCrave',
@@ -5176,10 +6659,10 @@ export const articles: Article[] = [
     estimatedReadTime: 9,
     tags: ['sugar', 'nutrition', 'health', 'honest review'],
     relatedArticleSlugs: ['is-swedish-candy-healthier', 'swedish-candy-ingredients-explained'],
-    relatedCandySlugs: [],
-    relatedBrandSlugs: [],
+    relatedCandySlugs: ['bubs-sour-skulls', 'ahlgrens-bilar', 'marabou-mjolkchoklad', 'daim', 'saltlakrits', 'lakerol'],
+    relatedBrandSlugs: ['bubs', 'marabou', 'malaco', 'fazer'],
     priority: 'P2',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 54,
@@ -5190,7 +6673,135 @@ export const articles: Article[] = [
     metaDescription: 'Complete allergen guide for Swedish candy — which brands and products contain nuts, dairy, gluten, soy, and other common allergens.',
     h1: 'Swedish Candy Allergen Guide: Nuts, Dairy, Gluten & More',
     intro: 'If you have food allergies, navigating Swedish candy requires some knowledge. Most gummies are nut-free, many are dairy-free, but chocolate products and some licorice varieties contain common allergens. Here\'s your complete guide.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7, #fff7ed); border-left: 4px solid #f59e0b; padding: 20px; border-radius: 8px; margin: 20px 0;">
+<strong>Key Takeaway:</strong> Swedish candy is generally allergy-friendlier than American candy — most gummies are nut-free, many are dairy-free and gelatin-free, and EU labeling laws require all 14 major allergens to be highlighted in bold. BUBS is the safest all-around brand for allergy sufferers: nut-free, dairy-free, gluten-free, and gelatin-free across their entire lineup.
+</div>
+
+<h2>EU Allergen Labeling: Better Than the US</h2>
+<p>Before diving into specific allergens, it's worth understanding why Swedish candy labels are easier to navigate than American ones.</p>
+<p>The EU requires manufacturers to declare 14 major allergens, and these must be <strong>highlighted</strong> (usually in bold) within the ingredient list. The 14 allergens are: cereals containing gluten, crustaceans, eggs, fish, peanuts, soybeans, milk, tree nuts (almonds, hazelnuts, walnuts, cashews, pecans, Brazil nuts, pistachios, macadamia nuts), celery, mustard, sesame, sulphur dioxide, lupin, and molluscs.</p>
+<p>The US FDA requires only 9 major allergens (adding sesame as of 2023): milk, eggs, fish, crustaceans, tree nuts, peanuts, wheat, soybeans, and sesame. The EU covers 5 additional allergens and requires them in bold — making it easier to spot allergens at a glance on Swedish labels.</p>
+
+<h2>Allergen-by-Allergen Breakdown</h2>
+
+<h3>Nuts (Peanuts & Tree Nuts)</h3>
+<p><strong>Risk level: LOW for gummies, MODERATE for chocolate</strong></p>
+<p>Swedish gummy candy is overwhelmingly nut-free by formulation. <a href="/brands/bubs">BUBS</a>, <a href="/brands/malaco">Malaco</a> gummies, and <a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a> contain no nut ingredients. The risk is cross-contamination — many Swedish candy factories produce both nut-free and nut-containing products on shared equipment.</p>
+<p>Chocolate is the main concern:</p>
+<ul>
+  <li><a href="/candy/marabou-schweizernot">Marabou Schweizernöt</a> — <strong>Contains hazelnuts</strong></li>
+  <li>Marabou Nöt/Cashew varieties — <strong>Contain specific tree nuts</strong></li>
+  <li><a href="/candy/marabou-mjolkchoklad">Marabou Mjölkchoklad</a> (plain) — No nut ingredients, but "may contain traces of nuts" due to shared production lines</li>
+  <li><a href="/candy/daim">Daim</a> — No nut ingredients, but produced in facilities handling nuts</li>
+  <li><a href="/candy/center">Center</a> — Contains nougat with <strong>almonds</strong></li>
+</ul>
+<p><strong>Safest picks for nut allergies:</strong> Stick to BUBS gummies, Ahlgrens Bilar, Malaco gummies, and pre-packaged licorice. Avoid all chocolate unless the label explicitly confirms nut-free production.</p>
+
+<h3>Dairy (Milk)</h3>
+<p><strong>Risk level: LOW for gummies, HIGH for chocolate</strong></p>
+<p>All milk chocolate (by definition) contains dairy. <a href="/candy/marabou-mjolkchoklad">Marabou Mjölkchoklad</a>, <a href="/candy/fazer-blue">Fazer Blue</a>, <a href="/candy/kexchoklad">Kexchoklad</a>, <a href="/candy/plopp">Plopp</a>, and <a href="/candy/dumle">Dumle</a> all contain milk or whey powder.</p>
+<p>Swedish gummies are mostly dairy-free:</p>
+<ul>
+  <li>All <a href="/brands/bubs">BUBS</a> products — Dairy-free ✅</li>
+  <li><a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a> — Dairy-free ✅</li>
+  <li><a href="/candy/malaco-gott-och-blandat">Malaco Gott & Blandat</a> — Dairy-free ✅ (most varieties)</li>
+  <li><a href="/candy/tutti-frutti">Tutti Frutti</a> — Dairy-free ✅</li>
+  <li>Swedish licorice — Generally dairy-free ✅</li>
+</ul>
+<p><strong>Hidden dairy:</strong> Some candy coatings and white chocolate inclusions contain milk solids. Always check "mjölk" (milk), "vassle" (whey), or "smör" (butter) on the label.</p>
+
+<h3>Gluten (Wheat, Barley, Rye)</h3>
+<p><strong>Risk level: LOW for most candy, MODERATE for licorice</strong></p>
+<p>We've covered this extensively in our <a href="/blog/is-swedish-candy-gluten-free">gluten-free Swedish candy guide</a>. The short version: most gummies and chocolate are gluten-free. Licorice is the risk area — <a href="/candy/djungelvraal">Djungelvrål</a> and <a href="/candy/skipper-pipes">Skipper's Pipes</a> contain wheat flour. <a href="/candy/kexchoklad">Kexchoklad</a> is a wafer (gluten). BUBS gummies are all gluten-free.</p>
+
+<h3>Soy</h3>
+<p><strong>Risk level: LOW for gummies, MODERATE for chocolate</strong></p>
+<p>Soy lecithin is the most common emulsifier in chocolate production worldwide, including Swedish chocolate. <a href="/candy/marabou-mjolkchoklad">Marabou</a>, <a href="/candy/fazer-blue">Fazer</a>, <a href="/candy/daim">Daim</a>, and other chocolate products all contain <strong>sojalecitin</strong> (soy lecithin).</p>
+<p>However, the protein content in soy lecithin is extremely low, and most soy-allergic individuals can tolerate it without issues. The EU still requires it to be declared as an allergen, which is the cautious approach.</p>
+<p>Swedish gummies are almost universally soy-free.</p>
+
+<h3>Gelatin</h3>
+<p><strong>Risk level: VARIABLE</strong></p>
+<p>Gelatin isn't technically an "allergen" in the regulatory sense, but it's a major concern for vegans, vegetarians, and people avoiding pork products (halal/kosher). Swedish candy has a strong vegan alternative scene:</p>
+<ul>
+  <li><a href="/brands/bubs">BUBS</a> — All products gelatin-free (use potato starch) ✅</li>
+  <li><a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a> — <strong>Contains pork gelatin</strong> ❌</li>
+  <li><a href="/brands/malaco">Malaco</a> — Mixed. Some products use gelatin, others use starch. Check each product.</li>
+  <li>Swedish licorice — Generally gelatin-free ✅</li>
+  <li>Swedish chocolate — Gelatin-free ✅ (but contains dairy)</li>
+</ul>
+<p>For a complete vegan breakdown, see our <a href="/blog/is-swedish-candy-vegan">vegan Swedish candy guide</a>.</p>
+
+<h3>Eggs</h3>
+<p><strong>Risk level: VERY LOW</strong></p>
+<p>Egg ingredients are extremely rare in Swedish candy. Some specialty nougat or marzipan products may contain egg white, but mainstream Swedish gummies, licorice, and chocolate are egg-free. This is one allergen you rarely need to worry about with Swedish candy.</p>
+
+<h3>Sulfites</h3>
+<p><strong>Risk level: LOW</strong></p>
+<p>Sulphur dioxide and sulfites (E220–E228) are sometimes used in dried fruit candy or as preservatives. They're uncommon in Swedish gummies and chocolate but may appear in candy containing dried fruit pieces or certain flavoring compounds. People with sulfite sensitivity (common in asthmatics) should check labels for "svaveldioxid" or "sulfiter."</p>
+
+<h2>Master Allergen Chart: Popular Swedish Candies</h2>
+<table style="width:100%; border-collapse:collapse; margin:20px 0; font-size:0.9em;">
+<tr style="background:#f8f9fa; font-weight:bold;">
+<td style="padding:6px; border:1px solid #ddd;">Product</td>
+<td style="padding:6px; border:1px solid #ddd;">Nuts</td>
+<td style="padding:6px; border:1px solid #ddd;">Dairy</td>
+<td style="padding:6px; border:1px solid #ddd;">Gluten</td>
+<td style="padding:6px; border:1px solid #ddd;">Soy</td>
+<td style="padding:6px; border:1px solid #ddd;">Gelatin</td>
+</tr>
+<tr><td style="padding:6px; border:1px solid #ddd;">BUBS Sour Skulls</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td></tr>
+<tr><td style="padding:6px; border:1px solid #ddd;">BUBS Watermelon</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td></tr>
+<tr><td style="padding:6px; border:1px solid #ddd;">Ahlgrens Bilar</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">❌ Contains</td></tr>
+<tr><td style="padding:6px; border:1px solid #ddd;">Marabou Mjölk</td><td style="padding:6px; border:1px solid #ddd;">⚠️ Traces</td><td style="padding:6px; border:1px solid #ddd;">❌ Contains</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">❌ Contains</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td></tr>
+<tr><td style="padding:6px; border:1px solid #ddd;">Marabou Schweiz.</td><td style="padding:6px; border:1px solid #ddd;">❌ Contains</td><td style="padding:6px; border:1px solid #ddd;">❌ Contains</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">❌ Contains</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td></tr>
+<tr><td style="padding:6px; border:1px solid #ddd;">Daim</td><td style="padding:6px; border:1px solid #ddd;">⚠️ Traces</td><td style="padding:6px; border:1px solid #ddd;">❌ Contains</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">❌ Contains</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td></tr>
+<tr><td style="padding:6px; border:1px solid #ddd;">Kexchoklad</td><td style="padding:6px; border:1px solid #ddd;">⚠️ Traces</td><td style="padding:6px; border:1px solid #ddd;">❌ Contains</td><td style="padding:6px; border:1px solid #ddd;">❌ Contains</td><td style="padding:6px; border:1px solid #ddd;">❌ Contains</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td></tr>
+<tr><td style="padding:6px; border:1px solid #ddd;">Djungelvrål</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">❌ Contains</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td></tr>
+<tr><td style="padding:6px; border:1px solid #ddd;">Fazer Blue</td><td style="padding:6px; border:1px solid #ddd;">⚠️ Traces</td><td style="padding:6px; border:1px solid #ddd;">❌ Contains</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">❌ Contains</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td></tr>
+<tr><td style="padding:6px; border:1px solid #ddd;">Malaco Gummies</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">⚠️ Check</td></tr>
+<tr><td style="padding:6px; border:1px solid #ddd;">Polly</td><td style="padding:6px; border:1px solid #ddd;">⚠️ Traces</td><td style="padding:6px; border:1px solid #ddd;">❌ Contains</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">❌ Contains</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td></tr>
+<tr><td style="padding:6px; border:1px solid #ddd;">Läkerol</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td><td style="padding:6px; border:1px solid #ddd;">✅ Free</td></tr>
+</table>
+<p>✅ = Free from this allergen | ❌ = Contains this allergen | ⚠️ = May contain traces (cross-contamination risk)</p>
+
+<h2>Reading Swedish Allergen Labels: Key Words</h2>
+<p>When reading Swedish candy labels, look for these words to identify allergens:</p>
+<ul>
+  <li><strong>Mjölk</strong> — Milk</li>
+  <li><strong>Vassle / Vasslepulver</strong> — Whey / Whey powder</li>
+  <li><strong>Vete</strong> — Wheat</li>
+  <li><strong>Korn</strong> — Barley</li>
+  <li><strong>Råg</strong> — Rye</li>
+  <li><strong>Nötter</strong> — Nuts</li>
+  <li><strong>Hasselnötter</strong> — Hazelnuts</li>
+  <li><strong>Mandel</strong> — Almonds</li>
+  <li><strong>Jordnötter</strong> — Peanuts</li>
+  <li><strong>Soja</strong> — Soy</li>
+  <li><strong>Ägg</strong> — Eggs</li>
+  <li><strong>Gelatin</strong> — Gelatin</li>
+  <li><strong>"Kan innehålla spår av..."</strong> — "May contain traces of..."</li>
+</ul>
+<p>EU regulations require all allergens from the 14 major categories to be highlighted in <strong>bold</strong> in the ingredient list. This makes Swedish labels faster to scan than US labels, where allergen formatting varies.</p>
+
+<h2>Special Diets Quick Reference</h2>
+<ul>
+  <li><strong>Halal:</strong> BUBS gummies are gelatin-free and suitable for halal diets. Avoid products with pork gelatin (like Ahlgrens Bilar). Check individual products from Malaco.</li>
+  <li><strong>Kosher:</strong> Similar to halal — gelatin is the main concern. BUBS is the safest brand. Some Swedish licorice is kosher-certified.</li>
+  <li><strong>Low-FODMAP:</strong> Swedish gummies made with glucose syrup and sugar are generally low-FODMAP. Avoid products with sorbitol, maltitol, or other sugar alcohols.</li>
+  <li><strong>Nightshade-free:</strong> Most Swedish candy is nightshade-free. Watch for paprika extract in some colorings.</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Q: Are Swedish candy stores trained on allergens?</h3>
+<p>Good ones are. <a href="/blog/bonbon-nyc-review">BonBon NYC</a> staff are trained to guide customers with dietary restrictions. Sockerbit labels dietary info clearly online. When shopping at pick-and-mix counters, always ask about cross-contamination — shared scoops can transfer allergens between bins.</p>
+
+<h3>Q: Is Swedish candy safer for children with allergies than American candy?</h3>
+<p>In terms of labeling transparency, yes. The EU's 14-allergen bold-labeling system is clearer and more comprehensive than US labeling. In terms of actual allergen content, it depends on the specific product. Swedish gummies from BUBS are excellent for allergen-sensitive children — free from the top 8 US allergens and gelatin. Always verify with the current product label.</p>
+
+<h3>Q: Can I trust "may contain traces" warnings on Swedish candy?</h3>
+<p>These warnings are more standardized in the EU than in the US. In the EU, "may contain traces of" is typically based on actual risk assessment of the production line, not just blanket legal protection. That said, if you have a severe allergy (anaphylaxis risk), treat all trace warnings seriously and consult your allergist.</p>`,
     heroImage: '/images/blog/allergen-guide.jpg',
     heroImageAlt: 'Swedish candy allergen information chart',
     author: 'SwedishCrave',
@@ -5199,10 +6810,10 @@ export const articles: Article[] = [
     estimatedReadTime: 10,
     tags: ['allergens', 'nuts', 'dairy', 'safety', 'dietary'],
     relatedArticleSlugs: ['is-swedish-candy-gluten-free', 'is-swedish-candy-vegan', 'swedish-candy-ingredients-explained'],
-    relatedCandySlugs: [],
-    relatedBrandSlugs: [],
+    relatedCandySlugs: ['bubs-sour-skulls', 'bubs-watermelon', 'ahlgrens-bilar', 'marabou-mjolkchoklad', 'marabou-schweizernot', 'daim', 'kexchoklad', 'djungelvraal', 'fazer-blue', 'polly', 'lakerol', 'dumle'],
+    relatedBrandSlugs: ['bubs', 'malaco', 'marabou', 'ahlgrens', 'fazer'],
     priority: 'P2',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 55,
@@ -5213,7 +6824,126 @@ export const articles: Article[] = [
     metaDescription: 'The EU and US have fundamentally different approaches to food safety. Learn how the precautionary principle shapes Swedish candy vs the US approval system.',
     h1: 'EU vs US Food Regulations: Why Swedish Candy Is Different',
     intro: 'The regulatory difference between the EU and US is the single biggest reason Swedish candy is different from American candy. The EU applies the "precautionary principle" — if there\'s any doubt about safety, it\'s restricted. The US takes the opposite approach.',
-    content: '',
+    content: `<div style="background: linear-gradient(135deg, #fef3c7, #fff7ed); border-left: 4px solid #f59e0b; padding: 20px; border-radius: 8px; margin: 20px 0;">
+<strong>The Core Difference:</strong> The EU's precautionary principle says "prove it's safe before you use it." The US FDA's approach says "it's safe until proven harmful." This philosophical gap explains nearly every ingredient difference between Swedish and American candy — from food dyes to preservatives to emulsifiers. The EU restricts over 1,300 food additives; the US restricts roughly 10–15.
+</div>
+
+<h2>Two Philosophies, Two Candy Aisles</h2>
+<p>Imagine you've invented a new food coloring. It makes gummies a gorgeous shade of electric blue. Lab tests show it's probably safe at normal doses, but a couple of studies in mice suggest possible effects on liver cells at very high doses. What happens next?</p>
+<p><strong>In the US:</strong> The FDA reviews the evidence and likely approves the additive. The mouse studies used unrealistically high doses. No confirmed harm in humans. It gets a GRAS (Generally Recognized As Safe) designation, and manufacturers can use it freely. No warning label. No restrictions beyond a maximum dosage.</p>
+<p><strong>In the EU:</strong> EFSA (European Food Safety Authority) reviews the same evidence and flags the mouse studies as a concern. Under the precautionary principle, the additive is either rejected, approved with strict limits and a mandatory warning label, or approved for a limited period pending further research. Manufacturers, looking at the warning label requirement, decide it's easier to use natural alternatives.</p>
+<p>This difference isn't about one system being "right" and the other "wrong." It's about risk tolerance. The EU is more cautious; the US is more permissive. Both approaches have trade-offs. But the practical result is that Swedish candy ends up with simpler, cleaner ingredient lists — not because of any moral superiority, but because the regulatory environment makes natural ingredients the path of least resistance.</p>
+
+<h2>The Regulatory Bodies Compared</h2>
+
+<h3>EFSA (European Food Safety Authority)</h3>
+<p>EFSA was established in 2002 after several European food safety scandals (BSE/mad cow disease, dioxin contamination). Its structure deliberately separates <strong>risk assessment</strong> (EFSA's job) from <strong>risk management</strong> (the European Commission's job). This means the scientists who evaluate safety don't also make the political decisions about what to ban.</p>
+<p>Key features:</p>
+<ul>
+  <li>All food additives require pre-approval before use</li>
+  <li>Every additive gets an E-number and must be listed on labels</li>
+  <li>All approved additives are re-evaluated on a rolling basis using current science</li>
+  <li>14 major allergens must be declared in bold on all food labels</li>
+  <li>The precautionary principle: if safety is uncertain, restrict first and study later</li>
+</ul>
+
+<h3>FDA (Food and Drug Administration)</h3>
+<p>The FDA has been regulating food since 1906 (Pure Food and Drug Act). It handles both risk assessment and risk management — a combined role that critics say creates conflicts of interest.</p>
+<p>Key features:</p>
+<ul>
+  <li>The GRAS system allows manufacturers to self-certify ingredients as safe without FDA pre-approval</li>
+  <li>Additives are approved until proven harmful</li>
+  <li>Re-evaluation of previously approved additives is infrequent and not systematic</li>
+  <li>9 major allergens must be declared (as of 2023, with the addition of sesame)</li>
+  <li>No equivalent to the precautionary principle — the burden of proof is on demonstrating harm</li>
+</ul>
+
+<h3>The GRAS Loophole</h3>
+<p>Perhaps the most significant difference is the GRAS system. In the US, a food manufacturer can determine that an ingredient is "Generally Recognized As Safe" without FDA review. An estimated 1,000+ food additives have entered the American food supply through the GRAS self-certification process, with no independent FDA safety assessment. The EU has no equivalent — every single food additive requires EFSA pre-approval.</p>
+
+<h2>What's Banned in the EU but Legal in the US?</h2>
+<p>This is where the candy aisle diverges most dramatically. Here are the key substances that affect candy:</p>
+
+<h3>Titanium Dioxide (E171)</h3>
+<p><strong>EU:</strong> Banned as a food additive since August 2022. EFSA could not rule out genotoxicity (potential DNA damage). Used to be common in white coatings, frosting, and gum.</p>
+<p><strong>US:</strong> Legal at up to 1% by weight. Found in candy corn, white M&Ms, chewing gum, frosted snacks, and hundreds of other products.</p>
+<p><strong>Swedish candy impact:</strong> Minimal. Swedish candy rarely needed white pigmentation. Affected products reformulated with rice starch or natural alternatives.</p>
+
+<h3>Potassium Bromate</h3>
+<p><strong>EU:</strong> Banned since 1990. Classified as a possible human carcinogen (Group 2B) by the International Agency for Research on Cancer.</p>
+<p><strong>US:</strong> Legal. Used as a flour improver in bread and baked goods. Not directly used in candy, but relevant to candy-adjacent products like wafers and cookies.</p>
+
+<h3>BHA and BHT (Preservatives)</h3>
+<p><strong>EU:</strong> BHA is restricted; BHT is limited. Both are classified as possible carcinogens.</p>
+<p><strong>US:</strong> Widely used as preservatives in processed foods, including some candy and chewing gum.</p>
+<p><strong>Swedish candy impact:</strong> Most Swedish candy relies on sugar's natural preservative properties rather than chemical preservatives.</p>
+
+<h3>Azodicarbonamide (ADA)</h3>
+<p><strong>EU:</strong> Banned. Also banned in Australia and Singapore.</p>
+<p><strong>US:</strong> Legal as a dough conditioner. Not directly used in candy, but found in products like Subway bread (until 2014 when they removed it after public pressure).</p>
+
+<h3>Synthetic Food Dyes (with Restrictions)</h3>
+<p><strong>EU:</strong> Red 40, Yellow 5, Yellow 6, and other synthetic dyes are <em>technically</em> legal but require mandatory warning labels: "may have an adverse effect on activity and attention in children." Stricter usage limits than the US.</p>
+<p><strong>US:</strong> Approved with no warning labels. The FDA announced a voluntary phase-out plan in April 2025, targeting elimination by end of 2027 — but compliance is not mandatory.</p>
+<p><strong>Swedish candy impact:</strong> The warning label requirement has been so effective that virtually no Swedish manufacturer uses synthetic dyes. Why slap a scary label on your product when beetroot juice works? See our <a href="/blog/artificial-colors-swedish-vs-american">full artificial colors comparison</a>.</p>
+
+<h2>Labeling: What You See Is What You Get</h2>
+<p>EU food labeling is more detailed and standardized than US labeling in several key ways:</p>
+
+<h3>Nutritional Information</h3>
+<p>EU labels show values per 100g (standardized, easy to compare between products). US labels show values per "serving size" (which manufacturers define, making comparisons harder). A serving of one candy might be "3 pieces" while another is "28g" — good luck comparing those quickly.</p>
+
+<h3>Allergen Declaration</h3>
+<p>EU: 14 allergens, bolded in the ingredient list. US: 9 allergens, format varies. The EU system is faster to scan and catches more allergens, including celery, mustard, lupin, and molluscs that the US doesn't require.</p>
+
+<h3>Country of Origin</h3>
+<p>EU labeling requires more detailed origin information, including where the product was manufactured and, for certain products, where key ingredients were sourced. This helps consumers verify that Swedish candy actually comes from Sweden.</p>
+
+<h3>E-Number Transparency</h3>
+<p>Every food additive in the EU has an E-number that must be listed. This creates a searchable, standardized system — you can look up exactly what E621 is (monosodium glutamate) or what E330 is (citric acid). The US has no equivalent system, and ingredient names can be vague ("natural flavors" can encompass hundreds of compounds).</p>
+
+<h2>How This Shapes Swedish Candy</h2>
+<p>The cumulative effect of EU regulations on Swedish candy manufacturing is significant:</p>
+<ul>
+  <li><strong>Simpler formulations:</strong> When you have to prove every ingredient is safe, and label everything transparently, manufacturers naturally gravitate toward simpler recipes with fewer additives.</li>
+  <li><strong>Natural colorings:</strong> The warning label requirement on synthetic dyes has pushed Swedish candy toward fruit and plant-based colorings as the default, not the exception.</li>
+  <li><strong>Real sugar:</strong> EU production quotas historically limited HFCS use, and consumer preference has kept it out even after quotas ended in 2017.</li>
+  <li><strong>Better emulsifiers:</strong> Swedish chocolate uses cocoa butter and soy lecithin rather than cheaper alternatives like PGPR that are more common in US mass-market chocolate.</li>
+  <li><strong>Transparent labeling:</strong> Swedish candy packages tell you exactly what's inside, in a format that's easy to understand. No guessing, no vague categories.</li>
+</ul>
+
+<h2>The US Is Slowly Catching Up</h2>
+<p>It's worth noting that the US is moving — slowly — toward stricter food regulations:</p>
+<ul>
+  <li><strong>2023:</strong> Sesame added as the 9th major allergen requiring declaration.</li>
+  <li><strong>January 2025:</strong> FDA formally revoked approval for Red No. 3, effective January 2027.</li>
+  <li><strong>April 2025:</strong> FDA and HHS announced a voluntary phase-out of eight petroleum-based food dyes by end of 2027.</li>
+  <li><strong>State level:</strong> California's AB 418 (2023) banned four food additives including Red 3, brominated vegetable oil, potassium bromate, and propylparaben in food sold in the state.</li>
+</ul>
+<p>The direction is clear. American food regulation is slowly moving toward the EU model. But "slowly" means it could take years or decades to reach parity. In the meantime, buying Swedish candy is a shortcut to the ingredient standards that US regulators are working toward.</p>
+
+<h2>What This Means for You as a Consumer</h2>
+<p>Understanding EU vs US regulations helps you make informed choices:</p>
+<ul>
+  <li><strong>Swedish candy isn't magic.</strong> It's still candy, still high in sugar, still an indulgence. But the regulatory framework ensures that the ingredients used are held to a higher standard of safety verification.</li>
+  <li><strong>EU labeling helps you.</strong> The E-number system, 14-allergen bold labeling, and per-100g nutritional info make it easier to know exactly what you're eating.</li>
+  <li><strong>The precautionary principle protects you differently.</strong> It's a more conservative approach to food safety. Whether that's "better" depends on how much uncertainty you're comfortable with in your food supply.</li>
+  <li><strong>"Banned in Europe" doesn't always mean "dangerous."</strong> Some EU bans are based on genuine safety concerns (titanium dioxide). Others reflect a lower risk tolerance that some scientists consider overly cautious. The truth is usually nuanced.</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Q: Is European food actually safer than American food?</h3>
+<p>It's governed by a more cautious regulatory framework. Whether "more cautious" equals "safer" depends on your perspective. EU-approved foods have undergone stricter pre-market safety assessments and are subject to more ongoing scrutiny. But the US food supply is also extensively tested and most people consume FDA-approved foods without issues. The difference is at the margins — the additives that one system approves and the other doesn't.</p>
+
+<h3>Q: Why doesn't the US just adopt EU standards?</h3>
+<p>Political and economic complexity. The US food industry is massive, and major reformulation costs affect thousands of companies. The GRAS system is deeply embedded in US regulatory culture. Agricultural subsidies (especially corn) make ingredients like HFCS artificially cheap. And the FDA's institutional culture favors demonstrated harm over precautionary restriction. Change is happening, but structural reform takes time.</p>
+
+<h3>Q: Does Sweden have even stricter rules than the rest of the EU?</h3>
+<p>Swedish food regulations follow EU law — the rules are the same across all 27 member states. However, Swedish consumer culture is more ingredient-conscious than many EU countries, which pushes manufacturers to exceed minimum requirements. Swedish brands often reformulate proactively, before regulations force them to. The culture leads the regulation, not the other way around.</p>
+
+<h3>Q: If I buy Swedish candy in the US, does it still meet EU standards?</h3>
+<p>Yes, if it's actually imported from Sweden. Genuine Swedish candy is manufactured under EU regulations regardless of where it's sold. The ingredient list is the same whether you buy it in Stockholm or New York. This is one of the key advantages of choosing Swedish candy — you're getting EU-standard ingredients without having to move to Europe.</p>`,
     heroImage: '/images/blog/eu-vs-us-regulations.jpg',
     heroImageAlt: 'EU and US flags with food regulation comparison graphics',
     author: 'SwedishCrave',
@@ -5222,10 +6952,10 @@ export const articles: Article[] = [
     estimatedReadTime: 13,
     tags: ['EU regulations', 'FDA', 'food policy', 'precautionary principle'],
     relatedArticleSlugs: ['red-40-swedish-candy', 'artificial-colors-swedish-vs-american', 'banned-ingredients-american-candy'],
-    relatedCandySlugs: [],
-    relatedBrandSlugs: [],
+    relatedCandySlugs: ['marabou-mjolkchoklad', 'bubs-sour-skulls'],
+    relatedBrandSlugs: ['bubs', 'marabou'],
     priority: 'P2',
-    status: 'draft',
+    status: 'published',
   },
   {
     id: 56,
