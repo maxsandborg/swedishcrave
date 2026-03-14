@@ -291,6 +291,37 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
         </section>
       )}
 
+      {/* BreadcrumbList Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://www.swedishcrave.com',
+              },
+              {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Candy',
+                item: 'https://www.swedishcrave.com/candy',
+              },
+              {
+                '@type': 'ListItem',
+                position: 3,
+                name: candy.name,
+                item: `https://www.swedishcrave.com/candy/${candy.slug}`,
+              },
+            ],
+          }),
+        }}
+      />
+
       {/* JSON-LD */}
       <script
         type="application/ld+json"

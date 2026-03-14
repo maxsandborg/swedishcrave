@@ -44,6 +44,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          defer
+          data-domain="swedishcrave.com"
+          src="https://plausible.io/js/script.js"
+        />
+      </head>
       <body className={`${inter.className} bg-sc-bg text-sc-text`}>
         <Header />
         <main className="flex-grow">{children}</main>

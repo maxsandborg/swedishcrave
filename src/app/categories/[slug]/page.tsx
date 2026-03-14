@@ -111,6 +111,37 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
         </Link>
       </section>
 
+      {/* BreadcrumbList Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://www.swedishcrave.com',
+              },
+              {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Categories',
+                item: 'https://www.swedishcrave.com/categories',
+              },
+              {
+                '@type': 'ListItem',
+                position: 3,
+                name: category.name,
+                item: `https://www.swedishcrave.com/categories/${category.slug}`,
+              },
+            ],
+          }),
+        }}
+      />
+
       {/* JSON-LD */}
       <script
         type="application/ld+json"

@@ -295,6 +295,37 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           }),
         }}
       />
+
+      {/* BreadcrumbList Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://www.swedishcrave.com',
+              },
+              {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Blog',
+                item: 'https://www.swedishcrave.com/blog',
+              },
+              {
+                '@type': 'ListItem',
+                position: 3,
+                name: article.title,
+                item: `https://www.swedishcrave.com/blog/${article.slug}`,
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 }
