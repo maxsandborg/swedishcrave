@@ -37,6 +37,9 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     title: `${brand.name} — Swedish Candy Brand`,
     description: brand.description,
+    alternates: {
+      canonical: `/brands/${brand.slug}`,
+    },
     keywords: [brand.name, 'Swedish candy', 'Swedish candy brand', brand.country],
     openGraph: {
       type: 'website',

@@ -18,9 +18,7 @@ export const metadata: Metadata = {
     'Swedish candy, Nordic sweets, candy reviews, where to buy Swedish candy, BUBS, Marabou, Malaco',
   authors: [{ name: 'SwedishCrave' }],
   creator: 'SwedishCrave',
-  alternates: {
-    canonical: '/',
-  },
+  alternates: {},
   openGraph: {
     type: 'website',
     locale: 'en_US',

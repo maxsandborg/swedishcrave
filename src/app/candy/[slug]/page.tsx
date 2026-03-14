@@ -32,6 +32,9 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     title: `${candy.name} Review — Swedish Candy`,
     description: candy.description,
+    alternates: {
+      canonical: `/candy/${candy.slug}`,
+    },
     keywords: [
       candy.name,
       candy.brand,

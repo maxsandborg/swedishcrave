@@ -1855,7 +1855,7 @@ export const articles: Article[] = [
 
 <h2>Why Swedish Ingredient Lists Look Different</h2>
 <p>Pick up a bag of <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> and compare it to a bag of Sour Patch Kids. The difference is immediately visible: the Swedish list is shorter, the names are more recognizable, and there's a conspicuous absence of coded numbers and chemical-sounding compounds.</p>
-<p>This isn't marketing magic — it's regulation. The EU requires all food additives to be identified by E-numbers, and the <a href="/blog/eu-vs-us-food-regulations">European Food Safety Authority (EFSA)</a> applies a precautionary principle that restricts or requires warning labels for many ingredients the US FDA considers safe. Swedish manufacturers have responded by reformulating with simpler ingredients, and Swedish consumers have come to expect it.</p>
+<p>This isn't marketing magic — it's regulation. The EU requires all food additives to be identified by E-numbers, and the <a href="/blog/eu-food-regulations-vs-us">European Food Safety Authority (EFSA)</a> applies a precautionary principle that restricts or requires warning labels for many ingredients the US FDA considers safe. Swedish manufacturers have responded by reformulating with simpler ingredients, and Swedish consumers have come to expect it.</p>
 <p>The result: Swedish candy is still candy (we're not pretending gummies are kale), but the ingredient lists read more like a recipe and less like a chemistry exam.</p>
 
 <h2>The Swedish Ingredient Label Dictionary</h2>
@@ -1944,7 +1944,7 @@ export const articles: Article[] = [
 <ul>
   <li><strong>High-fructose corn syrup (HFCS):</strong> Virtually nonexistent. Swedish candy uses real sugar (socker) and glucose syrup.</li>
   <li><strong>Red 40, Yellow 5, Yellow 6:</strong> <a href="/blog/red-40-swedish-candy">Extremely rare</a>. Natural colorings are used instead.</li>
-  <li><strong>Titanium dioxide (E171):</strong> <a href="/blog/eu-vs-us-food-regulations">Banned in the EU since 2022</a>. Still used in American candy for white coloring.</li>
+  <li><strong>Titanium dioxide (E171):</strong> <a href="/blog/eu-food-regulations-vs-us">Banned in the EU since 2022</a>. Still used in American candy for white coloring.</li>
   <li><strong>TBHQ (tert-Butylhydroquinone):</strong> Preservative found in some US candy. Not commonly used in Swedish products.</li>
   <li><strong>Shellac/confectioner's glaze:</strong> Uncommon. Swedish candy prefers plant-based wax glazes.</li>
   <li><strong>PGPR (polyglycerol polyricinoleate):</strong> The controversial cocoa butter substitute found in many American chocolates (including Hershey's). Swedish chocolate brands like <a href="/brands/marabou">Marabou</a> use actual cocoa butter instead.</li>
@@ -3271,7 +3271,7 @@ export const articles: Article[] = [
 
 <h3>6. <a href="/candy/kexchoklad">Kexchoklad</a> (Chocolate Wafer)</h3>
 <p><strong>Approachability: 5/5 | Flavor: Crispy wafer + milk chocolate</strong></p>
-<p>Think of it as Sweden\'s Kit-Kat, except the chocolate is better and the wafer is crispier. Kexchoklad has been a Swedish staple since 1938, and it\'s the kind of candy that disappears before you realize you\'ve eaten three. The wafer-to-chocolate ratio is spot-on, and it pairs perfectly with coffee (Swedes would approve — look up <a href="/blog/fika-candy-swedish-culture">fika culture</a>). Simple, unpretentious, and incredibly moreish.</p>
+<p>Think of it as Sweden\'s Kit-Kat, except the chocolate is better and the wafer is crispier. Kexchoklad has been a Swedish staple since 1938, and it\'s the kind of candy that disappears before you realize you\'ve eaten three. The wafer-to-chocolate ratio is spot-on, and it pairs perfectly with coffee (Swedes would approve — look up <a href="/blog/fika-and-swedish-candy">fika culture</a>). Simple, unpretentious, and incredibly moreish.</p>
 
 <h3>7. <a href="/candy/plopp">Plopp</a> (Chocolate Toffee)</h3>
 <p><strong>Approachability: 5/5 | Flavor: Soft toffee + milk chocolate</strong></p>
@@ -3292,7 +3292,7 @@ export const articles: Article[] = [
 <h2>What to Try After Your First Picks</h2>
 <p>Once you\'ve conquered the beginner list, here\'s your natural progression:</p>
 <p><strong>Ready for more sour?</strong> Move to <a href="/blog/best-swedish-sour-candy">our sour candy ranking</a> — BUBS Sour Apple and Malaco Sura Skallar are excellent next steps.</p>
-<p><strong>Curious about chocolate?</strong> Try <a href="/candy/marabou-schweizernot">Marabou Schweizernöt</a> (hazelnut) or explore our <a href="/blog/best-swedish-chocolate-bars">best chocolate bars ranking</a>.</p>
+<p><strong>Curious about chocolate?</strong> Try <a href="/candy/marabou-schweizernot">Marabou Schweizernöt</a> (hazelnut) or explore our <a href="/blog/best-swedish-chocolate">best chocolate bars ranking</a>.</p>
 <p><strong>Feeling brave?</strong> <a href="/candy/djungelvraal">Djungelvrål</a> (Jungle Roar) is your first step into salty licorice territory. It\'s sour, salty, and intensely licorice. You\'ll either hate it or become obsessed. Read our <a href="/blog/what-is-salmiak">salmiak guide</a> before diving in.</p>
 <p><strong>Going full Swedish?</strong> The goal is <a href="/blog/swedish-candy-ingredients-explained">lösgodis</a> — Sweden\'s legendary pick-and-mix culture where you create your own bag from 150+ varieties. It\'s the ultimate Swedish candy experience.</p>
 
@@ -3306,7 +3306,7 @@ export const articles: Article[] = [
 <p>Different, not necessarily "better" — though most Americans who try Swedish candy say the flavors are more complex, the textures more interesting, and the ingredient lists noticeably cleaner. Swedish candy uses real sugar instead of corn syrup, natural colorings instead of artificial dyes, and generally fewer additives. Read our <a href="/blog/european-candy-vs-american">European vs American candy comparison</a> for the full breakdown.</p>
 
 <h3>What if I don\'t like licorice?</h3>
-<p>Good news: most of the candy on this list has zero licorice. Swedish candy is way more than just salty licorice — that\'s just the part that gets the most attention because of the shock-value reaction videos. Check our <a href="/blog/best-swedish-candy-no-licorice">best candy if you hate licorice</a> guide for a complete licorice-free shopping list.</p>
+<p>Good news: most of the candy on this list has zero licorice. Swedish candy is way more than just salty licorice — that\'s just the part that gets the most attention because of the shock-value reaction videos. Check our <a href="/blog/best-swedish-candy-for-licorice-haters">best candy if you hate licorice</a> guide for a complete licorice-free shopping list.</p>
 
 <h3>How much does Swedish candy cost?</h3>
 <p>Expect to pay $8-15 per bag when ordering online, depending on the brand and retailer. It\'s more expensive than American candy because of import costs, but most people find the quality justifies the price. Many stores offer starter boxes in the $25-35 range that include multiple varieties — the best value for beginners.</p>
@@ -4020,7 +4020,7 @@ export const articles: Article[] = [
 <p>Go with Sockerbit or BonBon NYC for presentation value. Add a card that says "you\'re now legally obligated to eat candy from a country that has a national candy day" (it\'s true — Sweden celebrates Godisdagen). Mid-range budget is perfect here.</p>
 
 <h3>Holiday / Christmas</h3>
-<p>Premium boxes from Mums or Swedish Candy Land work best for holidays because the quantity is generous enough for sharing. If you\'re buying for multiple people, the BUBS mix bags are great stocking stuffers at the budget tier. For something special, look for Swedish candy advent calendars — they exist and they\'re wonderful. See our guide to <a href="/blog/swedish-candy-advent-calendars">Swedish candy advent calendars</a>.</p>
+<p>Premium boxes from Mums or Swedish Candy Land work best for holidays because the quantity is generous enough for sharing. If you\'re buying for multiple people, the BUBS mix bags are great stocking stuffers at the budget tier. For something special, look for Swedish candy advent calendars — they exist and they\'re wonderful. See our guide to <a href="/blog/swedish-candy-advent-calendar">Swedish candy advent calendars</a>.</p>
 
 <h3>Corporate / Coworker Gifts</h3>
 <p>The Marabou 3-pack is ideal — it\'s universally safe (everyone likes chocolate), professionally presentable, and at a price point that doesn\'t make things awkward. Avoid anything with salmiak for corporate gifts unless you want to create a very entertaining but slightly chaotic break room situation.</p>
@@ -5574,7 +5574,7 @@ export const articles: Article[] = [
 <h2>Houston</h2>
 
 <h3>Fika & Candy</h3>
-<p>Fika & Candy is a Houston-based Swedish candy company that brings the <a href="/blog/fika-candy-swedish-culture">fika tradition</a> to Texas. The name combines Sweden's beloved coffee-and-sweets ritual with the actual candy, and they offer curated boxes and individual Swedish candy for delivery. Check fikacandy.com for their current selection and shipping options.</p>
+<p>Fika & Candy is a Houston-based Swedish candy company that brings the <a href="/blog/fika-and-swedish-candy">fika tradition</a> to Texas. The name combines Sweden's beloved coffee-and-sweets ritual with the actual candy, and they offer curated boxes and individual Swedish candy for delivery. Check fikacandy.com for their current selection and shipping options.</p>
 
 <h3>IKEA Houston</h3>
 <p>The Houston IKEA carries the same Swedish candy selection as other locations. It's on I-45 near the Galleria area — convenient enough for a dedicated candy run if you're already in the neighborhood.</p>
@@ -5866,7 +5866,7 @@ export const articles: Article[] = [
 
 <h2>The Dietary Edge</h2>
 <p>One of BonBon's strongest selling points — and something that often gets lost in the TikTok hype — is the ingredient quality. Over 40% of their candy is gelatin-free and gluten-free. Everything is free from GMOs, trans fat, and high-fructose corn syrup. For Americans used to candy loaded with Red 40 and HFCS, this is a genuine upgrade.</p>
-<p>BonBon staff are trained on dietary restrictions and can quickly guide you to options that work for vegan, halal, gluten-free, or allergen-sensitive diets. This is where Swedish candy in general shines — the EU regulations that govern these products are stricter than US FDA standards, resulting in <a href="/blog/eu-vs-us-food-regulations">cleaner ingredient lists</a> across the board.</p>
+<p>BonBon staff are trained on dietary restrictions and can quickly guide you to options that work for vegan, halal, gluten-free, or allergen-sensitive diets. This is where Swedish candy in general shines — the EU regulations that govern these products are stricter than US FDA standards, resulting in <a href="/blog/eu-food-regulations-vs-us">cleaner ingredient lists</a> across the board.</p>
 
 <h2>Our Rating</h2>
 <table style="width:100%; border-collapse:collapse; margin:20px 0;">
@@ -6140,7 +6140,7 @@ export const articles: Article[] = [
   <li><strong>April 2025:</strong> HHS and the FDA announced plans to phase out eight petroleum-based food dyes — including Red 40, Yellow 5, Yellow 6, Blue 1, Blue 2, and Green 3 — by the end of 2027.</li>
   <li><strong>Important caveat:</strong> The phase-out is <strong>voluntary</strong>. The FDA is asking manufacturers to pledge to remove synthetic dyes, not mandating it. The MAHA (Make America Healthy Again) Commission Report cited links between synthetic dyes and behavioral issues in children.</li>
 </ul>
-<p>Swedish candy has been doing what the FDA is now asking American companies to do — for decades. Not because someone forced them, but because Swedish consumers demanded it and <a href="/blog/eu-vs-us-food-regulations">EU regulations made natural alternatives the smarter business choice</a>.</p>
+<p>Swedish candy has been doing what the FDA is now asking American companies to do — for decades. Not because someone forced them, but because Swedish consumers demanded it and <a href="/blog/eu-food-regulations-vs-us">EU regulations made natural alternatives the smarter business choice</a>.</p>
 
 <h2>How Swedish Candy Colors Without Chemicals</h2>
 <p>Swedish candy manufacturers have developed a sophisticated toolkit of natural colorants. Here's what creates those vibrant colors without synthetic dyes:</p>
@@ -6176,7 +6176,7 @@ export const articles: Article[] = [
 
 <h2>Titanium Dioxide: The Banned White</h2>
 <p>Titanium dioxide (E171) deserves special mention. This white pigment was used extensively in candy, frosting, and chewing gum for its bright white appearance. In 2022, the EU banned it as a food additive after EFSA could not rule out genotoxicity concerns — meaning it might damage DNA at the cellular level.</p>
-<p>The US FDA still permits titanium dioxide at up to 1% by weight. You'll find it in American candy corn, white M&Ms, frosted snacks, and many other products. It's one of the starkest examples of <a href="/blog/eu-vs-us-food-regulations">the EU-US regulatory gap</a>: the EU said "we can't prove it's safe enough" while the FDA said "you haven't proven it's dangerous enough."</p>
+<p>The US FDA still permits titanium dioxide at up to 1% by weight. You'll find it in American candy corn, white M&Ms, frosted snacks, and many other products. It's one of the starkest examples of <a href="/blog/eu-food-regulations-vs-us">the EU-US regulatory gap</a>: the EU said "we can't prove it's safe enough" while the FDA said "you haven't proven it's dangerous enough."</p>
 <p>Swedish candy never relied heavily on titanium dioxide anyway — most Swedish candies simply aren't white, and those that need light coloring use rice starch or other alternatives.</p>
 
 <h2>What This Means for You</h2>
@@ -7894,7 +7894,7 @@ export const articles: Article[] = [
 <li><strong>Whole Foods</strong> — Largest selection of dye-free candy. SmartSweets, YumEarth, Surf Sweets, and some Swedish imports.</li>
 <li><strong>Trader Joe's</strong> — Scandinavian Swimmers, plus their own house-brand naturally colored gummies.</li>
 <li><strong>Target</strong> — Growing dye-free section. SmartSweets, Unreal, and YumEarth widely available.</li>
-<li><strong>IKEA</strong> — Sells authentic Swedish candy including <a href="/blog/swedish-candy-at-ikea">BUBS, Marabou, and other brands</a>. All naturally colored.</li>
+<li><strong>IKEA</strong> — Sells authentic Swedish candy including <a href="/blog/swedish-candy-at-ikea-guide">BUBS, Marabou, and other brands</a>. All naturally colored.</li>
 </ul>
 
 <h3>Online</h3>

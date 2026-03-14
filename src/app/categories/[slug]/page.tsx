@@ -20,6 +20,9 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     title: `${category.name} Swedish Candy — Reviews & Ratings`,
     description: category.description,
+    alternates: {
+      canonical: `/categories/${category.slug}`,
+    },
     keywords: [category.name, 'Swedish candy', `Swedish ${category.name.toLowerCase()}`, 'candy reviews'],
     openGraph: {
       type: 'website',
