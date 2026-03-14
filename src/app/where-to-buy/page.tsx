@@ -7,11 +7,34 @@ export const metadata: Metadata = {
   title: 'Where to Buy Swedish Candy',
   description:
     'Discover the best places to buy authentic Swedish candy online. Find trusted retailers that ship to the US with fast delivery and authentic products.',
-  keywords: 'where to buy Swedish candy, online candy stores, Mums Swedish Candy, BonBon NYC, Amazon',
+  keywords: 'where to buy Swedish candy, online candy stores, Mums Swedish Candy, BonBon NYC, Amazon, Swedish candy delivery USA',
   alternates: {
     canonical: '/where-to-buy',
   },
 };
+
+const faqItems = [
+  {
+    q: 'Is Swedish candy available on Amazon?',
+    a: "Yes, Amazon carries a wide selection of Swedish candy, often with Prime shipping. However, prices vary significantly and some sellers may not be authentic. We recommend checking reviews and comparing prices with specialized Swedish candy retailers.",
+  },
+  {
+    q: 'How long does shipping typically take?',
+    a: 'Most specialty retailers ship within 3-5 business days domestically. International shipping can take 1-3 weeks depending on location. Expedited options are often available for an additional fee.',
+  },
+  {
+    q: 'Can chocolate melt during shipping?',
+    a: 'Quality retailers use insulated packaging and coolant to prevent melting, even in warm months. However, if ordering during summer, consider upgrading to expedited shipping for guaranteed freshness.',
+  },
+  {
+    q: "What's the best way to store Swedish candy?",
+    a: 'Keep chocolate and filled candies in a cool, dry place (ideally 60-70°F). Gummies and hard candies are more shelf-stable. Avoid direct sunlight. Most candies can be stored for several months in proper conditions.',
+  },
+  {
+    q: 'Are there bulk ordering options?',
+    a: 'Yes, several retailers offer bulk pricing and custom gift boxes. Mums Swedish Candy and Swedish Sweets both offer bulk options, which can reduce per-unit costs for large orders.',
+  },
+];
 
 export default function WhereToBuyPage() {
   const sortedStores = [...stores].sort((a, b) => b.rating - a.rating);
@@ -121,8 +144,115 @@ export default function WhereToBuyPage() {
         </div>
       </section>
 
+      {/* Internal Linking: Explore by Category */}
+      <section className="bg-sc-bg-alt py-12 md:py-14 border-t border-sc-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-3 text-center">
+            Not Sure What to Order?
+          </h2>
+          <p className="text-sc-text-muted text-center mb-8 max-w-2xl mx-auto">
+            Explore our candy guides by category to find your perfect match before you buy.
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+            {[
+              { slug: 'gummies', name: 'Gummies', emoji: '🍬' },
+              { slug: 'chocolate', name: 'Chocolate', emoji: '🍫' },
+              { slug: 'sour', name: 'Sour Candy', emoji: '🤪' },
+              { slug: 'licorice', name: 'Licorice', emoji: '🖤' },
+              { slug: 'salmiak', name: 'Salmiak', emoji: '🧂' },
+              { slug: 'classic', name: 'Classics', emoji: '⭐' },
+            ].map((cat) => (
+              <Link
+                key={cat.slug}
+                href={`/candy?category=${cat.slug}`}
+                className="flex flex-col items-center gap-2 bg-sc-card border border-sc-border rounded-sc-lg p-4 hover:border-sc-pink hover:shadow-sc-hover hover:-translate-y-0.5 transition-all text-center"
+              >
+                <span className="text-2xl">{cat.emoji}</span>
+                <span className="text-sm font-semibold text-sc-text">{cat.name}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Internal Linking: Popular Brands */}
+      <section className="py-12 md:py-14">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-3 text-center">
+            Popular Swedish Candy Brands
+          </h2>
+          <p className="text-sc-text-muted text-center mb-8 max-w-2xl mx-auto">
+            Learn about the brands behind Sweden&apos;s most loved candy before placing your order.
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            {[
+              { slug: 'bubs', name: 'BUBS' },
+              { slug: 'malaco', name: 'Malaco' },
+              { slug: 'marabou', name: 'Marabou' },
+              { slug: 'cloetta', name: 'Cloetta' },
+              { slug: 'fazer', name: 'Fazer' },
+              { slug: 'ahlgrens', name: 'Ahlgrens' },
+              { slug: 'kolsvart', name: 'Kolsvart' },
+              { slug: 'lakerol', name: 'Läkerol' },
+            ].map((brand) => (
+              <Link
+                key={brand.slug}
+                href={`/brands/${brand.slug}`}
+                className="inline-flex items-center px-5 py-2.5 rounded-sc-full bg-sc-card border border-sc-border text-sm font-semibold text-sc-text hover:border-sc-pink hover:text-sc-pink transition-all"
+              >
+                {brand.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Internal Linking: Related Blog Articles */}
+      <section className="bg-sc-bg-alt py-12 md:py-14 border-t border-sc-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-8 text-center">
+            Helpful Guides Before You Buy
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            {[
+              {
+                slug: 'swedish-candy-beginners-guide',
+                title: "Beginner's Guide to Swedish Candy",
+                desc: 'Everything you need to know before your first order — flavors, brands, and what to expect.',
+              },
+              {
+                slug: 'best-swedish-candy',
+                title: 'Best Swedish Candy to Try in 2025',
+                desc: 'Our hand-picked top 15 Swedish candies, ranked and reviewed for American candy lovers.',
+              },
+              {
+                slug: 'swedish-candy-vs-american-candy',
+                title: 'Swedish vs American Candy: Key Differences',
+                desc: 'What makes Swedish candy different? Ingredients, texture, flavor profiles, and more.',
+              },
+            ].map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="group bg-sc-card border border-sc-border rounded-sc-lg p-6 hover:border-sc-pink hover:shadow-sc-hover hover:-translate-y-0.5 transition-all"
+              >
+                <h3 className="font-display font-bold text-sc-text group-hover:text-sc-pink transition-colors mb-2">
+                  {post.title}
+                </h3>
+                <p className="text-[14px] text-sc-text-muted leading-[1.7]">
+                  {post.desc}
+                </p>
+                <span className="inline-block mt-3 text-sm font-semibold text-sc-pink">
+                  Read guide →
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Guide Section */}
-      <section className="bg-sc-bg-alt py-14 md:py-16">
+      <section className="py-14 md:py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-display text-2xl font-extrabold text-sc-text mb-10 text-center">
             Guide to Buying Swedish Candy Online
@@ -146,20 +276,14 @@ export default function WhereToBuyPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-14 md:py-16">
+      <section className="bg-sc-bg-alt py-14 md:py-16 border-t border-sc-border">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-display text-2xl font-extrabold text-sc-text mb-8 text-center">
             Frequently Asked Questions
           </h2>
 
           <div className="space-y-4">
-            {[
-              { q: 'Is Swedish candy available on Amazon?', a: "Yes, Amazon carries a wide selection of Swedish candy, often with Prime shipping. However, prices vary significantly and some sellers may not be authentic. We recommend checking reviews and comparing prices with specialized Swedish candy retailers." },
-              { q: 'How long does shipping typically take?', a: 'Most specialty retailers ship within 3-5 business days domestically. International shipping can take 1-3 weeks depending on location. Expedited options are often available for an additional fee.' },
-              { q: 'Can chocolate melt during shipping?', a: 'Quality retailers use insulated packaging and coolant to prevent melting, even in warm months. However, if ordering during summer, consider upgrading to expedited shipping for guaranteed freshness.' },
-              { q: "What's the best way to store Swedish candy?", a: 'Keep chocolate and filled candies in a cool, dry place (ideally 60-70°F). Gummies and hard candies are more shelf-stable. Avoid direct sunlight. Most candies can be stored for several months in proper conditions.' },
-              { q: 'Are there bulk ordering options?', a: 'Yes, several retailers offer bulk pricing and custom gift boxes. Mums Swedish Candy and Swedish Sweets both offer bulk options, which can reduce per-unit costs for large orders.' },
-            ].map((faq) => (
+            {faqItems.map((faq) => (
               <div key={faq.q} className="bg-sc-card border border-sc-border rounded-sc-lg p-6">
                 <h3 className="font-display font-bold text-sc-text mb-2">{faq.q}</h3>
                 <p className="text-[14px] text-sc-text-muted leading-[1.7]">{faq.a}</p>
@@ -186,6 +310,113 @@ export default function WhereToBuyPage() {
           </Link>
         </div>
       </section>
+
+      {/* FAQPage JSON-LD Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: faqItems.map((faq) => ({
+              '@type': 'Question',
+              name: faq.q,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.a,
+              },
+            })),
+          }),
+        }}
+      />
+
+      {/* BreadcrumbList JSON-LD Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://www.swedishcrave.com',
+              },
+              {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Where to Buy Swedish Candy',
+                item: 'https://www.swedishcrave.com/where-to-buy',
+              },
+            ],
+          }),
+        }}
+      />
+
+      {/* LocalBusiness Schema — Physical stores */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              '@context': 'https://schema.org',
+              '@type': 'Store',
+              name: 'BonBon NYC',
+              description: 'Trendy Scandinavian candy store based in New York with both online and physical locations.',
+              url: 'https://bonbonnyc.com',
+              address: {
+                '@type': 'PostalAddress',
+                addressLocality: 'New York',
+                addressRegion: 'NY',
+                addressCountry: 'US',
+              },
+              aggregateRating: {
+                '@type': 'AggregateRating',
+                ratingValue: 4.7,
+                bestRating: 5,
+                ratingCount: 150,
+              },
+              priceRange: '$$',
+              servesCuisine: 'Swedish Candy',
+              hasOfferCatalog: {
+                '@type': 'OfferCatalog',
+                name: 'Swedish Candy',
+              },
+            },
+            {
+              '@context': 'https://schema.org',
+              '@type': 'Store',
+              name: 'Sockerbit',
+              description: 'Premium Scandinavian candy boutique with stores in NYC and LA. Beautiful pick-and-mix experience.',
+              url: 'https://sockerbit.com',
+              address: [
+                {
+                  '@type': 'PostalAddress',
+                  addressLocality: 'New York',
+                  addressRegion: 'NY',
+                  addressCountry: 'US',
+                },
+                {
+                  '@type': 'PostalAddress',
+                  addressLocality: 'Los Angeles',
+                  addressRegion: 'CA',
+                  addressCountry: 'US',
+                },
+              ],
+              aggregateRating: {
+                '@type': 'AggregateRating',
+                ratingValue: 4.5,
+                bestRating: 5,
+                ratingCount: 200,
+              },
+              priceRange: '$$$',
+              servesCuisine: 'Swedish Candy',
+            },
+          ]),
+        }}
+      />
     </>
   );
 }

@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { getArticleBySlug, getAllArticleSlugs, getRelatedArticles } from '@/data/articles';
 import { candyItems } from '@/data/candy';
+import TableOfContents, { injectHeadingIds } from '@/components/TableOfContents';
 
 
 export async function generateStaticParams() {
@@ -45,6 +46,37 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   };
 }
 
+/**
+ * Extract FAQ Q&A pairs from article HTML content for FAQPage schema.
+ * Looks for h2 containing "FAQ" or "Frequently Asked Questions",
+ * then extracts subsequent h3 (questions) + p (answers) pairs.
+ */
+function extractFaqItems(html: string): Array<{ question: string; answer: string }> {
+  const faqItems: Array<{ question: string; answer: string }> = [];
+
+  // Find the FAQ section start
+  const faqHeaderMatch = html.match(/<h2[^>]*>(?:FAQ|Frequently Asked Questions)[^<]*<\/h2>/i);
+  if (!faqHeaderMatch || faqHeaderMatch.index === undefined) return faqItems;
+
+  // Get the content after the FAQ header until the next h2 or end
+  const afterFaq = html.slice(faqHeaderMatch.index + faqHeaderMatch[0].length);
+  const nextH2 = afterFaq.search(/<h2[^>]*>/i);
+  const faqSection = nextH2 > -1 ? afterFaq.slice(0, nextH2) : afterFaq;
+
+  // Extract h3 + p pairs
+  const qaPairRegex = /<h3[^>]*>(.*?)<\/h3>\s*<p[^>]*>(.*?)<\/p>/gi;
+  let match;
+  while ((match = qaPairRegex.exec(faqSection)) !== null) {
+    const question = match[1].replace(/<[^>]*>/g, '').trim();
+    const answer = match[2].replace(/<[^>]*>/g, '').trim();
+    if (question && answer) {
+      faqItems.push({ question, answer });
+    }
+  }
+
+  return faqItems;
+}
+
 export default function ArticlePage({ params }: { params: { slug: string } }) {
   const article = getArticleBySlug(params.slug);
 
@@ -80,6 +112,15 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
   };
 
   const hasContent = article.content && article.content.trim().length > 0;
+
+  // Process content: inject heading IDs for TOC jump links
+  const processedContent = hasContent ? injectHeadingIds(article.content) : '';
+
+  // Extract FAQ items for schema markup
+  const faqItems = hasContent ? extractFaqItems(article.content) : [];
+
+  // Show TOC for articles with enough content (estimated read time > 5 min)
+  const showToc = hasContent && article.estimatedReadTime >= 5;
 
   return (
     <>
@@ -149,11 +190,14 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           </p>
         </div>
 
+        {/* Table of Contents */}
+        {showToc && <TableOfContents html={processedContent} />}
+
         {/* Main Content */}
         {hasContent ? (
           <div
-            className="prose prose-lg max-w-none prose-headings:text-sc-text prose-p:text-sc-text prose-a:text-sc-primary prose-strong:text-sc-text"
-            dangerouslySetInnerHTML={{ __html: article.content }}
+            className="prose prose-lg max-w-none prose-headings:text-sc-text prose-p:text-sc-text prose-a:text-sc-primary prose-strong:text-sc-text prose-headings:scroll-mt-24"
+            dangerouslySetInnerHTML={{ __html: processedContent }}
           />
         ) : (
           <div className="py-12 text-center">
@@ -329,6 +373,27 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           }),
         }}
       />
+
+      {/* FAQPage Schema — only if article has FAQ section */}
+      {faqItems.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: faqItems.map((faq) => ({
+                '@type': 'Question',
+                name: faq.question,
+                acceptedAnswer: {
+                  '@type': 'Answer',
+                  text: faq.answer,
+                },
+              })),
+            }),
+          }}
+        />
+      )}
     </>
   );
 }

@@ -64,6 +64,14 @@ export const articles: Article[] = [
 
 <p>Ahlgrens also produces other candy shapes and types, but the cars are what they're famous for.</p>
 
+<div style="background: #fdf2f8; border: 1px solid #f9a8d4; border-radius: 12px; padding: 20px 24px; margin: 24px 0; text-align: center;">
+<strong style="color: #831843;">🛒 Want to try these candies?</strong>
+<div style="display: flex; gap: 10px; justify-content: center; margin-top: 12px; flex-wrap: wrap;">
+<a href="https://www.amazon.com/s?k=Swedish+Candy+Assortment&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-block; background: #f59e0b; color: white; padding: 8px 20px; border-radius: 50px; font-weight: 600; font-size: 13px; text-decoration: none;">Browse on Amazon →</a>
+<a href="/where-to-buy" style="display: inline-block; background: #ec4899; color: white; padding: 8px 20px; border-radius: 50px; font-weight: 600; font-size: 13px; text-decoration: none;">Compare Stores →</a>
+</div>
+</div>
+
 <h2>Understanding Swedish Candy Flavors</h2>
 
 <p>Swedish candy isn't organized the same way as American candy. Instead of just "sour" or "fruity," Swedish candy categories reflect unique flavor traditions that have developed over decades in Nordic candy culture.</p>
@@ -268,6 +276,15 @@ export const articles: Article[] = [
 <p>In America, candy is often an impulse purchase, something you grab at a gas station or buy because you're mindlessly snacking. In Sweden, candy is a chosen experience. You think about what you want, you buy it, you savor it.</p>
 
 <p>This philosophy has proven globally appealing. Once people try genuinely good candy, they prefer it. And Swedish candy makers have been perfecting their craft for decades in a culture that values quality, not just quantity.</p>
+
+<div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #6ee7b7; border-radius: 12px; padding: 24px; margin: 32px 0; text-align: center;">
+<strong style="color: #064e3b; font-size: 17px;">🍬 Ready to Try Swedish Candy?</strong>
+<p style="color: #065f46; font-size: 14px; margin: 8px 0 16px;">Find all the candies mentioned above at these trusted retailers.</p>
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+<a href="https://www.amazon.com/s?k=Swedish+Candy+Assortment&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-block; background: #f59e0b; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">Shop on Amazon →</a>
+<a href="/where-to-buy" style="display: inline-block; background: #ec4899; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">All Verified Stores →</a>
+</div>
+</div>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -1286,6 +1303,15 @@ export const articles: Article[] = [
   <li><strong>Visit Swedish candy stores in person:</strong> If you're near a specialty shop, the experience of browsing adds to the discovery</li>
 </ul>
 
+<div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #6ee7b7; border-radius: 12px; padding: 24px; margin: 32px 0; text-align: center;">
+<strong style="color: #064e3b; font-size: 17px;">🍬 Ready to Try Swedish Candy?</strong>
+<p style="color: #065f46; font-size: 14px; margin: 8px 0 16px;">Find all the candies mentioned above at these trusted retailers.</p>
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+<a href="https://www.amazon.com/s?k=Swedish+Candy+Assortment&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-block; background: #f59e0b; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">Shop on Amazon →</a>
+<a href="/where-to-buy" style="display: inline-block; background: #ec4899; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">All Verified Stores →</a>
+</div>
+</div>
+
 <h2>Frequently Asked Questions</h2>
 
 <h3>Is Swedish candy really that different from American candy?</h3>
@@ -2114,6 +2140,15 @@ export const articles: Article[] = [
 <p><strong>Product range:</strong> Malaco dominates in licorice and traditional Swedish candy. BUBS specializes in sour gummies.</p>
 <p><strong>Sourness:</strong> BUBS Sour Skulls are more sour than Malaco's sour offerings. Malaco leans more toward traditional licorice-based candies.</p>
 <p><strong>Verdict:</strong> If you want sour gummies, BUBS is the answer. If you want to explore all Swedish candy, Malaco has more variety.</p>
+
+<div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #6ee7b7; border-radius: 12px; padding: 24px; margin: 32px 0; text-align: center;">
+<strong style="color: #064e3b; font-size: 17px;">🍬 Shop the Full BUBS Collection</strong>
+<p style="color: #065f46; font-size: 14px; margin: 8px 0 16px;">Get all BUBS varieties shipped to your door.</p>
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+<a href="https://www.amazon.com/s?k=BUBS+Swedish+Candy&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-block; background: #f59e0b; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">BUBS on Amazon →</a>
+<a href="/where-to-buy" style="display: inline-block; background: #ec4899; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">All Verified Stores →</a>
+</div>
+</div>
 
 <h2>Where to Buy BUBS in the US</h2>
 <h3>Online Retailers</h3>
@@ -3070,12 +3105,15 @@ export const articles: Article[] = [
 
 <h3>1. <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> — 5/5 ★</h3>
 <p><a href="/brands/bubs">BUBS</a> Sour Skulls are the gold standard of sour candy worldwide. These foam skulls deliver an intense, face-puckering sour hit followed by a sweet fruity center that keeps you coming back. The texture is perfectly chewy without sticking to your teeth, and each skull is packed with real fruit flavors — not artificial sweetness. This is why BUBS built a cult following in America.</p>
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=BUBS+Sour+Skulls+Swedish+Candy&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy BUBS Sour Skulls on Amazon (~$8-12) →</a></p>
 
 <h3>2. <a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a> — 5/5 ★</h3>
 <p>These tiny marshmallow cars have been a Swedish staple since 1953, and they've earned their place. Ahlgrens Bilar offer a delicate, sweet marshmallow flavor with real fruit essences and a surprisingly sophisticated texture — firm on the outside, soft inside. They're nostalgic without being cloying, and the portion control is built in. Every Swedish person has a childhood memory of these, and Americans are quickly discovering why.</p>
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=Ahlgrens+Bilar+Swedish+Cars+Candy&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy Ahlgrens Bilar on Amazon (~$6-10) →</a></p>
 
 <h3>3. <a href="/candy/marabou-mjolkchoklad">Marabou Mjölkchoklad</a> — 5/5 ★</h3>
 <p><a href="/brands/marabou">Marabou</a> is to Sweden what Cadbury is to the UK. Their classic milk chocolate bar is silky smooth, dissolves on your tongue, and tastes richer than most American candy bars without being heavy. The cocoa flavor is present but never bitter, and the mouthfeel is creamy throughout. If you've only had Hershey's, Marabou will reset your expectations for what mass-market chocolate can be.</p>
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=Marabou+Milk+Chocolate+Swedish&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy Marabou Mjölkchoklad on Amazon (~$6-15) →</a></p>
 
 <h3>4. Djungelvrål — 5/5 ★</h3>
 <p>Djungelvrål ("jungle scream" in Swedish) is <a href="/brands/malaco">Malaco</a>'s masterpiece — a chewy licorice covered in sour sugar that hits you with a wave of intense, almost peppery flavor. The sour is milder than BUBS, but the licorice depth adds a grown-up complexity that sour candy from other countries simply doesn't have. It's for adventurous eaters, but <a href="/candy/djungelvraal">Djungelvrål</a> converts licorice skeptics.</p>
@@ -3197,6 +3235,15 @@ export const articles: Article[] = [
   <p><strong>Exploring beyond the top 25?</strong> Every candy here is available at <a href="/where-to-buy">our recommended Swedish candy retailers</a>. Find your new favorite today.</p>
 </div>
 
+<div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #6ee7b7; border-radius: 12px; padding: 24px; margin: 32px 0; text-align: center;">
+<strong style="color: #064e3b; font-size: 17px;">🍬 Ready to Try Swedish Candy?</strong>
+<p style="color: #065f46; font-size: 14px; margin: 8px 0 16px;">Find all the candies mentioned above at these trusted retailers.</p>
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+<a href="https://www.amazon.com/s?k=Swedish+Candy+Assortment&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-block; background: #f59e0b; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">Shop on Amazon →</a>
+<a href="/where-to-buy" style="display: inline-block; background: #ec4899; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">All Verified Stores →</a>
+</div>
+</div>
+
 <h2>FAQ: Swedish Candy in 2026</h2>
 
 <h3>What makes Swedish candy different from American candy?</h3>
@@ -3251,18 +3298,22 @@ export const articles: Article[] = [
 
 <h3>1. <a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a> (Marshmallow Cars)</h3>
 <p><strong>Approachability: 5/5 | Flavor: Sweet, fruity marshmallow</strong></p>
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=Ahlgrens+Bilar+Swedish+Cars+Candy&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy Ahlgrens Bilar on Amazon (~$6-10) →</a></p>
 <p>If Swedish candy had an ambassador, it would be these little foam cars. Ahlgrens Bilar are Sweden\'s best-selling candy — literally outselling every actual car brand in the country. They\'re soft, mildly sweet, and come in three subtle fruit flavors (pink, green, and white) that don\'t overpower anything. The texture is unlike any American candy: a light, airy marshmallow foam that melts on your tongue. Zero shock factor, maximum charm. Hand these to anyone and watch them eat the entire bag.</p>
 
 <h3>2. <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a></h3>
 <p><strong>Approachability: 4.5/5 | Flavor: Sour berry with sweet center</strong></p>
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=BUBS+Sour+Skulls+Swedish+Candy&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy BUBS Sour Skulls on Amazon (~$8-12) →</a></p>
 <p>The candy that broke TikTok. BUBS Sour Skulls went viral for a reason — they\'re the perfect gateway sour candy. The crystal sour coating hits immediately, but underneath is a soft, sweet berry gummy that balances everything out. If you\'ve had Sour Patch Kids, you\'ll feel right at home, except the texture is noticeably better and the sourness feels cleaner. These are the Swedish candy most Americans try first, and there\'s a reason for that: they\'re just really, really good.</p>
 
 <h3>3. <a href="/candy/marabou-mjolkchoklad">Marabou Mjölkchoklad</a> (Milk Chocolate)</h3>
 <p><strong>Approachability: 5/5 | Flavor: Creamy, rich milk chocolate</strong></p>
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=Marabou+Milk+Chocolate+Swedish&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy Marabou Mjölkchoklad on Amazon (~$6-15) →</a></p>
 <p>Imagine if Hershey\'s went to culinary school, studied in Switzerland, and came back a completely different person. That\'s <a href="/blog/marabou-chocolate-guide">Marabou</a>. Sweden\'s favorite chocolate bar since 1919, made with real cocoa butter (not the vegetable oil you\'ll find in a lot of American chocolate) and a caramelization process that makes it impossibly creamy. There\'s no weird aftertaste, no waxy texture — just pure, smooth milk chocolate. If you only try one Swedish chocolate, make it this one.</p>
 
 <h3>4. <a href="/candy/daim">Daim</a> (Crunchy Caramel)</h3>
 <p><strong>Approachability: 5/5 | Flavor: Buttery almond caramel + chocolate</strong></p>
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=Daim+Chocolate+Bar+Swedish&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy Daim Bars on Amazon (~$3-5) →</a></p>
 <p>Daim is Sweden\'s answer to the question "what if a butter toffee bar was actually good?" A thin chocolate shell covers a crunchy, buttery almond caramel that shatters when you bite into it. You might recognize it from IKEA, where it\'s been quietly converting Americans to Swedish chocolate for years. The texture is the star here — that satisfying crunch followed by the slow caramel melt. It\'s dangerously addictive and universally approved.</p>
 
 <h3>5. <a href="/candy/bubs-watermelon">BUBS Sour Watermelon</a></h3>
@@ -3299,6 +3350,15 @@ export const articles: Article[] = [
 <h2>Where to Buy Beginner-Friendly Swedish Candy</h2>
 <p>The easiest way to try everything on this list is through online Swedish candy stores that ship to the US. Most offer mixed boxes or starter packs specifically designed for newcomers. Check out our <a href="/where-to-buy">complete where-to-buy guide</a> for current options, prices, and shipping times.</p>
 <p>If you\'re in a hurry, IKEA\'s Swedish food market carries Marabou, Daim, and Ahlgrens Bilar at reasonable prices — and you can pick them up while pretending you came for a bookshelf.</p>
+
+<div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #6ee7b7; border-radius: 12px; padding: 24px; margin: 32px 0; text-align: center;">
+<strong style="color: #064e3b; font-size: 17px;">🍬 Ready to Try Swedish Candy?</strong>
+<p style="color: #065f46; font-size: 14px; margin: 8px 0 16px;">Find all the candies mentioned above at these trusted retailers.</p>
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+<a href="https://www.amazon.com/s?k=Swedish+Candy+Assortment&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-block; background: #f59e0b; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">Shop on Amazon →</a>
+<a href="/where-to-buy" style="display: inline-block; background: #ec4899; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">All Verified Stores →</a>
+</div>
+</div>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -3342,10 +3402,12 @@ export const articles: Article[] = [
 
 <h3>1. <a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a></h3>
 <p><strong>Sourness: 4/5 | Overall Rating: 5/5</strong></p>
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=BUBS+Sour+Skulls+Swedish+Candy&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy BUBS Sour Skulls on Amazon (~$8-12) →</a></p>
 <p>BUBS Sour Skulls are the gateway to Swedish sour candy. They hit hard with a crystal sour coating that creates an immediate pucker, but underneath is a surprisingly sweet berry flavor that balances the sourness perfectly. The texture is satisfying — firm enough to have resistance when you bite down, not so soft that they dissolve immediately. These are the Swedish sour candy everyone should try first because they prove that sourness can be sophisticated.</p>
 
 <h3>2. <a href="/candy/bubs-watermelon">BUBS Sour Watermelon</a></h3>
 <p><strong>Sourness: 3.5/5 | Overall Rating: 4.5/5</strong></p>
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=BUBS+Watermelon+Swedish+Candy&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy BUBS Watermelon on Amazon (~$8-12) →</a></p>
 <p>Watermelon is a criminally underrated flavor in American candy. Swedish BUBS nailed it — bright, fruity, and complex. The sour coating is less aggressive than the Skulls, making this more accessible for people who like flavor more than pure sourness. The watermelon taste is authentic enough to convince you that you're eating something that actually grew in nature.</p>
 
 <h3>3. Malaco Sura Skallar (Sour Stones)</h3>
@@ -3396,6 +3458,15 @@ export const articles: Article[] = [
 <h2>Sourcing Swedish Sour Candy</h2>
 <p>The best place to buy Swedish sour candy is online through specialty retailers. Check out <a href="/where-to-buy">our where-to-buy guide</a> for current availability. For detailed information about BUBS specifically, read our <a href="/blog/bubs-candy-complete-guide">complete BUBS candy guide</a>.</p>
 
+<div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #6ee7b7; border-radius: 12px; padding: 24px; margin: 32px 0; text-align: center;">
+<strong style="color: #064e3b; font-size: 17px;">🍬 Ready to Try Swedish Candy?</strong>
+<p style="color: #065f46; font-size: 14px; margin: 8px 0 16px;">Find all the candies mentioned above at these trusted retailers.</p>
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+<a href="https://www.amazon.com/s?k=Swedish+Candy+Assortment&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-block; background: #f59e0b; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">Shop on Amazon →</a>
+<a href="/where-to-buy" style="display: inline-block; background: #ec4899; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">All Verified Stores →</a>
+</div>
+</div>
+
 <h2>Frequently Asked Questions</h2>
 
 <h3>What makes Swedish sour candy different from American sour candy?</h3>
@@ -3440,10 +3511,12 @@ export const articles: Article[] = [
 
 <h3>1. <a href="/candy/marabou-mjolkchoklad">Marabou Mjölkchoklad</a> (Milk Chocolate)</h3>
 <p><strong>Rating: 5/5 | Type: Classic milk chocolate bar</strong></p>
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=Marabou+Milk+Chocolate+Swedish&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy Marabou Mjölkchoklad on Amazon (~$6-15) →</a></p>
 <p>There\'s a reason Marabou has been Sweden\'s favorite chocolate since 1919: nobody does creamy milk chocolate better. The 200g bar (yes, they come big) has a slow-melt texture that coats your entire mouth, with a subtle caramel sweetness that comes from Marabou\'s proprietary roasting process. This is the chocolate that makes first-time visitors to Sweden buy an extra suitcase. No gimmicks, no fillings — just perfect milk chocolate. If you buy one Swedish chocolate bar, make it this one.</p>
 
 <h3>2. <a href="/candy/daim">Daim</a> (Crunchy Almond Caramel)</h3>
 <p><strong>Rating: 5/5 | Type: Chocolate-covered almond butter toffee</strong></p>
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=Daim+Chocolate+Bar+Swedish&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy Daim Bars on Amazon (~$3-5) →</a></p>
 <p>Daim is the bar that sneaks into your life through IKEA and never leaves. A thin coating of milk chocolate over a crunchy, buttery almond toffee that shatters satisfyingly with every bite. The ratio is perfect — enough chocolate to taste it, enough toffee to feel that crack. Some people describe it as a "better Butterfinger," but that\'s selling it short. Daim is its own thing, and it\'s been its own thing since 1953.</p>
 
 <h3>3. <a href="/candy/marabou-schweizernot">Marabou Schweizernöt</a> (Hazelnut)</h3>
@@ -3452,6 +3525,7 @@ export const articles: Article[] = [
 
 <h3>4. <a href="/candy/kexchoklad">Kexchoklad</a> (Chocolate Wafer)</h3>
 <p><strong>Rating: 4.5/5 | Type: Crispy wafer in milk chocolate</strong></p>
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=Kexchoklad+Swedish+Chocolate+Wafer&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy Kexchoklad on Amazon (~$5-10) →</a></p>
 <p>Sweden\'s Kit-Kat, except the Swedes had it first (Kexchoklad launched in 1938) and the chocolate is substantially better. Layers of crispy wafer coated in Cloetta milk chocolate. It\'s the kind of unpretentious candy that makes you wonder why you ever settled for the American version. Perfect with coffee, perfect as a snack, perfect at 2 AM when you\'re making questionable life choices in front of the fridge.</p>
 
 <h3>5. <a href="/candy/plopp">Plopp</a> (Soft Toffee Center)</h3>
@@ -3482,10 +3556,20 @@ export const articles: Article[] = [
 <p><strong><a href="/brands/marabou">Marabou</a></strong> — The undisputed champion. Founded in 1916, now owned by Mondelez. Makes 242 million tablets per year. If you see a purple wrapper in Sweden, it\'s probably Marabou.</p>
 <p><strong><a href="/brands/cloetta">Cloetta</a></strong> — Sweden\'s oldest candy company (founded 1862). Makes Kexchoklad, Plopp, Polly, and Center. The quiet giant behind many Swedish favorites.</p>
 <p><strong><a href="/brands/fazer">Fazer</a></strong> — Finnish, but deeply integrated into Swedish candy culture. Their <a href="/candy/fazer-blue">Fazer Blue</a> milk chocolate is a worthy rival to Marabou.</p>
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=Fazer+Blue+Milk+Chocolate+Finnish&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy Fazer Blue Chocolate on Amazon (~$8-14) →</a></p>
 
 <h2>Swedish Chocolate vs American Chocolate</h2>
 <p>The core differences come down to ingredients and process. Swedish chocolate uses real cocoa butter where American chocolate often substitutes vegetable oils. Swedish chocolate uses real milk powder; some American brands use whey or milk substitutes. And crucially, Swedish chocolate doesn\'t contain butyric acid — the compound that gives Hershey\'s its "tangy" flavor that Europeans describe as tasting like... well, let\'s just say Europeans find it unpleasant.</p>
 <p>For the complete comparison, including regulations and labeling differences, read our <a href="/blog/european-candy-vs-american">European vs American candy guide</a>.</p>
+
+<div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #6ee7b7; border-radius: 12px; padding: 24px; margin: 32px 0; text-align: center;">
+<strong style="color: #064e3b; font-size: 17px;">🍬 Ready to Try Swedish Candy?</strong>
+<p style="color: #065f46; font-size: 14px; margin: 8px 0 16px;">Find all the candies mentioned above at these trusted retailers.</p>
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+<a href="https://www.amazon.com/s?k=Swedish+Candy+Assortment&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-block; background: #f59e0b; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">Shop on Amazon →</a>
+<a href="/where-to-buy" style="display: inline-block; background: #ec4899; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">All Verified Stores →</a>
+</div>
+</div>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -3874,11 +3958,28 @@ export const articles: Article[] = [
 <p>Search "Swedish candy" on Amazon and you\'ll get hundreds of results. Some are fantastic. Some are repackaged candy of questionable freshness sold at a 300% markup. And a few aren\'t even Swedish — they\'re German or Danish candy with "Scandinavian" in the title, hoping you won\'t notice. (We noticed.)</p>
 <p>We spent weeks testing Amazon\'s Swedish candy offerings so you don\'t have to gamble with your Prime delivery. Here\'s what\'s actually worth buying, what to avoid, and some tips for spotting the good stuff.</p>
 
+<div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #6ee7b7; border-radius: 12px; padding: 24px; margin: 32px 0; text-align: center;">
+<strong style="color: #064e3b; font-size: 17px;">🍬 Ready to Try Swedish Candy?</strong>
+<p style="color: #065f46; font-size: 14px; margin: 8px 0 16px;">Find all the candies mentioned above at these trusted retailers.</p>
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+<a href="https://www.amazon.com/s?k=Swedish+Candy+Assortment&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-block; background: #f59e0b; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">Shop on Amazon →</a>
+<a href="/where-to-buy" style="display: inline-block; background: #ec4899; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">All Verified Stores →</a>
+</div>
+</div>
+
 <h2>Best Individual Brand Products</h2>
 
 <h3>BUBS Sour Skulls & Gummies</h3>
 <p><strong>Value: 4/5 | Freshness: 5/5 | Authenticity: 5/5</strong></p>
 <p><a href="/candy/bubs-sour-skulls">BUBS</a> has solid official distribution on Amazon. You can find Sour Skulls, Watermelon, Cool Cola, and other varieties in proper retail packaging. The prices are reasonable — typically $8-12 per bag, which is comparable to what you\'d pay from specialty retailers. Because BUBS has invested in US distribution (partly thanks to the TikTok boom), the inventory turns over fast, meaning your candy is almost always fresh. This is the safest Swedish candy purchase on Amazon.</p>
+
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=BUBS+Sour+Skulls+Swedish+Candy&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy BUBS Sour Skulls on Amazon (~$8-12) →</a></p>
+
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=Marabou+Milk+Chocolate+Swedish&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy Marabou Mjölkchoklad on Amazon (~$6-15) →</a></p>
+
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=Daim+Chocolate+Bar+Swedish&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy Daim Bars on Amazon (~$3-5) →</a></p>
+
+<p style="margin: 16px 0;"><a href="https://www.amazon.com/s?k=Ahlgrens+Bilar+Swedish+Cars+Candy&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-flex; align-items: center; gap: 6px; background: #fdf2f8; border: 1px solid #f9a8d4; padding: 8px 16px; border-radius: 50px; color: #9d174d; font-size: 13px; font-weight: 600; text-decoration: none;">🛒 Buy Ahlgrens Bilar on Amazon (~$6-10) →</a></p>
 
 <h3>Marabou Chocolate Bars</h3>
 <p><strong>Value: 3.5/5 | Freshness: 4/5 | Authenticity: 5/5</strong></p>
@@ -3934,6 +4035,15 @@ export const articles: Article[] = [
 <p><strong>Subscribe & Save works.</strong> If you find a BUBS product you love, the Subscribe & Save discount (usually 5-15%) makes the already-reasonable prices even better.</p>
 <p><strong>Order chocolate in cool months.</strong> October through April is chocolate season on Amazon. Summer orders risk melted bars, even with insulated packaging. If you must order in summer, choose expedited shipping.</p>
 <p><strong>"Fulfilled by Amazon" is better.</strong> FBA products are stored in Amazon warehouses with climate control. Third-party shipped products sit in whoever\'s garage until they ship.</p>
+
+<div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #6ee7b7; border-radius: 12px; padding: 24px; margin: 32px 0; text-align: center;">
+<strong style="color: #064e3b; font-size: 17px;">🍬 Ready to Try Swedish Candy?</strong>
+<p style="color: #065f46; font-size: 14px; margin: 8px 0 16px;">Find all the candies mentioned above at these trusted retailers.</p>
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+<a href="https://www.amazon.com/s?k=Swedish+Candy+Assortment&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-block; background: #f59e0b; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">Shop on Amazon →</a>
+<a href="/where-to-buy" style="display: inline-block; background: #ec4899; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">All Verified Stores →</a>
+</div>
+</div>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -4943,6 +5053,15 @@ export const articles: Article[] = [
 <p>Whether you're craving <strong>classic Swedish licorice</strong>, fruity gummies, or hard candies, there are now six excellent options for buying <strong>authentic Swedish candy online with delivery to the United States</strong>. We've tested each retailer's selection, pricing, shipping speed, and product authenticity so you can shop confidently.</p>
 <p>In this guide, we'll review the top stores, provide a side-by-side comparison, and share insider tips for getting the best deals on your favorite Swedish treats.</p>
 
+<div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #6ee7b7; border-radius: 12px; padding: 24px; margin: 32px 0; text-align: center;">
+<strong style="color: #064e3b; font-size: 17px;">🍬 Ready to Try Swedish Candy?</strong>
+<p style="color: #065f46; font-size: 14px; margin: 8px 0 16px;">Find all the candies mentioned above at these trusted retailers.</p>
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+<a href="https://www.amazon.com/s?k=Swedish+Candy+Assortment&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-block; background: #f59e0b; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">Shop on Amazon →</a>
+<a href="/where-to-buy" style="display: inline-block; background: #ec4899; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">All Verified Stores →</a>
+</div>
+</div>
+
 <h2>Top 6 Online Stores for Swedish Candy in the USA</h2>
 
 <h3>1. Mums Swedish Candy — Best Overall Selection</h3>
@@ -5085,6 +5204,15 @@ export const articles: Article[] = [
   <li><strong>Läkerol</strong> — Mentholated lozenges, perfect for throat care and fresh breath</li>
   <li><strong>Swedish Licorice (Salmiakki)</strong> — Salty, umami-forward licorice that converts even non-licorice fans</li>
 </ul>
+
+<div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #6ee7b7; border-radius: 12px; padding: 24px; margin: 32px 0; text-align: center;">
+<strong style="color: #064e3b; font-size: 17px;">🍬 Ready to Try Swedish Candy?</strong>
+<p style="color: #065f46; font-size: 14px; margin: 8px 0 16px;">Find all the candies mentioned above at these trusted retailers.</p>
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+<a href="https://www.amazon.com/s?k=Swedish+Candy+Assortment&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-block; background: #f59e0b; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">Shop on Amazon →</a>
+<a href="/where-to-buy" style="display: inline-block; background: #ec4899; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">All Verified Stores →</a>
+</div>
+</div>
 
 <h2>Frequently Asked Questions About Buying Swedish Candy Online</h2>
 
@@ -5646,6 +5774,15 @@ export const articles: Article[] = [
     intro: 'We placed real orders from every major Swedish candy online store to compare the actual experience — shipping speed, packaging quality, candy freshness, prices, and selection. Here\'s who came out on top.',
     content: `<div style="background: linear-gradient(135deg, #fef3c7, #fff7ed); border-left: 4px solid #f59e0b; padding: 20px; border-radius: 8px; margin: 20px 0;">
 <strong>Quick Rankings:</strong> For overall best experience: BonBon NYC. For largest selection: Swedish Candy Store. For best value: Sweetish Candy. For fastest shipping: Amazon Prime sellers. For cleanest ingredients: Sockerbit. For best BUBS selection: Swedish Candy Store. Read on for the full breakdown.
+</div>
+
+<div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #6ee7b7; border-radius: 12px; padding: 24px; margin: 32px 0; text-align: center;">
+<strong style="color: #064e3b; font-size: 17px;">🍬 Ready to Try Swedish Candy?</strong>
+<p style="color: #065f46; font-size: 14px; margin: 8px 0 16px;">Find all the candies mentioned above at these trusted retailers.</p>
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+<a href="https://www.amazon.com/s?k=Swedish+Candy+Assortment&tag=swedishcrave-20" target="_blank" rel="noopener noreferrer sponsored" style="display: inline-block; background: #f59e0b; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">Shop on Amazon →</a>
+<a href="/where-to-buy" style="display: inline-block; background: #ec4899; color: white; padding: 10px 24px; border-radius: 50px; font-weight: 600; font-size: 14px; text-decoration: none;">All Verified Stores →</a>
+</div>
 </div>
 
 <h2>How We Ranked These Stores</h2>
@@ -9448,5 +9585,18 @@ export function getRelatedArticles(slug: string, limit = 4): Article[] {
   if (!article) return []
   return articles
     .filter((a) => article.relatedArticleSlugs.includes(a.slug))
+    .slice(0, limit)
+}
+
+export function getArticlesForCandy(candySlug: string, limit = 3): Article[] {
+  return articles
+    .filter((a) => a.status === 'published' && a.relatedCandySlugs.includes(candySlug) && a.content.trim().length > 100)
+    .sort((a, b) => {
+      // Prioritize P1 > P2 > P3, then by content length (deeper articles first)
+      const priorityOrder = { P1: 0, P2: 1, P3: 2 }
+      const pDiff = (priorityOrder[a.priority] || 2) - (priorityOrder[b.priority] || 2)
+      if (pDiff !== 0) return pDiff
+      return b.content.length - a.content.length
+    })
     .slice(0, limit)
 }

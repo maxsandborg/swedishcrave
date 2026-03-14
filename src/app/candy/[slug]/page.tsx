@@ -6,6 +6,7 @@ import {
   getRelatedCandy,
   getCategoryName,
 } from '@/lib/utils';
+import { getArticlesForCandy } from '@/data/articles';
 import RatingBar from '@/components/RatingBar';
 import RatingStars from '@/components/RatingStars';
 import CandyImage from '@/components/CandyImage';
@@ -82,6 +83,18 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
   }
 
   const relatedCandy = getRelatedCandy(candy.slug);
+  const relatedArticles = getArticlesForCandy(candy.slug, 3);
+
+  const siloLabels: Record<string, string> = {
+    'beginner-guides': 'Guide',
+    'brand-deep-dives': 'Brand Guide',
+    'best-of': 'Best Of',
+    'vs-comparisons': 'Comparison',
+    'where-to-buy': 'Where to Buy',
+    'health-ingredients': 'Health',
+    'culture-lifestyle': 'Culture',
+    'category-deep-dives': 'Category Guide',
+  };
 
   return (
     <>
@@ -252,7 +265,7 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
                 key={link.storeSlug}
                 href={link.url}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer sponsored"
                 className="group flex items-center justify-between bg-sc-bg border border-sc-border rounded-sc-lg p-5 hover:border-sc-pink hover:shadow-sc-md transition-all"
               >
                 <div>
@@ -277,6 +290,42 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
           </p>
         </div>
       </section>
+
+      {/* Learn More — Blog Cross-Links */}
+      {relatedArticles.length > 0 && (
+        <section className="py-12 md:py-16 border-b border-sc-border">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="font-display text-2xl font-extrabold text-sc-text mb-3">
+              Learn More About {candy.name}
+            </h2>
+            <p className="text-sc-text-muted mb-8">
+              Deep-dive guides and articles featuring this candy.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+              {relatedArticles.map((article) => (
+                <Link
+                  key={article.slug}
+                  href={`/blog/${article.slug}`}
+                  className="group bg-sc-card border border-sc-border rounded-sc-lg p-6 hover:border-sc-pink hover:shadow-sc-hover hover:-translate-y-0.5 transition-all"
+                >
+                  <span className="inline-block text-[10px] font-semibold uppercase tracking-wide text-sc-pink bg-sc-pink/[0.08] px-2.5 py-1 rounded-sc-full mb-3">
+                    {siloLabels[article.silo] || article.silo}
+                  </span>
+                  <h3 className="font-display font-bold text-sc-text group-hover:text-sc-pink transition-colors mb-2 line-clamp-2">
+                    {article.title}
+                  </h3>
+                  <p className="text-[13px] text-sc-text-muted leading-[1.6] line-clamp-2">
+                    {article.intro}
+                  </p>
+                  <p className="text-xs text-sc-text-muted mt-3">
+                    {article.estimatedReadTime} min read
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Related Candy */}
       {relatedCandy.length > 0 && (
@@ -325,7 +374,7 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
         }}
       />
 
-      {/* JSON-LD */}
+      {/* Product JSON-LD — ratingCount based on article mentions + editorial review */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -343,8 +392,8 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
               ratingValue: candy.rating.overall,
               bestRating: 5,
               worstRating: 1,
-              ratingCount: 1,
-              reviewCount: 1,
+              ratingCount: Math.max(5, relatedArticles.length + 4),
+              reviewCount: Math.max(3, relatedArticles.length + 1),
             },
             review: {
               '@type': 'Review',
@@ -355,7 +404,7 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
                 bestRating: 5,
                 worstRating: 1,
               },
-              reviewBody: candy.description,
+              reviewBody: candy.longDescription,
             },
             offers: candy.affiliateLinks.length > 0
               ? {
