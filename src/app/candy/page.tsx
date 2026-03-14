@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     'Browse all Swedish candy reviews with ratings, flavor profiles, and where to buy. From sour gummies to creamy chocolate — find your next favorite Swedish treat.',
   keywords:
     'Swedish candy reviews, all Swedish candy, candy ratings, Nordic sweets, Swedish sweets list',
+  alternates: {
+    canonical: '/candy',
+  },
 };
 
 export default function AllCandyPage() {

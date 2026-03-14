@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: 'Blog — Swedish Candy Guides, Reviews & Culture',
   description:
     'Expert guides on Swedish candy — from beginner introductions to deep-dives on brands, health comparisons, and where to buy. Updated weekly.',
+  alternates: {
+    canonical: '/blog',
+  },
   openGraph: {
     title: 'Blog — Swedish Candy Guides, Reviews & Culture | SwedishCrave',
     description:

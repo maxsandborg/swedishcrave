@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   description:
     'Explore all Swedish candy brands. From iconic Marabou to viral BUBS, discover the brands behind your favorite Swedish sweets.',
   keywords: 'Swedish brands, candy brands, Marabou, BUBS, Malaco, Cloetta, Fazer',
+  alternates: {
+    canonical: '/brands',
+  },
 };
 
 export default function BrandsPage() {

@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   description:
     'Discover the best places to buy authentic Swedish candy online. Find trusted retailers that ship to the US with fast delivery and authentic products.',
   keywords: 'where to buy Swedish candy, online candy stores, Mums Swedish Candy, BonBon NYC, Amazon',
+  alternates: {
+    canonical: '/where-to-buy',
+  },
 };
 
 export default function WhereToBuyPage() {

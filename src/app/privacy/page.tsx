@@ -4,6 +4,9 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'Privacy policy for SwedishCrave.com — how we handle your data.',
+  alternates: {
+    canonical: '/privacy',
+  },
 };
 
 export default function PrivacyPage() {

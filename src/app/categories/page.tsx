@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   description:
     'Browse Swedish candy by category. From gummies to chocolate, sour to licorice, find your favorite type of Swedish sweets.',
   keywords: 'candy categories, gummies, chocolate, licorice, sour candy, salmiak',
+  alternates: {
+    canonical: '/categories',
+  },
 };
 
 export default function CategoriesPage() {

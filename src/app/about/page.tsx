@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: 'About SwedishCrave',
   description:
     'SwedishCrave is the English-language guide to Swedish candy. Expert reviews, ratings, and where to buy authentic Scandinavian sweets in the US.',
+  alternates: {
+    canonical: '/about',
+  },
 };
 
 export default function AboutPage() {

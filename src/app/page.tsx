@@ -1,8 +1,15 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { getFeaturedCandy, getTrendingCandy } from '@/lib/utils';
 import { categories } from '@/data/categories';
 import CandyCard from '@/components/CandyCard';
 import CategoryCard from '@/components/CategoryCard';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/',
+  },
+};
 
 export default function Home() {
   const featuredCandy = getFeaturedCandy().slice(0, 4);

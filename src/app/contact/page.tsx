@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Contact Us',
   description:
     'Get in touch with SwedishCrave. Questions about Swedish candy, partnership inquiries, or just want to say hi.',
+  alternates: {
+    canonical: '/contact',
+  },
 };
 
 export default function ContactPage() {
