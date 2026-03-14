@@ -9,6 +9,14 @@ const brandColors: Record<string, string> = {
   cloetta: 'from-sc-purple to-[#4FACFE]',
   daim: 'from-[#B8860B] to-[#FFD23F]',
   ahlgrens: 'from-[#FF8AB8] to-sc-pink',
+  'candy-people': 'from-[#FF3CAC] to-[#784BA0]',
+  konfekta: 'from-[#7B2FF7] to-[#C471F5]',
+  kolsvart: 'from-[#1A1A2E] to-[#16213E]',
+  'haupt-lakrits': 'from-[#2D2D2D] to-[#4A4A4A]',
+  lakerol: 'from-[#006B3F] to-[#2ECC71]',
+  orkla: 'from-[#003366] to-[#336699]',
+  freia: 'from-[#8B4513] to-[#D2691E]',
+  lakritsfabriken: 'from-[#1C1C1C] to-[#3D3D3D]',
 };
 
 interface BrandCardProps {
