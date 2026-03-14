@@ -5001,6 +5001,377 @@ export const articles: Article[] = [
     priority: 'P1',
     status: 'published',
   },
+  {
+    id: 72,
+    slug: 'swedish-fish-origin-story',
+    title: 'Is Swedish Fish Actually Swedish? The Surprising Truth',
+    silo: 'culture-lifestyle',
+    seoTitle: 'Is Swedish Fish Actually Swedish? Origin Story & Real Version | SwedishCrave',
+    metaDescription: 'Swedish Fish candy was invented by Malaco in Sweden in 1957 — but the American version is totally different. Here\'s the real history, plus what the Swedish original tastes like.',
+    h1: 'Is Swedish Fish Actually Swedish? The Surprising Truth',
+    intro: 'Swedish Fish is one of America\'s most popular gummy candies — but is it really Swedish? The short answer is yes, sort of. The candy was created by a Swedish company for the American market. But the version you buy in the US today is barely related to the original. Here\'s the full story.',
+    content: `<div style="background: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%); border-left: 4px solid #6366F1; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #4338CA;">The Short Answer</h3>
+  <p style="margin-bottom: 0;">Yes, Swedish Fish was originally created by Swedish candy company <a href="/brands/malaco">Malaco</a> in 1957 for the US market. But today's American Swedish Fish is manufactured by Mondelez and contains artificial dyes and different ingredients than the Swedish original (called <em>pastellfiskar</em>). If you want the "real" Swedish Fish experience, you need to buy the Malaco version.</p>
+</div>
+
+<h2>The Origin Story: Malaco Creates a Candy for America</h2>
+
+<p>In the late 1950s, Swedish candy company <a href="/brands/malaco">Malaco</a> wanted to break into the lucrative American candy market. They needed something that would appeal to American tastes while nodding to their Swedish roots. Their solution: a fish-shaped gummy candy.</p>
+
+<p>The fish shape wasn't random. Fishing has been central to Swedish culture for centuries — Sweden has over 96,000 lakes and a coastline stretching more than 3,200 km. Fish is a staple of the Swedish diet, from pickled herring at midsommar to gravlax on Christmas. Choosing a fish shape was Malaco's way of saying "this candy is Swedish" without needing words.</p>
+
+<p>Swedish Fish launched in the US in 1957 through a partnership with Cadbury. The candy was an immediate hit — Americans loved the soft, chewy texture and the distinctive berry flavor (which isn't cherry, strawberry, or raspberry, but a Swedish-style lingonberry-adjacent flavor that defies easy categorization).</p>
+
+<h2>What Happened: How Swedish Fish Became Less Swedish</h2>
+
+<p>Here's where the story gets complicated. Over the decades, the rights to Swedish Fish in the US changed hands multiple times:</p>
+
+<ul>
+<li><strong>1957:</strong> Malaco creates Swedish Fish for the US market through Cadbury</li>
+<li><strong>Late 1900s:</strong> Production and distribution rights shift through various corporate acquisitions</li>
+<li><strong>Today:</strong> Mondelez International (formerly Kraft/Cadbury) owns and distributes Swedish Fish in the US</li>
+</ul>
+
+<p>As the candy changed corporate hands, the recipe changed too. Today's American Swedish Fish is a different product from what Malaco originally created. The manufacturing moved out of Sweden, the ingredients shifted to American-standard formulations (including <a href="/blog/candy-with-red-40-full-list">artificial dyes like Red 40</a>), and the flavor profile was adjusted for American palates.</p>
+
+<p>Meanwhile, in Sweden, Malaco still sells the original fish candy — called <strong>pastellfiskar</strong> ("pastel fish"). The Malaco version is stamped with "Malaco" on the side rather than "Swedish," and it tastes noticeably different from the American version.</p>
+
+<h2>American Swedish Fish vs. Swedish Pastellfiskar: Side-by-Side</h2>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<thead>
+<tr style="background: #f8f9fa; border-bottom: 2px solid #dee2e6;">
+<th style="padding: 12px; text-align: left;"></th>
+<th style="padding: 12px; text-align: left;">US American Swedish Fish</th>
+<th style="padding: 12px; text-align: left;">Swedish Malaco Pastellfiskar</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-weight: bold;">Manufacturer</td><td style="padding: 10px;">Mondelez International</td><td style="padding: 10px;">Malaco (Sweden)</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-weight: bold;">Artificial dyes</td><td style="padding: 10px;">Yes (Red 40, Yellow 5, Blue 1)</td><td style="padding: 10px;">No — uses natural colorants</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-weight: bold;">Imprint on candy</td><td style="padding: 10px;">"Swedish"</td><td style="padding: 10px;">"Malaco"</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-weight: bold;">Texture</td><td style="padding: 10px;">Firmer, more rubbery</td><td style="padding: 10px;">Softer, smoother chew</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-weight: bold;">Flavor</td><td style="padding: 10px;">Generic berry, more artificial</td><td style="padding: 10px;">Subtle, multi-layered fruit</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-weight: bold;">Colors available</td><td style="padding: 10px;">Red, yellow, green, orange, purple</td><td style="padding: 10px;">Pastel shades from natural color</td></tr>
+<tr style="border-bottom: 1px solid #eee;"><td style="padding: 10px; font-weight: bold;">Where to buy</td><td style="padding: 10px;">Any US store</td><td style="padding: 10px;">Swedish importers, <a href="/where-to-buy">specialty stores</a></td></tr>
+</tbody>
+</table>
+
+<h2>The Flavor Mystery: What Is the Red Swedish Fish Flavor?</h2>
+
+<p>One of the most debated questions in candy: what flavor is the red Swedish Fish? Mondelez has never officially confirmed it. Popular theories include cherry, strawberry, fruit punch, and lingonberry. The most likely answer is that it's a generic "berry" flavor that doesn't correspond to any single real fruit.</p>
+
+<p>The Swedish original (pastellfiskar) is more nuanced. The flavors are distinct and taste more like actual fruit — you can genuinely tell the difference between the citrus fish and the berry fish. This is partly because Swedish candy makers tend to use real fruit extracts rather than the artificial flavoring common in American candy.</p>
+
+<h2>What Makes Real Swedish Candy Different?</h2>
+
+<p>Swedish Fish highlights a broader pattern: <a href="/blog/what-is-swedish-candy">Swedish candy is fundamentally different</a> from American candy in philosophy and execution. Swedish candy culture prioritizes natural ingredients, texture complexity, and genuine flavor over artificial intensity and neon colors.</p>
+
+<p>If Swedish Fish introduced you to the concept of Scandinavian candy, that's great. But don't stop there. The real thing is dramatically better.</p>
+
+<h2>Swedish Fish Alternatives: Real Swedish Gummy Candy</h2>
+
+<h3><a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a></h3>
+<p>The candy that's actually going viral from Sweden right now. Intensely sour, naturally colored, and with a texture that makes American Swedish Fish feel like chewing a rubber band.</p>
+
+<h3><a href="/candy/tutti-frutti">Tutti Frutti</a></h3>
+<p>Classic Swedish fruit gummies with naturally colored, individual fruit flavors and a soft, satisfying chew.</p>
+
+<h3><a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a></h3>
+<p>Sweden's best-selling candy — marshmallow-like cars with subtle fruit flavors. If you want to understand what Swedes actually eat, start here.</p>
+
+<h2>Where to Buy Real Swedish Candy in the US</h2>
+
+<p>For authentic Swedish candy, check our <a href="/where-to-buy">where-to-buy guide</a>, or see our guides to <a href="/blog/best-pick-and-mix-candy-online">pick and mix online</a>, <a href="/blog/best-swedish-candy-on-amazon">Swedish candy on Amazon</a>, and <a href="/blog/swedish-candy-at-ikea-guide">Swedish candy at IKEA</a>.</p>
+
+<h2>FAQ</h2>
+
+<h3>Are Swedish Fish made in Sweden?</h3>
+<p>The American version (Mondelez) is not made in Sweden. The original — Malaco Pastellfiskar — is still made in Sweden and sold throughout Scandinavia.</p>
+
+<h3>Do Swedish Fish have artificial dyes?</h3>
+<p>American Swedish Fish contain Red 40 and other artificial dyes. The Swedish original uses natural colorants. See our <a href="/blog/candy-without-artificial-dyes">complete dye comparison</a>.</p>
+
+<h3>What flavor is the red Swedish Fish?</h3>
+<p>Never officially confirmed by Mondelez. It's generally described as a generic "berry" flavor. The Swedish original has more distinct, identifiable fruit flavors from real fruit extracts.</p>`,
+    heroImage: '/images/blog/swedish-fish-truth.jpg',
+    heroImageAlt: 'American Swedish Fish compared to Swedish Malaco Pastellfiskar side by side',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    estimatedReadTime: 10,
+    tags: ['Swedish Fish', 'Malaco', 'candy history', 'Swedish vs American', 'pastellfiskar', 'gummy candy'],
+    relatedArticleSlugs: ['what-is-swedish-candy', 'candy-without-artificial-dyes', 'best-swedish-candy', 'swedish-candy-vs-american-candy'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'tutti-frutti', 'ahlgrens-bilar'],
+    relatedBrandSlugs: ['malaco', 'bubs'],
+    priority: 'P1',
+    status: 'published',
+  },
+  {
+    id: 73,
+    slug: 'best-pick-and-mix-candy-online',
+    title: 'Best Pick and Mix Candy Online: Where to Build Your Own Candy Bag (2026)',
+    silo: 'where-to-buy',
+    seoTitle: 'Best Pick and Mix Candy Online 2026: Build Your Own Bag | SwedishCrave',
+    metaDescription: 'The best pick and mix candy stores online in 2026. Build your own candy bag with Swedish gummies, sour candy, licorice & more. We ranked every major store.',
+    h1: 'Best Pick and Mix Candy Online: Where to Build Your Own Candy Bag',
+    intro: 'Pick and mix candy — choosing individual candies to build your own custom bag — has exploded in popularity thanks to Swedish candy stores and TikTok. Here are the best online pick-and-mix stores ranked by selection, quality, price, and shipping speed.',
+    content: `<h2>What Is Pick and Mix?</h2>
+
+<p>Pick and mix (called "lösgodis" in Swedish, meaning "loose candy") is the tradition of choosing individual candies by the piece to build your own custom bag. In Sweden, this is how most candy is sold — the <a href="/blog/what-is-swedish-candy">lördagsgodis (Saturday candy) tradition</a> makes pick and mix a weekly ritual for millions of families.</p>
+
+<h2>Best Online Pick and Mix Stores (Ranked)</h2>
+
+<h3>1. BonBon NYC — Best Overall</h3>
+<p><strong>Selection: ★★★★★ | Price: ★★★☆☆ | Authenticity: ★★★★★</strong></p>
+<p>100% Swedish imports. Their online pick-and-mix includes dozens of <a href="/brands/bubs">BUBS</a>, <a href="/brands/malaco">Malaco</a>, and Cloetta products. The most authentic selection in the US. NYC physical store for locals.</p>
+
+<h3>2. Sockerbit — Best Premium Experience</h3>
+<p><strong>Selection: ★★★★☆ | Price: ★★☆☆☆ | Authenticity: ★★★★★</strong></p>
+<p>Curated Swedish candy experience with stores in LA and NYC plus online. Expert curation, beautiful packaging — great for gifts.</p>
+
+<h3>3. Swedish Candy Store — Best Value</h3>
+<p><strong>Selection: ★★★★☆ | Price: ★★★★☆ | Authenticity: ★★★★☆</strong></p>
+<p>Colorado-based, competitive pricing, fast US shipping. Good balance of price and authenticity since 2015.</p>
+
+<h3>4. Swedish Candy Land — Best Prices</h3>
+<p><strong>Selection: ★★★★☆ | Price: ★★★★★ | Authenticity: ★★★★☆</strong></p>
+<p>Often the lowest per-candy prices with orders shipped within 24 hours. Great for bulk orders.</p>
+
+<h3>5. Sweet Deluxe USA — Best International Mix</h3>
+<p><strong>Selection: ★★★★★ | Price: ★★★☆☆ | Authenticity: ★★★☆☆</strong></p>
+<p>300+ types of gummy candy from around the world — Swedish, Spanish, German, and more.</p>
+
+<h3>6. Nordic Cravings — Best for Free Shipping</h3>
+<p><strong>Selection: ★★★☆☆ | Price: ★★★★☆ | Authenticity: ★★★★☆</strong></p>
+<p>Free worldwide shipping on orders over $75. Carries BUBS and other Swedish brands.</p>
+
+<h3>7. Nantasket Sweets — Best Physical + Online Hybrid</h3>
+<p><strong>Selection: ★★★★☆ | Price: ★★★☆☆ | Authenticity: ★★★★★</strong></p>
+<p>Real Swedish candy store in MA with an online shop. Emphasis on natural, gluten-free, and gelatin-free options.</p>
+
+<h2>How to Build the Perfect Pick and Mix Bag</h2>
+
+<p>A great pick-and-mix bag includes something from each category: sour (<a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a>), sweet/fruity (<a href="/candy/tutti-frutti">Tutti Frutti</a>), licorice (start with Malaco Sweet Licorice), chocolate (Plopp or Dumle), and a wild card you've never tried.</p>
+
+<p>Most stores sell by weight. A good individual serving is 200-300g. For family Saturday candy, 500g-1kg is typical.</p>
+
+<h2>Shipping Tips</h2>
+
+<ul>
+<li><strong>Summer:</strong> Gummies can melt. Order insulated packaging and ship early in the week.</li>
+<li><strong>Bulk:</strong> Most stores offer better per-unit pricing on larger orders.</li>
+<li><strong>Freshness:</strong> Swedish candy has fewer preservatives. Consume within 2-3 weeks once opened.</li>
+</ul>
+
+<p>For more options, check our <a href="/where-to-buy">complete where to buy guide</a> or <a href="/blog/best-swedish-candy-on-amazon">Swedish candy on Amazon</a>.</p>`,
+    heroImage: '/images/blog/pick-and-mix-candy.jpg',
+    heroImageAlt: 'Colorful Swedish pick and mix candy display with sour gummies, licorice, and chocolate',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    estimatedReadTime: 9,
+    tags: ['pick and mix', 'lösgodis', 'where to buy', 'Swedish candy online', 'BonBon', 'Sockerbit'],
+    relatedArticleSlugs: ['what-is-swedish-candy', 'best-swedish-candy', 'swedish-candy-amazon-guide', 'swedish-candy-at-ikea-guide'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'tutti-frutti', 'ahlgrens-bilar', 'djungelvraal'],
+    relatedBrandSlugs: ['bubs', 'malaco'],
+    priority: 'P1',
+    status: 'published',
+  },
+  {
+    id: 74,
+    slug: 'best-natural-candy-brands-2026',
+    title: 'Best Natural Candy Brands in 2026: Clean Ingredients, Real Flavor',
+    silo: 'health-ingredients',
+    seoTitle: 'Best Natural Candy Brands 2026: Ranked by Ingredients | SwedishCrave',
+    metaDescription: 'The best natural candy brands in 2026 ranked by ingredient quality. Swedish brands, organic options, and clean-label candy that actually tastes good.',
+    h1: 'Best Natural Candy Brands in 2026: Clean Ingredients, Real Flavor',
+    intro: 'Natural candy has gone from niche health-food-store shelf filler to mainstream demand. With the FDA phasing out synthetic dyes and consumers demanding cleaner labels, 2026 is the year natural candy brands finally compete with — and often beat — conventional candy on taste.',
+    content: `<h2>How We Ranked These Brands</h2>
+
+<p>We evaluated on ingredient quality (40%), taste (30%), availability (20%), and value (10%).</p>
+
+<h2>Tier 1: The Best Natural Candy Brands</h2>
+
+<h3>1. BUBS (Sweden) — Best Overall</h3>
+<p><strong>Score: 9.5/10</strong></p>
+<p><a href="/brands/bubs">BUBS</a> has been naturally colored since the 1990s — decades before it was trendy. Spirulina, beetroot, curcumin, black carrot for color. <a href="/candy/bubs-sour-skulls">Sour Skulls</a> went viral on TikTok because they're genuinely better than artificially colored alternatives.</p>
+
+<h3>2. Hu Kitchen — Best Natural Chocolate</h3>
+<p><strong>Score: 9/10</strong></p>
+<p>"No artificial anything" chocolate. Some bars have only 3-4 ingredients. No refined sugar, no emulsifiers, no soy lecithin.</p>
+
+<h3>3. Unreal Candy — Best Mainstream Alternatives</h3>
+<p><strong>Score: 8.5/10</strong></p>
+<p>Natural versions of M&M's (chocolate gems), Reese's (peanut butter cups), and more. Better chocolate quality, widely available at Target and Whole Foods.</p>
+
+<h2>Tier 2: Excellent Natural Candy</h2>
+
+<h3>4. Smart Sweets — Best Low-Sugar</h3>
+<p><strong>Score: 8/10</strong></p>
+<p>3g sugar per bag vs 30-40g conventional. Natural colors from fruit and vegetable juices. Widely available.</p>
+
+<h3>5. YumEarth — Best for Families</h3>
+<p><strong>Score: 8/10</strong></p>
+<p>Organic, naturally colored, free from top 8 allergens. The safest choice for school and parties.</p>
+
+<h3>6. Fazer (Finland) — Best Nordic Chocolate</h3>
+<p><strong>Score: 8/10</strong></p>
+<p><a href="/brands/fazer">Fazer's</a> Karl Fazer Blue bar — real cocoa butter, real vanilla, no artificial anything.</p>
+
+<h3>7. Justin's — Best Peanut Butter Cups</h3>
+<p><strong>Score: 7.5/10</strong></p>
+<p>Organic, no artificial colors or flavors. Real peanut butter, better chocolate than Reese's.</p>
+
+<h2>Tier 3: Good Natural Candy</h2>
+
+<h3>8. Black Forest Organic — Best Budget</h3>
+<p>Affordable organic gummies at most grocery stores.</p>
+
+<h3>9. Surf Sweets — Best Texture</h3>
+<p>Organic gummies closest to conventional candy texture.</p>
+
+<h3>10. Panda Licorice — Purest Ingredients</h3>
+<p>Four ingredients total: licorice root, wheat flour, sugar, molasses.</p>
+
+<h2>The Swedish Advantage</h2>
+
+<p>Swedish and Nordic brands dominate this ranking because <a href="/blog/candy-without-artificial-dyes">natural ingredients are the default in Scandinavian candy</a>, not a premium feature. Browse our <a href="/candy">complete candy collection</a> to explore.</p>
+
+<p>For details on big brands going natural in 2026, see our <a href="/blog/dye-free-candy-guide">dye-free candy buyer's guide</a>.</p>`,
+    heroImage: '/images/blog/natural-candy-brands.jpg',
+    heroImageAlt: 'Best natural candy brands lineup including BUBS, YumEarth, and Hu Kitchen',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    estimatedReadTime: 10,
+    tags: ['natural candy', 'clean label', 'organic candy', 'Swedish candy', 'dye-free', 'candy brands', 'ranking'],
+    relatedArticleSlugs: ['dye-free-candy-guide', 'candy-without-artificial-dyes', 'what-is-swedish-candy', 'best-swedish-candy'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'marabou-mjolkchoklad', 'tutti-frutti', 'ahlgrens-bilar'],
+    relatedBrandSlugs: ['bubs', 'malaco', 'marabou', 'fazer'],
+    priority: 'P1',
+    status: 'published',
+  },
+  {
+    id: 75,
+    slug: 'swedish-candy-amazon-guide',
+    title: 'Best Swedish Candy on Amazon: What\'s Worth Buying (& What to Skip)',
+    silo: 'where-to-buy',
+    seoTitle: 'Best Swedish Candy on Amazon 2026: Ranked & Reviewed | SwedishCrave',
+    metaDescription: 'The best Swedish candy on Amazon in 2026. We ranked every option — BUBS Sour Skulls to Marabou chocolate. Plus what to avoid.',
+    h1: 'Best Swedish Candy on Amazon: What\'s Worth Buying (& What to Skip)',
+    intro: 'Amazon is the easiest way to try Swedish candy — but not everything labeled "Swedish candy" on Amazon is worth buying. Some listings are overpriced, some aren\'t authentic. Here\'s what to buy and what to skip.',
+    content: `<h2>Best Swedish Candy on Amazon: Worth Buying</h2>
+
+<h3>1. BUBS Sour Skulls — Must Buy</h3>
+<p><a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> are the TikTok-viral Swedish candy everyone's talking about. Intense sour coating, soft gummy interior, naturally colored. Multiple sellers — compare prices ($8-12 typical). Look for verified Swedish importers.</p>
+
+<h3>2. Marabou Mjölkchoklad — Essential</h3>
+<p><a href="/candy/marabou-mjolkchoklad">Sweden's iconic milk chocolate</a>. Real cocoa butter, real vanilla. Makes Hershey's taste grainy. $6-10 for 200g bar is reasonable.</p>
+
+<h3>3. Ahlgrens Bilar — Uniquely Swedish</h3>
+<p><a href="/candy/ahlgrens-bilar">Sweden's best-selling candy</a>. Soft marshmallow-like cars with fruit flavors. Nothing like any American candy. Check for fresh import dates.</p>
+
+<h3>4. Marabou Daim Bar — Great Gateway</h3>
+<p><a href="/candy/daim">Crunchy almond caramel</a> in milk chocolate. Familiar enough for Americans, clearly superior to equivalent US candy. $5-8.</p>
+
+<h3>5. BUBS Watermelon Skulls — Milder Option</h3>
+<p>Same natural coloring and soft gummy texture as Sour Skulls but with sweet watermelon flavor. Good for kids or sour-averse adults.</p>
+
+<h2>What to Skip on Amazon</h2>
+
+<h3>❌ "Swedish Fish" (Mondelez)</h3>
+<p>American-made candy, not real Swedish candy. Contains Red 40. See <a href="/blog/swedish-fish-origin-story">our full breakdown</a>.</p>
+
+<h3>❌ Overpriced Single Pieces</h3>
+<p>Some sellers list single bars at absurd markups ($15+). Always compare between sellers.</p>
+
+<h3>❌ "Swedish Style" Candy</h3>
+<p>American-made candy capitalizing on the trend. Check the brand name and origin country.</p>
+
+<h2>Amazon vs. Specialty Stores</h2>
+
+<p>Amazon is convenient for first orders (Prime shipping), but specialty stores like <a href="/blog/best-pick-and-mix-candy-online">BonBon and Sockerbit</a> offer better selection, fresher candy, and pick-and-mix options. Use Amazon to try a few items, then switch to specialists.</p>
+
+<p>Full list of where to buy: <a href="/where-to-buy">our complete guide</a>.</p>`,
+    heroImage: '/images/blog/swedish-candy-amazon.jpg',
+    heroImageAlt: 'Swedish candy from Amazon including BUBS Sour Skulls, Marabou chocolate, and Ahlgrens Bilar',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    estimatedReadTime: 8,
+    tags: ['Amazon', 'where to buy', 'Swedish candy', 'BUBS', 'Marabou', 'shopping guide', 'affiliate'],
+    relatedArticleSlugs: ['best-pick-and-mix-candy-online', 'what-is-swedish-candy', 'best-swedish-candy', 'swedish-candy-at-ikea-guide'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'marabou-mjolkchoklad', 'ahlgrens-bilar', 'daim'],
+    relatedBrandSlugs: ['bubs', 'marabou', 'malaco'],
+    priority: 'P1',
+    status: 'published',
+  },
+  {
+    id: 76,
+    slug: 'ikea-candy-vs-authentic-swedish',
+    title: 'IKEA Candy vs. Authentic Swedish Candy: How They Compare',
+    silo: 'vs-comparisons',
+    seoTitle: 'IKEA Candy vs Real Swedish Candy: Is It Authentic? | SwedishCrave',
+    metaDescription: 'Is IKEA\'s Swedish candy authentic? We compare IKEA\'s candy selection with real Swedish candy stores — ingredients, brands, prices, and what\'s worth buying.',
+    h1: 'IKEA Candy vs. Authentic Swedish Candy: The Honest Comparison',
+    intro: 'IKEA\'s Swedish Food Market is most Americans\' first encounter with Swedish candy. But how does IKEA candy compare to what you\'d find in a real Swedish candy store? We compared everything.',
+    content: `<h2>The Short Answer</h2>
+
+<p>IKEA's candy is genuinely Swedish — mostly from <a href="/brands/malaco">Malaco</a> and Cloetta. But the selection is limited (15-25 products vs 200+ in a real candy store), freshness can be inconsistent, and you're missing the best stuff. Think of IKEA as a legitimate sampler, not the full experience.</p>
+
+<h2>What IKEA Gets Right</h2>
+
+<ul>
+<li><strong>✅ Authentic brands</strong> — Real imports from Malaco and Cloetta, matching Swedish ingredient lists</li>
+<li><strong>✅ Good prices</strong> — Often cheaper than online importers ($4-6 per bag vs $6-10)</li>
+<li><strong>✅ Instant gratification</strong> — No waiting for shipping</li>
+</ul>
+
+<h2>What IKEA Gets Wrong</h2>
+
+<ul>
+<li><strong>❌ No BUBS</strong> — Most IKEAs don't carry <a href="/brands/bubs">BUBS Sour Skulls</a> or other BUBS products (the TikTok-famous brand)</li>
+<li><strong>❌ Minimal licorice</strong> — The full salmiak/salt licorice spectrum is absent</li>
+<li><strong>❌ No pick-and-mix</strong> — Most locations no longer have lösgodis stations</li>
+<li><strong>❌ Variable freshness</strong> — Low-traffic stores may have older stock. Check best-by dates.</li>
+</ul>
+
+<h2>What to Buy at IKEA</h2>
+
+<ul>
+<li><a href="/candy/marabou-mjolkchoklad">Marabou chocolate bars</a> — Great IKEA price, keeps well</li>
+<li>Malaco Gott & Blandat — Mixed gummy and licorice sampler</li>
+<li><a href="/candy/daim">Daim bars/bags</a> — Often cheapest at IKEA</li>
+<li>Polkagris — Traditional peppermint sticks rarely available online</li>
+</ul>
+
+<h2>Buy Online Instead</h2>
+
+<ul>
+<li><a href="/candy/bubs-sour-skulls">BUBS Sour Skulls</a> — Not at IKEA. Get from <a href="/blog/best-pick-and-mix-candy-online">BonBon, Sockerbit, or Swedish Candy Store</a></li>
+<li>Salt licorice / Salmiak — Online stores have the full intensity range</li>
+<li>Pick-and-mix — The core Swedish candy experience, online only</li>
+<li>Fazer chocolate, seasonal varieties — Online specialists only</li>
+</ul>
+
+<h2>Our Recommendation</h2>
+
+<p>IKEA is a great entry point — grab some Marabou and Malaco next time you're there. But for the full experience (BUBS, pick-and-mix, salt licorice), order from a <a href="/blog/best-pick-and-mix-candy-online">dedicated Swedish candy store</a>. For a complete IKEA breakdown, see our <a href="/blog/swedish-candy-at-ikea-guide">IKEA candy guide</a>.</p>`,
+    heroImage: '/images/blog/ikea-candy-comparison.jpg',
+    heroImageAlt: 'IKEA Swedish food market candy section compared to specialty Swedish candy store',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-14',
+    updatedAt: '2026-03-14',
+    estimatedReadTime: 7,
+    tags: ['IKEA', 'Swedish candy', 'comparison', 'where to buy', 'Malaco', 'Marabou', 'authentic'],
+    relatedArticleSlugs: ['swedish-candy-at-ikea-guide', 'best-pick-and-mix-candy-online', 'swedish-fish-origin-story', 'what-is-swedish-candy'],
+    relatedCandySlugs: ['marabou-mjolkchoklad', 'daim', 'bubs-sour-skulls', 'ahlgrens-bilar'],
+    relatedBrandSlugs: ['marabou', 'malaco', 'bubs'],
+    priority: 'P1',
+    status: 'published',
+  },
 ]
 
 // Helper functions
