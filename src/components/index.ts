@@ -1,5 +1,6 @@
 export { default as Header } from './Header';
 export { default as Footer } from './Footer';
+export { default as Logo } from './Logo';
 export { default as CandyCard } from './CandyCard';
 export { default as BrandCard } from './BrandCard';
 export { default as CategoryCard } from './CategoryCard';

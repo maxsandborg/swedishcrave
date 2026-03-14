@@ -8,20 +8,27 @@ export default function Icon() {
     (
       <div
         style={{
-          fontSize: 24,
-          background: '#4A7BA7',
           width: '100%',
           height: '100%',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          color: 'white',
           borderRadius: '6px',
-          fontWeight: 'bold',
-          fontFamily: 'sans-serif',
+          background: 'linear-gradient(135deg, #FF3E8A 0%, #7B2FBE 100%)',
         }}
       >
-        S
+        <div
+          style={{
+            fontSize: 20,
+            fontWeight: 900,
+            color: 'white',
+            fontFamily: 'sans-serif',
+            lineHeight: 1,
+            textShadow: '0 1px 2px rgba(0,0,0,0.2)',
+          }}
+        >
+          SC
+        </div>
       </div>
     ),
     { ...size }

@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import Logo from './Logo';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,9 +23,10 @@ export default function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="text-2xl md:text-3xl font-bold text-sc-text hover:text-sc-primary transition-colors"
+            className="hover:opacity-90 transition-opacity"
           >
-            SwedishCrave
+            <Logo size="sm" className="block md:hidden" />
+            <Logo size="md" className="hidden md:block" />
           </Link>
 
           {/* Desktop Navigation */}

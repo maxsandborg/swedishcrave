@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Logo from './Logo';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -72,7 +73,8 @@ export default function Footer() {
         <div className="border-t border-sc-border mb-6" />
 
         {/* Copyright */}
-        <div className="text-center text-sm text-sc-text-muted">
+        <div className="flex flex-col items-center text-sm text-sc-text-muted">
+          <Logo size="sm" className="mb-3 opacity-70" />
           <p>&copy; {currentYear} SwedishCrave. All rights reserved.</p>
           <p className="mt-2">Exploring the world of Swedish candy, one review at a time.</p>
         </div>
