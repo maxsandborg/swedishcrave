@@ -1,3 +1,5 @@
+import type { CSSProperties } from 'react';
+
 interface LogoProps {
   className?: string;
   size?: 'sm' | 'md' | 'lg';
@@ -51,7 +53,7 @@ export default function Logo({ className = '', size = 'md' }: LogoProps) {
 
   const { iconSize, fontSize, gap } = config[size];
 
-  const swedishStyle: React.CSSProperties = {
+  const swedishStyle: CSSProperties = {
     fontFamily: "var(--font-fredoka), 'Fredoka One', 'Nunito', sans-serif",
     fontSize,
     lineHeight: 1,
@@ -66,7 +68,7 @@ export default function Logo({ className = '', size = 'md' }: LogoProps) {
     ].join(' '),
   };
 
-  const craveStyle: React.CSSProperties = {
+  const craveStyle: CSSProperties = {
     fontFamily: "var(--font-fredoka), 'Fredoka One', 'Nunito', sans-serif",
     fontSize,
     lineHeight: 1,
