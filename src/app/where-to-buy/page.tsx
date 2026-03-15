@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { stores } from '@/data/stores';
 import {
   Star,
@@ -17,11 +18,8 @@ import {
   ShieldCheck,
   MapPin,
   ExternalLink,
-  Zap,
   Heart,
   BookOpen,
-  Cherry,
-  Droplets,
 } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -54,12 +52,19 @@ function StarRating({ rating }: { rating: number }) {
   );
 }
 
+// Mums bestsellers — verified from mumscandy.com
+const mumsProducts = [
+  { name: 'Sweet And Sour Mix', reviews: '1,227', price: '$19.99', originalPrice: '$24.69', image: '/images/stores/mums-products/sweet-and-sour-mix.jpg' },
+  { name: 'Sour Swedish Mix', reviews: '458', price: '$19.99', originalPrice: '$24.69', image: '/images/stores/mums-products/sour-mix.jpg' },
+  { name: 'Sweet Swedish Mix', reviews: '382', price: '$19.99', originalPrice: '$24.69', image: '/images/stores/mums-products/sweet-mix.jpg' },
+  { name: 'All-In-One Party Mix', reviews: '282', price: '$79.00', originalPrice: '', image: '/images/stores/mums-products/party-mix.jpg' },
+];
+
 // Store icon mapping
 const storeIcons: Record<string, React.ReactNode> = {
   'mums-swedish-candy': <Candy className="w-8 h-8 text-sc-primary" />,
   'swedish-sweets': <Globe className="w-8 h-8 text-sc-blue" />,
-  'scandy-candy': <Package className="w-8 h-8 text-sc-teal" />,
-  'swedish-candy-store': <ShoppingBag className="w-8 h-8 text-sc-purple" />,
+  'scandi-candy-shop': <Package className="w-8 h-8 text-sc-teal" />,
   'bonbon-nyc': <Gift className="w-8 h-8 text-sc-pink" />,
   sockerbit: <Candy className="w-8 h-8 text-sc-orange" />,
   amazon: <Truck className="w-8 h-8 text-[#FF9900]" />,
@@ -69,8 +74,7 @@ const storeIcons: Record<string, React.ReactNode> = {
 const storeAccents: Record<string, { bg: string; border: string; badge: string }> = {
   'mums-swedish-candy': { bg: 'bg-sc-teal-soft', border: 'border-sc-teal/20', badge: 'bg-sc-teal text-white' },
   'swedish-sweets': { bg: 'bg-sc-blue-soft', border: 'border-sc-blue/20', badge: 'bg-sc-blue text-white' },
-  'scandy-candy': { bg: 'bg-sc-green-soft', border: 'border-sc-green/20', badge: 'bg-sc-green text-white' },
-  'swedish-candy-store': { bg: 'bg-sc-purple-soft', border: 'border-sc-purple/20', badge: 'bg-sc-purple text-white' },
+  'scandi-candy-shop': { bg: 'bg-sc-green-soft', border: 'border-sc-green/20', badge: 'bg-sc-green text-white' },
   'bonbon-nyc': { bg: 'bg-sc-pink-soft', border: 'border-sc-pink/20', badge: 'bg-sc-pink text-white' },
   sockerbit: { bg: 'bg-sc-orange-soft', border: 'border-sc-orange/20', badge: 'bg-sc-orange text-white' },
   amazon: { bg: 'bg-sc-yellow-soft', border: 'border-sc-yellow/20', badge: 'bg-[#FF9900] text-white' },
@@ -115,93 +119,129 @@ export default function WhereToBuyPage() {
       {mumsStore && (
         <section className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 pb-12">
           <div className="bg-white rounded-sc-lg border-2 border-[#B0EDE4] shadow-[0_12px_48px_rgba(0,201,183,0.1)] overflow-hidden">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-              {/* Left — Info */}
-              <div className="p-8 md:p-10 flex flex-col justify-center">
-                <div className="flex items-center gap-3 mb-5">
-                  <span className="inline-flex items-center gap-1.5 bg-sc-teal-soft text-[#00897B] font-bold text-[11px] px-3.5 py-1.5 rounded-sc-full uppercase tracking-wide">
-                    <Trophy className="w-3 h-3 fill-current" /> #1 Recommended
-                  </span>
-                  <span className="inline-flex items-center gap-1.5 bg-sc-green-soft text-sc-green font-bold text-[11px] px-3.5 py-1.5 rounded-sc-full uppercase tracking-wide">
-                    <CheckCircle className="w-3 h-3" /> Affiliate Partner
-                  </span>
+            {/* Store Header */}
+            <div className="p-8 md:p-10 pb-6 md:pb-6">
+              <div className="flex flex-col sm:flex-row sm:items-center gap-5">
+                {/* Logo */}
+                <div className="w-20 h-20 rounded-sc-sm bg-white border border-sc-border flex items-center justify-center p-2.5 flex-shrink-0 shadow-sm">
+                  <Image
+                    src="/images/stores/mums-logo.png"
+                    alt="Mums Swedish Candy"
+                    width={256}
+                    height={99}
+                    className="w-full h-auto"
+                  />
                 </div>
 
-                <h2 className="font-display text-2xl md:text-[28px] font-bold text-sc-text mb-1">
-                  {mumsStore.name}
-                </h2>
-
-                <div className="flex items-center gap-2 mb-4">
-                  <StarRating rating={mumsStore.rating} />
-                  <span className="text-sm font-semibold text-sc-text">{mumsStore.rating.toFixed(1)}</span>
-                  <span className="text-[13px] text-sc-text-muted">&middot; {mumsStore.commission} commission</span>
-                </div>
-
-                <p className="text-[15px] text-sc-text-muted leading-relaxed mb-6">
-                  {mumsStore.description}
-                </p>
-
-                <div className="flex flex-wrap gap-x-5 gap-y-2 mb-6">
-                  {mumsStore.features.slice(0, 4).map((feature) => (
-                    <span key={feature} className="flex items-center gap-1.5 text-[13px] font-medium text-sc-text-muted">
-                      <CheckCircle className="w-3.5 h-3.5 text-sc-teal" />
-                      {feature}
+                <div className="flex-1">
+                  <div className="flex items-center gap-3 mb-2">
+                    <span className="inline-flex items-center gap-1.5 bg-sc-teal-soft text-[#00897B] font-bold text-[11px] px-3.5 py-1.5 rounded-sc-full uppercase tracking-wide">
+                      <Trophy className="w-3 h-3 fill-current" /> #1 Recommended
                     </span>
-                  ))}
-                </div>
+                    <span className="inline-flex items-center gap-1.5 bg-sc-green-soft text-sc-green font-bold text-[11px] px-3.5 py-1.5 rounded-sc-full uppercase tracking-wide">
+                      <CheckCircle className="w-3 h-3" /> Affiliate Partner
+                    </span>
+                  </div>
 
-                <div className="flex items-center gap-2 mb-6">
-                  <Truck className="w-4 h-4 text-sc-teal" />
-                  <span className="text-[13px] font-medium text-sc-text-muted">
-                    Ships to: {mumsStore.shipsTo.join(', ')}
+                  <h2 className="font-display text-2xl md:text-[28px] font-bold text-sc-text mb-1">
+                    {mumsStore.name}
+                  </h2>
+
+                  <div className="flex items-center gap-2 mb-3">
+                    <StarRating rating={mumsStore.rating} />
+                    <span className="text-sm font-semibold text-sc-text">{mumsStore.rating.toFixed(1)}</span>
+                    <span className="text-[13px] text-sc-text-muted">&middot; 200,000+ customers</span>
+                  </div>
+
+                  <p className="text-[15px] text-sc-text-muted leading-relaxed">
+                    {mumsStore.description}
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-wrap gap-x-5 gap-y-2 mt-5 mb-2">
+                {mumsStore.features.slice(0, 5).map((feature) => (
+                  <span key={feature} className="flex items-center gap-1.5 text-[13px] font-medium text-sc-text-muted">
+                    <CheckCircle className="w-3.5 h-3.5 text-sc-teal" />
+                    {feature}
                   </span>
-                </div>
+                ))}
+              </div>
 
+              <div className="flex items-center gap-2 mt-2">
+                <Truck className="w-4 h-4 text-sc-teal" />
+                <span className="text-[13px] font-medium text-sc-text-muted">
+                  Ships to: {mumsStore.shipsTo.join(', ')} &middot; Free shipping over $69
+                </span>
+              </div>
+            </div>
+
+            {/* Best Sellers Grid */}
+            <div className="bg-gradient-to-br from-sc-teal-soft/50 to-[#F0FDF9] border-t border-[#B0EDE4]/50 p-6 md:p-8">
+              <h3 className="font-display text-sm font-bold text-sc-text-muted uppercase tracking-wide mb-4">
+                🔥 Best Sellers &mdash; Shop via Our Link
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                {mumsProducts.map((product) => (
+                  <a
+                    key={product.name}
+                    href={mumsStore.affiliateUrl}
+                    target="_blank"
+                    rel="sponsored noopener"
+                    className="group bg-white rounded-sc-sm overflow-hidden shadow-sm hover:-translate-y-1 hover:shadow-md transition-all"
+                  >
+                    <div className="relative w-full aspect-square bg-gray-50">
+                      <Image
+                        src={product.image}
+                        alt={product.name}
+                        fill
+                        sizes="(max-width: 768px) 50vw, 25vw"
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                      {product.originalPrice && (
+                        <span className="absolute top-2 left-2 bg-sc-pink text-white text-[9px] font-bold px-2 py-0.5 rounded-sc-full">
+                          SALE
+                        </span>
+                      )}
+                    </div>
+                    <div className="p-3">
+                      <h4 className="text-[12px] font-bold text-sc-text leading-tight mb-1 group-hover:text-sc-teal transition-colors">
+                        {product.name}
+                      </h4>
+                      <div className="flex items-center gap-1 text-[10px] text-sc-yellow mb-1">
+                        ★★★★★
+                        <span className="text-sc-text-muted">{product.reviews}</span>
+                      </div>
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-sm font-bold text-sc-teal">{product.price}</span>
+                        {product.originalPrice && (
+                          <span className="text-[11px] text-sc-text-muted line-through">{product.originalPrice}</span>
+                        )}
+                      </div>
+                    </div>
+                  </a>
+                ))}
+              </div>
+
+              <div className="flex flex-wrap items-center justify-between gap-4 mt-5">
+                <p className="text-[12px] text-sc-text-muted font-medium">
+                  Shopping via our link supports SwedishCrave at no extra cost to you
+                </p>
                 <div className="flex flex-wrap gap-3">
                   <a
                     href={mumsStore.affiliateUrl}
                     target="_blank"
                     rel="sponsored noopener"
-                    className="inline-flex items-center gap-2 bg-sc-teal text-white font-semibold text-[15px] px-7 py-3.5 rounded-sc-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 bg-sc-teal text-white font-semibold text-[14px] px-6 py-3 rounded-sc-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
                   >
-                    Shop Mums <ArrowRight className="w-4 h-4" />
+                    Shop All Mums Products <ArrowRight className="w-4 h-4" />
                   </a>
-                  <a
-                    href={mumsStore.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-white text-sc-text font-semibold text-[15px] px-7 py-3.5 rounded-sc-full border-2 border-sc-border hover:border-sc-teal hover:text-sc-teal transition-all"
+                  <Link
+                    href="/stores/mums-swedish-candy"
+                    className="inline-flex items-center gap-2 bg-white text-sc-text font-semibold text-[14px] px-6 py-3 rounded-sc-full border-2 border-sc-border hover:border-sc-teal hover:text-sc-teal transition-all"
                   >
-                    Visit Website <ExternalLink className="w-4 h-4" />
-                  </a>
-                </div>
-              </div>
-
-              {/* Right — Visual */}
-              <div className="bg-gradient-to-br from-sc-teal-soft to-[#F0FDF9] p-6 md:p-8 flex flex-col justify-center">
-                <div className="grid grid-cols-3 gap-3">
-                  {[
-                    { name: 'Sour Skulls', icon: <Zap className="w-6 h-6 text-sc-green" /> },
-                    { name: 'Berry Mix', icon: <Cherry className="w-6 h-6 text-sc-pink" /> },
-                    { name: 'Daim Bites', icon: <Heart className="w-6 h-6 text-[#8B5E3C]" /> },
-                    { name: 'Salmiak', icon: <Droplets className="w-6 h-6 text-sc-blue" /> },
-                    { name: 'Pick & Mix', icon: <Candy className="w-6 h-6 text-sc-orange" /> },
-                    { name: 'Gift Box', icon: <Gift className="w-6 h-6 text-sc-primary" /> },
-                  ].map((product) => (
-                    <div
-                      key={product.name}
-                      className="bg-white rounded-sc-sm p-4 text-center shadow-sm hover:-translate-y-1 hover:rotate-[-2deg] hover:shadow-md transition-all"
-                    >
-                      <span className="block mx-auto mb-2 w-fit">{product.icon}</span>
-                      <span className="text-[11px] font-bold text-sc-text block">{product.name}</span>
-                    </div>
-                  ))}
-                </div>
-
-                <div className="mt-5 bg-white/80 rounded-sc-sm p-4 text-center">
-                  <p className="text-[12px] text-sc-text-muted font-medium">
-                    Use our link for the best deals &mdash; supporting SwedishCrave at no extra cost to you
-                  </p>
+                    Full Review <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -237,7 +277,19 @@ export default function WhereToBuyPage() {
                 {/* Card Header */}
                 <div className={`${accent.bg} ${accent.border} border-b p-5 md:p-6`}>
                   <div className="flex items-start justify-between mb-3">
-                    <span className="block">{icon}</span>
+                    {store.slug === 'swedish-sweets' ? (
+                      <div className="w-10 h-10 rounded-lg bg-white border border-sc-border flex items-center justify-center p-1 overflow-hidden">
+                        <Image
+                          src="/images/stores/swedish-sweets-logo.png"
+                          alt="Swedish Sweets"
+                          width={900}
+                          height={150}
+                          className="w-full h-auto"
+                        />
+                      </div>
+                    ) : (
+                      <span className="block">{icon}</span>
+                    )}
                     <div className="flex gap-1.5">
                       {isLive && (
                         <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2.5 py-1 rounded-sc-full bg-sc-green-soft text-sc-green uppercase tracking-wide">
@@ -257,9 +309,6 @@ export default function WhereToBuyPage() {
                   <div className="flex items-center gap-2">
                     <StarRating rating={store.rating} />
                     <span className="text-[13px] font-semibold text-sc-text">{store.rating.toFixed(1)}</span>
-                    {store.commission !== 'Varies' && (
-                      <span className="text-[12px] text-sc-text-muted">&middot; {store.commission}</span>
-                    )}
                   </div>
                 </div>
 
