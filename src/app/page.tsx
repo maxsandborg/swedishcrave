@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { getFeaturedCandy, getTrendingCandy } from '@/lib/utils';
 import { categories } from '@/data/categories';
+import { stores } from '@/data/stores';
 import CandyCard from '@/components/CandyCard';
 import CategoryCard from '@/components/CategoryCard';
 
@@ -223,6 +224,104 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      {/* ═══ WHERE TO BUY — PARTNER SECTION ═══ */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+          <div className="text-center mb-12">
+            <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[1.2px] text-sc-pink bg-sc-pink/[0.08] px-3.5 py-1.5 rounded-sc-full mb-3">
+              🛒 Where to Buy
+            </span>
+            <h2 className="font-display text-[32px] sm:text-4xl font-extrabold text-sc-text tracking-[-0.5px]">
+              Trusted Stores That Ship to the USA
+            </h2>
+            <p className="text-base text-sc-text-muted mt-2 max-w-xl mx-auto">
+              We&apos;ve vetted every store for authenticity, shipping speed, and customer service
+            </p>
+          </div>
+
+          {/* Featured Partner — Mums */}
+          {stores.filter(s => s.featured).map((store) => (
+            <div key={store.slug} className="mb-8">
+              <a
+                href={store.affiliateUrl && store.affiliateUrl !== '#' ? store.affiliateUrl : store.url}
+                target="_blank"
+                rel={`noopener noreferrer${store.affiliateUrl && store.affiliateUrl !== '#' ? ' sponsored' : ''}`}
+                className="group block bg-sc-card border-2 border-sc-pink/30 rounded-sc-lg p-8 md:p-10 relative overflow-hidden hover:shadow-[0_8px_40px_rgba(255,45,135,0.12)] hover:-translate-y-0.5 transition-all"
+              >
+                {/* Background glow */}
+                <div className="absolute -top-20 -right-20 w-[200px] h-[200px] bg-[radial-gradient(circle,rgba(255,45,135,0.06)_0%,transparent_70%)] rounded-full" />
+
+                <div className="relative flex flex-col md:flex-row md:items-center gap-6 md:gap-10">
+                  {/* Left: Info */}
+                  <div className="flex-1">
+                    <div className="flex items-center gap-3 mb-3">
+                      <span className="inline-flex items-center gap-1.5 bg-sc-pink text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-sc-full">
+                        ⭐ Editor&apos;s Pick
+                      </span>
+                      <div className="flex items-center gap-0.5 text-sc-yellow text-sm">
+                        {'★★★★★'}
+                        <span className="font-semibold text-sc-text ml-1">{store.rating.toFixed(1)}</span>
+                      </div>
+                    </div>
+                    <h3 className="font-display text-2xl md:text-[28px] font-extrabold text-sc-text mb-2 group-hover:text-sc-pink transition-colors">
+                      {store.name}
+                    </h3>
+                    <p className="text-[15px] text-sc-text-muted leading-[1.7] mb-4 max-w-lg">
+                      {store.description}
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      {store.features.slice(0, 4).map((feature) => (
+                        <span key={feature} className="inline-flex items-center gap-1 px-3 py-1 rounded-sc-full bg-sc-lime/[0.1] text-[12px] font-semibold text-[#2D8F2A]">
+                          ✓ {feature}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Right: CTA */}
+                  <div className="flex-shrink-0 text-center md:text-right">
+                    <div className="inline-flex items-center gap-2 bg-sc-pink text-white px-8 py-4 rounded-sc-full text-[15px] font-bold shadow-[0_4px_20px_rgba(255,45,135,0.35)] group-hover:shadow-[0_6px_30px_rgba(255,45,135,0.5)] group-hover:-translate-y-0.5 transition-all">
+                      Shop {store.name} →
+                    </div>
+                    <p className="text-xs text-sc-text-muted mt-2">Free shipping over $50</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          ))}
+
+          {/* Other Stores — Grid */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+            {stores.filter(s => !s.featured).map((store) => (
+              <a
+                key={store.slug}
+                href={store.affiliateUrl && store.affiliateUrl !== '#' ? store.affiliateUrl : store.url}
+                target="_blank"
+                rel={`noopener noreferrer${store.affiliateUrl && store.affiliateUrl !== '#' ? ' sponsored' : ''}`}
+                className="group bg-sc-card border border-sc-border rounded-sc-lg p-4 text-center hover:border-sc-pink/40 hover:shadow-sc-hover hover:-translate-y-0.5 transition-all"
+              >
+                <h4 className="font-display font-bold text-sm text-sc-text group-hover:text-sc-pink transition-colors mb-1">
+                  {store.name}
+                </h4>
+                <div className="flex items-center justify-center gap-0.5 text-sc-yellow text-xs mb-2">
+                  {'★'.repeat(Math.floor(store.rating))}
+                  {store.rating % 1 >= 0.5 ? '☆' : ''}
+                  <span className="font-semibold text-sc-text ml-1 text-[11px]">{store.rating.toFixed(1)}</span>
+                </div>
+                <span className="text-[11px] text-sc-text-muted">{store.shipsTo.join(', ')}</span>
+              </a>
+            ))}
+          </div>
+
+          <div className="text-center mt-8">
+            <Link
+              href="/where-to-buy"
+              className="inline-flex items-center gap-1 text-sm font-semibold text-sc-pink hover:gap-2 transition-all"
+            >
+              Compare all stores in detail →
+            </Link>
+          </div>
+        </section>
 
       {/* ═══ WHY SECTION ═══ */}
       <div className="bg-sc-bg-alt">

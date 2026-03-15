@@ -62,8 +62,18 @@ export default function WhereToBuyPage() {
           {sortedStores.map((store) => (
             <div
               key={store.slug}
-              className="bg-sc-card border border-sc-border rounded-sc-lg overflow-hidden hover:shadow-sc-hover hover:-translate-y-0.5 transition-all p-7"
+              className={`bg-sc-card border rounded-sc-lg overflow-hidden hover:shadow-sc-hover hover:-translate-y-0.5 transition-all p-7 relative ${
+                store.featured
+                  ? 'border-sc-pink/40 ring-1 ring-sc-pink/20 shadow-[0_0_20px_rgba(255,45,135,0.08)]'
+                  : 'border-sc-border'
+              }`}
             >
+              {/* Featured Badge */}
+              {store.featured && (
+                <div className="absolute top-4 right-4 inline-flex items-center gap-1.5 bg-sc-pink text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-sc-full shadow-sm">
+                  ⭐ Editor&apos;s Pick
+                </div>
+              )}
               {/* Header */}
               <div className="mb-5">
                 <h3 className="font-display text-xl font-bold text-sc-text mb-2">
@@ -132,10 +142,14 @@ export default function WhereToBuyPage() {
 
               {/* CTA Button */}
               <a
-                href={store.url}
+                href={store.affiliateUrl && store.affiliateUrl !== '#' ? store.affiliateUrl : store.url}
                 target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full bg-sc-pink hover:bg-sc-pink-hover text-white text-center font-semibold py-3 rounded-sc-full transition-all hover:-translate-y-0.5 shadow-[0_4px_16px_rgba(255,45,135,0.3)]"
+                rel={`noopener noreferrer${store.affiliateUrl && store.affiliateUrl !== '#' ? ' sponsored' : ''}`}
+                className={`block w-full text-white text-center font-semibold py-3 rounded-sc-full transition-all hover:-translate-y-0.5 ${
+                  store.featured
+                    ? 'bg-sc-pink hover:bg-sc-pink-hover shadow-[0_4px_16px_rgba(255,45,135,0.4)]'
+                    : 'bg-sc-pink hover:bg-sc-pink-hover shadow-[0_4px_16px_rgba(255,45,135,0.3)]'
+                }`}
               >
                 Visit {store.name} →
               </a>

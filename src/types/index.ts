@@ -61,6 +61,7 @@ export type Store = {
   affiliateUrl: string
   commission: string
   rating: number
+  featured?: boolean
   features: string[]
 }
 

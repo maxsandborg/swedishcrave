@@ -4,13 +4,14 @@ export const stores: Store[] = [
   {
     slug: 'mums-swedish-candy',
     name: 'Mums Swedish Candy',
-    url: 'https://mumsswedishcandy.com',
-    description: 'Curated selection of Swedish candy shipped directly to the US. Known for fast shipping and excellent packaging.',
+    url: 'https://www.mumscandy.com',
+    description: 'Curated selection of Swedish candy shipped directly to the US. Known for fast shipping and excellent packaging. Clean ingredients — no parabens, gluten, artificial colors, or GMOs.',
     shipsTo: ['USA', 'Canada'],
-    affiliateUrl: '#',
+    affiliateUrl: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ',
     commission: '15%',
     rating: 4.8,
-    features: ['Fast US shipping', 'Curated boxes', 'Gift options', 'Subscription available', 'Wide BUBS selection'],
+    featured: true,
+    features: ['Fast US shipping', 'Curated boxes', 'Gift options', 'Subscription available', 'Wide BUBS selection', 'Clean ingredients'],
   },
   {
     slug: 'swedish-sweets',
