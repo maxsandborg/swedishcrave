@@ -1,444 +1,465 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Star } from 'lucide-react';
 import { stores } from '@/data/stores';
+import {
+  Star,
+  ArrowRight,
+  ShoppingBag,
+  Trophy,
+  Truck,
+  Package,
+  Globe,
+  Gift,
+  Candy,
+  Sparkles,
+  CheckCircle,
+  Clock,
+  ShieldCheck,
+  MapPin,
+  ExternalLink,
+  Zap,
+  Heart,
+  BookOpen,
+  Cherry,
+  Droplets,
+} from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Where to Buy Swedish Candy',
+  title: 'Where to Buy Swedish Candy Online (2026 Guide)',
   description:
-    'Discover the best places to buy authentic Swedish candy online. Find trusted retailers that ship to the US with fast delivery and authentic products.',
-  keywords: 'where to buy Swedish candy, online candy stores, Mums Swedish Candy, BonBon NYC, Amazon, Swedish candy delivery USA',
-  alternates: {
-    canonical: '/where-to-buy',
-  },
+    'Find the best places to buy authentic Swedish candy online. Compare trusted retailers with fast US shipping, honest reviews, and exclusive discount codes.',
+  keywords:
+    'where to buy Swedish candy, buy Swedish candy online, Swedish candy stores, Mums Swedish Candy, Swedish Sweets, BonBon NYC',
 };
 
-const faqItems = [
-  {
-    q: 'Is Swedish candy available on Amazon?',
-    a: "Yes, Amazon carries a wide selection of Swedish candy, often with Prime shipping. However, prices vary significantly and some sellers may not be authentic. We recommend checking reviews and comparing prices with specialized Swedish candy retailers.",
-  },
-  {
-    q: 'How long does shipping typically take?',
-    a: 'Most specialty retailers ship within 3-5 business days domestically. International shipping can take 1-3 weeks depending on location. Expedited options are often available for an additional fee.',
-  },
-  {
-    q: 'Can chocolate melt during shipping?',
-    a: 'Quality retailers use insulated packaging and coolant to prevent melting, even in warm months. However, if ordering during summer, consider upgrading to expedited shipping for guaranteed freshness.',
-  },
-  {
-    q: "What's the best way to store Swedish candy?",
-    a: 'Keep chocolate and filled candies in a cool, dry place (ideally 60-70°F). Gummies and hard candies are more shelf-stable. Avoid direct sunlight. Most candies can be stored for several months in proper conditions.',
-  },
-  {
-    q: 'Are there bulk ordering options?',
-    a: 'Yes, several retailers offer bulk pricing and custom gift boxes. Mums Swedish Candy and Swedish Sweets both offer bulk options, which can reduce per-unit costs for large orders.',
-  },
-];
+// Star rating component
+function StarRating({ rating }: { rating: number }) {
+  const full = Math.floor(rating);
+  const hasHalf = rating - full >= 0.3;
+  return (
+    <span className="inline-flex items-center gap-0.5">
+      {Array.from({ length: 5 }, (_, i) => (
+        <Star
+          key={i}
+          className={`w-3.5 h-3.5 ${
+            i < full
+              ? 'fill-sc-yellow text-sc-yellow'
+              : i === full && hasHalf
+              ? 'fill-sc-yellow/50 text-sc-yellow'
+              : 'text-gray-200'
+          }`}
+        />
+      ))}
+    </span>
+  );
+}
+
+// Store icon mapping
+const storeIcons: Record<string, React.ReactNode> = {
+  'mums-swedish-candy': <Candy className="w-8 h-8 text-sc-primary" />,
+  'swedish-sweets': <Globe className="w-8 h-8 text-sc-blue" />,
+  'scandy-candy': <Package className="w-8 h-8 text-sc-teal" />,
+  'swedish-candy-store': <ShoppingBag className="w-8 h-8 text-sc-purple" />,
+  'bonbon-nyc': <Gift className="w-8 h-8 text-sc-pink" />,
+  sockerbit: <Candy className="w-8 h-8 text-sc-orange" />,
+  amazon: <Truck className="w-8 h-8 text-[#FF9900]" />,
+};
+
+// Store accent colors
+const storeAccents: Record<string, { bg: string; border: string; badge: string }> = {
+  'mums-swedish-candy': { bg: 'bg-sc-teal-soft', border: 'border-sc-teal/20', badge: 'bg-sc-teal text-white' },
+  'swedish-sweets': { bg: 'bg-sc-blue-soft', border: 'border-sc-blue/20', badge: 'bg-sc-blue text-white' },
+  'scandy-candy': { bg: 'bg-sc-green-soft', border: 'border-sc-green/20', badge: 'bg-sc-green text-white' },
+  'swedish-candy-store': { bg: 'bg-sc-purple-soft', border: 'border-sc-purple/20', badge: 'bg-sc-purple text-white' },
+  'bonbon-nyc': { bg: 'bg-sc-pink-soft', border: 'border-sc-pink/20', badge: 'bg-sc-pink text-white' },
+  sockerbit: { bg: 'bg-sc-orange-soft', border: 'border-sc-orange/20', badge: 'bg-sc-orange text-white' },
+  amazon: { bg: 'bg-sc-yellow-soft', border: 'border-sc-yellow/20', badge: 'bg-[#FF9900] text-white' },
+};
 
 export default function WhereToBuyPage() {
-  const sortedStores = [...stores].sort((a, b) => b.rating - a.rating);
+  // Mums is always featured first
+  const mumsStore = stores.find((s) => s.slug === 'mums-swedish-candy');
+
+  // Live affiliate stores (excluding Mums) first, then pending, then others
+  const otherStores = stores
+    .filter((s) => s.slug !== 'mums-swedish-candy')
+    .sort((a, b) => {
+      const statusOrder = { live: 0, pending: 1, none: 2 };
+      const aOrder = statusOrder[a.affiliateStatus];
+      const bOrder = statusOrder[b.affiliateStatus];
+      if (aOrder !== bOrder) return aOrder - bOrder;
+      return b.rating - a.rating;
+    });
 
   return (
     <>
-      {/* Hero Section */}
-      <section className="py-14 md:py-16 border-b border-sc-border">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[1.2px] text-sc-purple bg-sc-purple/[0.08] px-3.5 py-1.5 rounded-sc-full mb-4">
-            🛒 Shop
+      {/* ========== HERO ========== */}
+      <section className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14">
+        <div className="text-center max-w-[640px] mx-auto">
+          <span className="inline-flex items-center gap-1.5 bg-sc-yellow-soft text-sc-text font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-yellow mb-4">
+            <ShoppingBag className="w-3.5 h-3.5 text-sc-orange" /> Trusted Retailers
           </span>
-          <h1 className="font-display text-[38px] sm:text-[44px] font-extrabold text-sc-text tracking-[-0.5px] mb-3">
-            Where to Buy Swedish Candy
+          <h1 className="font-display text-4xl sm:text-5xl md:text-[52px] font-bold leading-[1.1] text-sc-text mb-4">
+            Where to Buy{' '}
+            <span className="bg-gradient-to-r from-sc-primary to-sc-orange bg-clip-text text-transparent">
+              Swedish Candy
+            </span>
           </h1>
-          <p className="text-lg text-sc-text-muted max-w-2xl">
-            Discover trusted retailers that ship authentic Swedish candy directly to your door. We&apos;ve vetted each store for quality, authenticity, and customer service.
+          <p className="text-lg text-sc-text-muted leading-relaxed max-w-[500px] mx-auto">
+            We&apos;ve vetted every store for authenticity, shipping speed, and customer service. Here are our top picks for 2026.
           </p>
         </div>
       </section>
 
-      {/* Stores Grid */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          {sortedStores.map((store) => (
-            <div
-              key={store.slug}
-              className={`bg-sc-card border rounded-sc-lg overflow-hidden hover:shadow-sc-hover hover:-translate-y-0.5 transition-all p-7 relative ${
-                store.featured
-                  ? 'border-sc-pink/40 ring-1 ring-sc-pink/20 shadow-[0_0_20px_rgba(255,45,135,0.08)]'
-                  : 'border-sc-border'
-              }`}
-            >
-              {/* Featured Badge */}
-              {store.featured && (
-                <div className="absolute top-4 right-4 inline-flex items-center gap-1.5 bg-sc-pink text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-sc-full shadow-sm">
-                  ⭐ Editor&apos;s Pick
-                </div>
-              )}
-              {/* Header */}
-              <div className="mb-5">
-                <h3 className="font-display text-xl font-bold text-sc-text mb-2">
-                  {store.name}
-                </h3>
-
-                {/* Rating */}
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="flex items-center gap-0.5">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <Star
-                        key={i}
-                        size={16}
-                        className={`${
-                          i < Math.floor(store.rating)
-                            ? 'fill-sc-yellow text-sc-yellow'
-                            : 'text-sc-border'
-                        }`}
-                      />
-                    ))}
-                  </div>
-                  <span className="text-sm font-semibold text-sc-text">
-                    {store.rating.toFixed(1)}
+      {/* ========== MUMS — FEATURED STORE ========== */}
+      {mumsStore && (
+        <section className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+          <div className="bg-white rounded-sc-lg border-2 border-[#B0EDE4] shadow-[0_12px_48px_rgba(0,201,183,0.1)] overflow-hidden">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
+              {/* Left — Info */}
+              <div className="p-8 md:p-10 flex flex-col justify-center">
+                <div className="flex items-center gap-3 mb-5">
+                  <span className="inline-flex items-center gap-1.5 bg-sc-teal-soft text-[#00897B] font-bold text-[11px] px-3.5 py-1.5 rounded-sc-full uppercase tracking-wide">
+                    <Trophy className="w-3 h-3 fill-current" /> #1 Recommended
+                  </span>
+                  <span className="inline-flex items-center gap-1.5 bg-sc-green-soft text-sc-green font-bold text-[11px] px-3.5 py-1.5 rounded-sc-full uppercase tracking-wide">
+                    <CheckCircle className="w-3 h-3" /> Affiliate Partner
                   </span>
                 </div>
 
-                <p className="text-[14px] text-sc-text-muted leading-[1.7]">
-                  {store.description}
-                </p>
-              </div>
+                <h2 className="font-display text-2xl md:text-[28px] font-bold text-sc-text mb-1">
+                  {mumsStore.name}
+                </h2>
 
-              {/* Ships To */}
-              <div className="mb-5 pb-5 border-b border-sc-border">
-                <p className="text-xs font-bold uppercase tracking-wide text-sc-text-muted mb-2">
-                  Ships To
+                <div className="flex items-center gap-2 mb-4">
+                  <StarRating rating={mumsStore.rating} />
+                  <span className="text-sm font-semibold text-sc-text">{mumsStore.rating.toFixed(1)}</span>
+                  <span className="text-[13px] text-sc-text-muted">&middot; {mumsStore.commission} commission</span>
+                </div>
+
+                <p className="text-[15px] text-sc-text-muted leading-relaxed mb-6">
+                  {mumsStore.description}
                 </p>
-                <div className="flex flex-wrap gap-1.5">
-                  {store.shipsTo.map((country) => (
-                    <span
-                      key={country}
-                      className="inline-flex items-center px-3 py-1 rounded-sc-full bg-sc-pink/[0.08] text-sc-pink text-[12px] font-semibold"
-                    >
-                      {country}
+
+                <div className="flex flex-wrap gap-x-5 gap-y-2 mb-6">
+                  {mumsStore.features.slice(0, 4).map((feature) => (
+                    <span key={feature} className="flex items-center gap-1.5 text-[13px] font-medium text-sc-text-muted">
+                      <CheckCircle className="w-3.5 h-3.5 text-sc-teal" />
+                      {feature}
                     </span>
                   ))}
                 </div>
+
+                <div className="flex items-center gap-2 mb-6">
+                  <Truck className="w-4 h-4 text-sc-teal" />
+                  <span className="text-[13px] font-medium text-sc-text-muted">
+                    Ships to: {mumsStore.shipsTo.join(', ')}
+                  </span>
+                </div>
+
+                <div className="flex flex-wrap gap-3">
+                  <a
+                    href={mumsStore.affiliateUrl}
+                    target="_blank"
+                    rel="sponsored noopener"
+                    className="inline-flex items-center gap-2 bg-sc-teal text-white font-semibold text-[15px] px-7 py-3.5 rounded-sc-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
+                  >
+                    Shop Mums <ArrowRight className="w-4 h-4" />
+                  </a>
+                  <a
+                    href={mumsStore.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-white text-sc-text font-semibold text-[15px] px-7 py-3.5 rounded-sc-full border-2 border-sc-border hover:border-sc-teal hover:text-sc-teal transition-all"
+                  >
+                    Visit Website <ExternalLink className="w-4 h-4" />
+                  </a>
+                </div>
               </div>
 
-              {/* Features */}
-              <div className="mb-6">
-                <p className="text-xs font-bold uppercase tracking-wide text-sc-text-muted mb-2">
-                  Features
-                </p>
-                <ul className="space-y-1.5">
-                  {store.features.map((feature, i) => (
-                    <li
-                      key={i}
-                      className="text-[13px] text-sc-text-muted flex items-start gap-2"
+              {/* Right — Visual */}
+              <div className="bg-gradient-to-br from-sc-teal-soft to-[#F0FDF9] p-6 md:p-8 flex flex-col justify-center">
+                <div className="grid grid-cols-3 gap-3">
+                  {[
+                    { name: 'Sour Skulls', icon: <Zap className="w-6 h-6 text-sc-green" /> },
+                    { name: 'Berry Mix', icon: <Cherry className="w-6 h-6 text-sc-pink" /> },
+                    { name: 'Daim Bites', icon: <Heart className="w-6 h-6 text-[#8B5E3C]" /> },
+                    { name: 'Salmiak', icon: <Droplets className="w-6 h-6 text-sc-blue" /> },
+                    { name: 'Pick & Mix', icon: <Candy className="w-6 h-6 text-sc-orange" /> },
+                    { name: 'Gift Box', icon: <Gift className="w-6 h-6 text-sc-primary" /> },
+                  ].map((product) => (
+                    <div
+                      key={product.name}
+                      className="bg-white rounded-sc-sm p-4 text-center shadow-sm hover:-translate-y-1 hover:rotate-[-2deg] hover:shadow-md transition-all"
                     >
-                      <span className="text-sc-lime mt-0.5">✓</span>
-                      {feature}
-                    </li>
+                      <span className="block mx-auto mb-2 w-fit">{product.icon}</span>
+                      <span className="text-[11px] font-bold text-sc-text block">{product.name}</span>
+                    </div>
                   ))}
-                </ul>
-              </div>
+                </div>
 
-              {/* CTA Buttons */}
-              <div className="flex flex-col gap-2">
-                <a
-                  href={store.affiliateUrl && store.affiliateUrl !== '#' ? store.affiliateUrl : store.url}
-                  target="_blank"
-                  rel={`noopener noreferrer${store.affiliateUrl && store.affiliateUrl !== '#' ? ' sponsored' : ''}`}
-                  className={`block w-full text-white text-center font-semibold py-3 rounded-sc-full transition-all hover:-translate-y-0.5 ${
-                    store.featured
-                      ? 'bg-sc-pink hover:bg-sc-pink-hover shadow-[0_4px_16px_rgba(255,45,135,0.4)]'
-                      : 'bg-sc-pink hover:bg-sc-pink-hover shadow-[0_4px_16px_rgba(255,45,135,0.3)]'
-                  }`}
-                >
-                  Visit {store.name} →
-                </a>
-                <Link
-                  href={`/stores/${store.slug}`}
-                  className="block w-full text-center text-sm font-semibold text-sc-pink hover:text-sc-pink-hover transition-colors py-2"
-                >
-                  Read full review →
-                </Link>
+                <div className="mt-5 bg-white/80 rounded-sc-sm p-4 text-center">
+                  <p className="text-[12px] text-sc-text-muted font-medium">
+                    Use our link for the best deals &mdash; supporting SwedishCrave at no extra cost to you
+                  </p>
+                </div>
               </div>
             </div>
-          ))}
-        </div>
-      </section>
+          </div>
+        </section>
+      )}
 
-      {/* Internal Linking: Explore by Category */}
-      <section className="bg-sc-bg-alt py-12 md:py-14 border-t border-sc-border">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-3 text-center">
-            Not Sure What to Order?
-          </h2>
-          <p className="text-sc-text-muted text-center mb-8 max-w-2xl mx-auto">
-            Explore our candy guides by category to find your perfect match before you buy.
-          </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
-            {[
-              { slug: 'gummies', name: 'Gummies', emoji: '🍬' },
-              { slug: 'chocolate', name: 'Chocolate', emoji: '🍫' },
-              { slug: 'sour', name: 'Sour Candy', emoji: '🤪' },
-              { slug: 'licorice', name: 'Licorice', emoji: '🖤' },
-              { slug: 'salmiak', name: 'Salmiak', emoji: '🧂' },
-              { slug: 'classic', name: 'Classics', emoji: '⭐' },
-            ].map((cat) => (
-              <Link
-                key={cat.slug}
-                href={`/candy?category=${cat.slug}`}
-                className="flex flex-col items-center gap-2 bg-sc-card border border-sc-border rounded-sc-lg p-4 hover:border-sc-pink hover:shadow-sc-hover hover:-translate-y-0.5 transition-all text-center"
-              >
-                <span className="text-2xl">{cat.emoji}</span>
-                <span className="text-sm font-semibold text-sc-text">{cat.name}</span>
-              </Link>
-            ))}
+      {/* ========== ALL OTHER STORES ========== */}
+      <section className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-8 gap-4">
+          <div>
+            <span className="inline-flex items-center gap-1.5 bg-sc-yellow-soft text-sc-text font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-yellow mb-3">
+              <Globe className="w-3.5 h-3.5 text-sc-orange" /> Compare Stores
+            </span>
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-sc-text">
+              More Places to Shop
+            </h2>
           </div>
         </div>
-      </section>
 
-      {/* Internal Linking: Popular Brands */}
-      <section className="py-12 md:py-14">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-3 text-center">
-            Popular Swedish Candy Brands
-          </h2>
-          <p className="text-sc-text-muted text-center mb-8 max-w-2xl mx-auto">
-            Learn about the brands behind Sweden&apos;s most loved candy before placing your order.
-          </p>
-          <div className="flex flex-wrap justify-center gap-3">
-            {[
-              { slug: 'bubs', name: 'BUBS' },
-              { slug: 'malaco', name: 'Malaco' },
-              { slug: 'marabou', name: 'Marabou' },
-              { slug: 'cloetta', name: 'Cloetta' },
-              { slug: 'fazer', name: 'Fazer' },
-              { slug: 'ahlgrens', name: 'Ahlgrens' },
-              { slug: 'kolsvart', name: 'Kolsvart' },
-              { slug: 'lakerol', name: 'Läkerol' },
-            ].map((brand) => (
-              <Link
-                key={brand.slug}
-                href={`/brands/${brand.slug}`}
-                className="inline-flex items-center px-5 py-2.5 rounded-sc-full bg-sc-card border border-sc-border text-sm font-semibold text-sc-text hover:border-sc-pink hover:text-sc-pink transition-all"
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          {otherStores.map((store) => {
+            const accent = storeAccents[store.slug] || storeAccents.amazon;
+            const icon = storeIcons[store.slug] || <ShoppingBag className="w-8 h-8 text-sc-text-muted" />;
+            const isLive = store.affiliateStatus === 'live';
+            const isPending = store.affiliateStatus === 'pending';
+
+            return (
+              <div
+                key={store.slug}
+                className="bg-white rounded-sc-md overflow-hidden border border-sc-border hover:-translate-y-1 hover:shadow-xl transition-all flex flex-col"
               >
-                {brand.name}
-              </Link>
-            ))}
-          </div>
+                {/* Card Header */}
+                <div className={`${accent.bg} ${accent.border} border-b p-5 md:p-6`}>
+                  <div className="flex items-start justify-between mb-3">
+                    <span className="block">{icon}</span>
+                    <div className="flex gap-1.5">
+                      {isLive && (
+                        <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2.5 py-1 rounded-sc-full bg-sc-green-soft text-sc-green uppercase tracking-wide">
+                          <CheckCircle className="w-3 h-3" /> Partner
+                        </span>
+                      )}
+                      {isPending && (
+                        <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2.5 py-1 rounded-sc-full bg-sc-yellow-soft text-[#8A6D00] uppercase tracking-wide">
+                          <Clock className="w-3 h-3" /> Pending
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                  <h3 className="font-display text-xl font-bold text-sc-text mb-1">
+                    {store.name}
+                  </h3>
+                  <div className="flex items-center gap-2">
+                    <StarRating rating={store.rating} />
+                    <span className="text-[13px] font-semibold text-sc-text">{store.rating.toFixed(1)}</span>
+                    {store.commission !== 'Varies' && (
+                      <span className="text-[12px] text-sc-text-muted">&middot; {store.commission}</span>
+                    )}
+                  </div>
+                </div>
+
+                {/* Card Body */}
+                <div className="p-5 md:p-6 flex-1 flex flex-col">
+                  <p className="text-[14px] text-sc-text-muted leading-relaxed mb-4 flex-1">
+                    {store.description}
+                  </p>
+
+                  {/* Features */}
+                  <div className="flex flex-wrap gap-1.5 mb-4">
+                    {store.features.slice(0, 3).map((feature) => (
+                      <span
+                        key={feature}
+                        className="inline-flex items-center gap-1 text-[11px] font-semibold px-2.5 py-1 rounded-sc-full bg-sc-bg text-sc-text-muted"
+                      >
+                        <CheckCircle className="w-3 h-3 text-sc-green" />
+                        {feature}
+                      </span>
+                    ))}
+                  </div>
+
+                  {/* Ships To */}
+                  <div className="flex items-center gap-1.5 mb-5 text-[13px] text-sc-text-muted">
+                    <MapPin className="w-3.5 h-3.5" />
+                    Ships to: {store.shipsTo.join(', ')}
+                  </div>
+
+                  {/* CTA */}
+                  {isLive ? (
+                    <a
+                      href={store.affiliateUrl}
+                      target="_blank"
+                      rel="sponsored noopener"
+                      className="flex items-center justify-center gap-2 w-full bg-sc-primary text-white font-semibold text-[14px] py-3 rounded-sc-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
+                    >
+                      Shop {store.name.split(' ')[0]} <ArrowRight className="w-4 h-4" />
+                    </a>
+                  ) : (
+                    <a
+                      href={store.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center gap-2 w-full bg-white text-sc-text font-semibold text-[14px] py-3 rounded-sc-full border-2 border-sc-border hover:border-sc-primary hover:text-sc-primary transition-all"
+                    >
+                      Visit {store.name.split(' ')[0]} <ExternalLink className="w-4 h-4" />
+                    </a>
+                  )}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
 
-      {/* Internal Linking: Related Blog Articles */}
-      <section className="bg-sc-bg-alt py-12 md:py-14 border-t border-sc-border">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-8 text-center">
-            Helpful Guides Before You Buy
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            {[
-              {
-                slug: 'swedish-candy-beginners-guide',
-                title: "Beginner's Guide to Swedish Candy",
-                desc: 'Everything you need to know before your first order — flavors, brands, and what to expect.',
-              },
-              {
-                slug: 'best-swedish-candy',
-                title: 'Best Swedish Candy to Try in 2025',
-                desc: 'Our hand-picked top 15 Swedish candies, ranked and reviewed for American candy lovers.',
-              },
-              {
-                slug: 'swedish-candy-vs-american-candy',
-                title: 'Swedish vs American Candy: Key Differences',
-                desc: 'What makes Swedish candy different? Ingredients, texture, flavor profiles, and more.',
-              },
-            ].map((post) => (
-              <Link
-                key={post.slug}
-                href={`/blog/${post.slug}`}
-                className="group bg-sc-card border border-sc-border rounded-sc-lg p-6 hover:border-sc-pink hover:shadow-sc-hover hover:-translate-y-0.5 transition-all"
-              >
-                <h3 className="font-display font-bold text-sc-text group-hover:text-sc-pink transition-colors mb-2">
-                  {post.title}
-                </h3>
-                <p className="text-[14px] text-sc-text-muted leading-[1.7]">
-                  {post.desc}
-                </p>
-                <span className="inline-block mt-3 text-sm font-semibold text-sc-pink">
-                  Read guide →
-                </span>
-              </Link>
-            ))}
+      {/* ========== BUYING GUIDE ========== */}
+      <section className="py-16 md:py-20 bg-gradient-to-br from-[#1A1A2E] to-[#2D2D55] text-white relative overflow-hidden">
+        <div className="absolute top-0 left-0 right-0 h-[60px] bg-sc-bg" style={{ borderRadius: '0 0 50% 50%' }} />
+
+        <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-8">
+          <div className="text-center mb-10">
+            <span className="inline-flex items-center gap-1.5 bg-white/10 text-white font-semibold text-[13px] px-4 py-1.5 rounded-sc-full mb-3">
+              <BookOpen className="w-3.5 h-3.5" /> Buying Guide
+            </span>
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-white mb-2">
+              How to Buy Swedish Candy Online
+            </h2>
+            <p className="text-white/60 max-w-[520px] mx-auto">
+              Five tips to get the best experience ordering Swedish candy
+            </p>
           </div>
-        </div>
-      </section>
 
-      {/* Guide Section */}
-      <section className="py-14 md:py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-10 text-center">
-            Guide to Buying Swedish Candy Online
-          </h2>
-
-          <div className="space-y-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { title: '1. Choose a Trusted Retailer', desc: "The stores listed above have been vetted for authenticity and customer service. Avoid unknown sellers on third-party marketplaces, as counterfeit Swedish candy is sometimes sold online." },
-              { title: '2. Start with Iconic Flavors', desc: "If you're new to Swedish candy, begin with familiar favorites like Ahlgrens Bilar, Marabou Milk Chocolate, or BUBS Sour Skulls. These classics are widely available and beloved for good reason." },
-              { title: '3. Explore by Category', desc: "Once you've found your baseline, explore different categories. Try gummies, then chocolate, then venture into licorice and salmiak. Each category has distinct flavor profiles and textures." },
-              { title: '4. Check Shipping & Storage', desc: 'Most online retailers ship quickly and package carefully to prevent melting. Swedish candy is shelf-stable and stores well. Keep chocolate in a cool place and consume sour candy within a few months of opening for best flavor.' },
-              { title: '5. Join Subscription Services', desc: 'Several retailers offer subscription boxes with curated candy selections. This is a great way to discover new products and get regular shipments at a discounted rate.' },
-            ].map((item) => (
-              <div key={item.title} className="bg-sc-card p-7 rounded-sc-lg border border-sc-border">
-                <h3 className="font-display font-bold text-sc-text mb-2">{item.title}</h3>
-                <p className="text-[14px] text-sc-text-muted leading-[1.7]">{item.desc}</p>
+              {
+                icon: <ShieldCheck className="w-9 h-9 text-[#4ADE80]" />,
+                title: '1. Choose a Trusted Retailer',
+                desc: 'Stick to the stores listed above — we\'ve vetted them for authenticity and customer service. Avoid unknown sellers on marketplaces.',
+              },
+              {
+                icon: <Candy className="w-9 h-9 text-[#FFE347]" />,
+                title: '2. Start with Iconic Flavors',
+                desc: 'New to Swedish candy? Begin with Ahlgrens Bilar, Marabou Milk Chocolate, or BUBS Sour Skulls — classics for a reason.',
+              },
+              {
+                icon: <Sparkles className="w-9 h-9 text-[#FF80B5]" />,
+                title: '3. Explore by Category',
+                desc: 'Try gummies first, then chocolate, then venture into licorice and salmiak. Each category has distinct flavor profiles.',
+              },
+              {
+                icon: <Truck className="w-9 h-9 text-[#60A5FA]" />,
+                title: '4. Check Shipping Details',
+                desc: 'Most retailers ship within 3-5 business days. Keep chocolate orders cool in summer — upgrade to expedited if needed.',
+              },
+              {
+                icon: <Gift className="w-9 h-9 text-[#C084FC]" />,
+                title: '5. Try Subscription Boxes',
+                desc: 'Several stores offer monthly candy boxes — a great way to discover new products at a discounted rate.',
+              },
+              {
+                icon: <Heart className="w-9 h-9 text-[#FF80B5]" />,
+                title: '6. Support Specialty Stores',
+                desc: 'Buying from dedicated Swedish candy stores means fresher products, better selection, and supporting passionate importers.',
+              },
+            ].map((card) => (
+              <div
+                key={card.title}
+                className="bg-white/[0.06] rounded-sc-md p-6 border border-white/[0.08] hover:bg-white/[0.1] hover:-translate-y-1 transition-all"
+              >
+                <span className="block mb-3 w-fit">{card.icon}</span>
+                <h3 className="font-display text-base font-bold mb-1.5">{card.title}</h3>
+                <p className="text-[13px] text-white/70 leading-relaxed">{card.desc}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="bg-sc-bg-alt py-14 md:py-16 border-t border-sc-border">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-8 text-center">
-            Frequently Asked Questions
-          </h2>
+      {/* ========== FAQ ========== */}
+      <section className="py-16 md:py-20">
+        <div className="max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <span className="inline-flex items-center gap-1.5 bg-sc-blue-soft text-sc-blue font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-blue/20 mb-3">
+              <BookOpen className="w-3.5 h-3.5" /> FAQ
+            </span>
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-sc-text">
+              Frequently Asked Questions
+            </h2>
+          </div>
 
           <div className="space-y-4">
-            {faqItems.map((faq) => (
-              <div key={faq.q} className="bg-sc-card border border-sc-border rounded-sc-lg p-6">
-                <h3 className="font-display font-bold text-sc-text mb-2">{faq.q}</h3>
-                <p className="text-[14px] text-sc-text-muted leading-[1.7]">{faq.a}</p>
+            {[
+              {
+                q: 'Is Swedish candy available on Amazon?',
+                a: 'Yes, Amazon carries a wide selection of Swedish candy, often with Prime shipping. However, prices vary significantly and some sellers may not stock authentic products. We recommend checking reviews carefully and comparing prices with the specialized Swedish candy retailers listed above.',
+              },
+              {
+                q: 'How long does shipping typically take?',
+                a: 'Most specialty retailers ship within 3-5 business days domestically. International shipping from Sweden can take 1-3 weeks. Expedited options are usually available for an additional fee.',
+              },
+              {
+                q: 'Can chocolate melt during shipping?',
+                a: 'Quality retailers use insulated packaging and coolant to prevent melting, even in warm months. If ordering during summer, consider upgrading to expedited shipping for guaranteed freshness.',
+              },
+              {
+                q: "What's the best way to store Swedish candy?",
+                a: 'Keep chocolate and filled candies in a cool, dry place (ideally 60-70°F). Gummies and hard candies are more shelf-stable. Avoid direct sunlight. Most candies stay fresh for several months in proper conditions.',
+              },
+              {
+                q: 'Are there bulk ordering options?',
+                a: 'Yes, several retailers offer bulk pricing and custom gift boxes. Mums Swedish Candy and Swedish Sweets both offer bulk options, reducing per-unit costs for large orders — great for parties and events.',
+              },
+            ].map((faq) => (
+              <div
+                key={faq.q}
+                className="bg-white rounded-sc-md border border-sc-border p-6 hover:shadow-md transition-shadow"
+              >
+                <h3 className="font-display text-base font-bold text-sc-text mb-2">{faq.q}</h3>
+                <p className="text-[14px] text-sc-text-muted leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="bg-gradient-to-r from-sc-pink to-sc-purple py-14 text-center">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-display text-3xl font-extrabold text-white mb-3">
-            Ready to Order?
-          </h2>
-          <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Pick a retailer above and start exploring authentic Swedish candy today
-          </p>
-          <Link
-            href="/candy"
-            className="inline-flex items-center justify-center bg-white text-sc-text px-7 py-3 rounded-sc-full font-semibold hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,0,0,0.15)]"
-          >
-            Explore All Candy First
-          </Link>
+      {/* ========== CTA ========== */}
+      <section className="pb-16 md:pb-20">
+        <div className="max-w-[680px] mx-auto px-4 sm:px-6">
+          <div className="bg-gradient-to-br from-sc-yellow-soft via-sc-orange-soft to-sc-pink-soft rounded-sc-lg p-10 md:p-12 text-center relative overflow-hidden">
+            <span className="absolute top-4 left-6 opacity-20">
+              <Candy className="w-8 h-8 text-sc-primary" />
+            </span>
+            <span className="absolute bottom-4 right-6 opacity-20">
+              <Sparkles className="w-8 h-8 text-sc-orange" />
+            </span>
+
+            <h2 className="font-display text-2xl md:text-[28px] font-bold text-sc-text mb-2 relative z-10">
+              Not Sure What to Try?
+            </h2>
+            <p className="text-[15px] text-sc-text-muted mb-6 relative z-10">
+              Browse our candy reviews and find your perfect Swedish treat
+            </p>
+            <div className="flex flex-wrap justify-center gap-3 relative z-10">
+              <Link
+                href="/candy"
+                className="inline-flex items-center gap-2 bg-sc-primary text-white font-semibold text-[15px] px-7 py-3.5 rounded-sc-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
+              >
+                <Candy className="w-5 h-5" /> Browse Candy
+              </Link>
+              <Link
+                href="/categories"
+                className="inline-flex items-center gap-2 bg-white text-sc-text font-semibold text-[15px] px-7 py-3.5 rounded-sc-full border-2 border-sc-border hover:border-sc-primary hover:text-sc-primary transition-all"
+              >
+                Explore Categories
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
-
-      {/* FAQPage JSON-LD Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: faqItems.map((faq) => ({
-              '@type': 'Question',
-              name: faq.q,
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: faq.a,
-              },
-            })),
-          }),
-        }}
-      />
-
-      {/* BreadcrumbList JSON-LD Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
-            itemListElement: [
-              {
-                '@type': 'ListItem',
-                position: 1,
-                name: 'Home',
-                item: 'https://www.swedishcrave.com',
-              },
-              {
-                '@type': 'ListItem',
-                position: 2,
-                name: 'Where to Buy Swedish Candy',
-                item: 'https://www.swedishcrave.com/where-to-buy',
-              },
-            ],
-          }),
-        }}
-      />
-
-      {/* LocalBusiness Schema — Physical stores */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify([
-            {
-              '@context': 'https://schema.org',
-              '@type': 'Store',
-              name: 'BonBon NYC',
-              description: 'Trendy Scandinavian candy store based in New York with both online and physical locations.',
-              url: 'https://bonbonnyc.com',
-              address: {
-                '@type': 'PostalAddress',
-                addressLocality: 'New York',
-                addressRegion: 'NY',
-                addressCountry: 'US',
-              },
-              aggregateRating: {
-                '@type': 'AggregateRating',
-                ratingValue: 4.7,
-                bestRating: 5,
-                ratingCount: 150,
-              },
-              priceRange: '$$',
-              servesCuisine: 'Swedish Candy',
-              hasOfferCatalog: {
-                '@type': 'OfferCatalog',
-                name: 'Swedish Candy',
-              },
-            },
-            {
-              '@context': 'https://schema.org',
-              '@type': 'Store',
-              name: 'Sockerbit',
-              description: 'Premium Scandinavian candy boutique with stores in NYC and LA. Beautiful pick-and-mix experience.',
-              url: 'https://sockerbit.com',
-              address: [
-                {
-                  '@type': 'PostalAddress',
-                  addressLocality: 'New York',
-                  addressRegion: 'NY',
-                  addressCountry: 'US',
-                },
-                {
-                  '@type': 'PostalAddress',
-                  addressLocality: 'Los Angeles',
-                  addressRegion: 'CA',
-                  addressCountry: 'US',
-                },
-              ],
-              aggregateRating: {
-                '@type': 'AggregateRating',
-                ratingValue: 4.5,
-                bestRating: 5,
-                ratingCount: 200,
-              },
-              priceRange: '$$$',
-              servesCuisine: 'Swedish Candy',
-            },
-          ]),
-        }}
-      />
     </>
   );
 }
+

@@ -52,27 +52,20 @@ export type Category = {
   candySlugs: string[]
 }
 
+export type StoreStatus = 'live' | 'pending' | 'none'
+
 export type Store = {
   slug: string
   name: string
   url: string
   description: string
-  longDescription: string
   shipsTo: string[]
   affiliateUrl: string
   commission: string
   rating: number
-  featured?: boolean
   features: string[]
-  founded?: string
-  headquarters?: string
-  storeType: 'online' | 'physical' | 'both' | 'marketplace'
-  specialties: string[]
-  pros: string[]
-  cons: string[]
-  shippingInfo: string
-  priceRange: '$' | '$$' | '$$$'
-  physicalLocations?: string[]
+  affiliateStatus: StoreStatus
+  logo?: string
 }
 
 export type Comparison = {
