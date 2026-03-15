@@ -94,27 +94,6 @@ function CategoryIcon({ slug, className }: { slug: string; className?: string })
   }
 }
 
-// Star rating component
-function StarRating({ rating }: { rating: number }) {
-  const full = Math.floor(rating);
-  const hasHalf = rating - full >= 0.3;
-  return (
-    <span className="inline-flex items-center gap-0.5">
-      {Array.from({ length: 5 }, (_, i) => (
-        <Star
-          key={i}
-          className={`w-3 h-3 ${
-            i < full
-              ? 'fill-sc-yellow text-sc-yellow'
-              : i === full && hasHalf
-              ? 'fill-sc-yellow/50 text-sc-yellow'
-              : 'text-gray-200'
-          }`}
-        />
-      ))}
-    </span>
-  );
-}
 
 export default function CategoriesPage() {
   return (

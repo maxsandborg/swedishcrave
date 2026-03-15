@@ -148,7 +148,7 @@ export default function Home() {
     'bonbon-nyc': 'Gift Boxes',
     sockerbit: 'Pick & Mix',
     amazon: 'Fast Delivery',
-    'scandy-candy': 'Fresh Imports',
+    'scandi-candy-shop': 'Fresh Imports',
   };
 
   // Blog card gradient backgrounds
@@ -164,7 +164,7 @@ export default function Home() {
     'bonbon-nyc': <Gift className="w-8 h-8 text-sc-pink" />,
     sockerbit: <Candy className="w-8 h-8 text-sc-purple" />,
     amazon: <Truck className="w-8 h-8 text-sc-orange" />,
-    'scandy-candy': <Package className="w-8 h-8 text-sc-teal" />,
+    'scandi-candy-shop': <Package className="w-8 h-8 text-sc-teal" />,
   };
 
   return (

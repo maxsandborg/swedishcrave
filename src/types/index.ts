@@ -59,11 +59,22 @@ export type Store = {
   name: string
   url: string
   description: string
+  longDescription: string
   shipsTo: string[]
   affiliateUrl: string
   commission: string
   rating: number
+  featured?: boolean
   features: string[]
+  founded?: string
+  headquarters?: string
+  storeType: 'online' | 'physical' | 'both' | 'marketplace'
+  specialties: string[]
+  pros: string[]
+  cons: string[]
+  shippingInfo: string
+  priceRange: '$' | '$$' | '$$$'
+  physicalLocations?: string[]
   affiliateStatus: StoreStatus
   logo?: string
 }
