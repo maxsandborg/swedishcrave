@@ -1,13 +1,23 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { DM_Sans, Space_Grotesk } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-const inter = Inter({ subsets: ['latin'] });
+const dmSans = DM_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-dm-sans',
+  display: 'swap',
+});
+const spaceGrotesk = Space_Grotesk({
+  subsets: ['latin'],
+  weight: ['500', '600', '700'],
+  variable: '--font-space-grotesk',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.swedishcrave.com'),
   title: {
     template: '%s | SwedishCrave',
     default: 'SwedishCrave — Your Guide to Swedish Candy',
@@ -18,7 +28,6 @@ export const metadata: Metadata = {
     'Swedish candy, Nordic sweets, candy reviews, where to buy Swedish candy, BUBS, Marabou, Malaco',
   authors: [{ name: 'SwedishCrave' }],
   creator: 'SwedishCrave',
-  alternates: {},
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -42,14 +51,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <script
-          defer
-          data-domain="swedishcrave.com"
-          src="https://plausible.io/js/script.js"
-        />
-      </head>
-      <body className={`${inter.className} bg-sc-bg text-sc-text`}>
+      <body className={`${dmSans.className} ${dmSans.variable} ${spaceGrotesk.variable} bg-sc-bg text-sc-text`}>
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
