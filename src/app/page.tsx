@@ -145,7 +145,7 @@ export default function Home() {
 
   // Store tag labels
   const storeTagLabels: Record<string, string> = {
-    'swedish-sweets': 'Wide Range',
+    'swedish-sweets': 'TikTok Famous',
     'bonbon-nyc': 'Gift Boxes',
     sockerbit: 'Pick & Mix',
     amazon: 'Fast Delivery',
@@ -376,7 +376,7 @@ export default function Home() {
                     ))}
                   </div>
                   <a
-                    href="https://mumsswedishcandy.com/?sca_ref=10832159.NBy35zqtdZ"
+                    href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ"
                     target="_blank"
                     rel="sponsored noopener"
                     className="inline-flex items-center gap-2 bg-sc-teal text-white font-semibold text-[15px] px-7 py-3.5 rounded-sc-full hover:shadow-lg hover:-translate-y-0.5 transition-all self-start"
@@ -490,10 +490,11 @@ export default function Home() {
             {otherStores.map((store, i) => {
               const tagColor = storeTagColors[i % storeTagColors.length];
               const tagLabel = storeTagLabels[store.slug] || 'Shop Now';
+              const storeHref = store.affiliateUrl && store.affiliateUrl !== '#' ? `/stores/${store.slug}` : '/where-to-buy';
               return (
                 <Link
                   key={store.slug}
-                  href="/where-to-buy"
+                  href={storeHref}
                   className="bg-sc-bg rounded-sc-md p-5 text-center border border-sc-border hover:border-sc-blue hover:shadow-[0_8px_24px_rgba(45,127,249,0.1)] hover:-translate-y-1 transition-all"
                 >
                   <span className="block mb-2.5 mx-auto w-fit">

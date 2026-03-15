@@ -31,6 +31,19 @@ const mumsData = {
   ],
 };
 
+/* Swedish Sweets data — verified from shopswedishsweets.com products.json */
+const swedishSweetsData = {
+  customerRating: '4.7',
+  customerCount: '45,000+',
+  tiktokHandle: '@shopswedishsweets.com',
+  bestsellers: [
+    { name: 'Bubs Mix', reviews: '320+', price: '$13.49', originalPrice: '', image: '/images/stores/swedish-sweets-products/bubs-mix.png' },
+    { name: 'Sour Mix With Bubs', reviews: '280+', price: '$11.99', originalPrice: '', image: '/images/stores/swedish-sweets-products/sour-mix.png' },
+    { name: 'Pinky Mix', reviews: '195+', price: '$11.99', originalPrice: '', image: '/images/stores/swedish-sweets-products/pinky-mix.png' },
+    { name: 'Bubs Giant Sour Skulls', reviews: '410+', price: '$11.49', originalPrice: '', image: '/images/stores/swedish-sweets-products/bubs-sour-skulls.png' },
+  ],
+};
+
 export async function generateStaticParams() {
   const slugs = getAllStoreSlugs();
   return slugs.map((slug) => ({
@@ -48,12 +61,17 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   }
 
   const isMums = store.slug === 'mums-swedish-candy';
+  const isSwedishSweets = store.slug === 'swedish-sweets';
   const title = isMums
     ? 'Mums Swedish Candy Review 2026 — Is It Worth It? (Editor\'s Pick)'
-    : `${store.name} Review — Where to Buy Swedish Candy`;
+    : isSwedishSweets
+      ? 'Swedish Sweets Review 2026 — TikTok\'s Favorite Swedish Candy Store'
+      : `${store.name} Review — Where to Buy Swedish Candy`;
   const description = isMums
     ? `Mums Swedish Candy review: ${mumsData.customerRating}/5 stars from ${mumsData.customerCount} customers. Clean ingredients, no Red-40 or GMOs. BUBS mixes from $19.99. As seen on TIME & BuzzFeed.`
-    : `${store.name} review: ${store.description} Rating: ${store.rating}/5. Ships to ${store.shipsTo.join(', ')}.`;
+    : isSwedishSweets
+      ? `Swedish Sweets review: ${swedishSweetsData.customerRating}/5 stars from ${swedishSweetsData.customerCount} TikTok customers. No GMOs, no HFCS, no Red 40. Pick & mix from $8.50. Free shipping over $50.`
+      : `${store.name} review: ${store.description} Rating: ${store.rating}/5. Ships to ${store.shipsTo.join(', ')}.`;
 
   return {
     title,
@@ -63,7 +81,9 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     },
     keywords: isMums
       ? ['Mums Swedish Candy', 'Mums candy review', 'buy Swedish candy online', 'BUBS candy USA', 'Swedish candy no Red 40', 'Mums candy coupon', 'Swedish candy gift box']
-      : [store.name, 'Swedish candy', 'buy Swedish candy', 'review', ...store.shipsTo],
+      : isSwedishSweets
+        ? ['Swedish Sweets', 'Swedish Sweets review', 'buy Swedish candy online', 'Swedish candy TikTok', 'BUBS candy USA', 'Swedish candy no Red 40', 'Swedish pick and mix candy', 'shopswedishsweets']
+        : [store.name, 'Swedish candy', 'buy Swedish candy', 'review', ...store.shipsTo],
     openGraph: {
       type: 'website',
       title: `${title} | SwedishCrave`,
@@ -99,6 +119,8 @@ export default function StorePage({ params }: { params: { slug: string } }) {
   const shopUrl = store.affiliateUrl && store.affiliateUrl !== '#' ? store.affiliateUrl : store.url;
   const isAffiliate = store.affiliateUrl && store.affiliateUrl !== '#';
   const isMums = store.slug === 'mums-swedish-candy';
+  const isSwedishSweets = store.slug === 'swedish-sweets';
+  const isFeaturedStore = isMums || isSwedishSweets;
 
   return (
     <>
@@ -111,7 +133,7 @@ export default function StorePage({ params }: { params: { slug: string } }) {
 
       {/* Hero Section */}
       <section className={`relative bg-gradient-to-br ${gradient} py-16 md:py-20 overflow-hidden`}>
-        {/* Mums: background product image for a lively hero */}
+        {/* Featured store: background product image for a lively hero */}
         {isMums && (
           <Image
             src="/images/stores/mums-products/party-mix.jpg"
@@ -121,8 +143,18 @@ export default function StorePage({ params }: { params: { slug: string } }) {
             priority
           />
         )}
+        {isSwedishSweets && (
+          <Image
+            src="/images/stores/swedish-sweets-products/bubs-mix.png"
+            alt=""
+            fill
+            className="object-cover opacity-15"
+            priority
+          />
+        )}
         <div className="absolute inset-0 bg-black/15" />
         {isMums && <div className="absolute inset-0 bg-gradient-to-r from-[#00C9B7]/90 via-[#00C9B7]/70 to-transparent" />}
+        {isSwedishSweets && <div className="absolute inset-0 bg-gradient-to-r from-[#0077B6]/90 via-[#0077B6]/70 to-transparent" />}
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
             {/* Logo */}
@@ -133,6 +165,14 @@ export default function StorePage({ params }: { params: { slug: string } }) {
                   alt="Mums — The Swedish Candy Co."
                   width={256}
                   height={99}
+                  className="w-full h-auto"
+                />
+              ) : isSwedishSweets ? (
+                <Image
+                  src="/images/stores/swedish-sweets-logo.png"
+                  alt="Swedish Sweets"
+                  width={900}
+                  height={150}
                   className="w-full h-auto"
                 />
               ) : (
@@ -153,9 +193,14 @@ export default function StorePage({ params }: { params: { slug: string } }) {
                 <span className="inline-flex items-center gap-1.5 bg-white/15 backdrop-blur-sm text-white/90 text-sm px-4 py-1.5 rounded-sc-full">
                   {store.storeType === 'online' ? '🌐 Online Store' : store.storeType === 'both' ? '🏪 Online & Physical' : store.storeType === 'marketplace' ? '🛒 Marketplace' : '🏪 Physical Store'}
                 </span>
-                {isMums && (
+                {(isMums || isSwedishSweets) && (
                   <span className="inline-flex items-center gap-1.5 bg-white/15 backdrop-blur-sm text-white/90 text-sm px-4 py-1.5 rounded-sc-full">
                     🚫 No Red-40 or GMOs
+                  </span>
+                )}
+                {isSwedishSweets && (
+                  <span className="inline-flex items-center gap-1.5 bg-white/15 backdrop-blur-sm text-white/90 text-sm px-4 py-1.5 rounded-sc-full">
+                    🎵 45K+ TikTok Customers
                   </span>
                 )}
               </div>
@@ -179,10 +224,13 @@ export default function StorePage({ params }: { params: { slug: string } }) {
                     />
                   ))}
                 </div>
-                <span className="text-lg font-bold text-white">{isMums ? mumsData.customerRating : store.rating.toFixed(1)}</span>
+                <span className="text-lg font-bold text-white">{isMums ? mumsData.customerRating : isSwedishSweets ? swedishSweetsData.customerRating : store.rating.toFixed(1)}</span>
                 <span className="text-sm text-white/70">/5</span>
                 {isMums && (
                   <span className="text-sm text-white/80 ml-1">({mumsData.customerCount} customers)</span>
+                )}
+                {isSwedishSweets && (
+                  <span className="text-sm text-white/80 ml-1">({swedishSweetsData.customerCount} customers)</span>
                 )}
               </div>
 
@@ -209,7 +257,7 @@ export default function StorePage({ params }: { params: { slug: string } }) {
                   rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`}
                   className="inline-flex items-center justify-center bg-white text-sc-text px-8 py-3.5 rounded-sc-full font-bold hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,0,0,0.15)] text-[15px]"
                 >
-                  {isMums ? 'Shop Mums — Mixes From $19.99 →' : `Shop ${store.name} →`}
+                  {isMums ? 'Shop Mums — Mixes From $19.99 →' : isSwedishSweets ? 'Shop Swedish Sweets — Pick & Mix From $8.50 →' : `Shop ${store.name} →`}
                 </a>
                 {store.physicalLocations && (
                   <span className="inline-flex items-center gap-1.5 bg-white/15 backdrop-blur-sm text-white text-sm px-5 py-3 rounded-sc-full">
@@ -225,11 +273,17 @@ export default function StorePage({ params }: { params: { slug: string } }) {
       {/* Quick Facts */}
       <section className="border-b border-sc-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className={`grid ${isMums ? 'grid-cols-2 md:grid-cols-5' : 'grid-cols-2 md:grid-cols-4'} gap-6`}>
+          <div className={`grid ${isFeaturedStore ? 'grid-cols-2 md:grid-cols-5' : 'grid-cols-2 md:grid-cols-4'} gap-6`}>
             {isMums && (
               <div className="text-center">
                 <p className="text-xs font-bold uppercase tracking-wide text-sc-text-muted mb-1">Customer Rating</p>
                 <p className="text-sm font-semibold text-sc-text">{mumsData.customerRating}/5 ({mumsData.customerCount})</p>
+              </div>
+            )}
+            {isSwedishSweets && (
+              <div className="text-center">
+                <p className="text-xs font-bold uppercase tracking-wide text-sc-text-muted mb-1">TikTok Customers</p>
+                <p className="text-sm font-semibold text-sc-text">{swedishSweetsData.customerCount} happy customers</p>
               </div>
             )}
             <div className="text-center">
@@ -341,13 +395,94 @@ export default function StorePage({ params }: { params: { slug: string } }) {
         </section>
       )}
 
+      {/* SWEDISH SWEETS: Bestsellers Product Grid */}
+      {isSwedishSweets && (
+        <section className="py-14 md:py-16 border-b border-sc-border">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-10">
+              <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[1.2px] text-[#0077B6] bg-[#0077B6]/[0.08] px-3.5 py-1.5 rounded-sc-full mb-3">
+                🔥 Best Sellers
+              </span>
+              <h2 className="font-display text-[28px] sm:text-[32px] font-extrabold text-sc-text tracking-[-0.3px]">
+                Most Popular Swedish Sweets Products
+              </h2>
+              <p className="text-sc-text-muted mt-2">Authentic Swedish candy &mdash; no GMOs, no HFCS, no Red 40, no artificial colors</p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {swedishSweetsData.bestsellers.map((product) => (
+                <a
+                  key={product.name}
+                  href={shopUrl}
+                  target="_blank"
+                  rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`}
+                  className="group bg-sc-card border border-sc-border rounded-sc-lg overflow-hidden hover:border-[#0077B6]/40 hover:shadow-sc-hover hover:-translate-y-0.5 transition-all"
+                >
+                  {/* Product Image */}
+                  <div className="relative w-full aspect-square bg-gray-50">
+                    <Image
+                      src={product.image}
+                      alt={product.name}
+                      fill
+                      sizes="(max-width: 640px) 100vw, 50vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+
+                  {/* Product Info */}
+                  <div className="p-5">
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="flex-1">
+                        <h3 className="font-display font-bold text-sc-text group-hover:text-[#0077B6] transition-colors text-[15px] mb-2">
+                          {product.name}
+                        </h3>
+                        <div className="flex items-center gap-1 text-sc-yellow text-xs mb-2">
+                          {'\u2605\u2605\u2605\u2605\u2605'}
+                          <span className="text-sc-text-muted ml-1">{product.reviews} reviews</span>
+                        </div>
+                      </div>
+                      <div className="text-right flex-shrink-0">
+                        <span className="text-lg font-bold text-[#0077B6]">{product.price}</span>
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-between mt-3 pt-3 border-t border-sc-border">
+                      <div className="flex gap-2">
+                        <span className="text-[10px] font-bold uppercase bg-sc-lime/[0.1] text-[#2D8F2A] px-2 py-0.5 rounded-sc-full">No Red-40</span>
+                        <span className="text-[10px] font-bold uppercase bg-sc-lime/[0.1] text-[#2D8F2A] px-2 py-0.5 rounded-sc-full">No GMOs</span>
+                        <span className="text-[10px] font-bold uppercase bg-sc-lime/[0.1] text-[#2D8F2A] px-2 py-0.5 rounded-sc-full">No HFCS</span>
+                      </div>
+                      <span className="text-sm font-semibold text-[#0077B6] group-hover:translate-x-0.5 transition-transform">
+                        Shop &rarr;
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
+
+            {/* CTA after products */}
+            <div className="text-center mt-8">
+              <a
+                href={shopUrl}
+                target="_blank"
+                rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`}
+                className="inline-flex items-center justify-center bg-[#0077B6] text-white px-8 py-3.5 rounded-sc-full font-bold hover:bg-[#005f92] hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,119,182,0.3)] text-[15px]"
+              >
+                View All Swedish Sweets Products &rarr;
+              </a>
+              <p className="text-xs text-sc-text-muted mt-2">Free shipping on orders over $50</p>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* About + Pros/Cons */}
       <section className="py-14 md:py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* About */}
           <div className="mb-12">
             <h2 className="font-display text-2xl font-extrabold text-sc-text mb-6">
-              {isMums ? 'Our Mums Swedish Candy Review' : `About ${store.name}`}
+              {isMums ? 'Our Mums Swedish Candy Review' : isSwedishSweets ? 'Our Swedish Sweets Review' : `About ${store.name}`}
             </h2>
             <p className="text-sc-text-muted text-[16px] leading-[1.8]">
               {store.longDescription}
@@ -355,6 +490,11 @@ export default function StorePage({ params }: { params: { slug: string } }) {
             {isMums && (
               <p className="text-sc-text-muted text-[16px] leading-[1.8] mt-4">
                 What really stands out is their commitment to clean ingredients. With the recent FDA attention on artificial food dyes, Mums was already ahead of the curve — their entire catalog is free from Red-40, Yellow 5, Yellow 6, and other synthetic colorants that are being phased out in the US. For parents looking for better candy options or anyone concerned about food additives, Mums is one of the few stores that makes it easy to shop worry-free.
+              </p>
+            )}
+            {isSwedishSweets && (
+              <p className="text-sc-text-muted text-[16px] leading-[1.8] mt-4">
+                Swedish Sweets has earned a loyal following on TikTok for good reason &mdash; their candy is the real deal. Every product is imported directly from Sweden and meets strict clean-ingredient standards: no GMOs, no high-fructose corn syrup, and no artificial colors like Red 40, Yellow 5, or Blue 1. Their pick-and-mix bags let you build your own Swedish candy experience, while their curated mixes (Bubs Mix, Sour Mix, Pinky Mix) take the guesswork out of ordering. With free shipping on orders over $50 and a 10% discount for new subscribers, it&apos;s easy to see why they&apos;ve become one of the fastest-growing Swedish candy stores in the US.
               </p>
             )}
           </div>
@@ -407,7 +547,23 @@ export default function StorePage({ params }: { params: { slug: string } }) {
                 rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`}
                 className="inline-flex items-center justify-center bg-[#00C9B7] text-white px-6 py-3 rounded-sc-full font-bold hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,201,183,0.3)] text-sm whitespace-nowrap"
               >
-                Shop Mums →
+                Shop Mums &rarr;
+              </a>
+            </div>
+          )}
+          {isSwedishSweets && (
+            <div className="mt-10 bg-gradient-to-r from-[#0077B6]/[0.08] to-[#00B4D8]/[0.05] border border-[#0077B6]/20 rounded-sc-lg p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div>
+                <p className="font-display font-bold text-sc-text">Ready to try Swedish Sweets?</p>
+                <p className="text-sm text-sc-text-muted">Pick &amp; mix bags from $8.50 &mdash; free shipping over $50 &mdash; 10% off first order</p>
+              </div>
+              <a
+                href={shopUrl}
+                target="_blank"
+                rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`}
+                className="inline-flex items-center justify-center bg-[#0077B6] text-white px-6 py-3 rounded-sc-full font-bold hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,119,182,0.3)] text-sm whitespace-nowrap"
+              >
+                Shop Swedish Sweets &rarr;
               </a>
             </div>
           )}
@@ -458,17 +614,19 @@ export default function StorePage({ params }: { params: { slug: string } }) {
       </section>
 
       {/* CTA Section */}
-      <section className={`py-14 md:py-16 text-center ${isMums ? 'bg-gradient-to-r from-[#00C9B7] to-[#00A89D]' : ''}`}>
+      <section className={`py-14 md:py-16 text-center ${isMums ? 'bg-gradient-to-r from-[#00C9B7] to-[#00A89D]' : isSwedishSweets ? 'bg-gradient-to-r from-[#0077B6] to-[#00B4D8]' : ''}`}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className={`font-display text-2xl font-extrabold mb-3 ${isMums ? 'text-white' : 'text-sc-text'}`}>
-            {isMums ? 'Try Mums Swedish Candy Today' : `Ready to Shop at ${store.name}?`}
+          <h2 className={`font-display text-2xl font-extrabold mb-3 ${isFeaturedStore ? 'text-white' : 'text-sc-text'}`}>
+            {isMums ? 'Try Mums Swedish Candy Today' : isSwedishSweets ? 'Try Swedish Sweets Today' : `Ready to Shop at ${store.name}?`}
           </h2>
-          <p className={`mb-8 max-w-xl mx-auto ${isMums ? 'text-white/90' : 'text-sc-text-muted'}`}>
+          <p className={`mb-8 max-w-xl mx-auto ${isFeaturedStore ? 'text-white/90' : 'text-sc-text-muted'}`}>
             {isMums
               ? `Join ${mumsData.customerCount} happy customers. Clean ingredients, fast shipping, and the best BUBS selection in the US.`
-              : store.featured
-                ? `${store.name} is our Editor's Pick for Swedish candy. Start shopping today.`
-                : `Explore ${store.name}'s selection of authentic Swedish candy.`}
+              : isSwedishSweets
+                ? `Join ${swedishSweetsData.customerCount} happy TikTok customers. Clean ingredients, pick & mix bags from $8.50, and free shipping over $50.`
+                : store.featured
+                  ? `${store.name} is our Editor&apos;s Pick for Swedish candy. Start shopping today.`
+                  : `Explore ${store.name}&apos;s selection of authentic Swedish candy.`}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
@@ -478,15 +636,17 @@ export default function StorePage({ params }: { params: { slug: string } }) {
               className={`inline-flex items-center justify-center px-8 py-3.5 rounded-sc-full font-bold hover:-translate-y-0.5 transition-all text-[15px] ${
                 isMums
                   ? 'bg-white text-[#00A89D] shadow-[0_4px_16px_rgba(0,0,0,0.15)]'
-                  : 'bg-sc-pink text-white hover:bg-sc-pink-hover shadow-[0_4px_16px_rgba(255,45,135,0.3)]'
+                  : isSwedishSweets
+                    ? 'bg-white text-[#0077B6] shadow-[0_4px_16px_rgba(0,0,0,0.15)]'
+                    : 'bg-sc-pink text-white hover:bg-sc-pink-hover shadow-[0_4px_16px_rgba(255,45,135,0.3)]'
               }`}
             >
-              {isMums ? 'Shop Mums — Free Shipping Over $69 →' : `Shop ${store.name} →`}
+              {isMums ? 'Shop Mums — Free Shipping Over $69 →' : isSwedishSweets ? 'Shop Swedish Sweets — Free Shipping Over $50 →' : `Shop ${store.name} →`}
             </a>
             <Link
               href="/where-to-buy"
               className={`inline-flex items-center justify-center px-7 py-3 rounded-sc-full font-semibold hover:-translate-y-0.5 transition-all ${
-                isMums
+                isFeaturedStore
                   ? 'bg-white/15 text-white border border-white/30 hover:bg-white/25'
                   : 'bg-sc-card border-[1.5px] border-sc-border text-sc-text hover:border-sc-purple hover:text-sc-purple'
               }`}
@@ -600,10 +760,10 @@ export default function StorePage({ params }: { params: { slug: string } }) {
             }),
             aggregateRating: {
               '@type': 'AggregateRating',
-              ratingValue: isMums ? 4.9 : store.rating,
+              ratingValue: isMums ? 4.9 : isSwedishSweets ? 4.7 : store.rating,
               bestRating: 5,
               worstRating: 1,
-              ratingCount: isMums ? 200000 : Math.floor(store.rating * 35 + 50),
+              ratingCount: isMums ? 200000 : isSwedishSweets ? 45000 : Math.floor(store.rating * 35 + 50),
             },
             priceRange: store.priceRange,
           }),

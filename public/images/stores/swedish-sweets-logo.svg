@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 50" width="300" height="50">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;display=swap');
+    </style>
+  </defs>
+  <text x="150" y="32" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-weight="700" font-size="28" letter-spacing="4" fill="#D4919E">SWEDISH SWEETS</text>
+  <!-- Small crown icon -->
+  <g transform="translate(258, 10) scale(0.4)" fill="#D4919E">
+    <path d="M10 35 L15 10 L25 25 L35 5 L45 25 L55 10 L60 35 Z"/>
+    <rect x="8" y="35" width="54" height="5" rx="2"/>
+  </g>
+</svg>
