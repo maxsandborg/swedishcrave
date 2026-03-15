@@ -2,7 +2,9 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { getArticleBySlug, getAllArticleSlugs, getRelatedArticles } from '@/data/articles';
 import { candyItems } from '@/data/candy';
+import { resolveAuthorId, getAuthorById } from '@/data/authors';
 import TableOfContents from '@/components/TableOfContents';
+import AuthorBio from '@/components/AuthorBio';
 import { injectHeadingIds } from '@/lib/heading-utils';
 
 
@@ -37,7 +39,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
         : undefined,
       publishedTime: article.publishedAt,
       modifiedTime: article.updatedAt,
-      authors: [article.author],
+      authors: [getAuthorById(resolveAuthorId(article.author, article.silo))?.name || article.author],
     },
     twitter: {
       card: 'summary_large_image',
@@ -95,6 +97,9 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
       </div>
     );
   }
+
+  const authorId = resolveAuthorId(article.author, article.silo);
+  const author = getAuthorById(authorId);
 
   const relatedArticles = getRelatedArticles(article.slug, 3);
   const relatedCandy = article.relatedCandySlugs
@@ -157,7 +162,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
         </h1>
 
         <div className="flex flex-wrap items-center gap-4 text-sm text-sc-text-muted mb-8">
-          <span>By {article.author}</span>
+          <span>By {author?.name || article.author}</span>
           <span>·</span>
           <span>{article.estimatedReadTime} min read</span>
           <span>·</span>
@@ -224,6 +229,9 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
             ))}
           </div>
         </div>
+
+        {/* Author Bio */}
+        {author && <AuthorBio author={author} />}
       </article>
 
       {/* Related Candy */}
@@ -325,9 +333,11 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
             description: article.metaDescription,
             image: article.heroImage,
             author: {
-              '@type': 'Organization',
-              name: article.author,
-              url: 'https://www.swedishcrave.com',
+              '@type': 'Person',
+              name: author?.name || article.author,
+              url: 'https://www.swedishcrave.com/about',
+              ...(author?.socials.linkedin ? { sameAs: [author.socials.linkedin] } : {}),
+              ...(author?.role ? { jobTitle: author.role } : {}),
             },
             publisher: {
               '@type': 'Organization',
