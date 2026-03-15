@@ -19,7 +19,7 @@ export const stores: Store[] = [
     specialties: ['Curated candy boxes', 'Gift boxes', 'BUBS candy', 'Subscription boxes', 'Clean-ingredient candy'],
     pros: ['Fast US shipping (3-5 business days)', 'Clean ingredients — no parabens, gluten, artificial colors, or GMOs', 'Beautiful gift-ready packaging', 'Excellent customer service', 'Easy subscription options', 'Wide BUBS selection'],
     cons: ['Smaller catalog compared to some competitors', 'Ships primarily to US and Canada'],
-    shippingInfo: 'Standard US shipping 3-5 business days. Free shipping on orders over $50. Tracked packages with careful packaging.',
+    shippingInfo: 'Standard US shipping 3-5 business days. Free shipping on orders over $69. Tracked packages with careful packaging.',
     priceRange: '$$',
   },
   {
