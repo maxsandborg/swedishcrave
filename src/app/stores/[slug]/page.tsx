@@ -159,20 +159,12 @@ export default function StorePage({ params }: { params: { slug: string } }) {
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
             {/* Logo */}
             <div className="w-28 h-28 md:w-36 md:h-36 rounded-sc-lg bg-white flex items-center justify-center flex-shrink-0 shadow-lg overflow-hidden p-3">
-              {isMums ? (
+              {store.logo ? (
                 <Image
-                  src="/images/stores/mums-logo.png"
-                  alt="Mums — The Swedish Candy Co."
+                  src={store.logo}
+                  alt={store.name}
                   width={256}
                   height={99}
-                  className="w-full h-auto"
-                />
-              ) : isSwedishSweets ? (
-                <Image
-                  src="/images/stores/swedish-sweets-logo.png"
-                  alt="Swedish Sweets"
-                  width={900}
-                  height={150}
                   className="w-full h-auto"
                 />
               ) : (

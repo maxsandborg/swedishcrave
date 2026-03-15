@@ -124,13 +124,17 @@ export default function WhereToBuyPage() {
               <div className="flex flex-col sm:flex-row sm:items-center gap-5">
                 {/* Logo */}
                 <div className="w-20 h-20 rounded-sc-sm bg-white border border-sc-border flex items-center justify-center p-2.5 flex-shrink-0 shadow-sm">
-                  <Image
-                    src="/images/stores/mums-logo.png"
-                    alt="Mums Swedish Candy"
-                    width={256}
-                    height={99}
-                    className="w-full h-auto"
-                  />
+                  {mumsStore.logo ? (
+                    <Image
+                      src={mumsStore.logo}
+                      alt={mumsStore.name}
+                      width={256}
+                      height={99}
+                      className="w-full h-auto"
+                    />
+                  ) : (
+                    <Candy className="w-10 h-10 text-sc-primary" />
+                  )}
                 </div>
 
                 <div className="flex-1">
@@ -277,13 +281,13 @@ export default function WhereToBuyPage() {
                 {/* Card Header */}
                 <div className={`${accent.bg} ${accent.border} border-b p-5 md:p-6`}>
                   <div className="flex items-start justify-between mb-3">
-                    {store.slug === 'swedish-sweets' ? (
+                    {store.logo ? (
                       <div className="w-10 h-10 rounded-lg bg-white border border-sc-border flex items-center justify-center p-1 overflow-hidden">
                         <Image
-                          src="/images/stores/swedish-sweets-logo.png"
-                          alt="Swedish Sweets"
-                          width={900}
-                          height={150}
+                          src={store.logo}
+                          alt={store.name}
+                          width={256}
+                          height={99}
                           className="w-full h-auto"
                         />
                       </div>
