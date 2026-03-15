@@ -25,10 +25,10 @@ const mumsData = {
   customerCount: '200,000+',
   pressMentions: ['BuzzFeed', 'TIME', 'USA TODAY', 'Women\'s Health'],
   bestsellers: [
-    { name: 'Sweet And Sour Swedish Mix With BUBS', reviews: '1,227', price: '$19.99', originalPrice: '$24.69' },
-    { name: 'Sour Swedish Mix With BUBS', reviews: '458', price: '$19.99', originalPrice: '$24.69' },
-    { name: 'Sweet Swedish Mix With BUBS', reviews: '382', price: '$19.99', originalPrice: '$24.69' },
-    { name: 'All-In-One Party Mix', reviews: '282', price: '$79.00', originalPrice: '' },
+    { name: 'Sweet And Sour Swedish Mix With BUBS', reviews: '1,227', price: '$19.99', originalPrice: '$24.69', image: '/images/stores/mums-products/sweet-and-sour-mix.jpg' },
+    { name: 'Sour Swedish Mix With BUBS', reviews: '458', price: '$19.99', originalPrice: '$24.69', image: '/images/stores/mums-products/sour-mix.jpg' },
+    { name: 'Sweet Swedish Mix With BUBS', reviews: '382', price: '$19.99', originalPrice: '$24.69', image: '/images/stores/mums-products/sweet-mix.jpg' },
+    { name: 'All-In-One Party Mix', reviews: '282', price: '$79.00', originalPrice: '', image: '/images/stores/mums-products/party-mix.jpg' },
   ],
   relatedArticleSlugs: [
     'candy-without-artificial-dyes',
@@ -277,34 +277,53 @@ export default function StorePage({ params }: { params: { slug: string } }) {
                   href={shopUrl}
                   target="_blank"
                   rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`}
-                  className="group bg-sc-card border border-sc-border rounded-sc-lg p-5 hover:border-sc-pink/40 hover:shadow-sc-hover hover:-translate-y-0.5 transition-all"
+                  className="group bg-sc-card border border-sc-border rounded-sc-lg overflow-hidden hover:border-sc-pink/40 hover:shadow-sc-hover hover:-translate-y-0.5 transition-all"
                 >
-                  <div className="flex items-start justify-between gap-3">
-                    <div className="flex-1">
-                      <h3 className="font-display font-bold text-sc-text group-hover:text-sc-pink transition-colors text-[15px] mb-2">
-                        {product.name}
-                      </h3>
-                      <div className="flex items-center gap-1 text-sc-yellow text-xs mb-2">
-                        {'★★★★★'}
-                        <span className="text-sc-text-muted ml-1">{product.reviews} reviews</span>
+                  {/* Product Image */}
+                  <div className="relative w-full aspect-square bg-gray-50">
+                    <Image
+                      src={product.image}
+                      alt={product.name}
+                      fill
+                      sizes="(max-width: 640px) 100vw, 50vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    {product.originalPrice && (
+                      <span className="absolute top-3 left-3 bg-sc-pink text-white text-[11px] font-bold px-2.5 py-1 rounded-sc-full">
+                        SALE
+                      </span>
+                    )}
+                  </div>
+
+                  {/* Product Info */}
+                  <div className="p-5">
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="flex-1">
+                        <h3 className="font-display font-bold text-sc-text group-hover:text-sc-pink transition-colors text-[15px] mb-2">
+                          {product.name}
+                        </h3>
+                        <div className="flex items-center gap-1 text-sc-yellow text-xs mb-2">
+                          {'★★★★★'}
+                          <span className="text-sc-text-muted ml-1">{product.reviews} reviews</span>
+                        </div>
+                      </div>
+                      <div className="text-right flex-shrink-0">
+                        <span className="text-lg font-bold text-sc-pink">{product.price}</span>
+                        {product.originalPrice && (
+                          <span className="block text-xs text-sc-text-muted line-through">{product.originalPrice}</span>
+                        )}
                       </div>
                     </div>
-                    <div className="text-right flex-shrink-0">
-                      <span className="text-lg font-bold text-sc-pink">{product.price}</span>
-                      {product.originalPrice && (
-                        <span className="block text-xs text-sc-text-muted line-through">{product.originalPrice}</span>
-                      )}
+                    <div className="flex items-center justify-between mt-3 pt-3 border-t border-sc-border">
+                      <div className="flex gap-2">
+                        <span className="text-[10px] font-bold uppercase bg-sc-lime/[0.1] text-[#2D8F2A] px-2 py-0.5 rounded-sc-full">No Red-40</span>
+                        <span className="text-[10px] font-bold uppercase bg-sc-lime/[0.1] text-[#2D8F2A] px-2 py-0.5 rounded-sc-full">No GMOs</span>
+                        <span className="text-[10px] font-bold uppercase bg-sc-lime/[0.1] text-[#2D8F2A] px-2 py-0.5 rounded-sc-full">Gluten-Free</span>
+                      </div>
+                      <span className="text-sm font-semibold text-sc-pink group-hover:translate-x-0.5 transition-transform">
+                        Shop →
+                      </span>
                     </div>
-                  </div>
-                  <div className="flex items-center justify-between mt-3 pt-3 border-t border-sc-border">
-                    <div className="flex gap-2">
-                      <span className="text-[10px] font-bold uppercase bg-sc-lime/[0.1] text-[#2D8F2A] px-2 py-0.5 rounded-sc-full">No Red-40</span>
-                      <span className="text-[10px] font-bold uppercase bg-sc-lime/[0.1] text-[#2D8F2A] px-2 py-0.5 rounded-sc-full">No GMOs</span>
-                      <span className="text-[10px] font-bold uppercase bg-sc-lime/[0.1] text-[#2D8F2A] px-2 py-0.5 rounded-sc-full">Gluten-Free</span>
-                    </div>
-                    <span className="text-sm font-semibold text-sc-pink group-hover:translate-x-0.5 transition-transform">
-                      Shop →
-                    </span>
                   </div>
                 </a>
               ))}
