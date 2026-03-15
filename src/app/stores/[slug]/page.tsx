@@ -7,7 +7,6 @@ import {
   getAllStoreSlugs,
 } from '@/lib/utils';
 import { stores } from '@/data/stores';
-import { articles } from '@/data/articles';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 const storeColors: Record<string, string> = {
@@ -29,13 +28,6 @@ const mumsData = {
     { name: 'Sour Swedish Mix With BUBS', reviews: '458', price: '$19.99', originalPrice: '$24.69', image: '/images/stores/mums-products/sour-mix.jpg' },
     { name: 'Sweet Swedish Mix With BUBS', reviews: '382', price: '$19.99', originalPrice: '$24.69', image: '/images/stores/mums-products/sweet-mix.jpg' },
     { name: 'All-In-One Party Mix', reviews: '282', price: '$79.00', originalPrice: '', image: '/images/stores/mums-products/party-mix.jpg' },
-  ],
-  relatedArticleSlugs: [
-    'candy-without-artificial-dyes',
-    'best-swedish-candy-gift-boxes',
-    'best-swedish-candy-on-amazon',
-    'swedish-candy-store-reviews',
-    'bubs-vs-haribo',
   ],
 };
 
@@ -107,13 +99,6 @@ export default function StorePage({ params }: { params: { slug: string } }) {
   const shopUrl = store.affiliateUrl && store.affiliateUrl !== '#' ? store.affiliateUrl : store.url;
   const isAffiliate = store.affiliateUrl && store.affiliateUrl !== '#';
   const isMums = store.slug === 'mums-swedish-candy';
-
-  /* Related articles for Mums */
-  const relatedArticles = isMums
-    ? mumsData.relatedArticleSlugs
-        .map((slug) => articles.find((a) => a.slug === slug))
-        .filter((a): a is NonNullable<typeof a> => a !== undefined && a.status === 'published')
-    : [];
 
   return (
     <>
@@ -471,39 +456,6 @@ export default function StorePage({ params }: { params: { slug: string } }) {
           )}
         </div>
       </section>
-
-      {/* MUMS ONLY: Related Articles — internal linking for SEO */}
-      {isMums && relatedArticles.length > 0 && (
-        <section className="py-14 md:py-16 border-t border-sc-border">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="font-display text-2xl font-extrabold text-sc-text mb-3 text-center">
-              Helpful Guides Before You Buy
-            </h2>
-            <p className="text-sc-text-muted text-center mb-8 max-w-xl mx-auto">
-              Learn more about Swedish candy ingredients, gift ideas, and how Mums compares
-            </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {relatedArticles.slice(0, 3).map((article) => (
-                <Link
-                  key={article.slug}
-                  href={`/blog/${article.slug}`}
-                  className="group bg-sc-card border border-sc-border rounded-sc-lg p-5 hover:border-sc-pink hover:shadow-sc-hover hover:-translate-y-0.5 transition-all"
-                >
-                  <h3 className="font-display font-bold text-sc-text group-hover:text-sc-pink transition-colors text-[15px] mb-2 line-clamp-2">
-                    {article.h1}
-                  </h3>
-                  <p className="text-[13px] text-sc-text-muted leading-[1.6] line-clamp-2 mb-3">
-                    {article.intro.replace(/<[^>]*>/g, '').substring(0, 120)}...
-                  </p>
-                  <span className="text-sm font-semibold text-sc-pink">
-                    Read guide →
-                  </span>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* CTA Section */}
       <section className={`py-14 md:py-16 text-center ${isMums ? 'bg-gradient-to-r from-[#00C9B7] to-[#00A89D]' : ''}`}>
