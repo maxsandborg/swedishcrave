@@ -1,63 +1,73 @@
 import Link from 'next/link';
-import Logo from './Logo';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const footerSections = [
     {
-      title: 'About',
+      title: 'Browse',
       links: [
-        { label: 'About SwedishCrave', href: '/about' },
-        { label: 'How We Review', href: '/about' },
-        { label: 'Contact Us', href: '/contact' },
+        { label: 'All Candy', href: '/candy' },
+        { label: 'Stores', href: '/where-to-buy' },
+        { label: 'Categories', href: '/categories' },
+        { label: 'Best Sellers', href: '/best/swedish-candy' },
       ],
     },
     {
-      title: 'Explore',
+      title: 'Learn',
       links: [
-        { label: 'All Candy', href: '/candy' },
-        { label: 'Categories', href: '/categories' },
         { label: 'Blog', href: '/blog' },
-        { label: 'Where to Buy', href: '/where-to-buy' },
+        { label: 'Candy Guide', href: '/guides/swedish-candy-guide' },
+        { label: 'Lördagsgodis', href: '/blog/lordagsgodis-swedish-saturday-candy' },
+        { label: 'About Us', href: '/about' },
       ],
     },
     {
       title: 'Brands',
       links: [
         { label: 'All Brands', href: '/brands' },
-        { label: 'Swedish Brands', href: '/brands?country=sweden' },
-        { label: 'International', href: '/brands?country=international' },
-        { label: 'Brand Directory', href: '/brands' },
+        { label: 'BUBS', href: '/brands/bubs' },
+        { label: 'Marabou', href: '/brands/marabou' },
+        { label: 'Malaco', href: '/brands/malaco' },
       ],
     },
     {
-      title: 'Connect',
+      title: 'Follow',
       links: [
         { label: 'Newsletter', href: '/newsletter' },
-        { label: 'Twitter', href: 'https://twitter.com' },
-        { label: 'Instagram', href: 'https://instagram.com' },
+        { label: 'TikTok', href: 'https://tiktok.com/@swedishcrave' },
+        { label: 'Instagram', href: 'https://instagram.com/swedishcrave' },
         { label: 'Privacy Policy', href: '/privacy' },
       ],
     },
   ];
 
   return (
-    <footer className="bg-sc-card border-t border-sc-border mt-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <footer className="bg-sc-dark text-white/60">
+      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
         {/* Footer Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
+          {/* Brand Column */}
+          <div className="col-span-2 sm:col-span-2 lg:col-span-1">
+            <div className="font-display font-bold text-xl text-white mb-3 flex items-center gap-2">
+              <span>🍬</span> SwedishCrave
+            </div>
+            <p className="text-sm leading-relaxed">
+              Your guide to the best Swedish candy in the US. Reviews, comparisons, and sweet discoveries.
+            </p>
+          </div>
+
           {footerSections.map((section) => (
             <div key={section.title}>
-              <h3 className="text-sm font-bold text-sc-text mb-4 uppercase tracking-wide">
+              <h3 className="text-xs font-bold text-white mb-4 uppercase tracking-widest">
                 {section.title}
               </h3>
-              <ul className="space-y-3">
+              <ul className="space-y-2.5">
                 {section.links.map((link) => (
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="text-sc-text-muted hover:text-sc-primary text-sm transition-colors"
+                      className="text-white/50 hover:text-sc-yellow text-sm transition-colors"
                     >
                       {link.label}
                     </Link>
@@ -69,13 +79,12 @@ export default function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-sc-border mb-6" />
+        <div className="border-t border-white/10 mb-6" />
 
         {/* Copyright */}
-        <div className="flex flex-col items-center text-sm text-sc-text-muted">
-          <Logo size="sm" className="mb-3 opacity-70" />
+        <div className="flex flex-col sm:flex-row justify-between items-center text-xs text-white/40 gap-2">
           <p>&copy; {currentYear} SwedishCrave. All rights reserved.</p>
-          <p className="mt-2">Exploring the world of Swedish candy, one review at a time.</p>
+          <p>Made with 🇸🇪 in the USA</p>
         </div>
       </div>
     </footer>
