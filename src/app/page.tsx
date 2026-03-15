@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getFeaturedCandy, getTrendingCandy } from '@/lib/utils';
+import { getFeaturedCandy } from '@/lib/utils';
 import { categories } from '@/data/categories';
 import { stores } from '@/data/stores';
 import { articles } from '@/data/articles';
