@@ -4025,7 +4025,7 @@ export const articles: Article[] = [
 
 <p><strong>Amazon wins on:</strong> Speed (Prime shipping), convenience (you already have an account), individual brand products (BUBS, Daim, Marabou), and returns (Amazon\'s return policy is unbeatable).</p>
 
-<p><strong>Specialty stores win on:</strong> Selection (200+ varieties vs Amazon\'s 30-40), freshness guarantees, expert curation, and authentic lösgodis (pick-and-mix) experiences. Stores like <a href="/blog/sockerbit-review">Sockerbit</a>, Swedish Candy Land, and Mums Swedish Candy carry products you simply can\'t find on Amazon.</p>
+<p><strong>Specialty stores win on:</strong> Selection (200+ varieties vs Amazon\'s 30-40), freshness guarantees, expert curation, and authentic lösgodis (pick-and-mix) experiences. Stores like <a href="/blog/sockerbit-review">Sockerbit</a>, Swedish Candy Land, and <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> carry products you simply can\'t find on Amazon.</p>
 
 <p>Our recommendation: use Amazon for the big brands (BUBS, Marabou, Daim) and specialty stores for everything else. Check our <a href="/where-to-buy">complete where-to-buy guide</a> for the full list of specialty retailers.</p>
 
@@ -4116,7 +4116,7 @@ export const articles: Article[] = [
 
 <h3>Premium: $45+</h3>
 
-<p><strong>Mums Swedish Candy Premium Gift Box</strong></p>
+<p><strong><a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy Premium Gift Box</a></strong></p>
 <p><strong>Price: ~$50-60 | Best for: Serious foodies, special occasions, impressive gifts</strong></p>
 <p>Mums Swedish Candy has one of the largest selections of any US-based Swedish candy retailer (200+ products). Their premium gift boxes are generous — typically 1.5-2 pounds of curated candy spanning multiple categories: sour, sweet, chocolate, foam, and sometimes a salmiak "challenge" piece. The box itself is designed for gifting, with tissue paper and a branded insert. This is the "go big" option.</p>
 
@@ -4748,7 +4748,7 @@ export const articles: Article[] = [
 <p>The US version of Cadbury Dairy Milk is manufactured by Hershey\'s under a licensing agreement, using a different recipe that includes Hershey\'s cocoa processing. The result tastes noticeably different from UK Cadbury. To get the real thing, import it from a British specialty shop.</p>
 
 <h3>Where can I buy Marabou in the US?</h3>
-<p>IKEA carries Marabou bars at the best prices. Online retailers like Amazon, Swedish Candy Land, and Mums Swedish Candy ship Marabou nationwide. See our <a href="/where-to-buy">where-to-buy guide</a> for current options.</p>`,
+<p>IKEA carries Marabou bars at the best prices. Online retailers like Amazon, Swedish Candy Land, and <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> ship Marabou nationwide. See our <a href="/where-to-buy">where-to-buy guide</a> for current options.</p>`,
     heroImage: '/images/blog/marabou-vs-cadbury.jpg',
     heroImageAlt: 'Marabou chocolate bar and Cadbury chocolate bar side by side',
     author: 'SwedishCrave',
@@ -5065,7 +5065,7 @@ export const articles: Article[] = [
 <h2>Top 6 Online Stores for Swedish Candy in the USA</h2>
 
 <h3>1. Mums Swedish Candy — Best Overall Selection</h3>
-<p><a href="/where-to-buy">Mums Swedish Candy</a> is the gold standard for buying Swedish candy online in America. They offer over 200 authentic Swedish products imported directly from Sweden, including Haribo Swedish Gold-Bears, Bilar gummies, Ahlgrens Bilar, and premium licorice varieties. Prices range from $3–15 per item, with bulk discounts available. Shipping to most US states takes 3–5 business days via USPS Priority Mail, and they offer free shipping on orders over $50.</p>
+<p><a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> is the gold standard for buying Swedish candy online in America. They offer over 200 authentic Swedish products imported directly from Sweden, including Haribo Swedish Gold-Bears, Bilar gummies, Ahlgrens Bilar, and premium licorice varieties. Prices range from $3–15 per item, with bulk discounts available. Shipping to most US states takes 3–5 business days via USPS Priority Mail, and they offer free shipping on orders over $50.</p>
 <p><strong>Pros:</strong> Massive selection, fast shipping, free shipping threshold, products sourced directly from Sweden, responsive customer service. <strong>Cons:</strong> Slightly higher per-item pricing than some competitors, limited international shipping outside North America.</p>
 <p>Mums Swedish Candy is ideal if you want the largest selection and are willing to pay a small premium for guaranteed authenticity and fast delivery.</p>
 
@@ -5107,7 +5107,7 @@ export const articles: Article[] = [
   </thead>
   <tbody>
     <tr>
-      <td><strong>Mums Swedish Candy</strong></td>
+      <td><strong><a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored" style="color: inherit;">Mums Swedish Candy</a></strong></td>
       <td>★★★★★</td>
       <td>★★★★☆</td>
       <td>3–5 days</td>
@@ -5155,7 +5155,7 @@ export const articles: Article[] = [
 <p>Shopping online means you can't inspect products before purchase. Here are expert tips to ensure you get the freshest, best-value Swedish candy:</p>
 
 <h3>1. Check the Expiration Date Before Ordering</h3>
-<p>Always read the product description for best-by or expiration dates. Swedish candy has a long shelf life, but fresher is better—especially for gummies. Quality retailers like Mums Swedish Candy clearly display freshness information in product listings. If a seller doesn't mention expiration dates, contact them before purchasing.</p>
+<p>Always read the product description for best-by or expiration dates. Swedish candy has a long shelf life, but fresher is better—especially for gummies. Quality retailers like <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> clearly display freshness information in product listings. If a seller doesn't mention expiration dates, contact them before purchasing.</p>
 
 <h3>2. Compare Per-Gram or Per-Ounce Pricing</h3>
 <p>Swedish candy pricing varies wildly between stores. Before making your choice, calculate the price per gram or ounce. A $5 bag might be cheaper per gram than a $3 bag if the first is significantly larger. Create a simple spreadsheet tracking your favorite items across stores—you'll quickly spot the best value sources.</p>
@@ -5164,7 +5164,7 @@ export const articles: Article[] = [
 <p>Orders from Sweden-based retailers like Sockerbit may trigger US customs duties, especially if the shipment exceeds $800. Factor in potential 15–25% customs fees when comparing international versus US-based retailers. Most international shipping is included, but surprise import fees can eliminate any price advantage.</p>
 
 <h3>4. Use Coupon Codes and Sign Up for Newsletters</h3>
-<p>Mums Swedish Candy and Swedish Sweets regularly offer first-purchase discounts (typically 10–15% off) for newsletter subscribers. Stock up during seasonal sales (holiday promotions often offer 20–30% off) rather than buying year-round at regular prices.</p>
+<p><a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> and Swedish Sweets regularly offer first-purchase discounts (typically 10–15% off) for newsletter subscribers. Stock up during seasonal sales (holiday promotions often offer 20–30% off) rather than buying year-round at regular prices.</p>
 
 <h3>5. Buy Shelf-Stable Varieties for Summer Shipping</h3>
 <p>During hot months, chocolate and gummy-based candies are at risk of melting in transit. Prioritize hard candies, licorice, and lollipops for summer ordering. If you must buy chocolate, choose expedited shipping or wait until fall/winter when temperatures are cooler.</p>
@@ -5173,7 +5173,7 @@ export const articles: Article[] = [
 <p>Here's how to pick the right retailer based on your priorities:</p>
 
 <ul>
-  <li><strong>Want the biggest selection?</strong> Choose <a href="/where-to-buy">Mums Swedish Candy</a> — they have 200+ products and the fastest non-Amazon shipping.</li>
+  <li><strong>Want the biggest selection?</strong> Choose <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> — they have 200+ products and the fastest non-Amazon shipping.</li>
   <li><strong>Looking for the best prices?</strong> Go with <a href="/where-to-buy">Swedish Sweets</a> for bulk purchases, or calculate per-gram pricing before deciding.</li>
   <li><strong>Need it fast with Prime?</strong> Check <a href="/blog/best-swedish-candy-on-amazon">Amazon's third-party sellers</a>, but verify product freshness in reviews.</li>
   <li><strong>Want premium specialty items?</strong> <a href="/blog/bonbon-nyc-review">BonBon NYC</a> curates unique products you won't find elsewhere.</li>
@@ -5220,16 +5220,16 @@ export const articles: Article[] = [
 <p>Most Swedish candy (especially hard candies, licorice, and gummies) remains fresh for 6–12 months after the best-by date, though texture and flavor are best within 3 months of purchase. Store in a cool, dry place away from direct sunlight. Chocolate-based candies should be consumed sooner (within 2–3 months) as cocoa butter can develop bloom (white coating).</p>
 
 <h3>Q: Will I have to pay customs fees if I order from a Swedish store?</h3>
-<p>US customs duties depend on the order value and shipper. Packages under $800 are typically duty-free under current USMCA rules, but Sweden is not part of this agreement. International orders from Sockerbit may incur 15–25% customs duties. US-based retailers like Mums Swedish Candy eliminate this risk entirely. If importing from Sweden, budget an extra 15–25% for potential duties.</p>
+<p>US customs duties depend on the order value and shipper. Packages under $800 are typically duty-free under current USMCA rules, but Sweden is not part of this agreement. International orders from Sockerbit may incur 15–25% customs duties. US-based retailers like <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> eliminate this risk entirely. If importing from Sweden, budget an extra 15–25% for potential duties.</p>
 
 <h3>Q: Can I find sugar-free Swedish candy online?</h3>
-<p>Yes, several stores carry sugar-free varieties. <a href="/blog/sockerbit-review">Sockerbit</a> specializes in sugar-free licorice and gummies, while Mums Swedish Candy stocks selected sugar-free options. Amazon sellers sometimes carry brands like Xylit and other Nordic sugar-free candy, though selection is more limited than regular candy. Check product descriptions carefully and verify taste reviews before ordering, as sugar-free versions often differ in texture.</p>
+<p>Yes, several stores carry sugar-free varieties. <a href="/blog/sockerbit-review">Sockerbit</a> specializes in sugar-free licorice and gummies, while <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> stocks selected sugar-free options. Amazon sellers sometimes carry brands like Xylit and other Nordic sugar-free candy, though selection is more limited than regular candy. Check product descriptions carefully and verify taste reviews before ordering, as sugar-free versions often differ in texture.</p>
 
 <h3>Q: Which store has the fastest shipping for urgent candy cravings?</h3>
-<p>Amazon Prime members get 1–2 day delivery on most items, making it the fastest option. <a href="/blog/bonbon-nyc-review">BonBon NYC</a> offers 2–3 day shipping from New York. Mums Swedish Candy delivers in 3–5 business days. If you need candy <em>today</em>, only IKEA in-store pickup beats online ordering, or you could check if a local Scandinavian restaurant or specialty shop carries Swedish candy.</p>
+<p>Amazon Prime members get 1–2 day delivery on most items, making it the fastest option. <a href="/blog/bonbon-nyc-review">BonBon NYC</a> offers 2–3 day shipping from New York. <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> delivers in 3–5 business days. If you need candy <em>today</em>, only IKEA in-store pickup beats online ordering, or you could check if a local Scandinavian restaurant or specialty shop carries Swedish candy.</p>
 
 <h2>Start Your Swedish Candy Journey Today</h2>
-<p>Buying authentic Swedish candy online is easier and faster than ever. Whether you choose <a href="/where-to-buy">Mums Swedish Candy for selection</a>, <a href="/where-to-buy">Swedish Sweets for value</a>, or another retailer on our list, you'll have delicious European treats at your door within days.</p>
+<p>Buying authentic Swedish candy online is easier and faster than ever. Whether you choose <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy for selection</a>, <a href="/where-to-buy">Swedish Sweets for value</a>, or another retailer on our list, you'll have delicious European treats at your door within days.</p>
 
 <p><strong>Ready to order?</strong> Visit <a href="/where-to-buy">our main store comparison page</a> to see current pricing, active promotions, and real customer reviews for all six retailers. Many first-time buyers save 15–30% by comparing stores before checking out.</p>
 
@@ -5261,7 +5261,7 @@ export const articles: Article[] = [
 <p>Getting the best value isn't just about finding the cheapest per-item price. Here's how to maximize your spending:</p>
 
 <ul>
-  <li><strong>Free Shipping Thresholds:</strong> Mums Swedish Candy offers free shipping at $50. If you're planning to order anyway, add items to cross this threshold rather than paying $8 shipping on a $45 order.</li>
+  <li><strong>Free Shipping Thresholds:</strong> <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> offers free shipping at $50. If you're planning to order anyway, add items to cross this threshold rather than paying $8 shipping on a $45 order.</li>
   <li><strong>Seasonal Sales:</strong> Most retailers have sales around Easter, Independence Day, Halloween, and Christmas. Sign up for newsletters to catch these promotions.</li>
   <li><strong>Bulk Quantities:</strong> Per-item pricing drops significantly when you buy larger quantities from most retailers. A single bag of Bilar might be $3.50, but a box of 12 is often under $2.50 each.</li>
   <li><strong>First-Purchase Codes:</strong> Check for signup discounts on retailer websites. Many offer 10–15% off first orders.</li>
@@ -5317,7 +5317,7 @@ export const articles: Article[] = [
 <h2>Top 6 Online Stores for Swedish Candy in the USA</h2>
 
 <h3>1. Mums Swedish Candy — Best Overall Selection</h3>
-<p><a href="/where-to-buy">Mums Swedish Candy</a> is the gold standard for buying Swedish candy online in America. They offer over 200 authentic Swedish products imported directly from Sweden, including Haribo Swedish Gold-Bears, Bilar gummies, Ahlgrens Bilar, and premium licorice varieties. Prices range from \$3–15 per item, with bulk discounts available. Shipping to most US states takes 3–5 business days via USPS Priority Mail, and they offer free shipping on orders over \$50.</p>
+<p><a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> is the gold standard for buying Swedish candy online in America. They offer over 200 authentic Swedish products imported directly from Sweden, including Haribo Swedish Gold-Bears, Bilar gummies, Ahlgrens Bilar, and premium licorice varieties. Prices range from \$3–15 per item, with bulk discounts available. Shipping to most US states takes 3–5 business days via USPS Priority Mail, and they offer free shipping on orders over \$50.</p>
 <p><strong>Pros:</strong> Massive selection, fast shipping, free shipping threshold, products sourced directly from Sweden, responsive customer service. <strong>Cons:</strong> Slightly higher per-item pricing than some competitors, limited international shipping outside North America.</p>
 <p>Mums Swedish Candy is ideal if you want the largest selection and are willing to pay a small premium for guaranteed authenticity and fast delivery.</p>
 
@@ -5359,7 +5359,7 @@ export const articles: Article[] = [
   </thead>
   <tbody>
     <tr>
-      <td><strong>Mums Swedish Candy</strong></td>
+      <td><strong><a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored" style="color: inherit;">Mums Swedish Candy</a></strong></td>
       <td>★★★★★</td>
       <td>★★★★☆</td>
       <td>3–5 days</td>
@@ -5407,7 +5407,7 @@ export const articles: Article[] = [
 <p>Shopping online means you can't inspect products before purchase. Here are expert tips to ensure you get the freshest, best-value Swedish candy:</p>
 
 <h3>1. Check the Expiration Date Before Ordering</h3>
-<p>Always read the product description for best-by or expiration dates. Swedish candy has a long shelf life, but fresher is better—especially for gummies. Quality retailers like Mums Swedish Candy clearly display freshness information in product listings. If a seller doesn't mention expiration dates, contact them before purchasing.</p>
+<p>Always read the product description for best-by or expiration dates. Swedish candy has a long shelf life, but fresher is better—especially for gummies. Quality retailers like <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> clearly display freshness information in product listings. If a seller doesn't mention expiration dates, contact them before purchasing.</p>
 
 <h3>2. Compare Per-Gram or Per-Ounce Pricing</h3>
 <p>Swedish candy pricing varies wildly between stores. Before making your choice, calculate the price per gram or ounce. A \$5 bag might be cheaper per gram than a \$3 bag if the first is significantly larger. Create a simple spreadsheet tracking your favorite items across stores—you'll quickly spot the best value sources.</p>
@@ -5416,7 +5416,7 @@ export const articles: Article[] = [
 <p>Orders from Sweden-based retailers like Sockerbit may trigger US customs duties, especially if the shipment exceeds \$800. Factor in potential 15–25% customs fees when comparing international versus US-based retailers. Most international shipping is included, but surprise import fees can eliminate any price advantage.</p>
 
 <h3>4. Use Coupon Codes and Sign Up for Newsletters</h3>
-<p>Mums Swedish Candy and Swedish Sweets regularly offer first-purchase discounts (typically 10–15% off) for newsletter subscribers. Stock up during seasonal sales (holiday promotions often offer 20–30% off) rather than buying year-round at regular prices.</p>
+<p><a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> and Swedish Sweets regularly offer first-purchase discounts (typically 10–15% off) for newsletter subscribers. Stock up during seasonal sales (holiday promotions often offer 20–30% off) rather than buying year-round at regular prices.</p>
 
 <h3>5. Buy Shelf-Stable Varieties for Summer Shipping</h3>
 <p>During hot months, chocolate and gummy-based candies are at risk of melting in transit. Prioritize hard candies, licorice, and lollipops for summer ordering. If you must buy chocolate, choose expedited shipping or wait until fall/winter when temperatures are cooler.</p>
@@ -5425,7 +5425,7 @@ export const articles: Article[] = [
 <p>Here's how to pick the right retailer based on your priorities:</p>
 
 <ul>
-  <li><strong>Want the biggest selection?</strong> Choose <a href="/where-to-buy">Mums Swedish Candy</a> — they have 200+ products and the fastest non-Amazon shipping.</li>
+  <li><strong>Want the biggest selection?</strong> Choose <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> — they have 200+ products and the fastest non-Amazon shipping.</li>
   <li><strong>Looking for the best prices?</strong> Go with <a href="/where-to-buy">Swedish Sweets</a> for bulk purchases, or calculate per-gram pricing before deciding.</li>
   <li><strong>Need it fast with Prime?</strong> Check <a href="/blog/best-swedish-candy-on-amazon">Amazon's third-party sellers</a>, but verify product freshness in reviews.</li>
   <li><strong>Want premium specialty items?</strong> <a href="/blog/bonbon-nyc-review">BonBon NYC</a> curates unique products you won't find elsewhere.</li>
@@ -5463,16 +5463,16 @@ export const articles: Article[] = [
 <p>Most Swedish candy (especially hard candies, licorice, and gummies) remains fresh for 6–12 months after the best-by date, though texture and flavor are best within 3 months of purchase. Store in a cool, dry place away from direct sunlight. Chocolate-based candies should be consumed sooner (within 2–3 months) as cocoa butter can develop bloom (white coating).</p>
 
 <h3>Q: Will I have to pay customs fees if I order from a Swedish store?</h3>
-<p>US customs duties depend on the order value and shipper. Packages under \$800 are typically duty-free under current USMCA rules, but Sweden is not part of this agreement. International orders from Sockerbit may incur 15–25% customs duties. US-based retailers like Mums Swedish Candy eliminate this risk entirely. If importing from Sweden, budget an extra 15–25% for potential duties.</p>
+<p>US customs duties depend on the order value and shipper. Packages under \$800 are typically duty-free under current USMCA rules, but Sweden is not part of this agreement. International orders from Sockerbit may incur 15–25% customs duties. US-based retailers like <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> eliminate this risk entirely. If importing from Sweden, budget an extra 15–25% for potential duties.</p>
 
 <h3>Q: Can I find sugar-free Swedish candy online?</h3>
-<p>Yes, several stores carry sugar-free varieties. <a href="/blog/sockerbit-review">Sockerbit</a> specializes in sugar-free licorice and gummies, while Mums Swedish Candy stocks selected sugar-free options. Amazon sellers sometimes carry brands like Xylit and other Nordic sugar-free candy, though selection is more limited than regular candy. Check product descriptions carefully and verify taste reviews before ordering, as sugar-free versions often differ in texture.</p>
+<p>Yes, several stores carry sugar-free varieties. <a href="/blog/sockerbit-review">Sockerbit</a> specializes in sugar-free licorice and gummies, while <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> stocks selected sugar-free options. Amazon sellers sometimes carry brands like Xylit and other Nordic sugar-free candy, though selection is more limited than regular candy. Check product descriptions carefully and verify taste reviews before ordering, as sugar-free versions often differ in texture.</p>
 
 <h3>Q: Which store has the fastest shipping for urgent candy cravings?</h3>
-<p>Amazon Prime members get 1–2 day delivery on most items, making it the fastest option. <a href="/blog/bonbon-nyc-review">BonBon NYC</a> offers 2–3 day shipping from New York. Mums Swedish Candy delivers in 3–5 business days. If you need candy <em>today</em>, only IKEA in-store pickup beats online ordering, or you could check if a local Scandinavian restaurant or specialty shop carries Swedish candy.</p>
+<p>Amazon Prime members get 1–2 day delivery on most items, making it the fastest option. <a href="/blog/bonbon-nyc-review">BonBon NYC</a> offers 2–3 day shipping from New York. <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> delivers in 3–5 business days. If you need candy <em>today</em>, only IKEA in-store pickup beats online ordering, or you could check if a local Scandinavian restaurant or specialty shop carries Swedish candy.</p>
 
 <h2>Start Your Swedish Candy Journey Today</h2>
-<p>Buying authentic Swedish candy online is easier and faster than ever. Whether you choose <a href="/where-to-buy">Mums Swedish Candy for selection</a>, <a href="/where-to-buy">Swedish Sweets for value</a>, or another retailer on our list, you'll have delicious European treats at your door within days.</p>
+<p>Buying authentic Swedish candy online is easier and faster than ever. Whether you choose <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy for selection</a>, <a href="/where-to-buy">Swedish Sweets for value</a>, or another retailer on our list, you'll have delicious European treats at your door within days.</p>
 
 <p><strong>Ready to order?</strong> Visit <a href="/where-to-buy">our main store comparison page</a> to see current pricing, active promotions, and real customer reviews for all six retailers. Many first-time buyers save 15–30% by comparing stores before checking out.</p>
 
@@ -5561,13 +5561,13 @@ export const articles: Article[] = [
 <h2>Frequently Asked Questions</h2>
 
 <h3>Q: Is Swedish candy in NYC more expensive than ordering online?</h3>
-<p>Slightly. BonBon's in-store pricing runs about \$4.50/quarter pound, which works out to roughly \$18/lb for pick-and-mix. Online stores like Sweetish Candy or <a href="/where-to-buy">Mums Swedish Candy</a> can be cheaper per gram, but you lose the experience of picking individual pieces and trying before you buy. For a first-timer, the in-store experience is worth the small premium.</p>
+<p>Slightly. BonBon's in-store pricing runs about \$4.50/quarter pound, which works out to roughly \$18/lb for pick-and-mix. Online stores like Sweetish Candy or <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> can be cheaper per gram, but you lose the experience of picking individual pieces and trying before you buy. For a first-timer, the in-store experience is worth the small premium.</p>
 
 <h3>Q: Can tourists buy Swedish candy to bring home on a flight?</h3>
 <p>Absolutely. Candy is allowed in both carry-on and checked luggage on domestic and international flights. BonBon even sells pre-packaged gift boxes that are TSA-friendly. Just avoid anything that might melt if you're flying in summer — chocolate bars and soft gummies don't love overhead bins in August.</p>
 
 <h3>Q: Are there Swedish candy subscription boxes based in NYC?</h3>
-<p>BonBon offers curated candy boxes that you can order as one-time purchases or gifts. For actual recurring subscriptions, check online-first stores like Mums Swedish Candy or <a href="/blog/swedish-candy-store-reviews">our full store comparison</a>.</p>
+<p>BonBon offers curated candy boxes that you can order as one-time purchases or gifts. For actual recurring subscriptions, check online-first stores like <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a> or <a href="/blog/swedish-candy-store-reviews">our full store comparison</a>.</p>
 
 <h3>Q: What's the best Swedish candy to try for the first time in NYC?</h3>
 <p>Start with <a href="/blog/best-swedish-candy-for-beginners">our beginner's guide</a>. At BonBon specifically, ask for a "best of Sweden" mix — they'll build you a bag with crowd-pleasers like <a href="/candy/bubs-watermelon">BUBS watermelon</a>, <a href="/candy/ahlgrens-bilar">Ahlgrens Bilar</a>, and a few sour options. Skip the salmiak licorice on your first visit unless you already know you love it.</p>`,
@@ -5831,8 +5831,8 @@ export const articles: Article[] = [
 <p><strong>Website (8/10):</strong> Beautiful, clean design that reflects the brand. Easy to filter by dietary needs (vegan, gluten-free, gelatin-free).</p>
 <p><strong>Best for:</strong> Vegan candy seekers, people who care about clean ingredients, West Coast shoppers who want fast delivery.</p>
 
-<h2>5. Mums Swedish Candy — Best for Discovery (Score: 7.8/10)</h2>
-<p>Mums Candy positions itself as a gourmet Swedish candy source, emphasizing artisanal quality and clean ingredients. Their lineup is free from parabens, gluten, artificial colors, artificial flavors, GMOs, and dairy.</p>
+<h2>5. <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored" style="color: inherit; text-decoration: none;">Mums Swedish Candy</a> — Best for Discovery (Score: 7.8/10)</h2>
+<p><a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Candy</a> positions itself as a gourmet Swedish candy source, emphasizing artisanal quality and clean ingredients. Their lineup is free from parabens, gluten, artificial colors, artificial flavors, GMOs, and dairy.</p>
 <p><strong>Selection (7/10):</strong> Focused selection of premium items. Less variety than Swedish Candy Store, but everything is carefully vetted for quality.</p>
 <p><strong>Shipping (8/10):</strong> 3–5 business days to most US locations. Reliable tracking and well-communicated delivery estimates.</p>
 <p><strong>Pricing (7/10):</strong> Slightly premium, reflecting the gourmet positioning. You're paying for curation and guaranteed quality.</p>
@@ -8038,7 +8038,7 @@ export const articles: Article[] = [
 <ul>
 <li><strong>Amazon</strong> — Search "dye-free candy" or specific Swedish brands. See our guide: <a href="/blog/best-swedish-candy-on-amazon">Best Swedish Candy on Amazon</a>.</li>
 <li><strong>NaturalCandyStore.com</strong> — Dedicated dye-free candy retailer with a large selection.</li>
-<li><strong>Swedish candy stores</strong> — Sites like Mums Swedish Candy, Swedish Candy Store, and BonBon NYC ship authentic Swedish candy directly. See our full list: <a href="/where-to-buy">Where to Buy Swedish Candy</a>.</li>
+<li><strong>Swedish candy stores</strong> — Sites like <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="noopener noreferrer sponsored">Mums Swedish Candy</a>, Swedish Candy Store, and BonBon NYC ship authentic Swedish candy directly. See our full list: <a href="/where-to-buy">Where to Buy Swedish Candy</a>.</li>
 </ul>
 
 <h2>FAQ</h2>
