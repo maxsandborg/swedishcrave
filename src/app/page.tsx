@@ -3,6 +3,30 @@ import { getFeaturedCandy } from '@/lib/utils';
 import { categories } from '@/data/categories';
 import { stores } from '@/data/stores';
 import { articles } from '@/data/articles';
+import {
+  Star,
+  Flame,
+  Store,
+  ArrowRight,
+  BookOpen,
+  Candy,
+  ShoppingBag,
+  Truck,
+  Package,
+  Gift,
+  Sparkles,
+  Heart,
+  Trophy,
+  Globe,
+  MapPin,
+  Palette,
+  Zap,
+  Droplets,
+  Circle,
+  FlaskConical,
+  Cherry,
+  Mail,
+} from 'lucide-react';
 
 // Category color mapping for the gradient cards
 const categoryColors: Record<string, { gradient: string; text: string; shadow: string }> = {
@@ -38,15 +62,26 @@ const categoryColors: Record<string, { gradient: string; text: string; shadow: s
   },
 };
 
-// Emoji mapping for categories
-const categoryEmojis: Record<string, string> = {
-  gummies: 'ð§¸',
-  chocolate: 'ð«',
-  sour: 'ð',
-  licorice: 'ð¤',
-  salmiak: 'ð',
-  classic: 'ð',
-};
+// Category icon component mapping
+function CategoryIcon({ slug, className }: { slug: string; className?: string }) {
+  const size = className || 'w-10 h-10';
+  switch (slug) {
+    case 'gummies':
+      return <Cherry className={size} />;
+    case 'chocolate':
+      return <Heart className={size} />;
+    case 'sour':
+      return <Zap className={size} />;
+    case 'licorice':
+      return <Circle className={size} />;
+    case 'salmiak':
+      return <Droplets className={size} />;
+    case 'classic':
+      return <Star className={size} />;
+    default:
+      return <Candy className={size} />;
+  }
+}
 
 // Product card background colors (rotating)
 const productBgColors = [
@@ -56,30 +91,6 @@ const productBgColors = [
   'bg-sc-purple-soft',
 ];
 
-// Candy emoji mapping for visual placeholders
-const candyEmojis: Record<string, string> = {
-  'ahlgrens-bilar': 'ð',
-  'bubs-sour-skulls': 'ð',
-  'marabou-mjolkchoklad': 'ð«',
-  'djungelvraal': 'ð¦',
-  'daim': 'ð¬',
-  'polly': 'ð¦',
-  'bubs-watermelon': 'ð',
-  'lakerol': 'ð',
-  'skipper-pipes': 'ð¤',
-  'plopp': 'ð¤',
-  'bubs-cool-cola': 'ð¥¤',
-  'kexchoklad': 'ð«',
-  'malaco-gott-och-blandat': 'ð¬',
-  'center': 'ðµ',
-  'fazer-blue': 'ð',
-  'bubs-raspberry-licorice': 'ð«',
-  'tutti-frutti': 'ð­',
-  'saltlakrits': 'â¬',
-  'marianne': 'ð´',
-  'swedish-fish': 'ð',
-};
-
 // Badge styles
 const badgeStyles: Record<string, string> = {
   bestseller: 'bg-sc-yellow text-sc-dark',
@@ -87,6 +98,28 @@ const badgeStyles: Record<string, string> = {
   new: 'bg-sc-green text-white',
   featured: 'bg-sc-orange text-white',
 };
+
+// Star rating component
+function StarRating({ rating }: { rating: number }) {
+  const full = Math.floor(rating);
+  const hasHalf = rating - full >= 0.3;
+  return (
+    <span className="inline-flex items-center gap-0.5">
+      {Array.from({ length: 5 }, (_, i) => (
+        <Star
+          key={i}
+          className={`w-3.5 h-3.5 ${
+            i < full
+              ? 'fill-sc-yellow text-sc-yellow'
+              : i === full && hasHalf
+              ? 'fill-sc-yellow/50 text-sc-yellow'
+              : 'text-gray-200'
+          }`}
+        />
+      ))}
+    </span>
+  );
+}
 
 export default function Home() {
   const featuredCandy = getFeaturedCandy().slice(0, 4);
@@ -125,6 +158,15 @@ export default function Home() {
     'bg-gradient-to-br from-[#4ADE80] to-[#22C55E]',
   ];
 
+  // Store icon mapping
+  const storeIcons: Record<string, React.ReactNode> = {
+    'swedish-sweets': <Globe className="w-8 h-8 text-sc-blue" />,
+    'bonbon-nyc': <Gift className="w-8 h-8 text-sc-pink" />,
+    sockerbit: <Candy className="w-8 h-8 text-sc-purple" />,
+    amazon: <Truck className="w-8 h-8 text-sc-orange" />,
+    'scandi-candy-shop': <Package className="w-8 h-8 text-sc-teal" />,
+  };
+
   return (
     <>
       {/* ========== HERO ========== */}
@@ -141,58 +183,64 @@ export default function Home() {
               of Sweden
             </h1>
             <p className="text-lg text-sc-text-muted leading-relaxed mb-7 max-w-[440px]">
-              From fizzy sour to smooth chocolate â find the best Swedish candy shops, honest reviews, and treats you can&apos;t get anywhere else.
+              From fizzy sour to smooth chocolate &mdash; find the best Swedish candy shops, honest reviews, and treats you can&apos;t get anywhere else.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               <Link
                 href="/candy"
                 className="inline-flex items-center gap-2 bg-sc-primary text-white font-semibold text-base px-7 py-3.5 rounded-sc-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
               >
-                ð¬ Browse Candy
+                <Candy className="w-5 h-5" /> Browse Candy
               </Link>
               <Link
                 href="/blog/what-is-swedish-candy"
                 className="inline-flex items-center gap-2 bg-white text-sc-text font-semibold text-base px-7 py-3.5 rounded-sc-full border-2 border-sc-border hover:border-sc-primary hover:text-sc-primary transition-all"
               >
-                ð Read Our Guide
+                <BookOpen className="w-5 h-5" /> Read Our Guide
               </Link>
             </div>
             <div className="flex gap-7 items-center">
               <div className="flex items-center gap-2 text-sm text-sc-text-muted">
-                <span className="text-lg">â­</span> 81 Reviews
+                <Star className="w-4 h-4 fill-sc-yellow text-sc-yellow" /> 81 Reviews
               </div>
               <div className="flex items-center gap-2 text-sm text-sc-text-muted">
-                <span className="text-lg">ðª</span> 6 Stores
+                <Store className="w-4 h-4 text-sc-teal" /> 6 Stores
               </div>
               <div className="flex items-center gap-2 text-sm text-sc-text-muted">
-                <span className="text-lg">ð¸ðª</span> 100% Swedish
+                <MapPin className="w-4 h-4 text-sc-blue" /> 100% Swedish
               </div>
             </div>
           </div>
 
-          {/* Hero Visual â Animated Blob with Candy Grid */}
+          {/* Hero Visual - Animated Blob with Candy Grid */}
           <div className="relative flex justify-center items-center h-[380px] md:h-[440px]">
             {/* Floating candy decorations */}
-            <span className="absolute top-[10%] right-[5%] text-[28px] opacity-60 animate-float-candy" style={{ animationDelay: '0s' }}>ð­</span>
-            <span className="absolute bottom-[15%] left-[5%] text-[28px] opacity-60 animate-float-candy" style={{ animationDelay: '2s' }}>â¨</span>
-            <span className="absolute top-[50%] right-[2%] text-[22px] opacity-60 animate-float-candy" style={{ animationDelay: '4s' }}>ð¸ðª</span>
+            <span className="absolute top-[10%] right-[5%] opacity-40 animate-float-candy" style={{ animationDelay: '0s' }}>
+              <Candy className="w-7 h-7 text-sc-pink" />
+            </span>
+            <span className="absolute bottom-[15%] left-[5%] opacity-40 animate-float-candy" style={{ animationDelay: '2s' }}>
+              <Sparkles className="w-7 h-7 text-sc-yellow" />
+            </span>
+            <span className="absolute top-[50%] right-[2%] opacity-40 animate-float-candy" style={{ animationDelay: '4s' }}>
+              <Heart className="w-6 h-6 text-sc-primary" />
+            </span>
 
             {/* Blob shape */}
             <div className="w-[340px] h-[320px] sm:w-[400px] sm:h-[360px] md:w-[440px] md:h-[400px] bg-gradient-to-br from-sc-yellow-soft via-sc-orange-soft to-sc-pink-soft animate-blob-float flex items-center justify-center relative">
               {/* Candy grid inside blob */}
               <div className="grid grid-cols-2 gap-3 p-6 z-10">
                 {[
-                  { emoji: 'ð¬', label: 'Gummies' },
-                  { emoji: 'ð«', label: 'Chocolate' },
-                  { emoji: 'ð­', label: 'Sour' },
-                  { emoji: 'ð¤', label: 'Licorice' },
+                  { icon: <Cherry className="w-9 h-9 md:w-10 md:h-10 text-[#FECC02]" />, label: 'Gummies' },
+                  { icon: <Heart className="w-9 h-9 md:w-10 md:h-10 text-[#8B5E3C]" />, label: 'Chocolate' },
+                  { icon: <Zap className="w-9 h-9 md:w-10 md:h-10 text-[#22C55E]" />, label: 'Sour' },
+                  { icon: <Circle className="w-9 h-9 md:w-10 md:h-10 text-[#1A1A2E]" />, label: 'Licorice' },
                 ].map((item, i) => (
                   <div
                     key={item.label}
                     className={`w-[100px] h-[100px] sm:w-[110px] sm:h-[110px] md:w-[120px] md:h-[120px] bg-white rounded-sc-md flex flex-col items-center justify-center shadow-md hover:scale-110 hover:-rotate-3 transition-transform cursor-pointer ${i === 1 ? '-translate-y-3' : ''} ${i === 2 ? 'translate-y-2' : ''}`}
                   >
-                    <span className="text-[36px] md:text-[40px]">{item.emoji}</span>
-                    <span className="text-[11px] font-semibold text-sc-text-muted mt-1">{item.label}</span>
+                    {item.icon}
+                    <span className="text-[11px] font-semibold text-sc-text-muted mt-1.5">{item.label}</span>
                   </div>
                 ))}
               </div>
@@ -206,13 +254,13 @@ export default function Home() {
         <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <span className="inline-flex items-center gap-1.5 bg-sc-yellow-soft text-sc-text font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-yellow mb-3">
-              ð¥ Trending Now
+              <Flame className="w-3.5 h-3.5 text-sc-orange" /> Trending Now
             </span>
             <h2 className="font-display text-3xl md:text-4xl font-bold text-sc-text mb-2">
               Most Popular Swedish Candy
             </h2>
             <p className="text-sc-text-muted max-w-[520px] mx-auto">
-              What Americans are loving right now â our top picks based on reviews and sales
+              What Americans are loving right now &mdash; our top picks based on reviews and sales
             </p>
           </div>
 
@@ -220,9 +268,9 @@ export default function Home() {
             {featuredCandy.map((candy, i) => {
               const bgColor = productBgColors[i % productBgColors.length];
               const badge = candy.trending
-                ? { label: 'ð¥ Trending', style: badgeStyles.trending }
+                ? { label: 'Trending', style: badgeStyles.trending, icon: <Flame className="w-3 h-3" /> }
                 : candy.featured
-                ? { label: 'â­ Bestseller', style: badgeStyles.bestseller }
+                ? { label: 'Bestseller', style: badgeStyles.bestseller, icon: <Star className="w-3 h-3" /> }
                 : null;
 
               return (
@@ -233,29 +281,27 @@ export default function Home() {
                 >
                   <div className={`h-[160px] md:h-[180px] ${bgColor} flex items-center justify-center relative overflow-hidden`}>
                     {badge && (
-                      <span className={`absolute top-3 left-3 z-10 text-[11px] font-bold px-2.5 py-1 rounded-sc-full ${badge.style}`}>
-                        {badge.label}
+                      <span className={`absolute top-3 left-3 z-10 text-[11px] font-bold px-2.5 py-1 rounded-sc-full inline-flex items-center gap-1 ${badge.style}`}>
+                        {badge.icon} {badge.label}
                       </span>
                     )}
-                    <span className="text-[56px] md:text-[64px] group-hover:scale-110 group-hover:-rotate-6 transition-transform">
-                      {candyEmojis[candy.slug] || 'ð¬'}
-                    </span>
+                    <Candy className="w-14 h-14 md:w-16 md:h-16 text-sc-text/20 group-hover:scale-110 group-hover:-rotate-6 transition-transform" />
                   </div>
                   <div className="p-4">
                     <h3 className="text-[15px] font-semibold text-sc-text mb-0.5 group-hover:text-sc-primary transition-colors">
                       {candy.name}
                     </h3>
                     <p className="text-xs text-sc-text-muted/70 mb-2">{candy.brand}</p>
-                    <div className="text-[13px] text-sc-yellow mb-2">
-                      {'â'.repeat(Math.round(candy.rating.overall))}{' '}
-                      <span className="text-sc-text-muted ml-1">{candy.rating.overall.toFixed(1)}</span>
+                    <div className="flex items-center gap-1.5 mb-2">
+                      <StarRating rating={candy.rating.overall} />
+                      <span className="text-[13px] text-sc-text-muted ml-0.5">{candy.rating.overall.toFixed(1)}</span>
                     </div>
                     <div className="flex items-center justify-between">
                       <span className="font-bold text-sc-primary">
-                        {candy.priceRange.split('â')[0].trim()}
+                        {candy.priceRange.split('\u2013')[0].trim()}
                       </span>
-                      <span className="w-8 h-8 rounded-full border-2 border-sc-primary text-sc-primary flex items-center justify-center text-lg hover:bg-sc-primary hover:text-white transition-colors">
-                        +
+                      <span className="w-8 h-8 rounded-full border-2 border-sc-primary text-sc-primary flex items-center justify-center hover:bg-sc-primary hover:text-white transition-colors">
+                        <ArrowRight className="w-4 h-4" />
                       </span>
                     </div>
                   </div>
@@ -266,12 +312,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========== MUMS SHOP â FEATURED STORE ========== */}
+      {/* ========== MUMS SHOP - FEATURED STORE ========== */}
       <section className="py-16 md:py-20 bg-gradient-to-b from-sc-teal-soft to-sc-bg relative overflow-hidden">
         <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <span className="inline-flex items-center gap-1.5 bg-sc-teal-soft text-[#00897B] font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-teal/30 mb-3">
-              ð Editor&apos;s Pick
+              <Trophy className="w-3.5 h-3.5" /> Editor&apos;s Pick
             </span>
             <h2 className="font-display text-3xl md:text-4xl font-bold text-sc-text mb-2">
               Shop Swedish Candy
@@ -285,13 +331,13 @@ export default function Home() {
           {mumsStore && (
             <div className="bg-white rounded-sc-lg border-2 border-[#B0EDE4] shadow-[0_12px_48px_rgba(0,201,183,0.1)] overflow-hidden">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-                {/* Left â Info */}
+                {/* Left - Info */}
                 <div className="p-8 md:p-10 flex flex-col justify-center">
                   <span className="inline-flex items-center gap-1.5 bg-sc-teal-soft text-[#00897B] font-bold text-[11px] px-3.5 py-1.5 rounded-sc-full uppercase tracking-wide self-start mb-4">
-                    â­ #1 Recommended Store
+                    <Star className="w-3 h-3 fill-current" /> #1 Recommended Store
                   </span>
                   <h3 className="font-display text-2xl md:text-[28px] font-bold text-sc-text mb-3">
-                    Mums â Premium Swedish Candy
+                    Mums &mdash; Premium Swedish Candy
                   </h3>
                   <p className="text-[15px] text-sc-text-muted leading-relaxed mb-5">
                     {mumsStore.description} Our top recommendation for a reason.
@@ -299,9 +345,13 @@ export default function Home() {
                   <div className="flex flex-wrap gap-4 mb-6">
                     {mumsStore.features.slice(0, 3).map((feature) => (
                       <span key={feature} className="flex items-center gap-1.5 text-[13px] font-medium text-sc-text-muted">
-                        <span className="text-base">
-                          {feature.includes('shipping') ? 'ð' : feature.includes('box') || feature.includes('Curated') ? 'ð¦' : 'â­'}
-                        </span>
+                        {feature.includes('shipping') ? (
+                          <Truck className="w-4 h-4 text-sc-teal" />
+                        ) : feature.includes('box') || feature.includes('Curated') ? (
+                          <Package className="w-4 h-4 text-sc-teal" />
+                        ) : (
+                          <Star className="w-4 h-4 text-sc-teal" />
+                        )}
                         {feature}
                       </span>
                     ))}
@@ -312,25 +362,25 @@ export default function Home() {
                     rel="sponsored noopener"
                     className="inline-flex items-center gap-2 bg-sc-teal text-white font-semibold text-[15px] px-7 py-3.5 rounded-sc-full hover:shadow-lg hover:-translate-y-0.5 transition-all self-start"
                   >
-                    Shop Mums â
+                    Shop Mums <ArrowRight className="w-4 h-4" />
                   </a>
                 </div>
 
-                {/* Right â Product Grid */}
+                {/* Right - Product Grid */}
                 <div className="bg-gradient-to-br from-sc-teal-soft to-[#F0FDF9] p-6 md:p-8 grid grid-cols-3 gap-3 content-center">
                   {[
-                    { emoji: 'ð', name: 'Sour Crocs', price: '$8.99' },
-                    { emoji: 'ð', name: 'Berry Mix', price: '$9.99' },
-                    { emoji: 'ð«', name: 'Daim Bites', price: '$7.49' },
-                    { emoji: 'ð¤', name: 'Salmiak', price: '$6.99' },
-                    { emoji: 'ð¬', name: 'Pick & Mix', price: '$12.99' },
-                    { emoji: 'ð', name: 'Sour Skulls', price: '$8.49' },
+                    { name: 'Sour Crocs', price: '$8.99' },
+                    { name: 'Berry Mix', price: '$9.99' },
+                    { name: 'Daim Bites', price: '$7.49' },
+                    { name: 'Salmiak', price: '$6.99' },
+                    { name: 'Pick & Mix', price: '$12.99' },
+                    { name: 'Sour Skulls', price: '$8.49' },
                   ].map((product) => (
                     <div
                       key={product.name}
                       className="bg-white rounded-sc-sm p-4 text-center shadow-sm hover:-translate-y-1 hover:rotate-[-2deg] hover:shadow-md transition-all cursor-pointer"
                     >
-                      <span className="text-3xl block mb-2">{product.emoji}</span>
+                      <Candy className="w-7 h-7 text-sc-teal mx-auto mb-2" />
                       <span className="text-[11px] font-bold text-sc-text block">{product.name}</span>
                       <span className="text-[13px] font-bold text-sc-teal mt-1 block">{product.price}</span>
                     </div>
@@ -347,28 +397,27 @@ export default function Home() {
         <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <span className="inline-flex items-center gap-1.5 bg-sc-yellow-soft text-sc-text font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-yellow mb-3">
-              ð¨ Browse by Type
+              <Palette className="w-3.5 h-3.5 text-sc-orange" /> Browse by Type
             </span>
             <h2 className="font-display text-3xl md:text-4xl font-bold text-sc-text mb-2">
               Find Your Favorite
             </h2>
             <p className="text-sc-text-muted max-w-[520px] mx-auto">
-              Whether you like it sweet, sour, or salty â we&apos;ve got you covered
+              Whether you like it sweet, sour, or salty &mdash; we&apos;ve got you covered
             </p>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4">
             {categories.map((category) => {
               const colors = categoryColors[category.slug] || categoryColors.classic;
-              const emoji = categoryEmojis[category.slug] || 'ð¬';
               return (
                 <Link
                   key={category.slug}
                   href={`/categories/${category.slug}`}
                   className={`group bg-gradient-to-br ${colors.gradient} ${colors.text} ${colors.shadow} rounded-sc-md p-5 md:p-6 flex flex-col items-center justify-center text-center min-h-[140px] md:min-h-[150px] hover:-translate-y-1.5 hover:scale-[1.02] transition-all`}
                 >
-                  <span className="text-[40px] md:text-[44px] mb-2 group-hover:scale-[1.2] group-hover:-rotate-[10deg] transition-transform drop-shadow-sm">
-                    {emoji}
+                  <span className="mb-2 group-hover:scale-[1.2] group-hover:-rotate-[10deg] transition-transform drop-shadow-sm">
+                    <CategoryIcon slug={category.slug} className="w-10 h-10 md:w-11 md:h-11" />
                   </span>
                   <h3 className="text-sm md:text-[15px] font-bold">{category.name}</h3>
                   <span className="text-[11px] font-semibold opacity-70 mt-0.5">
@@ -387,7 +436,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-10 gap-4">
             <div>
               <span className="inline-flex items-center gap-1.5 bg-sc-yellow-soft text-sc-text font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-yellow mb-3">
-                ðª Compare Stores
+                <ShoppingBag className="w-3.5 h-3.5 text-sc-orange" /> Compare Stores
               </span>
               <h2 className="font-display text-3xl md:text-4xl font-bold text-sc-text">
                 More Places to Shop
@@ -397,7 +446,7 @@ export default function Home() {
               href="/where-to-buy"
               className="text-sc-primary font-bold text-sm hover:gap-2 flex items-center gap-1 transition-all"
             >
-              Full comparison â
+              Full comparison <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
 
@@ -405,20 +454,15 @@ export default function Home() {
             {otherStores.map((store, i) => {
               const tagColor = storeTagColors[i % storeTagColors.length];
               const tagLabel = storeTagLabels[store.slug] || 'Shop Now';
-              const storeEmojis: Record<string, string> = {
-                'swedish-sweets': 'ð¸ðª',
-                'bonbon-nyc': 'ð',
-                sockerbit: 'ð­',
-                amazon: 'ð',
-                'scandi-candy-shop': 'ð',
-              };
               return (
                 <Link
                   key={store.slug}
                   href="/where-to-buy"
                   className="bg-sc-bg rounded-sc-md p-5 text-center border border-sc-border hover:border-sc-blue hover:shadow-[0_8px_24px_rgba(45,127,249,0.1)] hover:-translate-y-1 transition-all"
                 >
-                  <span className="text-[32px] block mb-2.5">{storeEmojis[store.slug] || 'ðª'}</span>
+                  <span className="block mb-2.5 mx-auto w-fit">
+                    {storeIcons[store.slug] || <Store className="w-8 h-8 text-sc-text-muted" />}
+                  </span>
                   <h3 className="text-sm font-bold text-sc-text mb-1">{store.name}</h3>
                   <p className="text-xs text-sc-text-muted/70 mb-2 line-clamp-2">{store.description.split('.')[0]}.</p>
                   <span className={`inline-block text-[10px] font-bold px-2.5 py-1 rounded-sc-full uppercase tracking-wide ${tagColor}`}>
@@ -437,7 +481,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-10 gap-4">
             <div>
               <span className="inline-flex items-center gap-1.5 bg-sc-yellow-soft text-sc-text font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-yellow mb-3">
-                ð Latest Articles
+                <BookOpen className="w-3.5 h-3.5 text-sc-orange" /> Latest Articles
               </span>
               <h2 className="font-display text-3xl md:text-4xl font-bold text-sc-text">
                 From the Blog
@@ -447,7 +491,7 @@ export default function Home() {
               href="/blog"
               className="text-sc-primary font-bold text-sm hover:gap-2 flex items-center gap-1 transition-all"
             >
-              All articles â
+              All articles <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
 
@@ -466,14 +510,25 @@ export default function Home() {
               };
               const silo = siloLabels[article.silo] || { label: 'Article', color: 'bg-sc-blue text-white' };
 
+              const blogIcons: Record<string, React.ReactNode> = {
+                'beginner-guides': <BookOpen className="w-12 h-12 text-white/80" />,
+                'brand-deep-dives': <Sparkles className="w-12 h-12 text-white/80" />,
+                'best-of': <Trophy className="w-12 h-12 text-white/80" />,
+                'vs-comparisons': <Zap className="w-12 h-12 text-white/80" />,
+                'where-to-buy': <ShoppingBag className="w-12 h-12 text-white/80" />,
+                'health-ingredients': <FlaskConical className="w-12 h-12 text-white/80" />,
+                'culture-lifestyle': <Globe className="w-12 h-12 text-white/80" />,
+                'category-deep-dives': <Star className="w-12 h-12 text-white/80" />,
+              };
+
               return (
                 <Link
                   key={article.slug}
                   href={`/blog/${article.slug}`}
                   className="group bg-white rounded-sc-md overflow-hidden border border-sc-border hover:-translate-y-1 hover:shadow-xl transition-all"
                 >
-                  <div className={`h-[160px] md:h-[170px] ${gradient} flex items-center justify-center text-5xl`}>
-                    {article.silo === 'beginner-guides' ? 'ð' : article.silo === 'brand-deep-dives' ? 'ð' : 'ð¬'}
+                  <div className={`h-[160px] md:h-[170px] ${gradient} flex items-center justify-center`}>
+                    {blogIcons[article.silo] || <Candy className="w-12 h-12 text-white/80" />}
                   </div>
                   <div className="p-5">
                     <span className={`inline-block text-[10px] font-bold px-2.5 py-1 rounded-sc-full uppercase tracking-wide mb-2.5 ${silo.color}`}>
@@ -505,7 +560,7 @@ export default function Home() {
         <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-8">
           <div className="text-center mb-10">
             <span className="inline-flex items-center gap-1.5 bg-white/10 text-white font-semibold text-[13px] px-4 py-1.5 rounded-sc-full mb-3">
-              ð¸ðª Why Swedish?
+              <MapPin className="w-3.5 h-3.5" /> Why Swedish?
             </span>
             <h2 className="font-display text-3xl md:text-4xl font-bold text-white mb-2">
               What Makes It Different
@@ -518,26 +573,26 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {[
               {
-                icon: 'ð§ª',
+                icon: <FlaskConical className="w-10 h-10 text-[#4ADE80]" />,
                 title: 'No Artificial Colors',
                 desc: 'Swedish candy uses natural colorings and avoids the artificial ingredients common in American candy.',
               },
               {
-                icon: 'ð',
+                icon: <Sparkles className="w-10 h-10 text-[#FFE347]" />,
                 title: 'Unique Flavors',
-                desc: "From salty licorice (salmiak) to oat-based gummies â flavors you literally can't find anywhere else.",
+                desc: "From salty licorice (salmiak) to oat-based gummies \u2014 flavors you literally can't find anywhere else.",
               },
               {
-                icon: 'ð¸ðª',
-                title: 'LÃ¶rdagsgodis Culture',
-                desc: "Swedes treat candy as a Saturday ritual â pick & mix, quality over quantity. It's a whole vibe.",
+                icon: <Heart className="w-10 h-10 text-[#FF80B5]" />,
+                title: 'L\u00F6rdagsgodis Culture',
+                desc: "Swedes treat candy as a Saturday ritual \u2014 pick & mix, quality over quantity. It's a whole vibe.",
               },
             ].map((card) => (
               <div
                 key={card.title}
                 className="bg-white/[0.06] rounded-sc-md p-8 text-center border border-white/[0.08] hover:bg-white/[0.1] hover:-translate-y-1 transition-all"
               >
-                <span className="text-[40px] block mb-4">{card.icon}</span>
+                <span className="block mb-4 mx-auto w-fit">{card.icon}</span>
                 <h3 className="font-display text-lg font-bold mb-2">{card.title}</h3>
                 <p className="text-sm text-white/70 leading-relaxed">{card.desc}</p>
               </div>
@@ -550,12 +605,18 @@ export default function Home() {
       <section className="py-16 md:py-20">
         <div className="max-w-[680px] mx-auto px-4 sm:px-6">
           <div className="bg-gradient-to-br from-sc-yellow-soft via-sc-orange-soft to-sc-pink-soft rounded-sc-lg p-10 md:p-12 text-center relative overflow-hidden">
-            {/* Decorative candy */}
-            <span className="absolute top-4 left-6 text-3xl opacity-25 animate-float-candy">ð­</span>
-            <span className="absolute bottom-4 right-6 text-3xl opacity-25 animate-float-candy" style={{ animationDirection: 'reverse' }}>ð¬</span>
+            {/* Decorative elements */}
+            <span className="absolute top-4 left-6 opacity-20 animate-float-candy">
+              <Candy className="w-8 h-8 text-sc-primary" />
+            </span>
+            <span className="absolute bottom-4 right-6 opacity-20 animate-float-candy" style={{ animationDirection: 'reverse' }}>
+              <Sparkles className="w-8 h-8 text-sc-orange" />
+            </span>
 
             <h2 className="font-display text-2xl md:text-[28px] font-bold text-sc-text mb-2 relative z-10">
-              Get the Candy Drop ð¬
+              <span className="inline-flex items-center gap-2">
+                Get the Candy Drop <Mail className="w-6 h-6 text-sc-primary" />
+              </span>
             </h2>
             <p className="text-[15px] text-sc-text-muted mb-6 relative z-10">
               Weekly picks, new product alerts, and exclusive discount codes.
