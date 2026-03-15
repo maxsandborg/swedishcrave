@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { getFeaturedCandy } from '@/lib/utils';
 import { categories } from '@/data/categories';
 import { stores } from '@/data/stores';
@@ -212,7 +213,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Hero Visual - Animated Blob with Candy Grid */}
+          {/* Hero Visual - Candy Product Grid */}
           <div className="relative flex justify-center items-center h-[380px] md:h-[440px]">
             {/* Floating candy decorations */}
             <span className="absolute top-[10%] right-[5%] opacity-40 animate-float-candy" style={{ animationDelay: '0s' }}>
@@ -225,22 +226,27 @@ export default function Home() {
               <Heart className="w-6 h-6 text-sc-primary" />
             </span>
 
-            {/* Blob shape */}
+            {/* Blob shape with real candy images */}
             <div className="w-[340px] h-[320px] sm:w-[400px] sm:h-[360px] md:w-[440px] md:h-[400px] bg-gradient-to-br from-sc-yellow-soft via-sc-orange-soft to-sc-pink-soft animate-blob-float flex items-center justify-center relative">
-              {/* Candy grid inside blob */}
               <div className="grid grid-cols-2 gap-3 p-6 z-10">
                 {[
-                  { icon: <Cherry className="w-9 h-9 md:w-10 md:h-10 text-[#FECC02]" />, label: 'Gummies' },
-                  { icon: <Heart className="w-9 h-9 md:w-10 md:h-10 text-[#8B5E3C]" />, label: 'Chocolate' },
-                  { icon: <Zap className="w-9 h-9 md:w-10 md:h-10 text-[#22C55E]" />, label: 'Sour' },
-                  { icon: <Circle className="w-9 h-9 md:w-10 md:h-10 text-[#1A1A2E]" />, label: 'Licorice' },
+                  { img: '/images/candy/ahlgrens-bilar.jpg', label: 'Gummies', bg: 'bg-sc-yellow-soft' },
+                  { img: '/images/candy/marabou-mjolkchoklad.jpg', label: 'Chocolate', bg: 'bg-sc-pink-soft' },
+                  { img: '/images/candy/bubs-sour-skulls.jpg', label: 'Sour', bg: 'bg-sc-green-soft' },
+                  { img: '/images/candy/djungelvraal.jpg', label: 'Licorice', bg: 'bg-sc-purple-soft' },
                 ].map((item, i) => (
                   <div
                     key={item.label}
-                    className={`w-[100px] h-[100px] sm:w-[110px] sm:h-[110px] md:w-[120px] md:h-[120px] bg-white rounded-sc-md flex flex-col items-center justify-center shadow-md hover:scale-110 hover:-rotate-3 transition-transform cursor-pointer ${i === 1 ? '-translate-y-3' : ''} ${i === 2 ? 'translate-y-2' : ''}`}
+                    className={`w-[100px] h-[100px] sm:w-[110px] sm:h-[110px] md:w-[120px] md:h-[120px] ${item.bg} rounded-sc-md flex flex-col items-center justify-center shadow-md hover:scale-110 hover:-rotate-3 transition-transform cursor-pointer overflow-hidden ${i === 1 ? '-translate-y-3' : ''} ${i === 2 ? 'translate-y-2' : ''}`}
                   >
-                    {item.icon}
-                    <span className="text-[11px] font-semibold text-sc-text-muted mt-1.5">{item.label}</span>
+                    <Image
+                      src={item.img}
+                      alt={item.label}
+                      width={80}
+                      height={80}
+                      className="object-contain w-[60px] h-[60px] sm:w-[68px] sm:h-[68px] md:w-[76px] md:h-[76px] drop-shadow-sm"
+                    />
+                    <span className="text-[11px] font-semibold text-sc-text-muted mt-1">{item.label}</span>
                   </div>
                 ))}
               </div>
@@ -285,7 +291,13 @@ export default function Home() {
                         {badge.icon} {badge.label}
                       </span>
                     )}
-                    <Candy className="w-14 h-14 md:w-16 md:h-16 text-sc-text/20 group-hover:scale-110 group-hover:-rotate-6 transition-transform" />
+                    <Image
+                      src={candy.image}
+                      alt={candy.name}
+                      width={160}
+                      height={160}
+                      className="object-contain w-[120px] h-[120px] md:w-[140px] md:h-[140px] group-hover:scale-110 group-hover:-rotate-3 transition-transform drop-shadow-md"
+                    />
                   </div>
                   <div className="p-4">
                     <h3 className="text-[15px] font-semibold text-sc-text mb-0.5 group-hover:text-sc-primary transition-colors">
@@ -336,8 +348,15 @@ export default function Home() {
                   <span className="inline-flex items-center gap-1.5 bg-sc-teal-soft text-[#00897B] font-bold text-[11px] px-3.5 py-1.5 rounded-sc-full uppercase tracking-wide self-start mb-4">
                     <Star className="w-3 h-3 fill-current" /> #1 Recommended Store
                   </span>
+                  <Image
+                    src="/images/stores/mums-logo.png"
+                    alt="Mums - The Swedish Candy Co."
+                    width={160}
+                    height={50}
+                    className="mb-3 h-auto"
+                  />
                   <h3 className="font-display text-2xl md:text-[28px] font-bold text-sc-text mb-3">
-                    Mums &mdash; Premium Swedish Candy
+                    Premium Swedish Candy
                   </h3>
                   <p className="text-[15px] text-sc-text-muted leading-relaxed mb-5">
                     {mumsStore.description} Our top recommendation for a reason.
@@ -367,24 +386,41 @@ export default function Home() {
                 </div>
 
                 {/* Right - Product Grid */}
-                <div className="bg-gradient-to-br from-sc-teal-soft to-[#F0FDF9] p-6 md:p-8 grid grid-cols-3 gap-3 content-center">
-                  {[
-                    { name: 'Sour Crocs', price: '$8.99' },
-                    { name: 'Berry Mix', price: '$9.99' },
-                    { name: 'Daim Bites', price: '$7.49' },
-                    { name: 'Salmiak', price: '$6.99' },
-                    { name: 'Pick & Mix', price: '$12.99' },
-                    { name: 'Sour Skulls', price: '$8.49' },
-                  ].map((product) => (
-                    <div
-                      key={product.name}
-                      className="bg-white rounded-sc-sm p-4 text-center shadow-sm hover:-translate-y-1 hover:rotate-[-2deg] hover:shadow-md transition-all cursor-pointer"
-                    >
-                      <Candy className="w-7 h-7 text-sc-teal mx-auto mb-2" />
-                      <span className="text-[11px] font-bold text-sc-text block">{product.name}</span>
-                      <span className="text-[13px] font-bold text-sc-teal mt-1 block">{product.price}</span>
-                    </div>
-                  ))}
+                <div className="bg-gradient-to-br from-sc-teal-soft to-[#F0FDF9] p-6 md:p-8 flex flex-col gap-4 justify-center">
+                  {/* Mums hero product image */}
+                  <div className="relative w-full aspect-[16/9] rounded-sc-sm overflow-hidden">
+                    <Image
+                      src="/images/stores/mums-products/party-mix.jpg"
+                      alt="Mums Swedish Candy Party Mix"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="grid grid-cols-3 gap-3">
+                    {[
+                      { name: 'Sour Mix', price: '$8.99', img: '/images/stores/mums-products/sour-mix.jpg' },
+                      { name: 'Sweet Mix', price: '$9.99', img: '/images/stores/mums-products/sweet-mix.jpg' },
+                      { name: 'Sweet & Sour', price: '$9.99', img: '/images/stores/mums-products/sweet-and-sour-mix.jpg' },
+                    ].map((product) => (
+                      <div
+                        key={product.name}
+                        className="bg-white rounded-sc-sm overflow-hidden shadow-sm hover:-translate-y-1 hover:shadow-md transition-all cursor-pointer"
+                      >
+                        <div className="relative w-full aspect-square">
+                          <Image
+                            src={product.img}
+                            alt={product.name}
+                            fill
+                            className="object-cover"
+                          />
+                        </div>
+                        <div className="p-2 text-center">
+                          <span className="text-[11px] font-bold text-sc-text block">{product.name}</span>
+                          <span className="text-[13px] font-bold text-sc-teal block">{product.price}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
