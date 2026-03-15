@@ -140,19 +140,27 @@ export default function WhereToBuyPage() {
                 </ul>
               </div>
 
-              {/* CTA Button */}
-              <a
-                href={store.affiliateUrl && store.affiliateUrl !== '#' ? store.affiliateUrl : store.url}
-                target="_blank"
-                rel={`noopener noreferrer${store.affiliateUrl && store.affiliateUrl !== '#' ? ' sponsored' : ''}`}
-                className={`block w-full text-white text-center font-semibold py-3 rounded-sc-full transition-all hover:-translate-y-0.5 ${
-                  store.featured
-                    ? 'bg-sc-pink hover:bg-sc-pink-hover shadow-[0_4px_16px_rgba(255,45,135,0.4)]'
-                    : 'bg-sc-pink hover:bg-sc-pink-hover shadow-[0_4px_16px_rgba(255,45,135,0.3)]'
-                }`}
-              >
-                Visit {store.name} →
-              </a>
+              {/* CTA Buttons */}
+              <div className="flex flex-col gap-2">
+                <a
+                  href={store.affiliateUrl && store.affiliateUrl !== '#' ? store.affiliateUrl : store.url}
+                  target="_blank"
+                  rel={`noopener noreferrer${store.affiliateUrl && store.affiliateUrl !== '#' ? ' sponsored' : ''}`}
+                  className={`block w-full text-white text-center font-semibold py-3 rounded-sc-full transition-all hover:-translate-y-0.5 ${
+                    store.featured
+                      ? 'bg-sc-pink hover:bg-sc-pink-hover shadow-[0_4px_16px_rgba(255,45,135,0.4)]'
+                      : 'bg-sc-pink hover:bg-sc-pink-hover shadow-[0_4px_16px_rgba(255,45,135,0.3)]'
+                  }`}
+                >
+                  Visit {store.name} →
+                </a>
+                <Link
+                  href={`/stores/${store.slug}`}
+                  className="block w-full text-center text-sm font-semibold text-sc-pink hover:text-sc-pink-hover transition-colors py-2"
+                >
+                  Read full review →
+                </Link>
+              </div>
             </div>
           ))}
         </div>

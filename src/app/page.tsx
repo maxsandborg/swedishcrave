@@ -293,11 +293,9 @@ export default function Home() {
           {/* Other Stores — Grid */}
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
             {stores.filter(s => !s.featured).map((store) => (
-              <a
+              <Link
                 key={store.slug}
-                href={store.affiliateUrl && store.affiliateUrl !== '#' ? store.affiliateUrl : store.url}
-                target="_blank"
-                rel={`noopener noreferrer${store.affiliateUrl && store.affiliateUrl !== '#' ? ' sponsored' : ''}`}
+                href={`/stores/${store.slug}`}
                 className="group bg-sc-card border border-sc-border rounded-sc-lg p-4 text-center hover:border-sc-pink/40 hover:shadow-sc-hover hover:-translate-y-0.5 transition-all"
               >
                 <h4 className="font-display font-bold text-sm text-sc-text group-hover:text-sc-pink transition-colors mb-1">
@@ -309,7 +307,7 @@ export default function Home() {
                   <span className="font-semibold text-sc-text ml-1 text-[11px]">{store.rating.toFixed(1)}</span>
                 </div>
                 <span className="text-[11px] text-sc-text-muted">{store.shipsTo.join(', ')}</span>
-              </a>
+              </Link>
             ))}
           </div>
 

@@ -3,6 +3,7 @@ import { candyItems } from '@/data/candy';
 import { brands } from '@/data/brands';
 import { categories } from '@/data/categories';
 import { articles } from '@/data/articles';
+import { stores } from '@/data/stores';
 
 const baseUrl = 'https://www.swedishcrave.com';
 
@@ -68,5 +69,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  return [...staticPages, ...candyPages, ...brandPages, ...categoryPages, ...articlePages];
+  const storePages = stores.map((store) => ({
+    url: `${baseUrl}/stores/${store.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: store.featured ? 0.8 : 0.7,
+  }));
+
+  return [...staticPages, ...candyPages, ...brandPages, ...categoryPages, ...articlePages, ...storePages];
 }

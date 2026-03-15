@@ -35,6 +35,10 @@ export function getStoreBySlug(slug: string) {
   return stores.find((s) => s.slug === slug)
 }
 
+export function getAllStoreSlugs() {
+  return stores.map((s) => s.slug)
+}
+
 export function getAllCandySlugs() {
   return candyItems.map((c) => c.slug)
 }
