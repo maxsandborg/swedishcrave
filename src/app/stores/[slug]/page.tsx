@@ -126,7 +126,18 @@ export default function StorePage({ params }: { params: { slug: string } }) {
 
       {/* Hero Section */}
       <section className={`relative bg-gradient-to-br ${gradient} py-16 md:py-20 overflow-hidden`}>
+        {/* Mums: background product image for a lively hero */}
+        {isMums && (
+          <Image
+            src="/images/stores/mums-products/party-mix.jpg"
+            alt=""
+            fill
+            className="object-cover opacity-20"
+            priority
+          />
+        )}
         <div className="absolute inset-0 bg-black/15" />
+        {isMums && <div className="absolute inset-0 bg-gradient-to-r from-[#00C9B7]/90 via-[#00C9B7]/70 to-transparent" />}
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
             {/* Logo */}
