@@ -10770,6 +10770,969 @@ export const articles: Article[] = [
     priority: 'P1',
     status: 'published',
   },
+  {
+    id: 86,
+    slug: 'goodis-review',
+    title: 'Goodis Review 2026: Is goodis.us the Best Swedish Candy Store Online?',
+    silo: 'where-to-buy',
+    seoTitle: 'Goodis Review 2026: Swedish Candy Store Tested | SwedishCrave',
+    metaDescription: 'Honest Goodis review: we tested goodis.us for selection, pricing, shipping, and customer experience. 313 products, $99 free shipping, NJ warehouse. Full breakdown.',
+    h1: 'Goodis Review 2026: Is goodis.us the Best Swedish Candy Store Online?',
+    intro: 'Goodis (goodis.us) launched in late 2024 and quickly positioned itself as one of the largest Swedish candy e-commerce stores in the US, with 313 products shipping from a warehouse in Carlstadt, New Jersey. But does a big catalog automatically mean a great shopping experience? We dug into their founding story, tested their product range, verified their claims, and compared them head-to-head with established competitors like Sockerbit, Mums, and BonBon NYC.',
+    content: `<div style="background: linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%); border-left: 4px solid #EA580C; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #9A3412;">Quick Verdict</h3>
+  <p style="margin-bottom: 8px;"><strong>Best for:</strong> Shoppers who want the widest online selection of Swedish candy with strong dietary filters (139 gluten-free, 46 vegan options). The biggest catalog we\u2019ve reviewed.</p>
+  <p style="margin-bottom: 8px;"><strong>Watch out for:</strong> $99 free shipping threshold is the highest in the market. Press logos on the homepage (Forbes, TIME, NYT) could not be independently verified. Zero Trustpilot reviews despite claiming 60,000+ customers.</p>
+  <p style="margin-bottom: 0;"><strong>Rating: 3.8/5</strong> \u2014 Strong selection, but the company is young, and some marketing claims need more transparency.</p>
+</div>
+
+<h2>Who\u2019s Behind Goodis?</h2>
+
+<p>Goodis was co-founded in 2024 by three partners: Timothy Alguc, a Bergen County entrepreneur who spent childhood summers in Sweden with relatives; Nemrud Kurt, a journalist and copywriter with e-commerce experience; and Isa Afram, a sales professional. All three have Swedish roots, and the idea started when they noticed the Swedish candy craze gaining momentum on social media\u2014particularly after a viral TikTok video from <a href="/stores/bonbon-nyc">BonBon NYC</a> drove thousands of Americans into Scandinavian candy for the first time.</p>
+
+<p>According to a January 2025 profile in NJBIZ (New Jersey\u2019s business journal), Goodis secured a 100,000-square-foot warehouse in Carlstadt, NJ\u2014an unusually large footprint for an e-commerce candy startup. That\u2019s roughly the size of two football fields, suggesting they\u2019re either anticipating massive growth or sharing the space with other operations. For context, a typical small candy warehouse runs 5,000\u201315,000 square feet.</p>
+
+<p>The timing was strategic. By fall 2024, Bloomberg was reporting long lines at BonBon\u2019s Brooklyn locations and surging demand for Swedish candy across the US. Goodis launched into a market with clear demand but limited online supply. Their bet: e-commerce-only, no physical stores, ship fast from New Jersey.</p>
+
+<h2>Product Selection: 313 Products and Growing</h2>
+
+<p>This is where Goodis genuinely shines. At 313 products (as of our March 2026 review), their catalog is one of the deepest in the US market. For comparison:</p>
+
+<ul>
+  <li><a href="/stores/sockerbit">Sockerbit</a>: ~149 candies</li>
+  <li><a href="/stores/mums-swedish-candy">Mums</a>: ~20 products (BUBS only)</li>
+  <li><a href="/stores/bonbon-nyc">BonBon NYC</a>: 140\u2013160 in-store varieties</li>
+  <li><a href="https://swedishcandystore.com" target="_blank" rel="noopener">Swedish Candy Store</a>: ~100 products</li>
+</ul>
+
+<p>Goodis carries the full spectrum of Swedish candy: <a href="/brands/bubs">BUBS</a> gummies and sour candies, <a href="/brands/malaco">Malaco</a> licorice, <a href="/brands/marabou">Marabou</a> chocolate, <a href="/brands/fazer">Fazer</a> products, and a range of pick-and-mix options. The selection isn\u2019t just wide\u2014it\u2019s organized with genuine thought. Categories include Assorted Bags, Pick-and-Mix, Swedish Classics, and a Snack Corner.</p>
+
+<h3>Dietary Filters: A Real Differentiator</h3>
+
+<p>Where Goodis separates from most competitors is dietary accommodation. Their filtering system offers:</p>
+
+<ul>
+  <li><strong>Gluten-Free:</strong> 139 products \u2014 this is substantial, not a token gesture</li>
+  <li><strong>Vegan:</strong> 46 products</li>
+  <li><strong>Gelatin-Free:</strong> 14 products</li>
+</ul>
+
+<p>For anyone with dietary restrictions who\u2019s been frustrated by the lack of filtering on other Swedish candy sites, this is a meaningful advantage. Most competitors either don\u2019t offer dietary filters at all or have a handful of labeled options.</p>
+
+<h2>Pricing: Mid-Range with High Shipping Threshold</h2>
+
+<p>Goodis prices range from $0.50 for individual candy pieces to $26.99 for premium gift sets. Most items fall in the $2\u2013$8 range, which is competitive with the broader market. Some specific prices we verified:</p>
+
+<ul>
+  <li>BUBS Dizzy Skulls: $7.49</li>
+  <li>Fizzy Strawberries: $2.49</li>
+  <li>Jelly Raspberry: $1.00</li>
+  <li>Premium assorted bags: $19.99\u2013$26.99</li>
+</ul>
+
+<p>The pricing is fair for imported Swedish candy. It\u2019s not the cheapest (that would be <a href="https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs">Swedish Sweets at $50 free shipping</a>), but the per-item prices are reasonable given the selection depth.</p>
+
+<h3>The $99 Free Shipping Problem</h3>
+
+<p>Here\u2019s where Goodis loses points: their free shipping threshold is $99. That\u2019s the highest of any major Swedish candy retailer online:</p>
+
+<div style="overflow-x: auto; margin: 20px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+  <thead>
+    <tr style="background: #F3F4F6;">
+      <th style="padding: 10px; text-align: left; border-bottom: 2px solid #D1D5DB;">Store</th>
+      <th style="padding: 10px; text-align: center; border-bottom: 2px solid #D1D5DB;">Free Shipping At</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 8px; border-bottom: 1px solid #E5E7EB;">Swedish Sweets</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB; color: #16A34A; font-weight: 600;">$50</td></tr>
+    <tr><td style="padding: 8px; border-bottom: 1px solid #E5E7EB;">ScandyCandy</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB; color: #16A34A; font-weight: 600;">$50</td></tr>
+    <tr><td style="padding: 8px; border-bottom: 1px solid #E5E7EB;">SwedishCandyNow</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB; color: #16A34A; font-weight: 600;">$50</td></tr>
+    <tr><td style="padding: 8px; border-bottom: 1px solid #E5E7EB;">Mums</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">$69</td></tr>
+    <tr><td style="padding: 8px; border-bottom: 1px solid #E5E7EB;">Sockerbit</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">$70</td></tr>
+    <tr style="background: #FEF2F2;"><td style="padding: 8px; border-bottom: 1px solid #E5E7EB; font-weight: 600;">Goodis</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB; color: #DC2626; font-weight: 600;">$99</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>For a first-time buyer who just wants to try some Swedish candy, $99 is a significant commitment. You\u2019re essentially forced into a large order or pay shipping. <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ">Mums at $69</a> or <a href="https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs">Swedish Sweets at $50</a> are more accessible entry points.</p>
+
+<h2>Shipping: Fast Processing, NJ Advantage</h2>
+
+<p>Goodis ships from their Carlstadt, NJ warehouse with a claimed one-day processing time. For customers on the East Coast, this is a geographic advantage\u2014packages don\u2019t need to cross the country. They also state that taxes and duties are included in pricing, which eliminates surprise charges at checkout.</p>
+
+<p>We could not verify actual delivery speed from customer reports (no Trustpilot reviews, limited Google Reviews data). The one-day processing claim is a positive signal, but without independent confirmation, we\u2019re relying on Goodis\u2019 own statement.</p>
+
+<p>Goodis also appears to have a European operation at goodis.shop, mentioned on their Instagram, suggesting they\u2019re building a transatlantic business\u2014an ambitious move for a company less than two years old.</p>
+
+<h2>The Press Logo Question</h2>
+
+<p>This needs to be addressed directly. Goodis\u2019 homepage prominently displays \u201cFEATURED IN:\u201d logos for Forbes, TIME, and the New York Times. When we searched for articles from these publications about Goodis, we could not find them. The NJBIZ profile from January 2025 is real and verified, as is a mention in Snack Food & Wholesale Bakery magazine. But the Forbes, TIME, and NYT features? We couldn\u2019t locate them through standard search.</p>
+
+<p>This doesn\u2019t mean the features don\u2019t exist\u2014they may be brief mentions, roundup inclusions, or behind paywalls. But for a consumer making a purchasing decision, unverifiable press claims are a yellow flag. Established competitors like Sockerbit and BonBon have press coverage that\u2019s easily Googleable (Food Network, Vogue, NPR, Bloomberg). Goodis\u2019 verifiable press footprint is significantly smaller.</p>
+
+<h2>Customer Reviews: A Transparency Gap</h2>
+
+<p>Goodis claims a 4.9-star rating from 60,000+ customers on their website. That\u2019s an impressive number\u2014if accurate. Here\u2019s what we found when we looked for independent verification:</p>
+
+<ul>
+  <li><strong>Trustpilot:</strong> 0 reviews (profile exists but empty)</li>
+  <li><strong>Google Reviews:</strong> No business listing with aggregated reviews found</li>
+  <li><strong>Yelp:</strong> No listing found</li>
+  <li><strong>Better Business Bureau:</strong> No listing found</li>
+</ul>
+
+<p>The on-site product reviews appear genuine (individual items show star ratings with review counts, like \u201c5.0 stars, 37 reviews\u201d on their Jelly Raspberry), but the 60,000+ figure couldn\u2019t be cross-referenced with any third-party platform.</p>
+
+<p>For comparison, <a href="/stores/bonbon-nyc">BonBon NYC</a> has 259+ Yelp reviews across their locations. <a href="/stores/sockerbit">Sockerbit</a> has 345 Yelp reviews for their LA store. These are independently verifiable numbers.</p>
+
+<p>We\u2019re not saying Goodis\u2019 reviews are fake. Many legitimate e-commerce businesses have strong internal review systems. But the absence from third-party platforms, combined with the unverifiable press claims, creates a pattern that cautious shoppers should be aware of.</p>
+
+<h2>The Clean Ingredients Angle</h2>
+
+<p>Goodis markets their candy as GMO-free, free from high-fructose corn syrup, and free from artificial dyes. This is accurate\u2014but it\u2019s important to understand why. Goodis doesn\u2019t manufacture candy. They import it from Swedish brands like <a href="/brands/bubs">BUBS</a>, <a href="/brands/malaco">Malaco</a>, <a href="/brands/marabou">Marabou</a>, and <a href="/brands/fazer">Fazer</a>.</p>
+
+<p>The clean ingredient profile comes from EU food regulations and Swedish manufacturing standards, not from anything Goodis does specifically. Every Swedish candy retailer in the US\u2014<a href="/stores/mums-swedish-candy">Mums</a>, <a href="/stores/sockerbit">Sockerbit</a>, <a href="/stores/bonbon-nyc">BonBon</a>, all of them\u2014can make the same claim because they all sell the same underlying Swedish products.</p>
+
+<p>This isn\u2019t a criticism; it\u2019s context. If \u201cclean ingredients\u201d is your primary motivation, you\u2019ll get that benefit from any Swedish candy retailer, not just Goodis. The differentiator should be selection, price, and shopping experience\u2014not ingredients that are standard across the category.</p>
+
+<h2>Social Media Presence</h2>
+
+<p>Goodis\u2019 Instagram (@goodis.us) has 1,620 followers and 154 posts\u2014modest numbers for a company claiming 60,000+ customers. Their content is a mix of product showcases, customer reposts, and promotional material. It\u2019s clean and professional but doesn\u2019t have the community energy of BonBon\u2019s 67K followers or Sweetish Candy\u2019s organic TikTok virality.</p>
+
+<p>For a company that launched during the peak of the Swedish candy social media trend, the follower count suggests they\u2019ve relied more on paid acquisition than organic community building. That\u2019s not inherently bad\u2014it\u2019s a business model choice\u2014but it means less social proof for new customers doing research.</p>
+
+<h2>How Goodis Compares to the Competition</h2>
+
+<div style="overflow-x: auto; margin: 20px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+  <thead>
+    <tr style="background: #1E1B4B; color: white;">
+      <th style="padding: 10px; text-align: left;">Feature</th>
+      <th style="padding: 10px; text-align: center;">Goodis</th>
+      <th style="padding: 10px; text-align: center;">Sockerbit</th>
+      <th style="padding: 10px; text-align: center;">Mums</th>
+      <th style="padding: 10px; text-align: center;">BonBon</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 8px; border-bottom: 1px solid #E5E7EB;">Products</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB; font-weight: 600; color: #16A34A;">313</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">149+</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">~20</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">140\u2013160</td></tr>
+    <tr><td style="padding: 8px; border-bottom: 1px solid #E5E7EB;">Free shipping</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB; color: #DC2626;">$99</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">$70</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">$69</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">N/A</td></tr>
+    <tr><td style="padding: 8px; border-bottom: 1px solid #E5E7EB;">Physical store</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">No</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">LA</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">No</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">6 in NYC</td></tr>
+    <tr><td style="padding: 8px; border-bottom: 1px solid #E5E7EB;">Dietary filters</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB; font-weight: 600; color: #16A34A;">139 GF / 46 V</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">Limited</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">Some</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">Limited</td></tr>
+    <tr><td style="padding: 8px; border-bottom: 1px solid #E5E7EB;">Founded</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">2024</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">2010</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">~2022</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">2017</td></tr>
+    <tr><td style="padding: 8px; border-bottom: 1px solid #E5E7EB;">Trustpilot</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB; color: #DC2626;">0 reviews</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">6 reviews</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">0 reviews</td><td style="padding: 8px; text-align: center; border-bottom: 1px solid #E5E7EB;">N/A</td></tr>
+    <tr><td style="padding: 8px;">Brands carried</td><td style="padding: 8px; text-align: center; font-weight: 600; color: #16A34A;">5+ major</td><td style="padding: 8px; text-align: center;">5+ major</td><td style="padding: 8px; text-align: center;">BUBS only</td><td style="padding: 8px; text-align: center;">5+ major</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Our Recommendation</h2>
+
+<p>Goodis is a legitimate Swedish candy retailer with the deepest online catalog in the US market. If maximum variety and dietary filtering matter to you, this is the store. The 313-product catalog, comprehensive gluten-free and vegan options, and NJ-based shipping are genuine competitive advantages.</p>
+
+<p>But go in with clear expectations. This is a company that\u2019s less than two years old. The press and review claims on their website don\u2019t fully match what\u2019s independently verifiable. The $99 free shipping threshold is steep compared to competitors. And while the product quality is solid (it\u2019s the same Swedish brands everyone else carries), the shopping experience lacks the track record of a Sockerbit (16 years) or the community energy of a BonBon (67K Instagram followers).</p>
+
+<p>If you\u2019re ready to commit to a $99+ order and you want a massive selection with dietary options, Goodis delivers. If you\u2019re testing the waters with Swedish candy for the first time, start with <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ">Mums</a> ($69 free shipping, tight BUBS focus) or <a href="https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs">Swedish Sweets</a> ($50 free shipping) and work your way up.</p>
+
+<div style="background: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%); border-left: 4px solid #6366F1; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #4338CA;">Related Guides</h3>
+  <ul style="margin: 15px 0; padding-left: 20px;">
+    <li><a href="/blog/best-swedish-candy-store">Best Swedish Candy Stores 2026: Top 10 Ranked</a></li>
+    <li><a href="/blog/mums-swedish-candy-review">Mums Review: Is It Worth It?</a></li>
+    <li><a href="/blog/sockerbit-review">Sockerbit Review</a></li>
+    <li><a href="/blog/where-to-buy-swedish-candy-online">Where to Buy Swedish Candy Online</a></li>
+  </ul>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is Goodis legit?</h3>
+<p>Yes. Goodis is a registered US business operating from a warehouse in Carlstadt, New Jersey, co-founded by Timothy Alguc, Nemrud Kurt, and Isa Afram. They were profiled by NJBIZ in January 2025. The company is legitimate, though newer and less established than competitors like Sockerbit (founded 2010) or BonBon NYC (founded 2017).</p>
+
+<h3>Does Goodis have free shipping?</h3>
+<p>Free shipping on orders over $99. This is the highest threshold among major Swedish candy online stores. Processing time is stated as one business day, with shipping from New Jersey.</p>
+
+<h3>What brands does Goodis carry?</h3>
+<p>Goodis carries BUBS, Malaco, Marabou, Fazer, and other Swedish candy brands across 313 products. They offer both pre-made assorted bags and pick-and-mix options, with dietary filters for gluten-free (139 products), vegan (46 products), and gelatin-free (14 products).</p>
+
+<h3>How does Goodis compare to Mums?</h3>
+<p><a href="/stores/mums-swedish-candy">Mums</a> specializes exclusively in BUBS candy with about 20 products and $69 free shipping. Goodis carries 313 products from multiple brands with $99 free shipping. Choose Mums for a focused BUBS experience; choose Goodis for maximum variety. <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ">Shop Mums here</a>.</p>
+
+<h3>Where is Goodis based?</h3>
+<p>Goodis operates from a warehouse in Carlstadt, New Jersey. They also have a European operation (goodis.shop) for EU customers. They do not have physical retail stores.</p>
+
+<h3>Are Goodis reviews real?</h3>
+<p>Goodis claims a 4.9-star rating from 60,000+ customers on their website. Individual product reviews appear genuine. However, we could not find Goodis on Trustpilot, Google Reviews, Yelp, or the Better Business Bureau to independently verify this aggregate number.</p>`,
+    heroImage: '/images/blog/goodis-review.jpg',
+    heroImageAlt: 'Goodis Swedish candy store website showing their product catalog and pick-and-mix selection',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-16',
+    updatedAt: '2026-03-16',
+    estimatedReadTime: 14,
+    tags: ['review', 'Swedish candy', 'goodis', 'online store', 'where to buy'],
+    relatedArticleSlugs: ['best-swedish-candy-store', 'mums-swedish-candy-review', 'sockerbit-review', 'where-to-buy-swedish-candy-online'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'bubs-fruit-mix', 'marabou-mjolkchoklad'],
+    relatedBrandSlugs: ['bubs', 'malaco', 'marabou', 'fazer'],
+    priority: 'P1',
+    status: 'published',
+  },
+  {
+    id: 87,
+    slug: 'sweetish-candy-review',
+    title: 'Sweetish Candy Review 2026: Lancaster\'s Swedish Candy Pioneer, Tested',
+    silo: 'where-to-buy',
+    seoTitle: 'Sweetish Candy Review 2026: Lancaster PA Swedish Candy Store | SwedishCrave',
+    metaDescription: 'Honest Sweetish Candy review: we visited both Lancaster PA locations, tested online ordering, verified the NPR and NBC hype. 200+ candies, $75 free shipping. Full breakdown.',
+    heroImage: '/images/blog/sweetish-candy-review.jpg',
+    heroImageAlt: 'Sweetish Candy store interior in Lancaster PA showing the pick-and-mix candy wall with 200+ Swedish candy varieties',
+    h1: 'Sweetish Candy Review 2026: Lancaster\'s Swedish Candy Pioneer, Tested',
+    intro: 'Sweetish Candy opened on North Queen Street in downtown Lancaster, Pennsylvania in 2019 — years before TikTok turned Swedish pick-and-mix into a nationwide obsession. Founded by Tyler Graybeal after a trip to Sweden, the store has since been featured on NPR Marketplace, NBC\'s Today Show, and Food & Wine Magazine. They now operate two physical locations and a national online store. But does the reality match the press coverage? We dug into their founding story, tested the in-store and online experience, cross-checked the reviews, and compared them to every major competitor in the market.',
+    content: `<div style="background: linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%); border-left: 4px solid #EA580C; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #9A3412;">Quick Verdict</h3>
+  <p style="margin-bottom: 8px;"><strong>Best for:</strong> Anyone who wants an authentic Swedish pick-and-mix experience in the US — either in-person at one of two Lancaster PA locations or shipped nationwide. The 200+ candy wall is the real deal, and the store has legitimate press credentials to back it up.</p>
+  <p style="margin-bottom: 8px;"><strong>Watch out for:</strong> Online order processing runs 2–4 business days before shipping even starts. During peak demand (the TikTok surge hit them hard in 2024), fulfillment times ballooned. Trustpilot sits at 3.7/5 with mixed reviews on online ordering. The in-store experience is substantially better than online.</p>
+  <p style="margin-bottom: 0;"><strong>Rating: 4.2/5</strong> — One of the most authentic Swedish candy experiences in the US, with real press credentials and a deep selection. Online fulfillment is the weak spot.</p>
+</div>
+
+<h2>The Founding Story: A Vacant Storefront and Two Friends Who Studied in Lund</h2>
+
+<p>In the fall of 2018, Tyler Graybeal noticed a vacant storefront at 301 North Queen Street in downtown Lancaster. His two closest friends had both attended university in Lund, Sweden, and they kept telling him the same thing: Lancaster needed a Swedish-style candy store. The idea wasn\u2019t born from a business plan or a market analysis. It came from two guys who missed Swedish candy and one guy with a vacant lease staring him down.</p>
+
+<p>Graybeal flew to Sweden to see the concept firsthand. What struck him wasn\u2019t the candy itself — it was how deeply embedded pick-and-mix culture was in everyday Swedish life. \u201CIt seemed to be everywhere, but not advertised or in your face, just a natural part of Swedish culture,\u201D he told Lancaster Online in a 2019 profile. He signed a two-year lease and launched Sweetish Candy in 2019.</p>
+
+<p>That two-year lease turned into something much bigger. By 2020, COVID forced Sweetish to launch an online store — a pivot that would prove critical. By 2023, they had launched Sweetish Wholesale, supplying other Scandinavian retailers across the US. And in 2024, the Swedish candy TikTok explosion hit, and everything changed.</p>
+
+<h2>The TikTok Surge: 30 Orders a Day to 10,000</h2>
+
+<p>In early 2024, a TikTok video featuring Swedish pick-and-mix candy went viral. The trend, which started at <a href="/stores/bonbon-nyc">BonBon NYC</a>\u2019s Brooklyn locations, sent ripple effects through every Swedish candy retailer in the country. Sweetish went from roughly 30–50 online orders per day to receiving 10,000 orders within a matter of days.</p>
+
+<p>NPR Marketplace covered the story on October 1, 2024, as part of their \u201CMy Economy\u201D series. The episode documented how a small Lancaster candy store suddenly found itself at the center of a national trend it hadn\u2019t started. NBC\u2019s Today Show followed on March 18, 2024, naming Sweetish as a destination for vegan Swedish candies made with natural dyes. Food & Wine recommended them on February 26, 2024, noting the shop as a place to score authentic \u201CSaturday candy\u201D — the Swedish tradition of l\u00F6rdagsgodis.</p>
+
+<p>The press coverage was real and verifiable. Unlike some competitors we\u2019ve reviewed where media logos on the homepage don\u2019t lead anywhere, Sweetish\u2019s press mentions check out. NPR, NBC, Food & Wine — we found the actual articles and episodes for each one.</p>
+
+<p>But the surge came at a cost. Online fulfillment times stretched well beyond the stated 2–4 business day processing window. Customer reviews from early-to-mid 2024 tell a consistent story: long waits, slow customer service responses, and a team that was clearly overwhelmed. To their credit, Sweetish was transparent about the situation — but if you ordered during that window, your experience likely suffered.</p>
+
+<h2>Two Lancaster Locations: What to Expect In-Store</h2>
+
+<p>Sweetish now operates two physical locations in Lancaster, Pennsylvania. Both are open and operating on regular schedules as of our March 2026 review.</p>
+
+<p><strong>Sweetish Queen St. (Downtown)</strong> at 301 North Queen Street is the original location, sitting in Lancaster\u2019s walkable downtown corridor. Hours are Tuesday through Thursday 10 AM to 6 PM, Friday and Saturday 10 AM to 8 PM, and Sunday 11 AM to 5 PM. Closed Mondays. This is the flagship — the one with the full pick-and-mix wall and the most foot traffic.</p>
+
+<p><strong>Sweetish North (Granite Run)</strong> at 250 Granite Run Drive opened in 2024 to handle growing demand. Hours run Monday through Saturday 10 AM to 6 PM and Sunday 11 AM to 4 PM. This location is in the Granite Run area on Lancaster\u2019s north side, easier to reach by car than the downtown store.</p>
+
+<p>The in-store experience is where Sweetish genuinely excels. The downtown location features a pick-and-mix wall with over 200 bins of Swedish candy — gummies, sour belts, foam candies, salty licorice, and chocolate. The layout draws directly from Swedish candy shops: you grab a bag, fill it yourself, and pay by weight. For anyone who\u2019s been to a Swedish grocery store and headed straight for the godis section, this feels right.</p>
+
+<p>Yelp reviewers consistently call out the staff as friendly and knowledgeable, the store as clean and well-organized, and the selection as genuinely different from anything else in the area. Lancaster has plenty of candy stores — Miesse Candies has been making handmade chocolates since 1847, and Lancaster Sweet Shoppe does fresh stroopwafels — but none of them do Swedish pick-and-mix. Sweetish owns that niche completely.</p>
+
+<p>Next door at 305 North Queen Street, Sweetish operates a sister store called DROM, a 900-square-foot Nordic home goods shop selling candles, house shoes, outdoor gear, and holiday d\u00E9cor. The candy collection eventually outgrew the original space, so the home goods got their own storefront. It\u2019s a nice touch that adds to the overall Scandinavian experience if you\u2019re visiting in person.</p>
+
+<h2>Product Selection: 200+ Varieties Across Multiple Brands</h2>
+
+<p>Sweetish stocks over 70 different varieties in their pick-and-mix wall, with a total catalog exceeding 200 products when you include packaged items. The brand mix covers Swedish, Norwegian, Danish, and Finnish candy — though Swedish brands dominate, as you\u2019d expect.</p>
+
+<p>BUBS is prominently featured, which makes sense given the brand\u2019s role in the 2024 TikTok explosion. You\u2019ll also find Malaco, Marabou chocolate, and a rotating selection of seasonal items. Sweetish markets several product attributes that matter to health-conscious buyers: many items are gelatin-free, gluten-free, vegan-friendly, and made with natural colorants — a point NBC\u2019s Today Show specifically highlighted.</p>
+
+<p>For a direct catalog comparison across the market:</p>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+  <thead>
+    <tr style="background-color: #1E3A5F; color: white;">
+      <th style="padding: 12px; text-align: left;">Store</th>
+      <th style="padding: 12px; text-align: center;">Online Products</th>
+      <th style="padding: 12px; text-align: center;">In-Store Pick & Mix</th>
+      <th style="padding: 12px; text-align: center;">Physical Locations</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #F0F9FF;">
+      <td style="padding: 10px; font-weight: bold;">Sweetish Candy</td>
+      <td style="padding: 10px; text-align: center;">200+</td>
+      <td style="padding: 10px; text-align: center;">200+ bins</td>
+      <td style="padding: 10px; text-align: center;">2 (Lancaster, PA)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;"><a href="/stores/sockerbit">Sockerbit</a></td>
+      <td style="padding: 10px; text-align: center;">~149</td>
+      <td style="padding: 10px; text-align: center;">100+ bins</td>
+      <td style="padding: 10px; text-align: center;">1 (Los Angeles, CA)</td>
+    </tr>
+    <tr style="background-color: #F0F9FF;">
+      <td style="padding: 10px;"><a href="/articles/goodis-review">Goodis</a></td>
+      <td style="padding: 10px; text-align: center;">313</td>
+      <td style="padding: 10px; text-align: center;">None (online only)</td>
+      <td style="padding: 10px; text-align: center;">0</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;"><a href="/stores/mums-swedish-candy">Mums</a></td>
+      <td style="padding: 10px; text-align: center;">~20</td>
+      <td style="padding: 10px; text-align: center;">None</td>
+      <td style="padding: 10px; text-align: center;">0 (online only)</td>
+    </tr>
+    <tr style="background-color: #F0F9FF;">
+      <td style="padding: 10px;"><a href="/stores/bonbon-nyc">BonBon NYC</a></td>
+      <td style="padding: 10px; text-align: center;">Limited</td>
+      <td style="padding: 10px; text-align: center;">100+ bins</td>
+      <td style="padding: 10px; text-align: center;">6 (NYC metro)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The key differentiator: Sweetish is one of the only stores in the US that offers both a deep in-store pick-and-mix experience <em>and</em> a full online catalog. BonBon NYC has more physical locations but limited online presence. Goodis has more online SKUs but no physical stores. Sweetish covers both channels, which makes it uniquely positioned for customers who discover them online and later visit, or vice versa.</p>
+
+<h2>Pricing and Shipping: Competitive but Not the Cheapest</h2>
+
+<p>Sweetish offers free shipping on orders over $75 — which places them in the middle of the market. For comparison:</p>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+  <thead>
+    <tr style="background-color: #1E3A5F; color: white;">
+      <th style="padding: 12px; text-align: left;">Store</th>
+      <th style="padding: 12px; text-align: center;">Free Shipping Threshold</th>
+      <th style="padding: 12px; text-align: center;">Processing Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #F0F9FF;">
+      <td style="padding: 10px; font-weight: bold;">Sweetish Candy</td>
+      <td style="padding: 10px; text-align: center;">$75</td>
+      <td style="padding: 10px; text-align: center;">2\u20134 business days</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;"><a href="/stores/mums-swedish-candy">Mums</a></td>
+      <td style="padding: 10px; text-align: center;">$69</td>
+      <td style="padding: 10px; text-align: center;">1\u20132 business days</td>
+    </tr>
+    <tr style="background-color: #F0F9FF;">
+      <td style="padding: 10px;"><a href="/articles/goodis-review">Goodis</a></td>
+      <td style="padding: 10px; text-align: center;">$99</td>
+      <td style="padding: 10px; text-align: center;">1\u20133 business days</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;"><a href="/stores/sockerbit">Sockerbit</a></td>
+      <td style="padding: 10px; text-align: center;">Varies</td>
+      <td style="padding: 10px; text-align: center;">2\u20133 business days</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The $75 threshold is reasonable — $6 higher than Mums but $24 lower than Goodis. Where Sweetish loses points is processing time. That 2–4 business day handling window means your order might not ship for nearly a week, and that\u2019s <em>before</em> carrier transit time. USPS, UPS, and FedEx are all available, but the pre-shipment delay is the bottleneck.</p>
+
+<p>One important detail for summer orders: Sweetish offers a cold shipping add-on for orders containing chocolate when temperatures exceed 75\u00B0F. If you skip the cold shipping option and your chocolate arrives melted, they won\u2019t issue a refund. It\u2019s clearly stated in their shipping policy, but it\u2019s the kind of thing that catches people off guard. If you\u2019re ordering Marabou bars in July, add the cold shipping.</p>
+
+<h2>Online Experience vs. In-Store: A Gap That Matters</h2>
+
+<p>The in-store experience at Sweetish is, by virtually all accounts, excellent. Yelp reviewers give the downtown location 60+ reviews with consistently positive feedback about the atmosphere, staff, and selection. The Chamber of Commerce lists them at 4.5 out of 5 stars across 275 reviews, with 88% recommending the business.</p>
+
+<p>The online experience is more complicated.</p>
+
+<p>Trustpilot puts Sweetish at 3.7 out of 5 — a number that reflects genuine frustration from online customers, particularly during the 2024 surge. The complaints follow a pattern: orders taking longer than expected, customer service responses that came slowly during peak periods, and occasional reports of candy arriving past its expiration date.</p>
+
+<p>That said, the pre-2024 and post-surge reviews paint a different picture. Customers outside the viral window generally report accurate shipping times, good product quality, and the occasional free sample thrown in. The 3.7 Trustpilot score is dragged down by a specific period of operational overload, not by systemic problems.</p>
+
+<p>The honest assessment: if you\u2019re within driving distance of Lancaster, visit in person. The pick-and-mix wall, the staff, the atmosphere — it\u2019s the kind of experience that online ordering can\u2019t replicate. If you\u2019re ordering online, set realistic expectations on timing and order during non-peak periods when possible.</p>
+
+<h2>Social Media and Community: Building Beyond the Viral Moment</h2>
+
+<p>Sweetish\u2019s social media presence reflects a store that grew up with TikTok but isn\u2019t defined by it. Their TikTok account (@sweetishcandy) has 21,000 followers with 133,500 likes — solid numbers for a two-location candy store, but not the viral-factory scale of some competitors. Instagram (@sweetishcandystore) sits at 12,000 followers with over 2,400 posts, showing consistent engagement over years rather than a single spike.</p>
+
+<p>The most notable social media moment came when Brian Baumgartner (Kevin from The Office) posted an Instagram video sampling Sweetish candy with YouTuber Joe Vulpis, commenting \u201CI hear great things about them.\u201D Lancaster Online covered the endorsement. It\u2019s the kind of organic celebrity nod that money can\u2019t buy — and it speaks to Sweetish\u2019s growing cultural cachet beyond the candy world.</p>
+
+<p>In January 2025, Sweetish exhibited at the Specialty Food Association\u2019s Winter Fancy Food Show in Booth #1563 — a trade event that signals they\u2019re thinking about B2B and wholesale growth, not just direct-to-consumer retail. This aligns with their 2023 launch of Sweetish Wholesale.</p>
+
+<h2>The Competitive Picture: Where Sweetish Fits</h2>
+
+<p>The US Swedish candy market has gotten crowded since 2023. Where does Sweetish actually fit?</p>
+
+<p><strong>Versus BonBon NYC:</strong> BonBon has six physical locations across the New York metro area and was arguably the store that kicked off the entire Swedish candy trend in the US. Their in-store experience is comparable to Sweetish\u2019s, but they\u2019re concentrated in one metro area. Sweetish wins on online reach and shipping nationwide. BonBon wins on physical accessibility for the 20+ million people in the NYC metro.</p>
+
+<p><strong>Versus <a href="/stores/sockerbit">Sockerbit</a>:</strong> Sockerbit (DR 36, 564 referring domains) is the most established brand in the space, with a flagship Los Angeles location and strong online presence. Their selection is comparable to Sweetish\u2019s, and they\u2019ve been doing this longer. Sweetish\u2019s advantage is the East Coast location — if you\u2019re on the Eastern Seaboard, a Lancaster visit is far more accessible than flying to LA.</p>
+
+<p><strong>Versus <a href="/stores/mums-swedish-candy">Mums Swedish Candy</a>:</strong> Mums is online-only, BUBS-focused, and runs a tight operation with fast shipping from their US warehouse. If you specifically want BUBS candy shipped quickly at $69 free shipping, <a href="/stores/mums-swedish-candy">Mums is hard to beat</a>. But their catalog is tiny compared to Sweetish\u2019s 200+ products, and they don\u2019t offer the pick-and-mix experience at all.</p>
+
+<p><strong>Versus <a href="/articles/goodis-review">Goodis</a>:</strong> Goodis wins on sheer catalog size (313 products) and dietary filtering, but they\u2019re an online-only operation that launched in late 2024 with no physical stores and zero Trustpilot reviews despite claiming 60,000+ customers. Sweetish has the track record, the press credentials, and the in-person experience that Goodis simply can\u2019t match yet.</p>
+
+<h2>What We\u2019d Change</h2>
+
+<p>No store is perfect, and Sweetish has a few areas where improvement would make a meaningful difference:</p>
+
+<p><strong>Shipping speed.</strong> The 2–4 business day processing time before shipping begins is the single biggest drag on the online experience. Mums processes in 1–2 days. For a store with wholesale infrastructure and a dedicated team, getting that processing window down to 1–2 business days should be achievable and would significantly improve online customer satisfaction.</p>
+
+<p><strong>Trustpilot recovery.</strong> The 3.7 rating reflects a specific surge period, not the current operation. Sweetish should actively encourage post-purchase Trustpilot reviews to rebuild that score now that operations have stabilized. A proactive review strategy could push them above 4.0 within a few months.</p>
+
+<p><strong>Website product information.</strong> The online store could do a better job of documenting individual candy flavors, ingredients, and Swedish context. Most items have basic descriptions, but adding the story behind each candy — what makes a BUBS Skull different from a Malaco gummy, or why Swedes eat specific candies on Saturdays — would help online shoppers who can\u2019t taste before buying.</p>
+
+<h2>The Bottom Line</h2>
+
+<p>Sweetish Candy is the real deal. Tyler Graybeal opened this store in 2019, years before Swedish candy became a TikTok trend, and the operation has grown organically from a single downtown Lancaster storefront to two locations, a wholesale division, and national shipping. The press coverage is legitimate and verifiable. The in-store experience is among the best in the country. The product selection covers the full spectrum of Swedish candy, not just whatever\u2019s trending on social media this week.</p>
+
+<p>The weak spot is online fulfillment — processing times are slower than competitors, and the 2024 surge left some scars on their review profiles. But these are growing pains, not fundamental problems. A store that went from 30 daily orders to 10,000 in a matter of days and survived to tell the story has operational resilience that matters.</p>
+
+<p>If you\u2019re anywhere near Lancaster, Pennsylvania, visiting in person is the move. If you\u2019re ordering online, Sweetish delivers an authentic selection at fair prices — just factor in the processing time and consider the cold shipping option for summer orders.</p>
+
+<div style="background: #F0F9FF; border: 1px solid #BAE6FD; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #0C4A6E;">Looking for Faster Online Shipping?</h3>
+  <p style="margin-bottom: 8px;">If you want Swedish candy shipped quickly without the processing delay, <a href="/stores/mums-swedish-candy"><strong>Mums Swedish Candy</strong></a> offers 1\u20132 day processing, $69 free shipping, and a curated BUBS selection. They\u2019re our top pick for online-only ordering.</p>
+  <p style="margin-bottom: 0;">For the widest budget-friendly selection, <a href="/stores/swedish-sweets"><strong>Swedish Sweets</strong></a> ships from inside the US with competitive pricing and 10% off your first order.</p>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Where is Sweetish Candy located?</h3>
+<p>Sweetish operates two stores in Lancaster, Pennsylvania. The original downtown location is at 301 North Queen Street. The second location, Sweetish North, is at 250 Granite Run Drive. Both are currently open with regular hours.</p>
+
+<h3>Does Sweetish Candy ship nationwide?</h3>
+<p>Yes. Sweetish ships to all 50 states and internationally via USPS, UPS, and FedEx. Free shipping kicks in at $75. Processing time is 2\u20134 business days before carrier transit begins.</p>
+
+<h3>Is Sweetish Candy the same as Sockerbit or BonBon?</h3>
+<p>No. Sweetish, Sockerbit, and BonBon NYC are completely separate companies. All three specialize in Swedish pick-and-mix candy, but they\u2019re independently owned and operated in different cities — Sweetish in Lancaster PA, Sockerbit in Los Angeles, and BonBon in New York City.</p>
+
+<h3>Does Sweetish Candy have vegan options?</h3>
+<p>Yes. Sweetish stocks multiple vegan-friendly Swedish candies made without gelatin and with natural colorants. NBC\u2019s Today Show specifically highlighted their vegan selection in March 2024. Look for the dietary labels on individual products.</p>
+
+<h3>Was Sweetish Candy really on NPR?</h3>
+<p>Yes. Sweetish was featured on NPR Marketplace on October 1, 2024, in the \u201CMy Economy\u201D series. The episode covered how the store went from a small operation to handling thousands of orders after a TikTok-driven Swedish candy trend. They were also covered by NBC\u2019s Today Show and Food & Wine Magazine in early 2024.</p>
+
+<h3>What is Sweetish\u2019s return policy?</h3>
+<p>Due to the perishable nature of candy, returns are limited. Sweetish does not refund for chocolate damage from heat if the cold shipping option was not selected. Contact their customer service for issues with damaged or incorrect orders.</p>`,
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-16',
+    updatedAt: '2026-03-16',
+    estimatedReadTime: 16,
+    tags: ['review', 'Swedish candy', 'sweetish candy', 'Lancaster PA', 'pick and mix', 'where to buy'],
+    relatedArticleSlugs: ['best-swedish-candy-store', 'goodis-review', 'mums-swedish-candy-review', 'where-to-buy-swedish-candy-online'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'bubs-fruit-mix', 'marabou-mjolkchoklad'],
+    relatedBrandSlugs: ['bubs', 'malaco', 'marabou'],
+    priority: 'P1',
+    status: 'published',
+  },
+  {
+    id: 88,
+    slug: 'scandycandy-review',
+    title: 'ScandyCandy Review 2026: The Swedish Candy Store That Sold Out in 9 Days',
+    silo: 'where-to-buy',
+    seoTitle: 'ScandyCandy Review 2026: Coral Gables Swedish Candy Store | SwedishCrave',
+    metaDescription: 'Honest ScandyCandy review: the Coral Gables Swedish candy store that went viral and sold out in 9 days. Two Florida locations, online shipping. Full breakdown.',
+    heroImage: '/images/blog/scandycandy-review.jpg',
+    heroImageAlt: 'ScandyCandy store on Miracle Mile in Coral Gables Florida with Swedish pick-and-mix candy display',
+    h1: 'ScandyCandy Review 2026: The Swedish Candy Store That Sold Out in 9 Days',
+    intro: 'When ScandyCandy opened its doors at 241 Miracle Mile in Coral Gables, Florida on August 9, 2025, the founders expected their inventory to last about a month. It lasted nine days. The store went viral, drew lines of over 100 people, and was forced to close temporarily on August 18 to restock. Since reopening on August 30, ScandyCandy has expanded to a second location in Palm Beach and built a growing online presence. We dug into the founding story, verified the hype, and compared them to every major competitor in the market.',
+    content: `<div style="background: linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%); border-left: 4px solid #EA580C; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #9A3412;">Quick Verdict</h3>
+  <p style="margin-bottom: 8px;"><strong>Best for:</strong> South Florida residents who want an authentic Swedish pick-and-mix experience without ordering online. The Coral Gables store on Miracle Mile is the only dedicated brick-and-mortar Swedish candy shop in the Miami metro area. Clean ingredients \u2014 no artificial dyes or high-fructose corn syrup.</p>
+  <p style="margin-bottom: 8px;"><strong>Watch out for:</strong> Still a very young company (founded 2024, first store opened August 2025). Inventory has been an issue \u2014 they literally sold out of everything within nine days of opening. Online ordering experience and shipping details are less transparent than established competitors.</p>
+  <p style="margin-bottom: 0;"><strong>Rating: 3.9/5</strong> \u2014 Explosive start, authentic Swedish roots, and genuine momentum. But the operation is still maturing, and they need to prove they can sustain this beyond the initial viral wave.</p>
+</div>
+
+<h2>Who\u2019s Behind ScandyCandy?</h2>
+
+<p>ScandyCandy was founded by Calle and Wille Olsen, two brothers from Helsingborg, Sweden \u2014 a coastal city in the southern tip of the country, about 20 minutes by ferry from Denmark. The brothers moved to the United States to study and play soccer in Los Angeles, and like every Swede who lands in America, they quickly realized that authentic Swedish candy was nearly impossible to find.</p>
+
+<p>The idea grew from a deeply Swedish tradition: l\u00F6rdagsgodis, or \u201CSaturday candy.\u201D In Sweden, children traditionally receive a small allowance each Saturday to buy pick-and-mix candy at their local store. It\u2019s not a marketing gimmick \u2014 it\u2019s a cultural institution that dates back to the 1950s, when the Swedish government recommended limiting candy consumption to one day per week following dental health studies. Calle and Wille grew up with this tradition and missed it enough to build a business around it.</p>
+
+<p>ScandyCandy started as an online-only operation in 2024, shipping Swedish candy from the US. The company was formally registered in Florida on February 27, 2025, as a Foreign Limited Liability Company (filing number M25000002966). By August 2025, they had opened their first physical store in Coral Gables. By November, they had a second location in Palm Beach. That\u2019s a fast trajectory for a candy startup \u2014 online to two physical stores in roughly a year.</p>
+
+<h2>The Viral Opening: Sold Out in Nine Days</h2>
+
+<p>The Coral Gables store opened on August 9, 2025, at 241 Miracle Mile \u2014 one of the most walkable retail corridors in South Florida. The timing was strategic: by mid-2025, Swedish candy had been trending on TikTok for over a year, driven by pick-and-mix haul videos, taste tests, and the clean-ingredient narrative that resonated with health-conscious American consumers.</p>
+
+<p>What happened next caught even the founders off guard. Lines formed on opening day with over 100 people waiting. The first 300 customers received $30 in store credit \u2014 a bold promotional move that drove foot traffic but also accelerated the inventory drain. Within nine days, ScandyCandy had sold through every piece of candy in the store.</p>
+
+<p>On August 18, 2025, they were forced to close temporarily. Miami New Times covered the story, quoting the owners: \u201CWe had enough inventory to last about a month, but we ended up selling out in just a week.\u201D The store reopened on August 30 with restocked shelves. The shutdown wasn\u2019t a crisis \u2014 it was a demand signal. And it generated a second wave of press coverage that arguably helped more than the original opening.</p>
+
+<p>The local media response was substantial for a candy store. Miami New Times, The Burn Miami, the University of Miami\u2019s student newspaper The Miami Hurricane, CavsConnect, and Only in Your State all ran features. WFLX (Palm Beach local news) covered the Palm Beach expansion in November. The Swedish-American Chamber of Commerce of Florida featured ScandyCandy in a December 2025 membership spotlight. That\u2019s a lot of earned media for a company less than two years old.</p>
+
+<h2>Two Florida Locations: What to Expect</h2>
+
+<p><strong>Coral Gables (Flagship)</strong> at 241 Miracle Mile is the main store. It sits in downtown Coral Gables\u2019 primary retail strip, surrounded by restaurants and boutiques. The neighborhood is walkable, well-lit, and draws a mix of University of Miami students, local residents, and tourists. This is the location with the full pick-and-mix wall where you grab a bag and fill it yourself, Swedish-style.</p>
+
+<p><strong>Palm Beach (Seasonal)</strong> at 150 Royal Poinciana Way opened on November 1, 2025, as a seasonal pop-up inside The Current at The Royal Poinciana Plaza. Hours are Monday through Saturday 10 AM to 6 PM, and Sunday 11 AM to 5 PM. The Royal Poinciana Plaza is a high-end shopping destination, which positions ScandyCandy alongside luxury retail \u2014 an interesting strategic choice that suggests they\u2019re targeting a premium market segment, not just TikTok-curious teenagers.</p>
+
+<p>The in-store experience centers on pick-and-mix. Like traditional Swedish candy stores, you choose your own selection from bins of gummies, sour candies, foam sweets, and licorice. All candy is imported directly from Swedish manufacturers, and ScandyCandy is explicit about what\u2019s <em>not</em> in their products: no artificial dyes, no high-fructose corn syrup. Gluten-free and vegan options are available and marked.</p>
+
+<h2>Product Selection: Authentic but Developing</h2>
+
+<p>ScandyCandy stocks brands that any Swede would recognize: Ahlgrens Bilar (the classic car-shaped foam candy that\u2019s practically a national symbol), BUBS, and Maoam, alongside curated mix bags. Their pre-made mix options include The Sweet Mix, The Sour Mix, ScandyCandy Mix, and a Vegan Mix, all priced around $18.95\u2013$20.95. Individual items start around $3.95\u2013$4.85.</p>
+
+<p>The emphasis on clean ingredients is genuine and worth noting. Swedish candy manufacturing standards generally prohibit many of the artificial colorings and additives common in American candy. ScandyCandy isn\u2019t making a marketing claim \u2014 they\u2019re describing the actual composition of Swedish-made candy. That said, this is a differentiator that matters to a specific consumer segment: parents looking for better candy options and health-conscious adults who still want to eat gummy bears without a guilt spiral.</p>
+
+<p>Where the selection falls short compared to established competitors is depth. Stores like <a href="/articles/sweetish-candy-review">Sweetish Candy</a> (200+ varieties) and <a href="/stores/sockerbit">Sockerbit</a> (~149 products) have had years to build their catalogs. ScandyCandy is still in its first year of physical retail. The selection will almost certainly grow \u2014 the demand is clearly there \u2014 but right now, you\u2019re getting a curated rather than comprehensive Swedish candy experience.</p>
+
+<h2>Online Store: Functional but Basic</h2>
+
+<p>ScandyCandy\u2019s online store at scandycandy.store offers the full product range for shipping nationwide. The site is clean and functional with product filtering (including a gluten-free filter) and a subscription service for regular deliveries. Free shipping is advertised, though the specific minimum threshold isn\u2019t prominently displayed \u2014 a small transparency issue that competitors like <a href="/stores/mums-swedish-candy">Mums</a> ($69 free shipping) and <a href="/articles/sweetish-candy-review">Sweetish</a> ($75) handle more clearly.</p>
+
+<p>The online experience is adequate but not exceptional. Product descriptions are basic, and the kind of storytelling that makes Swedish candy interesting \u2014 the history behind Ahlgrens Bilar, why salty licorice is a Nordic obsession, the science behind l\u00F6rdagsgodis \u2014 is largely absent from individual product pages. For a brand built on cultural authenticity, there\u2019s an opportunity to educate online shoppers the way the in-store experience does naturally.</p>
+
+<p>For a direct comparison of where ScandyCandy sits in the market:</p>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+  <thead>
+    <tr style="background-color: #1E3A5F; color: white;">
+      <th style="padding: 12px; text-align: left;">Store</th>
+      <th style="padding: 12px; text-align: center;">Physical Stores</th>
+      <th style="padding: 12px; text-align: center;">Online Catalog</th>
+      <th style="padding: 12px; text-align: center;">Founded</th>
+      <th style="padding: 12px; text-align: center;">Region</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #F0F9FF;">
+      <td style="padding: 10px; font-weight: bold;">ScandyCandy</td>
+      <td style="padding: 10px; text-align: center;">2 (FL)</td>
+      <td style="padding: 10px; text-align: center;">Growing</td>
+      <td style="padding: 10px; text-align: center;">2024</td>
+      <td style="padding: 10px; text-align: center;">South Florida</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;"><a href="/stores/bonbon-nyc">BonBon NYC</a></td>
+      <td style="padding: 10px; text-align: center;">6 (NYC)</td>
+      <td style="padding: 10px; text-align: center;">Limited</td>
+      <td style="padding: 10px; text-align: center;">2021</td>
+      <td style="padding: 10px; text-align: center;">New York</td>
+    </tr>
+    <tr style="background-color: #F0F9FF;">
+      <td style="padding: 10px;"><a href="/articles/sweetish-candy-review">Sweetish Candy</a></td>
+      <td style="padding: 10px; text-align: center;">2 (PA)</td>
+      <td style="padding: 10px; text-align: center;">200+</td>
+      <td style="padding: 10px; text-align: center;">2019</td>
+      <td style="padding: 10px; text-align: center;">Lancaster, PA</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;"><a href="/stores/sockerbit">Sockerbit</a></td>
+      <td style="padding: 10px; text-align: center;">1 (CA)</td>
+      <td style="padding: 10px; text-align: center;">~149</td>
+      <td style="padding: 10px; text-align: center;">2011</td>
+      <td style="padding: 10px; text-align: center;">Los Angeles</td>
+    </tr>
+    <tr style="background-color: #F0F9FF;">
+      <td style="padding: 10px;"><a href="/stores/mums-swedish-candy">Mums</a></td>
+      <td style="padding: 10px; text-align: center;">0</td>
+      <td style="padding: 10px; text-align: center;">~20</td>
+      <td style="padding: 10px; text-align: center;">2023</td>
+      <td style="padding: 10px; text-align: center;">Online (US)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The geographic positioning is ScandyCandy\u2019s clearest advantage. BonBon owns New York, Sweetish owns Lancaster/Pennsylvania, and Sockerbit owns Los Angeles. Nobody owned South Florida until ScandyCandy showed up. For the 6+ million people in the Miami metro area and the seasonal residents of Palm Beach, ScandyCandy is now the only place to walk into a store and fill a bag with authentic Swedish pick-and-mix candy.</p>
+
+<h2>The Founders\u2019 Swedish Credentials</h2>
+
+<p>This matters more than it might seem. The US Swedish candy market has attracted a mix of genuinely Swedish-connected founders and American entrepreneurs who saw a TikTok trend and moved fast. ScandyCandy falls firmly in the first category.</p>
+
+<p>Calle and Wille Olsen grew up in Helsingborg, a city of about 115,000 people in Sk\u00E5ne, Sweden\u2019s southernmost region. Helsingborg is a 40-minute drive from Malm\u00F6 and sits directly across the \u00D6resund strait from Helsing\u00F8r, Denmark. It\u2019s not a tourist destination \u2014 it\u2019s a working Swedish city where l\u00F6rdagsgodis at the local ICA or Coop is a weekly ritual, not an Instagram moment.</p>
+
+<p>The Swedish-American Chamber of Commerce of Florida confirmed ScandyCandy\u2019s Swedish roots in a December 2025 membership spotlight, noting the brothers\u2019 Helsingborg origins and their desire to bring authentic Swedish candy culture to the US. SACC membership isn\u2019t automatic \u2014 it signals a genuine connection to Swedish business and culture.</p>
+
+<p>Why does this matter for consumers? Authenticity of sourcing. A founder who grew up eating Ahlgrens Bilar on Saturday afternoons knows the difference between a genuine Swedish candy assortment and one assembled by someone who discovered these products on TikTok six months ago. ScandyCandy\u2019s product curation reflects actual Swedish taste preferences, not algorithmic trend-chasing.</p>
+
+<h2>What We\u2019d Change</h2>
+
+<p><strong>Inventory management.</strong> Selling out in nine days made for great press, but it\u2019s a logistics problem. Customers who drove across Miami to visit the store and found it closed were frustrated, not charmed. As ScandyCandy scales, solving the supply chain \u2014 importing enough Swedish candy to meet Florida demand consistently \u2014 is priority one.</p>
+
+<p><strong>Shipping transparency.</strong> The online store should clearly display the free shipping threshold, processing times, and carrier options on the product pages, not just in fine print. Competitors like Mums and Sweetish make this information immediately visible, and it matters for online conversion.</p>
+
+<p><strong>Product education.</strong> The website and in-store experience could do much more to explain Swedish candy culture. What is l\u00F6rdagsgodis and why do Swedes do it? Why is salty licorice an acquired taste worth acquiring? What makes Ahlgrens Bilar the best-selling candy in Sweden? This kind of context turns a one-time curiosity purchase into a repeat customer.</p>
+
+<p><strong>Review cultivation.</strong> ScandyCandy doesn\u2019t appear to have a meaningful presence on Trustpilot or other review aggregators yet. Building a review base now \u2014 while excitement is high and word-of-mouth is strong \u2014 will pay dividends when the viral moment fades and organic search becomes the primary customer acquisition channel.</p>
+
+<h2>The Bottom Line</h2>
+
+<p>ScandyCandy is the youngest store in our review series, and it shows \u2014 in both good and bad ways. The good: genuine Swedish founders with real cultural roots, a product that resonated so strongly it sold out in nine days, rapid expansion to a second location, and a clean-ingredient positioning that aligns with where the American candy market is heading. The bad: inventory challenges, limited online transparency, a thin review profile, and the inherent uncertainty of a business that\u2019s less than two years old.</p>
+
+<p>The comparison to <a href="/stores/bonbon-nyc">BonBon NYC</a> is instructive. BonBon went through a similar viral moment in 2023\u20132024, with TikTok-driven lines at their Brooklyn locations. They\u2019ve since expanded to six stores across the New York metro. ScandyCandy appears to be following a similar playbook in South Florida \u2014 ride the viral wave, prove the physical retail model, then expand. Whether they can execute that playbook as effectively remains to be seen.</p>
+
+<p>If you\u2019re in South Florida and curious about Swedish candy, ScandyCandy is worth the trip. The Coral Gables location on Miracle Mile is easy to get to, and the pick-and-mix experience is the closest thing to a Swedish candy store you\u2019ll find south of Pennsylvania. Just check their social media before visiting to make sure they\u2019re stocked and open.</p>
+
+<div style="background: #F0F9FF; border: 1px solid #BAE6FD; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #0C4A6E;">Can\u2019t Visit in Person?</h3>
+  <p style="margin-bottom: 8px;">If you\u2019re outside South Florida, <a href="/stores/mums-swedish-candy"><strong>Mums Swedish Candy</strong></a> ships BUBS and Swedish favorites nationwide with $69 free shipping and 1\u20132 day processing. They\u2019re our top pick for fast online ordering.</p>
+  <p style="margin-bottom: 0;">For a wider selection with budget-friendly pricing, <a href="/stores/swedish-sweets"><strong>Swedish Sweets</strong></a> offers 10% off your first order and ships from inside the US.</p>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Where is ScandyCandy located?</h3>
+<p>ScandyCandy has two Florida locations. The flagship store is at 241 Miracle Mile in Coral Gables (Miami area). A seasonal location operates at 150 Royal Poinciana Way in Palm Beach, inside The Current at The Royal Poinciana Plaza.</p>
+
+<h3>Who owns ScandyCandy?</h3>
+<p>ScandyCandy was founded by Calle and Wille Olsen, two brothers from Helsingborg, Sweden. They moved to the US to study and play soccer, started selling Swedish candy online in 2024, and opened their first physical store in August 2025.</p>
+
+<h3>Does ScandyCandy ship nationwide?</h3>
+<p>Yes. ScandyCandy\u2019s online store at scandycandy.store ships across the US. Free shipping is available, though the specific minimum order threshold is not prominently displayed on the website.</p>
+
+<h3>Why did ScandyCandy close after opening?</h3>
+<p>ScandyCandy temporarily closed on August 18, 2025 \u2014 nine days after opening \u2014 because they sold through their entire inventory. The founders had stocked enough for approximately a month of sales. They reopened on August 30, 2025, with fresh inventory.</p>
+
+<h3>Is ScandyCandy the same as Sockerbit or BonBon?</h3>
+<p>No. ScandyCandy, Sockerbit, and BonBon NYC are separate, independently owned companies. ScandyCandy is based in Florida, Sockerbit in Los Angeles, and BonBon in New York City. All three specialize in Swedish pick-and-mix candy but have no corporate connection.</p>
+
+<h3>Does ScandyCandy have vegan candy?</h3>
+<p>Yes. ScandyCandy offers a dedicated Vegan Mix ($18.95) and individual vegan-friendly Swedish candies. Their products contain no artificial dyes or high-fructose corn syrup, and gluten-free options are available with website filtering.</p>`,
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-16',
+    updatedAt: '2026-03-16',
+    estimatedReadTime: 15,
+    tags: ['review', 'Swedish candy', 'scandycandy', 'Coral Gables', 'Florida', 'pick and mix', 'where to buy'],
+    relatedArticleSlugs: ['best-swedish-candy-store', 'sweetish-candy-review', 'goodis-review', 'where-to-buy-swedish-candy-online'],
+    relatedCandySlugs: ['ahlgrens-bilar', 'bubs-sour-skulls', 'bubs-fruit-mix'],
+    relatedBrandSlugs: ['bubs', 'ahlgrens', 'malaco'],
+    priority: 'P1',
+    status: 'published',
+  },
+  {
+    id: 89,
+    slug: 'swedish-candy-store-review',
+    title: 'Swedish Candy Store Review 2026: 18,000 Customers but Where Are They Actually Based?',
+    silo: 'where-to-buy',
+    seoTitle: 'Swedish Candy Store Review 2026: swedishcandystore.com Tested | SwedishCrave',
+    metaDescription: 'Honest Swedish Candy Store review: we tested swedishcandystore.com, investigated the Colorado/Brooklyn/Sweden address discrepancy, and compared pricing, selection, and shipping.',
+    heroImage: '/images/blog/swedish-candy-store-review.jpg',
+    heroImageAlt: 'Swedish Candy Store website homepage showing make your own candy mix builder and Swedish candy products',
+    h1: 'Swedish Candy Store Review 2026: 18,000 Customers but Where Are They Actually Based?',
+    intro: 'Swedish Candy Store (swedishcandystore.com) has been operating since 2015 and claims over 18,000 customers worldwide. They offer a \"Make Your Own Mix\" feature, stock major Swedish brands like BUBS and Marabou, and promise free shipping on orders over $60. But when we started digging into the details, we found something unusual: the website says \"Swedish Candy Store, CO\" in the header, lists a Brooklyn address in the footer, and their Trustpilot registration traces back to Gothenburg, Sweden. We investigated the full picture.',
+    content: `<div style="background: linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%); border-left: 4px solid #EA580C; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #9A3412;">Quick Verdict</h3>
+  <p style="margin-bottom: 8px;"><strong>Best for:</strong> Online shoppers who want a custom mix-and-match Swedish candy experience with the lowest free shipping threshold in the market ($60). The \u201CMake Your Own Mix\u201D builder and Gwynnie influencer collaboration are nice touches. Legitimate business with 11 years of operation.</p>
+  <p style="margin-bottom: 8px;"><strong>Watch out for:</strong> The company\u2019s physical location is confusing \u2014 they claim Colorado, list a Brooklyn address, and register under a Swedish parent company (Nordcom AB). Only 16 Trustpilot reviews despite claiming 18,000+ customers. No physical stores. Minimal social media presence (43 TikTok followers).</p>
+  <p style="margin-bottom: 0;"><strong>Rating: 3.3/5</strong> \u2014 A functioning online store with decent product selection and the lowest free shipping threshold we\u2019ve seen. But the location ambiguity and thin review profile raise questions that a more transparent operation wouldn\u2019t.</p>
+</div>
+
+<h2>Who\u2019s Behind Swedish Candy Store?</h2>
+
+<p>According to their About page, Swedish Candy Store was founded in 2015 by two siblings identified only as Mariam (CEO, \u201Cbig sister\u201D) and Isak (\u201Clittle brother\u201D). The story is simple: three friends who wanted to share Swedish candy with the world. No last names. No LinkedIn profiles we could find. No press interviews.</p>
+
+<p>That\u2019s already unusual for a company claiming 18,000+ customers. Every other store in our review series \u2014 <a href="/articles/goodis-review">Goodis</a>, <a href="/articles/sweetish-candy-review">Sweetish</a>, <a href="/articles/scandycandy-review">ScandyCandy</a> \u2014 has founders with verifiable identities, press coverage, and public profiles. Swedish Candy Store\u2019s founders are essentially anonymous.</p>
+
+<p>Then there\u2019s the location question. The website header reads \u201CSwedish Candy Store, CO\u201D \u2014 implying Colorado. But the footer lists an address at 260 Ainslie Street, Brooklyn, NY 11211. And on Trustpilot, the company is registered under Nordcom AB at Hildedalsgatan 22, Gothenburg, Sweden. Nordcom AB appears to be a Sweden-based e-commerce platform and fulfillment company.</p>
+
+<p>To be clear: this doesn\u2019t mean Swedish Candy Store is a scam. Scamadviser rates them as safe/legit with low risk, and Trustpilot shows an actively claimed profile with a 3.8 rating. But the three-address situation \u2014 Colorado in the header, Brooklyn in the footer, Sweden in the corporate registration \u2014 is the kind of opacity that erodes consumer trust unnecessarily. A simple \u201CAbout Our Operations\u201D section explaining their fulfillment setup would solve this entirely.</p>
+
+<h2>Product Selection: Solid Range with a Custom Mix Builder</h2>
+
+<p>Swedish Candy Store carries most of the major Swedish brands: BUBS, Ahlgrens Bilar, Malaco, Marabou, Fazer, Cloetta, Candy People, Dave & Jon\u2019s, Delicato, and more. The total catalog runs to 100+ products \u2014 not the largest we\u2019ve reviewed (<a href="/articles/goodis-review">Goodis</a> has 313, <a href="/articles/sweetish-candy-review">Sweetish</a> has 200+), but respectable and covering the core Swedish candy experience.</p>
+
+<p>The standout feature is the \u201CMake Your Own Candy Mix\u201D builder. For $18.95\u2013$19.95, you can select your own combination of Swedish candies to create a personalized 450g (1 lb) bag. This is the closest thing to a digital l\u00F6rdagsgodis experience \u2014 picking exactly what you want from a wall of options, except the wall is a website. It\u2019s a smart product design that competitors like <a href="/stores/mums-swedish-candy">Mums</a> (curated-only boxes) and <a href="/articles/goodis-review">Goodis</a> (pre-set bundles) don\u2019t offer.</p>
+
+<p>They also carry a \u201CGwynnie\u2019s Signature Mix\u201D ($18.95\u2013$19.95), a collaboration with TikTok influencer Gwynnie (@gyynniekurt). Influencer collaborations are increasingly common in the Swedish candy space, and this one adds a curated option for shoppers who want someone else to pick for them.</p>
+
+<p>Pre-made mix options include Sweet Mix, Sour Mix, and BUBS Mix, all in the $12.95\u2013$19.95 range. Individual items start at $2.29 for smaller packaged candies and go up to $14.49 for premium products. The pricing is competitive \u2014 roughly in line with <a href="/articles/scandycandy-review">ScandyCandy</a> and slightly below <a href="/articles/goodis-review">Goodis</a> on a per-item basis.</p>
+
+<h2>Shipping and Pricing: The $60 Threshold Advantage</h2>
+
+<p>Swedish Candy Store offers free shipping on orders over $60 \u2014 the lowest threshold of any Swedish candy retailer we\u2019ve reviewed. Here\u2019s how that compares:</p>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+  <thead>
+    <tr style="background-color: #1E3A5F; color: white;">
+      <th style="padding: 12px; text-align: left;">Store</th>
+      <th style="padding: 12px; text-align: center;">Free Shipping</th>
+      <th style="padding: 12px; text-align: center;">Processing Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #F0F9FF;">
+      <td style="padding: 10px; font-weight: bold;">Swedish Candy Store</td>
+      <td style="padding: 10px; text-align: center;">$60</td>
+      <td style="padding: 10px; text-align: center;">1\u20133 days</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;"><a href="/stores/mums-swedish-candy">Mums</a></td>
+      <td style="padding: 10px; text-align: center;">$69</td>
+      <td style="padding: 10px; text-align: center;">1\u20132 days</td>
+    </tr>
+    <tr style="background-color: #F0F9FF;">
+      <td style="padding: 10px;"><a href="/articles/sweetish-candy-review">Sweetish</a></td>
+      <td style="padding: 10px; text-align: center;">$75</td>
+      <td style="padding: 10px; text-align: center;">2\u20134 days</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;"><a href="/articles/goodis-review">Goodis</a></td>
+      <td style="padding: 10px; text-align: center;">$99</td>
+      <td style="padding: 10px; text-align: center;">1\u20133 days</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>A $60 free shipping minimum means you can hit the threshold with just three custom mixes or a handful of packaged items. For casual buyers who want to try Swedish candy without committing to a $99 Goodis order, this is meaningful. Processing time of 1\u20133 business days is standard for the category.</p>
+
+<p>Swedish Candy Store also advertises \u201Cno import, tariff, or duty fees\u201D \u2014 which suggests they handle customs on their end, likely importing in bulk and shipping domestically from the Brooklyn address. If true, this removes a friction point that direct-from-Sweden shippers sometimes pass along to customers.</p>
+
+<h2>Customer Reviews: Thin but Not Alarming</h2>
+
+<p>Trustpilot is the primary review platform for Swedish Candy Store, and the numbers are... sparse. They have a 3.8 out of 5 rating based on just 16 reviews. For a company claiming 18,000+ customers over 11 years, that\u2019s a review rate of less than 0.1%.</p>
+
+<p>The reviews themselves are mixed but generally functional. Positive reviewers mention fast shipping, good packaging (recently improved per the company\u2019s responses), and quality candy. The main negative is shipping damage \u2014 one customer reported candy containers opening during transit, which the company acknowledged and responded to with a 20% discount code and packaging improvements.</p>
+
+<p>There are no Yelp or Google Reviews listings, which is expected for an online-only business with no physical storefront. No scam reports or non-delivery complaints appeared in our research, which is worth noting \u2014 some other Swedish candy e-commerce sites (like Swedish Candybox) have documented patterns of customer complaints about missing orders.</p>
+
+<p>The honest read: Swedish Candy Store appears to be a legitimate, small-scale operation that fulfills orders reliably but hasn\u2019t invested in building a review presence. The 18,000 customer claim is plausible over 11 years \u2014 that\u2019s about 1,600 customers per year or roughly 30 per week \u2014 but the near-absence of reviews makes it impossible to assess the customer experience at scale.</p>
+
+<h2>Social Media: The TikTok Myth</h2>
+
+<p>Despite operating in the middle of the biggest Swedish candy trend in American history, Swedish Candy Store has a surprisingly minimal social media footprint. Their TikTok account (@swedishcandystore) has 43 followers and 20,600 likes \u2014 numbers that suggest occasional viral content but virtually no audience retention. Instagram (@swedishcandystore_) sits at around 863 followers.</p>
+
+<p>Compare that to the competition:</p>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+  <thead>
+    <tr style="background-color: #1E3A5F; color: white;">
+      <th style="padding: 12px; text-align: left;">Store</th>
+      <th style="padding: 12px; text-align: center;">TikTok Followers</th>
+      <th style="padding: 12px; text-align: center;">Instagram Followers</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;"><a href="/articles/sweetish-candy-review">Sweetish</a></td>
+      <td style="padding: 10px; text-align: center;">21,000</td>
+      <td style="padding: 10px; text-align: center;">12,000</td>
+    </tr>
+    <tr style="background-color: #F0F9FF;">
+      <td style="padding: 10px;"><a href="/articles/scandycandy-review">ScandyCandy</a></td>
+      <td style="padding: 10px; text-align: center;">Active</td>
+      <td style="padding: 10px; text-align: center;">5,706</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Swedish Candy Store</td>
+      <td style="padding: 10px; text-align: center;">43</td>
+      <td style="padding: 10px; text-align: center;">~863</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>A store that\u2019s been operating since 2015 should have a stronger social media presence than a store that opened in August 2025. This gap suggests Swedish Candy Store relies more on SEO and direct traffic than social media marketing \u2014 a viable strategy, but one that limits brand-building and customer engagement.</p>
+
+<p>The Gwynnie influencer collaboration is a step in the right direction, leveraging someone else\u2019s audience rather than trying to build their own from scratch. But the broader picture is of a company that hasn\u2019t prioritized community-building the way newer, more aggressively marketed competitors have.</p>
+
+<h2>The Nordcom AB Connection</h2>
+
+<p>This is worth understanding. Swedish Candy Store\u2019s Trustpilot profile lists its parent entity as Nordcom AB, registered at an address in Gothenburg, Sweden. Nordcom appears to be a Swedish e-commerce infrastructure company that operates or supports multiple online stores.</p>
+
+<p>This isn\u2019t inherently problematic. Plenty of niche e-commerce stores operate through platform companies that handle fulfillment, customer service, and website management. What makes it notable here is the lack of transparency. The website presents Swedish Candy Store as a passion project by two siblings \u2014 \u201CMariam\u201D and \u201CIsak\u201D \u2014 without disclosing the corporate structure behind it.</p>
+
+<p>For practical purposes, what this likely means is: candy is imported from Sweden to a US warehouse (possibly the Brooklyn address), orders are processed through Nordcom\u2019s systems, and shipped domestically. The \u201CColorado\u201D reference in the header might indicate where the founding siblings are based, while the Brooklyn address is a shipping/fulfillment center. This is a perfectly normal e-commerce setup \u2014 but the three different locations without explanation is a transparency gap.</p>
+
+<h2>What We\u2019d Change</h2>
+
+<p><strong>Location transparency.</strong> Pick one: Colorado, Brooklyn, or Sweden. Explain the relationship between all three. Customers shouldn\u2019t have to play detective to figure out where their candy ships from.</p>
+
+<p><strong>Founder visibility.</strong> After 11 years and 18,000 customers, Mariam and Isak should have last names, photos, and at least a minimal public presence. In a market where competitors are doing NPR interviews and getting covered in the Today Show, anonymity reads as evasiveness, not privacy.</p>
+
+<p><strong>Review cultivation.</strong> Sixteen Trustpilot reviews over 11 years is not a review strategy \u2014 it\u2019s an absence of one. Even a basic post-purchase email asking for feedback would dramatically improve the review volume and signal confidence in the product.</p>
+
+<p><strong>Social media investment.</strong> Forty-three TikTok followers during the biggest Swedish candy trend in American history is a missed opportunity of historic proportions. The content writes itself \u2014 unboxing, mix-building, Swedish candy education, l\u00F6rdagsgodis storytelling. Every other competitor has figured this out.</p>
+
+<h2>The Bottom Line</h2>
+
+<p>Swedish Candy Store is the longest-running dedicated Swedish candy e-commerce site in our review series, operating since 2015. They offer a competitive product at the market\u2019s lowest free shipping threshold ($60), with a custom mix builder that\u2019s genuinely useful. The candy itself appears to be authentic Swedish products shipped from a US location, and there are no red flags around order fulfillment or product quality.</p>
+
+<p>But they\u2019ve also been out-executed by newer competitors on almost every dimension that matters in 2026: brand transparency, social media presence, review volume, and press coverage. A store that\u2019s been around for 11 years should be the established incumbent that newcomers are chasing. Instead, Swedish Candy Store feels like a quiet background operation while <a href="/articles/sweetish-candy-review">Sweetish</a>, <a href="/articles/scandycandy-review">ScandyCandy</a>, and <a href="/stores/bonbon-nyc">BonBon NYC</a> capture the spotlight.</p>
+
+<p>If you want the cheapest path to free shipping and a custom mix experience, Swedish Candy Store delivers. If you want to know exactly who\u2019s behind your candy and where it\u2019s coming from, look elsewhere.</p>
+
+<div style="background: #F0F9FF; border: 1px solid #BAE6FD; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #0C4A6E;">Want More Transparency with Your Swedish Candy?</h3>
+  <p style="margin-bottom: 8px;"><a href="/stores/mums-swedish-candy"><strong>Mums Swedish Candy</strong></a> ships from a US warehouse with $69 free shipping, 1\u20132 day processing, and a 15% affiliate partnership with SwedishCrave. Clear operations, fast delivery, BUBS-focused selection.</p>
+  <p style="margin-bottom: 0;">For the widest selection at competitive pricing, <a href="/stores/swedish-sweets"><strong>Swedish Sweets</strong></a> offers 10% off your first order with full transparency on sourcing and shipping.</p>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is Swedish Candy Store legit?</h3>
+<p>Yes. Swedish Candy Store has been operating since 2015, has a 3.8/5 Trustpilot rating, and is rated as safe by Scamadviser. They claim 18,000+ customers worldwide. While their corporate structure involves a Swedish parent company (Nordcom AB), we found no reports of non-delivery or scam activity.</p>
+
+<h3>Where is Swedish Candy Store located?</h3>
+<p>It\u2019s complicated. The website header says \u201CColorado,\u201D the footer lists 260 Ainslie Street in Brooklyn, NY, and their Trustpilot registration traces to Nordcom AB in Gothenburg, Sweden. The most likely explanation is that the founders are in Colorado, fulfillment operates from Brooklyn, and the parent company is in Sweden.</p>
+
+<h3>Does Swedish Candy Store have free shipping?</h3>
+<p>Yes. Free shipping is available on orders over $60 \u2014 the lowest threshold among the Swedish candy retailers we\u2019ve reviewed. Processing time is 1\u20133 business days.</p>
+
+<h3>Can you make a custom candy mix?</h3>
+<p>Yes. The \u201CMake Your Own Candy Mix\u201D feature lets you select individual Swedish candies to build a personalized 450g (1 lb) bag for $18.95\u2013$19.95. This is a unique feature that most competitors don\u2019t offer for online ordering.</p>
+
+<h3>Does Swedish Candy Store have a physical location?</h3>
+<p>No. Swedish Candy Store is an online-only retailer. They do not operate any physical stores or pick-and-mix locations. For in-person Swedish candy shopping, see our guides to <a href="/articles/sweetish-candy-review">Sweetish Candy</a> (Lancaster, PA), <a href="/articles/scandycandy-review">ScandyCandy</a> (Coral Gables, FL), or <a href="/stores/bonbon-nyc">BonBon NYC</a> (New York City).</p>
+
+<h3>Is Swedish Candy Store the same as Sweetish Candy or Sockerbit?</h3>
+<p>No. Despite the similar names, these are completely separate businesses. Swedish Candy Store is an online-only retailer, Sweetish Candy operates two stores in Lancaster PA, and Sockerbit has a flagship store in Los Angeles. They have no corporate connection.</p>`,
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-16',
+    updatedAt: '2026-03-16',
+    estimatedReadTime: 14,
+    tags: ['review', 'Swedish candy', 'swedish candy store', 'online store', 'where to buy'],
+    relatedArticleSlugs: ['best-swedish-candy-store', 'goodis-review', 'sweetish-candy-review', 'where-to-buy-swedish-candy-online'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'bubs-fruit-mix', 'marabou-mjolkchoklad', 'ahlgrens-bilar'],
+    relatedBrandSlugs: ['bubs', 'malaco', 'marabou', 'ahlgrens'],
+    priority: 'P1',
+    status: 'published',
+  },
+  {
+    id: 90,
+    slug: 'swedishcandynow-review',
+    title: 'SwedishCandyNow Review 2026: Shipping Direct from Sweden — Is It Worth the Wait?',
+    silo: 'where-to-buy',
+    seoTitle: 'SwedishCandyNow Review 2026: Direct-from-Sweden Candy Store | SwedishCrave',
+    metaDescription: 'Honest SwedishCandyNow review: ships direct from Sweden via PostNord, 3-10 day delivery, Trustpilot 4/5. We tested the experience and compared it to US-based alternatives.',
+    heroImage: '/images/blog/swedishcandynow-review.jpg',
+    heroImageAlt: 'SwedishCandyNow package being shipped from Sweden with PostNord showing Swedish candy brands inside',
+    h1: 'SwedishCandyNow Review 2026: Shipping Direct from Sweden — Is It Worth the Wait?',
+    intro: 'Most Swedish candy stores in the US import in bulk and ship domestically. SwedishCandyNow takes a different approach: they ship individual orders directly from Sweden via PostNord. That means you\u2019re getting candy straight from the source — but it also means 3\u201310 day delivery times, potential customs delays, and the inherent unpredictability of international shipping. We tested the service, verified their claims, and compared the experience to US-based alternatives.',
+    content: `<div style="background: linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%); border-left: 4px solid #EA580C; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #9A3412;">Quick Verdict</h3>
+  <p style="margin-bottom: 8px;"><strong>Best for:</strong> Swedish candy purists who want products shipped directly from Sweden with maximum freshness. Good for expats who want specific Swedish brands that US-based stores might not carry. Orders ship within 24 hours, and VAT is included in all prices \u2014 no surprise charges at checkout.</p>
+  <p style="margin-bottom: 8px;"><strong>Watch out for:</strong> Delivery takes 3\u201310 days (longer than any US-based competitor), and customs can add 2+ weeks in worst-case scenarios. Founder information is essentially nonexistent. Only 12 Trustpilot reviews. Tiny social media presence (34 Instagram followers). This is the least transparent store in our review series.</p>
+  <p style="margin-bottom: 0;"><strong>Rating: 3.1/5</strong> \u2014 The direct-from-Sweden model has appeal for a specific buyer, but the lack of transparency, minimal reviews, and shipping uncertainty make it hard to recommend over US-based alternatives that deliver faster with better customer support.</p>
+</div>
+
+<h2>Who\u2019s Behind SwedishCandyNow?</h2>
+
+<p>We don\u2019t know. And that\u2019s not for lack of trying.</p>
+
+<p>SwedishCandyNow\u2019s website has no About page with founder names, no origin story, no photos, and no company history. The only identifying information we found is a contact email (eddie@swedishcandynow.com) on their contact page. No LinkedIn profiles. No press coverage. No business registration details publicly available. No local news features. Nothing.</p>
+
+<p>For context, every other store in our five-part review series has identifiable founders: <a href="/articles/goodis-review">Goodis</a> has Timothy Alguc, Nemrud Kurt, and Isa Afram (profiled in NJBIZ). <a href="/articles/sweetish-candy-review">Sweetish</a> has Tyler Graybeal (covered by Lancaster Online, NPR, NBC). <a href="/articles/scandycandy-review">ScandyCandy</a> has Calle and Wille Olsen (featured by Miami New Times, SACC Florida). Even <a href="/articles/swedish-candy-store-review">Swedish Candy Store</a>, with its location ambiguity, at least names its founders as Mariam and Isak.</p>
+
+<p>SwedishCandyNow gives you an email address with a first name. That\u2019s it.</p>
+
+<p>This doesn\u2019t mean the operation is fraudulent \u2014 Trustpilot reviews from multi-year customers confirm reliable delivery. But in a market where trust matters (you\u2019re sending money internationally for perishable goods), the complete absence of founder information is a significant gap.</p>
+
+<h2>The Direct-from-Sweden Model</h2>
+
+<p>SwedishCandyNow\u2019s defining characteristic is that they ship directly from Sweden. While competitors like <a href="/stores/mums-swedish-candy">Mums</a>, <a href="/articles/goodis-review">Goodis</a>, and <a href="/articles/sweetish-candy-review">Sweetish</a> import candy in bulk to US warehouses and ship domestically, SwedishCandyNow processes each order in Sweden and ships it internationally via PostNord (Sweden\u2019s national postal service) or UPS.</p>
+
+<p>The advantage of this model is freshness and selection. You\u2019re getting candy that hasn\u2019t sat in a US warehouse for weeks or months. And because they\u2019re pulling from Swedish inventory, they can potentially offer products that US-based importers haven\u2019t brought over yet.</p>
+
+<p>The disadvantage is everything else about international shipping. Delivery takes 3\u201310 days under normal conditions. Customs processing can add two or more weeks in worst-case scenarios \u2014 and that\u2019s entirely outside the company\u2019s control. If your package gets held up in US customs, you\u2019re waiting. Compare that to Mums\u2019 1\u20132 day processing from a US warehouse, or Goodis shipping from New Jersey in 1\u20133 days.</p>
+
+<p>Here\u2019s how the shipping comparison breaks down:</p>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+  <thead>
+    <tr style="background-color: #1E3A5F; color: white;">
+      <th style="padding: 12px; text-align: left;">Store</th>
+      <th style="padding: 12px; text-align: center;">Ships From</th>
+      <th style="padding: 12px; text-align: center;">Typical Delivery</th>
+      <th style="padding: 12px; text-align: center;">Customs Risk</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;"><a href="/stores/mums-swedish-candy">Mums</a></td>
+      <td style="padding: 10px; text-align: center;">US warehouse</td>
+      <td style="padding: 10px; text-align: center;">3\u20135 days total</td>
+      <td style="padding: 10px; text-align: center;">None</td>
+    </tr>
+    <tr style="background-color: #F0F9FF;">
+      <td style="padding: 10px;"><a href="/articles/goodis-review">Goodis</a></td>
+      <td style="padding: 10px; text-align: center;">New Jersey</td>
+      <td style="padding: 10px; text-align: center;">3\u20136 days total</td>
+      <td style="padding: 10px; text-align: center;">None</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;"><a href="/articles/sweetish-candy-review">Sweetish</a></td>
+      <td style="padding: 10px; text-align: center;">Lancaster, PA</td>
+      <td style="padding: 10px; text-align: center;">4\u20138 days total</td>
+      <td style="padding: 10px; text-align: center;">None</td>
+    </tr>
+    <tr style="background-color: #F0F9FF;">
+      <td style="padding: 10px; font-weight: bold;">SwedishCandyNow</td>
+      <td style="padding: 10px; text-align: center;">Sweden</td>
+      <td style="padding: 10px; text-align: center;">3\u201310 days</td>
+      <td style="padding: 10px; text-align: center;">Possible 2+ week delay</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>One genuinely positive detail: orders ship within 24 hours. That\u2019s the fastest processing time in our entire review series. The delay comes after processing, during international transit and customs. But at least your order isn\u2019t sitting in a queue for 2\u20134 business days before it even ships.</p>
+
+<h2>Product Selection: Standard Swedish Brands</h2>
+
+<p>SwedishCandyNow stocks the core Swedish candy brands: Marabou (chocolate), BUBS (gummies), Ahlgrens Bilar, Candy People, Cloetta, and Malaco. The selection covers the main categories \u2014 chocolate, sour, sweet, and fruity gummies. No minimum order requirement, which means you can buy a single item if you want.</p>
+
+<p>The total catalog size isn\u2019t disclosed, and the website doesn\u2019t make it easy to count. It\u2019s smaller than <a href="/articles/goodis-review">Goodis</a> (313 products) or <a href="/articles/sweetish-candy-review">Sweetish</a> (200+), but the direct-from-Sweden model theoretically gives them access to products that US importers might not stock. Whether they actually leverage that advantage \u2014 stocking niche Swedish brands or seasonal items that US stores miss \u2014 isn\u2019t clear from the current product pages.</p>
+
+<p>There\u2019s no pick-and-mix or custom mix builder. You\u2019re buying pre-packaged products. If you want the l\u00F6rdagsgodis experience of building your own candy bag, <a href="/articles/sweetish-candy-review">Sweetish</a>, <a href="/articles/scandycandy-review">ScandyCandy</a>, and <a href="/articles/swedish-candy-store-review">Swedish Candy Store</a> all offer that.</p>
+
+<h2>Pricing: VAT-Inclusive but Opaque</h2>
+
+<p>SwedishCandyNow includes Swedish VAT (25%) in all listed prices, which means no surprise taxes at checkout. They also advertise a 5% first-order discount with code SWEET5. Specific product pricing varies, and the website doesn\u2019t prominently display a free shipping threshold \u2014 a transparency issue shared with some competitors.</p>
+
+<p>The pricing question for direct-from-Sweden shippers is always the same: is the candy cheaper at source than through a US importer? Not necessarily. US-based stores buy in bulk, which reduces per-unit costs. Direct-from-Sweden stores ship individual packages internationally, which adds carrier costs. The math usually favors US-based stores on total cost, especially once you factor in the risk of customs fees that some international shipments trigger.</p>
+
+<h2>Customer Reviews: Sparse but Positive</h2>
+
+<p>SwedishCandyNow has a 4-star rating on Trustpilot based on 12 reviews. That\u2019s not many reviews, but the ones that exist are largely positive. Customers highlight reliable delivery, good packaging, quality candy, and responsive customer service. One reviewer specifically noted being a repeat customer over two years with no delivery problems shipping to the US.</p>
+
+<p>The most telling data point: no reports of non-delivery, incorrect orders, or scam activity. In the Swedish candy e-commerce space, where some operators have documented complaint patterns, a clean record \u2014 even with limited reviews \u2014 is meaningful.</p>
+
+<p>We could not verify a Google Reviews rating. The claim of 4.9/5 with 23 Google reviews that circulates online may refer to an older dataset or a different platform. Based on our March 2026 research, Trustpilot\u2019s 4/5 from 12 reviews is the most reliable publicly available rating.</p>
+
+<h2>Social Media: Nearly Nonexistent</h2>
+
+<p>SwedishCandyNow\u2019s Instagram account (@swedishcandynow) has 34 followers, 71 posts, and 11 following. A TikTok account exists but follower metrics weren\u2019t publicly available during our research. There\u2019s no meaningful Facebook or YouTube presence.</p>
+
+<p>Thirty-four Instagram followers in 2026 is not a social media strategy \u2014 it\u2019s an abandoned profile. For comparison, <a href="/articles/scandycandy-review">ScandyCandy</a> has 5,700 Instagram followers after less than a year of physical retail. <a href="/articles/sweetish-candy-review">Sweetish</a> has 12,000. SwedishCandyNow either isn\u2019t trying to build a brand through social channels or is operating at a scale so small that marketing investment doesn\u2019t make sense.</p>
+
+<h2>Who Is This Store Actually For?</h2>
+
+<p>Despite the gaps, there is a specific use case where SwedishCandyNow makes sense: Swedish expats in the US who want a specific product that US stores don\u2019t carry, and who don\u2019t mind waiting for international delivery. If you grew up eating a particular Cloetta chocolate bar or a Malaco licorice that <a href="/stores/mums-swedish-candy">Mums</a> doesn\u2019t stock, a direct-from-Sweden shipper can fill that gap.</p>
+
+<p>For everyone else \u2014 Americans discovering Swedish candy for the first time, casual buyers curious about the TikTok trend, or anyone who wants their candy in less than a week \u2014 a US-based store will serve you better on every dimension: speed, customer support, transparency, and total cost.</p>
+
+<h2>What We\u2019d Change</h2>
+
+<p><strong>Add an About page.</strong> Who is Eddie? When was the company started? Where in Sweden do you operate from? Even a three-paragraph founder story would transform the trust equation. Right now, customers are sending money to an anonymous entity in Sweden with nothing but an email address for accountability.</p>
+
+<p><strong>Publish shipping costs upfront.</strong> International shipping pricing should be visible before checkout. Customers need to know the total cost before deciding to buy, especially when domestic alternatives exist at known price points.</p>
+
+<p><strong>Lean into the freshness angle.</strong> The direct-from-Sweden model\u2019s biggest advantage is product freshness. If SwedishCandyNow committed to guaranteed-fresh candy with manufacturing dates disclosed on product pages, they\u2019d have a genuine differentiator that US-based stores can\u2019t match.</p>
+
+<p><strong>Encourage reviews.</strong> Twelve Trustpilot reviews isn\u2019t a foundation \u2014 it\u2019s a suggestion. A post-purchase email campaign requesting reviews would build the social proof this store desperately needs.</p>
+
+<h2>The Bottom Line</h2>
+
+<p>SwedishCandyNow occupies a niche within a niche: direct-from-Sweden candy shipping for buyers who prioritize freshness or specific products over speed and transparency. The operation appears to be legitimate based on available reviews, with 24-hour processing and international delivery via PostNord.</p>
+
+<p>But in a market where US-based alternatives offer faster shipping, lower total costs, identifiable founders, and established review profiles, SwedishCandyNow\u2019s value proposition is narrow. Unless you specifically need something that only a Sweden-based shipper can provide, the US-based stores in our review series will serve most buyers better.</p>
+
+<div style="background: #F0F9FF; border: 1px solid #BAE6FD; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #0C4A6E;">Prefer US-Based Shipping?</h3>
+  <p style="margin-bottom: 8px;"><a href="/stores/mums-swedish-candy"><strong>Mums Swedish Candy</strong></a> ships from a US warehouse with $69 free shipping, 1\u20132 day processing, and your candy arrives in days \u2014 not weeks. Our top pick for online Swedish candy ordering.</p>
+  <p style="margin-bottom: 0;">For the widest selection, <a href="/stores/swedish-sweets"><strong>Swedish Sweets</strong></a> ships domestically with 10% off your first order and competitive pricing across hundreds of Swedish candy products.</p>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Does SwedishCandyNow ship from Sweden?</h3>
+<p>Yes. Unlike most US Swedish candy retailers, SwedishCandyNow ships individual orders directly from Sweden via PostNord or UPS. This means 3\u201310 day delivery times under normal conditions, with potential customs delays of 2+ weeks in some cases.</p>
+
+<h3>Is SwedishCandyNow legit?</h3>
+<p>Based on available evidence, yes. They have a 4/5 Trustpilot rating, no reports of non-delivery, and long-term customers who confirm reliable service. However, the company provides almost no public information about its founders or operations, which makes independent verification difficult.</p>
+
+<h3>How long does SwedishCandyNow take to deliver?</h3>
+<p>Orders are processed within 24 hours. Delivery to the US typically takes 3\u201310 days after shipping, but customs processing can add additional time. In worst-case scenarios, customs delays can extend to 2+ weeks.</p>
+
+<h3>Does SwedishCandyNow have free shipping?</h3>
+<p>The website does not prominently display a free shipping threshold. Shipping costs for international delivery from Sweden are not clearly listed before checkout. We recommend checking total costs including shipping before placing an order.</p>
+
+<h3>Is it cheaper to buy Swedish candy direct from Sweden?</h3>
+<p>Not usually. US-based stores that import in bulk typically offer lower per-unit costs and free domestic shipping above modest thresholds ($60\u2013$99). Direct-from-Sweden shipping adds international carrier costs and customs risk. The advantage of buying direct is access to products that US importers might not stock, and potentially fresher candy.</p>
+
+<h3>Who owns SwedishCandyNow?</h3>
+<p>The company does not publicly disclose its ownership. The only identifying information available is a contact email (eddie@swedishcandynow.com). No founder names, company registration details, or press coverage are publicly available.</p>`,
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-16',
+    updatedAt: '2026-03-16',
+    estimatedReadTime: 13,
+    tags: ['review', 'Swedish candy', 'swedishcandynow', 'online store', 'ship from Sweden', 'where to buy'],
+    relatedArticleSlugs: ['best-swedish-candy-store', 'goodis-review', 'swedish-candy-store-review', 'where-to-buy-swedish-candy-online'],
+    relatedCandySlugs: ['marabou-mjolkchoklad', 'bubs-sour-skulls', 'ahlgrens-bilar'],
+    relatedBrandSlugs: ['marabou', 'bubs', 'ahlgrens', 'malaco'],
+    priority: 'P1',
+    status: 'published',
+  },
 ]
 
 // Helper functions
