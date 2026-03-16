@@ -222,20 +222,26 @@ export default function Home() {
 
             {/* Blob shape */}
             <div className="w-[340px] h-[320px] sm:w-[400px] sm:h-[360px] md:w-[440px] md:h-[400px] bg-gradient-to-br from-sc-yellow-soft via-sc-orange-soft to-sc-pink-soft animate-blob-float flex items-center justify-center relative">
-              {/* Candy grid inside blob */}
+              {/* Real candy product grid inside blob */}
               <div className="grid grid-cols-2 gap-3 p-6 z-10">
                 {[
-                  { icon: <Cherry className="w-9 h-9 md:w-10 md:h-10 text-[#FECC02]" />, label: 'Gummies' },
-                  { icon: <Heart className="w-9 h-9 md:w-10 md:h-10 text-[#8B5E3C]" />, label: 'Chocolate' },
-                  { icon: <Zap className="w-9 h-9 md:w-10 md:h-10 text-[#22C55E]" />, label: 'Sour' },
-                  { icon: <Circle className="w-9 h-9 md:w-10 md:h-10 text-[#1A1A2E]" />, label: 'Licorice' },
+                  { image: '/images/candy/ahlgrens-bilar.png', label: 'Ahlgrens Bilar', bg: 'bg-[#FFF8E1]' },
+                  { image: '/images/candy/marabou-choklad.png', label: 'Marabou', bg: 'bg-[#F3E5F5]' },
+                  { image: '/images/candy/bubs-skulls.png', label: 'BUBS Skulls', bg: 'bg-[#E8F5E9]' },
+                  { image: '/images/candy/djungelvral.png', label: 'Djungelvrål', bg: 'bg-[#E3F2FD]' },
                 ].map((item, i) => (
                   <div
                     key={item.label}
-                    className={`w-[100px] h-[100px] sm:w-[110px] sm:h-[110px] md:w-[120px] md:h-[120px] bg-white rounded-sc-md flex flex-col items-center justify-center shadow-md hover:scale-110 hover:-rotate-3 transition-transform cursor-pointer ${i === 1 ? '-translate-y-3' : ''} ${i === 2 ? 'translate-y-2' : ''}`}
+                    className={`w-[100px] h-[100px] sm:w-[110px] sm:h-[110px] md:w-[120px] md:h-[120px] ${item.bg} rounded-sc-md flex flex-col items-center justify-center shadow-md hover:scale-110 hover:-rotate-3 transition-transform cursor-pointer overflow-hidden ${i === 1 ? '-translate-y-3' : ''} ${i === 2 ? 'translate-y-2' : ''}`}
                   >
-                    {item.icon}
-                    <span className="text-[11px] font-semibold text-sc-text-muted mt-1.5">{item.label}</span>
+                    <Image
+                      src={item.image}
+                      alt={item.label}
+                      width={80}
+                      height={80}
+                      className="object-contain w-[60px] h-[60px] sm:w-[68px] sm:h-[68px] md:w-[76px] md:h-[76px]"
+                    />
+                    <span className="text-[10px] font-semibold text-sc-text-muted mt-0.5">{item.label}</span>
                   </div>
                 ))}
               </div>
