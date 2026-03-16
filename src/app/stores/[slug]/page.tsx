@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Star } from 'lucide-react';
+import { Star, ArrowRight, Crown, BadgeCheck, TrendingUp, Users, Lock } from 'lucide-react';
 import {
   getStoreBySlug,
   getAllStoreSlugs,
@@ -15,8 +15,6 @@ const storeColors: Record<string, string> = {
   'bonbon-nyc': 'from-[#FF6B6B] to-[#EE5A24]',
   'swedish-sweets': 'from-[#0077B6] to-[#00B4D8]',
   'sockerbit': 'from-[#FFB6C1] to-[#FF69B4]',
-  'bubs-candy': 'from-[#E53E3E] to-[#C53030]',
-  'candyking': 'from-[#D69E2E] to-[#B7791F]',
   'sweetish-candy': 'from-[#9F7AEA] to-[#805AD5]',
   'goodis': 'from-[#38A169] to-[#2F855A]',
   /* Tier 2 */
@@ -62,6 +60,13 @@ const swedishSweetsData = {
   ],
 };
 
+/* Store tier logic */
+function getStoreTier(store: { affiliateStatus: string; logo?: string; rating: number }) {
+  if (store.affiliateStatus === 'live') return 'featured';
+  if (store.logo && store.rating >= 4.3) return 'verified';
+  return 'basic';
+}
+
 export async function generateStaticParams() {
   const slugs = getAllStoreSlugs();
   return slugs.map((slug) => ({
@@ -80,11 +85,14 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
 
   const isMums = store.slug === 'mums-swedish-candy';
   const isSwedishSweets = store.slug === 'swedish-sweets';
+  const tier = getStoreTier(store);
   const title = isMums
     ? 'Mums Swedish Candy Review 2026 — Is It Worth It? (Editor\'s Pick)'
     : isSwedishSweets
       ? 'Swedish Sweets Review 2026 — TikTok\'s Favorite Swedish Candy Store'
-      : `${store.name} Review — Where to Buy Swedish Candy`;
+      : tier === 'basic'
+        ? `${store.name} — Claim Your Store on SwedishCrave`
+        : `${store.name} Review — Where to Buy Swedish Candy`;
   const description = isMums
     ? `Mums Swedish Candy review: ${mumsData.customerRating}/5 stars from ${mumsData.customerCount} customers. Clean ingredients, no Red-40 or GMOs. BUBS mixes from $19.99. As seen on TIME & BuzzFeed.`
     : isSwedishSweets
@@ -110,30 +118,268 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   };
 }
 
-export default function StorePage({ params }: { params: { slug: string } }) {
-  const store = getStoreBySlug(params.slug);
+/* ════════════════════════════════════════════════════════════════
+   BASIC TIER — "Claim This Store" page
+   ════════════════════════════════════════════════════════════════ */
+function BasicStorePage({ store }: { store: typeof stores[number] }) {
+  return (
+    <>
+      <Breadcrumbs
+        items={[
+          { label: 'Where to Buy', href: '/where-to-buy' },
+          { label: store.name },
+        ]}
+      />
 
-  if (!store) {
-    return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-        <h1 className="font-display text-4xl font-extrabold text-sc-text mb-4">
-          Store Not Found
-        </h1>
-        <p className="text-sc-text-muted mb-8">
-          We couldn&apos;t find this store in our database.
-        </p>
-        <Link
-          href="/where-to-buy"
-          className="inline-flex items-center justify-center bg-sc-pink text-white px-8 py-3 rounded-sc-full font-semibold hover:bg-sc-pink-hover hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(255,45,135,0.3)]"
-        >
-          Back to All Stores
-        </Link>
-      </div>
-    );
-  }
+      {/* Compact Hero */}
+      <section className="bg-gradient-to-br from-gray-100 to-gray-50 py-12 md:py-16 border-b border-sc-border">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="w-20 h-20 bg-white rounded-sc-lg border border-sc-border flex items-center justify-center mx-auto mb-5 shadow-sm">
+            <span className="font-display text-[40px] font-extrabold text-sc-text/30">
+              {store.name.charAt(0).toUpperCase()}
+            </span>
+          </div>
+          <h1 className="font-display text-[28px] sm:text-[36px] font-extrabold text-sc-text tracking-[-0.3px] mb-3">
+            {store.name}
+          </h1>
+          <p className="text-sc-text-muted text-[15px] mb-2">
+            {store.shipsTo.join(', ')} &middot; {store.storeType === 'online' ? 'Online Store' : store.storeType === 'both' ? 'Online & Physical' : store.storeType === 'marketplace' ? 'Marketplace' : 'Physical Store'}
+            {store.founded && <> &middot; Founded {store.founded}</>}
+          </p>
+          <div className="flex items-center justify-center gap-1 mb-5">
+            {Array.from({ length: 5 }).map((_, i) => (
+              <Star
+                key={i}
+                size={16}
+                className={`${i < Math.floor(store.rating) ? 'fill-sc-yellow text-sc-yellow' : 'text-sc-border'}`}
+              />
+            ))}
+            <span className="text-sm font-semibold text-sc-text ml-1">{store.rating.toFixed(1)}</span>
+          </div>
+          <a
+            href={store.url}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className="inline-flex items-center gap-1.5 text-sc-primary font-semibold text-sm hover:underline"
+          >
+            Visit {store.name} &rarr;
+          </a>
+        </div>
+      </section>
 
+      {/* Claim This Store CTA */}
+      <section className="py-14 md:py-20">
+        <div className="max-w-[700px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-sc-primary/[0.04] to-sc-purple/[0.04] border-2 border-dashed border-sc-primary/30 rounded-sc-lg p-8 md:p-10 text-center">
+            <div className="w-14 h-14 bg-sc-primary/10 rounded-full flex items-center justify-center mx-auto mb-5">
+              <Lock className="w-7 h-7 text-sc-primary" />
+            </div>
+            <h2 className="font-display text-2xl md:text-[28px] font-bold text-sc-text mb-3">
+              Is This Your Store?
+            </h2>
+            <p className="text-[15px] text-sc-text-muted leading-relaxed mb-6 max-w-[480px] mx-auto">
+              This is a basic listing on SwedishCrave. Upgrade to get a full review page with
+              detailed descriptions, pros &amp; cons, product showcases, and direct traffic from
+              thousands of Swedish candy buyers.
+            </p>
+
+            {/* What you get */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8 text-left max-w-[440px] mx-auto">
+              {[
+                { icon: <Star className="w-4 h-4 text-sc-yellow" />, text: 'Full detailed review page' },
+                { icon: <Crown className="w-4 h-4 text-sc-orange" />, text: 'Homepage featured placement' },
+                { icon: <TrendingUp className="w-4 h-4 text-sc-teal" />, text: 'Dofollow SEO backlink' },
+                { icon: <Users className="w-4 h-4 text-sc-purple" />, text: 'Direct buyer traffic' },
+              ].map((item) => (
+                <div key={item.text} className="flex items-center gap-2.5">
+                  {item.icon}
+                  <span className="text-[13px] font-medium text-sc-text">{item.text}</span>
+                </div>
+              ))}
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <Link
+                href="/advertise"
+                className="inline-flex items-center justify-center gap-2 bg-sc-primary text-white font-bold text-[14px] px-7 py-3.5 rounded-sc-full hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,136,255,0.3)]"
+              >
+                Claim & Upgrade Your Listing <ArrowRight className="w-4 h-4" />
+              </Link>
+              <Link
+                href="/advertise#pricing"
+                className="inline-flex items-center justify-center gap-2 bg-sc-card border border-sc-border text-sc-text font-semibold text-[14px] px-7 py-3.5 rounded-sc-full hover:border-sc-primary hover:text-sc-primary transition-all"
+              >
+                See Pricing
+              </Link>
+            </div>
+
+            {/* See what a featured listing looks like */}
+            <p className="text-xs text-sc-text-muted mt-6">
+              See what a Featured listing looks like:{' '}
+              <Link href="/stores/mums-swedish-candy" className="text-sc-primary font-semibold hover:underline">
+                Mums Swedish Candy &rarr;
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Other Stores */}
+      <OtherStoresSection currentSlug={store.slug} />
+
+      <StoreSchemas store={store} />
+    </>
+  );
+}
+
+/* ════════════════════════════════════════════════════════════════
+   VERIFIED TIER — Teaser page with upgrade CTA
+   ════════════════════════════════════════════════════════════════ */
+function VerifiedStorePage({ store }: { store: typeof stores[number] }) {
+  const gradient = storeColors[store.slug] || 'from-sc-primary to-sc-purple';
+
+  return (
+    <>
+      <Breadcrumbs
+        items={[
+          { label: 'Where to Buy', href: '/where-to-buy' },
+          { label: store.name },
+        ]}
+      />
+
+      {/* Hero */}
+      <section className={`relative bg-gradient-to-br ${gradient} py-14 md:py-18 overflow-hidden`}>
+        <div className="absolute inset-0 bg-black/15" />
+        <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-10">
+            {/* Logo */}
+            <div className="w-24 h-24 md:w-28 md:h-28 rounded-sc-lg bg-white flex items-center justify-center flex-shrink-0 shadow-lg overflow-hidden p-3">
+              {store.logo ? (
+                <Image src={store.logo} alt={store.name} width={200} height={80} className="w-full h-auto" />
+              ) : (
+                <span className="font-display text-[56px] font-extrabold text-sc-text">
+                  {store.name.charAt(0).toUpperCase()}
+                </span>
+              )}
+            </div>
+
+            <div className="text-center md:text-left flex-1">
+              <div className="flex flex-wrap justify-center md:justify-start gap-2 mb-3">
+                <span className="inline-flex items-center gap-1.5 bg-white/20 backdrop-blur-sm text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1.5 rounded-sc-full">
+                  <BadgeCheck className="w-3.5 h-3.5" /> Verified Store
+                </span>
+                <span className="inline-flex items-center gap-1.5 bg-white/15 backdrop-blur-sm text-white/90 text-sm px-3 py-1.5 rounded-sc-full">
+                  {store.storeType === 'online' ? '🌐 Online Store' : store.storeType === 'both' ? '🏪 Online & Physical' : store.storeType === 'marketplace' ? '🛒 Marketplace' : '🏪 Physical Store'}
+                </span>
+              </div>
+
+              <h1 className="font-display text-[32px] sm:text-[42px] font-extrabold text-white tracking-[-0.5px] mb-3 drop-shadow-[0_2px_4px_rgba(0,0,0,0.2)]">
+                {store.name}
+              </h1>
+
+              <div className="flex items-center justify-center md:justify-start gap-2 mb-4">
+                <div className="flex items-center gap-0.5">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <Star key={i} size={18} className={`${i < Math.floor(store.rating) ? 'fill-white text-white' : 'text-white/40'}`} />
+                  ))}
+                </div>
+                <span className="text-lg font-bold text-white">{store.rating.toFixed(1)}</span>
+                <span className="text-sm text-white/70">/5</span>
+              </div>
+
+              <p className="text-base text-white/90 max-w-xl leading-relaxed mb-5">
+                {store.description}
+              </p>
+
+              <a
+                href={store.url}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="inline-flex items-center justify-center bg-white text-sc-text px-7 py-3 rounded-sc-full font-bold hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,0,0,0.15)] text-[14px]"
+              >
+                Visit {store.name} &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Quick Facts */}
+      <section className="border-b border-sc-border">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-7">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="text-center">
+              <p className="text-xs font-bold uppercase tracking-wide text-sc-text-muted mb-1">Ships To</p>
+              <p className="text-sm font-semibold text-sc-text">{store.shipsTo.join(', ')}</p>
+            </div>
+            <div className="text-center">
+              <p className="text-xs font-bold uppercase tracking-wide text-sc-text-muted mb-1">Store Type</p>
+              <p className="text-sm font-semibold text-sc-text capitalize">{store.storeType === 'both' ? 'Online & Physical' : store.storeType}</p>
+            </div>
+            <div className="text-center">
+              <p className="text-xs font-bold uppercase tracking-wide text-sc-text-muted mb-1">Price Range</p>
+              <p className="text-sm font-semibold text-sc-text">{store.priceRange === '$' ? 'Budget-friendly' : store.priceRange === '$$' ? 'Mid-range' : 'Premium'}</p>
+            </div>
+            <div className="text-center">
+              <p className="text-xs font-bold uppercase tracking-wide text-sc-text-muted mb-1">{store.founded ? 'Founded' : 'Rating'}</p>
+              <p className="text-sm font-semibold text-sc-text">{store.founded || `${store.rating}/5`}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Brief About */}
+      <section className="py-12 md:py-14">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="font-display text-xl font-extrabold text-sc-text mb-4">About {store.name}</h2>
+          <p className="text-sc-text-muted text-[15px] leading-[1.8] mb-8">
+            {store.description} Ships to {store.shipsTo.join(', ')}.
+            {store.headquarters && <> Based in {store.headquarters}.</>}
+            {store.physicalLocations && store.physicalLocations.length > 0 && (
+              <> Physical locations: {store.physicalLocations.join(', ')}.</>
+            )}
+          </p>
+
+          {/* Upgrade CTA Banner */}
+          <div className="bg-gradient-to-r from-sc-primary/[0.06] to-sc-purple/[0.06] border border-sc-primary/20 rounded-sc-lg p-6 md:p-8">
+            <div className="flex flex-col md:flex-row items-center gap-5">
+              <div className="flex-1 text-center md:text-left">
+                <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
+                  <Crown className="w-5 h-5 text-sc-orange" />
+                  <span className="text-sm font-bold text-sc-text">Want the full picture?</span>
+                </div>
+                <p className="text-[14px] text-sc-text-muted leading-relaxed">
+                  This is a Verified listing. The full Featured review includes detailed descriptions,
+                  pros &amp; cons analysis, product showcases, and priority placement on our homepage.
+                </p>
+              </div>
+              <div className="flex flex-col gap-2 flex-shrink-0">
+                <Link
+                  href="/advertise"
+                  className="inline-flex items-center justify-center gap-2 bg-sc-primary text-white font-bold text-[13px] px-6 py-3 rounded-sc-full hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,136,255,0.3)] whitespace-nowrap"
+                >
+                  Upgrade This Listing <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
+                <p className="text-[11px] text-sc-text-muted text-center">From $49/month</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Other Stores */}
+      <OtherStoresSection currentSlug={store.slug} />
+
+      <StoreSchemas store={store} />
+    </>
+  );
+}
+
+/* ════════════════════════════════════════════════════════════════
+   FEATURED TIER — Full review page (unchanged from current)
+   ════════════════════════════════════════════════════════════════ */
+function FeaturedStorePage({ store }: { store: typeof stores[number] }) {
   const gradient = storeColors[store.slug] || 'from-sc-pink to-sc-purple';
-  const otherStores = stores.filter((s) => s.slug !== store.slug).sort((a, b) => b.rating - a.rating);
   const shopUrl = store.affiliateUrl && store.affiliateUrl !== '#' ? store.affiliateUrl : store.url;
   const isAffiliate = store.affiliateUrl && store.affiliateUrl !== '#';
   const isMums = store.slug === 'mums-swedish-candy';
@@ -151,40 +397,20 @@ export default function StorePage({ params }: { params: { slug: string } }) {
 
       {/* Hero Section */}
       <section className={`relative bg-gradient-to-br ${gradient} py-16 md:py-20 overflow-hidden`}>
-        {/* Featured store: background product image for a lively hero */}
         {isMums && (
-          <Image
-            src="/images/stores/mums-products/party-mix.jpg"
-            alt=""
-            fill
-            className="object-cover opacity-20"
-            priority
-          />
+          <Image src="/images/stores/mums-products/party-mix.jpg" alt="" fill className="object-cover opacity-20" priority />
         )}
         {isSwedishSweets && (
-          <Image
-            src="/images/stores/swedish-sweets-products/bubs-mix.png"
-            alt=""
-            fill
-            className="object-cover opacity-15"
-            priority
-          />
+          <Image src="/images/stores/swedish-sweets-products/bubs-mix.png" alt="" fill className="object-cover opacity-15" priority />
         )}
         <div className="absolute inset-0 bg-black/15" />
         {isMums && <div className="absolute inset-0 bg-gradient-to-r from-[#00C9B7]/90 via-[#00C9B7]/70 to-transparent" />}
         {isSwedishSweets && <div className="absolute inset-0 bg-gradient-to-r from-[#0077B6]/90 via-[#0077B6]/70 to-transparent" />}
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
-            {/* Logo */}
             <div className="w-28 h-28 md:w-36 md:h-36 rounded-sc-lg bg-white flex items-center justify-center flex-shrink-0 shadow-lg overflow-hidden p-3">
               {store.logo ? (
-                <Image
-                  src={store.logo}
-                  alt={store.name}
-                  width={256}
-                  height={99}
-                  className="w-full h-auto"
-                />
+                <Image src={store.logo} alt={store.name} width={256} height={99} className="w-full h-auto" />
               ) : (
                 <span className="font-display text-[64px] md:text-[72px] font-extrabold text-sc-text">
                   {store.name.charAt(0).toUpperCase()}
@@ -192,7 +418,6 @@ export default function StorePage({ params }: { params: { slug: string } }) {
               )}
             </div>
 
-            {/* Info */}
             <div className="text-center md:text-left flex-1">
               <div className="flex flex-wrap justify-center md:justify-start gap-3 mb-4">
                 {store.featured && (
@@ -219,43 +444,25 @@ export default function StorePage({ params }: { params: { slug: string } }) {
                 {store.name}
               </h1>
 
-              {/* Rating */}
               <div className="flex items-center justify-center md:justify-start gap-2 mb-5">
                 <div className="flex items-center gap-0.5">
                   {Array.from({ length: 5 }).map((_, i) => (
-                    <Star
-                      key={i}
-                      size={20}
-                      className={`${
-                        i < Math.floor(store.rating)
-                          ? 'fill-white text-white'
-                          : 'text-white/40'
-                      }`}
-                    />
+                    <Star key={i} size={20} className={`${i < Math.floor(store.rating) ? 'fill-white text-white' : 'text-white/40'}`} />
                   ))}
                 </div>
                 <span className="text-lg font-bold text-white">{isMums ? mumsData.customerRating : isSwedishSweets ? swedishSweetsData.customerRating : store.rating.toFixed(1)}</span>
                 <span className="text-sm text-white/70">/5</span>
-                {isMums && (
-                  <span className="text-sm text-white/80 ml-1">({mumsData.customerCount} customers)</span>
-                )}
-                {isSwedishSweets && (
-                  <span className="text-sm text-white/80 ml-1">({swedishSweetsData.customerCount} customers)</span>
-                )}
+                {isMums && <span className="text-sm text-white/80 ml-1">({mumsData.customerCount} customers)</span>}
+                {isSwedishSweets && <span className="text-sm text-white/80 ml-1">({swedishSweetsData.customerCount} customers)</span>}
               </div>
 
-              <p className="text-lg text-white/90 max-w-2xl leading-relaxed mb-6">
-                {store.description}
-              </p>
+              <p className="text-lg text-white/90 max-w-2xl leading-relaxed mb-6">{store.description}</p>
 
-              {/* Press Mentions */}
               {isMums && (
                 <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 mb-6">
                   <span className="text-xs font-bold uppercase tracking-wider text-white/70">As Seen On</span>
                   {mumsData.pressMentions.map((pub) => (
-                    <span key={pub} className="bg-white/15 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-sc-full">
-                      {pub}
-                    </span>
+                    <span key={pub} className="bg-white/15 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-sc-full">{pub}</span>
                   ))}
                 </div>
               )}
@@ -316,62 +523,31 @@ export default function StorePage({ params }: { params: { slug: string } }) {
         </div>
       </section>
 
-      {/* MUMS ONLY: Bestsellers Product Grid */}
+      {/* MUMS: Bestsellers */}
       {isMums && (
         <section className="py-14 md:py-16 border-b border-sc-border">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-10">
-              <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[1.2px] text-[#2D8F2A] bg-sc-lime/[0.1] px-3.5 py-1.5 rounded-sc-full mb-3">
-                🔥 Best Sellers
-              </span>
-              <h2 className="font-display text-[28px] sm:text-[32px] font-extrabold text-sc-text tracking-[-0.3px]">
-                Most Popular Mums Candy Boxes
-              </h2>
+              <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[1.2px] text-[#2D8F2A] bg-sc-lime/[0.1] px-3.5 py-1.5 rounded-sc-full mb-3">🔥 Best Sellers</span>
+              <h2 className="font-display text-[28px] sm:text-[32px] font-extrabold text-sc-text tracking-[-0.3px]">Most Popular Mums Candy Boxes</h2>
               <p className="text-sc-text-muted mt-2">Every box is packed with clean-ingredient Swedish candy — no Red-40, no GMOs</p>
             </div>
-
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {mumsData.bestsellers.map((product) => (
-                <a
-                  key={product.name}
-                  href={shopUrl}
-                  target="_blank"
-                  rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`}
-                  className="group bg-sc-card border border-sc-border rounded-sc-lg overflow-hidden hover:border-sc-pink/40 hover:shadow-sc-hover hover:-translate-y-0.5 transition-all"
-                >
-                  {/* Product Image */}
+                <a key={product.name} href={shopUrl} target="_blank" rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`} className="group bg-sc-card border border-sc-border rounded-sc-lg overflow-hidden hover:border-sc-pink/40 hover:shadow-sc-hover hover:-translate-y-0.5 transition-all">
                   <div className="relative w-full aspect-square bg-gray-50">
-                    <Image
-                      src={product.image}
-                      alt={product.name}
-                      fill
-                      sizes="(max-width: 640px) 100vw, 50vw"
-                      className="object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                    {product.originalPrice && (
-                      <span className="absolute top-3 left-3 bg-sc-pink text-white text-[11px] font-bold px-2.5 py-1 rounded-sc-full">
-                        SALE
-                      </span>
-                    )}
+                    <Image src={product.image} alt={product.name} fill sizes="(max-width: 640px) 100vw, 50vw" className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                    {product.originalPrice && <span className="absolute top-3 left-3 bg-sc-pink text-white text-[11px] font-bold px-2.5 py-1 rounded-sc-full">SALE</span>}
                   </div>
-
-                  {/* Product Info */}
                   <div className="p-5">
                     <div className="flex items-start justify-between gap-3">
                       <div className="flex-1">
-                        <h3 className="font-display font-bold text-sc-text group-hover:text-sc-pink transition-colors text-[15px] mb-2">
-                          {product.name}
-                        </h3>
-                        <div className="flex items-center gap-1 text-sc-yellow text-xs mb-2">
-                          {'★★★★★'}
-                          <span className="text-sc-text-muted ml-1">{product.reviews} reviews</span>
-                        </div>
+                        <h3 className="font-display font-bold text-sc-text group-hover:text-sc-pink transition-colors text-[15px] mb-2">{product.name}</h3>
+                        <div className="flex items-center gap-1 text-sc-yellow text-xs mb-2">{'★★★★★'}<span className="text-sc-text-muted ml-1">{product.reviews} reviews</span></div>
                       </div>
                       <div className="text-right flex-shrink-0">
                         <span className="text-lg font-bold text-sc-pink">{product.price}</span>
-                        {product.originalPrice && (
-                          <span className="block text-xs text-sc-text-muted line-through">{product.originalPrice}</span>
-                        )}
+                        {product.originalPrice && <span className="block text-xs text-sc-text-muted line-through">{product.originalPrice}</span>}
                       </div>
                     </div>
                     <div className="flex items-center justify-between mt-3 pt-3 border-t border-sc-border">
@@ -380,76 +556,40 @@ export default function StorePage({ params }: { params: { slug: string } }) {
                         <span className="text-[10px] font-bold uppercase bg-sc-lime/[0.1] text-[#2D8F2A] px-2 py-0.5 rounded-sc-full">No GMOs</span>
                         <span className="text-[10px] font-bold uppercase bg-sc-lime/[0.1] text-[#2D8F2A] px-2 py-0.5 rounded-sc-full">Gluten-Free</span>
                       </div>
-                      <span className="text-sm font-semibold text-sc-pink group-hover:translate-x-0.5 transition-transform">
-                        Shop →
-                      </span>
+                      <span className="text-sm font-semibold text-sc-pink group-hover:translate-x-0.5 transition-transform">Shop →</span>
                     </div>
                   </div>
                 </a>
               ))}
             </div>
-
-            {/* CTA after products */}
             <div className="text-center mt-8">
-              <a
-                href={shopUrl}
-                target="_blank"
-                rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`}
-                className="inline-flex items-center justify-center bg-sc-pink text-white px-8 py-3.5 rounded-sc-full font-bold hover:bg-sc-pink-hover hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(255,45,135,0.3)] text-[15px]"
-              >
-                View All Mums Products →
-              </a>
+              <a href={shopUrl} target="_blank" rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`} className="inline-flex items-center justify-center bg-sc-pink text-white px-8 py-3.5 rounded-sc-full font-bold hover:bg-sc-pink-hover hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(255,45,135,0.3)] text-[15px]">View All Mums Products →</a>
               <p className="text-xs text-sc-text-muted mt-2">Free shipping on orders over $69</p>
             </div>
           </div>
         </section>
       )}
 
-      {/* SWEDISH SWEETS: Bestsellers Product Grid */}
+      {/* SWEDISH SWEETS: Bestsellers */}
       {isSwedishSweets && (
         <section className="py-14 md:py-16 border-b border-sc-border">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-10">
-              <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[1.2px] text-[#0077B6] bg-[#0077B6]/[0.08] px-3.5 py-1.5 rounded-sc-full mb-3">
-                🔥 Best Sellers
-              </span>
-              <h2 className="font-display text-[28px] sm:text-[32px] font-extrabold text-sc-text tracking-[-0.3px]">
-                Most Popular Swedish Sweets Products
-              </h2>
+              <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[1.2px] text-[#0077B6] bg-[#0077B6]/[0.08] px-3.5 py-1.5 rounded-sc-full mb-3">🔥 Best Sellers</span>
+              <h2 className="font-display text-[28px] sm:text-[32px] font-extrabold text-sc-text tracking-[-0.3px]">Most Popular Swedish Sweets Products</h2>
               <p className="text-sc-text-muted mt-2">Authentic Swedish candy &mdash; no GMOs, no HFCS, no Red 40, no artificial colors</p>
             </div>
-
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {swedishSweetsData.bestsellers.map((product) => (
-                <a
-                  key={product.name}
-                  href={shopUrl}
-                  target="_blank"
-                  rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`}
-                  className="group bg-sc-card border border-sc-border rounded-sc-lg overflow-hidden hover:border-[#0077B6]/40 hover:shadow-sc-hover hover:-translate-y-0.5 transition-all"
-                >
-                  {/* Product Image */}
+                <a key={product.name} href={shopUrl} target="_blank" rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`} className="group bg-sc-card border border-sc-border rounded-sc-lg overflow-hidden hover:border-[#0077B6]/40 hover:shadow-sc-hover hover:-translate-y-0.5 transition-all">
                   <div className="relative w-full aspect-square bg-gray-50">
-                    <Image
-                      src={product.image}
-                      alt={product.name}
-                      fill
-                      sizes="(max-width: 640px) 100vw, 50vw"
-                      className="object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
+                    <Image src={product.image} alt={product.name} fill sizes="(max-width: 640px) 100vw, 50vw" className="object-cover group-hover:scale-105 transition-transform duration-300" />
                   </div>
-
-                  {/* Product Info */}
                   <div className="p-5">
                     <div className="flex items-start justify-between gap-3">
                       <div className="flex-1">
-                        <h3 className="font-display font-bold text-sc-text group-hover:text-[#0077B6] transition-colors text-[15px] mb-2">
-                          {product.name}
-                        </h3>
-                        <div className="flex items-center gap-1 text-sc-yellow text-xs mb-2">
-                          {'\u2605\u2605\u2605\u2605\u2605'}
-                          <span className="text-sc-text-muted ml-1">{product.reviews} reviews</span>
-                        </div>
+                        <h3 className="font-display font-bold text-sc-text group-hover:text-[#0077B6] transition-colors text-[15px] mb-2">{product.name}</h3>
+                        <div className="flex items-center gap-1 text-sc-yellow text-xs mb-2">{'\u2605\u2605\u2605\u2605\u2605'}<span className="text-sc-text-muted ml-1">{product.reviews} reviews</span></div>
                       </div>
                       <div className="text-right flex-shrink-0">
                         <span className="text-lg font-bold text-[#0077B6]">{product.price}</span>
@@ -461,25 +601,14 @@ export default function StorePage({ params }: { params: { slug: string } }) {
                         <span className="text-[10px] font-bold uppercase bg-sc-lime/[0.1] text-[#2D8F2A] px-2 py-0.5 rounded-sc-full">No GMOs</span>
                         <span className="text-[10px] font-bold uppercase bg-sc-lime/[0.1] text-[#2D8F2A] px-2 py-0.5 rounded-sc-full">No HFCS</span>
                       </div>
-                      <span className="text-sm font-semibold text-[#0077B6] group-hover:translate-x-0.5 transition-transform">
-                        Shop &rarr;
-                      </span>
+                      <span className="text-sm font-semibold text-[#0077B6] group-hover:translate-x-0.5 transition-transform">Shop &rarr;</span>
                     </div>
                   </div>
                 </a>
               ))}
             </div>
-
-            {/* CTA after products */}
             <div className="text-center mt-8">
-              <a
-                href={shopUrl}
-                target="_blank"
-                rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`}
-                className="inline-flex items-center justify-center bg-[#0077B6] text-white px-8 py-3.5 rounded-sc-full font-bold hover:bg-[#005f92] hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,119,182,0.3)] text-[15px]"
-              >
-                View All Swedish Sweets Products &rarr;
-              </a>
+              <a href={shopUrl} target="_blank" rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`} className="inline-flex items-center justify-center bg-[#0077B6] text-white px-8 py-3.5 rounded-sc-full font-bold hover:bg-[#005f92] hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,119,182,0.3)] text-[15px]">View All Swedish Sweets Products &rarr;</a>
               <p className="text-xs text-sc-text-muted mt-2">Free shipping on orders over $50</p>
             </div>
           </div>
@@ -489,14 +618,11 @@ export default function StorePage({ params }: { params: { slug: string } }) {
       {/* About + Pros/Cons */}
       <section className="py-14 md:py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* About */}
           <div className="mb-12">
             <h2 className="font-display text-2xl font-extrabold text-sc-text mb-6">
               {isMums ? 'Our Mums Swedish Candy Review' : isSwedishSweets ? 'Our Swedish Sweets Review' : `About ${store.name}`}
             </h2>
-            <p className="text-sc-text-muted text-[16px] leading-[1.8]">
-              {store.longDescription}
-            </p>
+            <p className="text-sc-text-muted text-[16px] leading-[1.8]">{store.longDescription}</p>
             {isMums && (
               <p className="text-sc-text-muted text-[16px] leading-[1.8] mt-4">
                 What really stands out is their commitment to clean ingredients. With the recent FDA attention on artificial food dyes, Mums was already ahead of the curve — their entire catalog is free from Red-40, Yellow 5, Yellow 6, and other synthetic colorants that are being phased out in the US. For parents looking for better candy options or anyone concerned about food additives, Mums is one of the few stores that makes it easy to shop worry-free.
@@ -509,9 +635,7 @@ export default function StorePage({ params }: { params: { slug: string } }) {
             )}
           </div>
 
-          {/* Pros and Cons */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Pros */}
             <div className="bg-sc-lime/[0.05] border border-sc-lime/20 rounded-sc-lg p-6">
               <h3 className="font-display font-bold text-sc-text mb-4 flex items-center gap-2">
                 <span className="w-7 h-7 bg-sc-lime/20 rounded-full flex items-center justify-center text-sm">✓</span>
@@ -520,14 +644,11 @@ export default function StorePage({ params }: { params: { slug: string } }) {
               <ul className="space-y-3">
                 {store.pros.map((pro, i) => (
                   <li key={i} className="text-[14px] text-sc-text-muted flex items-start gap-2.5 leading-[1.6]">
-                    <span className="text-[#2D8F2A] mt-0.5 flex-shrink-0">✓</span>
-                    {pro}
+                    <span className="text-[#2D8F2A] mt-0.5 flex-shrink-0">✓</span>{pro}
                   </li>
                 ))}
               </ul>
             </div>
-
-            {/* Cons */}
             <div className="bg-red-50/50 border border-red-200/30 rounded-sc-lg p-6 dark:bg-red-900/5 dark:border-red-800/20">
               <h3 className="font-display font-bold text-sc-text mb-4 flex items-center gap-2">
                 <span className="w-7 h-7 bg-red-100 rounded-full flex items-center justify-center text-sm dark:bg-red-900/20">✗</span>
@@ -536,29 +657,20 @@ export default function StorePage({ params }: { params: { slug: string } }) {
               <ul className="space-y-3">
                 {store.cons.map((con, i) => (
                   <li key={i} className="text-[14px] text-sc-text-muted flex items-start gap-2.5 leading-[1.6]">
-                    <span className="text-red-400 mt-0.5 flex-shrink-0">✗</span>
-                    {con}
+                    <span className="text-red-400 mt-0.5 flex-shrink-0">✗</span>{con}
                   </li>
                 ))}
               </ul>
             </div>
           </div>
 
-          {/* Mid-page CTA — high-intent users */}
           {isMums && (
             <div className="mt-10 bg-gradient-to-r from-[#00C9B7]/[0.08] to-[#00A89D]/[0.05] border border-[#00C9B7]/20 rounded-sc-lg p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
               <div>
                 <p className="font-display font-bold text-sc-text">Ready to try Mums?</p>
                 <p className="text-sm text-sc-text-muted">Curated BUBS mixes starting at $19.99 — free shipping over $69</p>
               </div>
-              <a
-                href={shopUrl}
-                target="_blank"
-                rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`}
-                className="inline-flex items-center justify-center bg-[#00C9B7] text-white px-6 py-3 rounded-sc-full font-bold hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,201,183,0.3)] text-sm whitespace-nowrap"
-              >
-                Shop Mums &rarr;
-              </a>
+              <a href={shopUrl} target="_blank" rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`} className="inline-flex items-center justify-center bg-[#00C9B7] text-white px-6 py-3 rounded-sc-full font-bold hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,201,183,0.3)] text-sm whitespace-nowrap">Shop Mums &rarr;</a>
             </div>
           )}
           {isSwedishSweets && (
@@ -567,14 +679,7 @@ export default function StorePage({ params }: { params: { slug: string } }) {
                 <p className="font-display font-bold text-sc-text">Ready to try Swedish Sweets?</p>
                 <p className="text-sm text-sc-text-muted">Pick &amp; mix bags from $8.50 &mdash; free shipping over $50 &mdash; 10% off first order</p>
               </div>
-              <a
-                href={shopUrl}
-                target="_blank"
-                rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`}
-                className="inline-flex items-center justify-center bg-[#0077B6] text-white px-6 py-3 rounded-sc-full font-bold hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,119,182,0.3)] text-sm whitespace-nowrap"
-              >
-                Shop Swedish Sweets &rarr;
-              </a>
+              <a href={shopUrl} target="_blank" rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`} className="inline-flex items-center justify-center bg-[#0077B6] text-white px-6 py-3 rounded-sc-full font-bold hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,119,182,0.3)] text-sm whitespace-nowrap">Shop Swedish Sweets &rarr;</a>
             </div>
           )}
         </div>
@@ -583,10 +688,7 @@ export default function StorePage({ params }: { params: { slug: string } }) {
       {/* Specialties + Features */}
       <section className="bg-sc-bg-alt py-14 md:py-16 border-t border-sc-border">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-8 text-center">
-            What {store.name} is Known For
-          </h2>
-
+          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-8 text-center">What {store.name} is Known For</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-10">
             {store.specialties.map((specialty) => (
               <div key={specialty} className="bg-sc-card border border-sc-border rounded-sc-lg p-4 text-center">
@@ -594,28 +696,16 @@ export default function StorePage({ params }: { params: { slug: string } }) {
               </div>
             ))}
           </div>
-
-          {/* Shipping Info */}
           <div className="bg-sc-card border border-sc-border rounded-sc-lg p-6">
-            <h3 className="font-display font-bold text-sc-text mb-3 flex items-center gap-2">
-              📦 Shipping Information
-            </h3>
-            <p className="text-[14px] text-sc-text-muted leading-[1.7]">
-              {store.shippingInfo}
-            </p>
+            <h3 className="font-display font-bold text-sc-text mb-3 flex items-center gap-2">📦 Shipping Information</h3>
+            <p className="text-[14px] text-sc-text-muted leading-[1.7]">{store.shippingInfo}</p>
           </div>
-
-          {/* Physical Locations */}
           {store.physicalLocations && store.physicalLocations.length > 0 && (
             <div className="bg-sc-card border border-sc-border rounded-sc-lg p-6 mt-4">
-              <h3 className="font-display font-bold text-sc-text mb-3 flex items-center gap-2">
-                📍 Physical Locations
-              </h3>
+              <h3 className="font-display font-bold text-sc-text mb-3 flex items-center gap-2">📍 Physical Locations</h3>
               <div className="flex flex-wrap gap-2">
                 {store.physicalLocations.map((loc) => (
-                  <span key={loc} className="inline-flex items-center px-3 py-1.5 rounded-sc-full bg-sc-pink/[0.08] text-sc-pink text-[13px] font-semibold">
-                    {loc}
-                  </span>
+                  <span key={loc} className="inline-flex items-center px-3 py-1.5 rounded-sc-full bg-sc-pink/[0.08] text-sc-pink text-[13px] font-semibold">{loc}</span>
                 ))}
               </div>
             </div>
@@ -644,10 +734,8 @@ export default function StorePage({ params }: { params: { slug: string } }) {
               target="_blank"
               rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`}
               className={`inline-flex items-center justify-center px-8 py-3.5 rounded-sc-full font-bold hover:-translate-y-0.5 transition-all text-[15px] ${
-                isMums
-                  ? 'bg-white text-[#00A89D] shadow-[0_4px_16px_rgba(0,0,0,0.15)]'
-                  : isSwedishSweets
-                    ? 'bg-white text-[#0077B6] shadow-[0_4px_16px_rgba(0,0,0,0.15)]'
+                isMums ? 'bg-white text-[#00A89D] shadow-[0_4px_16px_rgba(0,0,0,0.15)]'
+                  : isSwedishSweets ? 'bg-white text-[#0077B6] shadow-[0_4px_16px_rgba(0,0,0,0.15)]'
                     : 'bg-sc-pink text-white hover:bg-sc-pink-hover shadow-[0_4px_16px_rgba(255,45,135,0.3)]'
               }`}
             >
@@ -656,9 +744,7 @@ export default function StorePage({ params }: { params: { slug: string } }) {
             <Link
               href="/where-to-buy"
               className={`inline-flex items-center justify-center px-7 py-3 rounded-sc-full font-semibold hover:-translate-y-0.5 transition-all ${
-                isFeaturedStore
-                  ? 'bg-white/15 text-white border border-white/30 hover:bg-white/25'
-                  : 'bg-sc-card border-[1.5px] border-sc-border text-sc-text hover:border-sc-purple hover:text-sc-purple'
+                isFeaturedStore ? 'bg-white/15 text-white border border-white/30 hover:bg-white/25' : 'bg-sc-card border-[1.5px] border-sc-border text-sc-text hover:border-sc-purple hover:text-sc-purple'
               }`}
             >
               Compare All Stores
@@ -668,55 +754,65 @@ export default function StorePage({ params }: { params: { slug: string } }) {
       </section>
 
       {/* Other Stores */}
-      <section className="bg-sc-bg-alt py-14 md:py-16 border-t border-sc-border">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-display text-2xl font-extrabold text-sc-text mb-8 text-center">
-            Other Swedish Candy Stores
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {otherStores.slice(0, 3).map((s) => (
-              <Link
-                key={s.slug}
-                href={`/stores/${s.slug}`}
-                className="group bg-sc-card border border-sc-border rounded-sc-lg p-5 hover:border-sc-pink hover:shadow-sc-hover hover:-translate-y-0.5 transition-all"
-              >
-                <div className="flex items-center justify-between mb-3">
-                  <h3 className="font-display font-bold text-sc-text group-hover:text-sc-pink transition-colors">
-                    {s.name}
-                  </h3>
-                  {s.featured && (
-                    <span className="text-[10px] font-bold uppercase bg-sc-pink/10 text-sc-pink px-2 py-0.5 rounded-sc-full">
-                      Editor&apos;s Pick
-                    </span>
-                  )}
-                </div>
-                <div className="flex items-center gap-1 mb-3">
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <Star
-                      key={i}
-                      size={14}
-                      className={`${
-                        i < Math.floor(s.rating)
-                          ? 'fill-sc-yellow text-sc-yellow'
-                          : 'text-sc-border'
-                      }`}
-                    />
-                  ))}
-                  <span className="text-xs font-semibold text-sc-text ml-1">{s.rating.toFixed(1)}</span>
-                </div>
-                <p className="text-[13px] text-sc-text-muted leading-[1.6] line-clamp-2 mb-3">
-                  {s.description}
-                </p>
-                <span className="text-sm font-semibold text-sc-pink">
-                  View full review →
-                </span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+      <OtherStoresSection currentSlug={store.slug} />
 
-      {/* BreadcrumbList Schema */}
+      <StoreSchemas store={store} />
+    </>
+  );
+}
+
+/* ════════════════════════════════════════════════════════════════
+   SHARED COMPONENTS
+   ════════════════════════════════════════════════════════════════ */
+function OtherStoresSection({ currentSlug }: { currentSlug: string }) {
+  const otherStores = stores
+    .filter((s) => s.slug !== currentSlug && s.affiliateStatus === 'live')
+    .sort((a, b) => b.rating - a.rating)
+    .slice(0, 3);
+
+  // If not enough featured stores, fill with highest-rated
+  const remaining = 3 - otherStores.length;
+  if (remaining > 0) {
+    const more = stores
+      .filter((s) => s.slug !== currentSlug && s.affiliateStatus !== 'live')
+      .sort((a, b) => b.rating - a.rating)
+      .slice(0, remaining);
+    otherStores.push(...more);
+  }
+
+  return (
+    <section className="bg-sc-bg-alt py-14 md:py-16 border-t border-sc-border">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="font-display text-2xl font-extrabold text-sc-text mb-8 text-center">Other Swedish Candy Stores</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {otherStores.map((s) => (
+            <Link key={s.slug} href={`/stores/${s.slug}`} className="group bg-sc-card border border-sc-border rounded-sc-lg p-5 hover:border-sc-pink hover:shadow-sc-hover hover:-translate-y-0.5 transition-all">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="font-display font-bold text-sc-text group-hover:text-sc-pink transition-colors">{s.name}</h3>
+                {s.featured && <span className="text-[10px] font-bold uppercase bg-sc-pink/10 text-sc-pink px-2 py-0.5 rounded-sc-full">Editor&apos;s Pick</span>}
+              </div>
+              <div className="flex items-center gap-1 mb-3">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <Star key={i} size={14} className={`${i < Math.floor(s.rating) ? 'fill-sc-yellow text-sc-yellow' : 'text-sc-border'}`} />
+                ))}
+                <span className="text-xs font-semibold text-sc-text ml-1">{s.rating.toFixed(1)}</span>
+              </div>
+              <p className="text-[13px] text-sc-text-muted leading-[1.6] line-clamp-2 mb-3">{s.description}</p>
+              <span className="text-sm font-semibold text-sc-pink">View full review →</span>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function StoreSchemas({ store }: { store: typeof stores[number] }) {
+  const isMums = store.slug === 'mums-swedish-candy';
+  const isSwedishSweets = store.slug === 'swedish-sweets';
+
+  return (
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -724,30 +820,13 @@ export default function StorePage({ params }: { params: { slug: string } }) {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              {
-                '@type': 'ListItem',
-                position: 1,
-                name: 'Home',
-                item: 'https://www.swedishcrave.com',
-              },
-              {
-                '@type': 'ListItem',
-                position: 2,
-                name: 'Where to Buy',
-                item: 'https://www.swedishcrave.com/where-to-buy',
-              },
-              {
-                '@type': 'ListItem',
-                position: 3,
-                name: store.name,
-                item: `https://www.swedishcrave.com/stores/${store.slug}`,
-              },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.swedishcrave.com' },
+              { '@type': 'ListItem', position: 2, name: 'Where to Buy', item: 'https://www.swedishcrave.com/where-to-buy' },
+              { '@type': 'ListItem', position: 3, name: store.name, item: `https://www.swedishcrave.com/stores/${store.slug}` },
             ],
           }),
         }}
       />
-
-      {/* Store/Organization Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -756,7 +835,7 @@ export default function StorePage({ params }: { params: { slug: string } }) {
             '@type': store.physicalLocations ? 'Store' : 'OnlineStore',
             name: store.name,
             url: store.url,
-            description: store.longDescription,
+            description: store.longDescription || store.description,
             ...(store.founded && { foundingDate: store.founded }),
             ...(store.headquarters && {
               address: {
@@ -779,8 +858,6 @@ export default function StorePage({ params }: { params: { slug: string } }) {
           }),
         }}
       />
-
-      {/* Review Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -792,21 +869,42 @@ export default function StorePage({ params }: { params: { slug: string } }) {
               name: store.name,
               url: store.url,
             },
-            author: {
-              '@type': 'Organization',
-              name: 'SwedishCrave',
-              url: 'https://www.swedishcrave.com',
-            },
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: store.rating,
-              bestRating: 5,
-              worstRating: 1,
-            },
+            author: { '@type': 'Organization', name: 'SwedishCrave', url: 'https://www.swedishcrave.com' },
+            reviewRating: { '@type': 'Rating', ratingValue: store.rating, bestRating: 5, worstRating: 1 },
             reviewBody: store.description,
           }),
         }}
       />
     </>
   );
+}
+
+/* ════════════════════════════════════════════════════════════════
+   MAIN PAGE COMPONENT — Routes to the correct tier
+   ════════════════════════════════════════════════════════════════ */
+export default function StorePage({ params }: { params: { slug: string } }) {
+  const store = getStoreBySlug(params.slug);
+
+  if (!store) {
+    return (
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+        <h1 className="font-display text-4xl font-extrabold text-sc-text mb-4">Store Not Found</h1>
+        <p className="text-sc-text-muted mb-8">We couldn&apos;t find this store in our database.</p>
+        <Link href="/where-to-buy" className="inline-flex items-center justify-center bg-sc-pink text-white px-8 py-3 rounded-sc-full font-semibold hover:bg-sc-pink-hover hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(255,45,135,0.3)]">
+          Back to All Stores
+        </Link>
+      </div>
+    );
+  }
+
+  const tier = getStoreTier(store);
+
+  switch (tier) {
+    case 'featured':
+      return <FeaturedStorePage store={store} />;
+    case 'verified':
+      return <VerifiedStorePage store={store} />;
+    default:
+      return <BasicStorePage store={store} />;
+  }
 }

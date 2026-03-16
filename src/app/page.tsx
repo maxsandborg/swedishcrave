@@ -745,10 +745,10 @@ export default function Home() {
                   SwedishCrave is the #1 resource for Swedish candy in the US. Get your store in front of thousands of candy lovers every month.
                 </p>
                 <Link
-                  href="/contact"
+                  href="/advertise"
                   className="inline-flex items-center gap-2 bg-sc-primary text-white font-semibold text-[15px] px-7 py-3.5 rounded-sc-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
                 >
-                  Get in Touch <ArrowRight className="w-4 h-4" />
+                  View Listing Plans <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
               <div className="grid grid-cols-2 gap-4">
