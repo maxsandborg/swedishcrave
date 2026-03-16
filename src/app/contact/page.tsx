@@ -48,10 +48,10 @@ export default function ContactPage() {
               Brand collaborations, affiliate partnerships, or media inquiries.
             </p>
             <a
-              href="mailto:partners@swedishcrave.com"
+              href="mailto:hello@swedishcrave.com"
               className="text-sc-pink font-semibold hover:underline"
             >
-              partners@swedishcrave.com
+              hello@swedishcrave.com
             </a>
           </div>
         </div>
