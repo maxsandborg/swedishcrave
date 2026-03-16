@@ -236,159 +236,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========== 2. MOST POPULAR — Hero + grid layout with real images ========== */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-white to-sc-bg">
-        <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between mb-10 gap-4">
-            <div>
-              <span className="inline-flex items-center gap-1.5 bg-sc-orange/10 text-sc-orange font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-orange/20 mb-3">
-                <Flame className="w-3.5 h-3.5" /> Editor&apos;s Picks
-              </span>
-              <h2 className="font-display text-3xl md:text-4xl font-bold text-sc-text">
-                Most Popular Swedish Candy
-              </h2>
-              <p className="text-sc-text-muted mt-1 max-w-[480px]">
-                Rated by our team &mdash; these are the Swedish candies worth trying first.
-              </p>
-            </div>
-            <Link
-              href="/candy"
-              className="inline-flex items-center gap-1.5 text-sc-primary font-semibold text-sm hover:gap-2.5 transition-all shrink-0"
-            >
-              Browse all {featuredCandy.length > 6 ? '30+' : '33'} candies <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
-
-          {featuredCandy.length > 0 && (
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-5">
-              {/* ── HERO CARD — #1 product gets spotlight ── */}
-              <Link
-                href={`/candy/${featuredCandy[0].slug}`}
-                className="group relative bg-white rounded-sc-lg overflow-hidden border border-sc-border hover:border-sc-primary/40 hover:shadow-2xl transition-all row-span-2"
-              >
-                <div className="absolute top-4 left-4 z-10 flex flex-col gap-2">
-                  <span className="bg-sc-orange text-white text-[11px] font-bold px-3 py-1.5 rounded-sc-full inline-flex items-center gap-1 shadow-lg">
-                    <Trophy className="w-3 h-3" /> #1 Pick
-                  </span>
-                  {featuredCandy[0].trending && (
-                    <span className="bg-white/90 backdrop-blur-sm text-sc-text text-[11px] font-semibold px-3 py-1 rounded-sc-full inline-flex items-center gap-1 border border-sc-border">
-                      <Flame className="w-3 h-3 text-sc-orange" /> Trending on TikTok
-                    </span>
-                  )}
-                </div>
-                <div className="h-[240px] lg:h-full lg:min-h-[340px] bg-gradient-to-br from-amber-50 to-orange-50 flex items-center justify-center relative overflow-hidden">
-                  <Image
-                    src={featuredCandy[0].image}
-                    alt={featuredCandy[0].name}
-                    width={280}
-                    height={280}
-                    className="object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-                <div className="p-6 lg:absolute lg:bottom-0 lg:left-0 lg:right-0 lg:bg-gradient-to-t lg:from-white lg:via-white/95 lg:to-transparent lg:pt-16 lg:pb-6 lg:px-6">
-                  <div className="flex items-center gap-2 mb-1.5">
-                    <StarRating rating={featuredCandy[0].rating.overall} />
-                    <span className="text-sm font-semibold text-sc-text">{featuredCandy[0].rating.overall.toFixed(1)}</span>
-                    <span className="text-xs text-sc-text-muted">&middot; {featuredCandy[0].brand}</span>
-                  </div>
-                  <h3 className="text-xl md:text-2xl font-bold text-sc-text mb-1 group-hover:text-sc-primary transition-colors">
-                    {featuredCandy[0].name}
-                  </h3>
-                  <p className="text-sm text-sc-text-muted mb-3 line-clamp-2">{featuredCandy[0].description}</p>
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-3">
-                      <span className="text-lg font-bold text-sc-primary">{featuredCandy[0].priceRange}</span>
-                      {featuredCandy[0].affiliateLinks[0] && (
-                        <span className="text-xs text-sc-text-muted">at {featuredCandy[0].affiliateLinks[0].store}</span>
-                      )}
-                    </div>
-                    <span className="bg-sc-primary text-white px-4 py-2 rounded-sc-full text-sm font-semibold group-hover:bg-sc-dark transition-colors inline-flex items-center gap-1.5">
-                      Read Review <ArrowRight className="w-3.5 h-3.5" />
-                    </span>
-                  </div>
-                </div>
-              </Link>
-
-              {/* ── RIGHT COLUMN — 2x2 grid of remaining products ── */}
-              <div className="grid grid-cols-2 gap-4">
-                {featuredCandy.slice(1, 5).map((candy, i) => (
-                  <Link
-                    key={candy.slug}
-                    href={`/candy/${candy.slug}`}
-                    className="group bg-white rounded-sc-lg overflow-hidden border border-sc-border hover:border-sc-primary/30 hover:shadow-xl hover:-translate-y-0.5 transition-all"
-                  >
-                    <div className="h-[120px] md:h-[140px] bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center relative overflow-hidden">
-                      {i === 0 && candy.trending && (
-                        <span className="absolute top-2 left-2 z-10 bg-sc-blue text-white text-[10px] font-bold px-2 py-0.5 rounded-sc-full inline-flex items-center gap-0.5">
-                          <Flame className="w-2.5 h-2.5" /> Viral
-                        </span>
-                      )}
-                      {i === 1 && (
-                        <span className="absolute top-2 left-2 z-10 bg-sc-yellow text-sc-dark text-[10px] font-bold px-2 py-0.5 rounded-sc-full inline-flex items-center gap-0.5">
-                          <Star className="w-2.5 h-2.5" /> Classic
-                        </span>
-                      )}
-                      <Image
-                        src={candy.image}
-                        alt={candy.name}
-                        width={140}
-                        height={140}
-                        className="object-contain drop-shadow-md group-hover:scale-110 transition-transform duration-300"
-                      />
-                    </div>
-                    <div className="p-3 md:p-4">
-                      <p className="text-[10px] font-semibold text-sc-text-muted/60 uppercase tracking-wider mb-0.5">{candy.brand}</p>
-                      <h3 className="text-[14px] font-bold text-sc-text mb-1 group-hover:text-sc-primary transition-colors leading-tight">
-                        {candy.name}
-                      </h3>
-                      <div className="flex items-center gap-1 mb-2">
-                        <StarRating rating={candy.rating.overall} />
-                        <span className="text-[12px] font-medium text-sc-text-muted">{candy.rating.overall.toFixed(1)}</span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span className="text-sm font-bold text-sc-primary">
-                          {candy.priceRange.split('\u2013')[0].trim()}
-                        </span>
-                        <span className="w-7 h-7 rounded-full bg-sc-primary/10 text-sc-primary flex items-center justify-center group-hover:bg-sc-primary group-hover:text-white transition-colors">
-                          <ArrowRight className="w-3.5 h-3.5" />
-                        </span>
-                      </div>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* ── DARK CTA STRIP — affiliate conversion push ── */}
-          <div className="bg-gradient-to-r from-sc-dark to-[#2D2D4E] rounded-sc-lg p-6 md:p-8 flex flex-col sm:flex-row items-center justify-between gap-6 mt-5">
-            <div>
-              <h3 className="text-white text-lg md:text-xl font-bold mb-1">
-                Ready to try Swedish candy?
-              </h3>
-              <p className="text-white/50 text-sm">
-                Free shipping from $69 at our partner stores. Every purchase supports SwedishCrave.
-              </p>
-            </div>
-            <div className="flex flex-col sm:flex-row gap-3 shrink-0">
-              <Link
-                href="/stores/mums-swedish-candy"
-                className="bg-sc-primary hover:bg-sc-primary/90 text-white px-6 py-3 rounded-sc-full text-sm font-bold transition-colors inline-flex items-center gap-1.5 whitespace-nowrap"
-              >
-                Shop Mums &mdash; Free Shipping <ArrowRight className="w-4 h-4" />
-              </Link>
-              <Link
-                href="/candy"
-                className="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-6 py-3 rounded-sc-full text-sm font-semibold transition-colors inline-flex items-center gap-1.5 whitespace-nowrap"
-              >
-                Browse All Candy
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ========== 3. STORE DIRECTORY — Where to Buy (moved up for conversion) ========== */}
+      {/* ========== 2. STORE DIRECTORY — Where to Buy Swedish Candy ========== */}
       <section className="py-16 md:py-20 bg-gradient-to-b from-sc-teal-soft to-sc-bg">
         <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
@@ -546,6 +394,158 @@ export default function Home() {
             >
               View full store comparison <ArrowRight className="w-4 h-4" />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ========== 3. MOST POPULAR — Hero + grid layout with real images ========== */}
+      <section className="py-16 md:py-24 bg-gradient-to-b from-white to-sc-bg">
+        <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between mb-10 gap-4">
+            <div>
+              <span className="inline-flex items-center gap-1.5 bg-sc-orange/10 text-sc-orange font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-orange/20 mb-3">
+                <Flame className="w-3.5 h-3.5" /> Editor&apos;s Picks
+              </span>
+              <h2 className="font-display text-3xl md:text-4xl font-bold text-sc-text">
+                Most Popular Swedish Candy
+              </h2>
+              <p className="text-sc-text-muted mt-1 max-w-[480px]">
+                Rated by our team &mdash; these are the Swedish candies worth trying first.
+              </p>
+            </div>
+            <Link
+              href="/candy"
+              className="inline-flex items-center gap-1.5 text-sc-primary font-semibold text-sm hover:gap-2.5 transition-all shrink-0"
+            >
+              Browse all {featuredCandy.length > 6 ? '30+' : '33'} candies <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+
+          {featuredCandy.length > 0 && (
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-5">
+              {/* ── HERO CARD — #1 product gets spotlight ── */}
+              <Link
+                href={`/candy/${featuredCandy[0].slug}`}
+                className="group relative bg-white rounded-sc-lg overflow-hidden border border-sc-border hover:border-sc-primary/40 hover:shadow-2xl transition-all row-span-2"
+              >
+                <div className="absolute top-4 left-4 z-10 flex flex-col gap-2">
+                  <span className="bg-sc-orange text-white text-[11px] font-bold px-3 py-1.5 rounded-sc-full inline-flex items-center gap-1 shadow-lg">
+                    <Trophy className="w-3 h-3" /> #1 Pick
+                  </span>
+                  {featuredCandy[0].trending && (
+                    <span className="bg-white/90 backdrop-blur-sm text-sc-text text-[11px] font-semibold px-3 py-1 rounded-sc-full inline-flex items-center gap-1 border border-sc-border">
+                      <Flame className="w-3 h-3 text-sc-orange" /> Trending on TikTok
+                    </span>
+                  )}
+                </div>
+                <div className="h-[240px] lg:h-full lg:min-h-[340px] bg-gradient-to-br from-amber-50 to-orange-50 flex items-center justify-center relative overflow-hidden">
+                  <Image
+                    src={featuredCandy[0].image}
+                    alt={featuredCandy[0].name}
+                    width={280}
+                    height={280}
+                    className="object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-6 lg:absolute lg:bottom-0 lg:left-0 lg:right-0 lg:bg-gradient-to-t lg:from-white lg:via-white/95 lg:to-transparent lg:pt-16 lg:pb-6 lg:px-6">
+                  <div className="flex items-center gap-2 mb-1.5">
+                    <StarRating rating={featuredCandy[0].rating.overall} />
+                    <span className="text-sm font-semibold text-sc-text">{featuredCandy[0].rating.overall.toFixed(1)}</span>
+                    <span className="text-xs text-sc-text-muted">&middot; {featuredCandy[0].brand}</span>
+                  </div>
+                  <h3 className="text-xl md:text-2xl font-bold text-sc-text mb-1 group-hover:text-sc-primary transition-colors">
+                    {featuredCandy[0].name}
+                  </h3>
+                  <p className="text-sm text-sc-text-muted mb-3 line-clamp-2">{featuredCandy[0].description}</p>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <span className="text-lg font-bold text-sc-primary">{featuredCandy[0].priceRange}</span>
+                      {featuredCandy[0].affiliateLinks[0] && (
+                        <span className="text-xs text-sc-text-muted">at {featuredCandy[0].affiliateLinks[0].store}</span>
+                      )}
+                    </div>
+                    <span className="bg-sc-primary text-white px-4 py-2 rounded-sc-full text-sm font-semibold group-hover:bg-sc-dark transition-colors inline-flex items-center gap-1.5">
+                      Read Review <ArrowRight className="w-3.5 h-3.5" />
+                    </span>
+                  </div>
+                </div>
+              </Link>
+
+              {/* ── RIGHT COLUMN — 2x2 grid of remaining products ── */}
+              <div className="grid grid-cols-2 gap-4">
+                {featuredCandy.slice(1, 5).map((candy, i) => (
+                  <Link
+                    key={candy.slug}
+                    href={`/candy/${candy.slug}`}
+                    className="group bg-white rounded-sc-lg overflow-hidden border border-sc-border hover:border-sc-primary/30 hover:shadow-xl hover:-translate-y-0.5 transition-all"
+                  >
+                    <div className="h-[120px] md:h-[140px] bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center relative overflow-hidden">
+                      {i === 0 && candy.trending && (
+                        <span className="absolute top-2 left-2 z-10 bg-sc-blue text-white text-[10px] font-bold px-2 py-0.5 rounded-sc-full inline-flex items-center gap-0.5">
+                          <Flame className="w-2.5 h-2.5" /> Viral
+                        </span>
+                      )}
+                      {i === 1 && (
+                        <span className="absolute top-2 left-2 z-10 bg-sc-yellow text-sc-dark text-[10px] font-bold px-2 py-0.5 rounded-sc-full inline-flex items-center gap-0.5">
+                          <Star className="w-2.5 h-2.5" /> Classic
+                        </span>
+                      )}
+                      <Image
+                        src={candy.image}
+                        alt={candy.name}
+                        width={140}
+                        height={140}
+                        className="object-contain drop-shadow-md group-hover:scale-110 transition-transform duration-300"
+                      />
+                    </div>
+                    <div className="p-3 md:p-4">
+                      <p className="text-[10px] font-semibold text-sc-text-muted/60 uppercase tracking-wider mb-0.5">{candy.brand}</p>
+                      <h3 className="text-[14px] font-bold text-sc-text mb-1 group-hover:text-sc-primary transition-colors leading-tight">
+                        {candy.name}
+                      </h3>
+                      <div className="flex items-center gap-1 mb-2">
+                        <StarRating rating={candy.rating.overall} />
+                        <span className="text-[12px] font-medium text-sc-text-muted">{candy.rating.overall.toFixed(1)}</span>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <span className="text-sm font-bold text-sc-primary">
+                          {candy.priceRange.split('\u2013')[0].trim()}
+                        </span>
+                        <span className="w-7 h-7 rounded-full bg-sc-primary/10 text-sc-primary flex items-center justify-center group-hover:bg-sc-primary group-hover:text-white transition-colors">
+                          <ArrowRight className="w-3.5 h-3.5" />
+                        </span>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* ── DARK CTA STRIP — affiliate conversion push ── */}
+          <div className="bg-gradient-to-r from-sc-dark to-[#2D2D4E] rounded-sc-lg p-6 md:p-8 flex flex-col sm:flex-row items-center justify-between gap-6 mt-5">
+            <div>
+              <h3 className="text-white text-lg md:text-xl font-bold mb-1">
+                Ready to try Swedish candy?
+              </h3>
+              <p className="text-white/50 text-sm">
+                Free shipping from $69 at our partner stores. Every purchase supports SwedishCrave.
+              </p>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-3 shrink-0">
+              <Link
+                href="/stores/mums-swedish-candy"
+                className="bg-sc-primary hover:bg-sc-primary/90 text-white px-6 py-3 rounded-sc-full text-sm font-bold transition-colors inline-flex items-center gap-1.5 whitespace-nowrap"
+              >
+                Shop Mums &mdash; Free Shipping <ArrowRight className="w-4 h-4" />
+              </Link>
+              <Link
+                href="/candy"
+                className="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-6 py-3 rounded-sc-full text-sm font-semibold transition-colors inline-flex items-center gap-1.5 whitespace-nowrap"
+              >
+                Browse All Candy
+              </Link>
+            </div>
           </div>
         </div>
       </section>
