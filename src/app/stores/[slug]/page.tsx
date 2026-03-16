@@ -10,12 +10,30 @@ import { stores } from '@/data/stores';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 const storeColors: Record<string, string> = {
+  /* Tier 1 */
   'mums-swedish-candy': 'from-[#00C9B7] to-[#00A89D]',
   'bonbon-nyc': 'from-[#FF6B6B] to-[#EE5A24]',
   'swedish-sweets': 'from-[#0077B6] to-[#00B4D8]',
   'sockerbit': 'from-[#FFB6C1] to-[#FF69B4]',
-  'amazon': 'from-[#FF9900] to-[#232F3E]',
+  'bubs-candy': 'from-[#E53E3E] to-[#C53030]',
+  'candyking': 'from-[#D69E2E] to-[#B7791F]',
+  'sweetish-candy': 'from-[#9F7AEA] to-[#805AD5]',
+  'goodis': 'from-[#38A169] to-[#2F855A]',
+  /* Tier 2 */
+  'lil-sweet-treat': 'from-[#F687B3] to-[#D53F8C]',
+  'kandi': 'from-[#FC8181] to-[#F56565]',
+  'poppin-candy': 'from-[#63B3ED] to-[#3182CE]',
+  'scandikitchen': 'from-[#4FD1C5] to-[#319795]',
+  'swedish-candy-now': 'from-[#FBD38D] to-[#D69E2E]',
+  'swedisweets': 'from-[#76E4F7] to-[#0BC5EA]',
+  'swedish-candy-land': 'from-[#68D391] to-[#48BB78]',
+  'swedish-candy-store': 'from-[#B794F4] to-[#9F7AEA]',
+  'scandycandy': 'from-[#F6AD55] to-[#ED8936]',
+  'nordic-cravings': 'from-[#4299E1] to-[#2B6CB0]',
+  'the-pirate-candy-shop': 'from-[#A0AEC0] to-[#718096]',
+  /* General */
   'scandi-candy-shop': 'from-[#2D8F2A] to-[#52C234]',
+  'amazon': 'from-[#FF9900] to-[#232F3E]',
 };
 
 /* Mums-specific data — verified from their website */
