@@ -657,6 +657,7 @@ export default function Home() {
                     width={48}
                     height={48}
                     className="object-contain"
+                    unoptimized
                   />
                 </div>
                 <h3 className="text-[15px] font-bold text-sc-text mb-1 group-hover:text-sc-purple transition-colors">{brand.name}</h3>

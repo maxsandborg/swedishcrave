@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import {
   getBrandBySlug,
@@ -82,11 +83,22 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
         <div className="absolute inset-0 bg-black/20" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
-            {/* Brand Initial */}
-            <div className="w-28 h-28 md:w-36 md:h-36 rounded-sc-lg bg-white/20 backdrop-blur-sm flex items-center justify-center flex-shrink-0 border border-white/30">
-              <span className="font-display text-[64px] md:text-[80px] font-extrabold text-white">
-                {brand.name.charAt(0).toUpperCase()}
-              </span>
+            {/* Brand Logo */}
+            <div className="w-28 h-28 md:w-36 md:h-36 rounded-sc-lg bg-white/95 backdrop-blur-sm flex items-center justify-center flex-shrink-0 border border-white/30 shadow-lg">
+              {brand.logo ? (
+                <Image
+                  src={brand.logo}
+                  alt={brand.name}
+                  width={100}
+                  height={100}
+                  className="object-contain"
+                  unoptimized
+                />
+              ) : (
+                <span className="font-display text-[64px] md:text-[80px] font-extrabold text-sc-text/20">
+                  {brand.name.charAt(0).toUpperCase()}
+                </span>
+              )}
             </div>
 
             {/* Info */}

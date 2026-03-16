@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Brand } from '@/types';
 
 const brandColors: Record<string, string> = {
@@ -35,9 +36,22 @@ export default function BrandCard({ brand, candyCount = 0 }: BrandCardProps) {
       {/* Brand Header */}
       <div className={`h-[120px] bg-gradient-to-br ${gradient} flex items-center justify-center relative overflow-hidden`}>
         <div className="absolute inset-0 bg-black/5 group-hover:bg-black/0 transition-colors" />
-        <span className="text-white font-display text-[42px] font-extrabold opacity-90 group-hover:scale-110 transition-transform duration-300">
-          {brand.name.charAt(0).toUpperCase()}
-        </span>
+        {brand.logo ? (
+          <div className="relative z-10 w-[80px] h-[80px] bg-white/95 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+            <Image
+              src={brand.logo}
+              alt={brand.name}
+              width={60}
+              height={60}
+              className="object-contain"
+              unoptimized
+            />
+          </div>
+        ) : (
+          <span className="text-white font-display text-[42px] font-extrabold opacity-90 group-hover:scale-110 transition-transform duration-300">
+            {brand.name.charAt(0).toUpperCase()}
+          </span>
+        )}
       </div>
 
       {/* Content */}
@@ -46,7 +60,7 @@ export default function BrandCard({ brand, candyCount = 0 }: BrandCardProps) {
           {brand.name}
         </h3>
         <p className="text-[12px] text-sc-text-muted mb-2">
-          {brand.country}
+          {brand.country} • Est. {brand.founded}
         </p>
         <p className="text-[13px] text-sc-text-muted line-clamp-2 mb-3">
           {brand.description}
