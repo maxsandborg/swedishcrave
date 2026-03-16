@@ -53,10 +53,10 @@ const swedishSweetsData = {
   customerCount: '45,000+',
   tiktokHandle: '@shopswedishsweets.com',
   bestsellers: [
-    { name: 'Bubs Mix', reviews: '320+', price: '$13.49', originalPrice: '', image: '/images/stores/swedish-sweets-products/bubs-mix.png' },
-    { name: 'Sour Mix With Bubs', reviews: '280+', price: '$11.99', originalPrice: '', image: '/images/stores/swedish-sweets-products/sour-mix.png' },
-    { name: 'Pinky Mix', reviews: '195+', price: '$11.99', originalPrice: '', image: '/images/stores/swedish-sweets-products/pinky-mix.png' },
-    { name: 'Bubs Giant Sour Skulls', reviews: '410+', price: '$11.49', originalPrice: '', image: '/images/stores/swedish-sweets-products/bubs-sour-skulls.png' },
+    { name: 'Bubs Mix', reviews: '320+', price: '$13.49', originalPrice: '', image: '/images/stores/swedish-sweets-products/bubs-mix.jpg' },
+    { name: 'Sour Mix With Bubs', reviews: '280+', price: '$11.99', originalPrice: '', image: '/images/stores/swedish-sweets-products/sour-mix.jpg' },
+    { name: 'Pinky Mix', reviews: '195+', price: '$11.99', originalPrice: '', image: '/images/stores/swedish-sweets-products/pinky-mix.jpg' },
+    { name: 'Bubs Giant Sour Skulls', reviews: '410+', price: '$11.49', originalPrice: '', image: '/images/stores/swedish-sweets-products/bubs-sour-skulls.jpg' },
   ],
 };
 
@@ -87,9 +87,9 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const isSwedishSweets = store.slug === 'swedish-sweets';
   const tier = getStoreTier(store);
   const title = isMums
-    ? 'Mums Swedish Candy Review 2026 — Is It Worth It? (Editor\'s Pick)'
+    ? 'Mums Swedish Candy Review 2026 — Worth It?'
     : isSwedishSweets
-      ? 'Swedish Sweets Review 2026 — TikTok\'s Favorite Swedish Candy Store'
+      ? 'Swedish Sweets Review 2026 — TikTok\'s Favorite'
       : tier === 'basic'
         ? `${store.name} — Claim Your Store on SwedishCrave`
         : `${store.name} Review — Where to Buy Swedish Candy`;
@@ -97,7 +97,10 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     ? `Mums Swedish Candy review: ${mumsData.customerRating}/5 stars from ${mumsData.customerCount} customers. Clean ingredients, no Red-40 or GMOs. BUBS mixes from $19.99. As seen on TIME & BuzzFeed.`
     : isSwedishSweets
       ? `Swedish Sweets review: ${swedishSweetsData.customerRating}/5 stars from ${swedishSweetsData.customerCount} TikTok customers. No GMOs, no HFCS, no Red 40. Pick & mix from $8.50. Free shipping over $50.`
-      : `${store.name} review: ${store.description} Rating: ${store.rating}/5. Ships to ${store.shipsTo.join(', ')}.`;
+      : (() => {
+          const full = `${store.name} review: ${store.description} Rating: ${store.rating}/5. Ships to ${store.shipsTo.join(', ')}.`;
+          return full.length > 160 ? full.slice(0, 157) + '...' : full;
+        })();
 
   return {
     title,
@@ -401,7 +404,7 @@ function FeaturedStorePage({ store }: { store: typeof stores[number] }) {
           <Image src="/images/stores/mums-products/party-mix.jpg" alt="" fill className="object-cover opacity-20" priority />
         )}
         {isSwedishSweets && (
-          <Image src="/images/stores/swedish-sweets-products/bubs-mix.png" alt="" fill className="object-cover opacity-15" priority />
+          <Image src="/images/stores/swedish-sweets-products/bubs-mix.jpg" alt="" fill className="object-cover opacity-15" priority />
         )}
         <div className="absolute inset-0 bg-black/15" />
         {isMums && <div className="absolute inset-0 bg-gradient-to-r from-[#00C9B7]/90 via-[#00C9B7]/70 to-transparent" />}

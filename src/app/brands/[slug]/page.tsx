@@ -35,9 +35,13 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     };
   }
 
+  const metaDescription = brand.description.length < 120
+    ? `${brand.description} Explore ${brand.name} candy reviews, best products, and where to buy in the US.`
+    : brand.description;
+
   return {
     title: `${brand.name} — Swedish Candy Brand`,
-    description: brand.description,
+    description: metaDescription,
     alternates: {
       canonical: `/brands/${brand.slug}`,
     },
@@ -45,7 +49,8 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     openGraph: {
       type: 'website',
       title: `${brand.name} — Swedish Candy Brand | SwedishCrave`,
-      description: brand.description,
+      description: metaDescription,
+      images: brand.logo ? [{ url: brand.logo, alt: brand.name }] : undefined,
     },
   };
 }

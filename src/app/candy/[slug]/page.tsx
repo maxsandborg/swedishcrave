@@ -31,9 +31,13 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     };
   }
 
+  const metaDescription = candy.description.length < 120
+    ? `${candy.description} Read our full ${candy.name} review with ratings, flavor notes, and where to buy in the US.`
+    : candy.description;
+
   return {
     title: `${candy.name} Review — Swedish Candy`,
-    description: candy.description,
+    description: metaDescription,
     alternates: {
       canonical: `/candy/${candy.slug}`,
     },
@@ -48,7 +52,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     openGraph: {
       type: 'website',
       title: `${candy.name} — Swedish Candy Review | SwedishCrave`,
-      description: candy.description,
+      description: metaDescription,
       images: [
         {
           url: candy.image,

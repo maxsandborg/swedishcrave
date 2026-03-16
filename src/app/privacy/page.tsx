@@ -3,7 +3,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'Privacy policy for SwedishCrave.com — how we handle your data.',
+  description: 'Privacy policy for SwedishCrave.com — how we collect, use, and protect your data. Learn about cookies, analytics, and affiliate links on our Swedish candy review site.',
   alternates: {
     canonical: '/privacy',
   },

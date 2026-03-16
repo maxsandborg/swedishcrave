@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     default: 'SwedishCrave — Your Guide to Swedish Candy',
   },
   description:
-    'Discover authentic Swedish candy, detailed reviews, ratings, and where to buy. Explore traditional Swedish sweets from iconic brands like Marabou, BUBS, Malaco, and more.',
+    'Discover authentic Swedish candy with detailed reviews, ratings, and where to buy in the US. Explore sweets from Marabou, BUBS, Malaco, and more.',
   keywords:
     'Swedish candy, Nordic sweets, candy reviews, where to buy Swedish candy, BUBS, Marabou, Malaco',
   authors: [{ name: 'SwedishCrave' }],
@@ -35,12 +35,21 @@ export const metadata: Metadata = {
     siteName: 'SwedishCrave',
     title: 'SwedishCrave — Your Guide to Swedish Candy',
     description:
-      'Discover authentic Swedish candy, detailed reviews, ratings, and where to buy.',
+      'Discover authentic Swedish candy with detailed reviews, ratings, and where to buy in the US.',
+    images: [
+      {
+        url: 'https://www.swedishcrave.com/images/og-default.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'SwedishCrave — Your Guide to Swedish Candy',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'SwedishCrave — Your Guide to Swedish Candy',
-    description: 'Discover authentic Swedish candy, detailed reviews, and ratings.',
+    description: 'Discover authentic Swedish candy with detailed reviews, ratings, and where to buy in the US.',
+    images: ['https://www.swedishcrave.com/images/og-default.jpg'],
   },
 };
 
