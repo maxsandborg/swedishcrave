@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 import {
   getCandyBySlug,
   getAllCandySlugs,
@@ -64,22 +65,7 @@ export default function CandyPage({ params }: { params: { slug: string } }) {
   const candy = getCandyBySlug(params.slug);
 
   if (!candy) {
-    return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-        <h1 className="font-display text-4xl font-extrabold text-sc-text mb-4">
-          Candy Not Found
-        </h1>
-        <p className="text-sc-text-muted mb-8">
-          We couldn&apos;t find this candy in our database.
-        </p>
-        <Link
-          href="/candy"
-          className="inline-flex items-center bg-sc-pink text-white px-8 py-3 rounded-sc-full font-semibold hover:bg-sc-pink-hover transition-colors"
-        >
-          Back to All Candy
-        </Link>
-      </div>
-    );
+    notFound();
   }
 
   const relatedCandy = getRelatedCandy(candy.slug);

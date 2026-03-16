@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 import {
   getBrandBySlug,
   getAllBrandSlugs,
@@ -53,22 +54,7 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
   const brand = getBrandBySlug(params.slug);
 
   if (!brand) {
-    return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-        <h1 className="font-display text-4xl font-extrabold text-sc-text mb-4">
-          Brand Not Found
-        </h1>
-        <p className="text-sc-text-muted mb-8">
-          We couldn&apos;t find this brand in our database.
-        </p>
-        <Link
-          href="/brands"
-          className="inline-flex items-center justify-center bg-sc-pink text-white px-8 py-3 rounded-sc-full font-semibold hover:bg-sc-pink-hover hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(255,45,135,0.3)]"
-        >
-          Back to All Brands
-        </Link>
-      </div>
-    );
+    notFound();
   }
 
   const brandCandy = brand.candySlugs

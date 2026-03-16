@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 import { getArticleBySlug, getAllArticleSlugs, getRelatedArticles } from '@/data/articles';
 import { candyItems } from '@/data/candy';
 import { resolveAuthorId, getAuthorById } from '@/data/authors';
@@ -84,18 +85,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
   const article = getArticleBySlug(params.slug);
 
   if (!article) {
-    return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-        <h1 className="text-4xl font-bold text-sc-text mb-4">Article Not Found</h1>
-        <p className="text-sc-text-muted mb-8">We couldn&apos;t find this article.</p>
-        <Link
-          href="/blog"
-          className="inline-flex items-center justify-center bg-sc-primary hover:bg-sc-primary/90 text-white px-8 py-3 rounded-lg font-medium transition-colors"
-        >
-          Back to Blog
-        </Link>
-      </div>
-    );
+    notFound();
   }
 
   const authorId = resolveAuthorId(article.author, article.silo);

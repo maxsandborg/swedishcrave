@@ -10,14 +10,14 @@ export default function Footer() {
         { label: 'All Candy', href: '/candy' },
         { label: 'Stores', href: '/where-to-buy' },
         { label: 'Categories', href: '/categories' },
-        { label: 'Best Sellers', href: '/best/swedish-candy' },
+        { label: 'Brands', href: '/brands' },
       ],
     },
     {
       title: 'Learn',
       links: [
         { label: 'Blog', href: '/blog' },
-        { label: 'Candy Guide', href: '/guides/swedish-candy-guide' },
+        { label: 'History of Swedish Candy', href: '/blog/history-of-swedish-candy' },
         { label: 'Lördagsgodis', href: '/blog/lordagsgodis-swedish-saturday-candy' },
         { label: 'About Us', href: '/about' },
       ],
@@ -34,7 +34,7 @@ export default function Footer() {
     {
       title: 'Follow',
       links: [
-        { label: 'Newsletter', href: '/newsletter' },
+        { label: 'Contact', href: '/contact' },
         { label: 'TikTok', href: 'https://tiktok.com/@swedishcrave' },
         { label: 'Instagram', href: 'https://instagram.com/swedishcrave' },
         { label: 'Privacy Policy', href: '/privacy' },
