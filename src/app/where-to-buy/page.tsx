@@ -17,7 +17,6 @@ import {
   Clock,
   ShieldCheck,
   MapPin,
-  ExternalLink,
   Heart,
   BookOpen,
 } from 'lucide-react';
@@ -343,23 +342,29 @@ export default function WhereToBuyPage() {
 
                   {/* CTA */}
                   {isLive ? (
-                    <a
-                      href={store.affiliateUrl}
-                      target="_blank"
-                      rel="sponsored noopener"
-                      className="flex items-center justify-center gap-2 w-full bg-sc-primary text-white font-semibold text-[14px] py-3 rounded-sc-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
-                    >
-                      Shop {store.name.split(' ')[0]} <ArrowRight className="w-4 h-4" />
-                    </a>
+                    <div className="flex gap-2">
+                      <a
+                        href={store.affiliateUrl}
+                        target="_blank"
+                        rel="sponsored noopener"
+                        className="flex items-center justify-center gap-2 flex-1 bg-sc-primary text-white font-semibold text-[14px] py-3 rounded-sc-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
+                      >
+                        Shop Now <ArrowRight className="w-4 h-4" />
+                      </a>
+                      <Link
+                        href={`/stores/${store.slug}`}
+                        className="flex items-center justify-center gap-2 bg-white text-sc-text font-semibold text-[14px] py-3 px-5 rounded-sc-full border-2 border-sc-border hover:border-sc-primary hover:text-sc-primary transition-all"
+                      >
+                        Review
+                      </Link>
+                    </div>
                   ) : (
-                    <a
-                      href={store.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <Link
+                      href={`/stores/${store.slug}`}
                       className="flex items-center justify-center gap-2 w-full bg-white text-sc-text font-semibold text-[14px] py-3 rounded-sc-full border-2 border-sc-border hover:border-sc-primary hover:text-sc-primary transition-all"
                     >
-                      Visit {store.name.split(' ')[0]} <ExternalLink className="w-4 h-4" />
-                    </a>
+                      View Store <ArrowRight className="w-4 h-4" />
+                    </Link>
                   )}
                 </div>
               </div>
