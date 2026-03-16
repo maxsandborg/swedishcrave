@@ -1,7 +1,9 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { getFeaturedCandy } from '@/lib/utils';
 import { categories } from '@/data/categories';
 import { stores } from '@/data/stores';
+import { brands } from '@/data/brands';
 import { articles } from '@/data/articles';
 import {
   Star,
@@ -26,6 +28,12 @@ import {
   FlaskConical,
   Cherry,
   Mail,
+  Crown,
+  BadgeCheck,
+  Building2,
+  Users,
+  TrendingUp,
+  Megaphone,
 } from 'lucide-react';
 
 // Category color mapping for the gradient cards
@@ -127,29 +135,25 @@ export default function Home() {
   // Get 3 most recent articles for blog section
   const recentArticles = articles.slice(0, 3);
 
-  // Mums store data
-  const mumsStore = stores.find((s) => s.slug === 'mums-swedish-candy');
+  // ── TIERED STORE LOGIC ──
+  // Featured = affiliate partners (paying stores)
+  const featuredStores = stores.filter((s) => s.affiliateStatus === 'live');
+  // Verified = stores with logos + good data (free tier, incentivizes upgrade)
+  const verifiedStores = stores.filter(
+    (s) => s.affiliateStatus !== 'live' && s.logo && s.rating >= 4.3
+  );
+  // Listed = everyone else
+  const listedStores = stores.filter(
+    (s) => s.affiliateStatus !== 'live' && (!s.logo || s.rating < 4.3)
+  );
 
-  // Other stores (not Mums)
-  const otherStores = stores.filter((s) => s.slug !== 'mums-swedish-candy').slice(0, 5);
+  // Brand profiles — the big candy manufacturers (not stores)
+  const featuredBrands = brands.filter((b) =>
+    ['bubs', 'malaco', 'marabou', 'cloetta', 'fazer'].includes(b.slug)
+  );
 
-  // Store tag colors
-  const storeTagColors = [
-    'bg-sc-teal-soft text-[#00897B]',
-    'bg-sc-yellow-soft text-[#8A6D00]',
-    'bg-sc-pink-soft text-[#A02060]',
-    'bg-sc-blue-soft text-[#3A50A0]',
-    'bg-sc-green-soft text-[#1A6A3A]',
-  ];
-
-  // Store tag labels
-  const storeTagLabels: Record<string, string> = {
-    'swedish-sweets': 'Wide Range',
-    'bonbon-nyc': 'Gift Boxes',
-    sockerbit: 'Pick & Mix',
-    amazon: 'Fast Delivery',
-    'scandi-candy-shop': 'Fresh Imports',
-  };
+  // Premium partners — stores with logos (shown in trust strip)
+  const partnerStores = stores.filter((s) => s.logo);
 
   // Blog card gradient backgrounds
   const blogGradients = [
@@ -158,22 +162,16 @@ export default function Home() {
     'bg-gradient-to-br from-[#4ADE80] to-[#22C55E]',
   ];
 
-  // Store icon mapping
-  const storeIcons: Record<string, React.ReactNode> = {
-    'swedish-sweets': <Globe className="w-8 h-8 text-sc-blue" />,
-    'bonbon-nyc': <Gift className="w-8 h-8 text-sc-pink" />,
-    sockerbit: <Candy className="w-8 h-8 text-sc-purple" />,
-    amazon: <Truck className="w-8 h-8 text-sc-orange" />,
-    'scandi-candy-shop': <Package className="w-8 h-8 text-sc-teal" />,
-  };
-
   return (
     <>
-      {/* ========== HERO ========== */}
+      {/* ========== 1. HERO — "#1 Swedish Candy Guide" ========== */}
       <section className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-center min-h-[420px] md:min-h-[480px]">
           {/* Hero Text */}
           <div>
+            <span className="inline-flex items-center gap-1.5 bg-sc-yellow-soft text-sc-text font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-yellow mb-4">
+              <Crown className="w-3.5 h-3.5 text-sc-orange" /> #1 Swedish Candy Guide in the US
+            </span>
             <h1 className="font-display text-4xl sm:text-5xl md:text-[52px] font-bold leading-[1.1] text-sc-text mb-5">
               Discover the{' '}
               <span className="bg-gradient-to-r from-sc-primary to-sc-orange bg-clip-text text-transparent">
@@ -183,28 +181,28 @@ export default function Home() {
               of Sweden
             </h1>
             <p className="text-lg text-sc-text-muted leading-relaxed mb-7 max-w-[440px]">
-              From fizzy sour to smooth chocolate &mdash; find the best Swedish candy shops, honest reviews, and treats you can&apos;t get anywhere else.
+              The most complete guide to Swedish candy stores, brands, and reviews. Trusted by {stores.length}+ stores and {brands.length} major brands.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               <Link
-                href="/candy"
+                href="/where-to-buy"
                 className="inline-flex items-center gap-2 bg-sc-primary text-white font-semibold text-base px-7 py-3.5 rounded-sc-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
               >
-                <Candy className="w-5 h-5" /> Browse Candy
+                <Store className="w-5 h-5" /> Find a Store
               </Link>
               <Link
-                href="/blog/what-is-swedish-candy"
+                href="/candy"
                 className="inline-flex items-center gap-2 bg-white text-sc-text font-semibold text-base px-7 py-3.5 rounded-sc-full border-2 border-sc-border hover:border-sc-primary hover:text-sc-primary transition-all"
               >
-                <BookOpen className="w-5 h-5" /> Read Our Guide
+                <Candy className="w-5 h-5" /> Browse Candy
               </Link>
             </div>
             <div className="flex gap-7 items-center">
               <div className="flex items-center gap-2 text-sm text-sc-text-muted">
-                <Star className="w-4 h-4 fill-sc-yellow text-sc-yellow" /> 81 Reviews
+                <Store className="w-4 h-4 text-sc-teal" /> {stores.length} Stores
               </div>
               <div className="flex items-center gap-2 text-sm text-sc-text-muted">
-                <Store className="w-4 h-4 text-sc-teal" /> 6 Stores
+                <Star className="w-4 h-4 fill-sc-yellow text-sc-yellow" /> {brands.length} Brands
               </div>
               <div className="flex items-center gap-2 text-sm text-sc-text-muted">
                 <MapPin className="w-4 h-4 text-sc-blue" /> 100% Swedish
@@ -249,7 +247,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========== FEATURED CANDY ========== */}
+      {/* ========== 2. TRENDING NOW — Candy reviews + store product mix ========== */}
       <section className="py-16 md:py-20">
         <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
@@ -312,87 +310,47 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========== MUMS SHOP - FEATURED STORE ========== */}
-      <section className="py-16 md:py-20 bg-gradient-to-b from-sc-teal-soft to-sc-bg relative overflow-hidden">
+      {/* ========== 3. PREMIUM PARTNERS — Logo trust strip ========== */}
+      <section className="py-10 md:py-12 bg-white border-y border-sc-border">
         <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <span className="inline-flex items-center gap-1.5 bg-sc-teal-soft text-[#00897B] font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-teal/30 mb-3">
-              <Trophy className="w-3.5 h-3.5" /> Editor&apos;s Pick
-            </span>
-            <h2 className="font-display text-3xl md:text-4xl font-bold text-sc-text mb-2">
-              Shop Swedish Candy
-            </h2>
-            <p className="text-sc-text-muted max-w-[520px] mx-auto">
-              The best place to get authentic Swedish candy delivered to your door
+          <div className="text-center mb-8">
+            <p className="text-sm font-semibold text-sc-text-muted uppercase tracking-wider">
+              Trusted by {partnerStores.length}+ Swedish candy stores &amp; brands
             </p>
           </div>
-
-          {/* Mums Featured Card */}
-          {mumsStore && (
-            <div className="bg-white rounded-sc-lg border-2 border-[#B0EDE4] shadow-[0_12px_48px_rgba(0,201,183,0.1)] overflow-hidden">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-                {/* Left - Info */}
-                <div className="p-8 md:p-10 flex flex-col justify-center">
-                  <span className="inline-flex items-center gap-1.5 bg-sc-teal-soft text-[#00897B] font-bold text-[11px] px-3.5 py-1.5 rounded-sc-full uppercase tracking-wide self-start mb-4">
-                    <Star className="w-3 h-3 fill-current" /> #1 Recommended Store
-                  </span>
-                  <h3 className="font-display text-2xl md:text-[28px] font-bold text-sc-text mb-3">
-                    Mums &mdash; Premium Swedish Candy
-                  </h3>
-                  <p className="text-[15px] text-sc-text-muted leading-relaxed mb-5">
-                    {mumsStore.description} Our top recommendation for a reason.
-                  </p>
-                  <div className="flex flex-wrap gap-4 mb-6">
-                    {mumsStore.features.slice(0, 3).map((feature) => (
-                      <span key={feature} className="flex items-center gap-1.5 text-[13px] font-medium text-sc-text-muted">
-                        {feature.includes('shipping') ? (
-                          <Truck className="w-4 h-4 text-sc-teal" />
-                        ) : feature.includes('box') || feature.includes('Curated') ? (
-                          <Package className="w-4 h-4 text-sc-teal" />
-                        ) : (
-                          <Star className="w-4 h-4 text-sc-teal" />
-                        )}
-                        {feature}
-                      </span>
-                    ))}
-                  </div>
-                  <a
-                    href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ"
-                    target="_blank"
-                    rel="sponsored noopener"
-                    className="inline-flex items-center gap-2 bg-sc-teal text-white font-semibold text-[15px] px-7 py-3.5 rounded-sc-full hover:shadow-lg hover:-translate-y-0.5 transition-all self-start"
-                  >
-                    Shop Mums <ArrowRight className="w-4 h-4" />
-                  </a>
-                </div>
-
-                {/* Right - Product Grid */}
-                <div className="bg-gradient-to-br from-sc-teal-soft to-[#F0FDF9] p-6 md:p-8 grid grid-cols-3 gap-3 content-center">
-                  {[
-                    { name: 'Sour Crocs', price: '$8.99' },
-                    { name: 'Berry Mix', price: '$9.99' },
-                    { name: 'Daim Bites', price: '$7.49' },
-                    { name: 'Salmiak', price: '$6.99' },
-                    { name: 'Pick & Mix', price: '$12.99' },
-                    { name: 'Sour Skulls', price: '$8.49' },
-                  ].map((product) => (
-                    <div
-                      key={product.name}
-                      className="bg-white rounded-sc-sm p-4 text-center shadow-sm hover:-translate-y-1 hover:rotate-[-2deg] hover:shadow-md transition-all cursor-pointer"
-                    >
-                      <Candy className="w-7 h-7 text-sc-teal mx-auto mb-2" />
-                      <span className="text-[11px] font-bold text-sc-text block">{product.name}</span>
-                      <span className="text-[13px] font-bold text-sc-teal mt-1 block">{product.price}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          )}
+          <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10">
+            {partnerStores.slice(0, 10).map((store) => (
+              <Link
+                key={store.slug}
+                href={`/stores/${store.slug}`}
+                className="group flex items-center justify-center h-[48px] w-[120px] md:w-[140px] grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all"
+              >
+                {store.logo ? (
+                  <Image
+                    src={store.logo}
+                    alt={store.name}
+                    width={120}
+                    height={40}
+                    className="object-contain max-h-[40px] w-auto"
+                  />
+                ) : (
+                  <span className="text-sm font-bold text-sc-text-muted">{store.name}</span>
+                )}
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-6">
+            <Link
+              href="/contact"
+              className="text-sc-primary text-sm font-semibold hover:underline inline-flex items-center gap-1"
+            >
+              Want to be listed? Get in touch <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
         </div>
       </section>
 
-      {/* ========== CATEGORIES ========== */}
+      {/* ========== 4. CATEGORIES ========== */}
       <section className="py-16 md:py-20">
         <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
@@ -430,53 +388,227 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========== MORE STORES ========== */}
-      <section className="py-16 md:py-20 bg-white">
+      {/* ========== 5. STORE DIRECTORY — Tiered: Featured → Verified → Listed ========== */}
+      <section className="py-16 md:py-20 bg-gradient-to-b from-sc-teal-soft to-sc-bg">
         <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-10 gap-4">
-            <div>
-              <span className="inline-flex items-center gap-1.5 bg-sc-yellow-soft text-sc-text font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-yellow mb-3">
-                <ShoppingBag className="w-3.5 h-3.5 text-sc-orange" /> Compare Stores
-              </span>
-              <h2 className="font-display text-3xl md:text-4xl font-bold text-sc-text">
-                More Places to Shop
-              </h2>
-            </div>
-            <Link
-              href="/where-to-buy"
-              className="text-sc-primary font-bold text-sm hover:gap-2 flex items-center gap-1 transition-all"
-            >
-              Full comparison <ArrowRight className="w-4 h-4" />
-            </Link>
+          <div className="text-center mb-10">
+            <span className="inline-flex items-center gap-1.5 bg-sc-teal-soft text-[#00897B] font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-teal/30 mb-3">
+              <ShoppingBag className="w-3.5 h-3.5" /> Store Directory
+            </span>
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-sc-text mb-2">
+              Where to Buy Swedish Candy
+            </h2>
+            <p className="text-sc-text-muted max-w-[560px] mx-auto">
+              {stores.length} stores compared &mdash; from premium partners to independent shops
+            </p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
-            {otherStores.map((store, i) => {
-              const tagColor = storeTagColors[i % storeTagColors.length];
-              const tagLabel = storeTagLabels[store.slug] || 'Shop Now';
-              return (
+          {/* ── FEATURED STORES (Paid tier — affiliate partners) ── */}
+          <div className="mb-8">
+            <div className="flex items-center gap-2 mb-4">
+              <Crown className="w-4 h-4 text-sc-orange" />
+              <h3 className="text-sm font-bold text-sc-text uppercase tracking-wide">Featured Partners</h3>
+              <span className="text-[10px] font-semibold bg-sc-orange/10 text-sc-orange px-2 py-0.5 rounded-sc-full">Sponsored</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {featuredStores.map((store) => (
+                <div
+                  key={store.slug}
+                  className="bg-white rounded-sc-lg border-2 border-sc-teal/30 shadow-[0_8px_32px_rgba(0,201,183,0.08)] overflow-hidden hover:-translate-y-1 hover:shadow-xl transition-all"
+                >
+                  <div className="p-6 md:p-8">
+                    <div className="flex items-start gap-4 mb-4">
+                      {store.logo ? (
+                        <div className="w-[60px] h-[60px] rounded-sc-sm bg-sc-bg border border-sc-border flex items-center justify-center overflow-hidden flex-shrink-0">
+                          <Image
+                            src={store.logo}
+                            alt={store.name}
+                            width={48}
+                            height={48}
+                            className="object-contain"
+                          />
+                        </div>
+                      ) : (
+                        <div className="w-[60px] h-[60px] rounded-sc-sm bg-sc-teal-soft flex items-center justify-center flex-shrink-0">
+                          <Store className="w-7 h-7 text-sc-teal" />
+                        </div>
+                      )}
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-2 mb-1">
+                          <h4 className="text-lg font-bold text-sc-text">{store.name}</h4>
+                          <Crown className="w-4 h-4 text-sc-orange flex-shrink-0" />
+                        </div>
+                        <div className="flex items-center gap-2 mb-2">
+                          <StarRating rating={store.rating} />
+                          <span className="text-[13px] text-sc-text-muted">{store.rating.toFixed(1)}</span>
+                          <span className="text-[11px] text-sc-text-muted/60">•</span>
+                          <span className="text-[11px] text-sc-text-muted/60">{store.priceRange}</span>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="text-[14px] text-sc-text-muted leading-relaxed mb-4">{store.description}</p>
+                    <div className="flex flex-wrap gap-2 mb-5">
+                      {store.features.slice(0, 4).map((feature) => (
+                        <span key={feature} className="text-[11px] font-medium bg-sc-teal-soft text-[#00897B] px-2.5 py-1 rounded-sc-full">
+                          {feature}
+                        </span>
+                      ))}
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <a
+                        href={store.affiliateUrl}
+                        target="_blank"
+                        rel="sponsored noopener"
+                        className="inline-flex items-center gap-2 bg-sc-teal text-white font-semibold text-[14px] px-6 py-3 rounded-sc-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
+                      >
+                        Shop {store.name.split(' ')[0]} <ArrowRight className="w-4 h-4" />
+                      </a>
+                      <Link
+                        href={`/stores/${store.slug}`}
+                        className="text-sc-text-muted text-[13px] font-semibold hover:text-sc-primary transition-colors"
+                      >
+                        Full review →
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* ── VERIFIED STORES (Free tier — good data, incentivize upgrade) ── */}
+          <div className="mb-8">
+            <div className="flex items-center gap-2 mb-4">
+              <BadgeCheck className="w-4 h-4 text-sc-blue" />
+              <h3 className="text-sm font-bold text-sc-text uppercase tracking-wide">Verified Stores</h3>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
+              {verifiedStores.slice(0, 8).map((store) => (
                 <Link
                   key={store.slug}
-                  href="/where-to-buy"
-                  className="bg-sc-bg rounded-sc-md p-5 text-center border border-sc-border hover:border-sc-blue hover:shadow-[0_8px_24px_rgba(45,127,249,0.1)] hover:-translate-y-1 transition-all"
+                  href={`/stores/${store.slug}`}
+                  className="group bg-white rounded-sc-md p-5 border border-sc-border hover:border-sc-blue hover:shadow-[0_8px_24px_rgba(45,127,249,0.1)] hover:-translate-y-1 transition-all"
                 >
-                  <span className="block mb-2.5 mx-auto w-fit">
-                    {storeIcons[store.slug] || <Store className="w-8 h-8 text-sc-text-muted" />}
-                  </span>
-                  <h3 className="text-sm font-bold text-sc-text mb-1">{store.name}</h3>
-                  <p className="text-xs text-sc-text-muted/70 mb-2 line-clamp-2">{store.description.split('.')[0]}.</p>
-                  <span className={`inline-block text-[10px] font-bold px-2.5 py-1 rounded-sc-full uppercase tracking-wide ${tagColor}`}>
-                    {tagLabel}
-                  </span>
+                  <div className="flex items-center gap-3 mb-3">
+                    {store.logo ? (
+                      <div className="w-[40px] h-[40px] rounded-sc-sm bg-sc-bg border border-sc-border flex items-center justify-center overflow-hidden flex-shrink-0">
+                        <Image
+                          src={store.logo}
+                          alt={store.name}
+                          width={32}
+                          height={32}
+                          className="object-contain"
+                        />
+                      </div>
+                    ) : (
+                      <div className="w-[40px] h-[40px] rounded-sc-sm bg-sc-blue-soft flex items-center justify-center flex-shrink-0">
+                        <Store className="w-5 h-5 text-sc-blue" />
+                      </div>
+                    )}
+                    <div className="min-w-0">
+                      <h4 className="text-sm font-bold text-sc-text group-hover:text-sc-primary transition-colors truncate">{store.name}</h4>
+                      <div className="flex items-center gap-1">
+                        <StarRating rating={store.rating} />
+                        <span className="text-[11px] text-sc-text-muted">{store.rating.toFixed(1)}</span>
+                      </div>
+                    </div>
+                  </div>
+                  <p className="text-[12px] text-sc-text-muted line-clamp-2 mb-3">{store.description.split('.')[0]}.</p>
+                  <div className="flex items-center justify-between">
+                    <span className="text-[10px] font-bold bg-sc-blue-soft text-sc-blue px-2 py-0.5 rounded-sc-full inline-flex items-center gap-1">
+                      <BadgeCheck className="w-3 h-3" /> Verified
+                    </span>
+                    <span className="text-[11px] text-sc-text-muted/60">{store.priceRange}</span>
+                  </div>
                 </Link>
-              );
-            })}
+              ))}
+            </div>
+          </div>
+
+          {/* ── LISTED STORES (Basic listing — everyone else) ── */}
+          {listedStores.length > 0 && (
+            <div className="mb-6">
+              <div className="flex items-center gap-2 mb-4">
+                <Globe className="w-4 h-4 text-sc-text-muted" />
+                <h3 className="text-sm font-bold text-sc-text uppercase tracking-wide">More Stores</h3>
+              </div>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+                {listedStores.map((store) => (
+                  <Link
+                    key={store.slug}
+                    href={`/stores/${store.slug}`}
+                    className="bg-white/70 rounded-sc-sm p-4 text-center border border-sc-border/50 hover:border-sc-border hover:bg-white transition-all"
+                  >
+                    <h4 className="text-[13px] font-semibold text-sc-text mb-0.5">{store.name}</h4>
+                    <p className="text-[11px] text-sc-text-muted/60">{store.shipsTo.join(', ')}</p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <div className="text-center mt-6">
+            <Link
+              href="/where-to-buy"
+              className="inline-flex items-center gap-2 text-sc-primary font-bold text-sm hover:gap-3 transition-all"
+            >
+              View full store comparison <ArrowRight className="w-4 h-4" />
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* ========== FROM THE BLOG ========== */}
+      {/* ========== 6. BRAND PROFILES — Brands pay for visibility ========== */}
       <section className="py-16 md:py-20">
+        <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <span className="inline-flex items-center gap-1.5 bg-sc-purple-soft text-sc-purple font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-purple/20 mb-3">
+              <Building2 className="w-3.5 h-3.5" /> Brand Spotlight
+            </span>
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-sc-text mb-2">
+              The Brands Behind the Candy
+            </h2>
+            <p className="text-sc-text-muted max-w-[560px] mx-auto">
+              Meet the Swedish manufacturers making the candy everyone&apos;s talking about
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+            {featuredBrands.map((brand) => (
+              <Link
+                key={brand.slug}
+                href={`/brands/${brand.slug}`}
+                className="group bg-white rounded-sc-md p-5 border border-sc-border text-center hover:-translate-y-1 hover:shadow-xl hover:border-sc-purple/30 transition-all"
+              >
+                <div className="w-[64px] h-[64px] mx-auto mb-3 rounded-sc-sm bg-sc-bg border border-sc-border flex items-center justify-center overflow-hidden">
+                  <Image
+                    src={brand.logo}
+                    alt={brand.name}
+                    width={48}
+                    height={48}
+                    className="object-contain"
+                  />
+                </div>
+                <h3 className="text-[15px] font-bold text-sc-text mb-1 group-hover:text-sc-purple transition-colors">{brand.name}</h3>
+                <p className="text-[11px] text-sc-text-muted/70 mb-2">{brand.country} • Est. {brand.founded}</p>
+                <span className="text-[11px] font-semibold text-sc-purple">{brand.candySlugs.length} products →</span>
+              </Link>
+            ))}
+          </div>
+
+          <div className="text-center mt-8">
+            <Link
+              href="/brands"
+              className="inline-flex items-center gap-2 text-sc-primary font-bold text-sm hover:gap-3 transition-all"
+            >
+              View all brands <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ========== 7. FROM THE BLOG ========== */}
+      <section className="py-16 md:py-20 bg-white">
         <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-10 gap-4">
             <div>
@@ -552,10 +684,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========== WHY SWEDISH CANDY ========== */}
+      {/* ========== 8. WHY SWEDISH CANDY ========== */}
       <section className="py-16 md:py-20 bg-gradient-to-br from-[#1A1A2E] to-[#2D2D55] text-white relative overflow-hidden">
         {/* Curved top transition */}
-        <div className="absolute top-0 left-0 right-0 h-[60px] bg-sc-bg" style={{ borderRadius: '0 0 50% 50%' }} />
+        <div className="absolute top-0 left-0 right-0 h-[60px] bg-white" style={{ borderRadius: '0 0 50% 50%' }} />
 
         <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-8">
           <div className="text-center mb-10">
@@ -601,7 +733,48 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========== NEWSLETTER ========== */}
+      {/* ========== 9. LIST YOUR STORE CTA ========== */}
+      <section className="py-16 md:py-20">
+        <div className="max-w-[900px] mx-auto px-4 sm:px-6">
+          <div className="bg-gradient-to-br from-sc-bg to-white rounded-sc-lg border-2 border-sc-border p-8 md:p-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div>
+                <span className="inline-flex items-center gap-1.5 bg-sc-primary/10 text-sc-primary font-semibold text-[13px] px-4 py-1.5 rounded-sc-full mb-4">
+                  <Megaphone className="w-3.5 h-3.5" /> For Stores &amp; Brands
+                </span>
+                <h2 className="font-display text-2xl md:text-[28px] font-bold text-sc-text mb-3">
+                  Get Your Store Featured
+                </h2>
+                <p className="text-[15px] text-sc-text-muted leading-relaxed mb-6">
+                  SwedishCrave is the #1 resource for Swedish candy in the US. Get your store in front of thousands of candy lovers every month.
+                </p>
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center gap-2 bg-sc-primary text-white font-semibold text-[15px] px-7 py-3.5 rounded-sc-full hover:shadow-lg hover:-translate-y-0.5 transition-all"
+                >
+                  Get in Touch <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                {[
+                  { icon: <Users className="w-6 h-6 text-sc-teal" />, label: 'Featured Placement', desc: 'Premium homepage slot' },
+                  { icon: <TrendingUp className="w-6 h-6 text-sc-blue" />, label: 'SEO Visibility', desc: 'Rank in search results' },
+                  { icon: <Star className="w-6 h-6 text-sc-yellow" />, label: 'Store Profile', desc: 'Full review page' },
+                  { icon: <Globe className="w-6 h-6 text-sc-purple" />, label: 'Brand Exposure', desc: 'Reach US candy lovers' },
+                ].map((item) => (
+                  <div key={item.label} className="bg-white rounded-sc-sm p-4 border border-sc-border">
+                    <span className="block mb-2">{item.icon}</span>
+                    <h4 className="text-[13px] font-bold text-sc-text mb-0.5">{item.label}</h4>
+                    <p className="text-[11px] text-sc-text-muted/70">{item.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ========== 10. NEWSLETTER ========== */}
       <section className="py-16 md:py-20">
         <div className="max-w-[680px] mx-auto px-4 sm:px-6">
           <div className="bg-gradient-to-br from-sc-yellow-soft via-sc-orange-soft to-sc-pink-soft rounded-sc-lg p-10 md:p-12 text-center relative overflow-hidden">
