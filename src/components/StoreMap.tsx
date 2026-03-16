@@ -1,10 +1,7 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useCallback } from 'react'
 import type { PhysicalStore } from '@/data/storeLocations'
-
-// Leaflet CSS is loaded via <link> in the page head (avoids SSR issues)
-// We dynamically import Leaflet + react-leaflet to avoid window reference on server
 
 interface StoreMapProps {
   stores: PhysicalStore[]
@@ -13,138 +10,92 @@ interface StoreMapProps {
 }
 
 export default function StoreMap({ stores, onStoreSelect }: StoreMapProps) {
-  const [MapComponents, setMapComponents] = useState<{
-    MapContainer: typeof import('react-leaflet')['MapContainer']
-    TileLayer: typeof import('react-leaflet')['TileLayer']
-    Marker: typeof import('react-leaflet')['Marker']
-    Popup: typeof import('react-leaflet')['Popup']
-    L: typeof import('leaflet')
-  } | null>(null)
+  const mapRef = useRef<HTMLDivElement>(null)
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const leafletMapRef = useRef<any>(null)
+
+  const buildPopup = useCallback((store: PhysicalStore) => {
+    const reviewLink = store.storePageSlug
+      ? `<a href="/stores/${store.storePageSlug}" style="color:#2563eb;font-size:11px;text-decoration:underline;">Read Review →</a>`
+      : ''
+    const shopLink = store.shopUrl
+      ? `<a href="${store.affiliateUrl || store.shopUrl}" target="_blank" rel="${store.affiliateUrl ? 'sponsored noopener' : 'noopener'}" style="color:#b45309;font-size:11px;font-weight:600;text-decoration:underline;">Shop Online →</a>`
+      : ''
+    const webLink = store.website
+      ? `<a href="${store.website}" target="_blank" rel="noopener" style="color:#6b7280;font-size:11px;text-decoration:underline;">Website →</a>`
+      : ''
+    const comingSoon = store.status === 'coming-soon'
+      ? '<span style="display:inline-block;font-size:10px;background:#fef9c3;color:#854d0e;padding:1px 6px;border-radius:4px;margin-bottom:4px;">Coming Soon</span><br/>'
+      : ''
+
+    return `
+      <div style="min-width:200px;font-family:system-ui,sans-serif;">
+        <strong style="font-size:13px;color:#111;">${store.name}</strong><br/>
+        <span style="font-size:11px;color:#6b7280;">${store.address}</span><br/>
+        <span style="font-size:11px;color:#9ca3af;">${store.hours}</span><br/>
+        ${comingSoon}
+        <div style="margin-top:6px;display:flex;gap:8px;flex-wrap:wrap;">
+          ${reviewLink}${shopLink}${webLink}
+        </div>
+      </div>
+    `
+  }, [])
 
   useEffect(() => {
-    // Dynamic import to avoid SSR window reference
-    Promise.all([
-      import('react-leaflet'),
-      import('leaflet'),
-    ]).then(([rl, L]) => {
-      // Fix default marker icons (Leaflet + webpack issue)
+    if (!mapRef.current || leafletMapRef.current) return
+
+    // Dynamic import of leaflet (vanilla, no react-leaflet needed)
+    import('leaflet').then((L) => {
+      const leaflet = L.default || L
+
+      // Fix default marker icons
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      delete (L.Icon.Default.prototype as any)._getIconUrl
-      L.Icon.Default.mergeOptions({
+      delete (leaflet.Icon.Default.prototype as any)._getIconUrl
+      leaflet.Icon.Default.mergeOptions({
         iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png',
         iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png',
         shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
       })
-      setMapComponents({
-        MapContainer: rl.MapContainer,
-        TileLayer: rl.TileLayer,
-        Marker: rl.Marker,
-        Popup: rl.Popup,
-        L: L.default || L,
+
+      // Create map centered on continental US
+      const map = leaflet.map(mapRef.current!, {
+        scrollWheelZoom: true,
+      }).setView([39.5, -98.5], 4)
+
+      leaflet.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        maxZoom: 18,
+      }).addTo(map)
+
+      // Add markers
+      stores.forEach((store) => {
+        const marker = leaflet.marker([store.lat, store.lng], {
+          opacity: store.status === 'coming-soon' ? 0.6 : 1,
+        }).addTo(map)
+
+        marker.bindPopup(buildPopup(store))
+
+        marker.on('click', () => {
+          onStoreSelect?.(store.id)
+        })
       })
+
+      leafletMapRef.current = map
     })
-  }, [])
 
-  if (!MapComponents) {
-    return (
-      <div className="w-full h-[500px] bg-gray-100 rounded-xl flex items-center justify-center text-gray-500">
-        Loading map…
-      </div>
-    )
-  }
-
-  const { MapContainer, TileLayer, Marker, Popup, L } = MapComponents
-
-  // Create custom icons
-  const defaultIcon = new L.Icon({
-    iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png',
-    iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41],
-  })
-
-  const comingSoonIcon = new L.Icon({
-    iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png',
-    iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
-    iconSize: [20, 33],
-    iconAnchor: [10, 33],
-    popupAnchor: [1, -28],
-    shadowSize: [33, 33],
-    className: 'opacity-60',
-  })
-
-  // Center of continental US
-  const center: [number, number] = [39.5, -98.5]
+    return () => {
+      if (leafletMapRef.current) {
+        leafletMapRef.current.remove()
+        leafletMapRef.current = null
+      }
+    }
+  }, [stores, onStoreSelect, buildPopup])
 
   return (
-    <MapContainer
-      center={center}
-      zoom={4}
-      scrollWheelZoom={true}
-      className="w-full h-[500px] rounded-xl z-0"
+    <div
+      ref={mapRef}
+      className="w-full rounded-xl z-0"
       style={{ height: '500px', width: '100%' }}
-    >
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      {stores.map((store) => (
-        <Marker
-          key={store.id}
-          position={[store.lat, store.lng]}
-          icon={store.status === 'coming-soon' ? comingSoonIcon : defaultIcon}
-          eventHandlers={{
-            click: () => onStoreSelect?.(store.id),
-          }}
-        >
-          <Popup>
-            <div className="min-w-[220px]">
-              <h3 className="font-bold text-sm text-gray-900 mb-1">{store.name}</h3>
-              <p className="text-xs text-gray-600 mb-1">{store.address}</p>
-              <p className="text-xs text-gray-500 mb-2">{store.hours}</p>
-              {store.status === 'coming-soon' && (
-                <span className="inline-block text-xs bg-yellow-100 text-yellow-800 px-2 py-0.5 rounded mb-2">
-                  Coming Soon
-                </span>
-              )}
-              <div className="flex gap-2 flex-wrap">
-                {store.storePageSlug && (
-                  <a
-                    href={`/stores/${store.storePageSlug}`}
-                    className="text-xs text-blue-600 hover:underline"
-                  >
-                    Read Review →
-                  </a>
-                )}
-                {store.shopUrl && (
-                  <a
-                    href={store.affiliateUrl || store.shopUrl}
-                    target="_blank"
-                    rel={store.affiliateUrl ? 'sponsored noopener' : 'noopener'}
-                    className="text-xs text-amber-700 hover:underline font-medium"
-                  >
-                    Shop Online →
-                  </a>
-                )}
-                {store.website && (
-                  <a
-                    href={store.website}
-                    target="_blank"
-                    rel="noopener"
-                    className="text-xs text-gray-500 hover:underline"
-                  >
-                    Website →
-                  </a>
-                )}
-              </div>
-            </div>
-          </Popup>
-        </Marker>
-      ))}
-    </MapContainer>
+    />
   )
 }
