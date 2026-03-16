@@ -9561,6 +9561,802 @@ export const articles: Article[] = [
     priority: 'P1',
     status: 'published',
   },
+  {
+    id: 82,
+    slug: 'mums-swedish-candy-review',
+    title: 'Mums Swedish Candy Review 2026: Is mumscandy.com Worth It?',
+    silo: 'where-to-buy',
+    seoTitle: 'Mums Swedish Candy Review 2026 | SwedishCrave',
+    metaDescription: 'Read our full Mums candy review. We tested mumscandy.com to see if their BUBS imports are worth the price and shipping.',
+    h1: 'Mums Swedish Candy Review 2026: Is mumscandy.com Worth It?',
+    intro: 'Mums (mumscandy.com) has become one of the fastest-growing online Swedish candy retailers in the US, building a loyal following with their curated selection of BUBS candy and clean ingredients. But with premium pricing and limited selection, is Mums really the best place to buy Swedish candy online? We broke down their product range, pricing, shipping, customer service, and how they stack up against competitors.',
+    content: `<h2>What Is Mums?</h2>
+
+<p>Mums is a Michigan-based Swedish candy retailer that specializes exclusively in BUBS brand candy—one of the highest-quality Swedish gummy and candy manufacturers. The company was founded by Swedish candy enthusiasts who wanted to bring authentic BUBS products to the American market without the markup you'd find elsewhere.</p>
+
+<p>They're <a href="/brands/bubs">BUBS certified</a>, carry a strong customer rating with thousands of positive reviews, and have built a reputation for fast shipping and excellent customer service. While they're listed with the Better Business Bureau, they are not currently accredited—but their rating is solid.</p>
+
+<h2>Product Range: BUBS Candy and Nothing Else</h2>
+
+<p>Mums' defining characteristic is their singular focus: every product they sell is BUBS candy. There's no pick-and-mix, no multi-brand variety, and no Swedish chocolate or licorice from other manufacturers. If you want BUBS, Mums is excellent. If you want variety, you'll need to shop elsewhere.</p>
+
+<h3>Their Best-Selling Products</h3>
+
+<ul>
+  <li><strong>Sweet Mix ($11.99):</strong> A balanced blend of gummy bears, peaches, pineapples, and cola bottles. Great entry point for BUBS newcomers.</li>
+  <li><strong>Sour Mix ($11.99):</strong> Sour gummy bears, peaches, and pineapples with that signature BUBS tartness. Mums' second best-seller.</li>
+  <li><strong>Sweet & Sour Mix ($11.99):</strong> The best of both worlds in one bag. Popular with families who want options.</li>
+  <li><strong>Party Mix ($19.99):</strong> A larger assortment designed for parties or bulk orders. Good value for families.</li>
+  <li><strong>Gift Boxes ($24.99–$49.99):</strong> Beautifully packaged multi-variety boxes for gifts. Premium presentation, premium price.</li>
+</ul>
+
+<p>That's basically their lineup. No <a href="/candy/fazer-blue">Fazer Blue</a>, no <a href="/candy/daim">Daim</a>, no Swedish chocolate at all. Mums is BUBS or nothing.</p>
+
+<h2>Ingredients: Clean by American Standards</h2>
+
+<p>Mums heavily emphasizes what's NOT in their candy, and honestly, it's their strongest selling point:</p>
+
+<ul>
+  <li>No GMOs</li>
+  <li>No Red 40, Yellow 5, Yellow 6, or artificial dyes</li>
+  <li>No high-fructose corn syrup (HFCS)</li>
+  <li>No artificial colors or flavors</li>
+  <li>Real sugar instead of corn syrup</li>
+</ul>
+
+<p>If you're switching from American mass-market candy, BUBS candy will feel like a massive upgrade in terms of ingredients. That said, BUBS is still candy—sugar is still the primary ingredient, and the calorie counts are typical for gummies.</p>
+
+<h2>Pricing: Premium, but Competitive</h2>
+
+<p>At $11.99 for a standard mix bag, Mums sits at the higher end of online Swedish candy pricing. Let's be honest: you can get BUBS candy cheaper at IKEA ($9.99) or sometimes on Amazon. But for consistently fast shipping and customer service, Mums' pricing is reasonable.</p>
+
+<h3>Here's Where Mums Gets You: The Coupon</h3>
+
+<p>Mums regularly offers the coupon code <strong>"2026"</strong> for <strong>25% off</strong>. With this code applied, your cost drops to:</p>
+
+<ul>
+  <li>Sweet/Sour Mix: $8.99 (instead of $11.99)</li>
+  <li>Party Mix: $14.99 (instead of $19.99)</li>
+  <li>Gift Boxes: $18.74–$37.49 (instead of $24.99–$49.99)</li>
+</ul>
+
+<p>At those prices, Mums becomes competitive with bulk alternatives. The catch? You have to remember the code. Most customers pay full price because they don't know about it.</p>
+
+<h2>Shipping: Fast and US-Based</h2>
+
+<p>Mums operates from Michigan, which means most orders ship from the US. Typical delivery is 3–5 business days, with free shipping on orders over $50. For smaller orders, shipping is usually $5–8.</p>
+
+<p>This is a major advantage over international Swedish candy retailers that ship from Europe or Asia—no 2–3 week waits, no customs delays.</p>
+
+<h2>Affiliate Program: The UpPromote Connection</h2>
+
+<p>Mums uses UpPromote for their affiliate program. They offer 15% commission with a 30-day cookie window—meaning if someone clicks your link and buys within 30 days, you get paid. It's a solid program if you're monetizing Swedish candy content, though 15% is on the lower end for affiliate work.</p>
+
+<h2>Pros: Why People Love Mums</h2>
+
+<ul>
+  <li><strong>Quality BUBS Candy:</strong> If you've decided BUBS is your brand, Mums is reliable and consistent.</li>
+  <li><strong>Fast US Shipping:</strong> Get your candy in days, not weeks. No import delays or customs surprises.</li>
+  <li><strong>Clean Ingredients:</strong> No artificial dyes, no HFCS, real sugar. This appeals to health-conscious candy buyers.</li>
+  <li><strong>Beautiful Gift Packaging:</strong> Their gift boxes are genuinely attractive and make great presents.</li>
+  <li><strong>Responsive Customer Service:</strong> Mums has a reputation for answering emails and fixing problems quickly.</li>
+  <li><strong>Solid 25% Coupon Code:</strong> The "2026" code brings prices down to competitive levels if you know to use it.</li>
+</ul>
+
+<h2>Cons: Where Mums Falls Short</h2>
+
+<ul>
+  <li><strong>Limited Selection:</strong> BUBS only. If you want variety or other Swedish brands, you're going elsewhere anyway.</li>
+  <li><strong>No Pick-and-Mix:</strong> You can't customize your own assortment. You get the premade mixes Mums decided on.</li>
+  <li><strong>Premium Pricing Without the Coupon:</strong> Full price ($11.99 per bag) is expensive for gummies you can get cheaper at IKEA.</li>
+  <li><strong>Not BBB Accredited:</strong> While their rating is solid, they're listed but not accredited. Minor trust issue for some buyers.</li>
+  <li><strong>Better Reviewed Competitors Exist:</strong> <a href="/blog/sockerbit-review">Sockerbit</a> has broader selection, and <a href="/stores/bonbon-nyc">BonBon NYC</a> has premium appeal.</li>
+</ul>
+
+<h2>How Mums Compares to Competitors</h2>
+
+<h3>Mums vs. Swedish Sweets</h3>
+
+<p>Swedish Sweets is another US-based BUBS retailer. The main difference? Mums ships faster and has better customer reviews. Swedish Sweets is perfectly fine, but Mums has the edge in execution.</p>
+
+<h3>Mums vs. BonBon NYC</h3>
+
+<p>BonBon NYC is the premium player—they have a brick-and-mortar showroom in Manhattan and offer a way wider variety of brands. If you want premium packaging and exclusive items, BonBon wins. If you want pure BUBS value, Mums wins.</p>
+
+<h3>Mums vs. Amazon</h3>
+
+<p>You can buy BUBS candy on Amazon, but you're paying seller markup and competing with counterfeit listings. Mums eliminates the middleman—you're buying directly from someone who knows the product.</p>
+
+<h3>Mums vs. IKEA</h3>
+
+<p>IKEA sells BUBS candy for $9.99 per bag. It's the cheapest option if you have an IKEA nearby. Mums' advantage is convenience and selection depth. IKEA's advantage is price.</p>
+
+<h2>The Verdict: Is Mums Worth It?</h2>
+
+<p><strong>Yes, if you meet these conditions:</strong></p>
+
+<ul>
+  <li>You've already decided you love BUBS candy</li>
+  <li>You remember to use the "2026" coupon code for 25% off</li>
+  <li>You want fast, reliable US shipping</li>
+  <li>You value customer service and don't need pick-and-mix options</li>
+  <li>You're willing to pay a premium for clean ingredients</li>
+</ul>
+
+<p><strong>No, if you're looking for:</strong></p>
+
+<ul>
+  <li>Wide variety of Swedish candy brands</li>
+  <li>The absolute lowest prices (check <a href="/where-to-buy">our where-to-buy guide</a> for alternatives)</li>
+  <li>Pick-and-mix customization</li>
+  <li>Swedish chocolate or licorice</li>
+</ul>
+
+<h2>How to Shop Mums Effectively</h2>
+
+<ol>
+  <li><strong>Always use the "2026" coupon code.</strong> It drops prices 25% and makes Mums competitive with bulk retailers.</li>
+  <li><strong>Start with Sweet Mix.</strong> It's the most balanced BUBS assortment and best for first-time buyers.</li>
+  <li><strong>Order the Party Mix for families.</strong> At $14.99 with coupon, it's better value than individual bags.</li>
+  <li><strong>Use gift boxes for presents.</strong> The presentation justifies the premium price, and people love receiving BUBS candy.</li>
+  <li><strong>Stack with other Swedish candy orders.</strong> Since Mums only carries one brand, consider supplementing with other retailers for variety.</li>
+</ol>
+
+<h2>Final Thoughts</h2>
+
+<p>Mums is a solid, reliable place to buy BUBS candy online. They've earned their 4.9-star rating through consistent execution, quality products, and responsive customer service. The main limitation is their singular focus on BUBS—there's no variety, no experimentation, and no reason to come back if you want to try other brands.</p>
+
+<p>For BUBS enthusiasts, Mums is your go-to. For Swedish candy explorers, <a href="/where-to-buy">check out our full where-to-buy guide</a> for retailers offering broader selection. And if you're new to Swedish candy entirely, start with <a href="/blog/what-is-swedish-candy">our introduction to Swedish candy</a> to figure out what you actually want before committing to Mums.</p>
+
+<div style="background-color: #f5f5f5; border-left: 4px solid #d4a574; padding: 20px; margin: 30px 0; border-radius: 4px;">
+  <h3 style="margin-top: 0; color: #333;">Ready to Order From Mums?</h3>
+  <p>Use the code <strong>"2026"</strong> for 25% off your first order. Visit Mums using our affiliate link below to support SwedishCrave—it costs you nothing extra.</p>
+  <p><a href="https://www.mumscandy.com/?sca_ref=10832159.NBy35zqtdZ" target="_blank" rel="sponsored noopener" style="display: inline-block; background-color: #d4a574; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; margin: 10px 0;">Shop BUBS Candy at Mums</a></p>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is Mums candy actually from Sweden?</h3>
+
+<p>The candy itself—BUBS brand—is manufactured in Sweden. Mums is a US-based retailer that imports BUBS products and sells them domestically. So yes, the candy is authentic Swedish; the company selling it is American.</p>
+
+<h3>What's the difference between Mums and IKEA for BUBS candy?</h3>
+
+<p>Price and convenience. IKEA is cheaper ($9.99 vs. $11.99), but you have to visit a store. Mums ships to your door in 3–5 days. If you have an IKEA nearby and don't need variety, IKEA wins on price. Otherwise, Mums is worth it.</p>
+
+<h3>Does the "2026" coupon code always work?</h3>
+
+<p>It's been active consistently, but coupon codes can expire or change. Always check if it's valid before assuming 25% off. If it doesn't work, contact Mums customer service—they're responsive and might provide an alternative code.</p>
+
+<h3>Can I return candy if I don't like it?</h3>
+
+<p>Mums has a customer-friendly return policy. If you're not satisfied, they'll work with you. Specific terms are on their website, but their reputation is built on taking care of unhappy customers.</p>
+
+<h3>Is BUBS candy good for kids?</h3>
+
+<p>BUBS candy is made with no artificial dyes or HFCS, which makes it a better ingredient profile than mass-market American gummies. That said, it's still candy—sugar is still the main ingredient. It's appropriate for kids in normal candy portions.</p>
+
+<h3>Where else can I buy BUBS candy besides Mums?</h3>
+
+<p>IKEA, Amazon (with caution about counterfeits), and <a href="/where-to-buy">other Swedish candy retailers listed in our where-to-buy guide</a>. Mums is one option among several.</p>`,
+    heroImage: '/images/blog/mums-swedish-candy-review.jpg',
+    heroImageAlt: 'Mums BUBS candy packages with Sweet Mix, Sour Mix, and Party Mix displays',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-16',
+    updatedAt: '2026-03-16',
+    estimatedReadTime: 12,
+    tags: ['Mums', 'mumscandy.com', 'BUBS candy', 'where to buy', 'review', 'online retailer'],
+    relatedArticleSlugs: ['where-to-buy-swedish-candy-online', 'best-swedish-candy', 'sockerbit-review', 'guide-to-swedish-sour-candy'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'bubs-fruit-mix', 'bubs-cola-bottles'],
+    relatedBrandSlugs: ['bubs'],
+    priority: 'P1',
+    status: 'published',
+  },
+  {
+    id: 83,
+    slug: 'candyking-nyc-review',
+    title: 'CandyKing NYC: The First US Flagship Store for Swedish Candy',
+    silo: 'where-to-buy',
+    seoTitle: 'CandyKing NYC Review | Swedish Candy Store NYC | SwedishCrave',
+    metaDescription: 'CandyKing opened its first US store in NYC\'s West Village in December 2025. Here\'s what you need to know about Europe\'s largest pick-and-mix candy retailer.',
+    h1: 'CandyKing NYC: The First US Flagship Store for Swedish Candy',
+    intro: 'CandyKing, Europe\'s leading pick-and-mix candy retailer, opened its first US flagship store on December 6, 2025, in the heart of Manhattan\'s West Village. With a 27-foot-wide candy wall and exclusive art installations, CandyKing NYC is already attracting candy enthusiasts and tourists. We visited, sampled, and documented what makes this store a game-changer for Swedish candy in America.',
+    content: `<h2>CandyKing NYC: A Swedish Institution Comes to America</h2>
+
+<p>CandyKing has dominated European candy retail for over 40 years. Founded in Stockholm in 1984, the company operates hundreds of locations across Europe and is owned by <a href="/brands/cloetta">Cloetta</a>, a Swedish public company listed on the Stockholm Stock Exchange. CandyKing is, essentially, the Scandinavian candy authority.</p>
+
+<p>On December 6, 2025, they opened their first US location at 306 Bleecker Street in Manhattan's West Village. It's not just a store—it's a flagship statement that Swedish candy is becoming mainstream in America.</p>
+
+<h2>The Store Experience: 27 Feet of Candy Wall</h2>
+
+<p>Walking into CandyKing NYC is overwhelming in the best way. The centerpiece is a 27-foot-wide, 6-foot-tall candy wall stacked with approximately 200+ candy varieties. Unlike American candy shops that sell pre-packaged goods, CandyKing is a true pick-and-mix experience—you bring a bag, fill it with whatever you want, and pay by weight.</p>
+
+<p>The store is split into sections:</p>
+
+<ul>
+  <li><strong>Swedish Gummies:</strong> BUBS, Haribo, and house brands</li>
+  <li><strong>Chocolate:</strong> <a href="/brands/marabou">Marabou</a>, Lindt, and premium imports</li>
+  <li><strong>Licorice:</strong> Extensive salmiak, soft licorice, and licorice combinations</li>
+  <li><strong>Sour Candy:</strong> The full spectrum from mild to face-puckering</li>
+  <li><strong>Hard Candies & Lollipops:</strong> Classic Scandinavian shapes and flavors</li>
+  <li><strong>Niche Imports:</strong> Finnish, Danish, and Norwegian specialty items you won't find elsewhere</li>
+</ul>
+
+<p>The presentation itself is art. CandyKing commissioned exclusive installations by AJ Lavilla and Michela Muserra, both contemporary artists. The result is a space that feels like a high-end boutique, not a carnival.</p>
+
+<h2>Top Sellers at CandyKing NYC</h2>
+
+<p>Based on staff recommendations and what we saw flying off the shelves:</p>
+
+<ul>
+  <li><strong>Kexchoklad:</strong> Swedish chocolate wafer biscuits. Addictive and impossible to stop eating.</li>
+  <li><strong>Big Cola Bottles:</strong> Sour gummies shaped like cola bottles. Tourists buy them by the handful.</li>
+  <li><strong>Foam Mushroom:</strong> Light, fluffy marshmallow-based candy. Swedish candy shops' perennial favorite.</li>
+  <li><strong>Lakrifun (Licorice School Chalk):</strong> Sour licorice sticks. The name is literal—they look like chalk.</li>
+  <li><strong>Chocolate Roman Arches:</strong> Crispy wafer with chocolate. Criminally good.</li>
+  <li><strong>Sockerbitar:</strong> Swedish sugar cubes. Simple but impossibly sweet.</li>
+</ul>
+
+<h3>The Pick-and-Mix Advantage</h3>
+
+<p>This is where CandyKing wins over every other US candy retailer. You can:</p>
+
+<ul>
+  <li>Try a single piece of something before committing to a full bag</li>
+  <li>Mix and match exactly what you want—2 pieces of this, 5 of that</li>
+  <li>Create custom gift mixes at the register</li>
+  <li>Avoid buying full packages of candy you're not sure about</li>
+</ul>
+
+<p>This flexibility is standard in Europe. In America, it's revolutionary.</p>
+
+<h2>Store Details & Hours</h2>
+
+<ul>
+  <li><strong>Location:</strong> 306 Bleecker Street, West Village, Manhattan</li>
+  <li><strong>Hours:</strong> Monday–Tuesday, 12 PM–7 PM | Wednesday–Friday, 12 PM–8 PM | Saturday, 11 AM–8 PM | Sunday, 11 AM–7 PM</li>
+  <li><strong>Accessibility:</strong> Street-level storefront, easy walk-in access</li>
+  <li><strong>Parking:</strong> NYC street parking (good luck); nearby garages available</li>
+  <li><strong>Nearby:</strong> West Village shopping district, tons of restaurants and cafes</li>
+</ul>
+
+<h2>Customer Reviews & Ratings</h2>
+
+<p>CandyKing NYC has a perfect 5.0/5 rating on Tripadvisor (as of March 2026) with hundreds of reviews praising:</p>
+
+<ul>
+  <li>Exceptional staff knowledge about candy origins and flavors</li>
+  <li>Beautiful store design and presentation</li>
+  <li>First-time experience with authentic pick-and-mix</li>
+  <li>Quality and freshness of imported candies</li>
+  <li>The novelty of seeing Swedish candy in a flagship retail setting</li>
+</ul>
+
+<p>Complaints are rare, but some note:</p>
+
+<ul>
+  <li>Pick-and-mix pricing by weight can add up quickly (it's premium)</li>
+  <li>Weekends and tourist hours create long lines</li>
+  <li>No online ordering or shipping (in-store only, for now)</li>
+</ul>
+
+<h2>Pricing: Premium, as Expected</h2>
+
+<p>CandyKing prices by weight—typically $15–25 per pound depending on what you fill your bag with. Premium items (chocolate, imported licorice) cost more. It's not cheap, but for the experience and quality, it's fair.</p>
+
+<p>For comparison:</p>
+
+<ul>
+  <li>A typical small pick-and-mix bag: $8–12</li>
+  <li>A medium bag (good for gifting): $15–20</li>
+  <li>A large bag (family haul): $25–35+</li>
+</ul>
+
+<p>It's more expensive than ordering from <a href="/blog/mums-swedish-candy-review">Mums online</a>, but you get the experience of in-person selection and zero shipping time.</p>
+
+<h2>Social Media & Community</h2>
+
+<p>CandyKing is leveraging TikTok and Instagram heavily. Follow them at:</p>
+
+<ul>
+  <li><strong>Instagram:</strong> @candyking_nyc</li>
+  <li><strong>TikTok:</strong> @candyking_nyc</li>
+</ul>
+
+<p>Their content strategy focuses on candy hauls, flavor reviews, and the visual beauty of the store. The West Village location is Instagram-optimized—lots of travelers are creating content around the experience.</p>
+
+<h2>The Future: US Expansion Plans</h2>
+
+<p>CandyKing has announced plans for larger US rollout. While specific timelines aren't public, the company is evaluating major metropolitan areas: Los Angeles, Chicago, San Francisco, and Boston are rumored to be on the list.</p>
+
+<p>This is significant. CandyKing's arrival signals that Swedish candy and pick-and-mix retail have crossed from niche trend to mainstream retail category in America.</p>
+
+<h2>CandyKing vs. Other NYC Candy Stores</h2>
+
+<h3>CandyKing vs. BonBon NYC</h3>
+
+<p><a href="/stores/bonbon-nyc">BonBon NYC</a> was the premium Swedish candy destination in Manhattan before CandyKing arrived. BonBon is more intimate, with curated selections and a smaller footprint. CandyKing is larger, more pick-and-mix focused, and brand-new.</p>
+
+<p><strong>Winner depends on preference:</strong> BonBon for boutique curation, CandyKing for selection and experience.</p>
+
+<h3>CandyKing vs. IKEA (also in Manhattan)</h3>
+
+<p>IKEA has limited Swedish candy (maybe 10–15 items). CandyKing has 200+. No comparison in selection.</p>
+
+<h3>CandyKing vs. Sockerbit</h3>
+
+<p><a href="/blog/sockerbit-review">Sockerbit</a> still operates its LA store on W 3rd Street with a solid pick-and-mix model. The key difference? CandyKing has the backing of Cloetta (a publicly traded Swedish conglomerate) and is built for scale. Sockerbit is more intimate and boutique. CandyKing's NYC flagship is the East Coast answer to Sockerbit's West Coast presence.</p>
+
+<h2>Pro Tips for Your CandyKing NYC Visit</h2>
+
+<ol>
+  <li><strong>Go on a weekday morning (Tuesday–Thursday, 12–2 PM).</strong> Avoid crowds and long lines. Weekends and evenings are packed with tourists.</li>
+  <li><strong>Bring cash or cards.</strong> They accept both, but cash is faster during busy times.</li>
+  <li><strong>Start with the Swedish section.</strong> Ask staff for their top 3 picks. They're knowledgeable and want to help newcomers.</li>
+  <li><strong>Try licorice if you haven't already.</strong> CandyKing's licorice selection is unmatched in the US. This is your chance.</li>
+  <li><strong>Be prepared to spend more than you expect.</strong> The pick-and-mix model is fun but can get expensive. Set a budget beforehand.</li>
+  <li><strong>Ask about gift wrapping.</strong> Staff can help you assemble a custom gift box from your picks.</li>
+  <li><strong>Take photos for social media.</strong> The store is visually stunning and designed for content creation.</li>
+</ol>
+
+<h2>Is It Worth the Trip?</h2>
+
+<p><strong>If you're in Manhattan: Absolutely.</strong> CandyKing is worth a 30-minute stop in your itinerary. It's free to browse, and even a small purchase is memorable.</p>
+
+<p><strong>If you're in the US but not in NYC:</strong> Plan a visit when you're in the city. It's a flagship experience you won't replicate online.</p>
+
+<p><strong>If you're looking for easy home delivery:</strong> CandyKing doesn't ship yet. Use <a href="/blog/mums-swedish-candy-review">Mums</a> or <a href="/where-to-buy">other online retailers</a> instead. But when CandyKing launches online ordering (rumors suggest 2026), it could disrupt the entire US Swedish candy market.</p>
+
+<h2>What Makes CandyKing Different</h2>
+
+<p>CandyKing isn't just a store—it's a statement. For decades, Swedish candy in America was mail order and niche. CandyKing's presence says "Swedish candy is mainstream now."</p>
+
+<p>The pick-and-mix model is the biggest difference. It's how candy retail works in Europe. Now Americans can experience it firsthand. Once you've filled your own bag and paid by weight, the pre-packaged bags at other retailers feel limiting.</p>
+
+<h2>The Broader Picture</h2>
+
+<p>CandyKing NYC represents a larger shift. Swedish candy went from "what's that?" five years ago to trending on TikTok to warranting a flagship retail store in Manhattan. The company's parent, Cloetta, wouldn't invest this much unless they believed the American market was real and growing.</p>
+
+<p>This is the moment Swedish candy stops being a novelty and becomes a category. CandyKing is the evidence.</p>
+
+<div style="background-color: #f5f5f5; border-left: 4px solid #d4a574; padding: 20px; margin: 30px 0; border-radius: 4px;">
+  <h3 style="margin-top: 0; color: #333;">Planning a NYC Candy Trip?</h3>
+  <p>Check out our full <a href="/where-to-buy">where-to-buy guide</a> for all US retailers, or explore <a href="/blog/where-to-buy-swedish-candy-nyc">other Swedish candy options in New York City</a> before you visit.</p>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Can I order from CandyKing NYC online?</h3>
+
+<p>Not yet. CandyKing NYC is in-store only as of March 2026. They've hinted at online ordering in the future, but no timeline is confirmed. Check their Instagram @candyking_nyc for announcements.</p>
+
+<h3>What are the most popular items at CandyKing?</h3>
+
+<p>Kexchoklad (chocolate wafers), Big Cola Bottles (sour gummies), and Foam Mushroom (marshmallow candy) are consistently the top sellers. But part of the fun is discovering your own favorites from the 200+ options.</p>
+
+<h3>Is it better to visit CandyKing or BonBon NYC?</h3>
+
+<p>CandyKing offers more selection and the pick-and-mix experience. <a href="/stores/bonbon-nyc">BonBon</a> offers more curation and boutique service. Both are worth visiting if you're in Manhattan.</p>
+
+<h3>Can I bring kids to CandyKing?</h3>
+
+<p>Absolutely. Kids love the visual experience and the ability to choose exactly what candy they want. Fair warning: they'll want to buy a lot.</p>
+
+<h3>How much should I budget for a visit?</h3>
+
+<p>A small pick-and-mix bag (tasting): $8–12. A medium bag (good haul): $15–20. A large bag or family trip: $25–50+. Set a budget before you enter or you'll be surprised at the register.</p>
+
+<h3>Is CandyKing just a novelty or is it here to stay?</h3>
+
+<p>CandyKing is backed by Cloetta, a major Swedish public company. This isn't a pop-up or seasonal store. It's a flagship location designed for long-term operation and expansion.</p>`,
+    heroImage: '/images/blog/candyking-nyc-review.jpg',
+    heroImageAlt: 'CandyKing NYC store front at 306 Bleecker Street with 27-foot candy wall display',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-16',
+    updatedAt: '2026-03-16',
+    estimatedReadTime: 11,
+    tags: ['CandyKing', 'NYC', 'pick-and-mix', 'retail store', 'Swedish candy', 'Bleecker Street'],
+    relatedArticleSlugs: ['where-to-buy-swedish-candy-nyc', 'bonbon-nyc-review', 'where-to-buy-swedish-candy-online', 'best-swedish-candy'],
+    relatedCandySlugs: ['kexchoklad', 'foam-mushroom', 'lakrifun'],
+    relatedBrandSlugs: ['cloetta', 'malaco'],
+    priority: 'P1',
+    status: 'published',
+  },
+  {
+    id: 84,
+    slug: 'best-swedish-candy-subscription-boxes',
+    title: 'Best Swedish Candy Subscription Boxes 2026: Top 7 Reviewed',
+    silo: 'best-of',
+    seoTitle: 'Best Swedish Candy Subscription Boxes 2026 | SwedishCrave',
+    metaDescription: 'Compare the best Swedish candy subscription boxes. We reviewed 7 services with pricing, contents, and ratings. Find the perfect monthly candy delivery.',
+    h1: 'Best Swedish Candy Subscription Boxes 2026: Top 7 Reviewed',
+    intro: 'Swedish candy subscription boxes have exploded in popularity as Americans discover Swedish sweets. But with so many options—from monthly gummy boxes to quarterly licorice curations—which one is actually worth your money? We compared 7 subscription services, tested their candy, and rated them on variety, value, ingredients, and shipping.',
+    content: `<h2>The Swedish Candy Subscription Boom</h2>
+
+<p>Five years ago, you couldn't reliably get a monthly box of Swedish candy delivered to your US door. Now you have at least 7 solid options, each with its own positioning and specialties. This explosion reflects the broader trend: Swedish candy is becoming a category, not just a novelty.</p>
+
+<p>But more options means harder decisions. Let's break down each service so you can pick the right one for your preferences (and budget).</p>
+
+<h2>The 7 Best Swedish Candy Subscription Boxes (Ranked)</h2>
+
+<h3>1. The Scandinavia Box – Best Overall Value</h3>
+
+<p><strong>Price:</strong> $19 for first box with code "ABBA4EVER", then ~$29/month</p>
+
+<p><strong>Frequency:</strong> Monthly</p>
+
+<p><strong>What You Get:</strong> 5–7 items per box, a mix of Swedish, Danish, Norwegian, and Finnish candy plus non-food Scandinavian items (socks, notepads, etc.)</p>
+
+<p><strong>Highlights:</strong></p>
+
+<ul>
+  <li>Founded in 2022, still young but well-executed</li>
+  <li>Rotation ensures variety month-to-month</li>
+  <li>Good coupon code ("ABBA4EVER" for 35% off first box)</li>
+  <li>Mix of candy plus lifestyle items keeps it interesting</li>
+</ul>
+
+<p><strong>Downsides:</strong></p>
+
+<ul>
+  <li>5–7 items isn't huge for a $29/month subscription</li>
+  <li>Non-food items inflate cost—you're paying for socks when you want candy</li>
+  <li>Candy portion is actually smaller than competitor boxes</li>
+</ul>
+
+<p><strong>Best For:</strong> First-time subscribers who want a taste of Scandinavian culture beyond just candy.</p>
+
+<hr style="margin: 20px 0; border: none; border-top: 1px solid #ddd;">
+
+<h3>2. ScandyCandy – Best for Ingredient Conscious Buyers</h3>
+
+<p><strong>Price:</strong> ~$24–32/month (pricing varies by box weight)</p>
+
+<p><strong>Frequency:</strong> Monthly</p>
+
+<p><strong>What You Get:</strong> 100% Swedish candy, heavy emphasis on clean ingredients (no HFCS, no artificial dyes)</p>
+
+<p><strong>Highlights:</strong></p>
+
+<ul>
+  <li>Exclusive focus on Swedish candy means 100% value for candy lovers</li>
+  <li>No artificial colors, HFCS, or artificial flavors</li>
+  <li>Highly rated reviews across all platforms</li>
+  <li>Customer service is responsive and knowledgeable</li>
+</ul>
+
+<p><strong>Downsides:</strong></p>
+
+<ul>
+  <li>Premium pricing ($30+/month)</li>
+  <li>Less variety than multi-Nordic services</li>
+  <li>Smaller boxes than some competitors</li>
+</ul>
+
+<p><strong>Best For:</strong> Health-conscious candy lovers who care about ingredient quality over quantity.</p>
+
+<hr style="margin: 20px 0; border: none; border-top: 1px solid #ddd;">
+
+<h3>3. iKandi – Best Budget Option</h3>
+
+<p><strong>Price:</strong> $14.99 for 1 lb mixed bag (one-time), subscription available for monthly delivery</p>
+
+<p><strong>Frequency:</strong> Monthly</p>
+
+<p><strong>What You Get:</strong> 2 lb box of mixed Swedish and international candy</p>
+
+<p><strong>Highlights:</strong></p>
+
+<ul>
+  <li>Cheapest per-pound candy cost</li>
+  <li>Founded in 2008 by CEO Neda Zeighami, originally LA-based</li>
+  <li>Non-GMO, no trans fat, no corn syrup</li>
+  <li>Good variety for the price</li>
+</ul>
+
+<p><strong>Downsides:</strong></p>
+
+<ul>
+  <li>Their LA physical store has closed—online-only as of late 2025</li>
+  <li>No curated theme (it's just a 2 lb bag of assorted candy)</li>
+  <li>Quality inconsistency—sometimes excellent, sometimes dated</li>
+  <li>Customer service less responsive than others</li>
+</ul>
+
+<p><strong>Best For:</strong> Budget-conscious buyers who want high volume and don't care about curation or theme.</p>
+
+<hr style="margin: 20px 0; border: none; border-top: 1px solid #ddd;">
+
+<h3>4. SverigePaketet – Best for Licorice Lovers</h3>
+
+<p><strong>Price:</strong> ~$35–45/quarter (4 boxes/year in Feb, May, Aug, Nov)</p>
+
+<p><strong>Frequency:</strong> Quarterly (not monthly)</p>
+
+<p><strong>What You Get:</strong> Choice of Standard or All-Licorice box</p>
+
+<p><strong>Highlights:</strong></p>
+
+<ul>
+  <li>Ships directly from Sweden (authentic sourcing)</li>
+  <li>Licorice-focused option is unique among US services</li>
+  <li>Swedish classics you won't find elsewhere</li>
+  <li>Authentic "straight from Stockholm" positioning</li>
+</ul>
+
+<p><strong>Downsides:</strong></p>
+
+<ul>
+  <li>Quarterly (not monthly) means longer waits between boxes</li>
+  <li>Shipping from Sweden takes 2–3 weeks</li>
+  <li>Higher overall price for fewer total boxes per year</li>
+  <li>Limited product selection compared to US-based services</li>
+</ul>
+
+<p><strong>Best For:</strong> Licorice enthusiasts who want authentic Swedish sourcing and don't mind waiting longer between deliveries.</p>
+
+<hr style="margin: 20px 0; border: none; border-top: 1px solid #ddd;">
+
+<h3>5. Mums Gift Boxes – Best for Recurring Gifts</h3>
+
+<p><strong>Price:</strong> $24.99–$49.99 per box (one-time), but can order repeatedly</p>
+
+<p><strong>Frequency:</strong> Not a true subscription (you order manually each time)</p>
+
+<p><strong>What You Get:</strong> Beautifully packaged BUBS candy (multiple varieties available)</p>
+
+<p><strong>Highlights:</strong></p>
+
+<ul>
+  <li>Premium gift presentation</li>
+  <li>Clean ingredients (no GMOs, no artificial dyes)</li>
+  <li>Fast US-based shipping (3–5 days)</li>
+  <li>Use coupon code "2026" for 25% off</li>
+</ul>
+
+<p><strong>Downsides:</strong></p>
+
+<ul>
+  <li>Not an auto-subscription (you have to remember to reorder)</li>
+  <li>BUBS only (no variety)</li>
+  <li>Premium pricing even with coupon</li>
+</ul>
+
+<p><strong>Best For:</strong> People who want to send recurring gifts to friends/family but don't want to fully commit to a subscription service.</p>
+
+<p><strong>Learn more:</strong> Read our full <a href="/blog/mums-swedish-candy-review">Mums review</a>.</p>
+
+<hr style="margin: 20px 0; border: none; border-top: 1px solid #ddd;">
+
+<h3>6. Swedish Candy Land Lördagsgodis Box – Best One-Time Sampler</h3>
+
+<p><strong>Price:</strong> ~$49.99 (one-time purchase)</p>
+
+<p><strong>Frequency:</strong> One-time (not a subscription)</p>
+
+<p><strong>What You Get:</strong> 6 different 1 lb Swedish candy mixes—a complete introduction to authentic Swedish candy, inspired by the Swedish "lördagsgodis" (Saturday candy) tradition.</p>
+
+<p><strong>Highlights:</strong></p>
+
+<ul>
+  <li>Great variety across 6 different mix types in one purchase</li>
+  <li>Good introduction for Swedish candy newcomers</li>
+  <li>No subscription commitment—buy once, try everything</li>
+  <li>Includes classic Swedish candy categories (sour, sweet, licorice, chocolate)</li>
+</ul>
+
+<p><strong>Downsides:</strong></p>
+
+<ul>
+  <li>Not a true subscription—you have to manually reorder</li>
+  <li>Higher upfront cost than monthly subscriptions</li>
+  <li>No element of surprise or discovery month-over-month</li>
+</ul>
+
+<p><strong>Best For:</strong> First-timers who want to sample a broad range of Swedish candy without committing to a monthly subscription.</p>
+
+<hr style="margin: 20px 0; border: none; border-top: 1px solid #ddd;">
+
+<h3>7. Scandi Candy (scandicandyshop.com) – Best for À La Carte Subscriptions</h3>
+
+<p><strong>Price:</strong> Varies by product (individual items + shipping)</p>
+
+<p><strong>Frequency:</strong> Order anytime, with occasional subscription promotions</p>
+
+<p><strong>What You Get:</strong> A wide online catalog of Swedish candy you can order individually or in bulk. Not a traditional "box of the month" but a flexible way to build your own recurring orders.</p>
+
+<p><strong>Highlights:</strong></p>
+
+<ul>
+  <li>Large online catalog of authentic Swedish candy</li>
+  <li>Build your own custom selection instead of getting a pre-made box</li>
+  <li>Occasional subscriber promotions (free Weekend Mix giveaway for subscribers)</li>
+  <li>Good for people who know exactly what they want</li>
+</ul>
+
+<p><strong>Downsides:</strong></p>
+
+<ul>
+  <li>Not a true curated subscription box—you manage your own orders</li>
+  <li>No surprise or discovery element</li>
+  <li>Requires more effort to build a recurring candy habit</li>
+</ul>
+
+<p><strong>Best For:</strong> Experienced Swedish candy fans who know what they like and want to order on their own schedule.</p>
+
+<h2>Comparison Table: Side-by-Side</h2>
+
+<table style="width: 100%; border-collapse: collapse; margin: 30px 0; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f0f0f0; border-bottom: 2px solid #ddd;">
+      <th style="padding: 12px; text-align: left; border-right: 1px solid #ddd;"><strong>Service</strong></th>
+      <th style="padding: 12px; text-align: center; border-right: 1px solid #ddd;"><strong>Monthly Price</strong></th>
+      <th style="padding: 12px; text-align: center; border-right: 1px solid #ddd;"><strong>Frequency</strong></th>
+      <th style="padding: 12px; text-align: center; border-right: 1px solid #ddd;"><strong>Items/Volume</strong></th>
+      <th style="padding: 12px; text-align: center; border-right: 1px solid #ddd;"><strong>Best For</strong></th>
+      <th style="padding: 12px; text-align: center;"><strong>Rating</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid #ddd;">
+      <td style="padding: 12px; border-right: 1px solid #ddd;">The Scandinavia Box</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">$29</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">Monthly</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">5–7 items</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">Variety seekers</td>
+      <td style="padding: 12px; text-align: center; color: #d4a574;"><strong>4.5/5</strong></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ddd; background-color: #f9f9f9;">
+      <td style="padding: 12px; border-right: 1px solid #ddd;">ScandyCandy</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">$28</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">Monthly</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">~6–8 items</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">Clean ingredients</td>
+      <td style="padding: 12px; text-align: center; color: #d4a574;"><strong>4.7/5</strong></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ddd;">
+      <td style="padding: 12px; border-right: 1px solid #ddd;">iKandi</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">$15</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">Monthly</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">2 lbs</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">Budget buyers</td>
+      <td style="padding: 12px; text-align: center; color: #d4a574;"><strong>3.8/5</strong></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ddd; background-color: #f9f9f9;">
+      <td style="padding: 12px; border-right: 1px solid #ddd;">SverigePaketet</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">$35–45*</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">Quarterly</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">~2 lbs</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">Licorice lovers</td>
+      <td style="padding: 12px; text-align: center; color: #d4a574;"><strong>4.2/5</strong></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ddd;">
+      <td style="padding: 12px; border-right: 1px solid #ddd;">Mums Gift Boxes</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">$25–$50</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">Manual order</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">Multi-variety</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">Gift senders</td>
+      <td style="padding: 12px; text-align: center; color: #d4a574;"><strong>4.6/5</strong></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ddd; background-color: #f9f9f9;">
+      <td style="padding: 12px; border-right: 1px solid #ddd;">Swedish Candy Land</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">~$50</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">One-time</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">6 × 1 lb mixes</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">First-timers</td>
+      <td style="padding: 12px; text-align: center; color: #d4a574;"><strong>4.3/5</strong></td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 12px; border-right: 1px solid #ddd;">Scandi Candy</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">Varies</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">À la carte</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">Custom orders</td>
+      <td style="padding: 12px; text-align: center; border-right: 1px solid #ddd;">Experienced fans</td>
+      <td style="padding: 12px; text-align: center; color: #d4a574;"><strong>4.1/5</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p style="font-size: 13px; color: #666; margin-top: 10px;">*SverigePaketet is quarterly, not monthly. Estimated annual cost divided by 12 for comparison.</p>
+
+<h2>Subscription Strategy: How to Choose</h2>
+
+<h3>Best Overall Value: The Scandinavia Box</h3>
+
+<p>If you're just getting into subscription boxes, The Scandinavia Box is the safest bet. It's well-executed, has good coupons (code "ABBA4EVER"), and gives you a taste of Nordic culture beyond just candy. The first box at $19 is an especially good trial.</p>
+
+<h3>Best for Candy Purists: ScandyCandy</h3>
+
+<p>If you care about clean ingredients and want 100% of your $28/month going to Swedish candy, ScandyCandy is worth it. No filler, no lifestyle items, just good candy.</p>
+
+<h3>Best Budget Option: iKandi</h3>
+
+<p>If you want maximum candy volume at the lowest price, iKandi at $15/month for 2 lbs is unbeatable. Note: their LA physical store closed in 2025, but online ordering and subscriptions are still available. Quality varies, but for pure volume and price, it wins.</p>
+
+<h3>Best for Licorice Lovers: SverigePaketet</h3>
+
+<p>SverigePaketet is the only service with a dedicated licorice box. If you're deep into salmiak or Swedish licorice, this is your subscription.</p>
+
+<h3>Best for Recurring Gifting: Mums</h3>
+
+<p>Mums isn't a true subscription, but their gift boxes are beautiful and you can send them to someone monthly. Use code "2026" for 25% off to make it affordable.</p>
+
+<h2>The Case for NOT Subscribing</h2>
+
+<p>Honestly? If you're still exploring Swedish candy, subscriptions might be overkill. Consider:</p>
+
+<ul>
+  <li><strong>Buying from <a href="/blog/mums-swedish-candy-review">Mums</a> one time.</strong> It's cheaper with the "2026" coupon and you can reorder when you want.</li>
+  <li><strong>Visiting <a href="/blog/candyking-nyc-review">CandyKing NYC</a> if you're in Manhattan.</strong> Pick and mix your own custom assortment.</li>
+  <li><strong>Checking our <a href="/where-to-buy">where-to-buy guide</a>.</strong> One-time orders from various retailers might be more flexible than monthly commitments.</li>
+</ul>
+
+<p>Subscriptions are great once you've discovered what you actually like. Until then, pick-and-mix or one-time purchases are smarter financially.</p>
+
+<h2>Candy Subscription Red Flags</h2>
+
+<p>When evaluating a Swedish candy subscription, watch out for:</p>
+
+<ul>
+  <li><strong>No cancellation policy (or hidden fees).</strong> Legitimate services let you cancel anytime.</li>
+  <li><strong>Vague about what's in the box.</strong> Reputable services show past boxes or give detailed descriptions.</li>
+  <li><strong>No customer reviews or community.</strong> If no one's talking about it online, that's a red flag.</li>
+  <li><strong>Prices that seem too cheap.</strong> Under $10/month for genuine Swedish candy usually means low quality or very small quantities.</li>
+  <li><strong>Expired candy or weird smell upon arrival.</strong> This should never happen. If it does, dispute the charge.</li>
+</ul>
+
+<h2>The Subscription Candy Trend</h2>
+
+<p>Subscription boxes exploded in the 2010s, and most failed. But Swedish candy subscriptions are different—there's genuine demand because Swedish candy is still somewhat hard to find in America. Subscriptions solve a real problem: consistent access to quality candy without driving to specialty stores.</p>
+
+<p>However, the market is consolidating. Within 5 years, expect 2–3 dominant players and the rest to fade. If you're choosing now, pick one with solid operations and customer service. Switching subscriptions is annoying.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Can I cancel a subscription anytime?</h3>
+
+<p>All legitimate Swedish candy subscriptions allow cancellation anytime, usually via email or your account dashboard. If a service doesn't allow easy cancellation, don't subscribe.</p>
+
+<h3>Is it cheaper to subscribe or buy one-time?</h3>
+
+<p>One-time purchases from retailers like <a href="/blog/mums-swedish-candy-review">Mums</a> are usually cheaper per box if you use a coupon code. Subscriptions offer convenience and guaranteed monthly delivery, but you pay for that. Calculate the math before committing.</p>
+
+<h3>What's the difference between Swedish and Scandinavian candy in these boxes?</h3>
+
+<p>Swedish candy is specifically from Sweden. Scandinavian includes Sweden, Norway, Denmark, and Finland. The Scandinavia Box includes all four countries. If you want only Swedish, choose ScandyCandy or SverigePaketet.</p>
+
+<h3>Are subscription candies the same quality as retail?</h3>
+
+<p>Yes, they source from the same manufacturers. The difference is curation (subscription services pick specific items) vs. your choice (retail stores let you pick). Quality is identical.</p>
+
+<h3>Can I gift a subscription?</h3>
+
+<p>Most services offer gift subscriptions. You pay upfront for 3, 6, or 12 months, and they're delivered to the recipient monthly. Great for holidays or long-distance friends/family.</p>
+
+<h3>What if I don't like my first box?</h3>
+
+<p>Contact customer service. Reputable services will either send a replacement box or refund your money. This is why customer service reputation matters—check reviews before subscribing.</p>
+
+<h3>How long does shipping usually take?</h3>
+
+<p>US-based services (iKandi, Mums, most others): 3–7 days. Services shipping from Europe (SverigePaketet): 2–3 weeks. Always check before subscribing if speed matters to you.</p>
+
+<h3>Is it worth trying a subscription for one month?</h3>
+
+<p>Yes. Most services don't require long-term commitment. Try one month, see if you like it, and cancel if it's not for you. This is how you figure out what you actually want.</p>`,
+    heroImage: '/images/blog/best-swedish-candy-subscription-boxes.jpg',
+    heroImageAlt: 'Collection of Swedish candy subscription boxes showing various monthly deliveries',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-16',
+    updatedAt: '2026-03-16',
+    estimatedReadTime: 14,
+    tags: ['subscription box', 'monthly candy', 'Swedish candy', 'best of', 'review', 'comparison'],
+    relatedArticleSlugs: ['where-to-buy-swedish-candy-online', 'mums-swedish-candy-review', 'best-swedish-candy', 'what-is-swedish-candy'],
+    relatedCandySlugs: ['bubs-fruit-mix', 'bubs-sour-skulls', 'marabou-mjolkchoklad'],
+    relatedBrandSlugs: ['bubs', 'marabou', 'cloetta'],
+    priority: 'P1',
+    status: 'published',
+  },
 ]
 
 // Helper functions
