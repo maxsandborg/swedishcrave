@@ -10357,6 +10357,419 @@ export const articles: Article[] = [
     priority: 'P1',
     status: 'published',
   },
+  {
+    id: 85,
+    slug: 'best-swedish-candy-store',
+    title: 'The 10 Best Swedish Candy Stores in 2026: Ranked and Reviewed',
+    silo: 'where-to-buy',
+    seoTitle: 'Best Swedish Candy Stores 2026: Top 10 Ranked | SwedishCrave',
+    metaDescription: 'We tested 10 Swedish candy stores and ranked them on selection, pricing, shipping, and quality. Detailed comparison with scoring matrix to find your perfect store.',
+    h1: 'The 10 Best Swedish Candy Stores in 2026: Ranked and Reviewed',
+    intro: 'The Swedish candy market in the US has exploded. There are now more than a dozen online retailers, viral TikTok-famous brick-and-mortar shops, and everything in between. But which ones are actually worth your money? We evaluated 10 stores across five categories\u2014selection, pricing, shipping, customer experience, and online shopping\u2014and scored each one to find the definitive best Swedish candy stores in America.',
+    content: `<div style="background: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%); border-left: 4px solid #6366F1; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #4338CA;">Quick Verdict: Our Top 3</h3>
+  <ol style="margin: 15px 0; padding-left: 20px;">
+    <li><strong><a href="/stores/sockerbit">Sockerbit</a></strong> \u2014 Best overall. The original Swedish pick-and-mix store in the US. 149+ candies, clean ingredients, $70 free shipping. Founded in 2010 by actual Swedes.</li>
+    <li><strong><a href="/stores/mums-swedish-candy">Mums</a></strong> \u2014 Best for BUBS fans. Curated selection of BUBS candy, free shipping over $69, and a strong track record with thousands of positive reviews. <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ">Shop Mums \u2192</a></li>
+    <li><strong><a href="/stores/sweetish-candy">Sweetish Candy</a></strong> \u2014 Best in-store experience. Two Lancaster, PA locations with 200+ candies. Ships nationwide with free standard shipping.</li>
+  </ol>
+</div>
+
+<h2>How We Ranked These Stores</h2>
+
+<p>We didn\u2019t rank these stores based on who has the biggest TikTok following or the prettiest website. We evaluated each store across five objective criteria, weighted by what actually matters when you\u2019re spending money on Swedish candy:</p>
+
+<ul>
+  <li><strong>Selection (25%):</strong> How many different candies? Multiple brands or just one? Do they carry chocolate, licorice, sour, and pick-and-mix? A store that only sells BUBS can\u2019t score as high as one carrying BUBS, Malaco, Fazer, Marabou, and more.</li>
+  <li><strong>Pricing (20%):</strong> What do comparable items cost? Is there a good range from budget to premium? Are prices transparent?</li>
+  <li><strong>Shipping (20%):</strong> Free shipping threshold, speed, nationwide availability, and packaging quality. Candy that arrives melted isn\u2019t candy\u2014it\u2019s a mess.</li>
+  <li><strong>Customer Experience (20%):</strong> Verified reviews, return policy, customer service reputation. We checked Yelp, Google Reviews, and Trustpilot for every store.</li>
+  <li><strong>Online Shopping (15%):</strong> Website quality, ease of ordering, product descriptions and photos, and whether they actually ship or are in-store only.</li>
+</ul>
+
+<p>Each category is scored out of 10, then weighted to produce a final score out of 100. Let\u2019s get into it.</p>
+
+<h2>The Complete Rankings</h2>
+
+<div style="overflow-x: auto; margin: 30px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+  <thead>
+    <tr style="background: #1E1B4B; color: white;">
+      <th style="padding: 12px; text-align: left;">Rank</th>
+      <th style="padding: 12px; text-align: left;">Store</th>
+      <th style="padding: 12px; text-align: center;">Selection</th>
+      <th style="padding: 12px; text-align: center;">Pricing</th>
+      <th style="padding: 12px; text-align: center;">Shipping</th>
+      <th style="padding: 12px; text-align: center;">Experience</th>
+      <th style="padding: 12px; text-align: center;">Online</th>
+      <th style="padding: 12px; text-align: center; font-weight: 700;">Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background: #FEF9C3;">
+      <td style="padding: 10px; font-weight: 700;">\uD83E\uDD47 1</td>
+      <td style="padding: 10px;"><strong>Sockerbit</strong></td>
+      <td style="padding: 10px; text-align: center;">9</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">8</td>
+      <td style="padding: 10px; text-align: center;">8</td>
+      <td style="padding: 10px; text-align: center;">9</td>
+      <td style="padding: 10px; text-align: center; font-weight: 700; color: #4338CA;">84</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: 700;">\uD83E\uDD48 2</td>
+      <td style="padding: 10px;"><strong>Mums</strong></td>
+      <td style="padding: 10px; text-align: center;">6</td>
+      <td style="padding: 10px; text-align: center;">8</td>
+      <td style="padding: 10px; text-align: center;">9</td>
+      <td style="padding: 10px; text-align: center;">9</td>
+      <td style="padding: 10px; text-align: center;">9</td>
+      <td style="padding: 10px; text-align: center; font-weight: 700; color: #4338CA;">82</td>
+    </tr>
+    <tr style="background: #F5F5F5;">
+      <td style="padding: 10px; font-weight: 700;">\uD83E\uDD49 3</td>
+      <td style="padding: 10px;"><strong>Sweetish Candy</strong></td>
+      <td style="padding: 10px; text-align: center;">9</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">8</td>
+      <td style="padding: 10px; text-align: center;">9</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center; font-weight: 700; color: #4338CA;">81</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">4</td>
+      <td style="padding: 10px;"><strong>BonBon NYC</strong></td>
+      <td style="padding: 10px; text-align: center;">8</td>
+      <td style="padding: 10px; text-align: center;">6</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">9</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center; font-weight: 700;">76</td>
+    </tr>
+    <tr style="background: #F5F5F5;">
+      <td style="padding: 10px;">5</td>
+      <td style="padding: 10px;"><strong>Goodis</strong></td>
+      <td style="padding: 10px; text-align: center;">9</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">8</td>
+      <td style="padding: 10px; text-align: center; font-weight: 700;">76</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">6</td>
+      <td style="padding: 10px;"><strong>Swedish Sweets</strong></td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">8</td>
+      <td style="padding: 10px; text-align: center;">8</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center; font-weight: 700;">74</td>
+    </tr>
+    <tr style="background: #F5F5F5;">
+      <td style="padding: 10px;">7</td>
+      <td style="padding: 10px;"><strong>ScandyCandy</strong></td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">8</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center; font-weight: 700;">72</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">8</td>
+      <td style="padding: 10px;"><strong>Swedish Candy Store</strong></td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">6</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center; font-weight: 700;">69</td>
+    </tr>
+    <tr style="background: #F5F5F5;">
+      <td style="padding: 10px;">9</td>
+      <td style="padding: 10px;"><strong>Swedish Candy Land</strong></td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">6</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">6</td>
+      <td style="padding: 10px; text-align: center;">6</td>
+      <td style="padding: 10px; text-align: center; font-weight: 700;">65</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">10</td>
+      <td style="padding: 10px;"><strong>SwedishCandyNow</strong></td>
+      <td style="padding: 10px; text-align: center;">6</td>
+      <td style="padding: 10px; text-align: center;">6</td>
+      <td style="padding: 10px; text-align: center;">5</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center;">7</td>
+      <td style="padding: 10px; text-align: center; font-weight: 700;">62</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>#1: Sockerbit \u2014 Best Overall Swedish Candy Store</h2>
+
+<p><strong>Score: 84/100</strong> | <a href="/stores/sockerbit">Full Review</a> | <a href="https://sockerbit.com" target="_blank" rel="noopener">Visit Sockerbit</a></p>
+
+<p>Sockerbit is the gold standard of Swedish candy in the US, and they\u2019ve earned that position over 16 years. Founded in 2010 by Florence Baras and Stefan Ernberg\u2014a couple who met while working at a European candy company in Spain and decided to bring Sweden\u2019s <a href="/blog/lordagsgodis-swedish-saturday-candy">l\u00f6rdagsgodis</a> (Saturday candy) tradition to America\u2014Sockerbit opened their first store as a flagship in New York City before expanding to Los Angeles in 2014.</p>
+
+<p>Today, their LA flagship at 7922 W 3rd Street in the Fairfax District remains their retail anchor, and their online store ships nationwide. The selection is exceptional: 149+ different candies sold by the pound, spanning sour gummies, licorice, chocolate, marshmallows, and novelties from brands including BUBS, Malaco, Fazer, and Marabou. Half-pound bags start at $12, full pounds at $20, and free shipping kicks in at $70.</p>
+
+<p>What sets Sockerbit apart is credibility. They\u2019re in 3,000+ wholesale locations across the US and have been featured in Food Network, Cool Hunting, and Vogue. Their Yelp reviews for the LA store sit at 345 reviews with consistently strong ratings. The Trustpilot profile is thin (3.3 stars from just 6 reviews), but the on-the-ground reputation is solid.</p>
+
+<p><strong>Best for:</strong> The full Swedish candy experience\u2014multiple brands, authentic pick-and-mix, and a store that\u2019s been around long enough to trust.</p>
+
+<p><strong>The catch:</strong> Premium pricing. At $20/lb, Sockerbit isn\u2019t the cheapest option. And if you\u2019re not near LA, you\u2019re limited to online ordering.</p>
+
+<h2>#2: Mums \u2014 Best for BUBS Candy Lovers</h2>
+
+<p><strong>Score: 82/100</strong> | <a href="/stores/mums-swedish-candy">Full Review</a> | <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ">Shop Mums \u2192</a></p>
+
+<p><a href="/blog/mums-swedish-candy-review">Mums</a> has built a remarkably focused business: they sell BUBS candy and nothing else. No Marabou chocolate, no Malaco licorice, no multi-brand pick-and-mix. If you\u2019re specifically after BUBS\u2014the brand that went viral on TikTok and is known for using no artificial dyes, no GMOs, and no high-fructose corn syrup\u2014Mums is the most reliable source in the US.</p>
+
+<p>Their product range spans mixes from $11.99 (Sweet Mix, Sour Mix, Sweet & Sour Mix) up to gift boxes at $49.99 and the All-In-One Party Mix at $79. Free shipping threshold is $69, and they ship fast with strong packaging that keeps candy intact.</p>
+
+<p>The customer reviews tell the story: Mums claims a 4.9-star rating from their customer base. We couldn\u2019t verify this through Trustpilot (they\u2019re not established there), but the volume of positive social media feedback and repeat customer testimonials is real. Their narrow focus means they do one thing and do it well.</p>
+
+<p><strong>Best for:</strong> Anyone who wants BUBS candy specifically, values clean ingredients, and prefers a fast, no-hassle ordering experience.</p>
+
+<p><strong>The catch:</strong> Zero variety beyond BUBS. If you want Swedish chocolate, licorice, or anything from another brand, look elsewhere.</p>
+
+<div style="background: #F0FDF4; border: 1px solid #BBF7D0; padding: 16px; border-radius: 8px; margin: 20px 0;">
+  <p style="margin: 0; font-size: 14px;"><strong>\uD83D\uDED2 Shop Mums:</strong> Use our link to <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ">browse the full BUBS collection at Mums</a>. Free shipping over $69.</p>
+</div>
+
+<h2>#3: Sweetish Candy \u2014 Best In-Store Experience</h2>
+
+<p><strong>Score: 81/100</strong> | <a href="/stores/sweetish-candy">Full Review</a> | <a href="https://www.sweetishcandy.com" target="_blank" rel="noopener">Visit Sweetish Candy</a></p>
+
+<p>Sweetish Candy has one of the best origin stories in the industry. In 2019, founder Tyler Graybeal returned from a Swedish vacation, realized there was nothing like Sweden\u2019s pick-and-mix candy shops in the US, and opened a store at 356 N Queen Street in Lancaster, Pennsylvania. By 2022, demand forced a move to a larger location at 301 N Queen Street (doubling the size), and they\u2019ve since opened a second location at 250 Granite Run Drive, also in Lancaster.</p>
+
+<p>In-store, Sweetish is something special: a 200+ candy pick-and-mix wall stocked with imported Scandinavian candies from BUBS, Malaco, Fazer, and more. The store blew up during the 2023 Swedish candy TikTok wave\u2014with zero paid advertising, orders jumped from dozens per day to thousands. Graybeal expanded his team from 12 to 26 employees to keep up. Featured in NPR Marketplace, Food & Wine, and Forbes.</p>
+
+<p>Online, they ship to all 50 states with free standard shipping via USPS and UPS. Their Yelp reviews (60+ reviews) average around 4.4 stars, and they have a dedicated following that drives hours to visit the physical stores.</p>
+
+<p><strong>Best for:</strong> Anyone in the mid-Atlantic region who can visit in person, or anyone who values an authentic, community-driven candy shop with broad selection and nationwide shipping.</p>
+
+<p><strong>The catch:</strong> The online store doesn\u2019t replicate the full in-store magic. Website could be more polished compared to competitors.</p>
+
+<h2>#4: BonBon NYC \u2014 Best for the TikTok Generation</h2>
+
+<p><strong>Score: 76/100</strong> | <a href="/stores/bonbon-nyc">Full Review</a> | <a href="https://bonbonnyc.com" target="_blank" rel="noopener">Visit BonBon NYC</a></p>
+
+<p>BonBon is the store that made Swedish candy go viral in New York. Founded in 2017 by three Swedish friends\u2014Selim Adira, Robert Persson, and Leonard Schaltz\u2014who missed the pick-and-mix tradition from home, BonBon now operates six locations: Lower East Side (130 Allen St), West Village (119 Greenwich Ave), Upper East Side (1220 Lexington Ave), Williamsburg (705 Driggs Ave), Red Hook warehouse (66 Degraw St), and Sag Harbor (9 Washington St).</p>
+
+<p>The viral moment came when influencer Marygrace Graves posted a TikTok from their Williamsburg location that racked up 1.3+ million views. Overnight, online orders surged from about 20 per day to over 1,000. BonBon now has 67K Instagram followers and 47K TikTok followers\u2014numbers that dwarf every other store on this list.</p>
+
+<p>The in-store experience features 140-160 varieties of Scandinavian candies in bulk bins. Pricing is around $18 per pound. They ship nationwide via UPS and offer local NYC delivery through FLYPE. The Yelp reviews for their LES flagship hover around 4.4\u20134.9 stars across 259+ reviews.</p>
+
+<p><strong>Best for:</strong> NYC locals who want the full pick-and-mix experience across multiple convenient locations, and anyone who values brand energy and community.</p>
+
+<p><strong>The catch:</strong> Premium pricing ($18/lb is at the top of the market). Online shipping costs aren\u2019t transparent\u2014you won\u2019t see them until checkout. And the in-store experience can involve long wait times during peak hours.</p>
+
+<h2>#5: Goodis \u2014 Best Selection by Volume</h2>
+
+<p><strong>Score: 76/100</strong> | <a href="/stores/goodis">Full Review</a> | <a href="https://www.goodis.us" target="_blank" rel="noopener">Visit Goodis</a></p>
+
+<p>Goodis runs the biggest online catalog in the game: 353 products as of March 2026. Founded by two Stockholmers and a New Jersey native, they operate out of a warehouse in Carlstadt, NJ, and they\u2019ve built their brand on volume, variety, and clean-ingredient positioning.</p>
+
+<p>Their selection spans the full Swedish candy spectrum: BUBS, Malaco, Marabou, Ahlgrens, and more, with detailed dietary filters (gluten-free, vegan, gelatin-free, sugar-free). Prices range from $2.65 for individual candies to $99+ for premium gift boxes. Free shipping kicks in at $99\u2014the highest threshold on this list, which is a significant drawback for smaller orders.</p>
+
+<p>The company claims no GMOs, no corn syrup, and no artificial ingredients across their entire catalog. They\u2019ve been featured in NJBIZ and Snack & Bakery Magazine. One-day processing time is a nice touch.</p>
+
+<p><strong>Best for:</strong> Shoppers who want maximum variety and are willing to spend $99+ per order. The dietary filters are a genuine differentiator for anyone with restrictions.</p>
+
+<p><strong>The catch:</strong> $99 free shipping threshold is steep. No Trustpilot profile to verify customer satisfaction independently. The brand is newer and less established than Sockerbit or BonBon.</p>
+
+<h2>#6: Swedish Sweets \u2014 Best Budget Option</h2>
+
+<p><strong>Score: 74/100</strong> | <a href="/stores/swedish-sweets">Full Review</a> | <a href="https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs">Shop Swedish Sweets \u2192</a></p>
+
+<p>Swedish Sweets (shopswedishsweets.com, also known as BuySwedishCandy) hits the sweet spot for budget-conscious buyers. Their free shipping threshold is $50\u2014the lowest of any store on this list alongside ScandyCandy\u2014and their pricing starts at $11.49 for mix bags.</p>
+
+<p>The selection leans heavily toward BUBS and Sots\u00fcgen candy, with pick-and-mix options and pre-made mixes. It\u2019s not as deep as Goodis or Sockerbit, but for anyone who wants solid Swedish candy without a $70+ minimum order, Swedish Sweets delivers.</p>
+
+<p><strong>Best for:</strong> First-time buyers who want to try Swedish candy without a big commitment, and anyone who values the lowest possible free shipping threshold.</p>
+
+<p><strong>The catch:</strong> Narrower selection than the top 5. Less brand recognition and thinner review profile.</p>
+
+<div style="background: #F0FDF4; border: 1px solid #BBF7D0; padding: 16px; border-radius: 8px; margin: 20px 0;">
+  <p style="margin: 0; font-size: 14px;"><strong>\uD83D\uDED2 Shop Swedish Sweets:</strong> <a href="https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs">Browse Swedish Sweets\u2019 collection</a>. Free shipping on orders over $50.</p>
+</div>
+
+<h2>#7: ScandyCandy \u2014 Best Florida-Based Option</h2>
+
+<p><strong>Score: 72/100</strong> | <a href="https://scandycandy.store" target="_blank" rel="noopener">Visit ScandyCandy</a></p>
+
+<p>ScandyCandy operates out of Miracle Mile in Coral Gables, Florida, founded by Swedish brothers Calle and Wille Olsen. They carry BUBS, Marabou, Fazer, Anthon Berg, and NARR, with a \u201cCreate Your Own\u201d pick-and-mix option and free shipping over $50.</p>
+
+<p>Product reviews on their site average 4.9\u20135.0 stars across their catalog, though we couldn\u2019t find independent third-party reviews on Trustpilot or Google to verify. Pricing ranges from $4.85 for individual items to $79 for party mixes, with gift boxes around $17.95.</p>
+
+<p><strong>Best for:</strong> Florida residents who can visit the Coral Gables store, and online shoppers who want multi-brand variety with a low free shipping threshold.</p>
+
+<p><strong>The catch:</strong> Limited independent reviews make it harder to assess the full customer experience.</p>
+
+<h2>#8: Swedish Candy Store \u2014 The TikTok-Driven Upstart</h2>
+
+<p><strong>Score: 69/100</strong> | <a href="https://swedishcandystore.com" target="_blank" rel="noopener">Visit Swedish Candy Store</a></p>
+
+<p>Operating since 2015 out of Colorado, Swedish Candy Store has leaned into influencer partnerships (including TikToker @gwynniekurt with a signature mix) and a \u201cMake Your Own Mix\u201d customization feature. Their selection is solid\u2014100+ products with individual candies from $2.29 and mixes up to $99+.</p>
+
+<p>The marketing emphasizes no high-fructose corn syrup, no trans fats, and the Swedish l\u00f6rdagsgodis tradition. Run by Mariam (CEO) and Isak, the store has a friendly, personal vibe. However, the shipping policy and free threshold aren\u2019t clearly published on the site, and there are no Trustpilot reviews to reference.</p>
+
+<p><strong>Best for:</strong> TikTok-savvy shoppers who enjoy influencer-curated mixes and customization.</p>
+
+<p><strong>The catch:</strong> Unclear shipping terms and limited independent reviews.</p>
+
+<h2>#9: Swedish Candy Land \u2014 Biggest Claims, Least Verification</h2>
+
+<p><strong>Score: 65/100</strong> | <a href="https://www.swedishcandyland.com" target="_blank" rel="noopener">Visit Swedish Candy Land</a></p>
+
+<p>Swedish Candy Land positions itself as \u201cSweden\u2019s largest exporter of authentic Swedish candy\u201d and claims 20,000+ happy customers. They offer sampler mixes, mystery boxes, a \u201cL\u00f6rdagsgodis Box\u201d at $99, and bulk packs going up to $2,299. Prices start at $2.49 for individual items, and they claim same-day shipping within 24 hours.</p>
+
+<p>The product range spans sour, sweet, chocolate, and licorice categories with multiple mix options. However, we couldn\u2019t verify the \u201clargest exporter\u201d claim, the founding date, or the physical location. No Trustpilot, Google, or Yelp reviews were found.</p>
+
+<p><strong>Best for:</strong> Shoppers interested in curated sampler boxes and bulk orders.</p>
+
+<p><strong>The catch:</strong> Bold marketing claims without independent verification. We\u2019d recommend starting with a small order to test quality and shipping before going big.</p>
+
+<h2>#10: SwedishCandyNow \u2014 Ships Direct from Stockholm</h2>
+
+<p><strong>Score: 62/100</strong> | <a href="https://swedishcandynow.com" target="_blank" rel="noopener">Visit SwedishCandyNow</a></p>
+
+<p>SwedishCandyNow is the only store on this list that ships directly from Sweden (Klarabergsviadviadukten 63, Stockholm). That\u2019s both their biggest selling point and their biggest weakness. You get authentic, fresh-from-source candy\u2014BUBS, Candypeople, Marabou, Fazer, Malaco, Cloetta, Ahlgrens\u2014with VAT included in pricing. Their Google rating is 4.9/5 from 23 reviews.</p>
+
+<p>Prices range from $2.99 for individual candies to $21 for curated packs. Free shipping over $50. But delivery takes 3\u201310 days (some reviewers report longer), and there\u2019s inherent risk with international shipping for temperature-sensitive products.</p>
+
+<p><strong>Best for:</strong> Purists who want candy shipped directly from Sweden and don\u2019t mind the wait.</p>
+
+<p><strong>The catch:</strong> International shipping means longer delivery times and potential customs considerations. Small review sample size.</p>
+
+<h2>Quick Comparison: Shipping & Pricing</h2>
+
+<div style="overflow-x: auto; margin: 30px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+  <thead>
+    <tr style="background: #1E1B4B; color: white;">
+      <th style="padding: 10px; text-align: left;">Store</th>
+      <th style="padding: 10px; text-align: center;">Free Ship At</th>
+      <th style="padding: 10px; text-align: center;">Starting Price</th>
+      <th style="padding: 10px; text-align: center;">Ships From</th>
+      <th style="padding: 10px; text-align: center;">Physical Store?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 8px;">Swedish Sweets</td><td style="padding: 8px; text-align: center; color: #16A34A; font-weight: 700;">$50</td><td style="padding: 8px; text-align: center;">$11.49</td><td style="padding: 8px; text-align: center;">US</td><td style="padding: 8px; text-align: center;">No</td></tr>
+    <tr style="background: #F5F5F5;"><td style="padding: 8px;">ScandyCandy</td><td style="padding: 8px; text-align: center; color: #16A34A; font-weight: 700;">$50</td><td style="padding: 8px; text-align: center;">$4.85</td><td style="padding: 8px; text-align: center;">US (FL)</td><td style="padding: 8px; text-align: center;">Yes \u2014 Coral Gables</td></tr>
+    <tr><td style="padding: 8px;">SwedishCandyNow</td><td style="padding: 8px; text-align: center; color: #16A34A; font-weight: 700;">$50</td><td style="padding: 8px; text-align: center;">$2.99</td><td style="padding: 8px; text-align: center;">Sweden</td><td style="padding: 8px; text-align: center;">No</td></tr>
+    <tr style="background: #F5F5F5;"><td style="padding: 8px;">Mums</td><td style="padding: 8px; text-align: center;">$69</td><td style="padding: 8px; text-align: center;">$11.99</td><td style="padding: 8px; text-align: center;">US</td><td style="padding: 8px; text-align: center;">No</td></tr>
+    <tr><td style="padding: 8px;">Sockerbit</td><td style="padding: 8px; text-align: center;">$70</td><td style="padding: 8px; text-align: center;">$12 (\u00bd lb)</td><td style="padding: 8px; text-align: center;">US (CA)</td><td style="padding: 8px; text-align: center;">Yes \u2014 Los Angeles</td></tr>
+    <tr style="background: #F5F5F5;"><td style="padding: 8px;">Sweetish Candy</td><td style="padding: 8px; text-align: center; color: #16A34A; font-weight: 700;">Free</td><td style="padding: 8px; text-align: center;">Varies</td><td style="padding: 8px; text-align: center;">US (PA)</td><td style="padding: 8px; text-align: center;">Yes \u2014 2 in Lancaster</td></tr>
+    <tr><td style="padding: 8px;">Goodis</td><td style="padding: 8px; text-align: center;">$99</td><td style="padding: 8px; text-align: center;">$2.65</td><td style="padding: 8px; text-align: center;">US (NJ)</td><td style="padding: 8px; text-align: center;">No</td></tr>
+    <tr style="background: #F5F5F5;"><td style="padding: 8px;">Swedish Candy Store</td><td style="padding: 8px; text-align: center;">Not listed</td><td style="padding: 8px; text-align: center;">$2.29</td><td style="padding: 8px; text-align: center;">US (CO)</td><td style="padding: 8px; text-align: center;">Unverified</td></tr>
+    <tr><td style="padding: 8px;">Swedish Candy Land</td><td style="padding: 8px; text-align: center;">Not listed</td><td style="padding: 8px; text-align: center;">$2.49</td><td style="padding: 8px; text-align: center;">Unclear</td><td style="padding: 8px; text-align: center;">No</td></tr>
+    <tr style="background: #F5F5F5;"><td style="padding: 8px;">BonBon NYC</td><td style="padding: 8px; text-align: center;">Not listed</td><td style="padding: 8px; text-align: center;">~$18/lb</td><td style="padding: 8px; text-align: center;">US (NY)</td><td style="padding: 8px; text-align: center;">Yes \u2014 6 in NYC</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Category Winners</h2>
+
+<h3>\uD83C\uDFC6 Best Overall: Sockerbit</h3>
+<p>Sixteen years in business, 149+ candies from multiple brands, LA flagship store, nationwide shipping. No one else matches the combination of selection, credibility, and experience.</p>
+
+<h3>\uD83D\uDCB0 Best Budget Pick: Swedish Sweets</h3>
+<p>$50 free shipping, $11.49 starting price. The lowest barrier to entry for trying Swedish candy online. <a href="https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs">Shop Swedish Sweets \u2192</a></p>
+
+<h3>\uD83C\uDFAF Best for BUBS Fans: Mums</h3>
+<p>If BUBS is what you want, Mums is where you go. Focused, fast, and reliable. <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ">Shop Mums \u2192</a></p>
+
+<h3>\uD83C\uDFEC Best Physical Store: BonBon NYC</h3>
+<p>Six NYC locations, 140+ candies in bins, the TikTok-famous pick-and-mix experience. If you\u2019re in New York, this is a must-visit.</p>
+
+<h3>\uD83D\uDCE6 Best Selection: Goodis</h3>
+<p>353 products and growing. The biggest online catalog with the most comprehensive dietary filters.</p>
+
+<h3>\u2708\uFE0F Best Direct-from-Sweden: SwedishCandyNow</h3>
+<p>The only store shipping straight from Stockholm. Authentic as it gets, if you\u2019re patient.</p>
+
+<h2>Stores We Didn\u2019t Rank (And Why)</h2>
+
+<p>A few notable names didn\u2019t make our top 10:</p>
+
+<ul>
+  <li><strong><a href="/blog/candyking-nyc-review">CandyKing NYC</a></strong> (306 Bleecker St, Manhattan) \u2014 Cloetta-owned, opened late 2025. Incredible in-store pick-and-mix experience, but they don\u2019t sell online. Physical store only. Once they launch e-commerce, they could easily crack the top 5.</li>
+  <li><strong>K\u00e4ndi</strong> (Studio City + Santa Monica, LA) \u2014 Popular local stores with strong Yelp reviews, but their online presence is minimal and their website was not accessible during our review period.</li>
+  <li><strong>Lil Sweet Treat</strong> (West Village + Rockefeller Center, NYC) \u2014 While they have a beautiful store and online shop, they\u2019re a globally-sourced candy retailer, not a Swedish candy specialist. Swedish candy is part of their mix alongside Spanish, German, and Czech selections.</li>
+  <li><strong>Scandi Candy Shop</strong> (scandicandyshop.com) \u2014 This appears to redirect to or be associated with Mums. We\u2019ve included Mums directly in our rankings.</li>
+</ul>
+
+<h2>How the Swedish Candy Market Got Here</h2>
+
+<p>Five years ago, most Americans had never heard of Swedish candy. The market shift happened in three waves:</p>
+
+<p><strong>Wave 1 (2010\u20132019): The Pioneers.</strong> Sockerbit opened in NYC in 2010, proving the concept. BonBon followed in 2017. These stores established that Americans would pay premium prices for authentic Scandinavian pick-and-mix.</p>
+
+<p><strong>Wave 2 (2023): The TikTok Explosion.</strong> BUBS Sour Skulls went viral. Influencers filmed pick-and-mix experiences at BonBon and Sweetish. The hashtag #swedishcandy accumulated 15,000+ TikTok posts. Every store on this list saw order volumes multiply overnight.</p>
+
+<p><strong>Wave 3 (2024\u20132026): The Gold Rush.</strong> New stores launched to capture demand. CandyKing (owned by Cloetta, a Swedish publicly-traded confectionery company) opened their first US flagship. Online retailers proliferated. The market went from 3\u20134 serious players to 10+.</p>
+
+<p>What this means for you as a buyer: you have more options than ever, but quality and reliability vary significantly. That\u2019s exactly why a ranking like this matters.</p>
+
+<h2>Our Recommendation</h2>
+
+<p>If you\u2019re new to Swedish candy, start with <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ">Mums</a> for a curated BUBS experience ($69 free shipping) or <a href="https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs">Swedish Sweets</a> for the lowest barrier to entry ($50 free shipping). Once you know you love it, upgrade to <a href="/stores/sockerbit">Sockerbit</a> for the full multi-brand selection.</p>
+
+<p>If you\u2019re near New York, <a href="/stores/bonbon-nyc">BonBon</a>\u2019s in-store experience is worth the trip. If you\u2019re in the mid-Atlantic, <a href="/stores/sweetish-candy">Sweetish Candy</a> in Lancaster is a destination.</p>
+
+<p>And if you want the absolute broadest selection available online, <a href="/stores/goodis">Goodis</a> has 353 products\u2014just be ready to spend $99 for free shipping.</p>
+
+<div style="background: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%); border-left: 4px solid #6366F1; padding: 20px; margin: 30px 0; border-radius: 8px;">
+  <h3 style="margin-top: 0; color: #4338CA;">\uD83D\uDCDA Related Guides</h3>
+  <ul style="margin: 15px 0; padding-left: 20px;">
+    <li><a href="/blog/where-to-buy-swedish-candy-online">Where to Buy Swedish Candy Online (Complete Guide)</a></li>
+    <li><a href="/blog/mums-swedish-candy-review">Mums Review: Is It Worth It?</a></li>
+    <li><a href="/blog/candyking-nyc-review">CandyKing NYC: First US Flagship Review</a></li>
+    <li><a href="/blog/best-swedish-candy-subscription-boxes">Best Swedish Candy Subscription Boxes</a></li>
+    <li><a href="/stores/near-me">Swedish Candy Stores Near Me (Interactive Map)</a></li>
+  </ul>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is the best Swedish candy store online?</h3>
+<p>Sockerbit is the best overall Swedish candy store online, with 149+ candies from multiple brands, nationwide shipping, and 16 years of credibility. For BUBS-specific shopping, <a href="https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ">Mums</a> is the top choice.</p>
+
+<h3>Where is the cheapest place to buy Swedish candy online?</h3>
+<p><a href="https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs">Swedish Sweets</a> and ScandyCandy both offer free shipping at $50, the lowest threshold among major retailers. Individual candy prices start as low as $2.29 at Swedish Candy Store.</p>
+
+<h3>Is Swedish candy healthier than American candy?</h3>
+<p>Swedish candy generally avoids high-fructose corn syrup, synthetic dyes like Red 40, and artificial flavors that are common in American candy. Most stores on this list emphasize clean ingredients. That said, it\u2019s still candy\u2014sugar is the main ingredient. The health advantage is about what\u2019s <em>not</em> in it. See our <a href="/blog/what-is-swedish-candy">beginner\u2019s guide</a> for a full breakdown.</p>
+
+<h3>Can I get Swedish candy delivered anywhere in the US?</h3>
+<p>Yes. All 10 stores on this list ship to all 50 states (CandyKing NYC being the exception\u2014physical store only). Delivery times range from 2\u20135 days for US-based stores to 3\u201310 days for SwedishCandyNow, which ships from Stockholm.</p>
+
+<h3>What brands should I look for?</h3>
+<p>The \u201cBig Five\u201d of Swedish candy are <a href="/brands/bubs">BUBS</a> (viral sour gummies), <a href="/brands/marabou">Marabou</a> (chocolate), <a href="/brands/malaco">Malaco</a> (licorice), <a href="/brands/fazer">Fazer</a> (chocolate and candy), and <a href="/brands/cloetta">Cloetta</a> (broad range). A good store carries at least 3\u20134 of these.</p>
+
+<h3>Are these stores legit?</h3>
+<p>The top 7 stores on our list are verified, operational businesses with verifiable addresses and customer histories. The lower-ranked stores have less independent verification, which is reflected in their scores. We recommend starting with our top 5 if you\u2019re ordering for the first time.</p>`,
+    heroImage: '/images/blog/best-swedish-candy-store.jpg',
+    heroImageAlt: 'Colorful Swedish candy pick-and-mix display at a top-rated store showing BUBS, Malaco, and Marabou products',
+    author: 'SwedishCrave',
+    publishedAt: '2026-03-16',
+    updatedAt: '2026-03-16',
+    estimatedReadTime: 18,
+    tags: ['best of', 'ranking', 'Swedish candy', 'stores', 'comparison', 'where to buy', 'review'],
+    relatedArticleSlugs: ['where-to-buy-swedish-candy-online', 'mums-swedish-candy-review', 'candyking-nyc-review', 'best-swedish-candy-subscription-boxes'],
+    relatedCandySlugs: ['bubs-sour-skulls', 'bubs-fruit-mix', 'marabou-mjolkchoklad'],
+    relatedBrandSlugs: ['bubs', 'marabou', 'malaco', 'fazer', 'cloetta'],
+    priority: 'P1',
+    status: 'published',
+  },
 ]
 
 // Helper functions
