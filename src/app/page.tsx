@@ -32,6 +32,7 @@ import {
   TrendingUp,
   Megaphone,
 } from 'lucide-react';
+import ExpandableStoreList from '@/components/ExpandableStoreList';
 
 // Category color mapping for the gradient cards
 const categoryColors: Record<string, { gradient: string; text: string; shadow: string }> = {
@@ -535,18 +536,10 @@ export default function Home() {
                 <Globe className="w-4 h-4 text-sc-text-muted" />
                 <h3 className="text-sm font-bold text-sc-text uppercase tracking-wide">More Stores</h3>
               </div>
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
-                {listedStores.map((store) => (
-                  <Link
-                    key={store.slug}
-                    href={`/stores/${store.slug}`}
-                    className="bg-white/70 rounded-sc-sm p-4 text-center border border-sc-border/50 hover:border-sc-border hover:bg-white transition-all"
-                  >
-                    <h4 className="text-[13px] font-semibold text-sc-text mb-0.5">{store.name}</h4>
-                    <p className="text-[11px] text-sc-text-muted/60">{store.shipsTo.join(', ')}</p>
-                  </Link>
-                ))}
-              </div>
+              <ExpandableStoreList
+                stores={listedStores.map((s) => ({ slug: s.slug, name: s.name, shipsTo: s.shipsTo }))}
+                initialCount={6}
+              />
             </div>
           )}
 
