@@ -13,6 +13,10 @@ import {
   Zap,
   CheckCircle2,
   XCircle,
+  Gem,
+  Mail,
+  FileText,
+  Megaphone,
 } from 'lucide-react';
 import { stores } from '@/data/stores';
 
@@ -111,7 +115,7 @@ export default function AdvertisePage() {
 
       {/* Pricing */}
       <section id="pricing" className="py-16 md:py-20 bg-sc-bg-alt border-t border-sc-border">
-        <div className="max-w-[1100px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-display text-3xl md:text-4xl font-bold text-sc-text mb-3">
               Simple, Transparent Pricing
@@ -121,82 +125,77 @@ export default function AdvertisePage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-[960px] mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
             {/* Basic — Free */}
-            <div className="bg-white border border-sc-border rounded-sc-lg p-7 flex flex-col">
-              <div className="mb-6">
+            <div className="bg-white border border-sc-border rounded-sc-lg p-6 flex flex-col">
+              <div className="mb-5">
                 <div className="flex items-center gap-2 mb-3">
                   <Globe className="w-5 h-5 text-sc-text-muted" />
                   <h3 className="font-display text-lg font-bold text-sc-text">Basic</h3>
                 </div>
                 <div className="flex items-baseline gap-1 mb-2">
-                  <span className="font-display text-[36px] font-extrabold text-sc-text">Free</span>
+                  <span className="font-display text-[32px] font-extrabold text-sc-text">Free</span>
                 </div>
-                <p className="text-sm text-sc-text-muted">
+                <p className="text-[13px] text-sc-text-muted leading-relaxed">
                   Your store listed in our directory. A starting point for visibility.
                 </p>
               </div>
 
-              <ul className="space-y-3 mb-8 flex-1">
+              <ul className="space-y-2.5 mb-6 flex-1">
                 {[
                   { included: true, text: 'Name listed in directory' },
-                  { included: true, text: 'Country / shipping info shown' },
-                  { included: false, text: 'No dedicated store page' },
+                  { included: true, text: 'Country & shipping info' },
+                  { included: true, text: 'Basic store page' },
                   { included: false, text: 'No logo in directory' },
                   { included: false, text: 'No dofollow link' },
                   { included: false, text: 'No homepage placement' },
+                  { included: false, text: 'No review content' },
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2.5 text-[13px]">
+                  <li key={i} className="flex items-start gap-2 text-[12.5px]">
                     {item.included ? (
-                      <CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
+                      <CheckCircle2 className="w-3.5 h-3.5 text-green-500 mt-0.5 flex-shrink-0" />
                     ) : (
-                      <XCircle className="w-4 h-4 text-sc-text-muted/40 mt-0.5 flex-shrink-0" />
+                      <XCircle className="w-3.5 h-3.5 text-sc-text-muted/40 mt-0.5 flex-shrink-0" />
                     )}
                     <span className={item.included ? 'text-sc-text' : 'text-sc-text-muted/60'}>{item.text}</span>
                   </li>
                 ))}
               </ul>
 
-              <p className="text-xs text-sc-text-muted text-center">Already included for all {totalStores} stores</p>
+              <p className="text-[11px] text-sc-text-muted text-center">Included for all {totalStores} stores</p>
             </div>
 
-            {/* Verified — $49/mo */}
-            <div className="bg-white border-2 border-sc-primary rounded-sc-lg p-7 flex flex-col relative">
-              <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-                <span className="bg-sc-primary text-white text-[11px] font-bold uppercase tracking-wider px-4 py-1 rounded-sc-full">
-                  Most Popular
-                </span>
-              </div>
-
-              <div className="mb-6">
+            {/* Verified — $199/mo */}
+            <div className="bg-white border border-sc-border rounded-sc-lg p-6 flex flex-col relative">
+              <div className="mb-5">
                 <div className="flex items-center gap-2 mb-3">
                   <BadgeCheck className="w-5 h-5 text-sc-primary" />
                   <h3 className="font-display text-lg font-bold text-sc-text">Verified</h3>
                 </div>
                 <div className="flex items-baseline gap-1 mb-2">
-                  <span className="font-display text-[36px] font-extrabold text-sc-text">$49</span>
-                  <span className="text-sc-text-muted text-sm">/month</span>
+                  <span className="font-display text-[32px] font-extrabold text-sc-text">$199</span>
+                  <span className="text-sc-text-muted text-sm">/mo</span>
                 </div>
-                <p className="text-sm text-sc-text-muted">
-                  Stand out in the directory with your logo, a preview page, and a dofollow link.
+                <p className="text-[13px] text-sc-text-muted leading-relaxed">
+                  Stand out with your logo, a dedicated preview page, and a permanent dofollow backlink.
                 </p>
               </div>
 
-              <ul className="space-y-3 mb-8 flex-1">
+              <ul className="space-y-2.5 mb-6 flex-1">
                 {[
                   { included: true, text: 'Everything in Basic' },
                   { included: true, text: 'Logo shown in directory' },
                   { included: true, text: 'Preview store page with key info' },
-                  { included: true, text: 'Dofollow link to your website' },
-                  { included: true, text: '"Verified" badge on listing' },
+                  { included: true, text: 'Dofollow backlink to your site' },
+                  { included: true, text: '"Verified" trust badge' },
                   { included: false, text: 'No full review page' },
-                  { included: false, text: 'No homepage featured placement' },
+                  { included: false, text: 'No homepage placement' },
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2.5 text-[13px]">
+                  <li key={i} className="flex items-start gap-2 text-[12.5px]">
                     {item.included ? (
-                      <CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
+                      <CheckCircle2 className="w-3.5 h-3.5 text-green-500 mt-0.5 flex-shrink-0" />
                     ) : (
-                      <XCircle className="w-4 h-4 text-sc-text-muted/40 mt-0.5 flex-shrink-0" />
+                      <XCircle className="w-3.5 h-3.5 text-sc-text-muted/40 mt-0.5 flex-shrink-0" />
                     )}
                     <span className={item.included ? 'text-sc-text' : 'text-sc-text-muted/60'}>{item.text}</span>
                   </li>
@@ -205,46 +204,46 @@ export default function AdvertisePage() {
 
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center gap-2 bg-sc-primary text-white font-bold text-[14px] px-6 py-3.5 rounded-sc-full hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,136,255,0.3)] w-full"
+                className="inline-flex items-center justify-center gap-2 bg-sc-primary text-white font-bold text-[14px] px-6 py-3 rounded-sc-full hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,136,255,0.3)] w-full"
               >
                 Get Started <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
 
-            {/* Featured — $99/mo */}
-            <div className="bg-white border border-sc-border rounded-sc-lg p-7 flex flex-col relative">
+            {/* Featured — $499/mo */}
+            <div className="bg-white border-2 border-sc-primary rounded-sc-lg p-6 flex flex-col relative">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-                <span className="bg-sc-orange text-white text-[11px] font-bold uppercase tracking-wider px-4 py-1 rounded-sc-full">
-                  Best Value
+                <span className="bg-sc-primary text-white text-[11px] font-bold uppercase tracking-wider px-4 py-1 rounded-sc-full">
+                  Most Popular
                 </span>
               </div>
 
-              <div className="mb-6">
+              <div className="mb-5">
                 <div className="flex items-center gap-2 mb-3">
                   <Crown className="w-5 h-5 text-sc-orange" />
                   <h3 className="font-display text-lg font-bold text-sc-text">Featured</h3>
                 </div>
                 <div className="flex items-baseline gap-1 mb-2">
-                  <span className="font-display text-[36px] font-extrabold text-sc-text">$99</span>
-                  <span className="text-sc-text-muted text-sm">/month</span>
+                  <span className="font-display text-[32px] font-extrabold text-sc-text">$499</span>
+                  <span className="text-sc-text-muted text-sm">/mo</span>
                 </div>
-                <p className="text-sm text-sc-text-muted">
-                  Maximum exposure with a full review page, homepage placement, and priority positioning.
+                <p className="text-[13px] text-sc-text-muted leading-relaxed">
+                  Full review page, homepage placement, product showcase, and priority positioning everywhere.
                 </p>
               </div>
 
-              <ul className="space-y-3 mb-8 flex-1">
+              <ul className="space-y-2.5 mb-6 flex-1">
                 {[
                   { included: true, text: 'Everything in Verified' },
                   { included: true, text: 'Full detailed review page' },
-                  { included: true, text: 'Homepage "Featured Partner" slot' },
-                  { included: true, text: 'Logo in premium partner strip' },
-                  { included: true, text: 'Priority directory placement' },
-                  { included: true, text: 'Product showcase section' },
+                  { included: true, text: 'Homepage "Featured" placement' },
+                  { included: true, text: 'Product showcase with images' },
+                  { included: true, text: 'Priority directory ranking' },
                   { included: true, text: '"Editor\'s Pick" badge' },
+                  { included: true, text: 'Affiliate tracking integration' },
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2.5 text-[13px]">
-                    <CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
+                  <li key={i} className="flex items-start gap-2 text-[12.5px]">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-green-500 mt-0.5 flex-shrink-0" />
                     <span className="text-sc-text">{item.text}</span>
                   </li>
                 ))}
@@ -252,9 +251,55 @@ export default function AdvertisePage() {
 
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center gap-2 bg-sc-text text-white font-bold text-[14px] px-6 py-3.5 rounded-sc-full hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,0,0,0.15)] w-full"
+                className="inline-flex items-center justify-center gap-2 bg-sc-primary text-white font-bold text-[14px] px-6 py-3 rounded-sc-full hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(0,136,255,0.3)] w-full"
               >
                 Get Started <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+
+            {/* Premium Partner — Custom */}
+            <div className="bg-gradient-to-br from-[#1A1A2E] to-[#2D2D55] rounded-sc-lg p-6 flex flex-col relative text-white">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2">
+                <span className="bg-gradient-to-r from-sc-yellow to-sc-orange text-sc-text text-[11px] font-bold uppercase tracking-wider px-4 py-1 rounded-sc-full">
+                  Premium
+                </span>
+              </div>
+
+              <div className="mb-5">
+                <div className="flex items-center gap-2 mb-3">
+                  <Gem className="w-5 h-5 text-sc-yellow" />
+                  <h3 className="font-display text-lg font-bold text-white">Premium Partner</h3>
+                </div>
+                <div className="flex items-baseline gap-1 mb-2">
+                  <span className="font-display text-[32px] font-extrabold text-white">Custom</span>
+                </div>
+                <p className="text-[13px] text-white/70 leading-relaxed">
+                  Full content marketing partnership. We become your dedicated growth channel.
+                </p>
+              </div>
+
+              <ul className="space-y-2.5 mb-6 flex-1">
+                {[
+                  { icon: <CheckCircle2 className="w-3.5 h-3.5 text-sc-yellow mt-0.5 flex-shrink-0" />, text: 'Everything in Featured' },
+                  { icon: <FileText className="w-3.5 h-3.5 text-sc-yellow mt-0.5 flex-shrink-0" />, text: 'Dedicated SEO articles/month' },
+                  { icon: <Mail className="w-3.5 h-3.5 text-sc-yellow mt-0.5 flex-shrink-0" />, text: 'Featured in email newsletter' },
+                  { icon: <Megaphone className="w-3.5 h-3.5 text-sc-yellow mt-0.5 flex-shrink-0" />, text: 'Seasonal campaign promotions' },
+                  { icon: <Star className="w-3.5 h-3.5 text-sc-yellow mt-0.5 flex-shrink-0" />, text: 'Category sponsorship placement' },
+                  { icon: <TrendingUp className="w-3.5 h-3.5 text-sc-yellow mt-0.5 flex-shrink-0" />, text: 'Monthly performance reports' },
+                  { icon: <Users className="w-3.5 h-3.5 text-sc-yellow mt-0.5 flex-shrink-0" />, text: 'Dedicated account manager' },
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-2 text-[12.5px]">
+                    {item.icon}
+                    <span className="text-white/90">{item.text}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-sc-yellow to-sc-orange text-sc-text font-bold text-[14px] px-6 py-3 rounded-sc-full hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_rgba(255,199,0,0.3)] w-full"
+              >
+                Let&apos;s Talk <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
           </div>
