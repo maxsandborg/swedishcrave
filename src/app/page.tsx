@@ -314,85 +314,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========== 3. PREMIUM PARTNERS — Logo trust strip ========== */}
-      <section className="py-10 md:py-12 bg-white border-y border-sc-border">
-        <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8">
-            <p className="text-sm font-semibold text-sc-text-muted uppercase tracking-wider">
-              Trusted by {partnerStores.length}+ Swedish candy stores &amp; brands
-            </p>
-          </div>
-          <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10">
-            {partnerStores.slice(0, 10).map((store) => (
-              <Link
-                key={store.slug}
-                href={`/stores/${store.slug}`}
-                className="group flex items-center justify-center h-[48px] w-[120px] md:w-[140px] grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all"
-              >
-                {store.logo ? (
-                  <Image
-                    src={store.logo}
-                    alt={store.name}
-                    width={120}
-                    height={40}
-                    className="object-contain max-h-[40px] w-auto"
-                  />
-                ) : (
-                  <span className="text-sm font-bold text-sc-text-muted">{store.name}</span>
-                )}
-              </Link>
-            ))}
-          </div>
-          <div className="text-center mt-6">
-            <Link
-              href="/contact"
-              className="text-sc-primary text-sm font-semibold hover:underline inline-flex items-center gap-1"
-            >
-              Want to be listed? Get in touch <ArrowRight className="w-3.5 h-3.5" />
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ========== 4. CATEGORIES ========== */}
-      <section className="py-16 md:py-20">
-        <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <span className="inline-flex items-center gap-1.5 bg-sc-yellow-soft text-sc-text font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-yellow mb-3">
-              <Palette className="w-3.5 h-3.5 text-sc-orange" /> Browse by Type
-            </span>
-            <h2 className="font-display text-3xl md:text-4xl font-bold text-sc-text mb-2">
-              Find Your Favorite
-            </h2>
-            <p className="text-sc-text-muted max-w-[520px] mx-auto">
-              Whether you like it sweet, sour, or salty &mdash; we&apos;ve got you covered
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4">
-            {categories.map((category) => {
-              const colors = categoryColors[category.slug] || categoryColors.classic;
-              return (
-                <Link
-                  key={category.slug}
-                  href={`/categories/${category.slug}`}
-                  className={`group bg-gradient-to-br ${colors.gradient} ${colors.text} ${colors.shadow} rounded-sc-md p-5 md:p-6 flex flex-col items-center justify-center text-center min-h-[140px] md:min-h-[150px] hover:-translate-y-1.5 hover:scale-[1.02] transition-all`}
-                >
-                  <span className="mb-2 group-hover:scale-[1.2] group-hover:-rotate-[10deg] transition-transform drop-shadow-sm">
-                    <CategoryIcon slug={category.slug} className="w-10 h-10 md:w-11 md:h-11" />
-                  </span>
-                  <h3 className="text-sm md:text-[15px] font-bold">{category.name}</h3>
-                  <span className="text-[11px] font-semibold opacity-70 mt-0.5">
-                    {category.candySlugs.length} reviews
-                  </span>
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ========== 5. STORE DIRECTORY — Tiered: Featured → Verified → Listed ========== */}
+      {/* ========== 3. STORE DIRECTORY — Where to Buy (moved up for conversion) ========== */}
       <section className="py-16 md:py-20 bg-gradient-to-b from-sc-teal-soft to-sc-bg">
         <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
@@ -550,6 +472,84 @@ export default function Home() {
             >
               View full store comparison <ArrowRight className="w-4 h-4" />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ========== 4. PREMIUM PARTNERS — Logo trust strip ========== */}
+      <section className="py-10 md:py-12 bg-white border-y border-sc-border">
+        <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <p className="text-sm font-semibold text-sc-text-muted uppercase tracking-wider">
+              Trusted by {partnerStores.length}+ Swedish candy stores &amp; brands
+            </p>
+          </div>
+          <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10">
+            {partnerStores.slice(0, 10).map((store) => (
+              <Link
+                key={store.slug}
+                href={`/stores/${store.slug}`}
+                className="group flex items-center justify-center h-[48px] w-[120px] md:w-[140px] grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all"
+              >
+                {store.logo ? (
+                  <Image
+                    src={store.logo}
+                    alt={store.name}
+                    width={120}
+                    height={40}
+                    className="object-contain max-h-[40px] w-auto"
+                  />
+                ) : (
+                  <span className="text-sm font-bold text-sc-text-muted">{store.name}</span>
+                )}
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-6">
+            <Link
+              href="/contact"
+              className="text-sc-primary text-sm font-semibold hover:underline inline-flex items-center gap-1"
+            >
+              Want to be listed? Get in touch <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ========== 5. CATEGORIES ========== */}
+      <section className="py-16 md:py-20">
+        <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <span className="inline-flex items-center gap-1.5 bg-sc-yellow-soft text-sc-text font-semibold text-[13px] px-4 py-1.5 rounded-sc-full border border-sc-yellow mb-3">
+              <Palette className="w-3.5 h-3.5 text-sc-orange" /> Browse by Type
+            </span>
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-sc-text mb-2">
+              Find Your Favorite
+            </h2>
+            <p className="text-sc-text-muted max-w-[520px] mx-auto">
+              Whether you like it sweet, sour, or salty &mdash; we&apos;ve got you covered
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4">
+            {categories.map((category) => {
+              const colors = categoryColors[category.slug] || categoryColors.classic;
+              return (
+                <Link
+                  key={category.slug}
+                  href={`/categories/${category.slug}`}
+                  className={`group bg-gradient-to-br ${colors.gradient} ${colors.text} ${colors.shadow} rounded-sc-md p-5 md:p-6 flex flex-col items-center justify-center text-center min-h-[140px] md:min-h-[150px] hover:-translate-y-1.5 hover:scale-[1.02] transition-all`}
+                >
+                  <span className="mb-2 group-hover:scale-[1.2] group-hover:-rotate-[10deg] transition-transform drop-shadow-sm">
+                    <CategoryIcon slug={category.slug} className="w-10 h-10 md:w-11 md:h-11" />
+                  </span>
+                  <h3 className="text-sm md:text-[15px] font-bold">{category.name}</h3>
+                  <span className="text-[11px] font-semibold opacity-70 mt-0.5">
+                    {category.candySlugs.length} reviews
+                  </span>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
