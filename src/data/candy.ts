@@ -124,7 +124,7 @@ export const candyItems: CandyItem[] = [
     category: ['chocolate', 'classic'],
     rating: { sweetness: 4, saltiness: 0.5, texture: 3.5, uniqueness: 3.5, overall: 3.8 },
     flavorProfile: ['chocolate', 'foam', 'light'],
-    description: 'Chocolate-covered foam bites with a unique airy texture — a Swedish candy aisle staple since 1954.',
+    description: 'Chocolate-covered foam bites with a unique airy texture — a Swedish candy aisle staple since 1965.',
     longDescription: "Polly is one of those candies that looks unassuming but wins you over fast. Small rounded pieces of light, airy foam covered in a thin layer of milk chocolate. The foam has a subtle vanilla flavor and melts almost instantly, giving way to the chocolate coating. It's a textural experience unlike anything in American candy aisles. Polly comes in both milk chocolate (blue bag) and dark chocolate (red bag) varieties, with the original milk chocolate being the most popular.",
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
@@ -309,7 +309,7 @@ export const candyItems: CandyItem[] = [
     rating: { sweetness: 4, saltiness: 0.5, texture: 4, uniqueness: 3.5, overall: 3.8 },
     flavorProfile: ['chocolate', 'toffee', 'hazelnut'],
     description: 'Chewy toffee rolls covered in milk chocolate with a hazelnut crunch — a Swedish candy counter classic.',
-    longDescription: "Center is one of those Swedish candies that doesn't get the international attention it deserves. Cylindrical rolls of chewy toffee studded with hazelnut pieces, all coated in Cloetta milk chocolate. The combination of textures — crunchy hazelnuts, chewy toffee, smooth chocolate — makes it incredibly satisfying. Center has been produced since 1949 and remains one of the best-selling chocolate bars in Sweden's loose candy section (lösvikt).",
+    longDescription: "Center is one of those Swedish candies that doesn't get the international attention it deserves. Cylindrical rolls of chewy toffee studded with hazelnut pieces, all coated in Cloetta milk chocolate. The combination of textures — crunchy hazelnuts, chewy toffee, smooth chocolate — makes it incredibly satisfying. Center has been produced since 1941 and remains one of the best-selling chocolate bars in Sweden's loose candy section (lösvikt).",
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$3.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$4.49' },

@@ -116,7 +116,7 @@ export const brands: Brand[] = [
     name: 'Läkerol',
     country: 'Sweden',
     description: 'Sweden\'s iconic sugar-free pastilles — over a century of throat-soothing, pocket-sized Swedish tradition.',
-    longDescription: "Läkerol has been a staple of Swedish life since 1909, when pharmacist Adolf Dunér created the original pastille in Gävle. The name literally translates to 'cure-all,' and for generations of Swedes, a box of Läkerol in the pocket has been as standard as carrying house keys. Now owned by Cloetta and designated as one of their 10 'super brands,' Läkerol is available in a wide range of sugar-free flavors including Original, Salmiak, Cassis, Eucalyptus, and seasonal limited editions. Unlike most Swedish candy, Läkerol's sugar-free positioning gives it unique health appeal. Available in the US through Amazon, select Walmart locations, and specialty Nordic retailers.",
+    longDescription: "Läkerol has been a staple of Swedish life since 1909, when wholesaler Adolf Ahlgren introduced the original pastille in Gävle. The name literally translates to 'cure-all,' and for generations of Swedes, a box of Läkerol in the pocket has been as standard as carrying house keys. Now owned by Cloetta and designated as one of their 10 'super brands,' Läkerol is available in a wide range of sugar-free flavors including Original, Salmiak, Cassis, Eucalyptus, and seasonal limited editions. Unlike most Swedish candy, Läkerol's sugar-free positioning gives it unique health appeal. Available in the US through Amazon, select Walmart locations, and specialty Nordic retailers.",
     founded: '1909',
     logo: '/images/brands/lakerol.png',
     website: 'https://lakerol.se',
