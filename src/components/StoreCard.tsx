@@ -1,13 +1,19 @@
+'use client';
+
 import Link from 'next/link';
 import { Store } from '@/types';
 import RatingStars from './RatingStars';
 import { Globe, Truck, Award } from 'lucide-react';
+import { trackAffiliateClick } from '@/lib/analytics';
 
 interface StoreCardProps {
   store: Store;
 }
 
 export default function StoreCard({ store }: StoreCardProps) {
+  const isAffiliate = store.affiliateUrl && store.affiliateUrl !== '#';
+  const ctaUrl = isAffiliate ? store.affiliateUrl : store.url;
+
   return (
     <div className="h-full bg-sc-card rounded-sc-lg border border-sc-border overflow-hidden hover:shadow-sc-hover hover:-translate-y-0.5 transition-all duration-300">
       {/* Header with Name and Rating */}
@@ -76,9 +82,14 @@ export default function StoreCard({ store }: StoreCardProps) {
 
         {/* CTA Button */}
         <Link
-          href={store.affiliateUrl}
+          href={ctaUrl}
           target="_blank"
-          rel="noopener noreferrer"
+          rel={`noopener noreferrer${isAffiliate ? ' sponsored' : ''}`}
+          onClick={() => {
+            if (isAffiliate) {
+              trackAffiliateClick(store.name, ctaUrl, 'store_card');
+            }
+          }}
           className="inline-flex items-center justify-center gap-2 w-full bg-sc-pink hover:bg-sc-pink-hover text-white font-semibold py-3 rounded-sc-full transition-all duration-200"
         >
           <Globe className="w-4 h-4" />
