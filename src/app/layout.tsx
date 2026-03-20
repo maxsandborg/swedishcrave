@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 import { DM_Sans, Space_Grotesk } from 'next/font/google';
+import Script from 'next/script';
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -60,10 +63,30 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Ahrefs Web Analytics */}
+        <Script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="897K4BgFdSLJZd3NM9MV1w"
+          strategy="afterInteractive"
+        />
+        {/* Plausible Analytics */}
+        <script
+          async
+          src="https://plausible.io/js/pa-MjotRBSZhxz1rCPJgqlcx.js"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()`,
+          }}
+        />
+      </head>
       <body className={`${dmSans.className} ${dmSans.variable} ${spaceGrotesk.variable} bg-sc-bg text-sc-text`}>
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
