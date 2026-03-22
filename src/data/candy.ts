@@ -14,7 +14,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$5.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Ahlgrens+Bilar+Swedish+Cars+Candy&tag=swedishcrave-20', price: '$7.49' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$7.49' },
     ],
     image: '/images/candy/ahlgrens-bilar.jpg',
     featured: true,
@@ -37,7 +37,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$5.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=BUBS+Sour+Skulls+Swedish+Candy&tag=swedishcrave-20', price: '$7.49' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$7.49' },
     ],
     image: '/images/candy/bubs-sour-skulls.jpg',
     featured: true,
@@ -60,7 +60,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$5.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$6.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Marabou+Milk+Chocolate+Swedish&tag=swedishcrave-20', price: '$8.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$8.99' },
     ],
     image: '/images/candy/marabou-mjolkchoklad.jpg',
     featured: true,
@@ -83,7 +83,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$3.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$4.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Djungelvraal+Swedish+Salmiak&tag=swedishcrave-20', price: '$6.49' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$6.49' },
     ],
     image: '/images/candy/djungelvraal.jpg',
     featured: false,
@@ -106,7 +106,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$2.49' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$3.49' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Daim+Chocolate+Bar+Swedish&tag=swedishcrave-20', price: '$4.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
     ],
     image: '/images/candy/daim.jpg',
     featured: true,
@@ -129,7 +129,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$5.49' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Polly+Swedish+Chocolate&tag=swedishcrave-20', price: '$7.49' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$7.49' },
     ],
     image: '/images/candy/polly.jpg',
     featured: false,
@@ -152,7 +152,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$5.49' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=BUBS+Watermelon+Swedish+Candy&tag=swedishcrave-20', price: '$7.49' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$7.49' },
     ],
     image: '/images/candy/bubs-watermelon.jpg',
     featured: false,
@@ -175,7 +175,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$2.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$3.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Lakerol+Swedish+Pastilles&tag=swedishcrave-20', price: '$5.49' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$5.49' },
     ],
     image: '/images/candy/lakerol.jpg',
     featured: false,
@@ -198,7 +198,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$5.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$7.49' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Skippers+Pipes+Licorice&tag=swedishcrave-20', price: '$9.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$9.99' },
     ],
     image: '/images/candy/skippers-pipes.jpg',
     featured: false,
@@ -221,7 +221,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$2.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$3.49' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Plopp+Swedish+Chocolate+Toffee&tag=swedishcrave-20', price: '$5.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$5.99' },
     ],
     image: '/images/candy/plopp.jpg',
     featured: false,
@@ -244,7 +244,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$5.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=BUBS+Cool+Cola+Swedish+Candy&tag=swedishcrave-20', price: '$7.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$7.99' },
     ],
     image: '/images/candy/bubs-cool-cola.jpg',
     featured: false,
@@ -267,7 +267,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$1.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$2.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Kexchoklad+Swedish+Chocolate+Wafer&tag=swedishcrave-20', price: '$4.49' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.49' },
     ],
     image: '/images/candy/kexchoklad.jpg',
     featured: false,
@@ -290,7 +290,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$6.49' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Malaco+Gott+och+Blandat+Swedish&tag=swedishcrave-20', price: '$7.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$7.99' },
     ],
     image: '/images/candy/gott-och-blandat.jpg',
     featured: true,
@@ -313,7 +313,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$3.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$4.49' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Center+Swedish+Chocolate+Toffee&tag=swedishcrave-20', price: '$6.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$6.99' },
     ],
     image: '/images/candy/center.jpg',
     featured: false,
@@ -336,7 +336,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$5.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$6.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Fazer+Blue+Milk+Chocolate&tag=swedishcrave-20', price: '$9.49' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$9.49' },
     ],
     image: '/images/candy/fazer-blue.jpg',
     featured: true,
@@ -359,7 +359,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$5.49' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=BUBS+Raspberry+Licorice+Swedish&tag=swedishcrave-20', price: '$7.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$7.99' },
     ],
     image: '/images/candy/bubs-raspberry-licorice.jpg',
     featured: false,
@@ -382,7 +382,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$3.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$4.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Fazer+Tutti+Frutti+Candy&tag=swedishcrave-20', price: '$6.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$6.99' },
     ],
     image: '/images/candy/tutti-frutti.jpg',
     featured: false,
@@ -405,7 +405,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$3.49' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$4.49' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Salted+Licorice+Swedish&tag=swedishcrave-20', price: '$5.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$5.99' },
     ],
     image: '/images/candy/saltlakrits.jpg',
     featured: false,
@@ -428,7 +428,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$3.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$4.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Marianne+Finnish+Chocolate+Mint&tag=swedishcrave-20', price: '$6.49' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$6.49' },
     ],
     image: '/images/candy/marianne.jpg',
     featured: false,
@@ -451,7 +451,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$2.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$3.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Swedish+Fish+Candy&tag=swedishcrave-20', price: '$5.49' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$5.49' },
     ],
     image: '/images/candy/swedish-fish.jpg',
     featured: false,
@@ -475,7 +475,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$5.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=BUBS+Dizzy+Skull+Bubblegum&tag=swedishcrave-20', price: '$7.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$7.99' },
     ],
     image: '/images/candy/bubs-dizzy-skull.jpg',
     featured: false,
@@ -498,7 +498,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$5.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=BUBS+Tutti+Frutti+Rhombs&tag=swedishcrave-20', price: '$7.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$7.99' },
     ],
     image: '/images/candy/bubs-tutti-frutti-rhombs.jpg',
     featured: false,
@@ -521,7 +521,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$5.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=BUBS+Banana+Ovals&tag=swedishcrave-20', price: '$7.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$7.99' },
     ],
     image: '/images/candy/bubs-banana-ovals.jpg',
     featured: false,
@@ -544,7 +544,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$5.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=BUBS+Strawberry+Vanilla&tag=swedishcrave-20', price: '$7.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$7.99' },
     ],
     image: '/images/candy/bubs-strawberry-vanilla.jpg',
     featured: false,
@@ -567,7 +567,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$5.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=BUBS+Cool+Raspberry+Skull&tag=swedishcrave-20', price: '$7.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$7.99' },
     ],
     image: '/images/candy/bubs-cool-raspberry-skull.jpg',
     featured: false,
@@ -590,7 +590,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$3.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$4.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=S+Marke+Surt+Skum&tag=swedishcrave-20', price: '$6.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$6.99' },
     ],
     image: '/images/candy/s-marke-surt-skum.jpg',
     featured: false,
@@ -613,7 +613,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$3.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$4.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=S+Marke+Supersurt&tag=swedishcrave-20', price: '$6.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$6.99' },
     ],
     image: '/images/candy/s-marke-supersurt.jpg',
     featured: false,
@@ -636,7 +636,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$5.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Kryptoniter+Swedish+Candy&tag=swedishcrave-20', price: '$7.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$7.99' },
     ],
     image: '/images/candy/kryptoniter.jpg',
     featured: true,
@@ -659,7 +659,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$5.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Dumle+Finnish+Toffee&tag=swedishcrave-20', price: '$7.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$7.99' },
     ],
     image: '/images/candy/dumle.jpg',
     featured: false,
@@ -682,7 +682,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$6.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$7.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Marabou+Schweizernot+Hazelnut&tag=swedishcrave-20', price: '$9.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$9.99' },
     ],
     image: '/images/candy/marabou-schweizernot.jpg',
     featured: false,
@@ -705,7 +705,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$5.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Ahlgrens+Bilar+Sour&tag=swedishcrave-20', price: '$7.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$7.99' },
     ],
     image: '/images/candy/ahlgrens-bilar-sursockrade.jpg',
     featured: false,
@@ -728,7 +728,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$3.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$4.99' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Malaco+Vattenmelon+Watermelon&tag=swedishcrave-20', price: '$6.99' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$6.99' },
     ],
     image: '/images/candy/malaco-vattenmelon.jpg',
     featured: false,
@@ -751,7 +751,7 @@ export const candyItems: CandyItem[] = [
     affiliateLinks: [
       { store: 'Mums Swedish Candy', storeSlug: 'mums-swedish-candy', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$4.99' },
       { store: 'Swedish Sweets', storeSlug: 'swedish-sweets', url: 'https://buyswedishcandy.com?sca_ref=10832654.KHY7E6jEL5VOCzs', price: '$5.49' },
-      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.amazon.com/s?k=Polly+Rod+Raspberry+Chocolate&tag=swedishcrave-20', price: '$7.49' },
+      { store: 'Amazon', storeSlug: 'amazon', url: 'https://www.mumscandy.com?sca_ref=10832159.NBy35zqtdZ', price: '$7.49' },
     ],
     image: '/images/candy/polly-rod.jpg',
     featured: false,
